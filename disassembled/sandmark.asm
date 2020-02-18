@@ -1,3583 +1,3583 @@
-0x0000: CMOVE $3 $2 $0
-0x0001: ADD   $3 $0 $0
-0x0002: IMM   $1 20
-0x0003: IMM   $2 91
-0x0004: IMM   $3 53
-0x0005: IMM   $0 13
-0x0006: JUMP  $6 $0
-0x0007: CMOVE $0 $0 $0
-0x0008: DIV   $3 $2 $0
-0x0009: ADD   $3 $0 $0
-0x000a: JUMP  $6 $1
-0x000b: JUMP  $6 $1
-0x000c: JUMP  $6 $1
-0x000d: JUMP  $6 $2
-0x000e: JUMP  $6 $3
-0x000f: JUMP  $6 $3
-0x0010: JUMP  $6 $3
-0x0011: CMOVE $0 $0 $0
-0x0012: CMOVE $0 $0 $0
-0x0013: CMOVE $0 $0 $0
-0x0014: IMM   $7 80
-0x0015: IMM   $0 79
-0x0016: IMM   $2 76
-0x0017: IMM   $3 65
-0x0018: IMM   $1 71
-0x0019: IMM   $5 68
-0x001a: IMM   $4 82
-0x001b: OUT   $2
-0x001c: OUT   $0
-0x001d: OUT   $3
-0x001e: OUT   $5
-0x001f: OUT   $7
-0x0020: OUT   $4
-0x0021: OUT   $0
-0x0022: OUT   $1
-0x0023: IMM   $1 32
-0x0024: OUT   $1
-0x0025: IMM   $4 111
-0x0026: OUT   $4
-0x0027: IMM   $7 102
-0x0028: OUT   $7
-0x0029: OUT   $7
-0x002a: OUT   $1
-0x002b: IMM   $7 40
-0x002c: OUT   $7
-0x002d: IMM   $7 108
-0x002e: OUT   $7
-0x002f: OUT   $4
-0x0030: IMM   $7 119
-0x0031: OUT   $7
-0x0032: IMM   $7 41
-0x0033: OUT   $7
-0x0034: HALT
-0x0035: CMOVE $0 $0 $0
-0x0036: CMOVE $0 $0 $0
-0x0037: CMOVE $0 $0 $0
-0x0038: IMM   $0 76
-0x0039: IMM   $7 65
-0x003a: IMM   $2 68
-0x003b: IMM   $3 82
-0x003c: IMM   $1 71
-0x003d: IMM   $4 80
-0x003e: IMM   $5 79
-0x003f: OUT   $0
-0x0040: OUT   $5
-0x0041: OUT   $7
-0x0042: OUT   $2
-0x0043: OUT   $4
-0x0044: OUT   $3
-0x0045: OUT   $5
-0x0046: OUT   $1
-0x0047: IMM   $1 32
-0x0048: OUT   $1
-0x0049: IMM   $3 111
-0x004a: OUT   $3
-0x004b: IMM   $3 102
-0x004c: OUT   $3
-0x004d: OUT   $3
-0x004e: OUT   $1
-0x004f: IMM   $3 40
-0x0050: OUT   $3
-0x0051: IMM   $3 104
-0x0052: OUT   $3
-0x0053: IMM   $1 105
-0x0054: OUT   $1
-0x0055: IMM   $1 103
-0x0056: OUT   $1
-0x0057: OUT   $3
-0x0058: IMM   $1 41
-0x0059: OUT   $1
-0x005a: HALT
-0x005b: IMM   $0 115
-0x005c: JUMP  $6 $0
-0x005d: CMOVE $0 $0 $0
-0x005e: CMOVE $0 $0 $0
-0x005f: CMOVE $0 $0 $0
-0x0060: CMOVE $0 $0 $0
-0x0061: CMOVE $0 $0 $0
-0x0062: CMOVE $0 $0 $0
-0x0063: CMOVE $0 $0 $0
-0x0064: CMOVE $3 $3 $2
-0x0065: NAND  $3 $2 $2
-0x0066: NAND  $3 $2 $4
-0x0067: NAND  $3 $3 $6
-0x0068: NAND  $3 $2 $6
-0x0069: NAND  $3 $3 $0
-0x006a: CMOVE $2 $4 $0
-0x006b: CMOVE $2 $4 $0
-0x006c: CMOVE $2 $4 $0
-0x006d: CMOVE $2 $4 $0
-0x006e: CMOVE $2 $4 $0
-0x006f: CMOVE $2 $4 $0
-0x0070: CMOVE $2 $4 $0
-0x0071: CMOVE $1 $6 $0
-0x0072: HALT
-0x0073: IMM   $0 2238
-0x0074: IMM   $1 119
-0x0075: CMOVE $1 $0 $6
-0x0076: JUMP  $6 $1
-0x0077: IMM   $4 141
-0x0078: IMM   $5 123
-0x0079: CMOVE $4 $5 $6
-0x007a: JUMP  $6 $4
-0x007b: IMM   $2 78
-0x007c: IMM   $0 111
-0x007d: IMM   $3 65
-0x007e: IMM   $5 101
-0x007f: IMM   $1 68
-0x0080: IMM   $7 114
-0x0081: IMM   $4 32
-0x0082: OUT   $2
-0x0083: OUT   $3
-0x0084: OUT   $2
-0x0085: OUT   $1
-0x0086: OUT   $4
-0x0087: OUT   $5
-0x0088: OUT   $7
-0x0089: OUT   $7
-0x008a: OUT   $0
-0x008b: OUT   $7
-0x008c: HALT
-0x008d: IMM   $0 0
-0x008e: IMM   $1 0
-0x008f: NAND  $2 $0 $1
-0x0090: IMM   $4 123
-0x0091: IMM   $5 148
-0x0092: CMOVE $4 $5 $2
-0x0093: JUMP  $6 $4
-0x0094: IMM   $0 0
-0x0095: IMM   $1 1
-0x0096: NAND  $2 $0 $1
-0x0097: NAND  $3 $1 $0
-0x0098: NAND  $0 $2 $3
-0x0099: IMM   $4 123
-0x009a: IMM   $5 157
-0x009b: CMOVE $5 $4 $0
-0x009c: JUMP  $6 $5
-0x009d: IMM   $0 42
-0x009e: NAND  $5 $0 $0
-0x009f: NAND  $1 $0 $0
-0x00a0: NAND  $1 $5 $1
-0x00a1: NAND  $5 $0 $0
-0x00a2: NAND  $1 $5 $1
-0x00a3: NAND  $1 $1 $1
-0x00a4: IMM   $4 123
-0x00a5: IMM   $5 168
-0x00a6: CMOVE $5 $4 $1
-0x00a7: JUMP  $6 $5
-0x00a8: IMM   $4 188
-0x00a9: IMM   $5 172
-0x00aa: CMOVE $4 $5 $6
-0x00ab: JUMP  $6 $4
-0x00ac: IMM   $0 114
-0x00ad: IMM   $7 111
-0x00ae: IMM   $3 32
-0x00af: IMM   $1 101
-0x00b0: IMM   $2 68
-0x00b1: IMM   $5 65
-0x00b2: OUT   $5
-0x00b3: OUT   $2
-0x00b4: OUT   $2
-0x00b5: OUT   $3
-0x00b6: OUT   $1
-0x00b7: OUT   $0
-0x00b8: OUT   $0
-0x00b9: OUT   $7
-0x00ba: OUT   $0
-0x00bb: HALT
-0x00bc: IMM   $0 0
-0x00bd: IMM   $1 234
-0x00be: ADD   $2 $0 $1
-0x00bf: IMM   $4 234
-0x00c0: NAND  $5 $2 $2
-0x00c1: NAND  $3 $4 $4
-0x00c2: NAND  $3 $5 $3
-0x00c3: NAND  $5 $2 $4
-0x00c4: NAND  $3 $5 $3
-0x00c5: NAND  $3 $3 $3
-0x00c6: IMM   $4 172
-0x00c7: IMM   $5 202
-0x00c8: CMOVE $5 $4 $3
-0x00c9: JUMP  $6 $5
-0x00ca: IMM   $0 72
-0x00cb: IMM   $1 831
-0x00cc: ADD   $2 $0 $1
-0x00cd: IMM   $4 903
-0x00ce: NAND  $5 $2 $2
-0x00cf: NAND  $3 $4 $4
-0x00d0: NAND  $3 $5 $3
-0x00d1: NAND  $5 $2 $4
-0x00d2: NAND  $3 $5 $3
-0x00d3: NAND  $3 $3 $3
-0x00d4: IMM   $4 172
-0x00d5: IMM   $5 216
-0x00d6: CMOVE $5 $4 $3
-0x00d7: JUMP  $6 $5
-0x00d8: IMM   $0 72
-0x00d9: IMM   $1 831
-0x00da: ADD   $0 $0 $1
-0x00db: IMM   $4 903
-0x00dc: NAND  $5 $0 $0
-0x00dd: NAND  $3 $4 $4
-0x00de: NAND  $3 $5 $3
-0x00df: NAND  $5 $0 $4
-0x00e0: NAND  $3 $5 $3
-0x00e1: NAND  $3 $3 $3
-0x00e2: IMM   $4 172
-0x00e3: IMM   $5 230
-0x00e4: CMOVE $5 $4 $3
-0x00e5: JUMP  $6 $5
-0x00e6: IMM   $4 251
-0x00e7: IMM   $5 234
-0x00e8: CMOVE $4 $5 $6
-0x00e9: JUMP  $6 $4
-0x00ea: IMM   $5 111
-0x00eb: IMM   $7 76
-0x00ec: IMM   $1 114
-0x00ed: IMM   $3 85
-0x00ee: IMM   $2 101
-0x00ef: IMM   $0 32
-0x00f0: IMM   $4 77
-0x00f1: OUT   $4
-0x00f2: OUT   $3
-0x00f3: OUT   $7
-0x00f4: OUT   $0
-0x00f5: OUT   $2
-0x00f6: OUT   $1
-0x00f7: OUT   $1
-0x00f8: OUT   $5
-0x00f9: OUT   $1
-0x00fa: HALT
-0x00fb: IMM   $0 123
-0x00fc: IMM   $1 0
-0x00fd: MUL   $2 $0 $1
-0x00fe: IMM   $4 0
-0x00ff: NAND  $5 $2 $2
-0x0100: NAND  $3 $4 $4
-0x0101: NAND  $3 $5 $3
-0x0102: NAND  $5 $2 $4
-0x0103: NAND  $3 $5 $3
-0x0104: NAND  $3 $3 $3
-0x0105: IMM   $4 234
-0x0106: IMM   $5 265
-0x0107: CMOVE $5 $4 $3
-0x0108: JUMP  $6 $5
-0x0109: IMM   $0 2
-0x010a: IMM   $1 7
-0x010b: MUL   $2 $0 $1
-0x010c: IMM   $4 14
-0x010d: NAND  $5 $2 $2
-0x010e: NAND  $3 $4 $4
-0x010f: NAND  $3 $5 $3
-0x0110: NAND  $5 $2 $4
-0x0111: NAND  $3 $5 $3
-0x0112: NAND  $3 $3 $3
-0x0113: IMM   $4 234
-0x0114: IMM   $5 279
-0x0115: CMOVE $5 $4 $3
-0x0116: JUMP  $6 $5
-0x0117: IMM   $0 2
-0x0118: IMM   $1 7
-0x0119: MUL   $1 $0 $1
-0x011a: IMM   $4 14
-0x011b: NAND  $5 $1 $1
-0x011c: NAND  $3 $4 $4
-0x011d: NAND  $3 $5 $3
-0x011e: NAND  $5 $1 $4
-0x011f: NAND  $3 $5 $3
-0x0120: NAND  $3 $3 $3
-0x0121: IMM   $4 234
-0x0122: IMM   $5 293
-0x0123: CMOVE $5 $4 $3
-0x0124: JUMP  $6 $5
-0x0125: IMM   $0 983040
-0x0126: IMM   $1 65536
-0x0127: MUL   $2 $0 $1
-0x0128: IMM   $4 0
-0x0129: NAND  $5 $2 $2
-0x012a: NAND  $3 $4 $4
-0x012b: NAND  $3 $5 $3
-0x012c: NAND  $5 $2 $4
-0x012d: NAND  $3 $5 $3
-0x012e: NAND  $3 $3 $3
-0x012f: IMM   $4 234
-0x0130: IMM   $5 307
-0x0131: CMOVE $5 $4 $3
-0x0132: JUMP  $6 $5
-0x0133: IMM   $4 345
-0x0134: IMM   $5 311
-0x0135: CMOVE $4 $5 $6
-0x0136: JUMP  $6 $4
-0x0137: IMM   $4 116
-0x0138: IMM   $1 97
-0x0139: IMM   $5 79
-0x013a: IMM   $3 114
-0x013b: IMM   $0 103
-0x013c: IMM   $2 104
-0x013d: IMM   $7 111
-0x013e: OUT   $5
-0x013f: OUT   $3
-0x0140: OUT   $4
-0x0141: OUT   $2
-0x0142: OUT   $7
-0x0143: OUT   $0
-0x0144: OUT   $3
-0x0145: OUT   $1
-0x0146: IMM   $0 112
-0x0147: OUT   $0
-0x0148: OUT   $2
-0x0149: IMM   $0 121
-0x014a: OUT   $0
-0x014b: IMM   $0 32
-0x014c: OUT   $0
-0x014d: IMM   $0 102
-0x014e: OUT   $0
-0x014f: OUT   $1
-0x0150: IMM   $0 105
-0x0151: OUT   $0
-0x0152: IMM   $0 108
-0x0153: OUT   $0
-0x0154: IMM   $0 101
-0x0155: OUT   $0
-0x0156: IMM   $0 100
-0x0157: OUT   $0
-0x0158: HALT
-0x0159: NAND  $0 $6 $6
-0x015a: IMM   $0 0
-0x015b: IMM   $4 311
-0x015c: IMM   $5 351
-0x015d: CMOVE $5 $4 $0
-0x015e: JUMP  $6 $5
-0x015f: IMM   $0 33554431
-0x0160: IMM   $1 511
-0x0161: IMM   $2 65536
-0x0162: MUL   $1 $1 $2
-0x0163: IMM   $2 65535
-0x0164: ADD   $1 $1 $2
-0x0165: NAND  $4 $0 $0
-0x0166: NAND  $3 $1 $1
-0x0167: NAND  $3 $4 $3
-0x0168: NAND  $4 $0 $1
-0x0169: NAND  $3 $4 $3
-0x016a: NAND  $3 $3 $3
-0x016b: IMM   $4 311
-0x016c: IMM   $5 367
-0x016d: CMOVE $5 $4 $3
-0x016e: JUMP  $6 $5
-0x016f: IMM   $4 402
-0x0170: IMM   $5 371
-0x0171: CMOVE $4 $5 $6
-0x0172: JUMP  $6 $4
-0x0173: IMM   $5 73
-0x0174: IMM   $4 111
-0x0175: IMM   $3 68
-0x0176: IMM   $1 101
-0x0177: IMM   $7 86
-0x0178: IMM   $0 114
-0x0179: IMM   $2 32
-0x017a: OUT   $3
-0x017b: OUT   $5
-0x017c: OUT   $7
-0x017d: OUT   $2
-0x017e: OUT   $1
-0x017f: OUT   $0
-0x0180: OUT   $0
-0x0181: OUT   $4
-0x0182: OUT   $0
-0x0183: HALT
-0x0184: IMM   $0 789
-0x0185: IMM   $1 1
-0x0186: DIV   $2 $0 $1
-0x0187: IMM   $4 789
-0x0188: NAND  $5 $2 $2
-0x0189: NAND  $3 $4 $4
-0x018a: NAND  $3 $5 $3
-0x018b: NAND  $5 $2 $4
-0x018c: NAND  $3 $5 $3
-0x018d: NAND  $3 $3 $3
-0x018e: IMM   $4 371
-0x018f: IMM   $5 402
-0x0190: CMOVE $5 $4 $3
-0x0191: JUMP  $6 $5
-0x0192: IMM   $0 1
-0x0193: NAND  $1 $6 $6
-0x0194: DIV   $2 $0 $1
-0x0195: IMM   $4 0
-0x0196: NAND  $5 $2 $2
-0x0197: NAND  $3 $4 $4
-0x0198: NAND  $3 $5 $3
-0x0199: NAND  $5 $2 $4
-0x019a: NAND  $3 $5 $3
-0x019b: NAND  $3 $3 $3
-0x019c: IMM   $4 371
-0x019d: IMM   $5 416
-0x019e: CMOVE $5 $4 $3
-0x019f: JUMP  $6 $5
-0x01a0: IMM   $0 1414
-0x01a1: RMEM  $1 $6 $0
-0x01a2: IMM   $2 654321
-0x01a3: NAND  $4 $1 $1
-0x01a4: NAND  $3 $2 $2
-0x01a5: NAND  $3 $4 $3
-0x01a6: NAND  $4 $1 $2
-0x01a7: NAND  $3 $4 $3
-0x01a8: NAND  $3 $3 $3
-0x01a9: IMM   $4 2200
-0x01aa: IMM   $5 429
-0x01ab: CMOVE $5 $4 $3
-0x01ac: JUMP  $6 $5
-0x01ad: IMM   $2 61680
-0x01ae: WMEM  $6 $0 $2
-0x01af: RMEM  $1 $6 $0
-0x01b0: NAND  $4 $1 $1
-0x01b1: NAND  $3 $2 $2
-0x01b2: NAND  $3 $4 $3
-0x01b3: NAND  $4 $1 $2
-0x01b4: NAND  $3 $4 $3
-0x01b5: NAND  $3 $3 $3
-0x01b6: IMM   $4 2153
-0x01b7: IMM   $5 442
-0x01b8: CMOVE $5 $4 $3
-0x01b9: JUMP  $6 $5
-0x01ba: IMM   $6 116
-0x01bb: OUT   $6
-0x01bc: IMM   $6 114
-0x01bd: OUT   $6
-0x01be: IMM   $6 121
-0x01bf: OUT   $6
-0x01c0: IMM   $6 105
-0x01c1: OUT   $6
-0x01c2: IMM   $6 110
-0x01c3: OUT   $6
-0x01c4: IMM   $6 103
-0x01c5: OUT   $6
-0x01c6: IMM   $6 32
-0x01c7: OUT   $6
-0x01c8: IMM   $6 116
-0x01c9: OUT   $6
-0x01ca: IMM   $6 111
-0x01cb: OUT   $6
-0x01cc: IMM   $6 32
-0x01cd: OUT   $6
-0x01ce: IMM   $6 65
-0x01cf: OUT   $6
-0x01d0: IMM   $6 108
-0x01d1: OUT   $6
-0x01d2: OUT   $6
-0x01d3: IMM   $6 111
-0x01d4: OUT   $6
-0x01d5: IMM   $6 99
-0x01d6: OUT   $6
-0x01d7: IMM   $6 97
-0x01d8: OUT   $6
-0x01d9: IMM   $6 116
-0x01da: OUT   $6
-0x01db: IMM   $6 101
-0x01dc: OUT   $6
-0x01dd: IMM   $6 32
-0x01de: OUT   $6
-0x01df: IMM   $6 97
-0x01e0: OUT   $6
-0x01e1: IMM   $6 114
-0x01e2: OUT   $6
-0x01e3: OUT   $6
-0x01e4: IMM   $6 97
-0x01e5: OUT   $6
-0x01e6: IMM   $6 121
-0x01e7: OUT   $6
-0x01e8: IMM   $6 32
-0x01e9: OUT   $6
-0x01ea: IMM   $6 111
-0x01eb: OUT   $6
-0x01ec: IMM   $6 102
-0x01ed: OUT   $6
-0x01ee: IMM   $6 32
-0x01ef: OUT   $6
-0x01f0: IMM   $6 115
-0x01f1: OUT   $6
-0x01f2: IMM   $6 105
-0x01f3: OUT   $6
-0x01f4: IMM   $6 122
-0x01f5: OUT   $6
-0x01f6: IMM   $6 101
-0x01f7: OUT   $6
-0x01f8: IMM   $6 32
-0x01f9: OUT   $6
-0x01fa: IMM   $6 48
-0x01fb: OUT   $6
-0x01fc: IMM   $6 46
-0x01fd: OUT   $6
-0x01fe: OUT   $6
-0x01ff: IMM   $6 10
-0x0200: OUT   $6
-0x0201: IMM   $6 0
-0x0202: ALLOC $0 $6
-0x0203: IMM   $4 2111
-0x0204: IMM   $5 519
-0x0205: CMOVE $4 $5 $0
-0x0206: JUMP  $6 $4
-0x0207: IMM   $6 116
-0x0208: OUT   $6
-0x0209: IMM   $6 114
-0x020a: OUT   $6
-0x020b: IMM   $6 121
-0x020c: OUT   $6
-0x020d: IMM   $6 105
-0x020e: OUT   $6
-0x020f: IMM   $6 110
-0x0210: OUT   $6
-0x0211: IMM   $6 103
-0x0212: OUT   $6
-0x0213: IMM   $6 32
-0x0214: OUT   $6
-0x0215: IMM   $6 116
-0x0216: OUT   $6
-0x0217: IMM   $6 111
-0x0218: OUT   $6
-0x0219: IMM   $6 32
-0x021a: OUT   $6
-0x021b: IMM   $6 65
-0x021c: OUT   $6
-0x021d: IMM   $6 98
-0x021e: OUT   $6
-0x021f: IMM   $6 97
-0x0220: OUT   $6
-0x0221: IMM   $6 110
-0x0222: OUT   $6
-0x0223: IMM   $6 100
-0x0224: OUT   $6
-0x0225: IMM   $6 111
-0x0226: OUT   $6
-0x0227: IMM   $6 110
-0x0228: OUT   $6
-0x0229: IMM   $6 32
-0x022a: OUT   $6
-0x022b: IMM   $6 115
-0x022c: OUT   $6
-0x022d: IMM   $6 105
-0x022e: OUT   $6
-0x022f: IMM   $6 122
-0x0230: OUT   $6
-0x0231: IMM   $6 101
-0x0232: OUT   $6
-0x0233: IMM   $6 32
-0x0234: OUT   $6
-0x0235: IMM   $6 48
-0x0236: OUT   $6
-0x0237: IMM   $6 32
-0x0238: OUT   $6
-0x0239: IMM   $6 97
-0x023a: OUT   $6
-0x023b: IMM   $6 108
-0x023c: OUT   $6
-0x023d: OUT   $6
-0x023e: IMM   $6 111
-0x023f: OUT   $6
-0x0240: IMM   $6 99
-0x0241: OUT   $6
-0x0242: IMM   $6 97
-0x0243: OUT   $6
-0x0244: IMM   $6 116
-0x0245: OUT   $6
-0x0246: IMM   $6 105
-0x0247: OUT   $6
-0x0248: IMM   $6 111
-0x0249: OUT   $6
-0x024a: IMM   $6 110
-0x024b: OUT   $6
-0x024c: IMM   $6 46
-0x024d: OUT   $6
-0x024e: OUT   $6
-0x024f: IMM   $6 10
-0x0250: OUT   $6
-0x0251: IMM   $6 0
-0x0252: FREE  $0
-0x0253: IMM   $6 116
-0x0254: OUT   $6
-0x0255: IMM   $6 114
-0x0256: OUT   $6
-0x0257: IMM   $6 121
-0x0258: OUT   $6
-0x0259: IMM   $6 105
-0x025a: OUT   $6
-0x025b: IMM   $6 110
-0x025c: OUT   $6
-0x025d: IMM   $6 103
-0x025e: OUT   $6
-0x025f: IMM   $6 32
-0x0260: OUT   $6
-0x0261: IMM   $6 116
-0x0262: OUT   $6
-0x0263: IMM   $6 111
-0x0264: OUT   $6
-0x0265: IMM   $6 32
-0x0266: OUT   $6
-0x0267: IMM   $6 65
-0x0268: OUT   $6
-0x0269: IMM   $6 108
-0x026a: OUT   $6
-0x026b: OUT   $6
-0x026c: IMM   $6 111
-0x026d: OUT   $6
-0x026e: IMM   $6 99
-0x026f: OUT   $6
-0x0270: IMM   $6 97
-0x0271: OUT   $6
-0x0272: IMM   $6 116
-0x0273: OUT   $6
-0x0274: IMM   $6 101
-0x0275: OUT   $6
-0x0276: IMM   $6 32
-0x0277: OUT   $6
-0x0278: IMM   $6 115
-0x0279: OUT   $6
-0x027a: IMM   $6 105
-0x027b: OUT   $6
-0x027c: IMM   $6 122
-0x027d: OUT   $6
-0x027e: IMM   $6 101
-0x027f: OUT   $6
-0x0280: IMM   $6 32
-0x0281: OUT   $6
-0x0282: IMM   $6 49
-0x0283: OUT   $6
-0x0284: OUT   $6
-0x0285: IMM   $6 46
-0x0286: OUT   $6
-0x0287: OUT   $6
-0x0288: IMM   $6 10
-0x0289: OUT   $6
-0x028a: IMM   $6 0
-0x028b: IMM   $1 11
-0x028c: ALLOC $0 $1
-0x028d: IMM   $6 116
-0x028e: OUT   $6
-0x028f: IMM   $6 114
-0x0290: OUT   $6
-0x0291: IMM   $6 121
-0x0292: OUT   $6
-0x0293: IMM   $6 105
-0x0294: OUT   $6
-0x0295: IMM   $6 110
-0x0296: OUT   $6
-0x0297: IMM   $6 103
-0x0298: OUT   $6
-0x0299: IMM   $6 32
-0x029a: OUT   $6
-0x029b: IMM   $6 65
-0x029c: OUT   $6
-0x029d: IMM   $6 114
-0x029e: OUT   $6
-0x029f: OUT   $6
-0x02a0: IMM   $6 97
-0x02a1: OUT   $6
-0x02a2: IMM   $6 121
-0x02a3: OUT   $6
-0x02a4: IMM   $6 32
-0x02a5: OUT   $6
-0x02a6: IMM   $6 73
-0x02a7: OUT   $6
-0x02a8: IMM   $6 110
-0x02a9: OUT   $6
-0x02aa: IMM   $6 100
-0x02ab: OUT   $6
-0x02ac: IMM   $6 101
-0x02ad: OUT   $6
-0x02ae: IMM   $6 120
-0x02af: OUT   $6
-0x02b0: IMM   $6 32
-0x02b1: OUT   $6
-0x02b2: IMM   $6 111
-0x02b3: OUT   $6
-0x02b4: IMM   $6 110
-0x02b5: OUT   $6
-0x02b6: IMM   $6 32
-0x02b7: OUT   $6
-0x02b8: IMM   $6 97
-0x02b9: OUT   $6
-0x02ba: IMM   $6 108
-0x02bb: OUT   $6
-0x02bc: OUT   $6
-0x02bd: IMM   $6 111
-0x02be: OUT   $6
-0x02bf: IMM   $6 99
-0x02c0: OUT   $6
-0x02c1: IMM   $6 97
-0x02c2: OUT   $6
-0x02c3: IMM   $6 116
-0x02c4: OUT   $6
-0x02c5: IMM   $6 101
-0x02c6: OUT   $6
-0x02c7: IMM   $6 100
-0x02c8: OUT   $6
-0x02c9: IMM   $6 32
-0x02ca: OUT   $6
-0x02cb: IMM   $6 97
-0x02cc: OUT   $6
-0x02cd: IMM   $6 114
-0x02ce: OUT   $6
-0x02cf: OUT   $6
-0x02d0: IMM   $6 97
-0x02d1: OUT   $6
-0x02d2: IMM   $6 121
-0x02d3: OUT   $6
-0x02d4: IMM   $6 46
-0x02d5: OUT   $6
-0x02d6: OUT   $6
-0x02d7: IMM   $6 10
-0x02d8: OUT   $6
-0x02d9: IMM   $6 0
-0x02da: IMM   $2 0
-0x02db: RMEM  $1 $0 $2
-0x02dc: IMM   $4 2080
-0x02dd: IMM   $5 736
-0x02de: CMOVE $5 $4 $1
-0x02df: JUMP  $6 $5
-0x02e0: IMM   $2 1
-0x02e1: RMEM  $1 $0 $2
-0x02e2: IMM   $4 2049
-0x02e3: IMM   $5 742
-0x02e4: CMOVE $5 $4 $1
-0x02e5: JUMP  $6 $5
-0x02e6: IMM   $2 2
-0x02e7: RMEM  $1 $0 $2
-0x02e8: IMM   $4 2018
-0x02e9: IMM   $5 748
-0x02ea: CMOVE $5 $4 $1
-0x02eb: JUMP  $6 $5
-0x02ec: IMM   $2 3
-0x02ed: RMEM  $1 $0 $2
-0x02ee: IMM   $4 1987
-0x02ef: IMM   $5 754
-0x02f0: CMOVE $5 $4 $1
-0x02f1: JUMP  $6 $5
-0x02f2: IMM   $2 4
-0x02f3: RMEM  $1 $0 $2
-0x02f4: IMM   $4 1956
-0x02f5: IMM   $5 760
-0x02f6: CMOVE $5 $4 $1
-0x02f7: JUMP  $6 $5
-0x02f8: IMM   $2 5
-0x02f9: RMEM  $1 $0 $2
-0x02fa: IMM   $4 1925
-0x02fb: IMM   $5 766
-0x02fc: CMOVE $5 $4 $1
-0x02fd: JUMP  $6 $5
-0x02fe: IMM   $2 6
-0x02ff: RMEM  $1 $0 $2
-0x0300: IMM   $4 1894
-0x0301: IMM   $5 772
-0x0302: CMOVE $5 $4 $1
-0x0303: JUMP  $6 $5
-0x0304: IMM   $2 7
-0x0305: RMEM  $1 $0 $2
-0x0306: IMM   $4 1863
-0x0307: IMM   $5 778
-0x0308: CMOVE $5 $4 $1
-0x0309: JUMP  $6 $5
-0x030a: IMM   $2 8
-0x030b: RMEM  $1 $0 $2
-0x030c: IMM   $4 1832
-0x030d: IMM   $5 784
-0x030e: CMOVE $5 $4 $1
-0x030f: JUMP  $6 $5
-0x0310: IMM   $2 9
-0x0311: RMEM  $1 $0 $2
-0x0312: IMM   $4 1801
-0x0313: IMM   $5 790
-0x0314: CMOVE $5 $4 $1
-0x0315: JUMP  $6 $5
-0x0316: IMM   $2 10
-0x0317: RMEM  $1 $0 $2
-0x0318: IMM   $4 1770
-0x0319: IMM   $5 796
-0x031a: CMOVE $5 $4 $1
-0x031b: JUMP  $6 $5
-0x031c: IMM   $6 116
-0x031d: OUT   $6
-0x031e: IMM   $6 114
-0x031f: OUT   $6
-0x0320: IMM   $6 121
-0x0321: OUT   $6
-0x0322: IMM   $6 105
-0x0323: OUT   $6
-0x0324: IMM   $6 110
-0x0325: OUT   $6
-0x0326: IMM   $6 103
-0x0327: OUT   $6
-0x0328: IMM   $6 32
-0x0329: OUT   $6
-0x032a: IMM   $6 65
-0x032b: OUT   $6
-0x032c: IMM   $6 109
-0x032d: OUT   $6
-0x032e: IMM   $6 101
-0x032f: OUT   $6
-0x0330: IMM   $6 110
-0x0331: OUT   $6
-0x0332: IMM   $6 100
-0x0333: OUT   $6
-0x0334: IMM   $6 109
-0x0335: OUT   $6
-0x0336: IMM   $6 101
-0x0337: OUT   $6
-0x0338: IMM   $6 110
-0x0339: OUT   $6
-0x033a: IMM   $6 116
-0x033b: OUT   $6
-0x033c: IMM   $6 32
-0x033d: OUT   $6
-0x033e: IMM   $6 111
-0x033f: OUT   $6
-0x0340: IMM   $6 102
-0x0341: OUT   $6
-0x0342: IMM   $6 32
-0x0343: OUT   $6
-0x0344: IMM   $6 97
-0x0345: OUT   $6
-0x0346: IMM   $6 108
-0x0347: OUT   $6
-0x0348: OUT   $6
-0x0349: IMM   $6 111
-0x034a: OUT   $6
-0x034b: IMM   $6 99
-0x034c: OUT   $6
-0x034d: IMM   $6 97
-0x034e: OUT   $6
-0x034f: IMM   $6 116
-0x0350: OUT   $6
-0x0351: IMM   $6 101
-0x0352: OUT   $6
-0x0353: IMM   $6 100
-0x0354: OUT   $6
-0x0355: IMM   $6 32
-0x0356: OUT   $6
-0x0357: IMM   $6 97
-0x0358: OUT   $6
-0x0359: IMM   $6 114
-0x035a: OUT   $6
-0x035b: OUT   $6
-0x035c: IMM   $6 97
-0x035d: OUT   $6
-0x035e: IMM   $6 121
-0x035f: OUT   $6
-0x0360: IMM   $6 46
-0x0361: OUT   $6
-0x0362: OUT   $6
-0x0363: IMM   $6 10
-0x0364: OUT   $6
-0x0365: IMM   $6 0
-0x0366: IMM   $2 0
-0x0367: IMM   $1 11
-0x0368: WMEM  $0 $2 $1
-0x0369: IMM   $2 1
-0x036a: IMM   $1 12
-0x036b: WMEM  $0 $2 $1
-0x036c: IMM   $2 2
-0x036d: IMM   $1 13
-0x036e: WMEM  $0 $2 $1
-0x036f: IMM   $2 3
-0x0370: IMM   $1 14
-0x0371: WMEM  $0 $2 $1
-0x0372: IMM   $2 4
-0x0373: IMM   $1 15
-0x0374: WMEM  $0 $2 $1
-0x0375: IMM   $2 5
-0x0376: IMM   $1 16
-0x0377: WMEM  $0 $2 $1
-0x0378: IMM   $2 6
-0x0379: IMM   $1 17
-0x037a: WMEM  $0 $2 $1
-0x037b: IMM   $2 7
-0x037c: IMM   $1 18
-0x037d: WMEM  $0 $2 $1
-0x037e: IMM   $2 8
-0x037f: IMM   $1 19
-0x0380: WMEM  $0 $2 $1
-0x0381: IMM   $2 9
-0x0382: IMM   $1 20
-0x0383: WMEM  $0 $2 $1
-0x0384: IMM   $2 10
-0x0385: IMM   $1 21
-0x0386: WMEM  $0 $2 $1
-0x0387: IMM   $6 99
-0x0388: OUT   $6
-0x0389: IMM   $6 104
-0x038a: OUT   $6
-0x038b: IMM   $6 101
-0x038c: OUT   $6
-0x038d: IMM   $6 99
-0x038e: OUT   $6
-0x038f: IMM   $6 107
-0x0390: OUT   $6
-0x0391: IMM   $6 105
-0x0392: OUT   $6
-0x0393: IMM   $6 110
-0x0394: OUT   $6
-0x0395: IMM   $6 103
-0x0396: OUT   $6
-0x0397: IMM   $6 32
-0x0398: OUT   $6
-0x0399: IMM   $6 65
-0x039a: OUT   $6
-0x039b: IMM   $6 109
-0x039c: OUT   $6
-0x039d: IMM   $6 101
-0x039e: OUT   $6
-0x039f: IMM   $6 110
-0x03a0: OUT   $6
-0x03a1: IMM   $6 100
-0x03a2: OUT   $6
-0x03a3: IMM   $6 109
-0x03a4: OUT   $6
-0x03a5: IMM   $6 101
-0x03a6: OUT   $6
-0x03a7: IMM   $6 110
-0x03a8: OUT   $6
-0x03a9: IMM   $6 116
-0x03aa: OUT   $6
-0x03ab: IMM   $6 32
-0x03ac: OUT   $6
-0x03ad: IMM   $6 111
-0x03ae: OUT   $6
-0x03af: IMM   $6 102
-0x03b0: OUT   $6
-0x03b1: IMM   $6 32
-0x03b2: OUT   $6
-0x03b3: IMM   $6 97
-0x03b4: OUT   $6
-0x03b5: IMM   $6 108
-0x03b6: OUT   $6
-0x03b7: OUT   $6
-0x03b8: IMM   $6 111
-0x03b9: OUT   $6
-0x03ba: IMM   $6 99
-0x03bb: OUT   $6
-0x03bc: IMM   $6 97
-0x03bd: OUT   $6
-0x03be: IMM   $6 116
-0x03bf: OUT   $6
-0x03c0: IMM   $6 101
-0x03c1: OUT   $6
-0x03c2: IMM   $6 100
-0x03c3: OUT   $6
-0x03c4: IMM   $6 32
-0x03c5: OUT   $6
-0x03c6: IMM   $6 97
-0x03c7: OUT   $6
-0x03c8: IMM   $6 114
-0x03c9: OUT   $6
-0x03ca: OUT   $6
-0x03cb: IMM   $6 97
-0x03cc: OUT   $6
-0x03cd: IMM   $6 121
-0x03ce: OUT   $6
-0x03cf: IMM   $6 46
-0x03d0: OUT   $6
-0x03d1: OUT   $6
-0x03d2: IMM   $6 10
-0x03d3: OUT   $6
-0x03d4: IMM   $6 0
-0x03d5: IMM   $2 0
-0x03d6: RMEM  $1 $0 $2
-0x03d7: IMM   $4 11
-0x03d8: NAND  $5 $1 $1
-0x03d9: ADD   $3 $4 $5
-0x03da: IMM   $5 1
-0x03db: ADD   $3 $5 $3
-0x03dc: IMM   $4 1745
-0x03dd: IMM   $5 992
-0x03de: CMOVE $5 $4 $3
-0x03df: JUMP  $6 $5
-0x03e0: IMM   $2 1
-0x03e1: RMEM  $1 $0 $2
-0x03e2: IMM   $4 12
-0x03e3: NAND  $5 $1 $1
-0x03e4: ADD   $3 $4 $5
-0x03e5: IMM   $5 1
-0x03e6: ADD   $3 $5 $3
-0x03e7: IMM   $4 1720
-0x03e8: IMM   $5 1003
-0x03e9: CMOVE $5 $4 $3
-0x03ea: JUMP  $6 $5
-0x03eb: IMM   $2 2
-0x03ec: RMEM  $1 $0 $2
-0x03ed: IMM   $4 13
-0x03ee: NAND  $5 $1 $1
-0x03ef: ADD   $3 $4 $5
-0x03f0: IMM   $5 1
-0x03f1: ADD   $3 $5 $3
-0x03f2: IMM   $4 1695
-0x03f3: IMM   $5 1014
-0x03f4: CMOVE $5 $4 $3
-0x03f5: JUMP  $6 $5
-0x03f6: IMM   $2 3
-0x03f7: RMEM  $1 $0 $2
-0x03f8: IMM   $4 14
-0x03f9: NAND  $5 $1 $1
-0x03fa: ADD   $3 $4 $5
-0x03fb: IMM   $5 1
-0x03fc: ADD   $3 $5 $3
-0x03fd: IMM   $4 1670
-0x03fe: IMM   $5 1025
-0x03ff: CMOVE $5 $4 $3
-0x0400: JUMP  $6 $5
-0x0401: IMM   $2 4
-0x0402: RMEM  $1 $0 $2
-0x0403: IMM   $4 15
-0x0404: NAND  $5 $1 $1
-0x0405: ADD   $3 $4 $5
-0x0406: IMM   $5 1
-0x0407: ADD   $3 $5 $3
-0x0408: IMM   $4 1645
-0x0409: IMM   $5 1036
-0x040a: CMOVE $5 $4 $3
-0x040b: JUMP  $6 $5
-0x040c: IMM   $2 5
-0x040d: RMEM  $1 $0 $2
-0x040e: IMM   $4 16
-0x040f: NAND  $5 $1 $1
-0x0410: ADD   $3 $4 $5
-0x0411: IMM   $5 1
-0x0412: ADD   $3 $5 $3
-0x0413: IMM   $4 1620
-0x0414: IMM   $5 1047
-0x0415: CMOVE $5 $4 $3
-0x0416: JUMP  $6 $5
-0x0417: IMM   $2 6
-0x0418: RMEM  $1 $0 $2
-0x0419: IMM   $4 17
-0x041a: NAND  $5 $1 $1
-0x041b: ADD   $3 $4 $5
-0x041c: IMM   $5 1
-0x041d: ADD   $3 $5 $3
-0x041e: IMM   $4 1595
-0x041f: IMM   $5 1058
-0x0420: CMOVE $5 $4 $3
-0x0421: JUMP  $6 $5
-0x0422: IMM   $2 7
-0x0423: RMEM  $1 $0 $2
-0x0424: IMM   $4 18
-0x0425: NAND  $5 $1 $1
-0x0426: ADD   $3 $4 $5
-0x0427: IMM   $5 1
-0x0428: ADD   $3 $5 $3
-0x0429: IMM   $4 1570
-0x042a: IMM   $5 1069
-0x042b: CMOVE $5 $4 $3
-0x042c: JUMP  $6 $5
-0x042d: IMM   $2 8
-0x042e: RMEM  $1 $0 $2
-0x042f: IMM   $4 19
-0x0430: NAND  $5 $1 $1
-0x0431: ADD   $3 $4 $5
-0x0432: IMM   $5 1
-0x0433: ADD   $3 $5 $3
-0x0434: IMM   $4 1545
-0x0435: IMM   $5 1080
-0x0436: CMOVE $5 $4 $3
-0x0437: JUMP  $6 $5
-0x0438: IMM   $2 9
-0x0439: RMEM  $1 $0 $2
-0x043a: IMM   $4 20
-0x043b: NAND  $5 $1 $1
-0x043c: ADD   $3 $4 $5
-0x043d: IMM   $5 1
-0x043e: ADD   $3 $5 $3
-0x043f: IMM   $4 1520
-0x0440: IMM   $5 1091
-0x0441: CMOVE $5 $4 $3
-0x0442: JUMP  $6 $5
-0x0443: IMM   $2 10
-0x0444: RMEM  $1 $0 $2
-0x0445: IMM   $4 21
-0x0446: NAND  $5 $1 $1
-0x0447: ADD   $3 $4 $5
-0x0448: IMM   $5 1
-0x0449: ADD   $3 $5 $3
-0x044a: IMM   $4 1495
-0x044b: IMM   $5 1102
-0x044c: CMOVE $5 $4 $3
-0x044d: JUMP  $6 $5
-0x044e: FREE  $0
-0x044f: IMM   $0 8
-0x0450: ALLOC $7 $0
-0x0451: IMM   $0 3
-0x0452: IMM   $1 51966
-0x0453: WMEM  $7 $0 $1
-0x0454: IMM   $6 116
-0x0455: OUT   $6
-0x0456: IMM   $6 114
-0x0457: OUT   $6
-0x0458: IMM   $6 121
-0x0459: OUT   $6
-0x045a: IMM   $6 105
-0x045b: OUT   $6
-0x045c: IMM   $6 110
-0x045d: OUT   $6
-0x045e: IMM   $6 103
-0x045f: OUT   $6
-0x0460: IMM   $6 32
-0x0461: OUT   $6
-0x0462: IMM   $6 65
-0x0463: OUT   $6
-0x0464: IMM   $6 108
-0x0465: OUT   $6
-0x0466: OUT   $6
-0x0467: IMM   $6 111
-0x0468: OUT   $6
-0x0469: IMM   $6 99
-0x046a: OUT   $6
-0x046b: IMM   $6 40
-0x046c: OUT   $6
-0x046d: IMM   $6 97
-0x046e: OUT   $6
-0x046f: IMM   $6 44
-0x0470: OUT   $6
-0x0471: IMM   $6 97
-0x0472: OUT   $6
-0x0473: IMM   $6 41
-0x0474: OUT   $6
-0x0475: IMM   $6 32
-0x0476: OUT   $6
-0x0477: IMM   $6 97
-0x0478: OUT   $6
-0x0479: IMM   $6 110
-0x047a: OUT   $6
-0x047b: IMM   $6 100
-0x047c: OUT   $6
-0x047d: IMM   $6 32
-0x047e: OUT   $6
-0x047f: IMM   $6 97
-0x0480: OUT   $6
-0x0481: IMM   $6 109
-0x0482: OUT   $6
-0x0483: IMM   $6 101
-0x0484: OUT   $6
-0x0485: IMM   $6 110
-0x0486: OUT   $6
-0x0487: IMM   $6 100
-0x0488: OUT   $6
-0x0489: IMM   $6 105
-0x048a: OUT   $6
-0x048b: IMM   $6 110
-0x048c: OUT   $6
-0x048d: IMM   $6 103
-0x048e: OUT   $6
-0x048f: IMM   $6 32
-0x0490: OUT   $6
-0x0491: IMM   $6 105
-0x0492: OUT   $6
-0x0493: IMM   $6 116
-0x0494: OUT   $6
-0x0495: IMM   $6 46
-0x0496: OUT   $6
-0x0497: OUT   $6
-0x0498: IMM   $6 10
-0x0499: OUT   $6
-0x049a: IMM   $6 0
-0x049b: IMM   $0 4000
-0x049c: ALLOC $0 $0
-0x049d: IMM   $1 3999
-0x049e: WMEM  $0 $1 $1
-0x049f: FREE  $0
-0x04a0: IMM   $6 99
-0x04a1: OUT   $6
-0x04a2: IMM   $6 111
-0x04a3: OUT   $6
-0x04a4: IMM   $6 109
-0x04a5: OUT   $6
-0x04a6: IMM   $6 112
-0x04a7: OUT   $6
-0x04a8: IMM   $6 97
-0x04a9: OUT   $6
-0x04aa: IMM   $6 114
-0x04ab: OUT   $6
-0x04ac: IMM   $6 105
-0x04ad: OUT   $6
-0x04ae: IMM   $6 110
-0x04af: OUT   $6
-0x04b0: IMM   $6 103
-0x04b1: OUT   $6
-0x04b2: IMM   $6 32
-0x04b3: OUT   $6
-0x04b4: IMM   $6 109
-0x04b5: OUT   $6
-0x04b6: IMM   $6 117
-0x04b7: OUT   $6
-0x04b8: IMM   $6 108
-0x04b9: OUT   $6
-0x04ba: IMM   $6 116
-0x04bb: OUT   $6
-0x04bc: IMM   $6 105
-0x04bd: OUT   $6
-0x04be: IMM   $6 112
-0x04bf: OUT   $6
-0x04c0: IMM   $6 108
-0x04c1: OUT   $6
-0x04c2: IMM   $6 101
-0x04c3: OUT   $6
-0x04c4: IMM   $6 32
-0x04c5: OUT   $6
-0x04c6: IMM   $6 97
-0x04c7: OUT   $6
-0x04c8: IMM   $6 108
-0x04c9: OUT   $6
-0x04ca: OUT   $6
-0x04cb: IMM   $6 111
-0x04cc: OUT   $6
-0x04cd: IMM   $6 99
-0x04ce: OUT   $6
-0x04cf: IMM   $6 97
-0x04d0: OUT   $6
-0x04d1: IMM   $6 116
-0x04d2: OUT   $6
-0x04d3: IMM   $6 105
-0x04d4: OUT   $6
-0x04d5: IMM   $6 111
-0x04d6: OUT   $6
-0x04d7: IMM   $6 110
-0x04d8: OUT   $6
-0x04d9: IMM   $6 115
-0x04da: OUT   $6
-0x04db: IMM   $6 46
-0x04dc: OUT   $6
-0x04dd: OUT   $6
-0x04de: IMM   $6 10
-0x04df: OUT   $6
-0x04e0: IMM   $6 0
-0x04e1: IMM   $2 4
-0x04e2: ALLOC $0 $2
-0x04e3: ALLOC $1 $2
-0x04e4: NAND  $4 $1 $1
-0x04e5: ADD   $2 $0 $4
-0x04e6: IMM   $4 1
-0x04e7: ADD   $2 $4 $2
-0x04e8: IMM   $4 1464
-0x04e9: IMM   $5 1260
-0x04ea: CMOVE $4 $5 $2
-0x04eb: JUMP  $6 $4
-0x04ec: IMM   $6 112
-0x04ed: OUT   $6
-0x04ee: IMM   $6 111
-0x04ef: OUT   $6
-0x04f0: IMM   $6 105
-0x04f1: OUT   $6
-0x04f2: IMM   $6 110
-0x04f3: OUT   $6
-0x04f4: IMM   $6 116
-0x04f5: OUT   $6
-0x04f6: IMM   $6 101
-0x04f7: OUT   $6
-0x04f8: IMM   $6 114
-0x04f9: OUT   $6
-0x04fa: IMM   $6 32
-0x04fb: OUT   $6
-0x04fc: IMM   $6 97
-0x04fd: OUT   $6
-0x04fe: IMM   $6 114
-0x04ff: OUT   $6
-0x0500: IMM   $6 105
-0x0501: OUT   $6
-0x0502: IMM   $6 116
-0x0503: OUT   $6
-0x0504: IMM   $6 104
-0x0505: OUT   $6
-0x0506: IMM   $6 109
-0x0507: OUT   $6
-0x0508: IMM   $6 101
-0x0509: OUT   $6
-0x050a: IMM   $6 116
-0x050b: OUT   $6
-0x050c: IMM   $6 105
-0x050d: OUT   $6
-0x050e: IMM   $6 99
-0x050f: OUT   $6
-0x0510: IMM   $6 46
-0x0511: OUT   $6
-0x0512: OUT   $6
-0x0513: IMM   $6 10
-0x0514: OUT   $6
-0x0515: IMM   $6 0
-0x0516: NAND  $4 $0 $0
-0x0517: NAND  $2 $1 $1
-0x0518: NAND  $2 $4 $2
-0x0519: NAND  $4 $0 $1
-0x051a: NAND  $2 $4 $2
-0x051b: NAND  $2 $2 $2
-0x051c: IMM   $1 0
-0x051d: WMEM  $0 $1 $2
-0x051e: RMEM  $3 $0 $1
-0x051f: NAND  $4 $0 $0
-0x0520: NAND  $1 $3 $3
-0x0521: NAND  $1 $4 $1
-0x0522: NAND  $4 $0 $3
-0x0523: NAND  $1 $4 $1
-0x0524: NAND  $1 $1 $1
-0x0525: FREE  $0
-0x0526: FREE  $1
-0x0527: IMM   $6 99
-0x0528: OUT   $6
-0x0529: IMM   $6 104
-0x052a: OUT   $6
-0x052b: IMM   $6 101
-0x052c: OUT   $6
-0x052d: IMM   $6 99
-0x052e: OUT   $6
-0x052f: IMM   $6 107
-0x0530: OUT   $6
-0x0531: IMM   $6 32
-0x0532: OUT   $6
-0x0533: IMM   $6 111
-0x0534: OUT   $6
-0x0535: IMM   $6 108
-0x0536: OUT   $6
-0x0537: IMM   $6 100
-0x0538: OUT   $6
-0x0539: IMM   $6 32
-0x053a: OUT   $6
-0x053b: IMM   $6 97
-0x053c: OUT   $6
-0x053d: IMM   $6 108
-0x053e: OUT   $6
-0x053f: OUT   $6
-0x0540: IMM   $6 111
-0x0541: OUT   $6
-0x0542: IMM   $6 99
-0x0543: OUT   $6
-0x0544: IMM   $6 97
-0x0545: OUT   $6
-0x0546: IMM   $6 116
-0x0547: OUT   $6
-0x0548: IMM   $6 105
-0x0549: OUT   $6
-0x054a: IMM   $6 111
-0x054b: OUT   $6
-0x054c: IMM   $6 110
-0x054d: OUT   $6
-0x054e: IMM   $6 46
-0x054f: OUT   $6
-0x0550: OUT   $6
-0x0551: IMM   $6 10
-0x0552: OUT   $6
-0x0553: IMM   $6 0
-0x0554: IMM   $0 3
-0x0555: RMEM  $2 $7 $0
-0x0556: IMM   $1 51966
-0x0557: NAND  $4 $2 $2
-0x0558: ADD   $3 $1 $4
-0x0559: IMM   $4 1
-0x055a: ADD   $3 $4 $3
-0x055b: IMM   $4 1417
-0x055c: IMM   $5 1375
-0x055d: CMOVE $5 $4 $3
-0x055e: JUMP  $6 $5
-0x055f: IMM   $6 115
-0x0560: OUT   $6
-0x0561: IMM   $6 105
-0x0562: OUT   $6
-0x0563: IMM   $6 109
-0x0564: OUT   $6
-0x0565: IMM   $6 112
-0x0566: OUT   $6
-0x0567: IMM   $6 108
-0x0568: OUT   $6
-0x0569: IMM   $6 101
-0x056a: OUT   $6
-0x056b: IMM   $6 32
-0x056c: OUT   $6
-0x056d: IMM   $6 116
-0x056e: OUT   $6
-0x056f: IMM   $6 101
-0x0570: OUT   $6
-0x0571: IMM   $6 115
-0x0572: OUT   $6
-0x0573: IMM   $6 116
-0x0574: OUT   $6
-0x0575: IMM   $6 115
-0x0576: OUT   $6
-0x0577: IMM   $6 32
-0x0578: OUT   $6
-0x0579: IMM   $6 111
-0x057a: OUT   $6
-0x057b: IMM   $6 107
-0x057c: OUT   $6
-0x057d: IMM   $6 33
-0x057e: OUT   $6
-0x057f: IMM   $6 10
-0x0580: OUT   $6
-0x0581: IMM   $6 0
-0x0582: IMM   $1 2264
-0x0583: JUMP  $6 $1
-0x0584: CMOVE $0 $0 $0
-0x0585: CMOVE $0 $0 $0
-0x0586: CMOVE $7 $6 $1
-0x0587: CMOVE $0 $0 $0
-0x0588: CMOVE $0 $0 $0
-0x0589: IMM   $7 68
-0x058a: IMM   $2 32
-0x058b: IMM   $4 78
-0x058c: IMM   $5 47
-0x058d: IMM   $1 88
-0x058e: IMM   $3 69
-0x058f: IMM   $0 73
-0x0590: OUT   $0
-0x0591: OUT   $4
-0x0592: OUT   $7
-0x0593: OUT   $3
-0x0594: OUT   $1
-0x0595: OUT   $2
-0x0596: OUT   $5
-0x0597: OUT   $2
-0x0598: IMM   $5 65
-0x0599: OUT   $5
-0x059a: IMM   $5 77
-0x059b: OUT   $5
-0x059c: OUT   $3
-0x059d: OUT   $4
-0x059e: OUT   $7
-0x059f: OUT   $2
-0x05a0: IMM   $5 111
-0x05a1: OUT   $5
-0x05a2: IMM   $1 108
-0x05a3: OUT   $1
-0x05a4: IMM   $3 100
-0x05a5: OUT   $3
-0x05a6: OUT   $2
-0x05a7: IMM   $3 97
-0x05a8: OUT   $3
-0x05a9: OUT   $1
-0x05aa: OUT   $1
-0x05ab: OUT   $5
-0x05ac: IMM   $5 99
-0x05ad: OUT   $5
-0x05ae: OUT   $2
-0x05af: IMM   $5 102
-0x05b0: OUT   $5
-0x05b1: OUT   $3
-0x05b2: IMM   $5 105
-0x05b3: OUT   $5
-0x05b4: OUT   $1
-0x05b5: IMM   $5 10
-0x05b6: OUT   $5
-0x05b7: HALT
-0x05b8: IMM   $0 110
-0x05b9: IMM   $3 65
-0x05ba: IMM   $7 79
-0x05bb: IMM   $4 111
-0x05bc: IMM   $1 76
-0x05bd: IMM   $5 67
-0x05be: IMM   $2 32
-0x05bf: OUT   $3
-0x05c0: OUT   $1
-0x05c1: OUT   $1
-0x05c2: OUT   $7
-0x05c3: OUT   $5
-0x05c4: OUT   $2
-0x05c5: OUT   $0
-0x05c6: OUT   $4
-0x05c7: IMM   $4 116
-0x05c8: OUT   $4
-0x05c9: OUT   $2
-0x05ca: IMM   $4 117
-0x05cb: OUT   $4
-0x05cc: OUT   $0
-0x05cd: IMM   $0 105
-0x05ce: OUT   $0
-0x05cf: IMM   $0 113
-0x05d0: OUT   $0
-0x05d1: OUT   $4
-0x05d2: IMM   $0 101
-0x05d3: OUT   $0
-0x05d4: IMM   $0 10
-0x05d5: OUT   $0
-0x05d6: HALT
-0x05d7: IMM   $2 69
-0x05d8: IMM   $0 32
-0x05d9: IMM   $3 78
-0x05da: IMM   $4 47
-0x05db: IMM   $1 68
-0x05dc: IMM   $7 73
-0x05dd: IMM   $5 88
-0x05de: OUT   $7
-0x05df: OUT   $3
-0x05e0: OUT   $1
-0x05e1: OUT   $2
-0x05e2: OUT   $5
-0x05e3: OUT   $0
-0x05e4: OUT   $4
-0x05e5: OUT   $0
-0x05e6: IMM   $4 65
-0x05e7: OUT   $4
-0x05e8: IMM   $4 77
-0x05e9: OUT   $4
-0x05ea: OUT   $2
-0x05eb: OUT   $3
-0x05ec: OUT   $1
-0x05ed: IMM   $4 10
-0x05ee: OUT   $4
-0x05ef: HALT
-0x05f0: IMM   $2 69
-0x05f1: IMM   $5 32
-0x05f2: IMM   $0 68
-0x05f3: IMM   $1 88
-0x05f4: IMM   $7 47
-0x05f5: IMM   $3 73
-0x05f6: IMM   $4 78
-0x05f7: OUT   $3
-0x05f8: OUT   $4
-0x05f9: OUT   $0
-0x05fa: OUT   $2
-0x05fb: OUT   $1
-0x05fc: OUT   $5
-0x05fd: OUT   $7
-0x05fe: OUT   $5
-0x05ff: IMM   $7 65
-0x0600: OUT   $7
-0x0601: IMM   $7 77
-0x0602: OUT   $7
-0x0603: OUT   $2
-0x0604: OUT   $4
-0x0605: OUT   $0
-0x0606: IMM   $7 10
-0x0607: OUT   $7
-0x0608: HALT
-0x0609: IMM   $1 47
-0x060a: IMM   $4 68
-0x060b: IMM   $5 88
-0x060c: IMM   $0 69
-0x060d: IMM   $7 78
-0x060e: IMM   $2 32
-0x060f: IMM   $3 73
-0x0610: OUT   $3
-0x0611: OUT   $7
-0x0612: OUT   $4
-0x0613: OUT   $0
-0x0614: OUT   $5
-0x0615: OUT   $2
-0x0616: OUT   $1
-0x0617: OUT   $2
-0x0618: IMM   $1 65
-0x0619: OUT   $1
-0x061a: IMM   $1 77
-0x061b: OUT   $1
-0x061c: OUT   $0
-0x061d: OUT   $7
-0x061e: OUT   $4
-0x061f: IMM   $1 10
-0x0620: OUT   $1
-0x0621: HALT
-0x0622: IMM   $3 32
-0x0623: IMM   $2 69
-0x0624: IMM   $0 78
-0x0625: IMM   $5 68
-0x0626: IMM   $7 88
-0x0627: IMM   $1 47
-0x0628: IMM   $4 73
-0x0629: OUT   $4
-0x062a: OUT   $0
-0x062b: OUT   $5
-0x062c: OUT   $2
-0x062d: OUT   $7
-0x062e: OUT   $3
-0x062f: OUT   $1
-0x0630: OUT   $3
-0x0631: IMM   $1 65
-0x0632: OUT   $1
-0x0633: IMM   $1 77
-0x0634: OUT   $1
-0x0635: OUT   $2
-0x0636: OUT   $0
-0x0637: OUT   $5
-0x0638: IMM   $1 10
-0x0639: OUT   $1
-0x063a: HALT
-0x063b: IMM   $2 32
-0x063c: IMM   $3 78
-0x063d: IMM   $5 69
-0x063e: IMM   $0 68
-0x063f: IMM   $4 88
-0x0640: IMM   $7 73
-0x0641: IMM   $1 47
-0x0642: OUT   $7
-0x0643: OUT   $3
-0x0644: OUT   $0
-0x0645: OUT   $5
-0x0646: OUT   $4
-0x0647: OUT   $2
-0x0648: OUT   $1
-0x0649: OUT   $2
-0x064a: IMM   $1 65
-0x064b: OUT   $1
-0x064c: IMM   $1 77
-0x064d: OUT   $1
-0x064e: OUT   $5
-0x064f: OUT   $3
-0x0650: OUT   $0
-0x0651: IMM   $1 10
-0x0652: OUT   $1
-0x0653: HALT
-0x0654: IMM   $1 32
-0x0655: IMM   $4 73
-0x0656: IMM   $2 68
-0x0657: IMM   $3 69
-0x0658: IMM   $0 78
-0x0659: IMM   $7 88
-0x065a: IMM   $5 47
-0x065b: OUT   $4
-0x065c: OUT   $0
-0x065d: OUT   $2
-0x065e: OUT   $3
-0x065f: OUT   $7
-0x0660: OUT   $1
-0x0661: OUT   $5
-0x0662: OUT   $1
-0x0663: IMM   $5 65
-0x0664: OUT   $5
-0x0665: IMM   $5 77
-0x0666: OUT   $5
-0x0667: OUT   $3
-0x0668: OUT   $0
-0x0669: OUT   $2
-0x066a: IMM   $5 10
-0x066b: OUT   $5
-0x066c: HALT
-0x066d: IMM   $0 73
-0x066e: IMM   $7 78
-0x066f: IMM   $1 32
-0x0670: IMM   $5 69
-0x0671: IMM   $2 47
-0x0672: IMM   $4 68
-0x0673: IMM   $3 88
-0x0674: OUT   $0
-0x0675: OUT   $7
-0x0676: OUT   $4
-0x0677: OUT   $5
-0x0678: OUT   $3
-0x0679: OUT   $1
-0x067a: OUT   $2
-0x067b: OUT   $1
-0x067c: IMM   $2 65
-0x067d: OUT   $2
-0x067e: IMM   $2 77
-0x067f: OUT   $2
-0x0680: OUT   $5
-0x0681: OUT   $7
-0x0682: OUT   $4
-0x0683: IMM   $2 10
-0x0684: OUT   $2
-0x0685: HALT
-0x0686: IMM   $7 47
-0x0687: IMM   $0 32
-0x0688: IMM   $5 68
-0x0689: IMM   $3 73
-0x068a: IMM   $1 69
-0x068b: IMM   $2 78
-0x068c: IMM   $4 88
-0x068d: OUT   $3
-0x068e: OUT   $2
-0x068f: OUT   $5
-0x0690: OUT   $1
-0x0691: OUT   $4
-0x0692: OUT   $0
-0x0693: OUT   $7
-0x0694: OUT   $0
-0x0695: IMM   $7 65
-0x0696: OUT   $7
-0x0697: IMM   $7 77
-0x0698: OUT   $7
-0x0699: OUT   $1
-0x069a: OUT   $2
-0x069b: OUT   $5
-0x069c: IMM   $7 10
-0x069d: OUT   $7
-0x069e: HALT
-0x069f: IMM   $3 73
-0x06a0: IMM   $0 88
-0x06a1: IMM   $1 47
-0x06a2: IMM   $7 68
-0x06a3: IMM   $4 69
-0x06a4: IMM   $5 32
-0x06a5: IMM   $2 78
-0x06a6: OUT   $3
-0x06a7: OUT   $2
-0x06a8: OUT   $7
-0x06a9: OUT   $4
-0x06aa: OUT   $0
-0x06ab: OUT   $5
-0x06ac: OUT   $1
-0x06ad: OUT   $5
-0x06ae: IMM   $1 65
-0x06af: OUT   $1
-0x06b0: IMM   $1 77
-0x06b1: OUT   $1
-0x06b2: OUT   $4
-0x06b3: OUT   $2
-0x06b4: OUT   $7
-0x06b5: IMM   $1 10
-0x06b6: OUT   $1
-0x06b7: HALT
-0x06b8: IMM   $7 88
-0x06b9: IMM   $0 73
-0x06ba: IMM   $4 78
-0x06bb: IMM   $1 47
-0x06bc: IMM   $2 69
-0x06bd: IMM   $5 32
-0x06be: IMM   $3 68
-0x06bf: OUT   $0
-0x06c0: OUT   $4
-0x06c1: OUT   $3
-0x06c2: OUT   $2
-0x06c3: OUT   $7
-0x06c4: OUT   $5
-0x06c5: OUT   $1
-0x06c6: OUT   $5
-0x06c7: IMM   $1 65
-0x06c8: OUT   $1
-0x06c9: IMM   $1 77
-0x06ca: OUT   $1
-0x06cb: OUT   $2
-0x06cc: OUT   $4
-0x06cd: OUT   $3
-0x06ce: IMM   $1 10
-0x06cf: OUT   $1
-0x06d0: HALT
-0x06d1: IMM   $2 32
-0x06d2: IMM   $3 68
-0x06d3: IMM   $1 88
-0x06d4: IMM   $0 78
-0x06d5: IMM   $7 47
-0x06d6: IMM   $5 69
-0x06d7: IMM   $4 73
-0x06d8: OUT   $4
-0x06d9: OUT   $0
-0x06da: OUT   $3
-0x06db: OUT   $5
-0x06dc: OUT   $1
-0x06dd: OUT   $2
-0x06de: OUT   $7
-0x06df: OUT   $2
-0x06e0: IMM   $7 65
-0x06e1: OUT   $7
-0x06e2: IMM   $7 77
-0x06e3: OUT   $7
-0x06e4: OUT   $5
-0x06e5: OUT   $0
-0x06e6: OUT   $3
-0x06e7: IMM   $7 10
-0x06e8: OUT   $7
-0x06e9: HALT
-0x06ea: IMM   $1 121
-0x06eb: IMM   $0 97
-0x06ec: IMM   $4 116
-0x06ed: IMM   $2 111
-0x06ee: IMM   $5 114
-0x06ef: IMM   $3 32
-0x06f0: IMM   $7 110
-0x06f1: OUT   $0
-0x06f2: OUT   $5
-0x06f3: OUT   $5
-0x06f4: OUT   $0
-0x06f5: OUT   $1
-0x06f6: OUT   $3
-0x06f7: OUT   $7
-0x06f8: OUT   $2
-0x06f9: OUT   $4
-0x06fa: OUT   $3
-0x06fb: IMM   $1 105
-0x06fc: OUT   $1
-0x06fd: OUT   $7
-0x06fe: OUT   $1
-0x06ff: OUT   $4
-0x0700: OUT   $3
-0x0701: OUT   $4
-0x0702: OUT   $2
-0x0703: OUT   $3
-0x0704: IMM   $1 48
-0x0705: OUT   $1
-0x0706: IMM   $1 10
-0x0707: OUT   $1
-0x0708: HALT
-0x0709: IMM   $2 116
-0x070a: IMM   $7 111
-0x070b: IMM   $1 121
-0x070c: IMM   $3 114
-0x070d: IMM   $5 97
-0x070e: IMM   $0 32
-0x070f: IMM   $4 110
-0x0710: OUT   $5
-0x0711: OUT   $3
-0x0712: OUT   $3
-0x0713: OUT   $5
-0x0714: OUT   $1
-0x0715: OUT   $0
-0x0716: OUT   $4
-0x0717: OUT   $7
-0x0718: OUT   $2
-0x0719: OUT   $0
-0x071a: IMM   $1 105
-0x071b: OUT   $1
-0x071c: OUT   $4
-0x071d: OUT   $1
-0x071e: OUT   $2
-0x071f: OUT   $0
-0x0720: OUT   $2
-0x0721: OUT   $7
-0x0722: OUT   $0
-0x0723: IMM   $1 48
-0x0724: OUT   $1
-0x0725: IMM   $1 10
-0x0726: OUT   $1
-0x0727: HALT
-0x0728: IMM   $2 110
-0x0729: IMM   $1 111
-0x072a: IMM   $0 32
-0x072b: IMM   $3 121
-0x072c: IMM   $5 116
-0x072d: IMM   $7 97
-0x072e: IMM   $4 114
-0x072f: OUT   $7
-0x0730: OUT   $4
-0x0731: OUT   $4
-0x0732: OUT   $7
-0x0733: OUT   $3
-0x0734: OUT   $0
-0x0735: OUT   $2
-0x0736: OUT   $1
-0x0737: OUT   $5
-0x0738: OUT   $0
-0x0739: IMM   $3 105
-0x073a: OUT   $3
-0x073b: OUT   $2
-0x073c: OUT   $3
-0x073d: OUT   $5
-0x073e: OUT   $0
-0x073f: OUT   $5
-0x0740: OUT   $1
-0x0741: OUT   $0
-0x0742: IMM   $3 48
-0x0743: OUT   $3
-0x0744: IMM   $3 10
-0x0745: OUT   $3
-0x0746: HALT
-0x0747: IMM   $2 116
-0x0748: IMM   $1 121
-0x0749: IMM   $7 111
-0x074a: IMM   $3 97
-0x074b: IMM   $4 110
-0x074c: IMM   $5 114
-0x074d: IMM   $0 32
-0x074e: OUT   $3
-0x074f: OUT   $5
-0x0750: OUT   $5
-0x0751: OUT   $3
-0x0752: OUT   $1
-0x0753: OUT   $0
-0x0754: OUT   $4
-0x0755: OUT   $7
-0x0756: OUT   $2
-0x0757: OUT   $0
-0x0758: IMM   $1 105
-0x0759: OUT   $1
-0x075a: OUT   $4
-0x075b: OUT   $1
-0x075c: OUT   $2
-0x075d: OUT   $0
-0x075e: OUT   $2
-0x075f: OUT   $7
-0x0760: OUT   $0
-0x0761: IMM   $1 48
-0x0762: OUT   $1
-0x0763: IMM   $1 10
-0x0764: OUT   $1
-0x0765: HALT
-0x0766: IMM   $0 110
-0x0767: IMM   $4 121
-0x0768: IMM   $5 111
-0x0769: IMM   $3 32
-0x076a: IMM   $7 114
-0x076b: IMM   $1 116
-0x076c: IMM   $2 97
-0x076d: OUT   $2
-0x076e: OUT   $7
-0x076f: OUT   $7
-0x0770: OUT   $2
-0x0771: OUT   $4
-0x0772: OUT   $3
-0x0773: OUT   $0
-0x0774: OUT   $5
-0x0775: OUT   $1
-0x0776: OUT   $3
-0x0777: IMM   $4 105
-0x0778: OUT   $4
-0x0779: OUT   $0
-0x077a: OUT   $4
-0x077b: OUT   $1
-0x077c: OUT   $3
-0x077d: OUT   $1
-0x077e: OUT   $5
-0x077f: OUT   $3
-0x0780: IMM   $4 48
-0x0781: OUT   $4
-0x0782: IMM   $4 10
-0x0783: OUT   $4
-0x0784: HALT
-0x0785: IMM   $2 116
-0x0786: IMM   $5 121
-0x0787: IMM   $7 111
-0x0788: IMM   $1 97
-0x0789: IMM   $0 32
-0x078a: IMM   $3 114
-0x078b: IMM   $4 110
-0x078c: OUT   $1
-0x078d: OUT   $3
-0x078e: OUT   $3
-0x078f: OUT   $1
-0x0790: OUT   $5
-0x0791: OUT   $0
-0x0792: OUT   $4
-0x0793: OUT   $7
-0x0794: OUT   $2
-0x0795: OUT   $0
-0x0796: IMM   $5 105
-0x0797: OUT   $5
-0x0798: OUT   $4
-0x0799: OUT   $5
-0x079a: OUT   $2
-0x079b: OUT   $0
-0x079c: OUT   $2
-0x079d: OUT   $7
-0x079e: OUT   $0
-0x079f: IMM   $5 48
-0x07a0: OUT   $5
-0x07a1: IMM   $5 10
-0x07a2: OUT   $5
-0x07a3: HALT
-0x07a4: IMM   $4 110
-0x07a5: IMM   $2 114
-0x07a6: IMM   $5 121
-0x07a7: IMM   $3 111
-0x07a8: IMM   $7 32
-0x07a9: IMM   $1 116
-0x07aa: IMM   $0 97
-0x07ab: OUT   $0
-0x07ac: OUT   $2
-0x07ad: OUT   $2
-0x07ae: OUT   $0
-0x07af: OUT   $5
-0x07b0: OUT   $7
-0x07b1: OUT   $4
-0x07b2: OUT   $3
-0x07b3: OUT   $1
-0x07b4: OUT   $7
-0x07b5: IMM   $5 105
-0x07b6: OUT   $5
-0x07b7: OUT   $4
-0x07b8: OUT   $5
-0x07b9: OUT   $1
-0x07ba: OUT   $7
-0x07bb: OUT   $1
-0x07bc: OUT   $3
-0x07bd: OUT   $7
-0x07be: IMM   $5 48
-0x07bf: OUT   $5
-0x07c0: IMM   $5 10
-0x07c1: OUT   $5
-0x07c2: HALT
-0x07c3: IMM   $4 97
-0x07c4: IMM   $7 110
-0x07c5: IMM   $2 116
-0x07c6: IMM   $5 114
-0x07c7: IMM   $0 32
-0x07c8: IMM   $1 111
-0x07c9: IMM   $3 121
-0x07ca: OUT   $4
-0x07cb: OUT   $5
-0x07cc: OUT   $5
-0x07cd: OUT   $4
-0x07ce: OUT   $3
-0x07cf: OUT   $0
-0x07d0: OUT   $7
-0x07d1: OUT   $1
-0x07d2: OUT   $2
-0x07d3: OUT   $0
-0x07d4: IMM   $3 105
-0x07d5: OUT   $3
-0x07d6: OUT   $7
-0x07d7: OUT   $3
-0x07d8: OUT   $2
-0x07d9: OUT   $0
-0x07da: OUT   $2
-0x07db: OUT   $1
-0x07dc: OUT   $0
-0x07dd: IMM   $3 48
-0x07de: OUT   $3
-0x07df: IMM   $3 10
-0x07e0: OUT   $3
-0x07e1: HALT
-0x07e2: IMM   $2 121
-0x07e3: IMM   $1 116
-0x07e4: IMM   $7 111
-0x07e5: IMM   $4 114
-0x07e6: IMM   $0 32
-0x07e7: IMM   $3 110
-0x07e8: IMM   $5 97
-0x07e9: OUT   $5
-0x07ea: OUT   $4
-0x07eb: OUT   $4
-0x07ec: OUT   $5
-0x07ed: OUT   $2
-0x07ee: OUT   $0
-0x07ef: OUT   $3
-0x07f0: OUT   $7
-0x07f1: OUT   $1
-0x07f2: OUT   $0
-0x07f3: IMM   $2 105
-0x07f4: OUT   $2
-0x07f5: OUT   $3
-0x07f6: OUT   $2
-0x07f7: OUT   $1
-0x07f8: OUT   $0
-0x07f9: OUT   $1
-0x07fa: OUT   $7
-0x07fb: OUT   $0
-0x07fc: IMM   $2 48
-0x07fd: OUT   $2
-0x07fe: IMM   $2 10
-0x07ff: OUT   $2
-0x0800: HALT
-0x0801: IMM   $5 116
-0x0802: IMM   $1 121
-0x0803: IMM   $7 110
-0x0804: IMM   $0 97
-0x0805: IMM   $4 111
-0x0806: IMM   $3 114
-0x0807: IMM   $2 32
-0x0808: OUT   $0
-0x0809: OUT   $3
-0x080a: OUT   $3
-0x080b: OUT   $0
-0x080c: OUT   $1
-0x080d: OUT   $2
-0x080e: OUT   $7
-0x080f: OUT   $4
-0x0810: OUT   $5
-0x0811: OUT   $2
-0x0812: IMM   $1 105
-0x0813: OUT   $1
-0x0814: OUT   $7
-0x0815: OUT   $1
-0x0816: OUT   $5
-0x0817: OUT   $2
-0x0818: OUT   $5
-0x0819: OUT   $4
-0x081a: OUT   $2
-0x081b: IMM   $1 48
-0x081c: OUT   $1
-0x081d: IMM   $1 10
-0x081e: OUT   $1
-0x081f: HALT
-0x0820: IMM   $5 116
-0x0821: IMM   $3 111
-0x0822: IMM   $0 97
-0x0823: IMM   $2 110
-0x0824: IMM   $7 114
-0x0825: IMM   $1 121
-0x0826: IMM   $4 32
-0x0827: OUT   $0
-0x0828: OUT   $7
-0x0829: OUT   $7
-0x082a: OUT   $0
-0x082b: OUT   $1
-0x082c: OUT   $4
-0x082d: OUT   $2
-0x082e: OUT   $3
-0x082f: OUT   $5
-0x0830: OUT   $4
-0x0831: IMM   $1 105
-0x0832: OUT   $1
-0x0833: OUT   $2
-0x0834: OUT   $1
-0x0835: OUT   $5
-0x0836: OUT   $4
-0x0837: OUT   $5
-0x0838: OUT   $3
-0x0839: OUT   $4
-0x083a: IMM   $1 48
-0x083b: OUT   $1
-0x083c: IMM   $1 10
-0x083d: OUT   $1
-0x083e: HALT
-0x083f: IMM   $2 119
-0x0840: IMM   $7 79
-0x0841: IMM   $4 76
-0x0842: IMM   $3 65
-0x0843: IMM   $0 32
-0x0844: IMM   $1 110
-0x0845: IMM   $5 101
-0x0846: OUT   $1
-0x0847: OUT   $5
-0x0848: OUT   $2
-0x0849: OUT   $0
-0x084a: OUT   $3
-0x084b: OUT   $4
-0x084c: OUT   $4
-0x084d: OUT   $7
-0x084e: IMM   $7 67
-0x084f: OUT   $7
-0x0850: OUT   $0
-0x0851: IMM   $7 109
-0x0852: OUT   $7
-0x0853: IMM   $7 117
-0x0854: OUT   $7
-0x0855: IMM   $7 115
-0x0856: OUT   $7
-0x0857: IMM   $7 116
-0x0858: OUT   $7
-0x0859: OUT   $0
-0x085a: IMM   $7 98
-0x085b: OUT   $7
-0x085c: OUT   $5
-0x085d: OUT   $0
-0x085e: OUT   $1
-0x085f: IMM   $7 111
-0x0860: OUT   $7
-0x0861: OUT   $1
-0x0862: IMM   $7 45
-0x0863: OUT   $7
-0x0864: IMM   $7 48
-0x0865: OUT   $7
-0x0866: IMM   $7 10
-0x0867: OUT   $7
-0x0868: HALT
-0x0869: IMM   $7 73
-0x086a: IMM   $2 120
-0x086b: IMM   $5 100
-0x086c: IMM   $3 65
-0x086d: IMM   $4 47
-0x086e: IMM   $1 110
-0x086f: IMM   $0 101
-0x0870: OUT   $7
-0x0871: OUT   $1
-0x0872: OUT   $5
-0x0873: OUT   $0
-0x0874: OUT   $2
-0x0875: OUT   $4
-0x0876: OUT   $3
-0x0877: IMM   $3 109
-0x0878: OUT   $3
-0x0879: OUT   $0
-0x087a: OUT   $1
-0x087b: OUT   $5
-0x087c: IMM   $3 32
-0x087d: OUT   $3
-0x087e: IMM   $4 105
-0x087f: OUT   $4
-0x0880: OUT   $1
-0x0881: OUT   $3
-0x0882: IMM   $2 48
-0x0883: OUT   $2
-0x0884: IMM   $2 45
-0x0885: OUT   $2
-0x0886: IMM   $2 97
-0x0887: OUT   $2
-0x0888: IMM   $0 114
-0x0889: OUT   $0
-0x088a: OUT   $0
-0x088b: OUT   $2
-0x088c: IMM   $0 121
-0x088d: OUT   $0
-0x088e: OUT   $3
-0x088f: IMM   $0 102
-0x0890: OUT   $0
-0x0891: OUT   $2
-0x0892: OUT   $4
-0x0893: IMM   $0 108
-0x0894: OUT   $0
-0x0895: IMM   $0 10
-0x0896: OUT   $0
-0x0897: HALT
-0x0898: IMM   $7 32
-0x0899: IMM   $1 110
-0x089a: IMM   $0 100
-0x089b: IMM   $2 105
-0x089c: IMM   $5 120
-0x089d: IMM   $4 101
-0x089e: IMM   $3 73
-0x089f: OUT   $3
-0x08a0: OUT   $1
-0x08a1: OUT   $0
-0x08a2: OUT   $4
-0x08a3: OUT   $5
-0x08a4: OUT   $7
-0x08a5: OUT   $2
-0x08a6: OUT   $1
-0x08a7: OUT   $7
-0x08a8: IMM   $5 48
-0x08a9: OUT   $5
-0x08aa: IMM   $5 45
-0x08ab: OUT   $5
-0x08ac: IMM   $5 97
-0x08ad: OUT   $5
-0x08ae: IMM   $4 114
-0x08af: OUT   $4
-0x08b0: OUT   $4
-0x08b1: OUT   $5
-0x08b2: IMM   $4 121
-0x08b3: OUT   $4
-0x08b4: OUT   $7
-0x08b5: IMM   $4 102
-0x08b6: OUT   $4
-0x08b7: OUT   $5
-0x08b8: OUT   $2
-0x08b9: IMM   $4 108
-0x08ba: OUT   $4
-0x08bb: IMM   $4 10
-0x08bc: OUT   $4
-0x08bd: HALT
-0x08be: IMM   $2 111
-0x08bf: IMM   $0 101
-0x08c0: IMM   $3 103
-0x08c1: IMM   $5 54
-0x08c2: IMM   $4 114
-0x08c3: IMM   $7 110
-0x08c4: IMM   $1 32
-0x08c5: OUT   $4
-0x08c6: OUT   $0
-0x08c7: OUT   $3
-0x08c8: OUT   $1
-0x08c9: OUT   $5
-0x08ca: OUT   $1
-0x08cb: OUT   $7
-0x08cc: OUT   $2
-0x08cd: IMM   $7 116
-0x08ce: OUT   $7
-0x08cf: OUT   $1
-0x08d0: IMM   $7 122
-0x08d1: OUT   $7
-0x08d2: OUT   $0
-0x08d3: OUT   $4
-0x08d4: OUT   $2
-0x08d5: IMM   $7 10
-0x08d6: OUT   $7
-0x08d7: HALT
-0x08d8: IMM   $6 0
-0x08d9: IMM   $2 48
-0x08da: IMM   $3 2392
-0x08db: IMM   $4 2278
-0x08dc: IMM   $5 2271
-0x08dd: CMOVE $4 $5 $2
-0x08de: JUMP  $6 $4
-0x08df: NAND  $7 $6 $6
-0x08e0: ADD   $2 $7 $2
-0x08e1: ADD   $0 $3 $2
-0x08e2: RMEM  $0 $6 $0
-0x08e3: WMEM  $6 $2 $0
-0x08e4: IMM   $5 2267
-0x08e5: JUMP  $6 $5
-0x08e6: IMM   $2 11651
-0x08e7: ALLOC $0 $2
-0x08e8: IMM   $5 2440
-0x08e9: IMM   $3 2282
-0x08ea: IMM   $1 2292
-0x08eb: IMM   $4 2286
-0x08ec: CMOVE $1 $4 $2
-0x08ed: JUMP  $6 $1
-0x08ee: NAND  $7 $6 $6
-0x08ef: ADD   $2 $7 $2
-0x08f0: ADD   $4 $2 $5
-0x08f1: RMEM  $4 $6 $4
-0x08f2: WMEM  $0 $2 $4
-0x08f3: JUMP  $6 $3
-0x08f4: IMM   $2 11651
-0x08f5: IMM   $6 97
-0x08f6: OUT   $6
-0x08f7: IMM   $6 98
-0x08f8: OUT   $6
-0x08f9: IMM   $6 111
-0x08fa: OUT   $6
-0x08fb: IMM   $6 117
-0x08fc: OUT   $6
-0x08fd: IMM   $6 116
-0x08fe: OUT   $6
-0x08ff: IMM   $6 32
-0x0900: OUT   $6
-0x0901: IMM   $6 116
-0x0902: OUT   $6
-0x0903: IMM   $6 111
-0x0904: OUT   $6
-0x0905: IMM   $6 32
-0x0906: OUT   $6
-0x0907: IMM   $6 108
-0x0908: OUT   $6
-0x0909: IMM   $6 111
-0x090a: OUT   $6
-0x090b: IMM   $6 97
-0x090c: OUT   $6
-0x090d: IMM   $6 100
-0x090e: OUT   $6
-0x090f: IMM   $6 32
-0x0910: OUT   $6
-0x0911: IMM   $6 112
-0x0912: OUT   $6
-0x0913: IMM   $6 114
-0x0914: OUT   $6
-0x0915: IMM   $6 111
-0x0916: OUT   $6
-0x0917: IMM   $6 103
-0x0918: OUT   $6
-0x0919: IMM   $6 114
-0x091a: OUT   $6
-0x091b: IMM   $6 97
-0x091c: OUT   $6
-0x091d: IMM   $6 109
-0x091e: OUT   $6
-0x091f: IMM   $6 32
-0x0920: OUT   $6
-0x0921: IMM   $6 102
-0x0922: OUT   $6
-0x0923: IMM   $6 114
-0x0924: OUT   $6
-0x0925: IMM   $6 111
-0x0926: OUT   $6
-0x0927: IMM   $6 109
-0x0928: OUT   $6
-0x0929: IMM   $6 32
-0x092a: OUT   $6
-0x092b: IMM   $6 115
-0x092c: OUT   $6
-0x092d: IMM   $6 111
-0x092e: OUT   $6
-0x092f: IMM   $6 109
-0x0930: OUT   $6
-0x0931: IMM   $6 101
-0x0932: OUT   $6
-0x0933: IMM   $6 32
-0x0934: OUT   $6
-0x0935: IMM   $6 97
-0x0936: OUT   $6
-0x0937: IMM   $6 108
-0x0938: OUT   $6
-0x0939: OUT   $6
-0x093a: IMM   $6 111
-0x093b: OUT   $6
-0x093c: IMM   $6 99
-0x093d: OUT   $6
-0x093e: IMM   $6 97
-0x093f: OUT   $6
-0x0940: IMM   $6 116
-0x0941: OUT   $6
-0x0942: IMM   $6 101
-0x0943: OUT   $6
-0x0944: IMM   $6 100
-0x0945: OUT   $6
-0x0946: IMM   $6 32
-0x0947: OUT   $6
-0x0948: IMM   $6 97
-0x0949: OUT   $6
-0x094a: IMM   $6 114
-0x094b: OUT   $6
-0x094c: OUT   $6
-0x094d: IMM   $6 97
-0x094e: OUT   $6
-0x094f: IMM   $6 121
-0x0950: OUT   $6
-0x0951: IMM   $6 46
-0x0952: OUT   $6
-0x0953: OUT   $6
-0x0954: IMM   $6 10
-0x0955: OUT   $6
-0x0956: IMM   $6 0
-0x0957: JUMP  $0 $6
-0x0958: IMM   $3 100
-0x0959: IMM   $1 108
-0x095a: IMM   $0 111
-0x095b: IMM   $2 114
-0x095c: IMM   $7 112
-0x095d: IMM   $5 97
-0x095e: IMM   $4 103
-0x095f: OUT   $1
-0x0960: OUT   $0
-0x0961: OUT   $5
-0x0962: OUT   $3
-0x0963: OUT   $7
-0x0964: OUT   $2
-0x0965: OUT   $0
-0x0966: OUT   $4
-0x0967: IMM   $4 32
-0x0968: OUT   $4
-0x0969: OUT   $3
-0x096a: IMM   $0 105
-0x096b: OUT   $0
-0x096c: OUT   $3
-0x096d: IMM   $0 110
-0x096e: OUT   $0
-0x096f: IMM   $0 39
-0x0970: OUT   $0
-0x0971: IMM   $0 116
-0x0972: OUT   $0
-0x0973: OUT   $4
-0x0974: OUT   $2
-0x0975: IMM   $0 101
-0x0976: OUT   $0
-0x0977: OUT   $7
-0x0978: OUT   $1
-0x0979: OUT   $5
-0x097a: IMM   $7 99
-0x097b: OUT   $7
-0x097c: OUT   $0
-0x097d: OUT   $4
-0x097e: IMM   $7 48
-0x097f: OUT   $7
-0x0980: OUT   $4
-0x0981: OUT   $5
-0x0982: OUT   $2
-0x0983: OUT   $2
-0x0984: OUT   $5
-0x0985: IMM   $7 121
-0x0986: OUT   $7
-0x0987: HALT
-0x0988: IMM   $4 3
-0x0989: JUMP  $6 $4
-0x098a: CMOVE $0 $1 $0
-0x098b: IMM   $6 115
-0x098c: OUT   $6
-0x098d: IMM   $6 117
-0x098e: OUT   $6
-0x098f: IMM   $6 99
-0x0990: OUT   $6
-0x0991: OUT   $6
-0x0992: IMM   $6 101
-0x0993: OUT   $6
-0x0994: IMM   $6 115
-0x0995: OUT   $6
-0x0996: OUT   $6
-0x0997: IMM   $6 46
-0x0998: OUT   $6
-0x0999: IMM   $6 10
-0x099a: OUT   $6
-0x099b: IMM   $6 0
-0x099c: IMM   $6 118
-0x099d: OUT   $6
-0x099e: IMM   $6 101
-0x099f: OUT   $6
-0x09a0: IMM   $6 114
-0x09a1: OUT   $6
-0x09a2: IMM   $6 105
-0x09a3: OUT   $6
-0x09a4: IMM   $6 102
-0x09a5: OUT   $6
-0x09a6: IMM   $6 121
-0x09a7: OUT   $6
-0x09a8: IMM   $6 105
-0x09a9: OUT   $6
-0x09aa: IMM   $6 110
-0x09ab: OUT   $6
-0x09ac: IMM   $6 103
-0x09ad: OUT   $6
-0x09ae: IMM   $6 32
-0x09af: OUT   $6
-0x09b0: IMM   $6 116
-0x09b1: OUT   $6
-0x09b2: IMM   $6 104
-0x09b3: OUT   $6
-0x09b4: IMM   $6 97
-0x09b5: OUT   $6
-0x09b6: IMM   $6 116
-0x09b7: OUT   $6
-0x09b8: IMM   $6 32
-0x09b9: OUT   $6
-0x09ba: IMM   $6 116
-0x09bb: OUT   $6
-0x09bc: IMM   $6 104
-0x09bd: OUT   $6
-0x09be: IMM   $6 101
-0x09bf: OUT   $6
-0x09c0: IMM   $6 32
-0x09c1: OUT   $6
-0x09c2: IMM   $6 97
-0x09c3: OUT   $6
-0x09c4: IMM   $6 114
-0x09c5: OUT   $6
-0x09c6: OUT   $6
-0x09c7: IMM   $6 97
-0x09c8: OUT   $6
-0x09c9: IMM   $6 121
-0x09ca: OUT   $6
-0x09cb: IMM   $6 32
-0x09cc: OUT   $6
-0x09cd: IMM   $6 97
-0x09ce: OUT   $6
-0x09cf: IMM   $6 110
-0x09d0: OUT   $6
-0x09d1: IMM   $6 100
-0x09d2: OUT   $6
-0x09d3: IMM   $6 32
-0x09d4: OUT   $6
-0x09d5: IMM   $6 105
-0x09d6: OUT   $6
-0x09d7: IMM   $6 116
-0x09d8: OUT   $6
-0x09d9: IMM   $6 115
-0x09da: OUT   $6
-0x09db: IMM   $6 32
-0x09dc: OUT   $6
-0x09dd: IMM   $6 99
-0x09de: OUT   $6
-0x09df: IMM   $6 111
-0x09e0: OUT   $6
-0x09e1: IMM   $6 112
-0x09e2: OUT   $6
-0x09e3: IMM   $6 121
-0x09e4: OUT   $6
-0x09e5: IMM   $6 32
-0x09e6: OUT   $6
-0x09e7: IMM   $6 97
-0x09e8: OUT   $6
-0x09e9: IMM   $6 114
-0x09ea: OUT   $6
-0x09eb: IMM   $6 101
-0x09ec: OUT   $6
-0x09ed: IMM   $6 32
-0x09ee: OUT   $6
-0x09ef: IMM   $6 116
-0x09f0: OUT   $6
-0x09f1: IMM   $6 104
-0x09f2: OUT   $6
-0x09f3: IMM   $6 101
-0x09f4: OUT   $6
-0x09f5: IMM   $6 32
-0x09f6: OUT   $6
-0x09f7: IMM   $6 115
-0x09f8: OUT   $6
-0x09f9: IMM   $6 97
-0x09fa: OUT   $6
-0x09fb: IMM   $6 109
-0x09fc: OUT   $6
-0x09fd: IMM   $6 101
-0x09fe: OUT   $6
-0x09ff: IMM   $6 46
-0x0a00: OUT   $6
-0x0a01: OUT   $6
-0x0a02: OUT   $6
-0x0a03: IMM   $6 10
-0x0a04: OUT   $6
-0x0a05: IMM   $6 0
-0x0a06: IMM   $1 127
-0x0a07: IMM   $4 144
-0x0a08: IMM   $5 131
-0x0a09: CMOVE $4 $5 $2
-0x0a0a: JUMP  $6 $4
-0x0a0b: NAND  $7 $6 $6
-0x0a0c: ADD   $2 $7 $2
-0x0a0d: RMEM  $4 $6 $2
-0x0a0e: RMEM  $3 $0 $2
-0x0a0f: NAND  $7 $4 $4
-0x0a10: ADD   $4 $3 $7
-0x0a11: IMM   $7 1
-0x0a12: ADD   $4 $7 $4
-0x0a13: IMM   $3 570
-0x0a14: IMM   $5 143
-0x0a15: CMOVE $5 $3 $4
-0x0a16: JUMP  $6 $5
-0x0a17: JUMP  $6 $1
-0x0a18: IMM   $6 115
-0x0a19: OUT   $6
-0x0a1a: IMM   $6 117
-0x0a1b: OUT   $6
-0x0a1c: IMM   $6 99
-0x0a1d: OUT   $6
-0x0a1e: OUT   $6
-0x0a1f: IMM   $6 101
-0x0a20: OUT   $6
-0x0a21: IMM   $6 115
-0x0a22: OUT   $6
-0x0a23: OUT   $6
-0x0a24: IMM   $6 46
-0x0a25: OUT   $6
-0x0a26: IMM   $6 10
-0x0a27: OUT   $6
-0x0a28: IMM   $6 116
-0x0a29: OUT   $6
-0x0a2a: IMM   $6 101
-0x0a2b: OUT   $6
-0x0a2c: IMM   $6 115
-0x0a2d: OUT   $6
-0x0a2e: IMM   $6 116
-0x0a2f: OUT   $6
-0x0a30: IMM   $6 105
-0x0a31: OUT   $6
-0x0a32: IMM   $6 110
-0x0a33: OUT   $6
-0x0a34: IMM   $6 103
-0x0a35: OUT   $6
-0x0a36: IMM   $6 32
-0x0a37: OUT   $6
-0x0a38: IMM   $6 97
-0x0a39: OUT   $6
-0x0a3a: IMM   $6 108
-0x0a3b: OUT   $6
-0x0a3c: IMM   $6 105
-0x0a3d: OUT   $6
-0x0a3e: IMM   $6 97
-0x0a3f: OUT   $6
-0x0a40: IMM   $6 115
-0x0a41: OUT   $6
-0x0a42: IMM   $6 105
-0x0a43: OUT   $6
-0x0a44: IMM   $6 110
-0x0a45: OUT   $6
-0x0a46: IMM   $6 103
-0x0a47: OUT   $6
-0x0a48: IMM   $6 46
-0x0a49: OUT   $6
-0x0a4a: OUT   $6
-0x0a4b: IMM   $6 10
-0x0a4c: OUT   $6
-0x0a4d: IMM   $6 0
-0x0a4e: IMM   $4 378
-0x0a4f: IMM   $5 48879
-0x0a50: WMEM  $6 $4 $5
-0x0a51: RMEM  $3 $0 $4
-0x0a52: NAND  $7 $3 $3
-0x0a53: ADD   $3 $5 $7
-0x0a54: IMM   $7 1
-0x0a55: ADD   $3 $7 $3
-0x0a56: IMM   $1 472
-0x0a57: IMM   $2 210
-0x0a58: CMOVE $1 $2 $3
-0x0a59: JUMP  $6 $1
-0x0a5a: RMEM  $4 $6 $4
-0x0a5b: NAND  $7 $5 $5
-0x0a5c: ADD   $4 $4 $7
-0x0a5d: IMM   $7 1
-0x0a5e: ADD   $4 $7 $4
-0x0a5f: IMM   $1 380
-0x0a60: IMM   $2 219
-0x0a61: CMOVE $2 $1 $4
-0x0a62: JUMP  $6 $2
-0x0a63: IMM   $4 379
-0x0a64: IMM   $5 3240
-0x0a65: IMM   $7 65536
-0x0a66: MUL   $5 $7 $5
-0x0a67: IMM   $7 35438
-0x0a68: ADD   $5 $7 $5
-0x0a69: WMEM  $0 $4 $5
-0x0a6a: RMEM  $3 $6 $4
-0x0a6b: NAND  $7 $3 $3
-0x0a6c: ADD   $3 $5 $7
-0x0a6d: IMM   $7 1
-0x0a6e: ADD   $3 $7 $3
-0x0a6f: IMM   $1 521
-0x0a70: IMM   $2 235
-0x0a71: CMOVE $1 $2 $3
-0x0a72: JUMP  $6 $1
-0x0a73: RMEM  $4 $0 $4
-0x0a74: NAND  $7 $5 $5
-0x0a75: ADD   $4 $4 $7
-0x0a76: IMM   $7 1
-0x0a77: ADD   $4 $7 $4
-0x0a78: IMM   $1 425
-0x0a79: IMM   $2 244
-0x0a7a: CMOVE $2 $1 $4
-0x0a7b: JUMP  $6 $2
-0x0a7c: IMM   $6 115
-0x0a7d: OUT   $6
-0x0a7e: IMM   $6 117
-0x0a7f: OUT   $6
-0x0a80: IMM   $6 99
-0x0a81: OUT   $6
-0x0a82: OUT   $6
-0x0a83: IMM   $6 101
-0x0a84: OUT   $6
-0x0a85: IMM   $6 115
-0x0a86: OUT   $6
-0x0a87: OUT   $6
-0x0a88: IMM   $6 46
-0x0a89: OUT   $6
-0x0a8a: IMM   $6 10
-0x0a8b: OUT   $6
-0x0a8c: IMM   $6 102
-0x0a8d: OUT   $6
-0x0a8e: IMM   $6 114
-0x0a8f: OUT   $6
-0x0a90: IMM   $6 101
-0x0a91: OUT   $6
-0x0a92: OUT   $6
-0x0a93: IMM   $6 32
-0x0a94: OUT   $6
-0x0a95: IMM   $6 97
-0x0a96: OUT   $6
-0x0a97: IMM   $6 102
-0x0a98: OUT   $6
-0x0a99: IMM   $6 116
-0x0a9a: OUT   $6
-0x0a9b: IMM   $6 101
-0x0a9c: OUT   $6
-0x0a9d: IMM   $6 114
-0x0a9e: OUT   $6
-0x0a9f: IMM   $6 32
-0x0aa0: OUT   $6
-0x0aa1: IMM   $6 108
-0x0aa2: OUT   $6
-0x0aa3: IMM   $6 111
-0x0aa4: OUT   $6
-0x0aa5: IMM   $6 97
-0x0aa6: OUT   $6
-0x0aa7: IMM   $6 100
-0x0aa8: OUT   $6
-0x0aa9: IMM   $6 112
-0x0aaa: OUT   $6
-0x0aab: IMM   $6 114
-0x0aac: OUT   $6
-0x0aad: IMM   $6 111
-0x0aae: OUT   $6
-0x0aaf: IMM   $6 103
-0x0ab0: OUT   $6
-0x0ab1: IMM   $6 46
-0x0ab2: OUT   $6
-0x0ab3: OUT   $6
-0x0ab4: IMM   $6 10
-0x0ab5: OUT   $6
-0x0ab6: IMM   $6 0
-0x0ab7: FREE  $0
-0x0ab8: IMM   $0 7
-0x0ab9: ALLOC $0 $0
-0x0aba: IMM   $1 7
-0x0abb: ALLOC $1 $1
-0x0abc: IMM   $2 7
-0x0abd: ALLOC $2 $2
-0x0abe: IMM   $3 7
-0x0abf: ALLOC $3 $3
-0x0ac0: IMM   $4 7
-0x0ac1: ALLOC $4 $4
-0x0ac2: IMM   $5 7
-0x0ac3: ALLOC $5 $5
-0x0ac4: IMM   $7 7
-0x0ac5: ALLOC $7 $7
-0x0ac6: FREE  $0
-0x0ac7: FREE  $1
-0x0ac8: FREE  $2
-0x0ac9: FREE  $3
-0x0aca: FREE  $4
-0x0acb: FREE  $5
-0x0acc: FREE  $7
-0x0acd: IMM   $6 115
-0x0ace: OUT   $6
-0x0acf: IMM   $6 117
-0x0ad0: OUT   $6
-0x0ad1: IMM   $6 99
-0x0ad2: OUT   $6
-0x0ad3: OUT   $6
-0x0ad4: IMM   $6 101
-0x0ad5: OUT   $6
-0x0ad6: IMM   $6 115
-0x0ad7: OUT   $6
-0x0ad8: OUT   $6
-0x0ad9: IMM   $6 46
-0x0ada: OUT   $6
-0x0adb: IMM   $6 10
-0x0adc: OUT   $6
-0x0add: IMM   $6 0
-0x0ade: IMM   $6 108
-0x0adf: OUT   $6
-0x0ae0: IMM   $6 111
-0x0ae1: OUT   $6
-0x0ae2: IMM   $6 97
-0x0ae3: OUT   $6
-0x0ae4: IMM   $6 100
-0x0ae5: OUT   $6
-0x0ae6: IMM   $6 112
-0x0ae7: OUT   $6
-0x0ae8: IMM   $6 114
-0x0ae9: OUT   $6
-0x0aea: IMM   $6 111
-0x0aeb: OUT   $6
-0x0aec: IMM   $6 103
-0x0aed: OUT   $6
-0x0aee: IMM   $6 32
-0x0aef: OUT   $6
-0x0af0: IMM   $6 111
-0x0af1: OUT   $6
-0x0af2: IMM   $6 107
-0x0af3: OUT   $6
-0x0af4: IMM   $6 46
-0x0af5: OUT   $6
-0x0af6: IMM   $6 10
-0x0af7: OUT   $6
-0x0af8: IMM   $6 0
-0x0af9: IMM   $0 0
-0x0afa: IMM   $1 0
-0x0afb: IMM   $2 0
-0x0afc: IMM   $3 0
-0x0afd: IMM   $5 0
-0x0afe: IMM   $6 0
-0x0aff: IMM   $7 0
-0x0b00: IMM   $4 601
-0x0b01: JUMP  $6 $4
-0x0b02: CMOVE $6 $5 $5
-0x0b03: IN    $7
-0x0b04: IMM   $3 108
-0x0b05: IMM   $4 112
-0x0b06: IMM   $2 103
-0x0b07: IMM   $7 100
-0x0b08: IMM   $0 114
-0x0b09: IMM   $5 111
-0x0b0a: IMM   $1 97
-0x0b0b: OUT   $3
-0x0b0c: OUT   $5
-0x0b0d: OUT   $1
-0x0b0e: OUT   $7
-0x0b0f: OUT   $4
-0x0b10: OUT   $0
-0x0b11: OUT   $5
-0x0b12: OUT   $2
-0x0b13: IMM   $2 58
-0x0b14: OUT   $2
-0x0b15: IMM   $2 32
-0x0b16: OUT   $2
-0x0b17: IMM   $4 119
-0x0b18: OUT   $4
-0x0b19: OUT   $0
-0x0b1a: IMM   $4 105
-0x0b1b: OUT   $4
-0x0b1c: IMM   $7 116
-0x0b1d: OUT   $7
-0x0b1e: IMM   $7 101
-0x0b1f: OUT   $7
-0x0b20: OUT   $2
-0x0b21: IMM   $7 48
-0x0b22: OUT   $7
-0x0b23: OUT   $2
-0x0b24: OUT   $1
-0x0b25: OUT   $0
-0x0b26: OUT   $0
-0x0b27: OUT   $1
-0x0b28: IMM   $7 121
-0x0b29: OUT   $7
-0x0b2a: OUT   $2
-0x0b2b: IMM   $7 102
-0x0b2c: OUT   $7
-0x0b2d: OUT   $1
-0x0b2e: OUT   $4
-0x0b2f: OUT   $3
-0x0b30: HALT
-0x0b31: IMM   $4 100
-0x0b32: IMM   $2 112
-0x0b33: IMM   $7 97
-0x0b34: IMM   $1 103
-0x0b35: IMM   $3 114
-0x0b36: IMM   $0 108
-0x0b37: IMM   $5 111
-0x0b38: OUT   $0
-0x0b39: OUT   $5
-0x0b3a: OUT   $7
-0x0b3b: OUT   $4
-0x0b3c: OUT   $2
-0x0b3d: OUT   $3
-0x0b3e: OUT   $5
-0x0b3f: OUT   $1
-0x0b40: IMM   $1 58
-0x0b41: OUT   $1
-0x0b42: IMM   $1 32
-0x0b43: OUT   $1
-0x0b44: IMM   $2 119
-0x0b45: OUT   $2
-0x0b46: OUT   $3
-0x0b47: IMM   $2 105
-0x0b48: OUT   $2
-0x0b49: IMM   $2 116
-0x0b4a: OUT   $2
-0x0b4b: IMM   $2 101
-0x0b4c: OUT   $2
-0x0b4d: OUT   $1
-0x0b4e: OUT   $5
-0x0b4f: OUT   $0
-0x0b50: OUT   $4
-0x0b51: OUT   $1
-0x0b52: OUT   $7
-0x0b53: OUT   $3
-0x0b54: OUT   $3
-0x0b55: OUT   $7
-0x0b56: IMM   $2 121
-0x0b57: OUT   $2
-0x0b58: OUT   $1
-0x0b59: IMM   $2 102
-0x0b5a: OUT   $2
-0x0b5b: OUT   $7
-0x0b5c: IMM   $2 105
-0x0b5d: OUT   $2
-0x0b5e: OUT   $0
-0x0b5f: HALT
-0x0b60: IMM   $1 112
-0x0b61: IMM   $5 108
-0x0b62: IMM   $4 114
-0x0b63: IMM   $3 100
-0x0b64: IMM   $0 103
-0x0b65: IMM   $7 97
-0x0b66: IMM   $2 111
-0x0b67: OUT   $5
-0x0b68: OUT   $2
-0x0b69: OUT   $7
-0x0b6a: OUT   $3
-0x0b6b: OUT   $1
-0x0b6c: OUT   $4
-0x0b6d: OUT   $2
-0x0b6e: OUT   $0
-0x0b6f: IMM   $0 58
-0x0b70: OUT   $0
-0x0b71: IMM   $0 32
-0x0b72: OUT   $0
-0x0b73: OUT   $7
-0x0b74: OUT   $4
-0x0b75: OUT   $4
-0x0b76: OUT   $7
-0x0b77: IMM   $4 121
-0x0b78: OUT   $4
-0x0b79: OUT   $0
-0x0b7a: IMM   $4 110
-0x0b7b: OUT   $4
-0x0b7c: OUT   $2
-0x0b7d: IMM   $4 116
-0x0b7e: OUT   $4
-0x0b7f: OUT   $0
-0x0b80: IMM   $4 99
-0x0b81: OUT   $4
-0x0b82: OUT   $2
-0x0b83: OUT   $1
-0x0b84: IMM   $4 105
-0x0b85: OUT   $4
-0x0b86: IMM   $4 101
-0x0b87: OUT   $4
-0x0b88: OUT   $3
-0x0b89: OUT   $0
-0x0b8a: IMM   $4 40
-0x0b8b: OUT   $4
-0x0b8c: IMM   $4 49
-0x0b8d: OUT   $4
-0x0b8e: IMM   $4 41
-0x0b8f: OUT   $4
-0x0b90: HALT
-0x0b91: IMM   $0 97
-0x0b92: IMM   $1 108
-0x0b93: IMM   $4 111
-0x0b94: IMM   $2 112
-0x0b95: IMM   $3 103
-0x0b96: IMM   $7 114
-0x0b97: IMM   $5 100
-0x0b98: OUT   $1
-0x0b99: OUT   $4
-0x0b9a: OUT   $0
-0x0b9b: OUT   $5
-0x0b9c: OUT   $2
-0x0b9d: OUT   $7
-0x0b9e: OUT   $4
-0x0b9f: OUT   $3
-0x0ba0: IMM   $3 58
-0x0ba1: OUT   $3
-0x0ba2: IMM   $3 32
-0x0ba3: OUT   $3
-0x0ba4: OUT   $0
-0x0ba5: OUT   $7
-0x0ba6: OUT   $7
-0x0ba7: OUT   $0
-0x0ba8: IMM   $7 121
-0x0ba9: OUT   $7
-0x0baa: OUT   $3
-0x0bab: IMM   $7 110
-0x0bac: OUT   $7
-0x0bad: OUT   $4
-0x0bae: IMM   $7 116
-0x0baf: OUT   $7
-0x0bb0: OUT   $3
-0x0bb1: IMM   $7 99
-0x0bb2: OUT   $7
-0x0bb3: OUT   $4
-0x0bb4: OUT   $2
-0x0bb5: IMM   $7 105
-0x0bb6: OUT   $7
-0x0bb7: IMM   $7 101
-0x0bb8: OUT   $7
-0x0bb9: OUT   $5
-0x0bba: OUT   $3
-0x0bbb: IMM   $7 40
-0x0bbc: OUT   $7
-0x0bbd: IMM   $7 50
-0x0bbe: OUT   $7
-0x0bbf: IMM   $7 41
-0x0bc0: OUT   $7
-0x0bc1: HALT
-0x0bc2: IMM   $1 114
-0x0bc3: IMM   $4 111
-0x0bc4: IMM   $5 97
-0x0bc5: IMM   $0 112
-0x0bc6: IMM   $3 103
-0x0bc7: IMM   $7 108
-0x0bc8: IMM   $2 100
-0x0bc9: OUT   $7
-0x0bca: OUT   $4
-0x0bcb: OUT   $5
-0x0bcc: OUT   $2
-0x0bcd: OUT   $0
-0x0bce: OUT   $1
-0x0bcf: OUT   $4
-0x0bd0: OUT   $3
-0x0bd1: IMM   $3 32
-0x0bd2: OUT   $3
-0x0bd3: IMM   $1 99
-0x0bd4: OUT   $1
-0x0bd5: OUT   $4
-0x0bd6: OUT   $0
-0x0bd7: IMM   $1 121
-0x0bd8: OUT   $1
-0x0bd9: OUT   $3
-0x0bda: IMM   $1 102
-0x0bdb: OUT   $1
-0x0bdc: OUT   $5
-0x0bdd: IMM   $1 105
-0x0bde: OUT   $1
-0x0bdf: OUT   $7
-0x0be0: HALT
-0x0be1: IMM   $0 1083
-0x0be2: IMM   $1 1064
-0x0be3: IMM   $2 665
-0x0be4: JUMP  $6 $2
-0x0be5: CMOVE $0 $0 $1
-0x0be6: CMOVE $0 $0 $2
-0x0be7: CMOVE $0 $0 $4
-0x0be8: CMOVE $0 $1 $0
-0x0be9: CMOVE $0 $2 $0
-0x0bea: CMOVE $0 $4 $0
-0x0beb: CMOVE $1 $0 $0
-0x0bec: CMOVE $2 $0 $0
-0x0bed: CMOVE $4 $0 $0
-0x0bee: CMOVE $0 $0 $0
-0x0bef: CMOVE $0 $0 $0
-0x0bf0: CMOVE $0 $0 $0
-0x0bf1: CMOVE $0 $0 $0
-0x0bf2: CMOVE $0 $0 $0
-0x0bf3: CMOVE $0 $0 $0
-0x0bf4: CMOVE $0 $0 $0
-0x0bf5: CMOVE $0 $0 $0
-0x0bf6: CMOVE $0 $0 $0
-0x0bf7: CMOVE $0 $0 $0
-0x0bf8: CMOVE $0 $0 $0
-0x0bf9: CMOVE $0 $0 $0
-0x0bfa: CMOVE $0 $0 $0
-0x0bfb: CMOVE $0 $0 $0
-0x0bfc: CMOVE $0 $0 $0
-0x0bfd: CMOVE $0 $0 $0
-0x0bfe: CMOVE $0 $0 $0
-0x0bff: CMOVE $0 $0 $0
-0x0c00: CMOVE $0 $0 $0
-0x0c01: RMEM  $0 $0 $0
-0x0c02: WMEM  $0 $0 $0
-0x0c03: MUL   $0 $0 $0
-0x0c04: ALLOC $0 $0
-0x0c05: CMOVE $0 $0 $1
-0x0c06: CMOVE $4 $0 $0
-0x0c07: CMOVE $0 $0 $0
-0x0c08: CMOVE $0 $0 $0
-0x0c09: CMOVE $0 $0 $0
-0x0c0a: CMOVE $0 $0 $0
-0x0c0b: CMOVE $0 $0 $0
-0x0c0c: CMOVE $0 $0 $0
-0x0c0d: CMOVE $0 $0 $0
-0x0c0e: CMOVE $0 $0 $0
-0x0c0f: CMOVE $0 $0 $0
-0x0c10: CMOVE $0 $0 $0
-0x0c11: CMOVE $0 $0 $0
-0x0c12: CMOVE $0 $0 $0
-0x0c13: CMOVE $0 $0 $0
-0x0c14: CMOVE $0 $0 $0
-0x0c15: CMOVE $0 $0 $0
-0x0c16: CMOVE $0 $0 $0
-0x0c17: CMOVE $0 $0 $0
-0x0c18: CMOVE $0 $0 $0
-0x0c19: CMOVE $0 $0 $0
-0x0c1a: CMOVE $0 $0 $0
-0x0c1b: CMOVE $0 $0 $0
-0x0c1c: CMOVE $0 $0 $0
-0x0c1d: CMOVE $0 $0 $0
-0x0c1e: CMOVE $0 $0 $0
-0x0c1f: CMOVE $0 $0 $0
-0x0c20: CMOVE $0 $0 $0
-0x0c21: IMM   $7 645
-0x0c22: WMEM  $6 $7 $1
-0x0c23: IMM   $7 644
-0x0c24: WMEM  $6 $7 $0
-0x0c25: IMM   $2 3
-0x0c26: ADD   $1 $0 $2
-0x0c27: IMM   $7 649
-0x0c28: WMEM  $6 $7 $1
-0x0c29: IMM   $2 32
-0x0c2a: IMM   $7 651
-0x0c2b: WMEM  $6 $7 $2
-0x0c2c: IMM   $2 0
-0x0c2d: ADD   $1 $0 $2
-0x0c2e: RMEM  $1 $6 $1
-0x0c2f: IMM   $7 650
-0x0c30: WMEM  $6 $7 $1
-0x0c31: IMM   $2 1
-0x0c32: ADD   $1 $0 $2
-0x0c33: RMEM  $1 $6 $1
-0x0c34: ALLOC $1 $1
-0x0c35: IMM   $7 643
-0x0c36: WMEM  $6 $7 $1
-0x0c37: IMM   $2 2
-0x0c38: ADD   $1 $0 $2
-0x0c39: RMEM  $1 $6 $1
-0x0c3a: ALLOC $2 $1
-0x0c3b: ALLOC $3 $1
-0x0c3c: IMM   $7 641
-0x0c3d: WMEM  $6 $7 $2
-0x0c3e: IMM   $7 642
-0x0c3f: WMEM  $6 $7 $3
-0x0c40: IMM   $7 646
-0x0c41: WMEM  $6 $7 $6
-0x0c42: IMM   $7 647
-0x0c43: WMEM  $6 $7 $6
-0x0c44: IMM   $7 656
-0x0c45: WMEM  $6 $7 $6
-0x0c46: IMM   $0 9
-0x0c47: IMM   $7 648
-0x0c48: WMEM  $6 $7 $0
-0x0c49: IMM   $0 708
-0x0c4a: IMM   $7 993
-0x0c4b: JUMP  $6 $7
-0x0c4c: NAND  $7 $6 $6
-0x0c4d: ADD   $1 $7 $1
-0x0c4e: IMM   $7 655
-0x0c4f: WMEM  $6 $7 $1
-0x0c50: IMM   $0 715
-0x0c51: IMM   $7 970
-0x0c52: JUMP  $6 $7
-0x0c53: IMM   $0 1
-0x0c54: IMM   $7 654
-0x0c55: WMEM  $6 $7 $0
-0x0c56: IMM   $7 653
-0x0c57: WMEM  $6 $7 $6
-0x0c58: IMM   $0 730
-0x0c59: JUMP  $6 $0
-0x0c5a: IMM   $7 648
-0x0c5b: RMEM  $0 $6 $7
-0x0c5c: IMM   $1 1
-0x0c5d: ADD   $0 $1 $0
-0x0c5e: IMM   $7 648
-0x0c5f: WMEM  $6 $7 $0
-0x0c60: IMM   $0 730
-0x0c61: JUMP  $6 $0
-0x0c62: IMM   $0 733
-0x0c63: IMM   $7 993
-0x0c64: JUMP  $6 $7
-0x0c65: IMM   $4 722
-0x0c66: IMM   $5 737
-0x0c67: CMOVE $4 $5 $1
-0x0c68: JUMP  $6 $4
-0x0c69: NAND  $7 $6 $6
-0x0c6a: ADD   $1 $7 $1
-0x0c6b: IMM   $0 255
-0x0c6c: NAND  $0 $1 $0
-0x0c6d: NAND  $0 $0 $0
-0x0c6e: NAND  $7 $0 $0
-0x0c6f: ADD   $0 $1 $7
-0x0c70: IMM   $7 1
-0x0c71: ADD   $0 $7 $0
-0x0c72: IMM   $4 775
-0x0c73: IMM   $5 750
-0x0c74: CMOVE $5 $4 $0
-0x0c75: JUMP  $6 $5
-0x0c76: IMM   $7 655
-0x0c77: WMEM  $6 $7 $1
-0x0c78: IMM   $0 755
-0x0c79: IMM   $7 970
-0x0c7a: JUMP  $6 $7
-0x0c7b: IMM   $7 654
-0x0c7c: RMEM  $3 $6 $7
-0x0c7d: IMM   $2 1
-0x0c7e: ADD   $1 $3 $2
-0x0c7f: IMM   $7 661
-0x0c80: WMEM  $6 $7 $1
-0x0c81: IMM   $7 653
-0x0c82: RMEM  $0 $6 $7
-0x0c83: IMM   $7 660
-0x0c84: WMEM  $6 $7 $0
-0x0c85: ADD   $0 $0 $3
-0x0c86: IMM   $7 653
-0x0c87: WMEM  $6 $7 $0
-0x0c88: IMM   $7 654
-0x0c89: WMEM  $6 $7 $2
-0x0c8a: IMM   $0 773
-0x0c8b: IMM   $7 953
-0x0c8c: JUMP  $6 $7
-0x0c8d: IMM   $0 730
-0x0c8e: JUMP  $6 $0
-0x0c8f: IMM   $0 256
-0x0c90: IMM   $7 646
-0x0c91: RMEM  $2 $6 $7
-0x0c92: ADD   $2 $2 $0
-0x0c93: NAND  $5 $2 $2
-0x0c94: ADD   $2 $1 $5
-0x0c95: IMM   $5 1
-0x0c96: ADD   $2 $5 $2
-0x0c97: IMM   $3 897
-0x0c98: IMM   $4 787
-0x0c99: CMOVE $3 $4 $2
-0x0c9a: JUMP  $6 $3
-0x0c9b: IMM   $0 256
-0x0c9c: NAND  $5 $0 $0
-0x0c9d: ADD   $1 $1 $5
-0x0c9e: IMM   $5 1
-0x0c9f: ADD   $1 $5 $1
-0x0ca0: IMM   $7 641
-0x0ca1: RMEM  $5 $6 $7
-0x0ca2: RMEM  $2 $5 $1
-0x0ca3: IMM   $7 642
-0x0ca4: RMEM  $5 $6 $7
-0x0ca5: RMEM  $3 $5 $1
-0x0ca6: IMM   $7 657
-0x0ca7: WMEM  $6 $7 $2
-0x0ca8: IMM   $7 658
-0x0ca9: WMEM  $6 $7 $3
-0x0caa: IMM   $7 659
-0x0cab: WMEM  $6 $7 $3
-0x0cac: IMM   $0 832
-0x0cad: JUMP  $6 $0
-0x0cae: IMM   $7 654
-0x0caf: RMEM  $2 $6 $7
-0x0cb0: IMM   $5 1
-0x0cb1: ADD   $2 $2 $5
-0x0cb2: IMM   $7 661
-0x0cb3: WMEM  $6 $7 $2
-0x0cb4: IMM   $7 653
-0x0cb5: RMEM  $2 $6 $7
-0x0cb6: IMM   $7 660
-0x0cb7: WMEM  $6 $7 $2
-0x0cb8: IMM   $0 819
-0x0cb9: IMM   $7 953
-0x0cba: JUMP  $6 $7
-0x0cbb: IMM   $7 653
-0x0cbc: RMEM  $0 $6 $7
-0x0cbd: IMM   $7 654
-0x0cbe: RMEM  $1 $6 $7
-0x0cbf: ADD   $0 $1 $0
-0x0cc0: IMM   $7 653
-0x0cc1: WMEM  $6 $7 $0
-0x0cc2: IMM   $7 659
-0x0cc3: RMEM  $0 $6 $7
-0x0cc4: IMM   $7 654
-0x0cc5: WMEM  $6 $7 $0
-0x0cc6: IMM   $0 730
-0x0cc7: JUMP  $6 $0
-0x0cc8: IMM   $7 658
-0x0cc9: RMEM  $1 $6 $7
-0x0cca: IMM   $3 806
-0x0ccb: IMM   $4 838
-0x0ccc: CMOVE $3 $4 $1
-0x0ccd: JUMP  $6 $3
-0x0cce: NAND  $0 $6 $6
-0x0ccf: ADD   $1 $0 $1
-0x0cd0: IMM   $7 658
-0x0cd1: WMEM  $6 $7 $1
-0x0cd2: IMM   $7 657
-0x0cd3: RMEM  $3 $6 $7
-0x0cd4: IMM   $0 1
-0x0cd5: ADD   $2 $0 $3
-0x0cd6: IMM   $7 657
-0x0cd7: WMEM  $6 $7 $2
-0x0cd8: IMM   $0 857
-0x0cd9: JUMP  $6 $0
-0x0cda: IMM   $7 655
-0x0cdb: WMEM  $6 $7 $1
-0x0cdc: IMM   $0 855
-0x0cdd: IMM   $7 970
-0x0cde: JUMP  $6 $7
-0x0cdf: IMM   $0 832
-0x0ce0: JUMP  $6 $0
-0x0ce1: IMM   $7 656
-0x0ce2: RMEM  $4 $6 $7
-0x0ce3: IMM   $2 3
-0x0ce4: NAND  $1 $4 $2
-0x0ce5: NAND  $1 $1 $1
-0x0ce6: IMM   $2 4
-0x0ce7: NAND  $7 $1 $1
-0x0ce8: ADD   $1 $2 $7
-0x0ce9: IMM   $7 1
-0x0cea: ADD   $1 $7 $1
-0x0ceb: DIV   $4 $4 $2
-0x0cec: DIV   $0 $3 $2
-0x0ced: NAND  $7 $0 $0
-0x0cee: ADD   $5 $4 $7
-0x0cef: IMM   $7 1
-0x0cf0: ADD   $5 $7 $5
-0x0cf1: CMOVE $1 $6 $5
-0x0cf2: IMM   $7 643
-0x0cf3: RMEM  $4 $6 $7
-0x0cf4: RMEM  $0 $4 $0
-0x0cf5: IMM   $2 3
-0x0cf6: NAND  $3 $3 $2
-0x0cf7: NAND  $3 $3 $3
-0x0cf8: NAND  $7 $3 $3
-0x0cf9: ADD   $3 $2 $7
-0x0cfa: IMM   $7 1
-0x0cfb: ADD   $3 $7 $3
-0x0cfc: NAND  $7 $1 $1
-0x0cfd: ADD   $3 $3 $7
-0x0cfe: IMM   $7 1
-0x0cff: ADD   $3 $7 $3
-0x0d00: IMM   $1 637
-0x0d01: ADD   $1 $1 $3
-0x0d02: RMEM  $3 $6 $1
-0x0d03: DIV   $0 $0 $3
-0x0d04: IMM   $2 255
-0x0d05: NAND  $1 $2 $0
-0x0d06: NAND  $1 $1 $1
-0x0d07: IMM   $0 850
-0x0d08: JUMP  $6 $0
-0x0d09: IMM   $4 58
-0x0d0a: IMM   $7 32
-0x0d0b: IMM   $1 69
-0x0d0c: IMM   $2 111
-0x0d0d: IMM   $3 82
-0x0d0e: IMM   $5 79
-0x0d0f: IMM   $0 99
-0x0d10: OUT   $1
-0x0d11: OUT   $3
-0x0d12: OUT   $3
-0x0d13: OUT   $5
-0x0d14: OUT   $3
-0x0d15: OUT   $4
-0x0d16: OUT   $7
-0x0d17: OUT   $0
-0x0d18: OUT   $2
-0x0d19: IMM   $4 109
-0x0d1a: OUT   $4
-0x0d1b: IMM   $4 112
-0x0d1c: OUT   $4
-0x0d1d: IMM   $5 114
-0x0d1e: OUT   $5
-0x0d1f: IMM   $3 101
-0x0d20: OUT   $3
-0x0d21: IMM   $1 115
-0x0d22: OUT   $1
-0x0d23: OUT   $1
-0x0d24: OUT   $3
-0x0d25: IMM   $1 100
-0x0d26: OUT   $1
-0x0d27: OUT   $7
-0x0d28: OUT   $1
-0x0d29: IMM   $1 97
-0x0d2a: OUT   $1
-0x0d2b: IMM   $3 116
-0x0d2c: OUT   $3
-0x0d2d: OUT   $1
-0x0d2e: OUT   $7
-0x0d2f: OUT   $1
-0x0d30: OUT   $5
-0x0d31: IMM   $1 101
-0x0d32: OUT   $1
-0x0d33: OUT   $7
-0x0d34: OUT   $0
-0x0d35: OUT   $2
-0x0d36: OUT   $5
-0x0d37: OUT   $5
-0x0d38: IMM   $1 117
-0x0d39: OUT   $1
-0x0d3a: OUT   $4
-0x0d3b: OUT   $3
-0x0d3c: IMM   $1 63
-0x0d3d: OUT   $1
-0x0d3e: IMM   $1 10
-0x0d3f: OUT   $1
-0x0d40: HALT
-0x0d41: IMM   $7 646
-0x0d42: RMEM  $1 $6 $7
-0x0d43: IMM   $7 661
-0x0d44: RMEM  $2 $6 $7
-0x0d45: IMM   $7 642
-0x0d46: RMEM  $5 $6 $7
-0x0d47: WMEM  $5 $1 $2
-0x0d48: IMM   $7 660
-0x0d49: RMEM  $3 $6 $7
-0x0d4a: IMM   $7 641
-0x0d4b: RMEM  $5 $6 $7
-0x0d4c: WMEM  $5 $1 $3
-0x0d4d: IMM   $2 1
-0x0d4e: ADD   $1 $1 $2
-0x0d4f: IMM   $7 646
-0x0d50: WMEM  $6 $7 $1
-0x0d51: JUMP  $6 $0
-0x0d52: IMM   $7 656
-0x0d53: RMEM  $4 $6 $7
-0x0d54: IMM   $1 4
-0x0d55: DIV   $1 $4 $1
-0x0d56: IMM   $3 1
-0x0d57: ADD   $4 $4 $3
-0x0d58: IMM   $7 656
-0x0d59: WMEM  $6 $7 $4
-0x0d5a: IMM   $7 643
-0x0d5b: RMEM  $4 $6 $7
-0x0d5c: RMEM  $2 $4 $1
-0x0d5d: IMM   $3 256
-0x0d5e: MUL   $2 $2 $3
-0x0d5f: IMM   $7 655
-0x0d60: RMEM  $3 $6 $7
-0x0d61: ADD   $2 $2 $3
-0x0d62: WMEM  $4 $1 $2
-0x0d63: JUMP  $6 $0
-0x0d64: IMM   $7 643
-0x0d65: RMEM  $0 $6 $7
-0x0d66: IMM   $7 645
-0x0d67: RMEM  $2 $6 $7
-0x0d68: JUMP  $6 $2
-0x0d69: IMM   $7 652
-0x0d6a: WMEM  $6 $7 $0
-0x0d6b: IMM   $7 650
-0x0d6c: RMEM  $2 $6 $7
-0x0d6d: IMM   $3 988
-0x0d6e: IMM   $4 1001
-0x0d6f: CMOVE $3 $4 $2
-0x0d70: JUMP  $6 $3
-0x0d71: NAND  $3 $6 $6
-0x0d72: ADD   $2 $3 $2
-0x0d73: IMM   $7 650
-0x0d74: WMEM  $6 $7 $2
-0x0d75: IMM   $1 0
-0x0d76: IMM   $7 648
-0x0d77: RMEM  $3 $6 $7
-0x0d78: IMM   $0 1010
-0x0d79: JUMP  $6 $0
-0x0d7a: IMM   $7 651
-0x0d7b: RMEM  $2 $6 $7
-0x0d7c: NAND  $7 $3 $3
-0x0d7d: ADD   $0 $2 $7
-0x0d7e: IMM   $7 1
-0x0d7f: ADD   $0 $7 $0
-0x0d80: IMM   $4 32768
-0x0d81: IMM   $7 65536
-0x0d82: MUL   $4 $7 $4
-0x0d83: NAND  $4 $0 $4
-0x0d84: CMOVE $0 $3 $4
-0x0d85: NAND  $4 $4 $4
-0x0d86: CMOVE $0 $2 $4
-0x0d87: NAND  $7 $0 $0
-0x0d88: ADD   $2 $2 $7
-0x0d89: IMM   $7 1
-0x0d8a: ADD   $2 $7 $2
-0x0d8b: IMM   $7 32
-0x0d8c: CMOVE $2 $7 $4
-0x0d8d: IMM   $7 651
-0x0d8e: WMEM  $6 $7 $2
-0x0d8f: NAND  $7 $0 $0
-0x0d90: ADD   $3 $3 $7
-0x0d91: IMM   $7 1
-0x0d92: ADD   $3 $7 $3
-0x0d93: IMM   $7 649
-0x0d94: RMEM  $2 $6 $7
-0x0d95: RMEM  $2 $6 $2
-0x0d96: IMM   $5 605
-0x0d97: ADD   $5 $0 $5
-0x0d98: RMEM  $5 $6 $5
-0x0d99: MUL   $1 $1 $5
-0x0d9a: DIV   $0 $2 $5
-0x0d9b: NAND  $7 $6 $6
-0x0d9c: ADD   $5 $7 $5
-0x0d9d: NAND  $7 $5 $2
-0x0d9e: NAND  $7 $7 $7
-0x0d9f: ADD   $1 $1 $7
-0x0da0: IMM   $7 649
-0x0da1: RMEM  $5 $6 $7
-0x0da2: WMEM  $6 $5 $0
-0x0da3: IMM   $0 0
-0x0da4: IMM   $7 1
-0x0da5: CMOVE $0 $7 $4
-0x0da6: ADD   $5 $0 $5
-0x0da7: IMM   $0 649
-0x0da8: WMEM  $6 $0 $5
-0x0da9: IMM   $5 1010
-0x0daa: IMM   $7 1061
-0x0dab: CMOVE $7 $5 $3
-0x0dac: JUMP  $6 $7
-0x0dad: IMM   $7 652
-0x0dae: RMEM  $0 $6 $7
-0x0daf: JUMP  $6 $0
-0x0db0: IMM   $1 662
-0x0db1: IMM   $5 0
-0x0db2: ADD   $1 $1 $5
-0x0db3: RMEM  $1 $6 $1
-0x0db4: IMM   $4 4571
-0x0db5: WMEM  $0 $4 $1
-0x0db6: IMM   $1 662
-0x0db7: IMM   $5 1
-0x0db8: ADD   $1 $1 $5
-0x0db9: RMEM  $1 $6 $1
-0x0dba: IMM   $4 4572
-0x0dbb: WMEM  $0 $4 $1
-0x0dbc: IMM   $1 662
-0x0dbd: IMM   $5 2
-0x0dbe: ADD   $1 $1 $5
-0x0dbf: RMEM  $1 $6 $1
-0x0dc0: IMM   $4 4573
-0x0dc1: WMEM  $0 $4 $1
-0x0dc2: JUMP  $0 $6
-0x0dc3: CMOVE $0 $1 $0
-0x0dc4: CMOVE $0 $3 $5
-0x0dc5: CMOVE $0 $1 $2
-0x0dc6: MUL   $3 $2 $1
-0x0dc7: CMOVE $0 $3 $6
-0x0dc8: ALLOC $6 $1
-0x0dc9: OUT   $1
-0x0dca: ALLOC $1 $5
-0x0dcb: FREE  $7
-0x0dcc: ALLOC $2 $3
-0x0dcd: ALLOC $5 $7
-0x0dce: ALLOC $7 $3
-0x0dcf: FREE  $7
-0x0dd0: JUMP  $6 $1
-0x0dd1: FREE  $5
-0x0dd2: OUT   $1
-0x0dd3: FREE  $5
-0x0dd4: FREE  $7
-0x0dd5: FREE  $0
-0x0dd6: FREE  $0
-0x0dd7: FREE  $3
-0x0dd8: OUT   $5
-0x0dd9: IMM   $0 15242240
-0x0dda: OUT   $3
-0x0ddb: OUT   $6
-0x0ddc: OUT   $5
-0x0ddd: IN    $4
-0x0dde: OUT   $2
-0x0ddf: OUT   $3
-0x0de0: OUT   $0
-0x0de1: IN    $7
-0x0de2: IMM   $4 23868946
-0x0de3: IN    $4
-0x0de4: OUT   $7
-0x0de5: IN    $2
-0x0de6: IN    $5
-0x0de7: IN    $4
-0x0de8: IN    $5
-0x0de9: IN    $1
-0x0dea: IN    $4
+0x0000: cmove $3 $2 $0
+0x0001: add   $3 $0 $0
+0x0002: imm   $1 20
+0x0003: imm   $2 91
+0x0004: imm   $3 53
+0x0005: imm   $0 13
+0x0006: jump  $6 $0
+0x0007: cmove $0 $0 $0
+0x0008: div   $3 $2 $0
+0x0009: add   $3 $0 $0
+0x000a: jump  $6 $1
+0x000b: jump  $6 $1
+0x000c: jump  $6 $1
+0x000d: jump  $6 $2
+0x000e: jump  $6 $3
+0x000f: jump  $6 $3
+0x0010: jump  $6 $3
+0x0011: cmove $0 $0 $0
+0x0012: cmove $0 $0 $0
+0x0013: cmove $0 $0 $0
+0x0014: imm   $7 80
+0x0015: imm   $0 79
+0x0016: imm   $2 76
+0x0017: imm   $3 65
+0x0018: imm   $1 71
+0x0019: imm   $5 68
+0x001a: imm   $4 82
+0x001b: out   $2
+0x001c: out   $0
+0x001d: out   $3
+0x001e: out   $5
+0x001f: out   $7
+0x0020: out   $4
+0x0021: out   $0
+0x0022: out   $1
+0x0023: imm   $1 32
+0x0024: out   $1
+0x0025: imm   $4 111
+0x0026: out   $4
+0x0027: imm   $7 102
+0x0028: out   $7
+0x0029: out   $7
+0x002a: out   $1
+0x002b: imm   $7 40
+0x002c: out   $7
+0x002d: imm   $7 108
+0x002e: out   $7
+0x002f: out   $4
+0x0030: imm   $7 119
+0x0031: out   $7
+0x0032: imm   $7 41
+0x0033: out   $7
+0x0034: halt
+0x0035: cmove $0 $0 $0
+0x0036: cmove $0 $0 $0
+0x0037: cmove $0 $0 $0
+0x0038: imm   $0 76
+0x0039: imm   $7 65
+0x003a: imm   $2 68
+0x003b: imm   $3 82
+0x003c: imm   $1 71
+0x003d: imm   $4 80
+0x003e: imm   $5 79
+0x003f: out   $0
+0x0040: out   $5
+0x0041: out   $7
+0x0042: out   $2
+0x0043: out   $4
+0x0044: out   $3
+0x0045: out   $5
+0x0046: out   $1
+0x0047: imm   $1 32
+0x0048: out   $1
+0x0049: imm   $3 111
+0x004a: out   $3
+0x004b: imm   $3 102
+0x004c: out   $3
+0x004d: out   $3
+0x004e: out   $1
+0x004f: imm   $3 40
+0x0050: out   $3
+0x0051: imm   $3 104
+0x0052: out   $3
+0x0053: imm   $1 105
+0x0054: out   $1
+0x0055: imm   $1 103
+0x0056: out   $1
+0x0057: out   $3
+0x0058: imm   $1 41
+0x0059: out   $1
+0x005a: halt
+0x005b: imm   $0 115
+0x005c: jump  $6 $0
+0x005d: cmove $0 $0 $0
+0x005e: cmove $0 $0 $0
+0x005f: cmove $0 $0 $0
+0x0060: cmove $0 $0 $0
+0x0061: cmove $0 $0 $0
+0x0062: cmove $0 $0 $0
+0x0063: cmove $0 $0 $0
+0x0064: cmove $3 $3 $2
+0x0065: nand  $3 $2 $2
+0x0066: nand  $3 $2 $4
+0x0067: nand  $3 $3 $6
+0x0068: nand  $3 $2 $6
+0x0069: nand  $3 $3 $0
+0x006a: cmove $2 $4 $0
+0x006b: cmove $2 $4 $0
+0x006c: cmove $2 $4 $0
+0x006d: cmove $2 $4 $0
+0x006e: cmove $2 $4 $0
+0x006f: cmove $2 $4 $0
+0x0070: cmove $2 $4 $0
+0x0071: cmove $1 $6 $0
+0x0072: halt
+0x0073: imm   $0 2238
+0x0074: imm   $1 119
+0x0075: cmove $1 $0 $6
+0x0076: jump  $6 $1
+0x0077: imm   $4 141
+0x0078: imm   $5 123
+0x0079: cmove $4 $5 $6
+0x007a: jump  $6 $4
+0x007b: imm   $2 78
+0x007c: imm   $0 111
+0x007d: imm   $3 65
+0x007e: imm   $5 101
+0x007f: imm   $1 68
+0x0080: imm   $7 114
+0x0081: imm   $4 32
+0x0082: out   $2
+0x0083: out   $3
+0x0084: out   $2
+0x0085: out   $1
+0x0086: out   $4
+0x0087: out   $5
+0x0088: out   $7
+0x0089: out   $7
+0x008a: out   $0
+0x008b: out   $7
+0x008c: halt
+0x008d: imm   $0 0
+0x008e: imm   $1 0
+0x008f: nand  $2 $0 $1
+0x0090: imm   $4 123
+0x0091: imm   $5 148
+0x0092: cmove $4 $5 $2
+0x0093: jump  $6 $4
+0x0094: imm   $0 0
+0x0095: imm   $1 1
+0x0096: nand  $2 $0 $1
+0x0097: nand  $3 $1 $0
+0x0098: nand  $0 $2 $3
+0x0099: imm   $4 123
+0x009a: imm   $5 157
+0x009b: cmove $5 $4 $0
+0x009c: jump  $6 $5
+0x009d: imm   $0 42
+0x009e: nand  $5 $0 $0
+0x009f: nand  $1 $0 $0
+0x00a0: nand  $1 $5 $1
+0x00a1: nand  $5 $0 $0
+0x00a2: nand  $1 $5 $1
+0x00a3: nand  $1 $1 $1
+0x00a4: imm   $4 123
+0x00a5: imm   $5 168
+0x00a6: cmove $5 $4 $1
+0x00a7: jump  $6 $5
+0x00a8: imm   $4 188
+0x00a9: imm   $5 172
+0x00aa: cmove $4 $5 $6
+0x00ab: jump  $6 $4
+0x00ac: imm   $0 114
+0x00ad: imm   $7 111
+0x00ae: imm   $3 32
+0x00af: imm   $1 101
+0x00b0: imm   $2 68
+0x00b1: imm   $5 65
+0x00b2: out   $5
+0x00b3: out   $2
+0x00b4: out   $2
+0x00b5: out   $3
+0x00b6: out   $1
+0x00b7: out   $0
+0x00b8: out   $0
+0x00b9: out   $7
+0x00ba: out   $0
+0x00bb: halt
+0x00bc: imm   $0 0
+0x00bd: imm   $1 234
+0x00be: add   $2 $0 $1
+0x00bf: imm   $4 234
+0x00c0: nand  $5 $2 $2
+0x00c1: nand  $3 $4 $4
+0x00c2: nand  $3 $5 $3
+0x00c3: nand  $5 $2 $4
+0x00c4: nand  $3 $5 $3
+0x00c5: nand  $3 $3 $3
+0x00c6: imm   $4 172
+0x00c7: imm   $5 202
+0x00c8: cmove $5 $4 $3
+0x00c9: jump  $6 $5
+0x00ca: imm   $0 72
+0x00cb: imm   $1 831
+0x00cc: add   $2 $0 $1
+0x00cd: imm   $4 903
+0x00ce: nand  $5 $2 $2
+0x00cf: nand  $3 $4 $4
+0x00d0: nand  $3 $5 $3
+0x00d1: nand  $5 $2 $4
+0x00d2: nand  $3 $5 $3
+0x00d3: nand  $3 $3 $3
+0x00d4: imm   $4 172
+0x00d5: imm   $5 216
+0x00d6: cmove $5 $4 $3
+0x00d7: jump  $6 $5
+0x00d8: imm   $0 72
+0x00d9: imm   $1 831
+0x00da: add   $0 $0 $1
+0x00db: imm   $4 903
+0x00dc: nand  $5 $0 $0
+0x00dd: nand  $3 $4 $4
+0x00de: nand  $3 $5 $3
+0x00df: nand  $5 $0 $4
+0x00e0: nand  $3 $5 $3
+0x00e1: nand  $3 $3 $3
+0x00e2: imm   $4 172
+0x00e3: imm   $5 230
+0x00e4: cmove $5 $4 $3
+0x00e5: jump  $6 $5
+0x00e6: imm   $4 251
+0x00e7: imm   $5 234
+0x00e8: cmove $4 $5 $6
+0x00e9: jump  $6 $4
+0x00ea: imm   $5 111
+0x00eb: imm   $7 76
+0x00ec: imm   $1 114
+0x00ed: imm   $3 85
+0x00ee: imm   $2 101
+0x00ef: imm   $0 32
+0x00f0: imm   $4 77
+0x00f1: out   $4
+0x00f2: out   $3
+0x00f3: out   $7
+0x00f4: out   $0
+0x00f5: out   $2
+0x00f6: out   $1
+0x00f7: out   $1
+0x00f8: out   $5
+0x00f9: out   $1
+0x00fa: halt
+0x00fb: imm   $0 123
+0x00fc: imm   $1 0
+0x00fd: mul   $2 $0 $1
+0x00fe: imm   $4 0
+0x00ff: nand  $5 $2 $2
+0x0100: nand  $3 $4 $4
+0x0101: nand  $3 $5 $3
+0x0102: nand  $5 $2 $4
+0x0103: nand  $3 $5 $3
+0x0104: nand  $3 $3 $3
+0x0105: imm   $4 234
+0x0106: imm   $5 265
+0x0107: cmove $5 $4 $3
+0x0108: jump  $6 $5
+0x0109: imm   $0 2
+0x010a: imm   $1 7
+0x010b: mul   $2 $0 $1
+0x010c: imm   $4 14
+0x010d: nand  $5 $2 $2
+0x010e: nand  $3 $4 $4
+0x010f: nand  $3 $5 $3
+0x0110: nand  $5 $2 $4
+0x0111: nand  $3 $5 $3
+0x0112: nand  $3 $3 $3
+0x0113: imm   $4 234
+0x0114: imm   $5 279
+0x0115: cmove $5 $4 $3
+0x0116: jump  $6 $5
+0x0117: imm   $0 2
+0x0118: imm   $1 7
+0x0119: mul   $1 $0 $1
+0x011a: imm   $4 14
+0x011b: nand  $5 $1 $1
+0x011c: nand  $3 $4 $4
+0x011d: nand  $3 $5 $3
+0x011e: nand  $5 $1 $4
+0x011f: nand  $3 $5 $3
+0x0120: nand  $3 $3 $3
+0x0121: imm   $4 234
+0x0122: imm   $5 293
+0x0123: cmove $5 $4 $3
+0x0124: jump  $6 $5
+0x0125: imm   $0 983040
+0x0126: imm   $1 65536
+0x0127: mul   $2 $0 $1
+0x0128: imm   $4 0
+0x0129: nand  $5 $2 $2
+0x012a: nand  $3 $4 $4
+0x012b: nand  $3 $5 $3
+0x012c: nand  $5 $2 $4
+0x012d: nand  $3 $5 $3
+0x012e: nand  $3 $3 $3
+0x012f: imm   $4 234
+0x0130: imm   $5 307
+0x0131: cmove $5 $4 $3
+0x0132: jump  $6 $5
+0x0133: imm   $4 345
+0x0134: imm   $5 311
+0x0135: cmove $4 $5 $6
+0x0136: jump  $6 $4
+0x0137: imm   $4 116
+0x0138: imm   $1 97
+0x0139: imm   $5 79
+0x013a: imm   $3 114
+0x013b: imm   $0 103
+0x013c: imm   $2 104
+0x013d: imm   $7 111
+0x013e: out   $5
+0x013f: out   $3
+0x0140: out   $4
+0x0141: out   $2
+0x0142: out   $7
+0x0143: out   $0
+0x0144: out   $3
+0x0145: out   $1
+0x0146: imm   $0 112
+0x0147: out   $0
+0x0148: out   $2
+0x0149: imm   $0 121
+0x014a: out   $0
+0x014b: imm   $0 32
+0x014c: out   $0
+0x014d: imm   $0 102
+0x014e: out   $0
+0x014f: out   $1
+0x0150: imm   $0 105
+0x0151: out   $0
+0x0152: imm   $0 108
+0x0153: out   $0
+0x0154: imm   $0 101
+0x0155: out   $0
+0x0156: imm   $0 100
+0x0157: out   $0
+0x0158: halt
+0x0159: nand  $0 $6 $6
+0x015a: imm   $0 0
+0x015b: imm   $4 311
+0x015c: imm   $5 351
+0x015d: cmove $5 $4 $0
+0x015e: jump  $6 $5
+0x015f: imm   $0 33554431
+0x0160: imm   $1 511
+0x0161: imm   $2 65536
+0x0162: mul   $1 $1 $2
+0x0163: imm   $2 65535
+0x0164: add   $1 $1 $2
+0x0165: nand  $4 $0 $0
+0x0166: nand  $3 $1 $1
+0x0167: nand  $3 $4 $3
+0x0168: nand  $4 $0 $1
+0x0169: nand  $3 $4 $3
+0x016a: nand  $3 $3 $3
+0x016b: imm   $4 311
+0x016c: imm   $5 367
+0x016d: cmove $5 $4 $3
+0x016e: jump  $6 $5
+0x016f: imm   $4 402
+0x0170: imm   $5 371
+0x0171: cmove $4 $5 $6
+0x0172: jump  $6 $4
+0x0173: imm   $5 73
+0x0174: imm   $4 111
+0x0175: imm   $3 68
+0x0176: imm   $1 101
+0x0177: imm   $7 86
+0x0178: imm   $0 114
+0x0179: imm   $2 32
+0x017a: out   $3
+0x017b: out   $5
+0x017c: out   $7
+0x017d: out   $2
+0x017e: out   $1
+0x017f: out   $0
+0x0180: out   $0
+0x0181: out   $4
+0x0182: out   $0
+0x0183: halt
+0x0184: imm   $0 789
+0x0185: imm   $1 1
+0x0186: div   $2 $0 $1
+0x0187: imm   $4 789
+0x0188: nand  $5 $2 $2
+0x0189: nand  $3 $4 $4
+0x018a: nand  $3 $5 $3
+0x018b: nand  $5 $2 $4
+0x018c: nand  $3 $5 $3
+0x018d: nand  $3 $3 $3
+0x018e: imm   $4 371
+0x018f: imm   $5 402
+0x0190: cmove $5 $4 $3
+0x0191: jump  $6 $5
+0x0192: imm   $0 1
+0x0193: nand  $1 $6 $6
+0x0194: div   $2 $0 $1
+0x0195: imm   $4 0
+0x0196: nand  $5 $2 $2
+0x0197: nand  $3 $4 $4
+0x0198: nand  $3 $5 $3
+0x0199: nand  $5 $2 $4
+0x019a: nand  $3 $5 $3
+0x019b: nand  $3 $3 $3
+0x019c: imm   $4 371
+0x019d: imm   $5 416
+0x019e: cmove $5 $4 $3
+0x019f: jump  $6 $5
+0x01a0: imm   $0 1414
+0x01a1: rmem  $1 $6 $0
+0x01a2: imm   $2 654321
+0x01a3: nand  $4 $1 $1
+0x01a4: nand  $3 $2 $2
+0x01a5: nand  $3 $4 $3
+0x01a6: nand  $4 $1 $2
+0x01a7: nand  $3 $4 $3
+0x01a8: nand  $3 $3 $3
+0x01a9: imm   $4 2200
+0x01aa: imm   $5 429
+0x01ab: cmove $5 $4 $3
+0x01ac: jump  $6 $5
+0x01ad: imm   $2 61680
+0x01ae: wmem  $6 $0 $2
+0x01af: rmem  $1 $6 $0
+0x01b0: nand  $4 $1 $1
+0x01b1: nand  $3 $2 $2
+0x01b2: nand  $3 $4 $3
+0x01b3: nand  $4 $1 $2
+0x01b4: nand  $3 $4 $3
+0x01b5: nand  $3 $3 $3
+0x01b6: imm   $4 2153
+0x01b7: imm   $5 442
+0x01b8: cmove $5 $4 $3
+0x01b9: jump  $6 $5
+0x01ba: imm   $6 116
+0x01bb: out   $6
+0x01bc: imm   $6 114
+0x01bd: out   $6
+0x01be: imm   $6 121
+0x01bf: out   $6
+0x01c0: imm   $6 105
+0x01c1: out   $6
+0x01c2: imm   $6 110
+0x01c3: out   $6
+0x01c4: imm   $6 103
+0x01c5: out   $6
+0x01c6: imm   $6 32
+0x01c7: out   $6
+0x01c8: imm   $6 116
+0x01c9: out   $6
+0x01ca: imm   $6 111
+0x01cb: out   $6
+0x01cc: imm   $6 32
+0x01cd: out   $6
+0x01ce: imm   $6 65
+0x01cf: out   $6
+0x01d0: imm   $6 108
+0x01d1: out   $6
+0x01d2: out   $6
+0x01d3: imm   $6 111
+0x01d4: out   $6
+0x01d5: imm   $6 99
+0x01d6: out   $6
+0x01d7: imm   $6 97
+0x01d8: out   $6
+0x01d9: imm   $6 116
+0x01da: out   $6
+0x01db: imm   $6 101
+0x01dc: out   $6
+0x01dd: imm   $6 32
+0x01de: out   $6
+0x01df: imm   $6 97
+0x01e0: out   $6
+0x01e1: imm   $6 114
+0x01e2: out   $6
+0x01e3: out   $6
+0x01e4: imm   $6 97
+0x01e5: out   $6
+0x01e6: imm   $6 121
+0x01e7: out   $6
+0x01e8: imm   $6 32
+0x01e9: out   $6
+0x01ea: imm   $6 111
+0x01eb: out   $6
+0x01ec: imm   $6 102
+0x01ed: out   $6
+0x01ee: imm   $6 32
+0x01ef: out   $6
+0x01f0: imm   $6 115
+0x01f1: out   $6
+0x01f2: imm   $6 105
+0x01f3: out   $6
+0x01f4: imm   $6 122
+0x01f5: out   $6
+0x01f6: imm   $6 101
+0x01f7: out   $6
+0x01f8: imm   $6 32
+0x01f9: out   $6
+0x01fa: imm   $6 48
+0x01fb: out   $6
+0x01fc: imm   $6 46
+0x01fd: out   $6
+0x01fe: out   $6
+0x01ff: imm   $6 10
+0x0200: out   $6
+0x0201: imm   $6 0
+0x0202: alloc $0 $6
+0x0203: imm   $4 2111
+0x0204: imm   $5 519
+0x0205: cmove $4 $5 $0
+0x0206: jump  $6 $4
+0x0207: imm   $6 116
+0x0208: out   $6
+0x0209: imm   $6 114
+0x020a: out   $6
+0x020b: imm   $6 121
+0x020c: out   $6
+0x020d: imm   $6 105
+0x020e: out   $6
+0x020f: imm   $6 110
+0x0210: out   $6
+0x0211: imm   $6 103
+0x0212: out   $6
+0x0213: imm   $6 32
+0x0214: out   $6
+0x0215: imm   $6 116
+0x0216: out   $6
+0x0217: imm   $6 111
+0x0218: out   $6
+0x0219: imm   $6 32
+0x021a: out   $6
+0x021b: imm   $6 65
+0x021c: out   $6
+0x021d: imm   $6 98
+0x021e: out   $6
+0x021f: imm   $6 97
+0x0220: out   $6
+0x0221: imm   $6 110
+0x0222: out   $6
+0x0223: imm   $6 100
+0x0224: out   $6
+0x0225: imm   $6 111
+0x0226: out   $6
+0x0227: imm   $6 110
+0x0228: out   $6
+0x0229: imm   $6 32
+0x022a: out   $6
+0x022b: imm   $6 115
+0x022c: out   $6
+0x022d: imm   $6 105
+0x022e: out   $6
+0x022f: imm   $6 122
+0x0230: out   $6
+0x0231: imm   $6 101
+0x0232: out   $6
+0x0233: imm   $6 32
+0x0234: out   $6
+0x0235: imm   $6 48
+0x0236: out   $6
+0x0237: imm   $6 32
+0x0238: out   $6
+0x0239: imm   $6 97
+0x023a: out   $6
+0x023b: imm   $6 108
+0x023c: out   $6
+0x023d: out   $6
+0x023e: imm   $6 111
+0x023f: out   $6
+0x0240: imm   $6 99
+0x0241: out   $6
+0x0242: imm   $6 97
+0x0243: out   $6
+0x0244: imm   $6 116
+0x0245: out   $6
+0x0246: imm   $6 105
+0x0247: out   $6
+0x0248: imm   $6 111
+0x0249: out   $6
+0x024a: imm   $6 110
+0x024b: out   $6
+0x024c: imm   $6 46
+0x024d: out   $6
+0x024e: out   $6
+0x024f: imm   $6 10
+0x0250: out   $6
+0x0251: imm   $6 0
+0x0252: free  $0
+0x0253: imm   $6 116
+0x0254: out   $6
+0x0255: imm   $6 114
+0x0256: out   $6
+0x0257: imm   $6 121
+0x0258: out   $6
+0x0259: imm   $6 105
+0x025a: out   $6
+0x025b: imm   $6 110
+0x025c: out   $6
+0x025d: imm   $6 103
+0x025e: out   $6
+0x025f: imm   $6 32
+0x0260: out   $6
+0x0261: imm   $6 116
+0x0262: out   $6
+0x0263: imm   $6 111
+0x0264: out   $6
+0x0265: imm   $6 32
+0x0266: out   $6
+0x0267: imm   $6 65
+0x0268: out   $6
+0x0269: imm   $6 108
+0x026a: out   $6
+0x026b: out   $6
+0x026c: imm   $6 111
+0x026d: out   $6
+0x026e: imm   $6 99
+0x026f: out   $6
+0x0270: imm   $6 97
+0x0271: out   $6
+0x0272: imm   $6 116
+0x0273: out   $6
+0x0274: imm   $6 101
+0x0275: out   $6
+0x0276: imm   $6 32
+0x0277: out   $6
+0x0278: imm   $6 115
+0x0279: out   $6
+0x027a: imm   $6 105
+0x027b: out   $6
+0x027c: imm   $6 122
+0x027d: out   $6
+0x027e: imm   $6 101
+0x027f: out   $6
+0x0280: imm   $6 32
+0x0281: out   $6
+0x0282: imm   $6 49
+0x0283: out   $6
+0x0284: out   $6
+0x0285: imm   $6 46
+0x0286: out   $6
+0x0287: out   $6
+0x0288: imm   $6 10
+0x0289: out   $6
+0x028a: imm   $6 0
+0x028b: imm   $1 11
+0x028c: alloc $0 $1
+0x028d: imm   $6 116
+0x028e: out   $6
+0x028f: imm   $6 114
+0x0290: out   $6
+0x0291: imm   $6 121
+0x0292: out   $6
+0x0293: imm   $6 105
+0x0294: out   $6
+0x0295: imm   $6 110
+0x0296: out   $6
+0x0297: imm   $6 103
+0x0298: out   $6
+0x0299: imm   $6 32
+0x029a: out   $6
+0x029b: imm   $6 65
+0x029c: out   $6
+0x029d: imm   $6 114
+0x029e: out   $6
+0x029f: out   $6
+0x02a0: imm   $6 97
+0x02a1: out   $6
+0x02a2: imm   $6 121
+0x02a3: out   $6
+0x02a4: imm   $6 32
+0x02a5: out   $6
+0x02a6: imm   $6 73
+0x02a7: out   $6
+0x02a8: imm   $6 110
+0x02a9: out   $6
+0x02aa: imm   $6 100
+0x02ab: out   $6
+0x02ac: imm   $6 101
+0x02ad: out   $6
+0x02ae: imm   $6 120
+0x02af: out   $6
+0x02b0: imm   $6 32
+0x02b1: out   $6
+0x02b2: imm   $6 111
+0x02b3: out   $6
+0x02b4: imm   $6 110
+0x02b5: out   $6
+0x02b6: imm   $6 32
+0x02b7: out   $6
+0x02b8: imm   $6 97
+0x02b9: out   $6
+0x02ba: imm   $6 108
+0x02bb: out   $6
+0x02bc: out   $6
+0x02bd: imm   $6 111
+0x02be: out   $6
+0x02bf: imm   $6 99
+0x02c0: out   $6
+0x02c1: imm   $6 97
+0x02c2: out   $6
+0x02c3: imm   $6 116
+0x02c4: out   $6
+0x02c5: imm   $6 101
+0x02c6: out   $6
+0x02c7: imm   $6 100
+0x02c8: out   $6
+0x02c9: imm   $6 32
+0x02ca: out   $6
+0x02cb: imm   $6 97
+0x02cc: out   $6
+0x02cd: imm   $6 114
+0x02ce: out   $6
+0x02cf: out   $6
+0x02d0: imm   $6 97
+0x02d1: out   $6
+0x02d2: imm   $6 121
+0x02d3: out   $6
+0x02d4: imm   $6 46
+0x02d5: out   $6
+0x02d6: out   $6
+0x02d7: imm   $6 10
+0x02d8: out   $6
+0x02d9: imm   $6 0
+0x02da: imm   $2 0
+0x02db: rmem  $1 $0 $2
+0x02dc: imm   $4 2080
+0x02dd: imm   $5 736
+0x02de: cmove $5 $4 $1
+0x02df: jump  $6 $5
+0x02e0: imm   $2 1
+0x02e1: rmem  $1 $0 $2
+0x02e2: imm   $4 2049
+0x02e3: imm   $5 742
+0x02e4: cmove $5 $4 $1
+0x02e5: jump  $6 $5
+0x02e6: imm   $2 2
+0x02e7: rmem  $1 $0 $2
+0x02e8: imm   $4 2018
+0x02e9: imm   $5 748
+0x02ea: cmove $5 $4 $1
+0x02eb: jump  $6 $5
+0x02ec: imm   $2 3
+0x02ed: rmem  $1 $0 $2
+0x02ee: imm   $4 1987
+0x02ef: imm   $5 754
+0x02f0: cmove $5 $4 $1
+0x02f1: jump  $6 $5
+0x02f2: imm   $2 4
+0x02f3: rmem  $1 $0 $2
+0x02f4: imm   $4 1956
+0x02f5: imm   $5 760
+0x02f6: cmove $5 $4 $1
+0x02f7: jump  $6 $5
+0x02f8: imm   $2 5
+0x02f9: rmem  $1 $0 $2
+0x02fa: imm   $4 1925
+0x02fb: imm   $5 766
+0x02fc: cmove $5 $4 $1
+0x02fd: jump  $6 $5
+0x02fe: imm   $2 6
+0x02ff: rmem  $1 $0 $2
+0x0300: imm   $4 1894
+0x0301: imm   $5 772
+0x0302: cmove $5 $4 $1
+0x0303: jump  $6 $5
+0x0304: imm   $2 7
+0x0305: rmem  $1 $0 $2
+0x0306: imm   $4 1863
+0x0307: imm   $5 778
+0x0308: cmove $5 $4 $1
+0x0309: jump  $6 $5
+0x030a: imm   $2 8
+0x030b: rmem  $1 $0 $2
+0x030c: imm   $4 1832
+0x030d: imm   $5 784
+0x030e: cmove $5 $4 $1
+0x030f: jump  $6 $5
+0x0310: imm   $2 9
+0x0311: rmem  $1 $0 $2
+0x0312: imm   $4 1801
+0x0313: imm   $5 790
+0x0314: cmove $5 $4 $1
+0x0315: jump  $6 $5
+0x0316: imm   $2 10
+0x0317: rmem  $1 $0 $2
+0x0318: imm   $4 1770
+0x0319: imm   $5 796
+0x031a: cmove $5 $4 $1
+0x031b: jump  $6 $5
+0x031c: imm   $6 116
+0x031d: out   $6
+0x031e: imm   $6 114
+0x031f: out   $6
+0x0320: imm   $6 121
+0x0321: out   $6
+0x0322: imm   $6 105
+0x0323: out   $6
+0x0324: imm   $6 110
+0x0325: out   $6
+0x0326: imm   $6 103
+0x0327: out   $6
+0x0328: imm   $6 32
+0x0329: out   $6
+0x032a: imm   $6 65
+0x032b: out   $6
+0x032c: imm   $6 109
+0x032d: out   $6
+0x032e: imm   $6 101
+0x032f: out   $6
+0x0330: imm   $6 110
+0x0331: out   $6
+0x0332: imm   $6 100
+0x0333: out   $6
+0x0334: imm   $6 109
+0x0335: out   $6
+0x0336: imm   $6 101
+0x0337: out   $6
+0x0338: imm   $6 110
+0x0339: out   $6
+0x033a: imm   $6 116
+0x033b: out   $6
+0x033c: imm   $6 32
+0x033d: out   $6
+0x033e: imm   $6 111
+0x033f: out   $6
+0x0340: imm   $6 102
+0x0341: out   $6
+0x0342: imm   $6 32
+0x0343: out   $6
+0x0344: imm   $6 97
+0x0345: out   $6
+0x0346: imm   $6 108
+0x0347: out   $6
+0x0348: out   $6
+0x0349: imm   $6 111
+0x034a: out   $6
+0x034b: imm   $6 99
+0x034c: out   $6
+0x034d: imm   $6 97
+0x034e: out   $6
+0x034f: imm   $6 116
+0x0350: out   $6
+0x0351: imm   $6 101
+0x0352: out   $6
+0x0353: imm   $6 100
+0x0354: out   $6
+0x0355: imm   $6 32
+0x0356: out   $6
+0x0357: imm   $6 97
+0x0358: out   $6
+0x0359: imm   $6 114
+0x035a: out   $6
+0x035b: out   $6
+0x035c: imm   $6 97
+0x035d: out   $6
+0x035e: imm   $6 121
+0x035f: out   $6
+0x0360: imm   $6 46
+0x0361: out   $6
+0x0362: out   $6
+0x0363: imm   $6 10
+0x0364: out   $6
+0x0365: imm   $6 0
+0x0366: imm   $2 0
+0x0367: imm   $1 11
+0x0368: wmem  $0 $2 $1
+0x0369: imm   $2 1
+0x036a: imm   $1 12
+0x036b: wmem  $0 $2 $1
+0x036c: imm   $2 2
+0x036d: imm   $1 13
+0x036e: wmem  $0 $2 $1
+0x036f: imm   $2 3
+0x0370: imm   $1 14
+0x0371: wmem  $0 $2 $1
+0x0372: imm   $2 4
+0x0373: imm   $1 15
+0x0374: wmem  $0 $2 $1
+0x0375: imm   $2 5
+0x0376: imm   $1 16
+0x0377: wmem  $0 $2 $1
+0x0378: imm   $2 6
+0x0379: imm   $1 17
+0x037a: wmem  $0 $2 $1
+0x037b: imm   $2 7
+0x037c: imm   $1 18
+0x037d: wmem  $0 $2 $1
+0x037e: imm   $2 8
+0x037f: imm   $1 19
+0x0380: wmem  $0 $2 $1
+0x0381: imm   $2 9
+0x0382: imm   $1 20
+0x0383: wmem  $0 $2 $1
+0x0384: imm   $2 10
+0x0385: imm   $1 21
+0x0386: wmem  $0 $2 $1
+0x0387: imm   $6 99
+0x0388: out   $6
+0x0389: imm   $6 104
+0x038a: out   $6
+0x038b: imm   $6 101
+0x038c: out   $6
+0x038d: imm   $6 99
+0x038e: out   $6
+0x038f: imm   $6 107
+0x0390: out   $6
+0x0391: imm   $6 105
+0x0392: out   $6
+0x0393: imm   $6 110
+0x0394: out   $6
+0x0395: imm   $6 103
+0x0396: out   $6
+0x0397: imm   $6 32
+0x0398: out   $6
+0x0399: imm   $6 65
+0x039a: out   $6
+0x039b: imm   $6 109
+0x039c: out   $6
+0x039d: imm   $6 101
+0x039e: out   $6
+0x039f: imm   $6 110
+0x03a0: out   $6
+0x03a1: imm   $6 100
+0x03a2: out   $6
+0x03a3: imm   $6 109
+0x03a4: out   $6
+0x03a5: imm   $6 101
+0x03a6: out   $6
+0x03a7: imm   $6 110
+0x03a8: out   $6
+0x03a9: imm   $6 116
+0x03aa: out   $6
+0x03ab: imm   $6 32
+0x03ac: out   $6
+0x03ad: imm   $6 111
+0x03ae: out   $6
+0x03af: imm   $6 102
+0x03b0: out   $6
+0x03b1: imm   $6 32
+0x03b2: out   $6
+0x03b3: imm   $6 97
+0x03b4: out   $6
+0x03b5: imm   $6 108
+0x03b6: out   $6
+0x03b7: out   $6
+0x03b8: imm   $6 111
+0x03b9: out   $6
+0x03ba: imm   $6 99
+0x03bb: out   $6
+0x03bc: imm   $6 97
+0x03bd: out   $6
+0x03be: imm   $6 116
+0x03bf: out   $6
+0x03c0: imm   $6 101
+0x03c1: out   $6
+0x03c2: imm   $6 100
+0x03c3: out   $6
+0x03c4: imm   $6 32
+0x03c5: out   $6
+0x03c6: imm   $6 97
+0x03c7: out   $6
+0x03c8: imm   $6 114
+0x03c9: out   $6
+0x03ca: out   $6
+0x03cb: imm   $6 97
+0x03cc: out   $6
+0x03cd: imm   $6 121
+0x03ce: out   $6
+0x03cf: imm   $6 46
+0x03d0: out   $6
+0x03d1: out   $6
+0x03d2: imm   $6 10
+0x03d3: out   $6
+0x03d4: imm   $6 0
+0x03d5: imm   $2 0
+0x03d6: rmem  $1 $0 $2
+0x03d7: imm   $4 11
+0x03d8: nand  $5 $1 $1
+0x03d9: add   $3 $4 $5
+0x03da: imm   $5 1
+0x03db: add   $3 $5 $3
+0x03dc: imm   $4 1745
+0x03dd: imm   $5 992
+0x03de: cmove $5 $4 $3
+0x03df: jump  $6 $5
+0x03e0: imm   $2 1
+0x03e1: rmem  $1 $0 $2
+0x03e2: imm   $4 12
+0x03e3: nand  $5 $1 $1
+0x03e4: add   $3 $4 $5
+0x03e5: imm   $5 1
+0x03e6: add   $3 $5 $3
+0x03e7: imm   $4 1720
+0x03e8: imm   $5 1003
+0x03e9: cmove $5 $4 $3
+0x03ea: jump  $6 $5
+0x03eb: imm   $2 2
+0x03ec: rmem  $1 $0 $2
+0x03ed: imm   $4 13
+0x03ee: nand  $5 $1 $1
+0x03ef: add   $3 $4 $5
+0x03f0: imm   $5 1
+0x03f1: add   $3 $5 $3
+0x03f2: imm   $4 1695
+0x03f3: imm   $5 1014
+0x03f4: cmove $5 $4 $3
+0x03f5: jump  $6 $5
+0x03f6: imm   $2 3
+0x03f7: rmem  $1 $0 $2
+0x03f8: imm   $4 14
+0x03f9: nand  $5 $1 $1
+0x03fa: add   $3 $4 $5
+0x03fb: imm   $5 1
+0x03fc: add   $3 $5 $3
+0x03fd: imm   $4 1670
+0x03fe: imm   $5 1025
+0x03ff: cmove $5 $4 $3
+0x0400: jump  $6 $5
+0x0401: imm   $2 4
+0x0402: rmem  $1 $0 $2
+0x0403: imm   $4 15
+0x0404: nand  $5 $1 $1
+0x0405: add   $3 $4 $5
+0x0406: imm   $5 1
+0x0407: add   $3 $5 $3
+0x0408: imm   $4 1645
+0x0409: imm   $5 1036
+0x040a: cmove $5 $4 $3
+0x040b: jump  $6 $5
+0x040c: imm   $2 5
+0x040d: rmem  $1 $0 $2
+0x040e: imm   $4 16
+0x040f: nand  $5 $1 $1
+0x0410: add   $3 $4 $5
+0x0411: imm   $5 1
+0x0412: add   $3 $5 $3
+0x0413: imm   $4 1620
+0x0414: imm   $5 1047
+0x0415: cmove $5 $4 $3
+0x0416: jump  $6 $5
+0x0417: imm   $2 6
+0x0418: rmem  $1 $0 $2
+0x0419: imm   $4 17
+0x041a: nand  $5 $1 $1
+0x041b: add   $3 $4 $5
+0x041c: imm   $5 1
+0x041d: add   $3 $5 $3
+0x041e: imm   $4 1595
+0x041f: imm   $5 1058
+0x0420: cmove $5 $4 $3
+0x0421: jump  $6 $5
+0x0422: imm   $2 7
+0x0423: rmem  $1 $0 $2
+0x0424: imm   $4 18
+0x0425: nand  $5 $1 $1
+0x0426: add   $3 $4 $5
+0x0427: imm   $5 1
+0x0428: add   $3 $5 $3
+0x0429: imm   $4 1570
+0x042a: imm   $5 1069
+0x042b: cmove $5 $4 $3
+0x042c: jump  $6 $5
+0x042d: imm   $2 8
+0x042e: rmem  $1 $0 $2
+0x042f: imm   $4 19
+0x0430: nand  $5 $1 $1
+0x0431: add   $3 $4 $5
+0x0432: imm   $5 1
+0x0433: add   $3 $5 $3
+0x0434: imm   $4 1545
+0x0435: imm   $5 1080
+0x0436: cmove $5 $4 $3
+0x0437: jump  $6 $5
+0x0438: imm   $2 9
+0x0439: rmem  $1 $0 $2
+0x043a: imm   $4 20
+0x043b: nand  $5 $1 $1
+0x043c: add   $3 $4 $5
+0x043d: imm   $5 1
+0x043e: add   $3 $5 $3
+0x043f: imm   $4 1520
+0x0440: imm   $5 1091
+0x0441: cmove $5 $4 $3
+0x0442: jump  $6 $5
+0x0443: imm   $2 10
+0x0444: rmem  $1 $0 $2
+0x0445: imm   $4 21
+0x0446: nand  $5 $1 $1
+0x0447: add   $3 $4 $5
+0x0448: imm   $5 1
+0x0449: add   $3 $5 $3
+0x044a: imm   $4 1495
+0x044b: imm   $5 1102
+0x044c: cmove $5 $4 $3
+0x044d: jump  $6 $5
+0x044e: free  $0
+0x044f: imm   $0 8
+0x0450: alloc $7 $0
+0x0451: imm   $0 3
+0x0452: imm   $1 51966
+0x0453: wmem  $7 $0 $1
+0x0454: imm   $6 116
+0x0455: out   $6
+0x0456: imm   $6 114
+0x0457: out   $6
+0x0458: imm   $6 121
+0x0459: out   $6
+0x045a: imm   $6 105
+0x045b: out   $6
+0x045c: imm   $6 110
+0x045d: out   $6
+0x045e: imm   $6 103
+0x045f: out   $6
+0x0460: imm   $6 32
+0x0461: out   $6
+0x0462: imm   $6 65
+0x0463: out   $6
+0x0464: imm   $6 108
+0x0465: out   $6
+0x0466: out   $6
+0x0467: imm   $6 111
+0x0468: out   $6
+0x0469: imm   $6 99
+0x046a: out   $6
+0x046b: imm   $6 40
+0x046c: out   $6
+0x046d: imm   $6 97
+0x046e: out   $6
+0x046f: imm   $6 44
+0x0470: out   $6
+0x0471: imm   $6 97
+0x0472: out   $6
+0x0473: imm   $6 41
+0x0474: out   $6
+0x0475: imm   $6 32
+0x0476: out   $6
+0x0477: imm   $6 97
+0x0478: out   $6
+0x0479: imm   $6 110
+0x047a: out   $6
+0x047b: imm   $6 100
+0x047c: out   $6
+0x047d: imm   $6 32
+0x047e: out   $6
+0x047f: imm   $6 97
+0x0480: out   $6
+0x0481: imm   $6 109
+0x0482: out   $6
+0x0483: imm   $6 101
+0x0484: out   $6
+0x0485: imm   $6 110
+0x0486: out   $6
+0x0487: imm   $6 100
+0x0488: out   $6
+0x0489: imm   $6 105
+0x048a: out   $6
+0x048b: imm   $6 110
+0x048c: out   $6
+0x048d: imm   $6 103
+0x048e: out   $6
+0x048f: imm   $6 32
+0x0490: out   $6
+0x0491: imm   $6 105
+0x0492: out   $6
+0x0493: imm   $6 116
+0x0494: out   $6
+0x0495: imm   $6 46
+0x0496: out   $6
+0x0497: out   $6
+0x0498: imm   $6 10
+0x0499: out   $6
+0x049a: imm   $6 0
+0x049b: imm   $0 4000
+0x049c: alloc $0 $0
+0x049d: imm   $1 3999
+0x049e: wmem  $0 $1 $1
+0x049f: free  $0
+0x04a0: imm   $6 99
+0x04a1: out   $6
+0x04a2: imm   $6 111
+0x04a3: out   $6
+0x04a4: imm   $6 109
+0x04a5: out   $6
+0x04a6: imm   $6 112
+0x04a7: out   $6
+0x04a8: imm   $6 97
+0x04a9: out   $6
+0x04aa: imm   $6 114
+0x04ab: out   $6
+0x04ac: imm   $6 105
+0x04ad: out   $6
+0x04ae: imm   $6 110
+0x04af: out   $6
+0x04b0: imm   $6 103
+0x04b1: out   $6
+0x04b2: imm   $6 32
+0x04b3: out   $6
+0x04b4: imm   $6 109
+0x04b5: out   $6
+0x04b6: imm   $6 117
+0x04b7: out   $6
+0x04b8: imm   $6 108
+0x04b9: out   $6
+0x04ba: imm   $6 116
+0x04bb: out   $6
+0x04bc: imm   $6 105
+0x04bd: out   $6
+0x04be: imm   $6 112
+0x04bf: out   $6
+0x04c0: imm   $6 108
+0x04c1: out   $6
+0x04c2: imm   $6 101
+0x04c3: out   $6
+0x04c4: imm   $6 32
+0x04c5: out   $6
+0x04c6: imm   $6 97
+0x04c7: out   $6
+0x04c8: imm   $6 108
+0x04c9: out   $6
+0x04ca: out   $6
+0x04cb: imm   $6 111
+0x04cc: out   $6
+0x04cd: imm   $6 99
+0x04ce: out   $6
+0x04cf: imm   $6 97
+0x04d0: out   $6
+0x04d1: imm   $6 116
+0x04d2: out   $6
+0x04d3: imm   $6 105
+0x04d4: out   $6
+0x04d5: imm   $6 111
+0x04d6: out   $6
+0x04d7: imm   $6 110
+0x04d8: out   $6
+0x04d9: imm   $6 115
+0x04da: out   $6
+0x04db: imm   $6 46
+0x04dc: out   $6
+0x04dd: out   $6
+0x04de: imm   $6 10
+0x04df: out   $6
+0x04e0: imm   $6 0
+0x04e1: imm   $2 4
+0x04e2: alloc $0 $2
+0x04e3: alloc $1 $2
+0x04e4: nand  $4 $1 $1
+0x04e5: add   $2 $0 $4
+0x04e6: imm   $4 1
+0x04e7: add   $2 $4 $2
+0x04e8: imm   $4 1464
+0x04e9: imm   $5 1260
+0x04ea: cmove $4 $5 $2
+0x04eb: jump  $6 $4
+0x04ec: imm   $6 112
+0x04ed: out   $6
+0x04ee: imm   $6 111
+0x04ef: out   $6
+0x04f0: imm   $6 105
+0x04f1: out   $6
+0x04f2: imm   $6 110
+0x04f3: out   $6
+0x04f4: imm   $6 116
+0x04f5: out   $6
+0x04f6: imm   $6 101
+0x04f7: out   $6
+0x04f8: imm   $6 114
+0x04f9: out   $6
+0x04fa: imm   $6 32
+0x04fb: out   $6
+0x04fc: imm   $6 97
+0x04fd: out   $6
+0x04fe: imm   $6 114
+0x04ff: out   $6
+0x0500: imm   $6 105
+0x0501: out   $6
+0x0502: imm   $6 116
+0x0503: out   $6
+0x0504: imm   $6 104
+0x0505: out   $6
+0x0506: imm   $6 109
+0x0507: out   $6
+0x0508: imm   $6 101
+0x0509: out   $6
+0x050a: imm   $6 116
+0x050b: out   $6
+0x050c: imm   $6 105
+0x050d: out   $6
+0x050e: imm   $6 99
+0x050f: out   $6
+0x0510: imm   $6 46
+0x0511: out   $6
+0x0512: out   $6
+0x0513: imm   $6 10
+0x0514: out   $6
+0x0515: imm   $6 0
+0x0516: nand  $4 $0 $0
+0x0517: nand  $2 $1 $1
+0x0518: nand  $2 $4 $2
+0x0519: nand  $4 $0 $1
+0x051a: nand  $2 $4 $2
+0x051b: nand  $2 $2 $2
+0x051c: imm   $1 0
+0x051d: wmem  $0 $1 $2
+0x051e: rmem  $3 $0 $1
+0x051f: nand  $4 $0 $0
+0x0520: nand  $1 $3 $3
+0x0521: nand  $1 $4 $1
+0x0522: nand  $4 $0 $3
+0x0523: nand  $1 $4 $1
+0x0524: nand  $1 $1 $1
+0x0525: free  $0
+0x0526: free  $1
+0x0527: imm   $6 99
+0x0528: out   $6
+0x0529: imm   $6 104
+0x052a: out   $6
+0x052b: imm   $6 101
+0x052c: out   $6
+0x052d: imm   $6 99
+0x052e: out   $6
+0x052f: imm   $6 107
+0x0530: out   $6
+0x0531: imm   $6 32
+0x0532: out   $6
+0x0533: imm   $6 111
+0x0534: out   $6
+0x0535: imm   $6 108
+0x0536: out   $6
+0x0537: imm   $6 100
+0x0538: out   $6
+0x0539: imm   $6 32
+0x053a: out   $6
+0x053b: imm   $6 97
+0x053c: out   $6
+0x053d: imm   $6 108
+0x053e: out   $6
+0x053f: out   $6
+0x0540: imm   $6 111
+0x0541: out   $6
+0x0542: imm   $6 99
+0x0543: out   $6
+0x0544: imm   $6 97
+0x0545: out   $6
+0x0546: imm   $6 116
+0x0547: out   $6
+0x0548: imm   $6 105
+0x0549: out   $6
+0x054a: imm   $6 111
+0x054b: out   $6
+0x054c: imm   $6 110
+0x054d: out   $6
+0x054e: imm   $6 46
+0x054f: out   $6
+0x0550: out   $6
+0x0551: imm   $6 10
+0x0552: out   $6
+0x0553: imm   $6 0
+0x0554: imm   $0 3
+0x0555: rmem  $2 $7 $0
+0x0556: imm   $1 51966
+0x0557: nand  $4 $2 $2
+0x0558: add   $3 $1 $4
+0x0559: imm   $4 1
+0x055a: add   $3 $4 $3
+0x055b: imm   $4 1417
+0x055c: imm   $5 1375
+0x055d: cmove $5 $4 $3
+0x055e: jump  $6 $5
+0x055f: imm   $6 115
+0x0560: out   $6
+0x0561: imm   $6 105
+0x0562: out   $6
+0x0563: imm   $6 109
+0x0564: out   $6
+0x0565: imm   $6 112
+0x0566: out   $6
+0x0567: imm   $6 108
+0x0568: out   $6
+0x0569: imm   $6 101
+0x056a: out   $6
+0x056b: imm   $6 32
+0x056c: out   $6
+0x056d: imm   $6 116
+0x056e: out   $6
+0x056f: imm   $6 101
+0x0570: out   $6
+0x0571: imm   $6 115
+0x0572: out   $6
+0x0573: imm   $6 116
+0x0574: out   $6
+0x0575: imm   $6 115
+0x0576: out   $6
+0x0577: imm   $6 32
+0x0578: out   $6
+0x0579: imm   $6 111
+0x057a: out   $6
+0x057b: imm   $6 107
+0x057c: out   $6
+0x057d: imm   $6 33
+0x057e: out   $6
+0x057f: imm   $6 10
+0x0580: out   $6
+0x0581: imm   $6 0
+0x0582: imm   $1 2264
+0x0583: jump  $6 $1
+0x0584: cmove $0 $0 $0
+0x0585: cmove $0 $0 $0
+0x0586: cmove $7 $6 $1
+0x0587: cmove $0 $0 $0
+0x0588: cmove $0 $0 $0
+0x0589: imm   $7 68
+0x058a: imm   $2 32
+0x058b: imm   $4 78
+0x058c: imm   $5 47
+0x058d: imm   $1 88
+0x058e: imm   $3 69
+0x058f: imm   $0 73
+0x0590: out   $0
+0x0591: out   $4
+0x0592: out   $7
+0x0593: out   $3
+0x0594: out   $1
+0x0595: out   $2
+0x0596: out   $5
+0x0597: out   $2
+0x0598: imm   $5 65
+0x0599: out   $5
+0x059a: imm   $5 77
+0x059b: out   $5
+0x059c: out   $3
+0x059d: out   $4
+0x059e: out   $7
+0x059f: out   $2
+0x05a0: imm   $5 111
+0x05a1: out   $5
+0x05a2: imm   $1 108
+0x05a3: out   $1
+0x05a4: imm   $3 100
+0x05a5: out   $3
+0x05a6: out   $2
+0x05a7: imm   $3 97
+0x05a8: out   $3
+0x05a9: out   $1
+0x05aa: out   $1
+0x05ab: out   $5
+0x05ac: imm   $5 99
+0x05ad: out   $5
+0x05ae: out   $2
+0x05af: imm   $5 102
+0x05b0: out   $5
+0x05b1: out   $3
+0x05b2: imm   $5 105
+0x05b3: out   $5
+0x05b4: out   $1
+0x05b5: imm   $5 10
+0x05b6: out   $5
+0x05b7: halt
+0x05b8: imm   $0 110
+0x05b9: imm   $3 65
+0x05ba: imm   $7 79
+0x05bb: imm   $4 111
+0x05bc: imm   $1 76
+0x05bd: imm   $5 67
+0x05be: imm   $2 32
+0x05bf: out   $3
+0x05c0: out   $1
+0x05c1: out   $1
+0x05c2: out   $7
+0x05c3: out   $5
+0x05c4: out   $2
+0x05c5: out   $0
+0x05c6: out   $4
+0x05c7: imm   $4 116
+0x05c8: out   $4
+0x05c9: out   $2
+0x05ca: imm   $4 117
+0x05cb: out   $4
+0x05cc: out   $0
+0x05cd: imm   $0 105
+0x05ce: out   $0
+0x05cf: imm   $0 113
+0x05d0: out   $0
+0x05d1: out   $4
+0x05d2: imm   $0 101
+0x05d3: out   $0
+0x05d4: imm   $0 10
+0x05d5: out   $0
+0x05d6: halt
+0x05d7: imm   $2 69
+0x05d8: imm   $0 32
+0x05d9: imm   $3 78
+0x05da: imm   $4 47
+0x05db: imm   $1 68
+0x05dc: imm   $7 73
+0x05dd: imm   $5 88
+0x05de: out   $7
+0x05df: out   $3
+0x05e0: out   $1
+0x05e1: out   $2
+0x05e2: out   $5
+0x05e3: out   $0
+0x05e4: out   $4
+0x05e5: out   $0
+0x05e6: imm   $4 65
+0x05e7: out   $4
+0x05e8: imm   $4 77
+0x05e9: out   $4
+0x05ea: out   $2
+0x05eb: out   $3
+0x05ec: out   $1
+0x05ed: imm   $4 10
+0x05ee: out   $4
+0x05ef: halt
+0x05f0: imm   $2 69
+0x05f1: imm   $5 32
+0x05f2: imm   $0 68
+0x05f3: imm   $1 88
+0x05f4: imm   $7 47
+0x05f5: imm   $3 73
+0x05f6: imm   $4 78
+0x05f7: out   $3
+0x05f8: out   $4
+0x05f9: out   $0
+0x05fa: out   $2
+0x05fb: out   $1
+0x05fc: out   $5
+0x05fd: out   $7
+0x05fe: out   $5
+0x05ff: imm   $7 65
+0x0600: out   $7
+0x0601: imm   $7 77
+0x0602: out   $7
+0x0603: out   $2
+0x0604: out   $4
+0x0605: out   $0
+0x0606: imm   $7 10
+0x0607: out   $7
+0x0608: halt
+0x0609: imm   $1 47
+0x060a: imm   $4 68
+0x060b: imm   $5 88
+0x060c: imm   $0 69
+0x060d: imm   $7 78
+0x060e: imm   $2 32
+0x060f: imm   $3 73
+0x0610: out   $3
+0x0611: out   $7
+0x0612: out   $4
+0x0613: out   $0
+0x0614: out   $5
+0x0615: out   $2
+0x0616: out   $1
+0x0617: out   $2
+0x0618: imm   $1 65
+0x0619: out   $1
+0x061a: imm   $1 77
+0x061b: out   $1
+0x061c: out   $0
+0x061d: out   $7
+0x061e: out   $4
+0x061f: imm   $1 10
+0x0620: out   $1
+0x0621: halt
+0x0622: imm   $3 32
+0x0623: imm   $2 69
+0x0624: imm   $0 78
+0x0625: imm   $5 68
+0x0626: imm   $7 88
+0x0627: imm   $1 47
+0x0628: imm   $4 73
+0x0629: out   $4
+0x062a: out   $0
+0x062b: out   $5
+0x062c: out   $2
+0x062d: out   $7
+0x062e: out   $3
+0x062f: out   $1
+0x0630: out   $3
+0x0631: imm   $1 65
+0x0632: out   $1
+0x0633: imm   $1 77
+0x0634: out   $1
+0x0635: out   $2
+0x0636: out   $0
+0x0637: out   $5
+0x0638: imm   $1 10
+0x0639: out   $1
+0x063a: halt
+0x063b: imm   $2 32
+0x063c: imm   $3 78
+0x063d: imm   $5 69
+0x063e: imm   $0 68
+0x063f: imm   $4 88
+0x0640: imm   $7 73
+0x0641: imm   $1 47
+0x0642: out   $7
+0x0643: out   $3
+0x0644: out   $0
+0x0645: out   $5
+0x0646: out   $4
+0x0647: out   $2
+0x0648: out   $1
+0x0649: out   $2
+0x064a: imm   $1 65
+0x064b: out   $1
+0x064c: imm   $1 77
+0x064d: out   $1
+0x064e: out   $5
+0x064f: out   $3
+0x0650: out   $0
+0x0651: imm   $1 10
+0x0652: out   $1
+0x0653: halt
+0x0654: imm   $1 32
+0x0655: imm   $4 73
+0x0656: imm   $2 68
+0x0657: imm   $3 69
+0x0658: imm   $0 78
+0x0659: imm   $7 88
+0x065a: imm   $5 47
+0x065b: out   $4
+0x065c: out   $0
+0x065d: out   $2
+0x065e: out   $3
+0x065f: out   $7
+0x0660: out   $1
+0x0661: out   $5
+0x0662: out   $1
+0x0663: imm   $5 65
+0x0664: out   $5
+0x0665: imm   $5 77
+0x0666: out   $5
+0x0667: out   $3
+0x0668: out   $0
+0x0669: out   $2
+0x066a: imm   $5 10
+0x066b: out   $5
+0x066c: halt
+0x066d: imm   $0 73
+0x066e: imm   $7 78
+0x066f: imm   $1 32
+0x0670: imm   $5 69
+0x0671: imm   $2 47
+0x0672: imm   $4 68
+0x0673: imm   $3 88
+0x0674: out   $0
+0x0675: out   $7
+0x0676: out   $4
+0x0677: out   $5
+0x0678: out   $3
+0x0679: out   $1
+0x067a: out   $2
+0x067b: out   $1
+0x067c: imm   $2 65
+0x067d: out   $2
+0x067e: imm   $2 77
+0x067f: out   $2
+0x0680: out   $5
+0x0681: out   $7
+0x0682: out   $4
+0x0683: imm   $2 10
+0x0684: out   $2
+0x0685: halt
+0x0686: imm   $7 47
+0x0687: imm   $0 32
+0x0688: imm   $5 68
+0x0689: imm   $3 73
+0x068a: imm   $1 69
+0x068b: imm   $2 78
+0x068c: imm   $4 88
+0x068d: out   $3
+0x068e: out   $2
+0x068f: out   $5
+0x0690: out   $1
+0x0691: out   $4
+0x0692: out   $0
+0x0693: out   $7
+0x0694: out   $0
+0x0695: imm   $7 65
+0x0696: out   $7
+0x0697: imm   $7 77
+0x0698: out   $7
+0x0699: out   $1
+0x069a: out   $2
+0x069b: out   $5
+0x069c: imm   $7 10
+0x069d: out   $7
+0x069e: halt
+0x069f: imm   $3 73
+0x06a0: imm   $0 88
+0x06a1: imm   $1 47
+0x06a2: imm   $7 68
+0x06a3: imm   $4 69
+0x06a4: imm   $5 32
+0x06a5: imm   $2 78
+0x06a6: out   $3
+0x06a7: out   $2
+0x06a8: out   $7
+0x06a9: out   $4
+0x06aa: out   $0
+0x06ab: out   $5
+0x06ac: out   $1
+0x06ad: out   $5
+0x06ae: imm   $1 65
+0x06af: out   $1
+0x06b0: imm   $1 77
+0x06b1: out   $1
+0x06b2: out   $4
+0x06b3: out   $2
+0x06b4: out   $7
+0x06b5: imm   $1 10
+0x06b6: out   $1
+0x06b7: halt
+0x06b8: imm   $7 88
+0x06b9: imm   $0 73
+0x06ba: imm   $4 78
+0x06bb: imm   $1 47
+0x06bc: imm   $2 69
+0x06bd: imm   $5 32
+0x06be: imm   $3 68
+0x06bf: out   $0
+0x06c0: out   $4
+0x06c1: out   $3
+0x06c2: out   $2
+0x06c3: out   $7
+0x06c4: out   $5
+0x06c5: out   $1
+0x06c6: out   $5
+0x06c7: imm   $1 65
+0x06c8: out   $1
+0x06c9: imm   $1 77
+0x06ca: out   $1
+0x06cb: out   $2
+0x06cc: out   $4
+0x06cd: out   $3
+0x06ce: imm   $1 10
+0x06cf: out   $1
+0x06d0: halt
+0x06d1: imm   $2 32
+0x06d2: imm   $3 68
+0x06d3: imm   $1 88
+0x06d4: imm   $0 78
+0x06d5: imm   $7 47
+0x06d6: imm   $5 69
+0x06d7: imm   $4 73
+0x06d8: out   $4
+0x06d9: out   $0
+0x06da: out   $3
+0x06db: out   $5
+0x06dc: out   $1
+0x06dd: out   $2
+0x06de: out   $7
+0x06df: out   $2
+0x06e0: imm   $7 65
+0x06e1: out   $7
+0x06e2: imm   $7 77
+0x06e3: out   $7
+0x06e4: out   $5
+0x06e5: out   $0
+0x06e6: out   $3
+0x06e7: imm   $7 10
+0x06e8: out   $7
+0x06e9: halt
+0x06ea: imm   $1 121
+0x06eb: imm   $0 97
+0x06ec: imm   $4 116
+0x06ed: imm   $2 111
+0x06ee: imm   $5 114
+0x06ef: imm   $3 32
+0x06f0: imm   $7 110
+0x06f1: out   $0
+0x06f2: out   $5
+0x06f3: out   $5
+0x06f4: out   $0
+0x06f5: out   $1
+0x06f6: out   $3
+0x06f7: out   $7
+0x06f8: out   $2
+0x06f9: out   $4
+0x06fa: out   $3
+0x06fb: imm   $1 105
+0x06fc: out   $1
+0x06fd: out   $7
+0x06fe: out   $1
+0x06ff: out   $4
+0x0700: out   $3
+0x0701: out   $4
+0x0702: out   $2
+0x0703: out   $3
+0x0704: imm   $1 48
+0x0705: out   $1
+0x0706: imm   $1 10
+0x0707: out   $1
+0x0708: halt
+0x0709: imm   $2 116
+0x070a: imm   $7 111
+0x070b: imm   $1 121
+0x070c: imm   $3 114
+0x070d: imm   $5 97
+0x070e: imm   $0 32
+0x070f: imm   $4 110
+0x0710: out   $5
+0x0711: out   $3
+0x0712: out   $3
+0x0713: out   $5
+0x0714: out   $1
+0x0715: out   $0
+0x0716: out   $4
+0x0717: out   $7
+0x0718: out   $2
+0x0719: out   $0
+0x071a: imm   $1 105
+0x071b: out   $1
+0x071c: out   $4
+0x071d: out   $1
+0x071e: out   $2
+0x071f: out   $0
+0x0720: out   $2
+0x0721: out   $7
+0x0722: out   $0
+0x0723: imm   $1 48
+0x0724: out   $1
+0x0725: imm   $1 10
+0x0726: out   $1
+0x0727: halt
+0x0728: imm   $2 110
+0x0729: imm   $1 111
+0x072a: imm   $0 32
+0x072b: imm   $3 121
+0x072c: imm   $5 116
+0x072d: imm   $7 97
+0x072e: imm   $4 114
+0x072f: out   $7
+0x0730: out   $4
+0x0731: out   $4
+0x0732: out   $7
+0x0733: out   $3
+0x0734: out   $0
+0x0735: out   $2
+0x0736: out   $1
+0x0737: out   $5
+0x0738: out   $0
+0x0739: imm   $3 105
+0x073a: out   $3
+0x073b: out   $2
+0x073c: out   $3
+0x073d: out   $5
+0x073e: out   $0
+0x073f: out   $5
+0x0740: out   $1
+0x0741: out   $0
+0x0742: imm   $3 48
+0x0743: out   $3
+0x0744: imm   $3 10
+0x0745: out   $3
+0x0746: halt
+0x0747: imm   $2 116
+0x0748: imm   $1 121
+0x0749: imm   $7 111
+0x074a: imm   $3 97
+0x074b: imm   $4 110
+0x074c: imm   $5 114
+0x074d: imm   $0 32
+0x074e: out   $3
+0x074f: out   $5
+0x0750: out   $5
+0x0751: out   $3
+0x0752: out   $1
+0x0753: out   $0
+0x0754: out   $4
+0x0755: out   $7
+0x0756: out   $2
+0x0757: out   $0
+0x0758: imm   $1 105
+0x0759: out   $1
+0x075a: out   $4
+0x075b: out   $1
+0x075c: out   $2
+0x075d: out   $0
+0x075e: out   $2
+0x075f: out   $7
+0x0760: out   $0
+0x0761: imm   $1 48
+0x0762: out   $1
+0x0763: imm   $1 10
+0x0764: out   $1
+0x0765: halt
+0x0766: imm   $0 110
+0x0767: imm   $4 121
+0x0768: imm   $5 111
+0x0769: imm   $3 32
+0x076a: imm   $7 114
+0x076b: imm   $1 116
+0x076c: imm   $2 97
+0x076d: out   $2
+0x076e: out   $7
+0x076f: out   $7
+0x0770: out   $2
+0x0771: out   $4
+0x0772: out   $3
+0x0773: out   $0
+0x0774: out   $5
+0x0775: out   $1
+0x0776: out   $3
+0x0777: imm   $4 105
+0x0778: out   $4
+0x0779: out   $0
+0x077a: out   $4
+0x077b: out   $1
+0x077c: out   $3
+0x077d: out   $1
+0x077e: out   $5
+0x077f: out   $3
+0x0780: imm   $4 48
+0x0781: out   $4
+0x0782: imm   $4 10
+0x0783: out   $4
+0x0784: halt
+0x0785: imm   $2 116
+0x0786: imm   $5 121
+0x0787: imm   $7 111
+0x0788: imm   $1 97
+0x0789: imm   $0 32
+0x078a: imm   $3 114
+0x078b: imm   $4 110
+0x078c: out   $1
+0x078d: out   $3
+0x078e: out   $3
+0x078f: out   $1
+0x0790: out   $5
+0x0791: out   $0
+0x0792: out   $4
+0x0793: out   $7
+0x0794: out   $2
+0x0795: out   $0
+0x0796: imm   $5 105
+0x0797: out   $5
+0x0798: out   $4
+0x0799: out   $5
+0x079a: out   $2
+0x079b: out   $0
+0x079c: out   $2
+0x079d: out   $7
+0x079e: out   $0
+0x079f: imm   $5 48
+0x07a0: out   $5
+0x07a1: imm   $5 10
+0x07a2: out   $5
+0x07a3: halt
+0x07a4: imm   $4 110
+0x07a5: imm   $2 114
+0x07a6: imm   $5 121
+0x07a7: imm   $3 111
+0x07a8: imm   $7 32
+0x07a9: imm   $1 116
+0x07aa: imm   $0 97
+0x07ab: out   $0
+0x07ac: out   $2
+0x07ad: out   $2
+0x07ae: out   $0
+0x07af: out   $5
+0x07b0: out   $7
+0x07b1: out   $4
+0x07b2: out   $3
+0x07b3: out   $1
+0x07b4: out   $7
+0x07b5: imm   $5 105
+0x07b6: out   $5
+0x07b7: out   $4
+0x07b8: out   $5
+0x07b9: out   $1
+0x07ba: out   $7
+0x07bb: out   $1
+0x07bc: out   $3
+0x07bd: out   $7
+0x07be: imm   $5 48
+0x07bf: out   $5
+0x07c0: imm   $5 10
+0x07c1: out   $5
+0x07c2: halt
+0x07c3: imm   $4 97
+0x07c4: imm   $7 110
+0x07c5: imm   $2 116
+0x07c6: imm   $5 114
+0x07c7: imm   $0 32
+0x07c8: imm   $1 111
+0x07c9: imm   $3 121
+0x07ca: out   $4
+0x07cb: out   $5
+0x07cc: out   $5
+0x07cd: out   $4
+0x07ce: out   $3
+0x07cf: out   $0
+0x07d0: out   $7
+0x07d1: out   $1
+0x07d2: out   $2
+0x07d3: out   $0
+0x07d4: imm   $3 105
+0x07d5: out   $3
+0x07d6: out   $7
+0x07d7: out   $3
+0x07d8: out   $2
+0x07d9: out   $0
+0x07da: out   $2
+0x07db: out   $1
+0x07dc: out   $0
+0x07dd: imm   $3 48
+0x07de: out   $3
+0x07df: imm   $3 10
+0x07e0: out   $3
+0x07e1: halt
+0x07e2: imm   $2 121
+0x07e3: imm   $1 116
+0x07e4: imm   $7 111
+0x07e5: imm   $4 114
+0x07e6: imm   $0 32
+0x07e7: imm   $3 110
+0x07e8: imm   $5 97
+0x07e9: out   $5
+0x07ea: out   $4
+0x07eb: out   $4
+0x07ec: out   $5
+0x07ed: out   $2
+0x07ee: out   $0
+0x07ef: out   $3
+0x07f0: out   $7
+0x07f1: out   $1
+0x07f2: out   $0
+0x07f3: imm   $2 105
+0x07f4: out   $2
+0x07f5: out   $3
+0x07f6: out   $2
+0x07f7: out   $1
+0x07f8: out   $0
+0x07f9: out   $1
+0x07fa: out   $7
+0x07fb: out   $0
+0x07fc: imm   $2 48
+0x07fd: out   $2
+0x07fe: imm   $2 10
+0x07ff: out   $2
+0x0800: halt
+0x0801: imm   $5 116
+0x0802: imm   $1 121
+0x0803: imm   $7 110
+0x0804: imm   $0 97
+0x0805: imm   $4 111
+0x0806: imm   $3 114
+0x0807: imm   $2 32
+0x0808: out   $0
+0x0809: out   $3
+0x080a: out   $3
+0x080b: out   $0
+0x080c: out   $1
+0x080d: out   $2
+0x080e: out   $7
+0x080f: out   $4
+0x0810: out   $5
+0x0811: out   $2
+0x0812: imm   $1 105
+0x0813: out   $1
+0x0814: out   $7
+0x0815: out   $1
+0x0816: out   $5
+0x0817: out   $2
+0x0818: out   $5
+0x0819: out   $4
+0x081a: out   $2
+0x081b: imm   $1 48
+0x081c: out   $1
+0x081d: imm   $1 10
+0x081e: out   $1
+0x081f: halt
+0x0820: imm   $5 116
+0x0821: imm   $3 111
+0x0822: imm   $0 97
+0x0823: imm   $2 110
+0x0824: imm   $7 114
+0x0825: imm   $1 121
+0x0826: imm   $4 32
+0x0827: out   $0
+0x0828: out   $7
+0x0829: out   $7
+0x082a: out   $0
+0x082b: out   $1
+0x082c: out   $4
+0x082d: out   $2
+0x082e: out   $3
+0x082f: out   $5
+0x0830: out   $4
+0x0831: imm   $1 105
+0x0832: out   $1
+0x0833: out   $2
+0x0834: out   $1
+0x0835: out   $5
+0x0836: out   $4
+0x0837: out   $5
+0x0838: out   $3
+0x0839: out   $4
+0x083a: imm   $1 48
+0x083b: out   $1
+0x083c: imm   $1 10
+0x083d: out   $1
+0x083e: halt
+0x083f: imm   $2 119
+0x0840: imm   $7 79
+0x0841: imm   $4 76
+0x0842: imm   $3 65
+0x0843: imm   $0 32
+0x0844: imm   $1 110
+0x0845: imm   $5 101
+0x0846: out   $1
+0x0847: out   $5
+0x0848: out   $2
+0x0849: out   $0
+0x084a: out   $3
+0x084b: out   $4
+0x084c: out   $4
+0x084d: out   $7
+0x084e: imm   $7 67
+0x084f: out   $7
+0x0850: out   $0
+0x0851: imm   $7 109
+0x0852: out   $7
+0x0853: imm   $7 117
+0x0854: out   $7
+0x0855: imm   $7 115
+0x0856: out   $7
+0x0857: imm   $7 116
+0x0858: out   $7
+0x0859: out   $0
+0x085a: imm   $7 98
+0x085b: out   $7
+0x085c: out   $5
+0x085d: out   $0
+0x085e: out   $1
+0x085f: imm   $7 111
+0x0860: out   $7
+0x0861: out   $1
+0x0862: imm   $7 45
+0x0863: out   $7
+0x0864: imm   $7 48
+0x0865: out   $7
+0x0866: imm   $7 10
+0x0867: out   $7
+0x0868: halt
+0x0869: imm   $7 73
+0x086a: imm   $2 120
+0x086b: imm   $5 100
+0x086c: imm   $3 65
+0x086d: imm   $4 47
+0x086e: imm   $1 110
+0x086f: imm   $0 101
+0x0870: out   $7
+0x0871: out   $1
+0x0872: out   $5
+0x0873: out   $0
+0x0874: out   $2
+0x0875: out   $4
+0x0876: out   $3
+0x0877: imm   $3 109
+0x0878: out   $3
+0x0879: out   $0
+0x087a: out   $1
+0x087b: out   $5
+0x087c: imm   $3 32
+0x087d: out   $3
+0x087e: imm   $4 105
+0x087f: out   $4
+0x0880: out   $1
+0x0881: out   $3
+0x0882: imm   $2 48
+0x0883: out   $2
+0x0884: imm   $2 45
+0x0885: out   $2
+0x0886: imm   $2 97
+0x0887: out   $2
+0x0888: imm   $0 114
+0x0889: out   $0
+0x088a: out   $0
+0x088b: out   $2
+0x088c: imm   $0 121
+0x088d: out   $0
+0x088e: out   $3
+0x088f: imm   $0 102
+0x0890: out   $0
+0x0891: out   $2
+0x0892: out   $4
+0x0893: imm   $0 108
+0x0894: out   $0
+0x0895: imm   $0 10
+0x0896: out   $0
+0x0897: halt
+0x0898: imm   $7 32
+0x0899: imm   $1 110
+0x089a: imm   $0 100
+0x089b: imm   $2 105
+0x089c: imm   $5 120
+0x089d: imm   $4 101
+0x089e: imm   $3 73
+0x089f: out   $3
+0x08a0: out   $1
+0x08a1: out   $0
+0x08a2: out   $4
+0x08a3: out   $5
+0x08a4: out   $7
+0x08a5: out   $2
+0x08a6: out   $1
+0x08a7: out   $7
+0x08a8: imm   $5 48
+0x08a9: out   $5
+0x08aa: imm   $5 45
+0x08ab: out   $5
+0x08ac: imm   $5 97
+0x08ad: out   $5
+0x08ae: imm   $4 114
+0x08af: out   $4
+0x08b0: out   $4
+0x08b1: out   $5
+0x08b2: imm   $4 121
+0x08b3: out   $4
+0x08b4: out   $7
+0x08b5: imm   $4 102
+0x08b6: out   $4
+0x08b7: out   $5
+0x08b8: out   $2
+0x08b9: imm   $4 108
+0x08ba: out   $4
+0x08bb: imm   $4 10
+0x08bc: out   $4
+0x08bd: halt
+0x08be: imm   $2 111
+0x08bf: imm   $0 101
+0x08c0: imm   $3 103
+0x08c1: imm   $5 54
+0x08c2: imm   $4 114
+0x08c3: imm   $7 110
+0x08c4: imm   $1 32
+0x08c5: out   $4
+0x08c6: out   $0
+0x08c7: out   $3
+0x08c8: out   $1
+0x08c9: out   $5
+0x08ca: out   $1
+0x08cb: out   $7
+0x08cc: out   $2
+0x08cd: imm   $7 116
+0x08ce: out   $7
+0x08cf: out   $1
+0x08d0: imm   $7 122
+0x08d1: out   $7
+0x08d2: out   $0
+0x08d3: out   $4
+0x08d4: out   $2
+0x08d5: imm   $7 10
+0x08d6: out   $7
+0x08d7: halt
+0x08d8: imm   $6 0
+0x08d9: imm   $2 48
+0x08da: imm   $3 2392
+0x08db: imm   $4 2278
+0x08dc: imm   $5 2271
+0x08dd: cmove $4 $5 $2
+0x08de: jump  $6 $4
+0x08df: nand  $7 $6 $6
+0x08e0: add   $2 $7 $2
+0x08e1: add   $0 $3 $2
+0x08e2: rmem  $0 $6 $0
+0x08e3: wmem  $6 $2 $0
+0x08e4: imm   $5 2267
+0x08e5: jump  $6 $5
+0x08e6: imm   $2 11651
+0x08e7: alloc $0 $2
+0x08e8: imm   $5 2440
+0x08e9: imm   $3 2282
+0x08ea: imm   $1 2292
+0x08eb: imm   $4 2286
+0x08ec: cmove $1 $4 $2
+0x08ed: jump  $6 $1
+0x08ee: nand  $7 $6 $6
+0x08ef: add   $2 $7 $2
+0x08f0: add   $4 $2 $5
+0x08f1: rmem  $4 $6 $4
+0x08f2: wmem  $0 $2 $4
+0x08f3: jump  $6 $3
+0x08f4: imm   $2 11651
+0x08f5: imm   $6 97
+0x08f6: out   $6
+0x08f7: imm   $6 98
+0x08f8: out   $6
+0x08f9: imm   $6 111
+0x08fa: out   $6
+0x08fb: imm   $6 117
+0x08fc: out   $6
+0x08fd: imm   $6 116
+0x08fe: out   $6
+0x08ff: imm   $6 32
+0x0900: out   $6
+0x0901: imm   $6 116
+0x0902: out   $6
+0x0903: imm   $6 111
+0x0904: out   $6
+0x0905: imm   $6 32
+0x0906: out   $6
+0x0907: imm   $6 108
+0x0908: out   $6
+0x0909: imm   $6 111
+0x090a: out   $6
+0x090b: imm   $6 97
+0x090c: out   $6
+0x090d: imm   $6 100
+0x090e: out   $6
+0x090f: imm   $6 32
+0x0910: out   $6
+0x0911: imm   $6 112
+0x0912: out   $6
+0x0913: imm   $6 114
+0x0914: out   $6
+0x0915: imm   $6 111
+0x0916: out   $6
+0x0917: imm   $6 103
+0x0918: out   $6
+0x0919: imm   $6 114
+0x091a: out   $6
+0x091b: imm   $6 97
+0x091c: out   $6
+0x091d: imm   $6 109
+0x091e: out   $6
+0x091f: imm   $6 32
+0x0920: out   $6
+0x0921: imm   $6 102
+0x0922: out   $6
+0x0923: imm   $6 114
+0x0924: out   $6
+0x0925: imm   $6 111
+0x0926: out   $6
+0x0927: imm   $6 109
+0x0928: out   $6
+0x0929: imm   $6 32
+0x092a: out   $6
+0x092b: imm   $6 115
+0x092c: out   $6
+0x092d: imm   $6 111
+0x092e: out   $6
+0x092f: imm   $6 109
+0x0930: out   $6
+0x0931: imm   $6 101
+0x0932: out   $6
+0x0933: imm   $6 32
+0x0934: out   $6
+0x0935: imm   $6 97
+0x0936: out   $6
+0x0937: imm   $6 108
+0x0938: out   $6
+0x0939: out   $6
+0x093a: imm   $6 111
+0x093b: out   $6
+0x093c: imm   $6 99
+0x093d: out   $6
+0x093e: imm   $6 97
+0x093f: out   $6
+0x0940: imm   $6 116
+0x0941: out   $6
+0x0942: imm   $6 101
+0x0943: out   $6
+0x0944: imm   $6 100
+0x0945: out   $6
+0x0946: imm   $6 32
+0x0947: out   $6
+0x0948: imm   $6 97
+0x0949: out   $6
+0x094a: imm   $6 114
+0x094b: out   $6
+0x094c: out   $6
+0x094d: imm   $6 97
+0x094e: out   $6
+0x094f: imm   $6 121
+0x0950: out   $6
+0x0951: imm   $6 46
+0x0952: out   $6
+0x0953: out   $6
+0x0954: imm   $6 10
+0x0955: out   $6
+0x0956: imm   $6 0
+0x0957: jump  $0 $6
+0x0958: imm   $3 100
+0x0959: imm   $1 108
+0x095a: imm   $0 111
+0x095b: imm   $2 114
+0x095c: imm   $7 112
+0x095d: imm   $5 97
+0x095e: imm   $4 103
+0x095f: out   $1
+0x0960: out   $0
+0x0961: out   $5
+0x0962: out   $3
+0x0963: out   $7
+0x0964: out   $2
+0x0965: out   $0
+0x0966: out   $4
+0x0967: imm   $4 32
+0x0968: out   $4
+0x0969: out   $3
+0x096a: imm   $0 105
+0x096b: out   $0
+0x096c: out   $3
+0x096d: imm   $0 110
+0x096e: out   $0
+0x096f: imm   $0 39
+0x0970: out   $0
+0x0971: imm   $0 116
+0x0972: out   $0
+0x0973: out   $4
+0x0974: out   $2
+0x0975: imm   $0 101
+0x0976: out   $0
+0x0977: out   $7
+0x0978: out   $1
+0x0979: out   $5
+0x097a: imm   $7 99
+0x097b: out   $7
+0x097c: out   $0
+0x097d: out   $4
+0x097e: imm   $7 48
+0x097f: out   $7
+0x0980: out   $4
+0x0981: out   $5
+0x0982: out   $2
+0x0983: out   $2
+0x0984: out   $5
+0x0985: imm   $7 121
+0x0986: out   $7
+0x0987: halt
+0x0988: imm   $4 3
+0x0989: jump  $6 $4
+0x098a: cmove $0 $1 $0
+0x098b: imm   $6 115
+0x098c: out   $6
+0x098d: imm   $6 117
+0x098e: out   $6
+0x098f: imm   $6 99
+0x0990: out   $6
+0x0991: out   $6
+0x0992: imm   $6 101
+0x0993: out   $6
+0x0994: imm   $6 115
+0x0995: out   $6
+0x0996: out   $6
+0x0997: imm   $6 46
+0x0998: out   $6
+0x0999: imm   $6 10
+0x099a: out   $6
+0x099b: imm   $6 0
+0x099c: imm   $6 118
+0x099d: out   $6
+0x099e: imm   $6 101
+0x099f: out   $6
+0x09a0: imm   $6 114
+0x09a1: out   $6
+0x09a2: imm   $6 105
+0x09a3: out   $6
+0x09a4: imm   $6 102
+0x09a5: out   $6
+0x09a6: imm   $6 121
+0x09a7: out   $6
+0x09a8: imm   $6 105
+0x09a9: out   $6
+0x09aa: imm   $6 110
+0x09ab: out   $6
+0x09ac: imm   $6 103
+0x09ad: out   $6
+0x09ae: imm   $6 32
+0x09af: out   $6
+0x09b0: imm   $6 116
+0x09b1: out   $6
+0x09b2: imm   $6 104
+0x09b3: out   $6
+0x09b4: imm   $6 97
+0x09b5: out   $6
+0x09b6: imm   $6 116
+0x09b7: out   $6
+0x09b8: imm   $6 32
+0x09b9: out   $6
+0x09ba: imm   $6 116
+0x09bb: out   $6
+0x09bc: imm   $6 104
+0x09bd: out   $6
+0x09be: imm   $6 101
+0x09bf: out   $6
+0x09c0: imm   $6 32
+0x09c1: out   $6
+0x09c2: imm   $6 97
+0x09c3: out   $6
+0x09c4: imm   $6 114
+0x09c5: out   $6
+0x09c6: out   $6
+0x09c7: imm   $6 97
+0x09c8: out   $6
+0x09c9: imm   $6 121
+0x09ca: out   $6
+0x09cb: imm   $6 32
+0x09cc: out   $6
+0x09cd: imm   $6 97
+0x09ce: out   $6
+0x09cf: imm   $6 110
+0x09d0: out   $6
+0x09d1: imm   $6 100
+0x09d2: out   $6
+0x09d3: imm   $6 32
+0x09d4: out   $6
+0x09d5: imm   $6 105
+0x09d6: out   $6
+0x09d7: imm   $6 116
+0x09d8: out   $6
+0x09d9: imm   $6 115
+0x09da: out   $6
+0x09db: imm   $6 32
+0x09dc: out   $6
+0x09dd: imm   $6 99
+0x09de: out   $6
+0x09df: imm   $6 111
+0x09e0: out   $6
+0x09e1: imm   $6 112
+0x09e2: out   $6
+0x09e3: imm   $6 121
+0x09e4: out   $6
+0x09e5: imm   $6 32
+0x09e6: out   $6
+0x09e7: imm   $6 97
+0x09e8: out   $6
+0x09e9: imm   $6 114
+0x09ea: out   $6
+0x09eb: imm   $6 101
+0x09ec: out   $6
+0x09ed: imm   $6 32
+0x09ee: out   $6
+0x09ef: imm   $6 116
+0x09f0: out   $6
+0x09f1: imm   $6 104
+0x09f2: out   $6
+0x09f3: imm   $6 101
+0x09f4: out   $6
+0x09f5: imm   $6 32
+0x09f6: out   $6
+0x09f7: imm   $6 115
+0x09f8: out   $6
+0x09f9: imm   $6 97
+0x09fa: out   $6
+0x09fb: imm   $6 109
+0x09fc: out   $6
+0x09fd: imm   $6 101
+0x09fe: out   $6
+0x09ff: imm   $6 46
+0x0a00: out   $6
+0x0a01: out   $6
+0x0a02: out   $6
+0x0a03: imm   $6 10
+0x0a04: out   $6
+0x0a05: imm   $6 0
+0x0a06: imm   $1 127
+0x0a07: imm   $4 144
+0x0a08: imm   $5 131
+0x0a09: cmove $4 $5 $2
+0x0a0a: jump  $6 $4
+0x0a0b: nand  $7 $6 $6
+0x0a0c: add   $2 $7 $2
+0x0a0d: rmem  $4 $6 $2
+0x0a0e: rmem  $3 $0 $2
+0x0a0f: nand  $7 $4 $4
+0x0a10: add   $4 $3 $7
+0x0a11: imm   $7 1
+0x0a12: add   $4 $7 $4
+0x0a13: imm   $3 570
+0x0a14: imm   $5 143
+0x0a15: cmove $5 $3 $4
+0x0a16: jump  $6 $5
+0x0a17: jump  $6 $1
+0x0a18: imm   $6 115
+0x0a19: out   $6
+0x0a1a: imm   $6 117
+0x0a1b: out   $6
+0x0a1c: imm   $6 99
+0x0a1d: out   $6
+0x0a1e: out   $6
+0x0a1f: imm   $6 101
+0x0a20: out   $6
+0x0a21: imm   $6 115
+0x0a22: out   $6
+0x0a23: out   $6
+0x0a24: imm   $6 46
+0x0a25: out   $6
+0x0a26: imm   $6 10
+0x0a27: out   $6
+0x0a28: imm   $6 116
+0x0a29: out   $6
+0x0a2a: imm   $6 101
+0x0a2b: out   $6
+0x0a2c: imm   $6 115
+0x0a2d: out   $6
+0x0a2e: imm   $6 116
+0x0a2f: out   $6
+0x0a30: imm   $6 105
+0x0a31: out   $6
+0x0a32: imm   $6 110
+0x0a33: out   $6
+0x0a34: imm   $6 103
+0x0a35: out   $6
+0x0a36: imm   $6 32
+0x0a37: out   $6
+0x0a38: imm   $6 97
+0x0a39: out   $6
+0x0a3a: imm   $6 108
+0x0a3b: out   $6
+0x0a3c: imm   $6 105
+0x0a3d: out   $6
+0x0a3e: imm   $6 97
+0x0a3f: out   $6
+0x0a40: imm   $6 115
+0x0a41: out   $6
+0x0a42: imm   $6 105
+0x0a43: out   $6
+0x0a44: imm   $6 110
+0x0a45: out   $6
+0x0a46: imm   $6 103
+0x0a47: out   $6
+0x0a48: imm   $6 46
+0x0a49: out   $6
+0x0a4a: out   $6
+0x0a4b: imm   $6 10
+0x0a4c: out   $6
+0x0a4d: imm   $6 0
+0x0a4e: imm   $4 378
+0x0a4f: imm   $5 48879
+0x0a50: wmem  $6 $4 $5
+0x0a51: rmem  $3 $0 $4
+0x0a52: nand  $7 $3 $3
+0x0a53: add   $3 $5 $7
+0x0a54: imm   $7 1
+0x0a55: add   $3 $7 $3
+0x0a56: imm   $1 472
+0x0a57: imm   $2 210
+0x0a58: cmove $1 $2 $3
+0x0a59: jump  $6 $1
+0x0a5a: rmem  $4 $6 $4
+0x0a5b: nand  $7 $5 $5
+0x0a5c: add   $4 $4 $7
+0x0a5d: imm   $7 1
+0x0a5e: add   $4 $7 $4
+0x0a5f: imm   $1 380
+0x0a60: imm   $2 219
+0x0a61: cmove $2 $1 $4
+0x0a62: jump  $6 $2
+0x0a63: imm   $4 379
+0x0a64: imm   $5 3240
+0x0a65: imm   $7 65536
+0x0a66: mul   $5 $7 $5
+0x0a67: imm   $7 35438
+0x0a68: add   $5 $7 $5
+0x0a69: wmem  $0 $4 $5
+0x0a6a: rmem  $3 $6 $4
+0x0a6b: nand  $7 $3 $3
+0x0a6c: add   $3 $5 $7
+0x0a6d: imm   $7 1
+0x0a6e: add   $3 $7 $3
+0x0a6f: imm   $1 521
+0x0a70: imm   $2 235
+0x0a71: cmove $1 $2 $3
+0x0a72: jump  $6 $1
+0x0a73: rmem  $4 $0 $4
+0x0a74: nand  $7 $5 $5
+0x0a75: add   $4 $4 $7
+0x0a76: imm   $7 1
+0x0a77: add   $4 $7 $4
+0x0a78: imm   $1 425
+0x0a79: imm   $2 244
+0x0a7a: cmove $2 $1 $4
+0x0a7b: jump  $6 $2
+0x0a7c: imm   $6 115
+0x0a7d: out   $6
+0x0a7e: imm   $6 117
+0x0a7f: out   $6
+0x0a80: imm   $6 99
+0x0a81: out   $6
+0x0a82: out   $6
+0x0a83: imm   $6 101
+0x0a84: out   $6
+0x0a85: imm   $6 115
+0x0a86: out   $6
+0x0a87: out   $6
+0x0a88: imm   $6 46
+0x0a89: out   $6
+0x0a8a: imm   $6 10
+0x0a8b: out   $6
+0x0a8c: imm   $6 102
+0x0a8d: out   $6
+0x0a8e: imm   $6 114
+0x0a8f: out   $6
+0x0a90: imm   $6 101
+0x0a91: out   $6
+0x0a92: out   $6
+0x0a93: imm   $6 32
+0x0a94: out   $6
+0x0a95: imm   $6 97
+0x0a96: out   $6
+0x0a97: imm   $6 102
+0x0a98: out   $6
+0x0a99: imm   $6 116
+0x0a9a: out   $6
+0x0a9b: imm   $6 101
+0x0a9c: out   $6
+0x0a9d: imm   $6 114
+0x0a9e: out   $6
+0x0a9f: imm   $6 32
+0x0aa0: out   $6
+0x0aa1: imm   $6 108
+0x0aa2: out   $6
+0x0aa3: imm   $6 111
+0x0aa4: out   $6
+0x0aa5: imm   $6 97
+0x0aa6: out   $6
+0x0aa7: imm   $6 100
+0x0aa8: out   $6
+0x0aa9: imm   $6 112
+0x0aaa: out   $6
+0x0aab: imm   $6 114
+0x0aac: out   $6
+0x0aad: imm   $6 111
+0x0aae: out   $6
+0x0aaf: imm   $6 103
+0x0ab0: out   $6
+0x0ab1: imm   $6 46
+0x0ab2: out   $6
+0x0ab3: out   $6
+0x0ab4: imm   $6 10
+0x0ab5: out   $6
+0x0ab6: imm   $6 0
+0x0ab7: free  $0
+0x0ab8: imm   $0 7
+0x0ab9: alloc $0 $0
+0x0aba: imm   $1 7
+0x0abb: alloc $1 $1
+0x0abc: imm   $2 7
+0x0abd: alloc $2 $2
+0x0abe: imm   $3 7
+0x0abf: alloc $3 $3
+0x0ac0: imm   $4 7
+0x0ac1: alloc $4 $4
+0x0ac2: imm   $5 7
+0x0ac3: alloc $5 $5
+0x0ac4: imm   $7 7
+0x0ac5: alloc $7 $7
+0x0ac6: free  $0
+0x0ac7: free  $1
+0x0ac8: free  $2
+0x0ac9: free  $3
+0x0aca: free  $4
+0x0acb: free  $5
+0x0acc: free  $7
+0x0acd: imm   $6 115
+0x0ace: out   $6
+0x0acf: imm   $6 117
+0x0ad0: out   $6
+0x0ad1: imm   $6 99
+0x0ad2: out   $6
+0x0ad3: out   $6
+0x0ad4: imm   $6 101
+0x0ad5: out   $6
+0x0ad6: imm   $6 115
+0x0ad7: out   $6
+0x0ad8: out   $6
+0x0ad9: imm   $6 46
+0x0ada: out   $6
+0x0adb: imm   $6 10
+0x0adc: out   $6
+0x0add: imm   $6 0
+0x0ade: imm   $6 108
+0x0adf: out   $6
+0x0ae0: imm   $6 111
+0x0ae1: out   $6
+0x0ae2: imm   $6 97
+0x0ae3: out   $6
+0x0ae4: imm   $6 100
+0x0ae5: out   $6
+0x0ae6: imm   $6 112
+0x0ae7: out   $6
+0x0ae8: imm   $6 114
+0x0ae9: out   $6
+0x0aea: imm   $6 111
+0x0aeb: out   $6
+0x0aec: imm   $6 103
+0x0aed: out   $6
+0x0aee: imm   $6 32
+0x0aef: out   $6
+0x0af0: imm   $6 111
+0x0af1: out   $6
+0x0af2: imm   $6 107
+0x0af3: out   $6
+0x0af4: imm   $6 46
+0x0af5: out   $6
+0x0af6: imm   $6 10
+0x0af7: out   $6
+0x0af8: imm   $6 0
+0x0af9: imm   $0 0
+0x0afa: imm   $1 0
+0x0afb: imm   $2 0
+0x0afc: imm   $3 0
+0x0afd: imm   $5 0
+0x0afe: imm   $6 0
+0x0aff: imm   $7 0
+0x0b00: imm   $4 601
+0x0b01: jump  $6 $4
+0x0b02: cmove $6 $5 $5
+0x0b03: in    $7
+0x0b04: imm   $3 108
+0x0b05: imm   $4 112
+0x0b06: imm   $2 103
+0x0b07: imm   $7 100
+0x0b08: imm   $0 114
+0x0b09: imm   $5 111
+0x0b0a: imm   $1 97
+0x0b0b: out   $3
+0x0b0c: out   $5
+0x0b0d: out   $1
+0x0b0e: out   $7
+0x0b0f: out   $4
+0x0b10: out   $0
+0x0b11: out   $5
+0x0b12: out   $2
+0x0b13: imm   $2 58
+0x0b14: out   $2
+0x0b15: imm   $2 32
+0x0b16: out   $2
+0x0b17: imm   $4 119
+0x0b18: out   $4
+0x0b19: out   $0
+0x0b1a: imm   $4 105
+0x0b1b: out   $4
+0x0b1c: imm   $7 116
+0x0b1d: out   $7
+0x0b1e: imm   $7 101
+0x0b1f: out   $7
+0x0b20: out   $2
+0x0b21: imm   $7 48
+0x0b22: out   $7
+0x0b23: out   $2
+0x0b24: out   $1
+0x0b25: out   $0
+0x0b26: out   $0
+0x0b27: out   $1
+0x0b28: imm   $7 121
+0x0b29: out   $7
+0x0b2a: out   $2
+0x0b2b: imm   $7 102
+0x0b2c: out   $7
+0x0b2d: out   $1
+0x0b2e: out   $4
+0x0b2f: out   $3
+0x0b30: halt
+0x0b31: imm   $4 100
+0x0b32: imm   $2 112
+0x0b33: imm   $7 97
+0x0b34: imm   $1 103
+0x0b35: imm   $3 114
+0x0b36: imm   $0 108
+0x0b37: imm   $5 111
+0x0b38: out   $0
+0x0b39: out   $5
+0x0b3a: out   $7
+0x0b3b: out   $4
+0x0b3c: out   $2
+0x0b3d: out   $3
+0x0b3e: out   $5
+0x0b3f: out   $1
+0x0b40: imm   $1 58
+0x0b41: out   $1
+0x0b42: imm   $1 32
+0x0b43: out   $1
+0x0b44: imm   $2 119
+0x0b45: out   $2
+0x0b46: out   $3
+0x0b47: imm   $2 105
+0x0b48: out   $2
+0x0b49: imm   $2 116
+0x0b4a: out   $2
+0x0b4b: imm   $2 101
+0x0b4c: out   $2
+0x0b4d: out   $1
+0x0b4e: out   $5
+0x0b4f: out   $0
+0x0b50: out   $4
+0x0b51: out   $1
+0x0b52: out   $7
+0x0b53: out   $3
+0x0b54: out   $3
+0x0b55: out   $7
+0x0b56: imm   $2 121
+0x0b57: out   $2
+0x0b58: out   $1
+0x0b59: imm   $2 102
+0x0b5a: out   $2
+0x0b5b: out   $7
+0x0b5c: imm   $2 105
+0x0b5d: out   $2
+0x0b5e: out   $0
+0x0b5f: halt
+0x0b60: imm   $1 112
+0x0b61: imm   $5 108
+0x0b62: imm   $4 114
+0x0b63: imm   $3 100
+0x0b64: imm   $0 103
+0x0b65: imm   $7 97
+0x0b66: imm   $2 111
+0x0b67: out   $5
+0x0b68: out   $2
+0x0b69: out   $7
+0x0b6a: out   $3
+0x0b6b: out   $1
+0x0b6c: out   $4
+0x0b6d: out   $2
+0x0b6e: out   $0
+0x0b6f: imm   $0 58
+0x0b70: out   $0
+0x0b71: imm   $0 32
+0x0b72: out   $0
+0x0b73: out   $7
+0x0b74: out   $4
+0x0b75: out   $4
+0x0b76: out   $7
+0x0b77: imm   $4 121
+0x0b78: out   $4
+0x0b79: out   $0
+0x0b7a: imm   $4 110
+0x0b7b: out   $4
+0x0b7c: out   $2
+0x0b7d: imm   $4 116
+0x0b7e: out   $4
+0x0b7f: out   $0
+0x0b80: imm   $4 99
+0x0b81: out   $4
+0x0b82: out   $2
+0x0b83: out   $1
+0x0b84: imm   $4 105
+0x0b85: out   $4
+0x0b86: imm   $4 101
+0x0b87: out   $4
+0x0b88: out   $3
+0x0b89: out   $0
+0x0b8a: imm   $4 40
+0x0b8b: out   $4
+0x0b8c: imm   $4 49
+0x0b8d: out   $4
+0x0b8e: imm   $4 41
+0x0b8f: out   $4
+0x0b90: halt
+0x0b91: imm   $0 97
+0x0b92: imm   $1 108
+0x0b93: imm   $4 111
+0x0b94: imm   $2 112
+0x0b95: imm   $3 103
+0x0b96: imm   $7 114
+0x0b97: imm   $5 100
+0x0b98: out   $1
+0x0b99: out   $4
+0x0b9a: out   $0
+0x0b9b: out   $5
+0x0b9c: out   $2
+0x0b9d: out   $7
+0x0b9e: out   $4
+0x0b9f: out   $3
+0x0ba0: imm   $3 58
+0x0ba1: out   $3
+0x0ba2: imm   $3 32
+0x0ba3: out   $3
+0x0ba4: out   $0
+0x0ba5: out   $7
+0x0ba6: out   $7
+0x0ba7: out   $0
+0x0ba8: imm   $7 121
+0x0ba9: out   $7
+0x0baa: out   $3
+0x0bab: imm   $7 110
+0x0bac: out   $7
+0x0bad: out   $4
+0x0bae: imm   $7 116
+0x0baf: out   $7
+0x0bb0: out   $3
+0x0bb1: imm   $7 99
+0x0bb2: out   $7
+0x0bb3: out   $4
+0x0bb4: out   $2
+0x0bb5: imm   $7 105
+0x0bb6: out   $7
+0x0bb7: imm   $7 101
+0x0bb8: out   $7
+0x0bb9: out   $5
+0x0bba: out   $3
+0x0bbb: imm   $7 40
+0x0bbc: out   $7
+0x0bbd: imm   $7 50
+0x0bbe: out   $7
+0x0bbf: imm   $7 41
+0x0bc0: out   $7
+0x0bc1: halt
+0x0bc2: imm   $1 114
+0x0bc3: imm   $4 111
+0x0bc4: imm   $5 97
+0x0bc5: imm   $0 112
+0x0bc6: imm   $3 103
+0x0bc7: imm   $7 108
+0x0bc8: imm   $2 100
+0x0bc9: out   $7
+0x0bca: out   $4
+0x0bcb: out   $5
+0x0bcc: out   $2
+0x0bcd: out   $0
+0x0bce: out   $1
+0x0bcf: out   $4
+0x0bd0: out   $3
+0x0bd1: imm   $3 32
+0x0bd2: out   $3
+0x0bd3: imm   $1 99
+0x0bd4: out   $1
+0x0bd5: out   $4
+0x0bd6: out   $0
+0x0bd7: imm   $1 121
+0x0bd8: out   $1
+0x0bd9: out   $3
+0x0bda: imm   $1 102
+0x0bdb: out   $1
+0x0bdc: out   $5
+0x0bdd: imm   $1 105
+0x0bde: out   $1
+0x0bdf: out   $7
+0x0be0: halt
+0x0be1: imm   $0 1083
+0x0be2: imm   $1 1064
+0x0be3: imm   $2 665
+0x0be4: jump  $6 $2
+0x0be5: cmove $0 $0 $1
+0x0be6: cmove $0 $0 $2
+0x0be7: cmove $0 $0 $4
+0x0be8: cmove $0 $1 $0
+0x0be9: cmove $0 $2 $0
+0x0bea: cmove $0 $4 $0
+0x0beb: cmove $1 $0 $0
+0x0bec: cmove $2 $0 $0
+0x0bed: cmove $4 $0 $0
+0x0bee: cmove $0 $0 $0
+0x0bef: cmove $0 $0 $0
+0x0bf0: cmove $0 $0 $0
+0x0bf1: cmove $0 $0 $0
+0x0bf2: cmove $0 $0 $0
+0x0bf3: cmove $0 $0 $0
+0x0bf4: cmove $0 $0 $0
+0x0bf5: cmove $0 $0 $0
+0x0bf6: cmove $0 $0 $0
+0x0bf7: cmove $0 $0 $0
+0x0bf8: cmove $0 $0 $0
+0x0bf9: cmove $0 $0 $0
+0x0bfa: cmove $0 $0 $0
+0x0bfb: cmove $0 $0 $0
+0x0bfc: cmove $0 $0 $0
+0x0bfd: cmove $0 $0 $0
+0x0bfe: cmove $0 $0 $0
+0x0bff: cmove $0 $0 $0
+0x0c00: cmove $0 $0 $0
+0x0c01: rmem  $0 $0 $0
+0x0c02: wmem  $0 $0 $0
+0x0c03: mul   $0 $0 $0
+0x0c04: alloc $0 $0
+0x0c05: cmove $0 $0 $1
+0x0c06: cmove $4 $0 $0
+0x0c07: cmove $0 $0 $0
+0x0c08: cmove $0 $0 $0
+0x0c09: cmove $0 $0 $0
+0x0c0a: cmove $0 $0 $0
+0x0c0b: cmove $0 $0 $0
+0x0c0c: cmove $0 $0 $0
+0x0c0d: cmove $0 $0 $0
+0x0c0e: cmove $0 $0 $0
+0x0c0f: cmove $0 $0 $0
+0x0c10: cmove $0 $0 $0
+0x0c11: cmove $0 $0 $0
+0x0c12: cmove $0 $0 $0
+0x0c13: cmove $0 $0 $0
+0x0c14: cmove $0 $0 $0
+0x0c15: cmove $0 $0 $0
+0x0c16: cmove $0 $0 $0
+0x0c17: cmove $0 $0 $0
+0x0c18: cmove $0 $0 $0
+0x0c19: cmove $0 $0 $0
+0x0c1a: cmove $0 $0 $0
+0x0c1b: cmove $0 $0 $0
+0x0c1c: cmove $0 $0 $0
+0x0c1d: cmove $0 $0 $0
+0x0c1e: cmove $0 $0 $0
+0x0c1f: cmove $0 $0 $0
+0x0c20: cmove $0 $0 $0
+0x0c21: imm   $7 645
+0x0c22: wmem  $6 $7 $1
+0x0c23: imm   $7 644
+0x0c24: wmem  $6 $7 $0
+0x0c25: imm   $2 3
+0x0c26: add   $1 $0 $2
+0x0c27: imm   $7 649
+0x0c28: wmem  $6 $7 $1
+0x0c29: imm   $2 32
+0x0c2a: imm   $7 651
+0x0c2b: wmem  $6 $7 $2
+0x0c2c: imm   $2 0
+0x0c2d: add   $1 $0 $2
+0x0c2e: rmem  $1 $6 $1
+0x0c2f: imm   $7 650
+0x0c30: wmem  $6 $7 $1
+0x0c31: imm   $2 1
+0x0c32: add   $1 $0 $2
+0x0c33: rmem  $1 $6 $1
+0x0c34: alloc $1 $1
+0x0c35: imm   $7 643
+0x0c36: wmem  $6 $7 $1
+0x0c37: imm   $2 2
+0x0c38: add   $1 $0 $2
+0x0c39: rmem  $1 $6 $1
+0x0c3a: alloc $2 $1
+0x0c3b: alloc $3 $1
+0x0c3c: imm   $7 641
+0x0c3d: wmem  $6 $7 $2
+0x0c3e: imm   $7 642
+0x0c3f: wmem  $6 $7 $3
+0x0c40: imm   $7 646
+0x0c41: wmem  $6 $7 $6
+0x0c42: imm   $7 647
+0x0c43: wmem  $6 $7 $6
+0x0c44: imm   $7 656
+0x0c45: wmem  $6 $7 $6
+0x0c46: imm   $0 9
+0x0c47: imm   $7 648
+0x0c48: wmem  $6 $7 $0
+0x0c49: imm   $0 708
+0x0c4a: imm   $7 993
+0x0c4b: jump  $6 $7
+0x0c4c: nand  $7 $6 $6
+0x0c4d: add   $1 $7 $1
+0x0c4e: imm   $7 655
+0x0c4f: wmem  $6 $7 $1
+0x0c50: imm   $0 715
+0x0c51: imm   $7 970
+0x0c52: jump  $6 $7
+0x0c53: imm   $0 1
+0x0c54: imm   $7 654
+0x0c55: wmem  $6 $7 $0
+0x0c56: imm   $7 653
+0x0c57: wmem  $6 $7 $6
+0x0c58: imm   $0 730
+0x0c59: jump  $6 $0
+0x0c5a: imm   $7 648
+0x0c5b: rmem  $0 $6 $7
+0x0c5c: imm   $1 1
+0x0c5d: add   $0 $1 $0
+0x0c5e: imm   $7 648
+0x0c5f: wmem  $6 $7 $0
+0x0c60: imm   $0 730
+0x0c61: jump  $6 $0
+0x0c62: imm   $0 733
+0x0c63: imm   $7 993
+0x0c64: jump  $6 $7
+0x0c65: imm   $4 722
+0x0c66: imm   $5 737
+0x0c67: cmove $4 $5 $1
+0x0c68: jump  $6 $4
+0x0c69: nand  $7 $6 $6
+0x0c6a: add   $1 $7 $1
+0x0c6b: imm   $0 255
+0x0c6c: nand  $0 $1 $0
+0x0c6d: nand  $0 $0 $0
+0x0c6e: nand  $7 $0 $0
+0x0c6f: add   $0 $1 $7
+0x0c70: imm   $7 1
+0x0c71: add   $0 $7 $0
+0x0c72: imm   $4 775
+0x0c73: imm   $5 750
+0x0c74: cmove $5 $4 $0
+0x0c75: jump  $6 $5
+0x0c76: imm   $7 655
+0x0c77: wmem  $6 $7 $1
+0x0c78: imm   $0 755
+0x0c79: imm   $7 970
+0x0c7a: jump  $6 $7
+0x0c7b: imm   $7 654
+0x0c7c: rmem  $3 $6 $7
+0x0c7d: imm   $2 1
+0x0c7e: add   $1 $3 $2
+0x0c7f: imm   $7 661
+0x0c80: wmem  $6 $7 $1
+0x0c81: imm   $7 653
+0x0c82: rmem  $0 $6 $7
+0x0c83: imm   $7 660
+0x0c84: wmem  $6 $7 $0
+0x0c85: add   $0 $0 $3
+0x0c86: imm   $7 653
+0x0c87: wmem  $6 $7 $0
+0x0c88: imm   $7 654
+0x0c89: wmem  $6 $7 $2
+0x0c8a: imm   $0 773
+0x0c8b: imm   $7 953
+0x0c8c: jump  $6 $7
+0x0c8d: imm   $0 730
+0x0c8e: jump  $6 $0
+0x0c8f: imm   $0 256
+0x0c90: imm   $7 646
+0x0c91: rmem  $2 $6 $7
+0x0c92: add   $2 $2 $0
+0x0c93: nand  $5 $2 $2
+0x0c94: add   $2 $1 $5
+0x0c95: imm   $5 1
+0x0c96: add   $2 $5 $2
+0x0c97: imm   $3 897
+0x0c98: imm   $4 787
+0x0c99: cmove $3 $4 $2
+0x0c9a: jump  $6 $3
+0x0c9b: imm   $0 256
+0x0c9c: nand  $5 $0 $0
+0x0c9d: add   $1 $1 $5
+0x0c9e: imm   $5 1
+0x0c9f: add   $1 $5 $1
+0x0ca0: imm   $7 641
+0x0ca1: rmem  $5 $6 $7
+0x0ca2: rmem  $2 $5 $1
+0x0ca3: imm   $7 642
+0x0ca4: rmem  $5 $6 $7
+0x0ca5: rmem  $3 $5 $1
+0x0ca6: imm   $7 657
+0x0ca7: wmem  $6 $7 $2
+0x0ca8: imm   $7 658
+0x0ca9: wmem  $6 $7 $3
+0x0caa: imm   $7 659
+0x0cab: wmem  $6 $7 $3
+0x0cac: imm   $0 832
+0x0cad: jump  $6 $0
+0x0cae: imm   $7 654
+0x0caf: rmem  $2 $6 $7
+0x0cb0: imm   $5 1
+0x0cb1: add   $2 $2 $5
+0x0cb2: imm   $7 661
+0x0cb3: wmem  $6 $7 $2
+0x0cb4: imm   $7 653
+0x0cb5: rmem  $2 $6 $7
+0x0cb6: imm   $7 660
+0x0cb7: wmem  $6 $7 $2
+0x0cb8: imm   $0 819
+0x0cb9: imm   $7 953
+0x0cba: jump  $6 $7
+0x0cbb: imm   $7 653
+0x0cbc: rmem  $0 $6 $7
+0x0cbd: imm   $7 654
+0x0cbe: rmem  $1 $6 $7
+0x0cbf: add   $0 $1 $0
+0x0cc0: imm   $7 653
+0x0cc1: wmem  $6 $7 $0
+0x0cc2: imm   $7 659
+0x0cc3: rmem  $0 $6 $7
+0x0cc4: imm   $7 654
+0x0cc5: wmem  $6 $7 $0
+0x0cc6: imm   $0 730
+0x0cc7: jump  $6 $0
+0x0cc8: imm   $7 658
+0x0cc9: rmem  $1 $6 $7
+0x0cca: imm   $3 806
+0x0ccb: imm   $4 838
+0x0ccc: cmove $3 $4 $1
+0x0ccd: jump  $6 $3
+0x0cce: nand  $0 $6 $6
+0x0ccf: add   $1 $0 $1
+0x0cd0: imm   $7 658
+0x0cd1: wmem  $6 $7 $1
+0x0cd2: imm   $7 657
+0x0cd3: rmem  $3 $6 $7
+0x0cd4: imm   $0 1
+0x0cd5: add   $2 $0 $3
+0x0cd6: imm   $7 657
+0x0cd7: wmem  $6 $7 $2
+0x0cd8: imm   $0 857
+0x0cd9: jump  $6 $0
+0x0cda: imm   $7 655
+0x0cdb: wmem  $6 $7 $1
+0x0cdc: imm   $0 855
+0x0cdd: imm   $7 970
+0x0cde: jump  $6 $7
+0x0cdf: imm   $0 832
+0x0ce0: jump  $6 $0
+0x0ce1: imm   $7 656
+0x0ce2: rmem  $4 $6 $7
+0x0ce3: imm   $2 3
+0x0ce4: nand  $1 $4 $2
+0x0ce5: nand  $1 $1 $1
+0x0ce6: imm   $2 4
+0x0ce7: nand  $7 $1 $1
+0x0ce8: add   $1 $2 $7
+0x0ce9: imm   $7 1
+0x0cea: add   $1 $7 $1
+0x0ceb: div   $4 $4 $2
+0x0cec: div   $0 $3 $2
+0x0ced: nand  $7 $0 $0
+0x0cee: add   $5 $4 $7
+0x0cef: imm   $7 1
+0x0cf0: add   $5 $7 $5
+0x0cf1: cmove $1 $6 $5
+0x0cf2: imm   $7 643
+0x0cf3: rmem  $4 $6 $7
+0x0cf4: rmem  $0 $4 $0
+0x0cf5: imm   $2 3
+0x0cf6: nand  $3 $3 $2
+0x0cf7: nand  $3 $3 $3
+0x0cf8: nand  $7 $3 $3
+0x0cf9: add   $3 $2 $7
+0x0cfa: imm   $7 1
+0x0cfb: add   $3 $7 $3
+0x0cfc: nand  $7 $1 $1
+0x0cfd: add   $3 $3 $7
+0x0cfe: imm   $7 1
+0x0cff: add   $3 $7 $3
+0x0d00: imm   $1 637
+0x0d01: add   $1 $1 $3
+0x0d02: rmem  $3 $6 $1
+0x0d03: div   $0 $0 $3
+0x0d04: imm   $2 255
+0x0d05: nand  $1 $2 $0
+0x0d06: nand  $1 $1 $1
+0x0d07: imm   $0 850
+0x0d08: jump  $6 $0
+0x0d09: imm   $4 58
+0x0d0a: imm   $7 32
+0x0d0b: imm   $1 69
+0x0d0c: imm   $2 111
+0x0d0d: imm   $3 82
+0x0d0e: imm   $5 79
+0x0d0f: imm   $0 99
+0x0d10: out   $1
+0x0d11: out   $3
+0x0d12: out   $3
+0x0d13: out   $5
+0x0d14: out   $3
+0x0d15: out   $4
+0x0d16: out   $7
+0x0d17: out   $0
+0x0d18: out   $2
+0x0d19: imm   $4 109
+0x0d1a: out   $4
+0x0d1b: imm   $4 112
+0x0d1c: out   $4
+0x0d1d: imm   $5 114
+0x0d1e: out   $5
+0x0d1f: imm   $3 101
+0x0d20: out   $3
+0x0d21: imm   $1 115
+0x0d22: out   $1
+0x0d23: out   $1
+0x0d24: out   $3
+0x0d25: imm   $1 100
+0x0d26: out   $1
+0x0d27: out   $7
+0x0d28: out   $1
+0x0d29: imm   $1 97
+0x0d2a: out   $1
+0x0d2b: imm   $3 116
+0x0d2c: out   $3
+0x0d2d: out   $1
+0x0d2e: out   $7
+0x0d2f: out   $1
+0x0d30: out   $5
+0x0d31: imm   $1 101
+0x0d32: out   $1
+0x0d33: out   $7
+0x0d34: out   $0
+0x0d35: out   $2
+0x0d36: out   $5
+0x0d37: out   $5
+0x0d38: imm   $1 117
+0x0d39: out   $1
+0x0d3a: out   $4
+0x0d3b: out   $3
+0x0d3c: imm   $1 63
+0x0d3d: out   $1
+0x0d3e: imm   $1 10
+0x0d3f: out   $1
+0x0d40: halt
+0x0d41: imm   $7 646
+0x0d42: rmem  $1 $6 $7
+0x0d43: imm   $7 661
+0x0d44: rmem  $2 $6 $7
+0x0d45: imm   $7 642
+0x0d46: rmem  $5 $6 $7
+0x0d47: wmem  $5 $1 $2
+0x0d48: imm   $7 660
+0x0d49: rmem  $3 $6 $7
+0x0d4a: imm   $7 641
+0x0d4b: rmem  $5 $6 $7
+0x0d4c: wmem  $5 $1 $3
+0x0d4d: imm   $2 1
+0x0d4e: add   $1 $1 $2
+0x0d4f: imm   $7 646
+0x0d50: wmem  $6 $7 $1
+0x0d51: jump  $6 $0
+0x0d52: imm   $7 656
+0x0d53: rmem  $4 $6 $7
+0x0d54: imm   $1 4
+0x0d55: div   $1 $4 $1
+0x0d56: imm   $3 1
+0x0d57: add   $4 $4 $3
+0x0d58: imm   $7 656
+0x0d59: wmem  $6 $7 $4
+0x0d5a: imm   $7 643
+0x0d5b: rmem  $4 $6 $7
+0x0d5c: rmem  $2 $4 $1
+0x0d5d: imm   $3 256
+0x0d5e: mul   $2 $2 $3
+0x0d5f: imm   $7 655
+0x0d60: rmem  $3 $6 $7
+0x0d61: add   $2 $2 $3
+0x0d62: wmem  $4 $1 $2
+0x0d63: jump  $6 $0
+0x0d64: imm   $7 643
+0x0d65: rmem  $0 $6 $7
+0x0d66: imm   $7 645
+0x0d67: rmem  $2 $6 $7
+0x0d68: jump  $6 $2
+0x0d69: imm   $7 652
+0x0d6a: wmem  $6 $7 $0
+0x0d6b: imm   $7 650
+0x0d6c: rmem  $2 $6 $7
+0x0d6d: imm   $3 988
+0x0d6e: imm   $4 1001
+0x0d6f: cmove $3 $4 $2
+0x0d70: jump  $6 $3
+0x0d71: nand  $3 $6 $6
+0x0d72: add   $2 $3 $2
+0x0d73: imm   $7 650
+0x0d74: wmem  $6 $7 $2
+0x0d75: imm   $1 0
+0x0d76: imm   $7 648
+0x0d77: rmem  $3 $6 $7
+0x0d78: imm   $0 1010
+0x0d79: jump  $6 $0
+0x0d7a: imm   $7 651
+0x0d7b: rmem  $2 $6 $7
+0x0d7c: nand  $7 $3 $3
+0x0d7d: add   $0 $2 $7
+0x0d7e: imm   $7 1
+0x0d7f: add   $0 $7 $0
+0x0d80: imm   $4 32768
+0x0d81: imm   $7 65536
+0x0d82: mul   $4 $7 $4
+0x0d83: nand  $4 $0 $4
+0x0d84: cmove $0 $3 $4
+0x0d85: nand  $4 $4 $4
+0x0d86: cmove $0 $2 $4
+0x0d87: nand  $7 $0 $0
+0x0d88: add   $2 $2 $7
+0x0d89: imm   $7 1
+0x0d8a: add   $2 $7 $2
+0x0d8b: imm   $7 32
+0x0d8c: cmove $2 $7 $4
+0x0d8d: imm   $7 651
+0x0d8e: wmem  $6 $7 $2
+0x0d8f: nand  $7 $0 $0
+0x0d90: add   $3 $3 $7
+0x0d91: imm   $7 1
+0x0d92: add   $3 $7 $3
+0x0d93: imm   $7 649
+0x0d94: rmem  $2 $6 $7
+0x0d95: rmem  $2 $6 $2
+0x0d96: imm   $5 605
+0x0d97: add   $5 $0 $5
+0x0d98: rmem  $5 $6 $5
+0x0d99: mul   $1 $1 $5
+0x0d9a: div   $0 $2 $5
+0x0d9b: nand  $7 $6 $6
+0x0d9c: add   $5 $7 $5
+0x0d9d: nand  $7 $5 $2
+0x0d9e: nand  $7 $7 $7
+0x0d9f: add   $1 $1 $7
+0x0da0: imm   $7 649
+0x0da1: rmem  $5 $6 $7
+0x0da2: wmem  $6 $5 $0
+0x0da3: imm   $0 0
+0x0da4: imm   $7 1
+0x0da5: cmove $0 $7 $4
+0x0da6: add   $5 $0 $5
+0x0da7: imm   $0 649
+0x0da8: wmem  $6 $0 $5
+0x0da9: imm   $5 1010
+0x0daa: imm   $7 1061
+0x0dab: cmove $7 $5 $3
+0x0dac: jump  $6 $7
+0x0dad: imm   $7 652
+0x0dae: rmem  $0 $6 $7
+0x0daf: jump  $6 $0
+0x0db0: imm   $1 662
+0x0db1: imm   $5 0
+0x0db2: add   $1 $1 $5
+0x0db3: rmem  $1 $6 $1
+0x0db4: imm   $4 4571
+0x0db5: wmem  $0 $4 $1
+0x0db6: imm   $1 662
+0x0db7: imm   $5 1
+0x0db8: add   $1 $1 $5
+0x0db9: rmem  $1 $6 $1
+0x0dba: imm   $4 4572
+0x0dbb: wmem  $0 $4 $1
+0x0dbc: imm   $1 662
+0x0dbd: imm   $5 2
+0x0dbe: add   $1 $1 $5
+0x0dbf: rmem  $1 $6 $1
+0x0dc0: imm   $4 4573
+0x0dc1: wmem  $0 $4 $1
+0x0dc2: jump  $0 $6
+0x0dc3: cmove $0 $1 $0
+0x0dc4: cmove $0 $3 $5
+0x0dc5: cmove $0 $1 $2
+0x0dc6: mul   $3 $2 $1
+0x0dc7: cmove $0 $3 $6
+0x0dc8: alloc $6 $1
+0x0dc9: out   $1
+0x0dca: alloc $1 $5
+0x0dcb: free  $7
+0x0dcc: alloc $2 $3
+0x0dcd: alloc $5 $7
+0x0dce: alloc $7 $3
+0x0dcf: free  $7
+0x0dd0: jump  $6 $1
+0x0dd1: free  $5
+0x0dd2: out   $1
+0x0dd3: free  $5
+0x0dd4: free  $7
+0x0dd5: free  $0
+0x0dd6: free  $0
+0x0dd7: free  $3
+0x0dd8: out   $5
+0x0dd9: imm   $0 15242240
+0x0dda: out   $3
+0x0ddb: out   $6
+0x0ddc: out   $5
+0x0ddd: in    $4
+0x0dde: out   $2
+0x0ddf: out   $3
+0x0de0: out   $0
+0x0de1: in    $7
+0x0de2: imm   $4 23868946
+0x0de3: in    $4
+0x0de4: out   $7
+0x0de5: in    $2
+0x0de6: in    $5
+0x0de7: in    $4
+0x0de8: in    $5
+0x0de9: in    $1
+0x0dea: in    $4
 0x0deb: 
-0x0dec: JUMP  $0 $6
+0x0dec: jump  $0 $6
 0x0ded: 
-0x0dee: JUMP  $1 $3
-0x0def: IMM   $4 18650682
-0x0df0: JUMP  $2 $1
-0x0df1: JUMP  $6 $0
-0x0df2: JUMP  $3 $3
-0x0df3: IMM   $3 8862621
+0x0dee: jump  $1 $3
+0x0def: imm   $4 18650682
+0x0df0: jump  $2 $1
+0x0df1: jump  $6 $0
+0x0df2: jump  $3 $3
+0x0df3: imm   $3 8862621
 0x0df4: 
-0x0df5: IMM   $1 21866403
+0x0df5: imm   $1 21866403
 0x0df6: 
-0x0df7: IMM   $4 28104237
-0x0df8: IMM   $5 20807356
-0x0df9: IMM   $5 14380210
-0x0dfa: IMM   $6 29812587
-0x0dfb: IMM   $6 32438168
+0x0df7: imm   $4 28104237
+0x0df8: imm   $5 20807356
+0x0df9: imm   $5 14380210
+0x0dfa: imm   $6 29812587
+0x0dfb: imm   $6 32438168
 0x0dfc: 
 0x0dfd: 
 0x0dfe: 
@@ -3596,1222 +3596,1222 @@
 0x0e0b: 
 0x0e0c: 
 0x0e0d: 
-0x0e0e: ALLOC $7 $5
-0x0e0f: ALLOC $0 $1
-0x0e10: ALLOC $6 $4
-0x0e11: ALLOC $3 $3
-0x0e12: OUT   $1
-0x0e13: ALLOC $1 $4
-0x0e14: ALLOC $1 $7
-0x0e15: ALLOC $4 $2
-0x0e16: ALLOC $2 $5
-0x0e17: OUT   $0
-0x0e18: ALLOC $3 $3
-0x0e19: ALLOC $3 $6
-0x0e1a: ALLOC $2 $1
-0x0e1b: ALLOC $4 $0
-0x0e1c: OUT   $3
-0x0e1d: ALLOC $5 $6
-0x0e1e: ALLOC $6 $1
-0x0e1f: ALLOC $6 $4
-0x0e20: ALLOC $3 $3
-0x0e21: OUT   $1
-0x0e22: ALLOC $7 $4
-0x0e23: FREE  $7
-0x0e24: FREE  $2
-0x0e25: FREE  $5
-0x0e26: OUT   $0
-0x0e27: FREE  $3
-0x0e28: FREE  $6
-0x0e29: FREE  $1
-0x0e2a: FREE  $0
-0x0e2b: OUT   $3
-0x0e2c: FREE  $6
-0x0e2d: FREE  $1
-0x0e2e: FREE  $4
-0x0e2f: FREE  $3
-0x0e30: RMEM  $7 $2 $7
-0x0e31: CMOVE $6 $0 $1
-0x0e32: CMOVE $7 $0 $2
-0x0e33: MUL   $0 $4 $1
-0x0e34: CMOVE $6 $2 $6
-0x0e35: ALLOC $1 $3
-0x0e36: WMEM  $5 $7 $3
-0x0e37: CMOVE $3 $0 $4
-0x0e38: MUL   $4 $4 $1
-0x0e39: FREE  $5
-0x0e3a: ALLOC $0 $5
-0x0e3b: WMEM  $1 $6 $5
-0x0e3c: FREE  $5
-0x0e3d: WMEM  $3 $5 $3
-0x0e3e: FREE  $4
-0x0e3f: WMEM  $2 $1 $1
-0x0e40: ADD   $4 $6 $2
-0x0e41: CMOVE $0 $4 $5
-0x0e42: CMOVE $7 $7 $0
-0x0e43: OUT   $2
-0x0e44: WMEM  $4 $0 $1
-0x0e45: WMEM  $2 $1 $5
-0x0e46: OUT   $2
-0x0e47: OUT   $1
-0x0e48: CMOVE $0 $3 $2
-0x0e49: OUT   $0
-0x0e4a: WMEM  $5 $6 $2
-0x0e4b: RMEM  $6 $0 $4
-0x0e4c: ADD   $6 $0 $5
-0x0e4d: WMEM  $3 $4 $1
-0x0e4e: WMEM  $4 $1 $1
-0x0e4f: MUL   $4 $6 $3
-0x0e50: MUL   $5 $0 $0
-0x0e51: ADD   $0 $2 $6
-0x0e52: MUL   $7 $4 $0
-0x0e53: WMEM  $2 $4 $4
-0x0e54: RMEM  $0 $0 $1
-0x0e55: OUT   $3
-0x0e56: WMEM  $5 $4 $4
-0x0e57: IN    $5
-0x0e58: CMOVE $0 $0 $1
-0x0e59: RMEM  $6 $3 $3
-0x0e5a: IN    $3
-0x0e5b: CMOVE $2 $2 $7
-0x0e5c: WMEM  $5 $6 $5
-0x0e5d: FREE  $7
-0x0e5e: OUT   $7
-0x0e5f: WMEM  $5 $5 $5
-0x0e60: OUT   $1
-0x0e61: OUT   $1
-0x0e62: OUT   $2
-0x0e63: FREE  $0
-0x0e64: ADD   $5 $6 $2
-0x0e65: IN    $1
-0x0e66: FREE  $7
-0x0e67: WMEM  $1 $6 $2
-0x0e68: MUL   $7 $5 $1
-0x0e69: IN    $1
-0x0e6a: FREE  $6
-0x0e6b: JUMP  $0 $7
-0x0e6c: RMEM  $4 $0 $6
-0x0e6d: JUMP  $0 $3
-0x0e6e: FREE  $7
-0x0e6f: WMEM  $0 $5 $3
-0x0e70: FREE  $2
-0x0e71: JUMP  $4 $7
-0x0e72: JUMP  $7 $2
-0x0e73: FREE  $2
-0x0e74: IN    $3
-0x0e75: OUT   $0
-0x0e76: OUT   $6
-0x0e77: MUL   $2 $5 $3
-0x0e78: OUT   $6
-0x0e79: OUT   $4
-0x0e7a: OUT   $0
-0x0e7b: WMEM  $2 $3 $6
-0x0e7c: ADD   $4 $6 $1
-0x0e7d: IN    $2
-0x0e7e: ADD   $2 $3 $6
-0x0e7f: CMOVE $3 $4 $0
-0x0e80: ALLOC $3 $3
-0x0e81: IMM   $5 15477928
-0x0e82: IMM   $5 12401821
-0x0e83: CMOVE $3 $2 $7
-0x0e84: CMOVE $6 $6 $6
-0x0e85: OUT   $0
-0x0e86: RMEM  $7 $0 $4
-0x0e87: IN    $7
-0x0e88: CMOVE $3 $6 $1
-0x0e89: CMOVE $6 $3 $5
-0x0e8a: WMEM  $3 $6 $1
-0x0e8b: CMOVE $2 $6 $7
-0x0e8c: IN    $3
-0x0e8d: IMM   $5 28233834
-0x0e8e: IN    $5
-0x0e8f: WMEM  $0 $0 $1
-0x0e90: IN    $4
-0x0e91: IMM   $6 2949215
-0x0e92: WMEM  $5 $1 $0
-0x0e93: OUT   $0
-0x0e94: RMEM  $0 $5 $1
-0x0e95: IN    $7
-0x0e96: MUL   $6 $0 $4
-0x0e97: CMOVE $1 $5 $7
-0x0e98: MUL   $7 $7 $2
-0x0e99: ALLOC $2 $5
-0x0e9a: ADD   $7 $3 $7
-0x0e9b: IMM   $6 7985820
-0x0e9c: JUMP  $7 $2
-0x0e9d: OUT   $5
-0x0e9e: ALLOC $0 $3
-0x0e9f: RMEM  $6 $6 $1
-0x0ea0: IN    $5
-0x0ea1: WMEM  $1 $2 $1
-0x0ea2: WMEM  $3 $0 $6
-0x0ea3: WMEM  $5 $5 $2
+0x0e0e: alloc $7 $5
+0x0e0f: alloc $0 $1
+0x0e10: alloc $6 $4
+0x0e11: alloc $3 $3
+0x0e12: out   $1
+0x0e13: alloc $1 $4
+0x0e14: alloc $1 $7
+0x0e15: alloc $4 $2
+0x0e16: alloc $2 $5
+0x0e17: out   $0
+0x0e18: alloc $3 $3
+0x0e19: alloc $3 $6
+0x0e1a: alloc $2 $1
+0x0e1b: alloc $4 $0
+0x0e1c: out   $3
+0x0e1d: alloc $5 $6
+0x0e1e: alloc $6 $1
+0x0e1f: alloc $6 $4
+0x0e20: alloc $3 $3
+0x0e21: out   $1
+0x0e22: alloc $7 $4
+0x0e23: free  $7
+0x0e24: free  $2
+0x0e25: free  $5
+0x0e26: out   $0
+0x0e27: free  $3
+0x0e28: free  $6
+0x0e29: free  $1
+0x0e2a: free  $0
+0x0e2b: out   $3
+0x0e2c: free  $6
+0x0e2d: free  $1
+0x0e2e: free  $4
+0x0e2f: free  $3
+0x0e30: rmem  $7 $2 $7
+0x0e31: cmove $6 $0 $1
+0x0e32: cmove $7 $0 $2
+0x0e33: mul   $0 $4 $1
+0x0e34: cmove $6 $2 $6
+0x0e35: alloc $1 $3
+0x0e36: wmem  $5 $7 $3
+0x0e37: cmove $3 $0 $4
+0x0e38: mul   $4 $4 $1
+0x0e39: free  $5
+0x0e3a: alloc $0 $5
+0x0e3b: wmem  $1 $6 $5
+0x0e3c: free  $5
+0x0e3d: wmem  $3 $5 $3
+0x0e3e: free  $4
+0x0e3f: wmem  $2 $1 $1
+0x0e40: add   $4 $6 $2
+0x0e41: cmove $0 $4 $5
+0x0e42: cmove $7 $7 $0
+0x0e43: out   $2
+0x0e44: wmem  $4 $0 $1
+0x0e45: wmem  $2 $1 $5
+0x0e46: out   $2
+0x0e47: out   $1
+0x0e48: cmove $0 $3 $2
+0x0e49: out   $0
+0x0e4a: wmem  $5 $6 $2
+0x0e4b: rmem  $6 $0 $4
+0x0e4c: add   $6 $0 $5
+0x0e4d: wmem  $3 $4 $1
+0x0e4e: wmem  $4 $1 $1
+0x0e4f: mul   $4 $6 $3
+0x0e50: mul   $5 $0 $0
+0x0e51: add   $0 $2 $6
+0x0e52: mul   $7 $4 $0
+0x0e53: wmem  $2 $4 $4
+0x0e54: rmem  $0 $0 $1
+0x0e55: out   $3
+0x0e56: wmem  $5 $4 $4
+0x0e57: in    $5
+0x0e58: cmove $0 $0 $1
+0x0e59: rmem  $6 $3 $3
+0x0e5a: in    $3
+0x0e5b: cmove $2 $2 $7
+0x0e5c: wmem  $5 $6 $5
+0x0e5d: free  $7
+0x0e5e: out   $7
+0x0e5f: wmem  $5 $5 $5
+0x0e60: out   $1
+0x0e61: out   $1
+0x0e62: out   $2
+0x0e63: free  $0
+0x0e64: add   $5 $6 $2
+0x0e65: in    $1
+0x0e66: free  $7
+0x0e67: wmem  $1 $6 $2
+0x0e68: mul   $7 $5 $1
+0x0e69: in    $1
+0x0e6a: free  $6
+0x0e6b: jump  $0 $7
+0x0e6c: rmem  $4 $0 $6
+0x0e6d: jump  $0 $3
+0x0e6e: free  $7
+0x0e6f: wmem  $0 $5 $3
+0x0e70: free  $2
+0x0e71: jump  $4 $7
+0x0e72: jump  $7 $2
+0x0e73: free  $2
+0x0e74: in    $3
+0x0e75: out   $0
+0x0e76: out   $6
+0x0e77: mul   $2 $5 $3
+0x0e78: out   $6
+0x0e79: out   $4
+0x0e7a: out   $0
+0x0e7b: wmem  $2 $3 $6
+0x0e7c: add   $4 $6 $1
+0x0e7d: in    $2
+0x0e7e: add   $2 $3 $6
+0x0e7f: cmove $3 $4 $0
+0x0e80: alloc $3 $3
+0x0e81: imm   $5 15477928
+0x0e82: imm   $5 12401821
+0x0e83: cmove $3 $2 $7
+0x0e84: cmove $6 $6 $6
+0x0e85: out   $0
+0x0e86: rmem  $7 $0 $4
+0x0e87: in    $7
+0x0e88: cmove $3 $6 $1
+0x0e89: cmove $6 $3 $5
+0x0e8a: wmem  $3 $6 $1
+0x0e8b: cmove $2 $6 $7
+0x0e8c: in    $3
+0x0e8d: imm   $5 28233834
+0x0e8e: in    $5
+0x0e8f: wmem  $0 $0 $1
+0x0e90: in    $4
+0x0e91: imm   $6 2949215
+0x0e92: wmem  $5 $1 $0
+0x0e93: out   $0
+0x0e94: rmem  $0 $5 $1
+0x0e95: in    $7
+0x0e96: mul   $6 $0 $4
+0x0e97: cmove $1 $5 $7
+0x0e98: mul   $7 $7 $2
+0x0e99: alloc $2 $5
+0x0e9a: add   $7 $3 $7
+0x0e9b: imm   $6 7985820
+0x0e9c: jump  $7 $2
+0x0e9d: out   $5
+0x0e9e: alloc $0 $3
+0x0e9f: rmem  $6 $6 $1
+0x0ea0: in    $5
+0x0ea1: wmem  $1 $2 $1
+0x0ea2: wmem  $3 $0 $6
+0x0ea3: wmem  $5 $5 $2
 0x0ea4: 
-0x0ea5: IN    $6
-0x0ea6: ADD   $5 $6 $1
-0x0ea7: RMEM  $5 $1 $0
-0x0ea8: WMEM  $7 $4 $1
+0x0ea5: in    $6
+0x0ea6: add   $5 $6 $1
+0x0ea7: rmem  $5 $1 $0
+0x0ea8: wmem  $7 $4 $1
 0x0ea9: 
-0x0eaa: IMM   $6 6216335
+0x0eaa: imm   $6 6216335
 0x0eab: 
-0x0eac: FREE  $6
-0x0ead: HALT
-0x0eae: HALT
-0x0eaf: NAND  $5 $5 $2
-0x0eb0: DIV   $7 $7 $0
-0x0eb1: WMEM  $3 $6 $1
-0x0eb2: DIV   $2 $4 $0
-0x0eb3: NAND  $2 $7 $7
-0x0eb4: HALT
-0x0eb5: HALT
-0x0eb6: CMOVE $4 $5 $4
-0x0eb7: CMOVE $4 $2 $3
-0x0eb8: NAND  $4 $5 $1
-0x0eb9: CMOVE $6 $5 $2
-0x0eba: NAND  $2 $0 $4
-0x0ebb: MUL   $3 $3 $5
-0x0ebc: WMEM  $7 $5 $5
-0x0ebd: DIV   $5 $3 $5
-0x0ebe: CMOVE $1 $3 $5
-0x0ebf: HALT
-0x0ec0: HALT
-0x0ec1: HALT
-0x0ec2: DIV   $4 $5 $6
-0x0ec3: CMOVE $1 $1 $0
-0x0ec4: DIV   $6 $0 $1
-0x0ec5: MUL   $4 $3 $5
-0x0ec6: RMEM  $3 $3 $7
-0x0ec7: WMEM  $3 $5 $4
-0x0ec8: NAND  $1 $6 $2
-0x0ec9: NAND  $2 $7 $5
-0x0eca: CMOVE $5 $5 $3
-0x0ecb: NAND  $7 $2 $5
-0x0ecc: DIV   $7 $4 $2
-0x0ecd: HALT
-0x0ece: ALLOC $7 $2
-0x0ecf: RMEM  $4 $2 $6
-0x0ed0: ALLOC $5 $7
-0x0ed1: DIV   $4 $5 $0
-0x0ed2: RMEM  $3 $0 $4
-0x0ed3: NAND  $3 $7 $5
-0x0ed4: RMEM  $2 $3 $1
-0x0ed5: HALT
-0x0ed6: HALT
-0x0ed7: RMEM  $1 $4 $1
-0x0ed8: HALT
-0x0ed9: HALT
-0x0eda: CMOVE $1 $1 $0
-0x0edb: MUL   $2 $2 $3
-0x0edc: FREE  $1
-0x0edd: RMEM  $1 $2 $7
-0x0ede: WMEM  $3 $5 $4
-0x0edf: NAND  $0 $0 $5
-0x0ee0: CMOVE $0 $1 $4
-0x0ee1: WMEM  $0 $4 $1
-0x0ee2: CMOVE $3 $4 $1
-0x0ee3: WMEM  $2 $2 $3
-0x0ee4: WMEM  $0 $0 $6
-0x0ee5: NAND  $4 $1 $1
-0x0ee6: ALLOC $1 $4
-0x0ee7: WMEM  $6 $3 $1
-0x0ee8: JUMP  $1 $1
-0x0ee9: FREE  $6
-0x0eea: FREE  $2
-0x0eeb: FREE  $7
-0x0eec: DIV   $1 $6 $1
-0x0eed: WMEM  $5 $4 $4
-0x0eee: CMOVE $5 $5 $1
-0x0eef: CMOVE $5 $5 $2
-0x0ef0: CMOVE $2 $5 $2
-0x0ef1: CMOVE $7 $5 $2
-0x0ef2: CMOVE $0 $7 $5
-0x0ef3: CMOVE $0 $5 $6
-0x0ef4: RMEM  $3 $5 $2
-0x0ef5: DIV   $5 $3 $5
-0x0ef6: RMEM  $3 $5 $7
-0x0ef7: MUL   $7 $5 $6
-0x0ef8: NAND  $2 $1 $6
-0x0ef9: DIV   $2 $3 $0
-0x0efa: RMEM  $1 $1 $1
-0x0efb: DIV   $3 $2 $0
-0x0efc: DIV   $0 $5 $5
-0x0efd: CMOVE $5 $6 $5
-0x0efe: CMOVE $2 $6 $2
-0x0eff: CMOVE $2 $1 $6
-0x0f00: CMOVE $1 $6 $7
-0x0f01: MUL   $4 $2 $1
-0x0f02: WMEM  $1 $0 $5
-0x0f03: NAND  $0 $6 $6
-0x0f04: FREE  $0
-0x0f05: FREE  $1
-0x0f06: NAND  $6 $5 $0
-0x0f07: ALLOC $2 $1
-0x0f08: RMEM  $7 $5 $7
-0x0f09: CMOVE $2 $2 $1
-0x0f0a: HALT
-0x0f0b: RMEM  $0 $1 $3
-0x0f0c: OUT   $2
-0x0f0d: MUL   $6 $2 $1
-0x0f0e: RMEM  $2 $1 $3
-0x0f0f: DIV   $7 $2 $2
-0x0f10: DIV   $6 $4 $4
-0x0f11: CMOVE $4 $4 $4
-0x0f12: NAND  $2 $6 $3
-0x0f13: MUL   $0 $5 $0
-0x0f14: RMEM  $3 $4 $4
-0x0f15: WMEM  $0 $2 $3
-0x0f16: RMEM  $3 $6 $2
-0x0f17: FREE  $0
-0x0f18: ALLOC $3 $0
-0x0f19: RMEM  $2 $3 $1
-0x0f1a: OUT   $3
-0x0f1b: CMOVE $0 $4 $3
-0x0f1c: OUT   $2
-0x0f1d: DIV   $2 $5 $1
-0x0f1e: OUT   $7
-0x0f1f: DIV   $4 $6 $1
-0x0f20: WMEM  $0 $0 $1
-0x0f21: DIV   $2 $2 $4
-0x0f22: FREE  $7
-0x0f23: OUT   $5
-0x0f24: FREE  $5
-0x0f25: WMEM  $2 $3 $3
-0x0f26: RMEM  $1 $0 $6
-0x0f27: OUT   $3
-0x0f28: RMEM  $2 $2 $3
-0x0f29: ALLOC $0 $1
-0x0f2a: ALLOC $1 $6
-0x0f2b: OUT   $6
-0x0f2c: NAND  $4 $0 $0
-0x0f2d: OUT   $7
-0x0f2e: OUT   $2
-0x0f2f: MUL   $0 $6 $6
-0x0f30: HALT
-0x0f31: RMEM  $6 $1 $0
-0x0f32: OUT   $6
-0x0f33: OUT   $6
-0x0f34: NAND  $0 $7 $6
-0x0f35: MUL   $6 $3 $4
-0x0f36: OUT   $1
-0x0f37: OUT   $0
-0x0f38: OUT   $2
-0x0f39: DIV   $7 $3 $3
-0x0f3a: OUT   $0
-0x0f3b: CMOVE $0 $3 $4
-0x0f3c: NAND  $0 $4 $1
-0x0f3d: DIV   $2 $2 $2
-0x0f3e: OUT   $6
-0x0f3f: NAND  $1 $4 $4
-0x0f40: IMM   $3 4271844
-0x0f41: OUT   $6
-0x0f42: OUT   $1
-0x0f43: OUT   $3
-0x0f44: OUT   $3
-0x0f45: CMOVE $3 $1 $3
-0x0f46: OUT   $1
-0x0f47: RMEM  $2 $3 $3
-0x0f48: OUT   $1
-0x0f49: IN    $3
-0x0f4a: OUT   $0
-0x0f4b: IMM   $5 30077767
-0x0f4c: RMEM  $5 $1 $3
-0x0f4d: OUT   $3
-0x0f4e: OUT   $1
-0x0f4f: IN    $0
-0x0f50: OUT   $2
-0x0f51: OUT   $2
-0x0f52: CMOVE $2 $6 $4
-0x0f53: IN    $1
-0x0f54: FREE  $6
-0x0f55: OUT   $2
-0x0f56: CMOVE $6 $3 $3
-0x0f57: FREE  $4
-0x0f58: WMEM  $6 $4 $1
-0x0f59: CMOVE $4 $7 $0
-0x0f5a: MUL   $1 $6 $1
-0x0f5b: DIV   $0 $1 $5
-0x0f5c: HALT
-0x0f5d: NAND  $6 $1 $0
-0x0f5e: RMEM  $6 $4 $6
-0x0f5f: CMOVE $5 $7 $5
-0x0f60: MUL   $3 $6 $5
-0x0f61: DIV   $1 $7 $3
-0x0f62: DIV   $3 $2 $2
-0x0f63: DIV   $0 $5 $5
-0x0f64: MUL   $7 $7 $5
-0x0f65: WMEM  $3 $6 $3
-0x0f66: OUT   $1
-0x0f67: IN    $1
-0x0f68: IN    $4
-0x0f69: ALLOC $6 $2
-0x0f6a: CMOVE $5 $1 $1
-0x0f6b: OUT   $4
-0x0f6c: CMOVE $5 $0 $1
-0x0f6d: JUMP  $1 $0
-0x0f6e: IN    $6
-0x0f6f: DIV   $4 $7 $5
-0x0f70: RMEM  $6 $7 $0
-0x0f71: WMEM  $3 $7 $7
-0x0f72: OUT   $6
-0x0f73: JUMP  $0 $3
-0x0f74: JUMP  $5 $3
-0x0f75: OUT   $7
-0x0f76: JUMP  $5 $3
-0x0f77: ALLOC $6 $4
-0x0f78: CMOVE $0 $6 $7
-0x0f79: JUMP  $1 $1
-0x0f7a: WMEM  $2 $0 $3
-0x0f7b: JUMP  $5 $2
-0x0f7c: OUT   $4
-0x0f7d: NAND  $5 $6 $5
-0x0f7e: JUMP  $6 $1
-0x0f7f: JUMP  $1 $0
-0x0f80: RMEM  $7 $1 $3
+0x0eac: free  $6
+0x0ead: halt
+0x0eae: halt
+0x0eaf: nand  $5 $5 $2
+0x0eb0: div   $7 $7 $0
+0x0eb1: wmem  $3 $6 $1
+0x0eb2: div   $2 $4 $0
+0x0eb3: nand  $2 $7 $7
+0x0eb4: halt
+0x0eb5: halt
+0x0eb6: cmove $4 $5 $4
+0x0eb7: cmove $4 $2 $3
+0x0eb8: nand  $4 $5 $1
+0x0eb9: cmove $6 $5 $2
+0x0eba: nand  $2 $0 $4
+0x0ebb: mul   $3 $3 $5
+0x0ebc: wmem  $7 $5 $5
+0x0ebd: div   $5 $3 $5
+0x0ebe: cmove $1 $3 $5
+0x0ebf: halt
+0x0ec0: halt
+0x0ec1: halt
+0x0ec2: div   $4 $5 $6
+0x0ec3: cmove $1 $1 $0
+0x0ec4: div   $6 $0 $1
+0x0ec5: mul   $4 $3 $5
+0x0ec6: rmem  $3 $3 $7
+0x0ec7: wmem  $3 $5 $4
+0x0ec8: nand  $1 $6 $2
+0x0ec9: nand  $2 $7 $5
+0x0eca: cmove $5 $5 $3
+0x0ecb: nand  $7 $2 $5
+0x0ecc: div   $7 $4 $2
+0x0ecd: halt
+0x0ece: alloc $7 $2
+0x0ecf: rmem  $4 $2 $6
+0x0ed0: alloc $5 $7
+0x0ed1: div   $4 $5 $0
+0x0ed2: rmem  $3 $0 $4
+0x0ed3: nand  $3 $7 $5
+0x0ed4: rmem  $2 $3 $1
+0x0ed5: halt
+0x0ed6: halt
+0x0ed7: rmem  $1 $4 $1
+0x0ed8: halt
+0x0ed9: halt
+0x0eda: cmove $1 $1 $0
+0x0edb: mul   $2 $2 $3
+0x0edc: free  $1
+0x0edd: rmem  $1 $2 $7
+0x0ede: wmem  $3 $5 $4
+0x0edf: nand  $0 $0 $5
+0x0ee0: cmove $0 $1 $4
+0x0ee1: wmem  $0 $4 $1
+0x0ee2: cmove $3 $4 $1
+0x0ee3: wmem  $2 $2 $3
+0x0ee4: wmem  $0 $0 $6
+0x0ee5: nand  $4 $1 $1
+0x0ee6: alloc $1 $4
+0x0ee7: wmem  $6 $3 $1
+0x0ee8: jump  $1 $1
+0x0ee9: free  $6
+0x0eea: free  $2
+0x0eeb: free  $7
+0x0eec: div   $1 $6 $1
+0x0eed: wmem  $5 $4 $4
+0x0eee: cmove $5 $5 $1
+0x0eef: cmove $5 $5 $2
+0x0ef0: cmove $2 $5 $2
+0x0ef1: cmove $7 $5 $2
+0x0ef2: cmove $0 $7 $5
+0x0ef3: cmove $0 $5 $6
+0x0ef4: rmem  $3 $5 $2
+0x0ef5: div   $5 $3 $5
+0x0ef6: rmem  $3 $5 $7
+0x0ef7: mul   $7 $5 $6
+0x0ef8: nand  $2 $1 $6
+0x0ef9: div   $2 $3 $0
+0x0efa: rmem  $1 $1 $1
+0x0efb: div   $3 $2 $0
+0x0efc: div   $0 $5 $5
+0x0efd: cmove $5 $6 $5
+0x0efe: cmove $2 $6 $2
+0x0eff: cmove $2 $1 $6
+0x0f00: cmove $1 $6 $7
+0x0f01: mul   $4 $2 $1
+0x0f02: wmem  $1 $0 $5
+0x0f03: nand  $0 $6 $6
+0x0f04: free  $0
+0x0f05: free  $1
+0x0f06: nand  $6 $5 $0
+0x0f07: alloc $2 $1
+0x0f08: rmem  $7 $5 $7
+0x0f09: cmove $2 $2 $1
+0x0f0a: halt
+0x0f0b: rmem  $0 $1 $3
+0x0f0c: out   $2
+0x0f0d: mul   $6 $2 $1
+0x0f0e: rmem  $2 $1 $3
+0x0f0f: div   $7 $2 $2
+0x0f10: div   $6 $4 $4
+0x0f11: cmove $4 $4 $4
+0x0f12: nand  $2 $6 $3
+0x0f13: mul   $0 $5 $0
+0x0f14: rmem  $3 $4 $4
+0x0f15: wmem  $0 $2 $3
+0x0f16: rmem  $3 $6 $2
+0x0f17: free  $0
+0x0f18: alloc $3 $0
+0x0f19: rmem  $2 $3 $1
+0x0f1a: out   $3
+0x0f1b: cmove $0 $4 $3
+0x0f1c: out   $2
+0x0f1d: div   $2 $5 $1
+0x0f1e: out   $7
+0x0f1f: div   $4 $6 $1
+0x0f20: wmem  $0 $0 $1
+0x0f21: div   $2 $2 $4
+0x0f22: free  $7
+0x0f23: out   $5
+0x0f24: free  $5
+0x0f25: wmem  $2 $3 $3
+0x0f26: rmem  $1 $0 $6
+0x0f27: out   $3
+0x0f28: rmem  $2 $2 $3
+0x0f29: alloc $0 $1
+0x0f2a: alloc $1 $6
+0x0f2b: out   $6
+0x0f2c: nand  $4 $0 $0
+0x0f2d: out   $7
+0x0f2e: out   $2
+0x0f2f: mul   $0 $6 $6
+0x0f30: halt
+0x0f31: rmem  $6 $1 $0
+0x0f32: out   $6
+0x0f33: out   $6
+0x0f34: nand  $0 $7 $6
+0x0f35: mul   $6 $3 $4
+0x0f36: out   $1
+0x0f37: out   $0
+0x0f38: out   $2
+0x0f39: div   $7 $3 $3
+0x0f3a: out   $0
+0x0f3b: cmove $0 $3 $4
+0x0f3c: nand  $0 $4 $1
+0x0f3d: div   $2 $2 $2
+0x0f3e: out   $6
+0x0f3f: nand  $1 $4 $4
+0x0f40: imm   $3 4271844
+0x0f41: out   $6
+0x0f42: out   $1
+0x0f43: out   $3
+0x0f44: out   $3
+0x0f45: cmove $3 $1 $3
+0x0f46: out   $1
+0x0f47: rmem  $2 $3 $3
+0x0f48: out   $1
+0x0f49: in    $3
+0x0f4a: out   $0
+0x0f4b: imm   $5 30077767
+0x0f4c: rmem  $5 $1 $3
+0x0f4d: out   $3
+0x0f4e: out   $1
+0x0f4f: in    $0
+0x0f50: out   $2
+0x0f51: out   $2
+0x0f52: cmove $2 $6 $4
+0x0f53: in    $1
+0x0f54: free  $6
+0x0f55: out   $2
+0x0f56: cmove $6 $3 $3
+0x0f57: free  $4
+0x0f58: wmem  $6 $4 $1
+0x0f59: cmove $4 $7 $0
+0x0f5a: mul   $1 $6 $1
+0x0f5b: div   $0 $1 $5
+0x0f5c: halt
+0x0f5d: nand  $6 $1 $0
+0x0f5e: rmem  $6 $4 $6
+0x0f5f: cmove $5 $7 $5
+0x0f60: mul   $3 $6 $5
+0x0f61: div   $1 $7 $3
+0x0f62: div   $3 $2 $2
+0x0f63: div   $0 $5 $5
+0x0f64: mul   $7 $7 $5
+0x0f65: wmem  $3 $6 $3
+0x0f66: out   $1
+0x0f67: in    $1
+0x0f68: in    $4
+0x0f69: alloc $6 $2
+0x0f6a: cmove $5 $1 $1
+0x0f6b: out   $4
+0x0f6c: cmove $5 $0 $1
+0x0f6d: jump  $1 $0
+0x0f6e: in    $6
+0x0f6f: div   $4 $7 $5
+0x0f70: rmem  $6 $7 $0
+0x0f71: wmem  $3 $7 $7
+0x0f72: out   $6
+0x0f73: jump  $0 $3
+0x0f74: jump  $5 $3
+0x0f75: out   $7
+0x0f76: jump  $5 $3
+0x0f77: alloc $6 $4
+0x0f78: cmove $0 $6 $7
+0x0f79: jump  $1 $1
+0x0f7a: wmem  $2 $0 $3
+0x0f7b: jump  $5 $2
+0x0f7c: out   $4
+0x0f7d: nand  $5 $6 $5
+0x0f7e: jump  $6 $1
+0x0f7f: jump  $1 $0
+0x0f80: rmem  $7 $1 $3
 0x0f81: 
 0x0f82: 
-0x0f83: JUMP  $2 $7
-0x0f84: IN    $4
-0x0f85: JUMP  $1 $6
-0x0f86: JUMP  $1 $0
-0x0f87: JUMP  $6 $5
-0x0f88: CMOVE $1 $4 $6
-0x0f89: JUMP  $0 $1
-0x0f8a: JUMP  $2 $6
-0x0f8b: IMM   $4 24046425
-0x0f8c: ADD   $4 $6 $1
-0x0f8d: MUL   $2 $4 $3
-0x0f8e: CMOVE $2 $4 $3
-0x0f8f: JUMP  $7 $3
-0x0f90: ALLOC $0 $1
-0x0f91: JUMP  $5 $1
-0x0f92: IMM   $0 133173
-0x0f93: JUMP  $5 $6
-0x0f94: IN    $6
-0x0f95: DIV   $5 $3 $0
-0x0f96: JUMP  $0 $6
-0x0f97: JUMP  $1 $1
+0x0f83: jump  $2 $7
+0x0f84: in    $4
+0x0f85: jump  $1 $6
+0x0f86: jump  $1 $0
+0x0f87: jump  $6 $5
+0x0f88: cmove $1 $4 $6
+0x0f89: jump  $0 $1
+0x0f8a: jump  $2 $6
+0x0f8b: imm   $4 24046425
+0x0f8c: add   $4 $6 $1
+0x0f8d: mul   $2 $4 $3
+0x0f8e: cmove $2 $4 $3
+0x0f8f: jump  $7 $3
+0x0f90: alloc $0 $1
+0x0f91: jump  $5 $1
+0x0f92: imm   $0 133173
+0x0f93: jump  $5 $6
+0x0f94: in    $6
+0x0f95: div   $5 $3 $0
+0x0f96: jump  $0 $6
+0x0f97: jump  $1 $1
 0x0f98: 
-0x0f99: IMM   $1 2799189
-0x0f9a: JUMP  $4 $3
-0x0f9b: JUMP  $2 $4
-0x0f9c: CMOVE $2 $6 $2
-0x0f9d: MUL   $1 $7 $1
-0x0f9e: JUMP  $2 $5
-0x0f9f: IMM   $0 17225086
-0x0fa0: IMM   $0 236973
-0x0fa1: IMM   $4 22502439
+0x0f99: imm   $1 2799189
+0x0f9a: jump  $4 $3
+0x0f9b: jump  $2 $4
+0x0f9c: cmove $2 $6 $2
+0x0f9d: mul   $1 $7 $1
+0x0f9e: jump  $2 $5
+0x0f9f: imm   $0 17225086
+0x0fa0: imm   $0 236973
+0x0fa1: imm   $4 22502439
 0x0fa2: 
 0x0fa3: 
-0x0fa4: JUMP  $5 $2
-0x0fa5: WMEM  $0 $3 $3
-0x0fa6: CMOVE $5 $1 $2
-0x0fa7: CMOVE $2 $2 $5
-0x0fa8: IMM   $1 28128813
-0x0fa9: IMM   $5 20090978
-0x0faa: IMM   $4 917539
-0x0fab: IN    $7
-0x0fac: RMEM  $4 $1 $2
-0x0fad: IN    $4
-0x0fae: ALLOC $5 $7
-0x0faf: JUMP  $2 $2
-0x0fb0: CMOVE $0 $1 $7
-0x0fb1: JUMP  $7 $7
-0x0fb2: IMM   $4 14540866
-0x0fb3: MUL   $2 $7 $7
-0x0fb4: RMEM  $1 $5 $6
-0x0fb5: JUMP  $0 $7
-0x0fb6: JUMP  $4 $6
-0x0fb7: IMM   $5 19624280
+0x0fa4: jump  $5 $2
+0x0fa5: wmem  $0 $3 $3
+0x0fa6: cmove $5 $1 $2
+0x0fa7: cmove $2 $2 $5
+0x0fa8: imm   $1 28128813
+0x0fa9: imm   $5 20090978
+0x0faa: imm   $4 917539
+0x0fab: in    $7
+0x0fac: rmem  $4 $1 $2
+0x0fad: in    $4
+0x0fae: alloc $5 $7
+0x0faf: jump  $2 $2
+0x0fb0: cmove $0 $1 $7
+0x0fb1: jump  $7 $7
+0x0fb2: imm   $4 14540866
+0x0fb3: mul   $2 $7 $7
+0x0fb4: rmem  $1 $5 $6
+0x0fb5: jump  $0 $7
+0x0fb6: jump  $4 $6
+0x0fb7: imm   $5 19624280
 0x0fb8: 
 0x0fb9: 
-0x0fba: OUT   $5
-0x0fbb: IMM   $1 24372840
+0x0fba: out   $5
+0x0fbb: imm   $1 24372840
 0x0fbc: 
-0x0fbd: OUT   $7
+0x0fbd: out   $7
 0x0fbe: 
-0x0fbf: IN    $3
-0x0fc0: RMEM  $0 $5 $4
-0x0fc1: JUMP  $5 $1
+0x0fbf: in    $3
+0x0fc0: rmem  $0 $5 $4
+0x0fc1: jump  $5 $1
 0x0fc2: 
 0x0fc3: 
 0x0fc4: 
 0x0fc5: 
-0x0fc6: MUL   $0 $6 $3
-0x0fc7: RMEM  $5 $2 $5
+0x0fc6: mul   $0 $6 $3
+0x0fc7: rmem  $5 $2 $5
 0x0fc8: 
-0x0fc9: IMM   $5 30209452
-0x0fca: IMM   $5 26935676
-0x0fcb: CMOVE $1 $7 $1
+0x0fc9: imm   $5 30209452
+0x0fca: imm   $5 26935676
+0x0fcb: cmove $1 $7 $1
 0x0fcc: 
-0x0fcd: DIV   $4 $3 $1
+0x0fcd: div   $4 $3 $1
 0x0fce: 
-0x0fcf: NAND  $3 $5 $0
-0x0fd0: CMOVE $2 $5 $3
+0x0fcf: nand  $3 $5 $0
+0x0fd0: cmove $2 $5 $3
 0x0fd1: 
 0x0fd2: 
-0x0fd3: IMM   $5 1411543
-0x0fd4: CMOVE $5 $4 $2
-0x0fd5: CMOVE $6 $7 $2
-0x0fd6: CMOVE $3 $4 $1
+0x0fd3: imm   $5 1411543
+0x0fd4: cmove $5 $4 $2
+0x0fd5: cmove $6 $7 $2
+0x0fd6: cmove $3 $4 $1
 0x0fd7: 
 0x0fd8: 
-0x0fd9: ADD   $1 $4 $0
-0x0fda: FREE  $5
-0x0fdb: CMOVE $3 $7 $6
-0x0fdc: JUMP  $5 $1
+0x0fd9: add   $1 $4 $0
+0x0fda: free  $5
+0x0fdb: cmove $3 $7 $6
+0x0fdc: jump  $5 $1
 0x0fdd: 
-0x0fde: CMOVE $6 $6 $2
+0x0fde: cmove $6 $6 $2
 0x0fdf: 
 0x0fe0: 
-0x0fe1: WMEM  $3 $5 $6
-0x0fe2: IMM   $7 14420102
+0x0fe1: wmem  $3 $5 $6
+0x0fe2: imm   $7 14420102
 0x0fe3: 
-0x0fe4: ADD   $1 $5 $6
+0x0fe4: add   $1 $5 $6
 0x0fe5: 
-0x0fe6: CMOVE $7 $6 $4
-0x0fe7: CMOVE $5 $6 $3
-0x0fe8: CMOVE $4 $3 $4
+0x0fe6: cmove $7 $6 $4
+0x0fe7: cmove $5 $6 $3
+0x0fe8: cmove $4 $3 $4
 0x0fe9: 
-0x0fea: IMM   $5 31162695
+0x0fea: imm   $5 31162695
 0x0feb: 
 0x0fec: 
-0x0fed: CMOVE $7 $5 $6
+0x0fed: cmove $7 $5 $6
 0x0fee: 
 0x0fef: 
 0x0ff0: 
 0x0ff1: 
-0x0ff2: CMOVE $3 $2 $4
+0x0ff2: cmove $3 $2 $4
 0x0ff3: 
-0x0ff4: JUMP  $0 $3
-0x0ff5: IMM   $0 29599966
+0x0ff4: jump  $0 $3
+0x0ff5: imm   $0 29599966
 0x0ff6: 
 0x0ff7: 
 0x0ff8: 
 0x0ff9: 
-0x0ffa: JUMP  $4 $3
-0x0ffb: HALT
-0x0ffc: JUMP  $6 $6
-0x0ffd: JUMP  $6 $7
-0x0ffe: JUMP  $6 $0
+0x0ffa: jump  $4 $3
+0x0ffb: halt
+0x0ffc: jump  $6 $6
+0x0ffd: jump  $6 $7
+0x0ffe: jump  $6 $0
 0x0fff: 
 0x1000: 
 0x1001: 
-0x1002: CMOVE $1 $5 $6
+0x1002: cmove $1 $5 $6
 0x1003: 
-0x1004: IMM   $7 8134293
+0x1004: imm   $7 8134293
 0x1005: 
 0x1006: 
 0x1007: 
-0x1008: MUL   $1 $5 $5
-0x1009: NAND  $2 $3 $6
-0x100a: CMOVE $7 $6 $2
-0x100b: RMEM  $5 $1 $1
-0x100c: IN    $5
-0x100d: MUL   $3 $2 $5
-0x100e: CMOVE $2 $6 $2
-0x100f: CMOVE $0 $0 $0
-0x1010: NAND  $7 $7 $6
-0x1011: MUL   $5 $2 $0
-0x1012: ADD   $5 $0 $3
-0x1013: ADD   $0 $1 $2
-0x1014: RMEM  $3 $5 $4
-0x1015: ADD   $4 $0 $6
-0x1016: HALT
-0x1017: HALT
-0x1018: ADD   $3 $6 $2
-0x1019: HALT
-0x101a: ADD   $0 $6 $7
-0x101b: CMOVE $3 $2 $1
-0x101c: NAND  $2 $6 $5
-0x101d: NAND  $4 $7 $6
-0x101e: ADD   $6 $7 $4
-0x101f: HALT
-0x1020: ALLOC $0 $2
-0x1021: CMOVE $2 $3 $6
-0x1022: HALT
-0x1023: DIV   $6 $0 $4
-0x1024: ADD   $0 $0 $4
-0x1025: MUL   $3 $6 $6
-0x1026: NAND  $2 $1 $3
-0x1027: MUL   $3 $3 $7
-0x1028: NAND  $2 $6 $5
-0x1029: NAND  $0 $4 $6
-0x102a: OUT   $1
-0x102b: DIV   $0 $6 $1
-0x102c: CMOVE $4 $2 $6
-0x102d: ADD   $4 $6 $2
-0x102e: NAND  $2 $7 $3
-0x102f: NAND  $3 $3 $5
-0x1030: WMEM  $5 $3 $2
-0x1031: CMOVE $5 $7 $3
-0x1032: CMOVE $0 $3 $3
-0x1033: MUL   $2 $6 $3
-0x1034: DIV   $5 $0 $2
-0x1035: CMOVE $3 $1 $5
-0x1036: ADD   $1 $2 $2
-0x1037: DIV   $1 $2 $3
-0x1038: HALT
-0x1039: IN    $4
-0x103a: ALLOC $4 $3
-0x103b: ALLOC $7 $2
-0x103c: JUMP  $5 $4
-0x103d: RMEM  $0 $3 $3
-0x103e: HALT
-0x103f: ADD   $3 $3 $3
-0x1040: ALLOC $3 $0
-0x1041: ALLOC $4 $6
-0x1042: JUMP  $6 $6
-0x1043: ALLOC $7 $4
-0x1044: ALLOC $1 $1
-0x1045: CMOVE $0 $0 $0
-0x1046: ALLOC $5 $0
-0x1047: NAND  $3 $3 $5
-0x1048: JUMP  $3 $4
-0x1049: ALLOC $5 $2
-0x104a: ADD   $4 $5 $5
-0x104b: FREE  $6
-0x104c: CMOVE $0 $3 $5
-0x104d: MUL   $6 $7 $1
-0x104e: ADD   $7 $1 $1
-0x104f: NAND  $2 $7 $2
-0x1050: ALLOC $2 $6
-0x1051: JUMP  $3 $7
-0x1052: WMEM  $1 $7 $4
-0x1053: RMEM  $7 $0 $5
-0x1054: ADD   $0 $0 $6
-0x1055: ALLOC $1 $4
-0x1056: HALT
-0x1057: ADD   $2 $7 $4
-0x1058: NAND  $3 $3 $6
-0x1059: ALLOC $6 $7
-0x105a: IN    $1
-0x105b: HALT
-0x105c: NAND  $6 $2 $3
-0x105d: JUMP  $6 $4
-0x105e: ALLOC $3 $6
-0x105f: ALLOC $1 $0
-0x1060: CMOVE $2 $7 $0
-0x1061: ALLOC $7 $7
-0x1062: ALLOC $7 $1
-0x1063: ALLOC $3 $4
-0x1064: NAND  $3 $3 $1
-0x1065: ALLOC $5 $6
-0x1066: MUL   $1 $2 $5
-0x1067: NAND  $1 $1 $1
-0x1068: HALT
-0x1069: ADD   $3 $3 $3
-0x106a: CMOVE $4 $4 $3
-0x106b: NAND  $5 $3 $1
-0x106c: JUMP  $4 $6
-0x106d: HALT
-0x106e: ALLOC $0 $4
-0x106f: MUL   $3 $0 $5
-0x1070: ALLOC $0 $3
-0x1071: ALLOC $3 $0
-0x1072: MUL   $6 $4 $5
-0x1073: ALLOC $7 $3
-0x1074: NAND  $1 $1 $7
-0x1075: MUL   $3 $3 $4
-0x1076: NAND  $2 $6 $5
-0x1077: HALT
-0x1078: ADD   $4 $7 $4
-0x1079: HALT
-0x107a: FREE  $3
-0x107b: FREE  $3
-0x107c: CMOVE $1 $0 $0
-0x107d: HALT
-0x107e: ALLOC $4 $7
-0x107f: FREE  $2
-0x1080: HALT
-0x1081: MUL   $5 $6 $1
-0x1082: FREE  $5
-0x1083: FREE  $2
-0x1084: IN    $1
-0x1085: ALLOC $3 $5
-0x1086: FREE  $7
-0x1087: MUL   $2 $7 $4
-0x1088: FREE  $7
-0x1089: HALT
-0x108a: MUL   $4 $1 $5
-0x108b: FREE  $7
-0x108c: FREE  $4
-0x108d: ADD   $7 $1 $2
-0x108e: FREE  $7
-0x108f: ALLOC $2 $0
-0x1090: IN    $5
-0x1091: HALT
-0x1092: HALT
-0x1093: IN    $5
-0x1094: HALT
-0x1095: NAND  $5 $4 $5
-0x1096: JUMP  $4 $6
-0x1097: HALT
-0x1098: HALT
-0x1099: MUL   $6 $0 $7
-0x109a: ALLOC $1 $7
-0x109b: HALT
-0x109c: MUL   $4 $7 $6
-0x109d: FREE  $5
-0x109e: HALT
-0x109f: MUL   $5 $0 $4
-0x10a0: FREE  $7
-0x10a1: FREE  $2
-0x10a2: ADD   $6 $5 $6
-0x10a3: HALT
-0x10a4: HALT
-0x10a5: JUMP  $0 $7
-0x10a6: HALT
-0x10a7: HALT
-0x10a8: MUL   $6 $0 $7
-0x10a9: FREE  $6
-0x10aa: FREE  $3
-0x10ab: ADD   $5 $1 $2
-0x10ac: FREE  $6
-0x10ad: FREE  $0
-0x10ae: ADD   $1 $1 $2
-0x10af: ALLOC $5 $4
-0x10b0: CMOVE $4 $4 $7
-0x10b1: MUL   $2 $0 $3
-0x10b2: CMOVE $2 $7 $5
-0x10b3: HALT
-0x10b4: MUL   $5 $7 $6
-0x10b5: CMOVE $6 $3 $2
-0x10b6: ALLOC $4 $1
-0x10b7: ADD   $2 $0 $6
-0x10b8: NAND  $5 $2 $6
-0x10b9: WMEM  $0 $6 $5
-0x10ba: ADD   $3 $6 $2
-0x10bb: NAND  $0 $1 $3
-0x10bc: CMOVE $2 $0 $5
-0x10bd: JUMP  $0 $1
-0x10be: DIV   $3 $2 $3
-0x10bf: ALLOC $1 $0
-0x10c0: OUT   $3
-0x10c1: RMEM  $2 $4 $4
-0x10c2: CMOVE $7 $7 $6
-0x10c3: ALLOC $7 $6
-0x10c4: FREE  $6
-0x10c5: FREE  $1
-0x10c6: ALLOC $4 $1
-0x10c7: FREE  $7
-0x10c8: DIV   $1 $1 $0
-0x10c9: ALLOC $2 $5
-0x10ca: CMOVE $7 $4 $0
-0x10cb: ALLOC $6 $0
-0x10cc: JUMP  $5 $6
-0x10cd: FREE  $7
-0x10ce: CMOVE $7 $1 $3
-0x10cf: ADD   $1 $0 $1
-0x10d0: FREE  $1
-0x10d1: DIV   $6 $5 $5
-0x10d2: MUL   $1 $1 $7
-0x10d3: NAND  $0 $0 $3
-0x10d4: HALT
-0x10d5: JUMP  $3 $3
-0x10d6: HALT
-0x10d7: ALLOC $4 $3
-0x10d8: IN    $4
-0x10d9: HALT
-0x10da: ALLOC $1 $7
-0x10db: DIV   $6 $4 $5
-0x10dc: ALLOC $0 $0
-0x10dd: ALLOC $5 $4
-0x10de: FREE  $6
-0x10df: FREE  $5
-0x10e0: CMOVE $7 $7 $7
-0x10e1: DIV   $0 $0 $1
-0x10e2: NAND  $1 $1 $1
-0x10e3: OUT   $0
-0x10e4: JUMP  $6 $5
-0x10e5: HALT
-0x10e6: MUL   $6 $0 $0
-0x10e7: ALLOC $4 $5
-0x10e8: CMOVE $0 $6 $3
-0x10e9: ALLOC $3 $5
-0x10ea: JUMP  $4 $5
-0x10eb: ALLOC $7 $5
-0x10ec: OUT   $4
-0x10ed: ALLOC $0 $4
-0x10ee: NAND  $2 $7 $7
-0x10ef: OUT   $5
-0x10f0: JUMP  $1 $0
-0x10f1: CMOVE $7 $7 $4
-0x10f2: NAND  $2 $1 $7
-0x10f3: IN    $5
-0x10f4: OUT   $6
-0x10f5: ALLOC $6 $1
-0x10f6: DIV   $0 $3 $2
-0x10f7: CMOVE $3 $1 $0
-0x10f8: OUT   $0
-0x10f9: OUT   $6
-0x10fa: CMOVE $7 $5 $3
-0x10fb: ALLOC $1 $1
-0x10fc: IN    $6
-0x10fd: OUT   $3
-0x10fe: NAND  $0 $5 $6
-0x10ff: DIV   $5 $3 $7
-0x1100: OUT   $2
-0x1101: ALLOC $7 $6
-0x1102: ALLOC $6 $0
-0x1103: ALLOC $2 $1
-0x1104: OUT   $1
-0x1105: IN    $0
-0x1106: FREE  $5
-0x1107: OUT   $6
-0x1108: DIV   $2 $2 $1
-0x1109: NAND  $4 $5 $3
-0x110a: ADD   $5 $3 $5
-0x110b: IMM   $1 22357658
-0x110c: OUT   $1
-0x110d: OUT   $1
-0x110e: IMM   $2 6849295
-0x110f: CMOVE $4 $2 $6
-0x1110: OUT   $1
-0x1111: JUMP  $5 $5
-0x1112: OUT   $0
-0x1113: OUT   $0
-0x1114: IMM   $1 10101940
-0x1115: RMEM  $4 $5 $5
-0x1116: OUT   $6
-0x1117: IMM   $1 24117437
-0x1118: OUT   $4
-0x1119: ALLOC $7 $4
-0x111a: JUMP  $2 $4
-0x111b: OUT   $5
-0x111c: OUT   $3
-0x111d: IMM   $2 23896023
-0x111e: OUT   $4
-0x111f: FREE  $5
-0x1120: IN    $1
-0x1121: OUT   $4
-0x1122: OUT   $6
-0x1123: JUMP  $0 $1
-0x1124: FREE  $5
-0x1125: OUT   $4
-0x1126: ADD   $5 $3 $4
-0x1127: OUT   $3
-0x1128: OUT   $1
-0x1129: IN    $7
-0x112a: OUT   $3
-0x112b: OUT   $1
-0x112c: ADD   $3 $0 $1
-0x112d: OUT   $1
-0x112e: OUT   $7
-0x112f: DIV   $7 $6 $1
-0x1130: OUT   $5
-0x1131: OUT   $5
-0x1132: DIV   $4 $6 $1
-0x1133: IN    $6
-0x1134: OUT   $1
-0x1135: IMM   $2 23903822
-0x1136: FREE  $4
-0x1137: IN    $1
-0x1138: JUMP  $0 $3
-0x1139: NAND  $2 $5 $5
-0x113a: OUT   $4
-0x113b: JUMP  $5 $3
-0x113c: NAND  $4 $2 $7
-0x113d: HALT
-0x113e: IMM   $2 9265361
-0x113f: NAND  $6 $2 $1
-0x1140: IN    $4
-0x1141: IN    $3
-0x1142: NAND  $6 $3 $2
-0x1143: FREE  $5
-0x1144: IN    $5
-0x1145: FREE  $5
-0x1146: IN    $0
-0x1147: DIV   $6 $3 $2
-0x1148: IN    $0
-0x1149: CMOVE $5 $3 $1
-0x114a: JUMP  $2 $3
-0x114b: DIV   $0 $6 $0
-0x114c: DIV   $1 $5 $2
-0x114d: MUL   $5 $6 $7
-0x114e: CMOVE $7 $7 $3
-0x114f: DIV   $7 $5 $4
-0x1150: JUMP  $2 $3
-0x1151: FREE  $5
-0x1152: ADD   $1 $4 $1
-0x1153: MUL   $6 $4 $4
-0x1154: ALLOC $1 $6
-0x1155: CMOVE $2 $5 $5
-0x1156: MUL   $6 $4 $1
-0x1157: CMOVE $3 $1 $7
-0x1158: FREE  $6
-0x1159: DIV   $3 $4 $4
-0x115a: NAND  $4 $7 $4
-0x115b: FREE  $4
-0x115c: DIV   $6 $5 $6
-0x115d: CMOVE $2 $0 $1
-0x115e: CMOVE $5 $5 $0
-0x115f: IMM   $2 14482384
-0x1160: HALT
-0x1161: ALLOC $0 $7
-0x1162: DIV   $2 $6 $1
-0x1163: OUT   $4
-0x1164: DIV   $0 $3 $5
-0x1165: IMM   $5 22115458
-0x1166: IN    $5
-0x1167: ALLOC $3 $3
-0x1168: DIV   $7 $4 $2
-0x1169: IN    $7
-0x116a: IN    $3
-0x116b: ALLOC $2 $6
-0x116c: OUT   $3
-0x116d: CMOVE $0 $5 $0
-0x116e: ADD   $4 $4 $1
-0x116f: MUL   $3 $2 $4
-0x1170: NAND  $2 $4 $1
-0x1171: JUMP  $5 $7
-0x1172: OUT   $6
-0x1173: WMEM  $4 $7 $1
-0x1174: ALLOC $6 $1
-0x1175: OUT   $5
-0x1176: CMOVE $6 $2 $6
-0x1177: DIV   $7 $2 $5
-0x1178: OUT   $0
-0x1179: CMOVE $2 $6 $0
-0x117a: IMM   $1 3697409
-0x117b: NAND  $6 $3 $2
-0x117c: CMOVE $0 $5 $1
-0x117d: ALLOC $2 $7
-0x117e: IN    $4
-0x117f: ALLOC $0 $2
-0x1180: IMM   $2 15063748
-0x1181: WMEM  $6 $6 $7
-0x1182: CMOVE $1 $0 $1
-0x1183: ALLOC $3 $0
-0x1184: HALT
-0x1185: IN    $4
-0x1186: IMM   $1 27056076
-0x1187: MUL   $6 $5 $2
-0x1188: OUT   $5
-0x1189: IMM   $6 2485615
-0x118a: IN    $2
-0x118b: ALLOC $1 $1
-0x118c: DIV   $4 $4 $1
-0x118d: OUT   $1
-0x118e: IN    $1
-0x118f: DIV   $5 $3 $5
-0x1190: CMOVE $3 $3 $3
-0x1191: IN    $3
-0x1192: DIV   $7 $4 $5
-0x1193: IN    $4
-0x1194: JUMP  $0 $5
+0x1008: mul   $1 $5 $5
+0x1009: nand  $2 $3 $6
+0x100a: cmove $7 $6 $2
+0x100b: rmem  $5 $1 $1
+0x100c: in    $5
+0x100d: mul   $3 $2 $5
+0x100e: cmove $2 $6 $2
+0x100f: cmove $0 $0 $0
+0x1010: nand  $7 $7 $6
+0x1011: mul   $5 $2 $0
+0x1012: add   $5 $0 $3
+0x1013: add   $0 $1 $2
+0x1014: rmem  $3 $5 $4
+0x1015: add   $4 $0 $6
+0x1016: halt
+0x1017: halt
+0x1018: add   $3 $6 $2
+0x1019: halt
+0x101a: add   $0 $6 $7
+0x101b: cmove $3 $2 $1
+0x101c: nand  $2 $6 $5
+0x101d: nand  $4 $7 $6
+0x101e: add   $6 $7 $4
+0x101f: halt
+0x1020: alloc $0 $2
+0x1021: cmove $2 $3 $6
+0x1022: halt
+0x1023: div   $6 $0 $4
+0x1024: add   $0 $0 $4
+0x1025: mul   $3 $6 $6
+0x1026: nand  $2 $1 $3
+0x1027: mul   $3 $3 $7
+0x1028: nand  $2 $6 $5
+0x1029: nand  $0 $4 $6
+0x102a: out   $1
+0x102b: div   $0 $6 $1
+0x102c: cmove $4 $2 $6
+0x102d: add   $4 $6 $2
+0x102e: nand  $2 $7 $3
+0x102f: nand  $3 $3 $5
+0x1030: wmem  $5 $3 $2
+0x1031: cmove $5 $7 $3
+0x1032: cmove $0 $3 $3
+0x1033: mul   $2 $6 $3
+0x1034: div   $5 $0 $2
+0x1035: cmove $3 $1 $5
+0x1036: add   $1 $2 $2
+0x1037: div   $1 $2 $3
+0x1038: halt
+0x1039: in    $4
+0x103a: alloc $4 $3
+0x103b: alloc $7 $2
+0x103c: jump  $5 $4
+0x103d: rmem  $0 $3 $3
+0x103e: halt
+0x103f: add   $3 $3 $3
+0x1040: alloc $3 $0
+0x1041: alloc $4 $6
+0x1042: jump  $6 $6
+0x1043: alloc $7 $4
+0x1044: alloc $1 $1
+0x1045: cmove $0 $0 $0
+0x1046: alloc $5 $0
+0x1047: nand  $3 $3 $5
+0x1048: jump  $3 $4
+0x1049: alloc $5 $2
+0x104a: add   $4 $5 $5
+0x104b: free  $6
+0x104c: cmove $0 $3 $5
+0x104d: mul   $6 $7 $1
+0x104e: add   $7 $1 $1
+0x104f: nand  $2 $7 $2
+0x1050: alloc $2 $6
+0x1051: jump  $3 $7
+0x1052: wmem  $1 $7 $4
+0x1053: rmem  $7 $0 $5
+0x1054: add   $0 $0 $6
+0x1055: alloc $1 $4
+0x1056: halt
+0x1057: add   $2 $7 $4
+0x1058: nand  $3 $3 $6
+0x1059: alloc $6 $7
+0x105a: in    $1
+0x105b: halt
+0x105c: nand  $6 $2 $3
+0x105d: jump  $6 $4
+0x105e: alloc $3 $6
+0x105f: alloc $1 $0
+0x1060: cmove $2 $7 $0
+0x1061: alloc $7 $7
+0x1062: alloc $7 $1
+0x1063: alloc $3 $4
+0x1064: nand  $3 $3 $1
+0x1065: alloc $5 $6
+0x1066: mul   $1 $2 $5
+0x1067: nand  $1 $1 $1
+0x1068: halt
+0x1069: add   $3 $3 $3
+0x106a: cmove $4 $4 $3
+0x106b: nand  $5 $3 $1
+0x106c: jump  $4 $6
+0x106d: halt
+0x106e: alloc $0 $4
+0x106f: mul   $3 $0 $5
+0x1070: alloc $0 $3
+0x1071: alloc $3 $0
+0x1072: mul   $6 $4 $5
+0x1073: alloc $7 $3
+0x1074: nand  $1 $1 $7
+0x1075: mul   $3 $3 $4
+0x1076: nand  $2 $6 $5
+0x1077: halt
+0x1078: add   $4 $7 $4
+0x1079: halt
+0x107a: free  $3
+0x107b: free  $3
+0x107c: cmove $1 $0 $0
+0x107d: halt
+0x107e: alloc $4 $7
+0x107f: free  $2
+0x1080: halt
+0x1081: mul   $5 $6 $1
+0x1082: free  $5
+0x1083: free  $2
+0x1084: in    $1
+0x1085: alloc $3 $5
+0x1086: free  $7
+0x1087: mul   $2 $7 $4
+0x1088: free  $7
+0x1089: halt
+0x108a: mul   $4 $1 $5
+0x108b: free  $7
+0x108c: free  $4
+0x108d: add   $7 $1 $2
+0x108e: free  $7
+0x108f: alloc $2 $0
+0x1090: in    $5
+0x1091: halt
+0x1092: halt
+0x1093: in    $5
+0x1094: halt
+0x1095: nand  $5 $4 $5
+0x1096: jump  $4 $6
+0x1097: halt
+0x1098: halt
+0x1099: mul   $6 $0 $7
+0x109a: alloc $1 $7
+0x109b: halt
+0x109c: mul   $4 $7 $6
+0x109d: free  $5
+0x109e: halt
+0x109f: mul   $5 $0 $4
+0x10a0: free  $7
+0x10a1: free  $2
+0x10a2: add   $6 $5 $6
+0x10a3: halt
+0x10a4: halt
+0x10a5: jump  $0 $7
+0x10a6: halt
+0x10a7: halt
+0x10a8: mul   $6 $0 $7
+0x10a9: free  $6
+0x10aa: free  $3
+0x10ab: add   $5 $1 $2
+0x10ac: free  $6
+0x10ad: free  $0
+0x10ae: add   $1 $1 $2
+0x10af: alloc $5 $4
+0x10b0: cmove $4 $4 $7
+0x10b1: mul   $2 $0 $3
+0x10b2: cmove $2 $7 $5
+0x10b3: halt
+0x10b4: mul   $5 $7 $6
+0x10b5: cmove $6 $3 $2
+0x10b6: alloc $4 $1
+0x10b7: add   $2 $0 $6
+0x10b8: nand  $5 $2 $6
+0x10b9: wmem  $0 $6 $5
+0x10ba: add   $3 $6 $2
+0x10bb: nand  $0 $1 $3
+0x10bc: cmove $2 $0 $5
+0x10bd: jump  $0 $1
+0x10be: div   $3 $2 $3
+0x10bf: alloc $1 $0
+0x10c0: out   $3
+0x10c1: rmem  $2 $4 $4
+0x10c2: cmove $7 $7 $6
+0x10c3: alloc $7 $6
+0x10c4: free  $6
+0x10c5: free  $1
+0x10c6: alloc $4 $1
+0x10c7: free  $7
+0x10c8: div   $1 $1 $0
+0x10c9: alloc $2 $5
+0x10ca: cmove $7 $4 $0
+0x10cb: alloc $6 $0
+0x10cc: jump  $5 $6
+0x10cd: free  $7
+0x10ce: cmove $7 $1 $3
+0x10cf: add   $1 $0 $1
+0x10d0: free  $1
+0x10d1: div   $6 $5 $5
+0x10d2: mul   $1 $1 $7
+0x10d3: nand  $0 $0 $3
+0x10d4: halt
+0x10d5: jump  $3 $3
+0x10d6: halt
+0x10d7: alloc $4 $3
+0x10d8: in    $4
+0x10d9: halt
+0x10da: alloc $1 $7
+0x10db: div   $6 $4 $5
+0x10dc: alloc $0 $0
+0x10dd: alloc $5 $4
+0x10de: free  $6
+0x10df: free  $5
+0x10e0: cmove $7 $7 $7
+0x10e1: div   $0 $0 $1
+0x10e2: nand  $1 $1 $1
+0x10e3: out   $0
+0x10e4: jump  $6 $5
+0x10e5: halt
+0x10e6: mul   $6 $0 $0
+0x10e7: alloc $4 $5
+0x10e8: cmove $0 $6 $3
+0x10e9: alloc $3 $5
+0x10ea: jump  $4 $5
+0x10eb: alloc $7 $5
+0x10ec: out   $4
+0x10ed: alloc $0 $4
+0x10ee: nand  $2 $7 $7
+0x10ef: out   $5
+0x10f0: jump  $1 $0
+0x10f1: cmove $7 $7 $4
+0x10f2: nand  $2 $1 $7
+0x10f3: in    $5
+0x10f4: out   $6
+0x10f5: alloc $6 $1
+0x10f6: div   $0 $3 $2
+0x10f7: cmove $3 $1 $0
+0x10f8: out   $0
+0x10f9: out   $6
+0x10fa: cmove $7 $5 $3
+0x10fb: alloc $1 $1
+0x10fc: in    $6
+0x10fd: out   $3
+0x10fe: nand  $0 $5 $6
+0x10ff: div   $5 $3 $7
+0x1100: out   $2
+0x1101: alloc $7 $6
+0x1102: alloc $6 $0
+0x1103: alloc $2 $1
+0x1104: out   $1
+0x1105: in    $0
+0x1106: free  $5
+0x1107: out   $6
+0x1108: div   $2 $2 $1
+0x1109: nand  $4 $5 $3
+0x110a: add   $5 $3 $5
+0x110b: imm   $1 22357658
+0x110c: out   $1
+0x110d: out   $1
+0x110e: imm   $2 6849295
+0x110f: cmove $4 $2 $6
+0x1110: out   $1
+0x1111: jump  $5 $5
+0x1112: out   $0
+0x1113: out   $0
+0x1114: imm   $1 10101940
+0x1115: rmem  $4 $5 $5
+0x1116: out   $6
+0x1117: imm   $1 24117437
+0x1118: out   $4
+0x1119: alloc $7 $4
+0x111a: jump  $2 $4
+0x111b: out   $5
+0x111c: out   $3
+0x111d: imm   $2 23896023
+0x111e: out   $4
+0x111f: free  $5
+0x1120: in    $1
+0x1121: out   $4
+0x1122: out   $6
+0x1123: jump  $0 $1
+0x1124: free  $5
+0x1125: out   $4
+0x1126: add   $5 $3 $4
+0x1127: out   $3
+0x1128: out   $1
+0x1129: in    $7
+0x112a: out   $3
+0x112b: out   $1
+0x112c: add   $3 $0 $1
+0x112d: out   $1
+0x112e: out   $7
+0x112f: div   $7 $6 $1
+0x1130: out   $5
+0x1131: out   $5
+0x1132: div   $4 $6 $1
+0x1133: in    $6
+0x1134: out   $1
+0x1135: imm   $2 23903822
+0x1136: free  $4
+0x1137: in    $1
+0x1138: jump  $0 $3
+0x1139: nand  $2 $5 $5
+0x113a: out   $4
+0x113b: jump  $5 $3
+0x113c: nand  $4 $2 $7
+0x113d: halt
+0x113e: imm   $2 9265361
+0x113f: nand  $6 $2 $1
+0x1140: in    $4
+0x1141: in    $3
+0x1142: nand  $6 $3 $2
+0x1143: free  $5
+0x1144: in    $5
+0x1145: free  $5
+0x1146: in    $0
+0x1147: div   $6 $3 $2
+0x1148: in    $0
+0x1149: cmove $5 $3 $1
+0x114a: jump  $2 $3
+0x114b: div   $0 $6 $0
+0x114c: div   $1 $5 $2
+0x114d: mul   $5 $6 $7
+0x114e: cmove $7 $7 $3
+0x114f: div   $7 $5 $4
+0x1150: jump  $2 $3
+0x1151: free  $5
+0x1152: add   $1 $4 $1
+0x1153: mul   $6 $4 $4
+0x1154: alloc $1 $6
+0x1155: cmove $2 $5 $5
+0x1156: mul   $6 $4 $1
+0x1157: cmove $3 $1 $7
+0x1158: free  $6
+0x1159: div   $3 $4 $4
+0x115a: nand  $4 $7 $4
+0x115b: free  $4
+0x115c: div   $6 $5 $6
+0x115d: cmove $2 $0 $1
+0x115e: cmove $5 $5 $0
+0x115f: imm   $2 14482384
+0x1160: halt
+0x1161: alloc $0 $7
+0x1162: div   $2 $6 $1
+0x1163: out   $4
+0x1164: div   $0 $3 $5
+0x1165: imm   $5 22115458
+0x1166: in    $5
+0x1167: alloc $3 $3
+0x1168: div   $7 $4 $2
+0x1169: in    $7
+0x116a: in    $3
+0x116b: alloc $2 $6
+0x116c: out   $3
+0x116d: cmove $0 $5 $0
+0x116e: add   $4 $4 $1
+0x116f: mul   $3 $2 $4
+0x1170: nand  $2 $4 $1
+0x1171: jump  $5 $7
+0x1172: out   $6
+0x1173: wmem  $4 $7 $1
+0x1174: alloc $6 $1
+0x1175: out   $5
+0x1176: cmove $6 $2 $6
+0x1177: div   $7 $2 $5
+0x1178: out   $0
+0x1179: cmove $2 $6 $0
+0x117a: imm   $1 3697409
+0x117b: nand  $6 $3 $2
+0x117c: cmove $0 $5 $1
+0x117d: alloc $2 $7
+0x117e: in    $4
+0x117f: alloc $0 $2
+0x1180: imm   $2 15063748
+0x1181: wmem  $6 $6 $7
+0x1182: cmove $1 $0 $1
+0x1183: alloc $3 $0
+0x1184: halt
+0x1185: in    $4
+0x1186: imm   $1 27056076
+0x1187: mul   $6 $5 $2
+0x1188: out   $5
+0x1189: imm   $6 2485615
+0x118a: in    $2
+0x118b: alloc $1 $1
+0x118c: div   $4 $4 $1
+0x118d: out   $1
+0x118e: in    $1
+0x118f: div   $5 $3 $5
+0x1190: cmove $3 $3 $3
+0x1191: in    $3
+0x1192: div   $7 $4 $5
+0x1193: in    $4
+0x1194: jump  $0 $5
 0x1195: 
-0x1196: NAND  $2 $2 $2
-0x1197: IN    $5
-0x1198: IMM   $5 21350514
-0x1199: CMOVE $7 $3 $7
-0x119a: OUT   $4
-0x119b: IN    $2
-0x119c: JUMP  $3 $0
-0x119d: OUT   $5
-0x119e: OUT   $4
-0x119f: JUMP  $4 $0
-0x11a0: OUT   $2
-0x11a1: IN    $3
-0x11a2: JUMP  $7 $5
-0x11a3: OUT   $6
-0x11a4: IN    $4
-0x11a5: JUMP  $1 $2
-0x11a6: OUT   $2
-0x11a7: NAND  $5 $0 $4
-0x11a8: ALLOC $4 $6
-0x11a9: WMEM  $5 $5 $5
-0x11aa: JUMP  $5 $6
-0x11ab: NAND  $1 $0 $2
-0x11ac: JUMP  $0 $6
-0x11ad: NAND  $2 $7 $4
-0x11ae: JUMP  $5 $2
-0x11af: JUMP  $7 $6
-0x11b0: JUMP  $2 $3
-0x11b1: FREE  $4
-0x11b2: OUT   $3
+0x1196: nand  $2 $2 $2
+0x1197: in    $5
+0x1198: imm   $5 21350514
+0x1199: cmove $7 $3 $7
+0x119a: out   $4
+0x119b: in    $2
+0x119c: jump  $3 $0
+0x119d: out   $5
+0x119e: out   $4
+0x119f: jump  $4 $0
+0x11a0: out   $2
+0x11a1: in    $3
+0x11a2: jump  $7 $5
+0x11a3: out   $6
+0x11a4: in    $4
+0x11a5: jump  $1 $2
+0x11a6: out   $2
+0x11a7: nand  $5 $0 $4
+0x11a8: alloc $4 $6
+0x11a9: wmem  $5 $5 $5
+0x11aa: jump  $5 $6
+0x11ab: nand  $1 $0 $2
+0x11ac: jump  $0 $6
+0x11ad: nand  $2 $7 $4
+0x11ae: jump  $5 $2
+0x11af: jump  $7 $6
+0x11b0: jump  $2 $3
+0x11b1: free  $4
+0x11b2: out   $3
 0x11b3: 
-0x11b4: CMOVE $5 $3 $2
-0x11b5: JUMP  $4 $1
-0x11b6: JUMP  $1 $4
-0x11b7: OUT   $3
-0x11b8: OUT   $3
-0x11b9: IMM   $4 3028991
-0x11ba: FREE  $3
-0x11bb: HALT
-0x11bc: IMM   $3 5028117
-0x11bd: JUMP  $3 $3
-0x11be: IN    $0
-0x11bf: IN    $5
-0x11c0: IN    $6
-0x11c1: FREE  $2
-0x11c2: IMM   $7 20853376
-0x11c3: JUMP  $3 $3
-0x11c4: JUMP  $0 $7
+0x11b4: cmove $5 $3 $2
+0x11b5: jump  $4 $1
+0x11b6: jump  $1 $4
+0x11b7: out   $3
+0x11b8: out   $3
+0x11b9: imm   $4 3028991
+0x11ba: free  $3
+0x11bb: halt
+0x11bc: imm   $3 5028117
+0x11bd: jump  $3 $3
+0x11be: in    $0
+0x11bf: in    $5
+0x11c0: in    $6
+0x11c1: free  $2
+0x11c2: imm   $7 20853376
+0x11c3: jump  $3 $3
+0x11c4: jump  $0 $7
 0x11c5: 
-0x11c6: JUMP  $4 $7
-0x11c7: FREE  $5
-0x11c8: NAND  $0 $2 $2
-0x11c9: JUMP  $0 $7
-0x11ca: JUMP  $6 $2
+0x11c6: jump  $4 $7
+0x11c7: free  $5
+0x11c8: nand  $0 $2 $2
+0x11c9: jump  $0 $7
+0x11ca: jump  $6 $2
 0x11cb: 
-0x11cc: JUMP  $5 $5
-0x11cd: JUMP  $5 $5
-0x11ce: IMM   $5 1462501
-0x11cf: JUMP  $0 $7
-0x11d0: MUL   $5 $3 $0
-0x11d1: CMOVE $6 $4 $3
-0x11d2: IN    $2
-0x11d3: CMOVE $7 $1 $0
-0x11d4: MUL   $2 $0 $3
-0x11d5: FREE  $2
-0x11d6: FREE  $3
-0x11d7: JUMP  $0 $7
-0x11d8: ADD   $0 $1 $5
-0x11d9: CMOVE $5 $5 $1
-0x11da: IMM   $5 30257886
-0x11db: OUT   $5
-0x11dc: FREE  $5
-0x11dd: CMOVE $1 $6 $0
-0x11de: NAND  $7 $6 $2
-0x11df: JUMP  $7 $5
-0x11e0: FREE  $1
-0x11e1: ALLOC $1 $6
-0x11e2: CMOVE $1 $4 $5
-0x11e3: ADD   $2 $0 $1
-0x11e4: IN    $0
-0x11e5: CMOVE $1 $4 $7
-0x11e6: MUL   $1 $0 $3
-0x11e7: OUT   $0
-0x11e8: JUMP  $1 $7
-0x11e9: ALLOC $2 $4
-0x11ea: IN    $2
-0x11eb: NAND  $0 $2 $5
-0x11ec: NAND  $5 $3 $7
-0x11ed: IN    $4
-0x11ee: HALT
-0x11ef: ADD   $3 $3 $3
-0x11f0: IN    $2
-0x11f1: OUT   $4
-0x11f2: ALLOC $5 $4
-0x11f3: CMOVE $3 $7 $3
-0x11f4: ALLOC $4 $3
-0x11f5: IN    $4
-0x11f6: JUMP  $4 $4
-0x11f7: JUMP  $1 $0
-0x11f8: NAND  $7 $1 $7
-0x11f9: IMM   $0 8857116
-0x11fa: IN    $4
-0x11fb: IN    $4
-0x11fc: JUMP  $2 $2
-0x11fd: OUT   $5
+0x11cc: jump  $5 $5
+0x11cd: jump  $5 $5
+0x11ce: imm   $5 1462501
+0x11cf: jump  $0 $7
+0x11d0: mul   $5 $3 $0
+0x11d1: cmove $6 $4 $3
+0x11d2: in    $2
+0x11d3: cmove $7 $1 $0
+0x11d4: mul   $2 $0 $3
+0x11d5: free  $2
+0x11d6: free  $3
+0x11d7: jump  $0 $7
+0x11d8: add   $0 $1 $5
+0x11d9: cmove $5 $5 $1
+0x11da: imm   $5 30257886
+0x11db: out   $5
+0x11dc: free  $5
+0x11dd: cmove $1 $6 $0
+0x11de: nand  $7 $6 $2
+0x11df: jump  $7 $5
+0x11e0: free  $1
+0x11e1: alloc $1 $6
+0x11e2: cmove $1 $4 $5
+0x11e3: add   $2 $0 $1
+0x11e4: in    $0
+0x11e5: cmove $1 $4 $7
+0x11e6: mul   $1 $0 $3
+0x11e7: out   $0
+0x11e8: jump  $1 $7
+0x11e9: alloc $2 $4
+0x11ea: in    $2
+0x11eb: nand  $0 $2 $5
+0x11ec: nand  $5 $3 $7
+0x11ed: in    $4
+0x11ee: halt
+0x11ef: add   $3 $3 $3
+0x11f0: in    $2
+0x11f1: out   $4
+0x11f2: alloc $5 $4
+0x11f3: cmove $3 $7 $3
+0x11f4: alloc $4 $3
+0x11f5: in    $4
+0x11f6: jump  $4 $4
+0x11f7: jump  $1 $0
+0x11f8: nand  $7 $1 $7
+0x11f9: imm   $0 8857116
+0x11fa: in    $4
+0x11fb: in    $4
+0x11fc: jump  $2 $2
+0x11fd: out   $5
 0x11fe: 
-0x11ff: IMM   $0 25635821
-0x1200: IN    $6
+0x11ff: imm   $0 25635821
+0x1200: in    $6
 0x1201: 
-0x1202: JUMP  $2 $5
-0x1203: IMM   $2 32139159
-0x1204: NAND  $0 $4 $2
-0x1205: IMM   $0 25303041
-0x1206: CMOVE $3 $5 $0
-0x1207: CMOVE $5 $4 $6
-0x1208: IN    $6
-0x1209: IN    $1
-0x120a: CMOVE $3 $5 $2
-0x120b: CMOVE $3 $2 $5
-0x120c: IN    $7
-0x120d: IN    $4
-0x120e: JUMP  $1 $6
-0x120f: JUMP  $1 $5
-0x1210: DIV   $7 $5 $2
-0x1211: CMOVE $3 $5 $0
-0x1212: IN    $0
-0x1213: IN    $6
-0x1214: ALLOC $2 $7
-0x1215: CMOVE $5 $1 $5
-0x1216: NAND  $5 $5 $1
-0x1217: OUT   $3
-0x1218: OUT   $5
-0x1219: DIV   $2 $0 $5
-0x121a: JUMP  $2 $5
-0x121b: CMOVE $1 $6 $5
-0x121c: ALLOC $5 $2
-0x121d: JUMP  $2 $0
-0x121e: IMM   $3 10394256
+0x1202: jump  $2 $5
+0x1203: imm   $2 32139159
+0x1204: nand  $0 $4 $2
+0x1205: imm   $0 25303041
+0x1206: cmove $3 $5 $0
+0x1207: cmove $5 $4 $6
+0x1208: in    $6
+0x1209: in    $1
+0x120a: cmove $3 $5 $2
+0x120b: cmove $3 $2 $5
+0x120c: in    $7
+0x120d: in    $4
+0x120e: jump  $1 $6
+0x120f: jump  $1 $5
+0x1210: div   $7 $5 $2
+0x1211: cmove $3 $5 $0
+0x1212: in    $0
+0x1213: in    $6
+0x1214: alloc $2 $7
+0x1215: cmove $5 $1 $5
+0x1216: nand  $5 $5 $1
+0x1217: out   $3
+0x1218: out   $5
+0x1219: div   $2 $0 $5
+0x121a: jump  $2 $5
+0x121b: cmove $1 $6 $5
+0x121c: alloc $5 $2
+0x121d: jump  $2 $0
+0x121e: imm   $3 10394256
 0x121f: 
-0x1220: IMM   $2 8870893
-0x1221: IMM   $2 8324959
+0x1220: imm   $2 8870893
+0x1221: imm   $2 8324959
 0x1222: 
-0x1223: IMM   $1 23790616
-0x1224: NAND  $0 $1 $3
-0x1225: NAND  $7 $3 $4
-0x1226: JUMP  $3 $3
-0x1227: IMM   $1 23096477
+0x1223: imm   $1 23790616
+0x1224: nand  $0 $1 $3
+0x1225: nand  $7 $3 $4
+0x1226: jump  $3 $3
+0x1227: imm   $1 23096477
 0x1228: 
-0x1229: IMM   $3 31550551
-0x122a: IMM   $3 10381117
-0x122b: ADD   $7 $3 $1
-0x122c: CMOVE $3 $5 $4
-0x122d: IMM   $5 28455732
+0x1229: imm   $3 31550551
+0x122a: imm   $3 10381117
+0x122b: add   $7 $3 $1
+0x122c: cmove $3 $5 $4
+0x122d: imm   $5 28455732
 0x122e: 
-0x122f: RMEM  $0 $6 $5
-0x1230: IMM   $7 1895158
+0x122f: rmem  $0 $6 $5
+0x1230: imm   $7 1895158
 0x1231: 
-0x1232: HALT
-0x1233: HALT
-0x1234: ALLOC $6 $6
-0x1235: NAND  $4 $4 $6
-0x1236: NAND  $1 $6 $7
+0x1232: halt
+0x1233: halt
+0x1234: alloc $6 $6
+0x1235: nand  $4 $4 $6
+0x1236: nand  $1 $6 $7
 0x1237: 
-0x1238: IMM   $5 31618305
-0x1239: JUMP  $5 $6
-0x123a: OUT   $2
-0x123b: IMM   $6 5686612
-0x123c: IMM   $7 2909982
+0x1238: imm   $5 31618305
+0x1239: jump  $5 $6
+0x123a: out   $2
+0x123b: imm   $6 5686612
+0x123c: imm   $7 2909982
 0x123d: 
-0x123e: IMM   $1 7197411
-0x123f: IMM   $7 14508784
+0x123e: imm   $1 7197411
+0x123f: imm   $7 14508784
 0x1240: 
-0x1241: IMM   $6 14122444
-0x1242: HALT
+0x1241: imm   $6 14122444
+0x1242: halt
 0x1243: 
-0x1244: CMOVE $1 $5 $3
-0x1245: IMM   $7 3632817
+0x1244: cmove $1 $5 $3
+0x1245: imm   $7 3632817
 0x1246: 
-0x1247: HALT
-0x1248: IMM   $7 15911765
+0x1247: halt
+0x1248: imm   $7 15911765
 0x1249: 
-0x124a: IMM   $6 30117259
-0x124b: JUMP  $0 $6
-0x124c: OUT   $0
-0x124d: FREE  $3
-0x124e: IN    $5
-0x124f: ALLOC $2 $5
-0x1250: IMM   $7 6579476
-0x1251: IMM   $6 26202181
+0x124a: imm   $6 30117259
+0x124b: jump  $0 $6
+0x124c: out   $0
+0x124d: free  $3
+0x124e: in    $5
+0x124f: alloc $2 $5
+0x1250: imm   $7 6579476
+0x1251: imm   $6 26202181
 0x1252: 
-0x1253: JUMP  $7 $2
-0x1254: IN    $5
-0x1255: IN    $4
-0x1256: RMEM  $2 $3 $5
-0x1257: JUMP  $6 $6
+0x1253: jump  $7 $2
+0x1254: in    $5
+0x1255: in    $4
+0x1256: rmem  $2 $3 $5
+0x1257: jump  $6 $6
 0x1258: 
-0x1259: OUT   $5
-0x125a: NAND  $7 $6 $0
+0x1259: out   $5
+0x125a: nand  $7 $6 $0
 0x125b: 
-0x125c: FREE  $5
+0x125c: free  $5
 0x125d: 
 0x125e: 
-0x125f: OUT   $2
-0x1260: NAND  $0 $2 $0
-0x1261: WMEM  $3 $5 $0
-0x1262: IN    $5
-0x1263: IN    $2
-0x1264: IN    $0
-0x1265: CMOVE $5 $3 $3
-0x1266: FREE  $1
-0x1267: MUL   $5 $1 $2
-0x1268: ADD   $5 $6 $2
-0x1269: CMOVE $0 $7 $5
-0x126a: IMM   $6 20342126
-0x126b: DIV   $5 $6 $3
-0x126c: CMOVE $5 $6 $7
-0x126d: CMOVE $5 $5 $7
-0x126e: JUMP  $6 $5
-0x126f: IMM   $3 6679296
+0x125f: out   $2
+0x1260: nand  $0 $2 $0
+0x1261: wmem  $3 $5 $0
+0x1262: in    $5
+0x1263: in    $2
+0x1264: in    $0
+0x1265: cmove $5 $3 $3
+0x1266: free  $1
+0x1267: mul   $5 $1 $2
+0x1268: add   $5 $6 $2
+0x1269: cmove $0 $7 $5
+0x126a: imm   $6 20342126
+0x126b: div   $5 $6 $3
+0x126c: cmove $5 $6 $7
+0x126d: cmove $5 $5 $7
+0x126e: jump  $6 $5
+0x126f: imm   $3 6679296
 0x1270: 
 0x1271: 
-0x1272: JUMP  $5 $2
-0x1273: HALT
-0x1274: OUT   $3
+0x1272: jump  $5 $2
+0x1273: halt
+0x1274: out   $3
 0x1275: 
-0x1276: ALLOC $6 $0
-0x1277: CMOVE $1 $3 $6
+0x1276: alloc $6 $0
+0x1277: cmove $1 $3 $6
 0x1278: 
-0x1279: HALT
+0x1279: halt
 0x127a: 
-0x127b: WMEM  $4 $1 $5
-0x127c: MUL   $1 $6 $5
+0x127b: wmem  $4 $1 $5
+0x127c: mul   $1 $6 $5
 0x127d: 
-0x127e: IN    $0
-0x127f: HALT
-0x1280: NAND  $5 $3 $3
-0x1281: ALLOC $5 $4
-0x1282: ADD   $4 $5 $6
-0x1283: HALT
+0x127e: in    $0
+0x127f: halt
+0x1280: nand  $5 $3 $3
+0x1281: alloc $5 $4
+0x1282: add   $4 $5 $6
+0x1283: halt
 0x1284: 
 0x1285: 
-0x1286: OUT   $6
+0x1286: out   $6
 0x1287: 
-0x1288: ALLOC $1 $5
+0x1288: alloc $1 $5
 0x1289: 
 0x128a: 
-0x128b: JUMP  $4 $7
+0x128b: jump  $4 $7
 0x128c: 
-0x128d: IN    $3
-0x128e: IN    $6
-0x128f: NAND  $2 $1 $7
+0x128d: in    $3
+0x128e: in    $6
+0x128f: nand  $2 $1 $7
 0x1290: 
-0x1291: JUMP  $6 $4
-0x1292: WMEM  $2 $2 $1
-0x1293: CMOVE $7 $2 $7
-0x1294: WMEM  $3 $6 $6
+0x1291: jump  $6 $4
+0x1292: wmem  $2 $2 $1
+0x1293: cmove $7 $2 $7
+0x1294: wmem  $3 $6 $6
 0x1295: 
-0x1296: IMM   $1 21689726
+0x1296: imm   $1 21689726
 0x1297: 
-0x1298: CMOVE $1 $5 $1
-0x1299: CMOVE $7 $2 $7
+0x1298: cmove $1 $5 $1
+0x1299: cmove $7 $2 $7
 0x129a: 
 0x129b: 
-0x129c: ALLOC $1 $1
-0x129d: ADD   $5 $5 $7
+0x129c: alloc $1 $1
+0x129d: add   $5 $5 $7
 0x129e: 
 0x129f: 
-0x12a0: IN    $7
+0x12a0: in    $7
 0x12a1: 
 0x12a2: 
-0x12a3: CMOVE $3 $4 $7
-0x12a4: CMOVE $3 $7 $1
+0x12a3: cmove $3 $4 $7
+0x12a4: cmove $3 $7 $1
 0x12a5: 
 0x12a6: 
 0x12a7: 
-0x12a8: CMOVE $1 $1 $0
-0x12a9: ALLOC $7 $2
-0x12aa: HALT
-0x12ab: ALLOC $7 $4
-0x12ac: WMEM  $7 $6 $5
+0x12a8: cmove $1 $1 $0
+0x12a9: alloc $7 $2
+0x12aa: halt
+0x12ab: alloc $7 $4
+0x12ac: wmem  $7 $6 $5
 0x12ad: 
 0x12ae: 
-0x12af: HALT
+0x12af: halt
 0x12b0: 
 0x12b1: 
 0x12b2: 
-0x12b3: FREE  $6
+0x12b3: free  $6
 0x12b4: 
-0x12b5: JUMP  $4 $7
+0x12b5: jump  $4 $7
 0x12b6: 
 0x12b7: 
-0x12b8: HALT
+0x12b8: halt
 0x12b9: 
-0x12ba: IMM   $7 23739097
-0x12bb: IN    $4
+0x12ba: imm   $7 23739097
+0x12bb: in    $4
 0x12bc: 
-0x12bd: IMM   $7 26097070
-0x12be: IN    $4
+0x12bd: imm   $7 26097070
+0x12be: in    $4
 0x12bf: 
-0x12c0: NAND  $1 $1 $0
-0x12c1: DIV   $3 $3 $4
+0x12c0: nand  $1 $1 $0
+0x12c1: div   $3 $3 $4
 0x12c2: 
-0x12c3: NAND  $0 $1 $0
-0x12c4: IMM   $3 9930176
+0x12c3: nand  $0 $1 $0
+0x12c4: imm   $3 9930176
 0x12c5: 
-0x12c6: RMEM  $1 $1 $4
+0x12c6: rmem  $1 $1 $4
 0x12c7: 
 0x12c8: 
 0x12c9: 
 0x12ca: 
 0x12cb: 
 0x12cc: 
-0x12cd: HALT
+0x12cd: halt
 0x12ce: 
 0x12cf: 
 0x12d0: 
@@ -4819,4813 +4819,4813 @@
 0x12d2: 
 0x12d3: 
 0x12d4: 
-0x12d5: MUL   $4 $6 $2
+0x12d5: mul   $4 $6 $2
 0x12d6: 
 0x12d7: 
 0x12d8: 
 0x12d9: 
 0x12da: 
-0x12db: IN    $0
+0x12db: in    $0
 0x12dc: 
 0x12dd: 
 0x12de: 
 0x12df: 
 0x12e0: 
 0x12e1: 
-0x12e2: IN    $0
+0x12e2: in    $0
 0x12e3: 
 0x12e4: 
 0x12e5: 
 0x12e6: 
 0x12e7: 
-0x12e8: IN    $1
+0x12e8: in    $1
 0x12e9: 
 0x12ea: 
-0x12eb: OUT   $6
+0x12eb: out   $6
 0x12ec: 
-0x12ed: NAND  $7 $0 $4
-0x12ee: WMEM  $3 $3 $7
-0x12ef: MUL   $3 $7 $5
-0x12f0: IN    $2
-0x12f1: JUMP  $2 $5
-0x12f2: MUL   $5 $3 $1
-0x12f3: JUMP  $0 $6
-0x12f4: NAND  $5 $0 $2
-0x12f5: CMOVE $0 $3 $4
-0x12f6: IMM   $2 31158870
+0x12ed: nand  $7 $0 $4
+0x12ee: wmem  $3 $3 $7
+0x12ef: mul   $3 $7 $5
+0x12f0: in    $2
+0x12f1: jump  $2 $5
+0x12f2: mul   $5 $3 $1
+0x12f3: jump  $0 $6
+0x12f4: nand  $5 $0 $2
+0x12f5: cmove $0 $3 $4
+0x12f6: imm   $2 31158870
 0x12f7: 
-0x12f8: NAND  $2 $7 $1
-0x12f9: CMOVE $7 $7 $0
-0x12fa: ALLOC $7 $6
+0x12f8: nand  $2 $7 $1
+0x12f9: cmove $7 $7 $0
+0x12fa: alloc $7 $6
 0x12fb: 
-0x12fc: OUT   $4
-0x12fd: HALT
+0x12fc: out   $4
+0x12fd: halt
 0x12fe: 
 0x12ff: 
 0x1300: 
-0x1301: ALLOC $6 $3
-0x1302: NAND  $7 $6 $7
-0x1303: HALT
-0x1304: JUMP  $7 $0
+0x1301: alloc $6 $3
+0x1302: nand  $7 $6 $7
+0x1303: halt
+0x1304: jump  $7 $0
 0x1305: 
-0x1306: DIV   $7 $3 $0
-0x1307: ALLOC $4 $1
+0x1306: div   $7 $3 $0
+0x1307: alloc $4 $1
 0x1308: 
 0x1309: 
 0x130a: 
 0x130b: 
-0x130c: HALT
+0x130c: halt
 0x130d: 
-0x130e: ADD   $6 $6 $3
-0x130f: NAND  $1 $1 $5
-0x1310: HALT
-0x1311: HALT
-0x1312: CMOVE $6 $1 $2
-0x1313: HALT
-0x1314: ADD   $6 $2 $1
-0x1315: HALT
-0x1316: NAND  $7 $4 $7
-0x1317: HALT
-0x1318: FREE  $6
-0x1319: HALT
-0x131a: ADD   $7 $6 $0
-0x131b: ADD   $7 $5 $4
-0x131c: NAND  $4 $5 $6
-0x131d: MUL   $3 $1 $3
-0x131e: HALT
-0x131f: HALT
-0x1320: HALT
-0x1321: NAND  $3 $1 $5
-0x1322: HALT
-0x1323: ALLOC $1 $7
-0x1324: CMOVE $0 $5 $1
-0x1325: FREE  $2
-0x1326: HALT
-0x1327: WMEM  $2 $5 $2
-0x1328: MUL   $5 $6 $3
-0x1329: ALLOC $7 $5
-0x132a: HALT
-0x132b: ALLOC $2 $5
-0x132c: ALLOC $2 $2
-0x132d: ALLOC $3 $5
-0x132e: NAND  $0 $1 $2
-0x132f: ALLOC $3 $7
-0x1330: WMEM  $6 $2 $6
-0x1331: ALLOC $0 $7
-0x1332: FREE  $3
-0x1333: CMOVE $0 $4 $6
-0x1334: CMOVE $6 $1 $2
-0x1335: HALT
-0x1336: HALT
-0x1337: CMOVE $1 $3 $7
-0x1338: ALLOC $0 $5
-0x1339: ADD   $7 $4 $6
-0x133a: WMEM  $5 $7 $3
-0x133b: ALLOC $1 $1
-0x133c: NAND  $1 $1 $4
-0x133d: FREE  $0
-0x133e: ADD   $0 $0 $0
-0x133f: NAND  $4 $7 $7
-0x1340: HALT
-0x1341: IN    $4
-0x1342: WMEM  $0 $2 $1
-0x1343: MUL   $7 $3 $6
-0x1344: ALLOC $6 $2
-0x1345: ALLOC $0 $4
-0x1346: ADD   $7 $7 $6
-0x1347: HALT
-0x1348: HALT
-0x1349: CMOVE $3 $5 $7
-0x134a: MUL   $1 $4 $4
-0x134b: ALLOC $5 $1
-0x134c: ALLOC $5 $2
-0x134d: ALLOC $2 $5
-0x134e: MUL   $4 $6 $7
-0x134f: ALLOC $0 $1
-0x1350: ALLOC $2 $3
-0x1351: NAND  $7 $4 $4
-0x1352: RMEM  $2 $7 $5
-0x1353: ALLOC $0 $0
-0x1354: NAND  $2 $4 $6
-0x1355: HALT
-0x1356: HALT
-0x1357: HALT
-0x1358: HALT
-0x1359: ALLOC $7 $0
-0x135a: ALLOC $6 $4
-0x135b: MUL   $1 $2 $7
-0x135c: HALT
-0x135d: NAND  $0 $6 $2
-0x135e: ALLOC $7 $7
-0x135f: ALLOC $4 $4
-0x1360: ALLOC $3 $2
-0x1361: DIV   $1 $7 $2
-0x1362: ALLOC $5 $3
-0x1363: ALLOC $0 $1
-0x1364: ALLOC $5 $3
-0x1365: ALLOC $1 $5
-0x1366: OUT   $3
-0x1367: MUL   $3 $1 $7
-0x1368: IN    $6
-0x1369: ALLOC $0 $5
-0x136a: NAND  $5 $0 $7
-0x136b: NAND  $3 $0 $7
-0x136c: ALLOC $0 $6
-0x136d: ALLOC $7 $1
-0x136e: ADD   $3 $0 $7
-0x136f: CMOVE $0 $2 $5
-0x1370: ALLOC $0 $6
-0x1371: HALT
-0x1372: ALLOC $1 $3
-0x1373: NAND  $3 $5 $2
-0x1374: ALLOC $1 $0
-0x1375: CMOVE $3 $2 $1
-0x1376: ALLOC $2 $4
-0x1377: DIV   $0 $6 $3
-0x1378: MUL   $3 $6 $1
-0x1379: ALLOC $3 $4
-0x137a: ALLOC $7 $1
-0x137b: ALLOC $6 $0
-0x137c: ALLOC $3 $5
-0x137d: HALT
-0x137e: HALT
-0x137f: ALLOC $4 $5
-0x1380: MUL   $6 $3 $0
-0x1381: CMOVE $4 $1 $1
-0x1382: CMOVE $6 $4 $1
-0x1383: CMOVE $3 $6 $5
-0x1384: RMEM  $5 $1 $5
-0x1385: HALT
-0x1386: HALT
-0x1387: ADD   $5 $2 $7
-0x1388: HALT
-0x1389: RMEM  $5 $7 $4
-0x138a: MUL   $6 $4 $4
-0x138b: NAND  $0 $2 $0
-0x138c: ALLOC $7 $7
-0x138d: CMOVE $3 $6 $7
-0x138e: ALLOC $0 $2
-0x138f: ADD   $7 $3 $6
-0x1390: ALLOC $1 $7
-0x1391: ADD   $6 $3 $5
-0x1392: CMOVE $2 $3 $3
-0x1393: HALT
-0x1394: ALLOC $4 $0
-0x1395: RMEM  $1 $4 $7
-0x1396: DIV   $1 $0 $6
-0x1397: ALLOC $4 $0
-0x1398: HALT
-0x1399: HALT
-0x139a: FREE  $7
-0x139b: ALLOC $3 $0
-0x139c: JUMP  $3 $0
-0x139d: HALT
-0x139e: ALLOC $4 $6
-0x139f: HALT
-0x13a0: ADD   $5 $5 $2
-0x13a1: ALLOC $3 $5
-0x13a2: CMOVE $5 $3 $5
-0x13a3: ALLOC $2 $3
-0x13a4: ALLOC $4 $2
-0x13a5: DIV   $0 $2 $7
-0x13a6: DIV   $1 $6 $6
-0x13a7: ALLOC $0 $1
-0x13a8: CMOVE $5 $5 $2
-0x13a9: MUL   $6 $2 $4
-0x13aa: ALLOC $1 $6
-0x13ab: ALLOC $1 $5
-0x13ac: RMEM  $0 $2 $5
-0x13ad: HALT
-0x13ae: ALLOC $1 $7
-0x13af: ALLOC $4 $0
-0x13b0: ALLOC $1 $4
-0x13b1: CMOVE $3 $4 $1
-0x13b2: CMOVE $0 $4 $6
-0x13b3: ALLOC $2 $6
-0x13b4: OUT   $7
-0x13b5: RMEM  $5 $1 $6
-0x13b6: ALLOC $7 $6
-0x13b7: ALLOC $2 $2
-0x13b8: DIV   $2 $5 $4
-0x13b9: ALLOC $6 $5
-0x13ba: CMOVE $2 $3 $2
-0x13bb: ALLOC $4 $4
-0x13bc: ALLOC $7 $0
-0x13bd: MUL   $7 $7 $5
-0x13be: ALLOC $1 $2
-0x13bf: HALT
-0x13c0: ALLOC $2 $5
-0x13c1: NAND  $4 $5 $4
-0x13c2: ALLOC $3 $0
-0x13c3: JUMP  $7 $1
-0x13c4: WMEM  $0 $1 $0
-0x13c5: ALLOC $7 $6
-0x13c6: ALLOC $7 $7
-0x13c7: WMEM  $6 $2 $5
-0x13c8: ALLOC $4 $2
-0x13c9: ALLOC $3 $5
-0x13ca: ALLOC $5 $2
-0x13cb: ALLOC $1 $5
-0x13cc: ALLOC $6 $5
-0x13cd: NAND  $6 $2 $2
-0x13ce: OUT   $1
-0x13cf: ADD   $0 $4 $0
-0x13d0: MUL   $0 $1 $0
-0x13d1: HALT
-0x13d2: WMEM  $7 $7 $0
-0x13d3: ALLOC $0 $0
-0x13d4: ALLOC $7 $5
-0x13d5: CMOVE $0 $7 $1
-0x13d6: MUL   $4 $3 $4
-0x13d7: ALLOC $1 $2
-0x13d8: ALLOC $3 $7
-0x13d9: FREE  $4
-0x13da: ALLOC $2 $5
-0x13db: WMEM  $4 $4 $1
-0x13dc: HALT
-0x13dd: IN    $7
-0x13de: ALLOC $6 $5
-0x13df: ALLOC $5 $2
-0x13e0: ALLOC $6 $2
-0x13e1: HALT
-0x13e2: ALLOC $3 $2
-0x13e3: CMOVE $5 $5 $6
-0x13e4: ALLOC $4 $6
-0x13e5: ALLOC $4 $1
-0x13e6: FREE  $5
-0x13e7: FREE  $2
-0x13e8: NAND  $1 $3 $5
-0x13e9: ALLOC $6 $2
-0x13ea: JUMP  $1 $1
-0x13eb: FREE  $7
-0x13ec: ADD   $5 $3 $4
-0x13ed: ALLOC $0 $5
-0x13ee: FREE  $2
-0x13ef: HALT
-0x13f0: HALT
-0x13f1: ALLOC $7 $2
-0x13f2: HALT
-0x13f3: FREE  $7
-0x13f4: FREE  $0
-0x13f5: WMEM  $0 $0 $2
-0x13f6: FREE  $7
-0x13f7: MUL   $7 $6 $6
-0x13f8: FREE  $4
-0x13f9: ALLOC $4 $7
-0x13fa: ALLOC $4 $4
-0x13fb: ADD   $2 $6 $5
-0x13fc: ALLOC $7 $1
-0x13fd: FREE  $1
-0x13fe: FREE  $0
-0x13ff: HALT
-0x1400: HALT
-0x1401: HALT
-0x1402: FREE  $7
-0x1403: ALLOC $6 $1
-0x1404: JUMP  $7 $7
-0x1405: ALLOC $6 $5
-0x1406: FREE  $1
-0x1407: RMEM  $3 $5 $4
-0x1408: ADD   $1 $6 $2
-0x1409: ALLOC $2 $1
-0x140a: FREE  $7
-0x140b: FREE  $4
-0x140c: ADD   $1 $4 $4
-0x140d: HALT
-0x140e: HALT
-0x140f: OUT   $2
-0x1410: ALLOC $6 $5
-0x1411: IN    $4
-0x1412: FREE  $7
-0x1413: FREE  $3
-0x1414: FREE  $6
-0x1415: ALLOC $5 $7
-0x1416: ALLOC $2 $3
-0x1417: MUL   $0 $2 $4
-0x1418: NAND  $3 $0 $6
-0x1419: NAND  $2 $6 $7
-0x141a: NAND  $6 $2 $6
-0x141b: ALLOC $6 $4
-0x141c: MUL   $0 $3 $3
-0x141d: ADD   $1 $0 $3
-0x141e: MUL   $1 $1 $5
-0x141f: CMOVE $0 $3 $5
-0x1420: ADD   $5 $0 $2
-0x1421: ALLOC $0 $5
-0x1422: ADD   $2 $6 $0
-0x1423: DIV   $7 $2 $4
-0x1424: NAND  $5 $6 $7
-0x1425: CMOVE $6 $7 $7
-0x1426: FREE  $6
-0x1427: ALLOC $0 $6
-0x1428: FREE  $6
-0x1429: CMOVE $0 $0 $1
-0x142a: ALLOC $2 $5
-0x142b: WMEM  $2 $3 $5
-0x142c: WMEM  $3 $2 $5
-0x142d: CMOVE $2 $5 $7
-0x142e: CMOVE $2 $6 $0
-0x142f: FREE  $7
-0x1430: NAND  $4 $5 $7
-0x1431: CMOVE $1 $1 $4
-0x1432: CMOVE $4 $1 $4
-0x1433: FREE  $0
-0x1434: NAND  $5 $6 $7
-0x1435: ALLOC $5 $7
-0x1436: OUT   $1
-0x1437: HALT
-0x1438: MUL   $5 $6 $0
-0x1439: ADD   $1 $1 $1
-0x143a: ALLOC $0 $7
-0x143b: FREE  $7
-0x143c: CMOVE $5 $2 $5
-0x143d: CMOVE $6 $6 $0
-0x143e: FREE  $2
-0x143f: FREE  $2
-0x1440: CMOVE $3 $1 $2
-0x1441: RMEM  $5 $0 $3
-0x1442: ALLOC $4 $3
-0x1443: NAND  $1 $0 $1
-0x1444: FREE  $1
-0x1445: ALLOC $2 $2
-0x1446: ADD   $6 $2 $5
-0x1447: NAND  $0 $6 $7
-0x1448: FREE  $1
-0x1449: WMEM  $2 $7 $6
-0x144a: HALT
-0x144b: ALLOC $4 $4
-0x144c: HALT
-0x144d: ADD   $7 $5 $7
-0x144e: ALLOC $2 $7
-0x144f: ALLOC $7 $3
-0x1450: WMEM  $6 $7 $3
-0x1451: FREE  $1
-0x1452: ALLOC $1 $5
-0x1453: ALLOC $2 $4
-0x1454: FREE  $5
-0x1455: FREE  $6
-0x1456: ALLOC $2 $0
-0x1457: MUL   $5 $4 $6
-0x1458: HALT
-0x1459: RMEM  $3 $7 $5
-0x145a: RMEM  $6 $1 $0
-0x145b: ALLOC $4 $0
-0x145c: FREE  $1
-0x145d: ALLOC $1 $7
-0x145e: MUL   $3 $3 $7
-0x145f: MUL   $4 $0 $7
-0x1460: ADD   $4 $7 $4
-0x1461: FREE  $4
-0x1462: ADD   $5 $3 $3
-0x1463: ALLOC $2 $5
-0x1464: FREE  $5
-0x1465: ALLOC $5 $0
-0x1466: FREE  $0
-0x1467: FREE  $6
-0x1468: HALT
-0x1469: HALT
-0x146a: OUT   $4
-0x146b: ALLOC $7 $4
-0x146c: ALLOC $7 $4
-0x146d: FREE  $1
-0x146e: FREE  $2
-0x146f: FREE  $4
-0x1470: FREE  $1
-0x1471: HALT
-0x1472: ADD   $7 $6 $2
-0x1473: HALT
-0x1474: DIV   $7 $4 $4
-0x1475: ALLOC $6 $0
-0x1476: FREE  $2
-0x1477: OUT   $2
-0x1478: NAND  $6 $6 $4
-0x1479: FREE  $2
-0x147a: FREE  $7
-0x147b: FREE  $1
-0x147c: FREE  $1
-0x147d: ALLOC $5 $3
-0x147e: CMOVE $4 $6 $5
-0x147f: ALLOC $5 $4
-0x1480: CMOVE $2 $4 $5
-0x1481: ADD   $0 $5 $1
-0x1482: FREE  $4
-0x1483: ALLOC $1 $7
-0x1484: OUT   $3
-0x1485: FREE  $4
-0x1486: MUL   $5 $6 $6
-0x1487: ADD   $7 $4 $4
-0x1488: FREE  $6
-0x1489: ALLOC $2 $6
-0x148a: ALLOC $5 $3
-0x148b: CMOVE $6 $4 $0
-0x148c: ALLOC $0 $2
-0x148d: FREE  $0
-0x148e: FREE  $0
-0x148f: FREE  $5
-0x1490: CMOVE $5 $5 $6
-0x1491: ALLOC $6 $2
-0x1492: FREE  $1
-0x1493: JUMP  $3 $6
-0x1494: FREE  $7
-0x1495: FREE  $5
-0x1496: FREE  $6
-0x1497: NAND  $1 $6 $5
-0x1498: WMEM  $1 $0 $1
-0x1499: WMEM  $2 $0 $1
-0x149a: WMEM  $3 $2 $7
-0x149b: WMEM  $7 $2 $5
-0x149c: WMEM  $7 $2 $2
-0x149d: CMOVE $5 $1 $4
-0x149e: CMOVE $0 $1 $2
-0x149f: WMEM  $7 $0 $2
-0x14a0: RMEM  $3 $2 $4
-0x14a1: WMEM  $4 $5 $2
-0x14a2: FREE  $5
-0x14a3: WMEM  $0 $6 $5
-0x14a4: DIV   $1 $1 $6
-0x14a5: DIV   $0 $0 $5
-0x14a6: WMEM  $3 $5 $5
-0x14a7: CMOVE $0 $3 $5
-0x14a8: WMEM  $0 $5 $2
-0x14a9: WMEM  $6 $2 $7
-0x14aa: CMOVE $7 $4 $1
-0x14ab: ALLOC $0 $2
-0x14ac: CMOVE $3 $2 $2
-0x14ad: MUL   $3 $4 $1
-0x14ae: FREE  $5
-0x14af: FREE  $6
-0x14b0: ALLOC $5 $0
-0x14b1: NAND  $7 $3 $1
-0x14b2: WMEM  $7 $4 $6
-0x14b3: CMOVE $5 $4 $1
-0x14b4: RMEM  $7 $2 $1
-0x14b5: WMEM  $1 $6 $2
-0x14b6: WMEM  $5 $5 $6
-0x14b7: FREE  $5
-0x14b8: WMEM  $0 $7 $1
-0x14b9: FREE  $6
-0x14ba: JUMP  $5 $5
-0x14bb: OUT   $6
-0x14bc: CMOVE $5 $1 $5
-0x14bd: FREE  $4
-0x14be: WMEM  $1 $6 $1
-0x14bf: MUL   $1 $4 $6
-0x14c0: CMOVE $6 $2 $6
-0x14c1: DIV   $0 $4 $1
-0x14c2: ALLOC $2 $5
-0x14c3: OUT   $3
-0x14c4: OUT   $3
-0x14c5: OUT   $5
-0x14c6: HALT
-0x14c7: JUMP  $4 $3
-0x14c8: OUT   $5
-0x14c9: FREE  $3
-0x14ca: ALLOC $3 $0
-0x14cb: FREE  $3
-0x14cc: FREE  $7
-0x14cd: OUT   $5
-0x14ce: FREE  $7
-0x14cf: ALLOC $3 $1
-0x14d0: WMEM  $6 $5 $2
-0x14d1: FREE  $4
-0x14d2: NAND  $3 $6 $5
-0x14d3: CMOVE $1 $6 $7
-0x14d4: ADD   $6 $7 $4
-0x14d5: OUT   $0
-0x14d6: DIV   $0 $2 $4
-0x14d7: OUT   $7
-0x14d8: CMOVE $6 $0 $5
-0x14d9: WMEM  $1 $4 $0
-0x14da: CMOVE $1 $5 $0
-0x14db: CMOVE $2 $0 $3
-0x14dc: FREE  $1
-0x14dd: CMOVE $3 $2 $3
-0x14de: FREE  $3
-0x14df: CMOVE $4 $2 $0
-0x14e0: RMEM  $3 $7 $6
-0x14e1: MUL   $4 $7 $3
-0x14e2: CMOVE $0 $5 $6
-0x14e3: OUT   $6
-0x14e4: RMEM  $4 $6 $4
-0x14e5: CMOVE $3 $3 $1
-0x14e6: RMEM  $5 $2 $0
-0x14e7: CMOVE $2 $7 $3
-0x14e8: CMOVE $0 $6 $1
-0x14e9: CMOVE $2 $7 $3
-0x14ea: CMOVE $0 $5 $0
-0x14eb: FREE  $6
-0x14ec: CMOVE $2 $6 $1
-0x14ed: RMEM  $0 $5 $3
-0x14ee: ALLOC $1 $5
-0x14ef: CMOVE $2 $1 $0
-0x14f0: WMEM  $4 $0 $6
-0x14f1: OUT   $7
-0x14f2: WMEM  $4 $2 $1
-0x14f3: FREE  $4
-0x14f4: WMEM  $6 $1 $1
-0x14f5: RMEM  $2 $5 $1
-0x14f6: CMOVE $5 $5 $5
-0x14f7: OUT   $6
-0x14f8: MUL   $2 $1 $3
-0x14f9: WMEM  $4 $1 $7
-0x14fa: CMOVE $6 $0 $3
-0x14fb: RMEM  $6 $1 $5
-0x14fc: OUT   $7
-0x14fd: RMEM  $2 $5 $7
-0x14fe: OUT   $1
-0x14ff: OUT   $0
-0x1500: CMOVE $0 $0 $5
-0x1501: RMEM  $4 $0 $1
-0x1502: WMEM  $3 $5 $3
-0x1503: CMOVE $0 $5 $1
-0x1504: OUT   $1
-0x1505: OUT   $2
-0x1506: OUT   $4
-0x1507: CMOVE $2 $4 $6
-0x1508: ADD   $5 $0 $1
-0x1509: CMOVE $0 $5 $1
-0x150a: CMOVE $7 $6 $6
-0x150b: OUT   $4
-0x150c: OUT   $6
-0x150d: RMEM  $6 $2 $3
-0x150e: HALT
-0x150f: CMOVE $6 $3 $2
-0x1510: OUT   $6
-0x1511: IN    $7
-0x1512: OUT   $5
-0x1513: WMEM  $6 $0 $7
-0x1514: OUT   $5
-0x1515: ALLOC $1 $5
-0x1516: OUT   $7
-0x1517: OUT   $3
-0x1518: OUT   $4
-0x1519: DIV   $3 $1 $4
-0x151a: CMOVE $1 $2 $2
-0x151b: CMOVE $5 $3 $1
-0x151c: OUT   $0
-0x151d: OUT   $1
-0x151e: IN    $0
-0x151f: WMEM  $2 $7 $2
-0x1520: ALLOC $5 $1
-0x1521: FREE  $7
-0x1522: IMM   $2 3838965
-0x1523: OUT   $6
-0x1524: ADD   $4 $5 $1
-0x1525: CMOVE $0 $1 $7
-0x1526: OUT   $3
-0x1527: OUT   $5
-0x1528: OUT   $7
-0x1529: ADD   $1 $1 $7
-0x152a: CMOVE $0 $1 $7
-0x152b: WMEM  $5 $5 $1
-0x152c: WMEM  $3 $1 $5
-0x152d: CMOVE $1 $5 $7
-0x152e: CMOVE $4 $0 $6
-0x152f: CMOVE $2 $4 $2
-0x1530: WMEM  $3 $3 $0
-0x1531: RMEM  $4 $3 $2
-0x1532: CMOVE $1 $6 $6
-0x1533: CMOVE $2 $1 $1
-0x1534: CMOVE $2 $1 $1
-0x1535: OUT   $6
-0x1536: OUT   $0
-0x1537: OUT   $4
-0x1538: OUT   $7
-0x1539: CMOVE $5 $2 $1
-0x153a: ALLOC $1 $1
-0x153b: OUT   $4
-0x153c: DIV   $3 $2 $4
-0x153d: OUT   $1
-0x153e: ADD   $5 $0 $7
-0x153f: OUT   $4
-0x1540: OUT   $4
-0x1541: WMEM  $1 $3 $3
-0x1542: WMEM  $3 $1 $4
-0x1543: WMEM  $5 $1 $0
-0x1544: WMEM  $3 $2 $6
-0x1545: CMOVE $0 $0 $5
-0x1546: FREE  $2
-0x1547: RMEM  $1 $5 $0
-0x1548: RMEM  $4 $2 $5
-0x1549: ALLOC $7 $6
-0x154a: HALT
-0x154b: RMEM  $1 $1 $3
-0x154c: RMEM  $2 $2 $2
-0x154d: CMOVE $7 $0 $4
-0x154e: CMOVE $5 $1 $6
-0x154f: CMOVE $7 $3 $1
-0x1550: CMOVE $6 $4 $2
-0x1551: CMOVE $0 $1 $0
-0x1552: CMOVE $4 $7 $5
-0x1553: CMOVE $3 $5 $1
-0x1554: CMOVE $2 $0 $4
-0x1555: OUT   $1
-0x1556: IMM   $3 2919080
-0x1557: CMOVE $6 $1 $5
-0x1558: RMEM  $0 $2 $0
-0x1559: OUT   $6
-0x155a: OUT   $7
-0x155b: CMOVE $4 $6 $3
-0x155c: OUT   $0
-0x155d: RMEM  $2 $3 $2
-0x155e: RMEM  $2 $7 $0
-0x155f: RMEM  $3 $6 $4
-0x1560: CMOVE $6 $4 $3
-0x1561: ALLOC $6 $0
-0x1562: CMOVE $6 $7 $5
-0x1563: CMOVE $5 $1 $6
-0x1564: OUT   $0
-0x1565: CMOVE $5 $4 $3
-0x1566: OUT   $0
-0x1567: RMEM  $0 $3 $1
-0x1568: CMOVE $6 $6 $7
-0x1569: CMOVE $4 $5 $5
-0x156a: OUT   $5
-0x156b: CMOVE $6 $4 $4
-0x156c: CMOVE $4 $7 $7
-0x156d: CMOVE $0 $6 $6
-0x156e: FREE  $6
-0x156f: RMEM  $6 $1 $1
-0x1570: ALLOC $2 $1
-0x1571: CMOVE $6 $2 $1
-0x1572: CMOVE $7 $7 $5
-0x1573: RMEM  $2 $5 $0
-0x1574: OUT   $1
-0x1575: OUT   $7
-0x1576: OUT   $7
-0x1577: ADD   $3 $2 $4
-0x1578: RMEM  $2 $2 $7
-0x1579: CMOVE $1 $2 $2
-0x157a: CMOVE $3 $0 $6
-0x157b: OUT   $2
-0x157c: CMOVE $7 $2 $5
-0x157d: IMM   $3 21936258
-0x157e: OUT   $6
-0x157f: OUT   $0
-0x1580: OUT   $7
-0x1581: CMOVE $6 $4 $3
-0x1582: OUT   $4
-0x1583: RMEM  $7 $2 $4
-0x1584: OUT   $7
-0x1585: MUL   $1 $4 $0
-0x1586: OUT   $1
-0x1587: OUT   $0
-0x1588: WMEM  $3 $5 $7
-0x1589: IN    $5
-0x158a: ALLOC $6 $6
-0x158b: WMEM  $1 $7 $4
-0x158c: RMEM  $4 $2 $0
-0x158d: OUT   $5
-0x158e: OUT   $5
-0x158f: WMEM  $3 $3 $7
-0x1590: CMOVE $6 $5 $1
-0x1591: CMOVE $7 $5 $2
-0x1592: IN    $6
-0x1593: ADD   $0 $1 $6
-0x1594: WMEM  $5 $1 $3
-0x1595: ALLOC $7 $7
-0x1596: WMEM  $0 $5 $3
-0x1597: DIV   $6 $6 $4
-0x1598: MUL   $2 $1 $5
-0x1599: FREE  $1
-0x159a: IN    $6
-0x159b: IN    $6
-0x159c: WMEM  $0 $6 $5
-0x159d: IN    $2
-0x159e: WMEM  $0 $3 $4
-0x159f: OUT   $7
-0x15a0: RMEM  $5 $1 $1
-0x15a1: IN    $5
-0x15a2: ALLOC $3 $1
-0x15a3: CMOVE $0 $3 $6
-0x15a4: IMM   $4 6473268
-0x15a5: IN    $4
-0x15a6: RMEM  $0 $6 $6
-0x15a7: IN    $4
-0x15a8: IN    $3
-0x15a9: OUT   $5
-0x15aa: OUT   $2
-0x15ab: OUT   $4
-0x15ac: OUT   $5
-0x15ad: OUT   $1
-0x15ae: WMEM  $5 $6 $3
-0x15af: CMOVE $3 $7 $2
-0x15b0: RMEM  $1 $0 $3
-0x15b1: DIV   $1 $4 $4
-0x15b2: RMEM  $1 $7 $3
-0x15b3: CMOVE $6 $7 $0
-0x15b4: CMOVE $2 $6 $1
-0x15b5: RMEM  $6 $0 $6
-0x15b6: CMOVE $0 $1 $5
-0x15b7: CMOVE $2 $0 $7
-0x15b8: OUT   $3
-0x15b9: ADD   $0 $3 $0
-0x15ba: IN    $7
-0x15bb: OUT   $0
-0x15bc: WMEM  $7 $2 $5
-0x15bd: OUT   $6
-0x15be: IMM   $3 1592900
-0x15bf: WMEM  $6 $3 $3
-0x15c0: ALLOC $2 $5
-0x15c1: OUT   $4
-0x15c2: IN    $7
-0x15c3: IN    $4
-0x15c4: OUT   $7
-0x15c5: CMOVE $0 $1 $2
-0x15c6: CMOVE $0 $0 $2
-0x15c7: RMEM  $4 $5 $6
-0x15c8: OUT   $4
-0x15c9: CMOVE $2 $4 $7
-0x15ca: OUT   $0
-0x15cb: DIV   $7 $6 $1
-0x15cc: CMOVE $4 $1 $1
-0x15cd: RMEM  $0 $0 $6
-0x15ce: DIV   $6 $7 $1
-0x15cf: OUT   $2
-0x15d0: IN    $0
-0x15d1: OUT   $2
-0x15d2: IN    $4
-0x15d3: CMOVE $2 $6 $2
-0x15d4: CMOVE $4 $7 $2
-0x15d5: OUT   $7
-0x15d6: OUT   $0
-0x15d7: OUT   $4
-0x15d8: IMM   $3 16702110
-0x15d9: OUT   $6
-0x15da: OUT   $4
-0x15db: IN    $1
-0x15dc: CMOVE $4 $6 $7
-0x15dd: OUT   $7
-0x15de: IN    $6
-0x15df: OUT   $0
-0x15e0: OUT   $2
-0x15e1: IN    $4
-0x15e2: IN    $1
-0x15e3: CMOVE $3 $6 $4
-0x15e4: CMOVE $3 $4 $3
-0x15e5: DIV   $2 $0 $1
-0x15e6: MUL   $5 $4 $5
-0x15e7: WMEM  $1 $4 $5
-0x15e8: OUT   $4
-0x15e9: IN    $1
-0x15ea: IN    $3
-0x15eb: IN    $4
-0x15ec: IN    $2
-0x15ed: IN    $1
-0x15ee: IN    $0
-0x15ef: RMEM  $3 $7 $3
-0x15f0: OUT   $5
-0x15f1: IN    $0
-0x15f2: IMM   $4 14075644
-0x15f3: IN    $0
-0x15f4: OUT   $4
-0x15f5: OUT   $6
-0x15f6: NAND  $1 $4 $1
-0x15f7: IN    $0
-0x15f8: IN    $5
-0x15f9: IN    $5
-0x15fa: ADD   $1 $1 $3
-0x15fb: IN    $6
-0x15fc: IN    $5
-0x15fd: ALLOC $3 $0
-0x15fe: ADD   $3 $2 $3
-0x15ff: DIV   $4 $1 $7
-0x1600: IN    $7
-0x1601: WMEM  $4 $1 $0
-0x1602: IN    $0
-0x1603: IN    $3
-0x1604: IN    $3
-0x1605: IN    $6
-0x1606: ADD   $1 $6 $0
-0x1607: IN    $7
-0x1608: IN    $2
-0x1609: IN    $2
-0x160a: OUT   $2
-0x160b: IN    $1
-0x160c: IMM   $6 23513590
-0x160d: IN    $1
-0x160e: IN    $1
-0x160f: IN    $7
-0x1610: IN    $3
-0x1611: IN    $2
-0x1612: IN    $5
-0x1613: IN    $7
-0x1614: DIV   $0 $7 $5
-0x1615: OUT   $3
-0x1616: OUT   $4
-0x1617: ALLOC $1 $2
-0x1618: RMEM  $1 $6 $0
-0x1619: FREE  $2
-0x161a: IN    $7
-0x161b: IN    $1
-0x161c: IN    $5
-0x161d: CMOVE $7 $7 $7
-0x161e: IN    $6
-0x161f: CMOVE $6 $0 $7
-0x1620: RMEM  $0 $5 $4
-0x1621: WMEM  $2 $5 $5
-0x1622: IN    $3
-0x1623: IN    $2
-0x1624: OUT   $2
-0x1625: IN    $7
-0x1626: DIV   $6 $7 $4
-0x1627: IN    $1
-0x1628: CMOVE $2 $5 $2
-0x1629: CMOVE $3 $7 $6
-0x162a: IN    $0
-0x162b: IN    $2
-0x162c: CMOVE $5 $4 $6
-0x162d: WMEM  $3 $3 $5
-0x162e: IN    $1
-0x162f: FREE  $3
-0x1630: IN    $4
-0x1631: CMOVE $1 $3 $2
-0x1632: CMOVE $7 $3 $6
-0x1633: RMEM  $5 $4 $1
-0x1634: WMEM  $6 $5 $5
-0x1635: WMEM  $4 $7 $7
-0x1636: WMEM  $3 $4 $4
-0x1637: CMOVE $4 $2 $7
-0x1638: WMEM  $4 $4 $3
-0x1639: IN    $6
-0x163a: IN    $1
-0x163b: IN    $3
-0x163c: ADD   $0 $4 $3
-0x163d: IN    $3
-0x163e: OUT   $0
-0x163f: CMOVE $4 $4 $2
-0x1640: IMM   $6 30330192
-0x1641: RMEM  $4 $6 $7
-0x1642: OUT   $2
-0x1643: IN    $3
-0x1644: IN    $3
-0x1645: WMEM  $0 $6 $4
-0x1646: FREE  $3
-0x1647: IN    $6
-0x1648: RMEM  $4 $1 $1
-0x1649: ADD   $2 $2 $4
-0x164a: IN    $6
-0x164b: OUT   $5
-0x164c: IN    $7
-0x164d: IN    $1
-0x164e: IN    $0
-0x164f: IN    $5
-0x1650: IN    $0
-0x1651: WMEM  $0 $0 $4
-0x1652: IN    $5
-0x1653: IN    $3
-0x1654: IN    $7
-0x1655: CMOVE $4 $4 $1
-0x1656: IN    $1
-0x1657: CMOVE $5 $6 $2
-0x1658: OUT   $1
-0x1659: WMEM  $1 $5 $6
-0x165a: IMM   $2 17223238
-0x165b: IN    $6
-0x165c: CMOVE $5 $1 $0
-0x165d: IN    $0
-0x165e: ALLOC $5 $3
-0x165f: NAND  $1 $0 $3
-0x1660: WMEM  $3 $4 $0
-0x1661: IN    $3
-0x1662: RMEM  $5 $3 $0
-0x1663: IN    $6
-0x1664: IN    $4
-0x1665: WMEM  $6 $6 $7
-0x1666: IN    $5
-0x1667: IMM   $5 9091913
-0x1668: CMOVE $3 $1 $5
-0x1669: RMEM  $2 $6 $0
-0x166a: RMEM  $0 $6 $0
-0x166b: OUT   $2
-0x166c: IN    $5
-0x166d: CMOVE $6 $5 $5
-0x166e: CMOVE $1 $7 $4
-0x166f: IN    $6
-0x1670: IN    $3
-0x1671: IN    $2
-0x1672: ALLOC $5 $4
-0x1673: IN    $2
-0x1674: IMM   $5 17563713
-0x1675: JUMP  $6 $5
-0x1676: CMOVE $0 $1 $4
-0x1677: OUT   $7
-0x1678: IN    $5
-0x1679: IN    $0
-0x167a: RMEM  $7 $1 $4
-0x167b: CMOVE $4 $6 $3
-0x167c: CMOVE $1 $7 $0
-0x167d: IN    $0
-0x167e: JUMP  $4 $5
-0x167f: CMOVE $1 $1 $3
-0x1680: OUT   $3
-0x1681: IMM   $3 27711173
-0x1682: JUMP  $4 $7
-0x1683: OUT   $0
-0x1684: OUT   $7
-0x1685: JUMP  $6 $3
-0x1686: CMOVE $4 $7 $6
-0x1687: OUT   $4
-0x1688: IN    $1
-0x1689: JUMP  $0 $3
-0x168a: JUMP  $7 $5
-0x168b: IN    $0
-0x168c: OUT   $2
-0x168d: RMEM  $4 $4 $6
-0x168e: IMM   $7 31126372
-0x168f: IN    $6
-0x1690: IN    $1
-0x1691: IN    $1
-0x1692: CMOVE $0 $2 $3
-0x1693: IN    $2
-0x1694: IN    $5
-0x1695: IN    $4
-0x1696: IN    $1
-0x1697: IN    $3
-0x1698: IN    $2
-0x1699: OUT   $7
-0x169a: IN    $3
-0x169b: IMM   $6 9372184
-0x169c: FREE  $0
-0x169d: IN    $2
-0x169e: JUMP  $0 $6
-0x169f: IN    $5
-0x16a0: IN    $2
-0x16a1: JUMP  $5 $7
-0x16a2: JUMP  $7 $2
-0x16a3: IN    $7
-0x16a4: IMM   $3 2797983
-0x16a5: IN    $5
+0x130e: add   $6 $6 $3
+0x130f: nand  $1 $1 $5
+0x1310: halt
+0x1311: halt
+0x1312: cmove $6 $1 $2
+0x1313: halt
+0x1314: add   $6 $2 $1
+0x1315: halt
+0x1316: nand  $7 $4 $7
+0x1317: halt
+0x1318: free  $6
+0x1319: halt
+0x131a: add   $7 $6 $0
+0x131b: add   $7 $5 $4
+0x131c: nand  $4 $5 $6
+0x131d: mul   $3 $1 $3
+0x131e: halt
+0x131f: halt
+0x1320: halt
+0x1321: nand  $3 $1 $5
+0x1322: halt
+0x1323: alloc $1 $7
+0x1324: cmove $0 $5 $1
+0x1325: free  $2
+0x1326: halt
+0x1327: wmem  $2 $5 $2
+0x1328: mul   $5 $6 $3
+0x1329: alloc $7 $5
+0x132a: halt
+0x132b: alloc $2 $5
+0x132c: alloc $2 $2
+0x132d: alloc $3 $5
+0x132e: nand  $0 $1 $2
+0x132f: alloc $3 $7
+0x1330: wmem  $6 $2 $6
+0x1331: alloc $0 $7
+0x1332: free  $3
+0x1333: cmove $0 $4 $6
+0x1334: cmove $6 $1 $2
+0x1335: halt
+0x1336: halt
+0x1337: cmove $1 $3 $7
+0x1338: alloc $0 $5
+0x1339: add   $7 $4 $6
+0x133a: wmem  $5 $7 $3
+0x133b: alloc $1 $1
+0x133c: nand  $1 $1 $4
+0x133d: free  $0
+0x133e: add   $0 $0 $0
+0x133f: nand  $4 $7 $7
+0x1340: halt
+0x1341: in    $4
+0x1342: wmem  $0 $2 $1
+0x1343: mul   $7 $3 $6
+0x1344: alloc $6 $2
+0x1345: alloc $0 $4
+0x1346: add   $7 $7 $6
+0x1347: halt
+0x1348: halt
+0x1349: cmove $3 $5 $7
+0x134a: mul   $1 $4 $4
+0x134b: alloc $5 $1
+0x134c: alloc $5 $2
+0x134d: alloc $2 $5
+0x134e: mul   $4 $6 $7
+0x134f: alloc $0 $1
+0x1350: alloc $2 $3
+0x1351: nand  $7 $4 $4
+0x1352: rmem  $2 $7 $5
+0x1353: alloc $0 $0
+0x1354: nand  $2 $4 $6
+0x1355: halt
+0x1356: halt
+0x1357: halt
+0x1358: halt
+0x1359: alloc $7 $0
+0x135a: alloc $6 $4
+0x135b: mul   $1 $2 $7
+0x135c: halt
+0x135d: nand  $0 $6 $2
+0x135e: alloc $7 $7
+0x135f: alloc $4 $4
+0x1360: alloc $3 $2
+0x1361: div   $1 $7 $2
+0x1362: alloc $5 $3
+0x1363: alloc $0 $1
+0x1364: alloc $5 $3
+0x1365: alloc $1 $5
+0x1366: out   $3
+0x1367: mul   $3 $1 $7
+0x1368: in    $6
+0x1369: alloc $0 $5
+0x136a: nand  $5 $0 $7
+0x136b: nand  $3 $0 $7
+0x136c: alloc $0 $6
+0x136d: alloc $7 $1
+0x136e: add   $3 $0 $7
+0x136f: cmove $0 $2 $5
+0x1370: alloc $0 $6
+0x1371: halt
+0x1372: alloc $1 $3
+0x1373: nand  $3 $5 $2
+0x1374: alloc $1 $0
+0x1375: cmove $3 $2 $1
+0x1376: alloc $2 $4
+0x1377: div   $0 $6 $3
+0x1378: mul   $3 $6 $1
+0x1379: alloc $3 $4
+0x137a: alloc $7 $1
+0x137b: alloc $6 $0
+0x137c: alloc $3 $5
+0x137d: halt
+0x137e: halt
+0x137f: alloc $4 $5
+0x1380: mul   $6 $3 $0
+0x1381: cmove $4 $1 $1
+0x1382: cmove $6 $4 $1
+0x1383: cmove $3 $6 $5
+0x1384: rmem  $5 $1 $5
+0x1385: halt
+0x1386: halt
+0x1387: add   $5 $2 $7
+0x1388: halt
+0x1389: rmem  $5 $7 $4
+0x138a: mul   $6 $4 $4
+0x138b: nand  $0 $2 $0
+0x138c: alloc $7 $7
+0x138d: cmove $3 $6 $7
+0x138e: alloc $0 $2
+0x138f: add   $7 $3 $6
+0x1390: alloc $1 $7
+0x1391: add   $6 $3 $5
+0x1392: cmove $2 $3 $3
+0x1393: halt
+0x1394: alloc $4 $0
+0x1395: rmem  $1 $4 $7
+0x1396: div   $1 $0 $6
+0x1397: alloc $4 $0
+0x1398: halt
+0x1399: halt
+0x139a: free  $7
+0x139b: alloc $3 $0
+0x139c: jump  $3 $0
+0x139d: halt
+0x139e: alloc $4 $6
+0x139f: halt
+0x13a0: add   $5 $5 $2
+0x13a1: alloc $3 $5
+0x13a2: cmove $5 $3 $5
+0x13a3: alloc $2 $3
+0x13a4: alloc $4 $2
+0x13a5: div   $0 $2 $7
+0x13a6: div   $1 $6 $6
+0x13a7: alloc $0 $1
+0x13a8: cmove $5 $5 $2
+0x13a9: mul   $6 $2 $4
+0x13aa: alloc $1 $6
+0x13ab: alloc $1 $5
+0x13ac: rmem  $0 $2 $5
+0x13ad: halt
+0x13ae: alloc $1 $7
+0x13af: alloc $4 $0
+0x13b0: alloc $1 $4
+0x13b1: cmove $3 $4 $1
+0x13b2: cmove $0 $4 $6
+0x13b3: alloc $2 $6
+0x13b4: out   $7
+0x13b5: rmem  $5 $1 $6
+0x13b6: alloc $7 $6
+0x13b7: alloc $2 $2
+0x13b8: div   $2 $5 $4
+0x13b9: alloc $6 $5
+0x13ba: cmove $2 $3 $2
+0x13bb: alloc $4 $4
+0x13bc: alloc $7 $0
+0x13bd: mul   $7 $7 $5
+0x13be: alloc $1 $2
+0x13bf: halt
+0x13c0: alloc $2 $5
+0x13c1: nand  $4 $5 $4
+0x13c2: alloc $3 $0
+0x13c3: jump  $7 $1
+0x13c4: wmem  $0 $1 $0
+0x13c5: alloc $7 $6
+0x13c6: alloc $7 $7
+0x13c7: wmem  $6 $2 $5
+0x13c8: alloc $4 $2
+0x13c9: alloc $3 $5
+0x13ca: alloc $5 $2
+0x13cb: alloc $1 $5
+0x13cc: alloc $6 $5
+0x13cd: nand  $6 $2 $2
+0x13ce: out   $1
+0x13cf: add   $0 $4 $0
+0x13d0: mul   $0 $1 $0
+0x13d1: halt
+0x13d2: wmem  $7 $7 $0
+0x13d3: alloc $0 $0
+0x13d4: alloc $7 $5
+0x13d5: cmove $0 $7 $1
+0x13d6: mul   $4 $3 $4
+0x13d7: alloc $1 $2
+0x13d8: alloc $3 $7
+0x13d9: free  $4
+0x13da: alloc $2 $5
+0x13db: wmem  $4 $4 $1
+0x13dc: halt
+0x13dd: in    $7
+0x13de: alloc $6 $5
+0x13df: alloc $5 $2
+0x13e0: alloc $6 $2
+0x13e1: halt
+0x13e2: alloc $3 $2
+0x13e3: cmove $5 $5 $6
+0x13e4: alloc $4 $6
+0x13e5: alloc $4 $1
+0x13e6: free  $5
+0x13e7: free  $2
+0x13e8: nand  $1 $3 $5
+0x13e9: alloc $6 $2
+0x13ea: jump  $1 $1
+0x13eb: free  $7
+0x13ec: add   $5 $3 $4
+0x13ed: alloc $0 $5
+0x13ee: free  $2
+0x13ef: halt
+0x13f0: halt
+0x13f1: alloc $7 $2
+0x13f2: halt
+0x13f3: free  $7
+0x13f4: free  $0
+0x13f5: wmem  $0 $0 $2
+0x13f6: free  $7
+0x13f7: mul   $7 $6 $6
+0x13f8: free  $4
+0x13f9: alloc $4 $7
+0x13fa: alloc $4 $4
+0x13fb: add   $2 $6 $5
+0x13fc: alloc $7 $1
+0x13fd: free  $1
+0x13fe: free  $0
+0x13ff: halt
+0x1400: halt
+0x1401: halt
+0x1402: free  $7
+0x1403: alloc $6 $1
+0x1404: jump  $7 $7
+0x1405: alloc $6 $5
+0x1406: free  $1
+0x1407: rmem  $3 $5 $4
+0x1408: add   $1 $6 $2
+0x1409: alloc $2 $1
+0x140a: free  $7
+0x140b: free  $4
+0x140c: add   $1 $4 $4
+0x140d: halt
+0x140e: halt
+0x140f: out   $2
+0x1410: alloc $6 $5
+0x1411: in    $4
+0x1412: free  $7
+0x1413: free  $3
+0x1414: free  $6
+0x1415: alloc $5 $7
+0x1416: alloc $2 $3
+0x1417: mul   $0 $2 $4
+0x1418: nand  $3 $0 $6
+0x1419: nand  $2 $6 $7
+0x141a: nand  $6 $2 $6
+0x141b: alloc $6 $4
+0x141c: mul   $0 $3 $3
+0x141d: add   $1 $0 $3
+0x141e: mul   $1 $1 $5
+0x141f: cmove $0 $3 $5
+0x1420: add   $5 $0 $2
+0x1421: alloc $0 $5
+0x1422: add   $2 $6 $0
+0x1423: div   $7 $2 $4
+0x1424: nand  $5 $6 $7
+0x1425: cmove $6 $7 $7
+0x1426: free  $6
+0x1427: alloc $0 $6
+0x1428: free  $6
+0x1429: cmove $0 $0 $1
+0x142a: alloc $2 $5
+0x142b: wmem  $2 $3 $5
+0x142c: wmem  $3 $2 $5
+0x142d: cmove $2 $5 $7
+0x142e: cmove $2 $6 $0
+0x142f: free  $7
+0x1430: nand  $4 $5 $7
+0x1431: cmove $1 $1 $4
+0x1432: cmove $4 $1 $4
+0x1433: free  $0
+0x1434: nand  $5 $6 $7
+0x1435: alloc $5 $7
+0x1436: out   $1
+0x1437: halt
+0x1438: mul   $5 $6 $0
+0x1439: add   $1 $1 $1
+0x143a: alloc $0 $7
+0x143b: free  $7
+0x143c: cmove $5 $2 $5
+0x143d: cmove $6 $6 $0
+0x143e: free  $2
+0x143f: free  $2
+0x1440: cmove $3 $1 $2
+0x1441: rmem  $5 $0 $3
+0x1442: alloc $4 $3
+0x1443: nand  $1 $0 $1
+0x1444: free  $1
+0x1445: alloc $2 $2
+0x1446: add   $6 $2 $5
+0x1447: nand  $0 $6 $7
+0x1448: free  $1
+0x1449: wmem  $2 $7 $6
+0x144a: halt
+0x144b: alloc $4 $4
+0x144c: halt
+0x144d: add   $7 $5 $7
+0x144e: alloc $2 $7
+0x144f: alloc $7 $3
+0x1450: wmem  $6 $7 $3
+0x1451: free  $1
+0x1452: alloc $1 $5
+0x1453: alloc $2 $4
+0x1454: free  $5
+0x1455: free  $6
+0x1456: alloc $2 $0
+0x1457: mul   $5 $4 $6
+0x1458: halt
+0x1459: rmem  $3 $7 $5
+0x145a: rmem  $6 $1 $0
+0x145b: alloc $4 $0
+0x145c: free  $1
+0x145d: alloc $1 $7
+0x145e: mul   $3 $3 $7
+0x145f: mul   $4 $0 $7
+0x1460: add   $4 $7 $4
+0x1461: free  $4
+0x1462: add   $5 $3 $3
+0x1463: alloc $2 $5
+0x1464: free  $5
+0x1465: alloc $5 $0
+0x1466: free  $0
+0x1467: free  $6
+0x1468: halt
+0x1469: halt
+0x146a: out   $4
+0x146b: alloc $7 $4
+0x146c: alloc $7 $4
+0x146d: free  $1
+0x146e: free  $2
+0x146f: free  $4
+0x1470: free  $1
+0x1471: halt
+0x1472: add   $7 $6 $2
+0x1473: halt
+0x1474: div   $7 $4 $4
+0x1475: alloc $6 $0
+0x1476: free  $2
+0x1477: out   $2
+0x1478: nand  $6 $6 $4
+0x1479: free  $2
+0x147a: free  $7
+0x147b: free  $1
+0x147c: free  $1
+0x147d: alloc $5 $3
+0x147e: cmove $4 $6 $5
+0x147f: alloc $5 $4
+0x1480: cmove $2 $4 $5
+0x1481: add   $0 $5 $1
+0x1482: free  $4
+0x1483: alloc $1 $7
+0x1484: out   $3
+0x1485: free  $4
+0x1486: mul   $5 $6 $6
+0x1487: add   $7 $4 $4
+0x1488: free  $6
+0x1489: alloc $2 $6
+0x148a: alloc $5 $3
+0x148b: cmove $6 $4 $0
+0x148c: alloc $0 $2
+0x148d: free  $0
+0x148e: free  $0
+0x148f: free  $5
+0x1490: cmove $5 $5 $6
+0x1491: alloc $6 $2
+0x1492: free  $1
+0x1493: jump  $3 $6
+0x1494: free  $7
+0x1495: free  $5
+0x1496: free  $6
+0x1497: nand  $1 $6 $5
+0x1498: wmem  $1 $0 $1
+0x1499: wmem  $2 $0 $1
+0x149a: wmem  $3 $2 $7
+0x149b: wmem  $7 $2 $5
+0x149c: wmem  $7 $2 $2
+0x149d: cmove $5 $1 $4
+0x149e: cmove $0 $1 $2
+0x149f: wmem  $7 $0 $2
+0x14a0: rmem  $3 $2 $4
+0x14a1: wmem  $4 $5 $2
+0x14a2: free  $5
+0x14a3: wmem  $0 $6 $5
+0x14a4: div   $1 $1 $6
+0x14a5: div   $0 $0 $5
+0x14a6: wmem  $3 $5 $5
+0x14a7: cmove $0 $3 $5
+0x14a8: wmem  $0 $5 $2
+0x14a9: wmem  $6 $2 $7
+0x14aa: cmove $7 $4 $1
+0x14ab: alloc $0 $2
+0x14ac: cmove $3 $2 $2
+0x14ad: mul   $3 $4 $1
+0x14ae: free  $5
+0x14af: free  $6
+0x14b0: alloc $5 $0
+0x14b1: nand  $7 $3 $1
+0x14b2: wmem  $7 $4 $6
+0x14b3: cmove $5 $4 $1
+0x14b4: rmem  $7 $2 $1
+0x14b5: wmem  $1 $6 $2
+0x14b6: wmem  $5 $5 $6
+0x14b7: free  $5
+0x14b8: wmem  $0 $7 $1
+0x14b9: free  $6
+0x14ba: jump  $5 $5
+0x14bb: out   $6
+0x14bc: cmove $5 $1 $5
+0x14bd: free  $4
+0x14be: wmem  $1 $6 $1
+0x14bf: mul   $1 $4 $6
+0x14c0: cmove $6 $2 $6
+0x14c1: div   $0 $4 $1
+0x14c2: alloc $2 $5
+0x14c3: out   $3
+0x14c4: out   $3
+0x14c5: out   $5
+0x14c6: halt
+0x14c7: jump  $4 $3
+0x14c8: out   $5
+0x14c9: free  $3
+0x14ca: alloc $3 $0
+0x14cb: free  $3
+0x14cc: free  $7
+0x14cd: out   $5
+0x14ce: free  $7
+0x14cf: alloc $3 $1
+0x14d0: wmem  $6 $5 $2
+0x14d1: free  $4
+0x14d2: nand  $3 $6 $5
+0x14d3: cmove $1 $6 $7
+0x14d4: add   $6 $7 $4
+0x14d5: out   $0
+0x14d6: div   $0 $2 $4
+0x14d7: out   $7
+0x14d8: cmove $6 $0 $5
+0x14d9: wmem  $1 $4 $0
+0x14da: cmove $1 $5 $0
+0x14db: cmove $2 $0 $3
+0x14dc: free  $1
+0x14dd: cmove $3 $2 $3
+0x14de: free  $3
+0x14df: cmove $4 $2 $0
+0x14e0: rmem  $3 $7 $6
+0x14e1: mul   $4 $7 $3
+0x14e2: cmove $0 $5 $6
+0x14e3: out   $6
+0x14e4: rmem  $4 $6 $4
+0x14e5: cmove $3 $3 $1
+0x14e6: rmem  $5 $2 $0
+0x14e7: cmove $2 $7 $3
+0x14e8: cmove $0 $6 $1
+0x14e9: cmove $2 $7 $3
+0x14ea: cmove $0 $5 $0
+0x14eb: free  $6
+0x14ec: cmove $2 $6 $1
+0x14ed: rmem  $0 $5 $3
+0x14ee: alloc $1 $5
+0x14ef: cmove $2 $1 $0
+0x14f0: wmem  $4 $0 $6
+0x14f1: out   $7
+0x14f2: wmem  $4 $2 $1
+0x14f3: free  $4
+0x14f4: wmem  $6 $1 $1
+0x14f5: rmem  $2 $5 $1
+0x14f6: cmove $5 $5 $5
+0x14f7: out   $6
+0x14f8: mul   $2 $1 $3
+0x14f9: wmem  $4 $1 $7
+0x14fa: cmove $6 $0 $3
+0x14fb: rmem  $6 $1 $5
+0x14fc: out   $7
+0x14fd: rmem  $2 $5 $7
+0x14fe: out   $1
+0x14ff: out   $0
+0x1500: cmove $0 $0 $5
+0x1501: rmem  $4 $0 $1
+0x1502: wmem  $3 $5 $3
+0x1503: cmove $0 $5 $1
+0x1504: out   $1
+0x1505: out   $2
+0x1506: out   $4
+0x1507: cmove $2 $4 $6
+0x1508: add   $5 $0 $1
+0x1509: cmove $0 $5 $1
+0x150a: cmove $7 $6 $6
+0x150b: out   $4
+0x150c: out   $6
+0x150d: rmem  $6 $2 $3
+0x150e: halt
+0x150f: cmove $6 $3 $2
+0x1510: out   $6
+0x1511: in    $7
+0x1512: out   $5
+0x1513: wmem  $6 $0 $7
+0x1514: out   $5
+0x1515: alloc $1 $5
+0x1516: out   $7
+0x1517: out   $3
+0x1518: out   $4
+0x1519: div   $3 $1 $4
+0x151a: cmove $1 $2 $2
+0x151b: cmove $5 $3 $1
+0x151c: out   $0
+0x151d: out   $1
+0x151e: in    $0
+0x151f: wmem  $2 $7 $2
+0x1520: alloc $5 $1
+0x1521: free  $7
+0x1522: imm   $2 3838965
+0x1523: out   $6
+0x1524: add   $4 $5 $1
+0x1525: cmove $0 $1 $7
+0x1526: out   $3
+0x1527: out   $5
+0x1528: out   $7
+0x1529: add   $1 $1 $7
+0x152a: cmove $0 $1 $7
+0x152b: wmem  $5 $5 $1
+0x152c: wmem  $3 $1 $5
+0x152d: cmove $1 $5 $7
+0x152e: cmove $4 $0 $6
+0x152f: cmove $2 $4 $2
+0x1530: wmem  $3 $3 $0
+0x1531: rmem  $4 $3 $2
+0x1532: cmove $1 $6 $6
+0x1533: cmove $2 $1 $1
+0x1534: cmove $2 $1 $1
+0x1535: out   $6
+0x1536: out   $0
+0x1537: out   $4
+0x1538: out   $7
+0x1539: cmove $5 $2 $1
+0x153a: alloc $1 $1
+0x153b: out   $4
+0x153c: div   $3 $2 $4
+0x153d: out   $1
+0x153e: add   $5 $0 $7
+0x153f: out   $4
+0x1540: out   $4
+0x1541: wmem  $1 $3 $3
+0x1542: wmem  $3 $1 $4
+0x1543: wmem  $5 $1 $0
+0x1544: wmem  $3 $2 $6
+0x1545: cmove $0 $0 $5
+0x1546: free  $2
+0x1547: rmem  $1 $5 $0
+0x1548: rmem  $4 $2 $5
+0x1549: alloc $7 $6
+0x154a: halt
+0x154b: rmem  $1 $1 $3
+0x154c: rmem  $2 $2 $2
+0x154d: cmove $7 $0 $4
+0x154e: cmove $5 $1 $6
+0x154f: cmove $7 $3 $1
+0x1550: cmove $6 $4 $2
+0x1551: cmove $0 $1 $0
+0x1552: cmove $4 $7 $5
+0x1553: cmove $3 $5 $1
+0x1554: cmove $2 $0 $4
+0x1555: out   $1
+0x1556: imm   $3 2919080
+0x1557: cmove $6 $1 $5
+0x1558: rmem  $0 $2 $0
+0x1559: out   $6
+0x155a: out   $7
+0x155b: cmove $4 $6 $3
+0x155c: out   $0
+0x155d: rmem  $2 $3 $2
+0x155e: rmem  $2 $7 $0
+0x155f: rmem  $3 $6 $4
+0x1560: cmove $6 $4 $3
+0x1561: alloc $6 $0
+0x1562: cmove $6 $7 $5
+0x1563: cmove $5 $1 $6
+0x1564: out   $0
+0x1565: cmove $5 $4 $3
+0x1566: out   $0
+0x1567: rmem  $0 $3 $1
+0x1568: cmove $6 $6 $7
+0x1569: cmove $4 $5 $5
+0x156a: out   $5
+0x156b: cmove $6 $4 $4
+0x156c: cmove $4 $7 $7
+0x156d: cmove $0 $6 $6
+0x156e: free  $6
+0x156f: rmem  $6 $1 $1
+0x1570: alloc $2 $1
+0x1571: cmove $6 $2 $1
+0x1572: cmove $7 $7 $5
+0x1573: rmem  $2 $5 $0
+0x1574: out   $1
+0x1575: out   $7
+0x1576: out   $7
+0x1577: add   $3 $2 $4
+0x1578: rmem  $2 $2 $7
+0x1579: cmove $1 $2 $2
+0x157a: cmove $3 $0 $6
+0x157b: out   $2
+0x157c: cmove $7 $2 $5
+0x157d: imm   $3 21936258
+0x157e: out   $6
+0x157f: out   $0
+0x1580: out   $7
+0x1581: cmove $6 $4 $3
+0x1582: out   $4
+0x1583: rmem  $7 $2 $4
+0x1584: out   $7
+0x1585: mul   $1 $4 $0
+0x1586: out   $1
+0x1587: out   $0
+0x1588: wmem  $3 $5 $7
+0x1589: in    $5
+0x158a: alloc $6 $6
+0x158b: wmem  $1 $7 $4
+0x158c: rmem  $4 $2 $0
+0x158d: out   $5
+0x158e: out   $5
+0x158f: wmem  $3 $3 $7
+0x1590: cmove $6 $5 $1
+0x1591: cmove $7 $5 $2
+0x1592: in    $6
+0x1593: add   $0 $1 $6
+0x1594: wmem  $5 $1 $3
+0x1595: alloc $7 $7
+0x1596: wmem  $0 $5 $3
+0x1597: div   $6 $6 $4
+0x1598: mul   $2 $1 $5
+0x1599: free  $1
+0x159a: in    $6
+0x159b: in    $6
+0x159c: wmem  $0 $6 $5
+0x159d: in    $2
+0x159e: wmem  $0 $3 $4
+0x159f: out   $7
+0x15a0: rmem  $5 $1 $1
+0x15a1: in    $5
+0x15a2: alloc $3 $1
+0x15a3: cmove $0 $3 $6
+0x15a4: imm   $4 6473268
+0x15a5: in    $4
+0x15a6: rmem  $0 $6 $6
+0x15a7: in    $4
+0x15a8: in    $3
+0x15a9: out   $5
+0x15aa: out   $2
+0x15ab: out   $4
+0x15ac: out   $5
+0x15ad: out   $1
+0x15ae: wmem  $5 $6 $3
+0x15af: cmove $3 $7 $2
+0x15b0: rmem  $1 $0 $3
+0x15b1: div   $1 $4 $4
+0x15b2: rmem  $1 $7 $3
+0x15b3: cmove $6 $7 $0
+0x15b4: cmove $2 $6 $1
+0x15b5: rmem  $6 $0 $6
+0x15b6: cmove $0 $1 $5
+0x15b7: cmove $2 $0 $7
+0x15b8: out   $3
+0x15b9: add   $0 $3 $0
+0x15ba: in    $7
+0x15bb: out   $0
+0x15bc: wmem  $7 $2 $5
+0x15bd: out   $6
+0x15be: imm   $3 1592900
+0x15bf: wmem  $6 $3 $3
+0x15c0: alloc $2 $5
+0x15c1: out   $4
+0x15c2: in    $7
+0x15c3: in    $4
+0x15c4: out   $7
+0x15c5: cmove $0 $1 $2
+0x15c6: cmove $0 $0 $2
+0x15c7: rmem  $4 $5 $6
+0x15c8: out   $4
+0x15c9: cmove $2 $4 $7
+0x15ca: out   $0
+0x15cb: div   $7 $6 $1
+0x15cc: cmove $4 $1 $1
+0x15cd: rmem  $0 $0 $6
+0x15ce: div   $6 $7 $1
+0x15cf: out   $2
+0x15d0: in    $0
+0x15d1: out   $2
+0x15d2: in    $4
+0x15d3: cmove $2 $6 $2
+0x15d4: cmove $4 $7 $2
+0x15d5: out   $7
+0x15d6: out   $0
+0x15d7: out   $4
+0x15d8: imm   $3 16702110
+0x15d9: out   $6
+0x15da: out   $4
+0x15db: in    $1
+0x15dc: cmove $4 $6 $7
+0x15dd: out   $7
+0x15de: in    $6
+0x15df: out   $0
+0x15e0: out   $2
+0x15e1: in    $4
+0x15e2: in    $1
+0x15e3: cmove $3 $6 $4
+0x15e4: cmove $3 $4 $3
+0x15e5: div   $2 $0 $1
+0x15e6: mul   $5 $4 $5
+0x15e7: wmem  $1 $4 $5
+0x15e8: out   $4
+0x15e9: in    $1
+0x15ea: in    $3
+0x15eb: in    $4
+0x15ec: in    $2
+0x15ed: in    $1
+0x15ee: in    $0
+0x15ef: rmem  $3 $7 $3
+0x15f0: out   $5
+0x15f1: in    $0
+0x15f2: imm   $4 14075644
+0x15f3: in    $0
+0x15f4: out   $4
+0x15f5: out   $6
+0x15f6: nand  $1 $4 $1
+0x15f7: in    $0
+0x15f8: in    $5
+0x15f9: in    $5
+0x15fa: add   $1 $1 $3
+0x15fb: in    $6
+0x15fc: in    $5
+0x15fd: alloc $3 $0
+0x15fe: add   $3 $2 $3
+0x15ff: div   $4 $1 $7
+0x1600: in    $7
+0x1601: wmem  $4 $1 $0
+0x1602: in    $0
+0x1603: in    $3
+0x1604: in    $3
+0x1605: in    $6
+0x1606: add   $1 $6 $0
+0x1607: in    $7
+0x1608: in    $2
+0x1609: in    $2
+0x160a: out   $2
+0x160b: in    $1
+0x160c: imm   $6 23513590
+0x160d: in    $1
+0x160e: in    $1
+0x160f: in    $7
+0x1610: in    $3
+0x1611: in    $2
+0x1612: in    $5
+0x1613: in    $7
+0x1614: div   $0 $7 $5
+0x1615: out   $3
+0x1616: out   $4
+0x1617: alloc $1 $2
+0x1618: rmem  $1 $6 $0
+0x1619: free  $2
+0x161a: in    $7
+0x161b: in    $1
+0x161c: in    $5
+0x161d: cmove $7 $7 $7
+0x161e: in    $6
+0x161f: cmove $6 $0 $7
+0x1620: rmem  $0 $5 $4
+0x1621: wmem  $2 $5 $5
+0x1622: in    $3
+0x1623: in    $2
+0x1624: out   $2
+0x1625: in    $7
+0x1626: div   $6 $7 $4
+0x1627: in    $1
+0x1628: cmove $2 $5 $2
+0x1629: cmove $3 $7 $6
+0x162a: in    $0
+0x162b: in    $2
+0x162c: cmove $5 $4 $6
+0x162d: wmem  $3 $3 $5
+0x162e: in    $1
+0x162f: free  $3
+0x1630: in    $4
+0x1631: cmove $1 $3 $2
+0x1632: cmove $7 $3 $6
+0x1633: rmem  $5 $4 $1
+0x1634: wmem  $6 $5 $5
+0x1635: wmem  $4 $7 $7
+0x1636: wmem  $3 $4 $4
+0x1637: cmove $4 $2 $7
+0x1638: wmem  $4 $4 $3
+0x1639: in    $6
+0x163a: in    $1
+0x163b: in    $3
+0x163c: add   $0 $4 $3
+0x163d: in    $3
+0x163e: out   $0
+0x163f: cmove $4 $4 $2
+0x1640: imm   $6 30330192
+0x1641: rmem  $4 $6 $7
+0x1642: out   $2
+0x1643: in    $3
+0x1644: in    $3
+0x1645: wmem  $0 $6 $4
+0x1646: free  $3
+0x1647: in    $6
+0x1648: rmem  $4 $1 $1
+0x1649: add   $2 $2 $4
+0x164a: in    $6
+0x164b: out   $5
+0x164c: in    $7
+0x164d: in    $1
+0x164e: in    $0
+0x164f: in    $5
+0x1650: in    $0
+0x1651: wmem  $0 $0 $4
+0x1652: in    $5
+0x1653: in    $3
+0x1654: in    $7
+0x1655: cmove $4 $4 $1
+0x1656: in    $1
+0x1657: cmove $5 $6 $2
+0x1658: out   $1
+0x1659: wmem  $1 $5 $6
+0x165a: imm   $2 17223238
+0x165b: in    $6
+0x165c: cmove $5 $1 $0
+0x165d: in    $0
+0x165e: alloc $5 $3
+0x165f: nand  $1 $0 $3
+0x1660: wmem  $3 $4 $0
+0x1661: in    $3
+0x1662: rmem  $5 $3 $0
+0x1663: in    $6
+0x1664: in    $4
+0x1665: wmem  $6 $6 $7
+0x1666: in    $5
+0x1667: imm   $5 9091913
+0x1668: cmove $3 $1 $5
+0x1669: rmem  $2 $6 $0
+0x166a: rmem  $0 $6 $0
+0x166b: out   $2
+0x166c: in    $5
+0x166d: cmove $6 $5 $5
+0x166e: cmove $1 $7 $4
+0x166f: in    $6
+0x1670: in    $3
+0x1671: in    $2
+0x1672: alloc $5 $4
+0x1673: in    $2
+0x1674: imm   $5 17563713
+0x1675: jump  $6 $5
+0x1676: cmove $0 $1 $4
+0x1677: out   $7
+0x1678: in    $5
+0x1679: in    $0
+0x167a: rmem  $7 $1 $4
+0x167b: cmove $4 $6 $3
+0x167c: cmove $1 $7 $0
+0x167d: in    $0
+0x167e: jump  $4 $5
+0x167f: cmove $1 $1 $3
+0x1680: out   $3
+0x1681: imm   $3 27711173
+0x1682: jump  $4 $7
+0x1683: out   $0
+0x1684: out   $7
+0x1685: jump  $6 $3
+0x1686: cmove $4 $7 $6
+0x1687: out   $4
+0x1688: in    $1
+0x1689: jump  $0 $3
+0x168a: jump  $7 $5
+0x168b: in    $0
+0x168c: out   $2
+0x168d: rmem  $4 $4 $6
+0x168e: imm   $7 31126372
+0x168f: in    $6
+0x1690: in    $1
+0x1691: in    $1
+0x1692: cmove $0 $2 $3
+0x1693: in    $2
+0x1694: in    $5
+0x1695: in    $4
+0x1696: in    $1
+0x1697: in    $3
+0x1698: in    $2
+0x1699: out   $7
+0x169a: in    $3
+0x169b: imm   $6 9372184
+0x169c: free  $0
+0x169d: in    $2
+0x169e: jump  $0 $6
+0x169f: in    $5
+0x16a0: in    $2
+0x16a1: jump  $5 $7
+0x16a2: jump  $7 $2
+0x16a3: in    $7
+0x16a4: imm   $3 2797983
+0x16a5: in    $5
 0x16a6: 
-0x16a7: JUMP  $6 $4
+0x16a7: jump  $6 $4
 0x16a8: 
-0x16a9: CMOVE $0 $1 $7
-0x16aa: MUL   $1 $0 $1
-0x16ab: IN    $6
-0x16ac: IN    $6
-0x16ad: CMOVE $3 $3 $6
-0x16ae: OUT   $7
-0x16af: JUMP  $6 $0
-0x16b0: IN    $7
-0x16b1: IMM   $3 8131474
-0x16b2: RMEM  $0 $4 $2
-0x16b3: ALLOC $3 $0
-0x16b4: IN    $0
-0x16b5: CMOVE $0 $5 $2
-0x16b6: JUMP  $1 $4
-0x16b7: RMEM  $6 $1 $1
-0x16b8: WMEM  $1 $7 $3
-0x16b9: CMOVE $0 $5 $5
-0x16ba: CMOVE $4 $3 $4
-0x16bb: IN    $5
-0x16bc: JUMP  $4 $7
-0x16bd: CMOVE $0 $6 $3
-0x16be: JUMP  $0 $6
-0x16bf: JUMP  $6 $7
-0x16c0: OUT   $3
-0x16c1: CMOVE $7 $1 $5
-0x16c2: CMOVE $6 $7 $4
-0x16c3: OUT   $7
-0x16c4: OUT   $1
-0x16c5: CMOVE $4 $3 $1
-0x16c6: JUMP  $0 $7
-0x16c7: OUT   $0
-0x16c8: OUT   $0
-0x16c9: JUMP  $3 $7
-0x16ca: JUMP  $3 $1
-0x16cb: RMEM  $0 $5 $5
-0x16cc: CMOVE $2 $0 $1
-0x16cd: IN    $1
-0x16ce: IN    $1
-0x16cf: NAND  $2 $4 $1
-0x16d0: CMOVE $0 $6 $1
-0x16d1: IN    $1
-0x16d2: JUMP  $6 $1
-0x16d3: IN    $3
-0x16d4: JUMP  $1 $6
-0x16d5: JUMP  $3 $4
-0x16d6: JUMP  $0 $6
-0x16d7: JUMP  $2 $3
-0x16d8: IN    $3
-0x16d9: RMEM  $2 $7 $5
-0x16da: ALLOC $6 $1
-0x16db: OUT   $1
-0x16dc: NAND  $7 $2 $7
-0x16dd: IN    $6
-0x16de: JUMP  $1 $2
-0x16df: JUMP  $1 $3
-0x16e0: JUMP  $3 $4
-0x16e1: IN    $3
-0x16e2: DIV   $5 $1 $1
-0x16e3: WMEM  $4 $7 $0
-0x16e4: IN    $7
-0x16e5: IN    $7
-0x16e6: JUMP  $5 $1
-0x16e7: OUT   $2
-0x16e8: IN    $4
-0x16e9: JUMP  $6 $1
-0x16ea: CMOVE $0 $0 $3
-0x16eb: JUMP  $5 $4
-0x16ec: IN    $3
-0x16ed: ADD   $3 $2 $7
-0x16ee: IN    $7
-0x16ef: FREE  $6
-0x16f0: JUMP  $3 $5
-0x16f1: JUMP  $5 $2
-0x16f2: IN    $4
-0x16f3: ADD   $5 $2 $1
-0x16f4: WMEM  $0 $1 $2
-0x16f5: IN    $1
-0x16f6: IMM   $4 13422230
-0x16f7: ADD   $5 $7 $1
-0x16f8: JUMP  $1 $0
-0x16f9: ADD   $5 $7 $6
-0x16fa: IN    $1
-0x16fb: JUMP  $7 $3
-0x16fc: ADD   $6 $5 $6
-0x16fd: RMEM  $1 $3 $5
-0x16fe: JUMP  $5 $5
-0x16ff: JUMP  $0 $5
-0x1700: JUMP  $3 $5
-0x1701: IN    $6
-0x1702: IN    $0
+0x16a9: cmove $0 $1 $7
+0x16aa: mul   $1 $0 $1
+0x16ab: in    $6
+0x16ac: in    $6
+0x16ad: cmove $3 $3 $6
+0x16ae: out   $7
+0x16af: jump  $6 $0
+0x16b0: in    $7
+0x16b1: imm   $3 8131474
+0x16b2: rmem  $0 $4 $2
+0x16b3: alloc $3 $0
+0x16b4: in    $0
+0x16b5: cmove $0 $5 $2
+0x16b6: jump  $1 $4
+0x16b7: rmem  $6 $1 $1
+0x16b8: wmem  $1 $7 $3
+0x16b9: cmove $0 $5 $5
+0x16ba: cmove $4 $3 $4
+0x16bb: in    $5
+0x16bc: jump  $4 $7
+0x16bd: cmove $0 $6 $3
+0x16be: jump  $0 $6
+0x16bf: jump  $6 $7
+0x16c0: out   $3
+0x16c1: cmove $7 $1 $5
+0x16c2: cmove $6 $7 $4
+0x16c3: out   $7
+0x16c4: out   $1
+0x16c5: cmove $4 $3 $1
+0x16c6: jump  $0 $7
+0x16c7: out   $0
+0x16c8: out   $0
+0x16c9: jump  $3 $7
+0x16ca: jump  $3 $1
+0x16cb: rmem  $0 $5 $5
+0x16cc: cmove $2 $0 $1
+0x16cd: in    $1
+0x16ce: in    $1
+0x16cf: nand  $2 $4 $1
+0x16d0: cmove $0 $6 $1
+0x16d1: in    $1
+0x16d2: jump  $6 $1
+0x16d3: in    $3
+0x16d4: jump  $1 $6
+0x16d5: jump  $3 $4
+0x16d6: jump  $0 $6
+0x16d7: jump  $2 $3
+0x16d8: in    $3
+0x16d9: rmem  $2 $7 $5
+0x16da: alloc $6 $1
+0x16db: out   $1
+0x16dc: nand  $7 $2 $7
+0x16dd: in    $6
+0x16de: jump  $1 $2
+0x16df: jump  $1 $3
+0x16e0: jump  $3 $4
+0x16e1: in    $3
+0x16e2: div   $5 $1 $1
+0x16e3: wmem  $4 $7 $0
+0x16e4: in    $7
+0x16e5: in    $7
+0x16e6: jump  $5 $1
+0x16e7: out   $2
+0x16e8: in    $4
+0x16e9: jump  $6 $1
+0x16ea: cmove $0 $0 $3
+0x16eb: jump  $5 $4
+0x16ec: in    $3
+0x16ed: add   $3 $2 $7
+0x16ee: in    $7
+0x16ef: free  $6
+0x16f0: jump  $3 $5
+0x16f1: jump  $5 $2
+0x16f2: in    $4
+0x16f3: add   $5 $2 $1
+0x16f4: wmem  $0 $1 $2
+0x16f5: in    $1
+0x16f6: imm   $4 13422230
+0x16f7: add   $5 $7 $1
+0x16f8: jump  $1 $0
+0x16f9: add   $5 $7 $6
+0x16fa: in    $1
+0x16fb: jump  $7 $3
+0x16fc: add   $6 $5 $6
+0x16fd: rmem  $1 $3 $5
+0x16fe: jump  $5 $5
+0x16ff: jump  $0 $5
+0x1700: jump  $3 $5
+0x1701: in    $6
+0x1702: in    $0
 0x1703: 
-0x1704: JUMP  $2 $3
-0x1705: IN    $0
-0x1706: IN    $6
-0x1707: JUMP  $2 $6
-0x1708: RMEM  $0 $5 $4
-0x1709: IN    $2
-0x170a: IN    $2
-0x170b: IN    $1
-0x170c: IMM   $3 22920019
-0x170d: IN    $3
+0x1704: jump  $2 $3
+0x1705: in    $0
+0x1706: in    $6
+0x1707: jump  $2 $6
+0x1708: rmem  $0 $5 $4
+0x1709: in    $2
+0x170a: in    $2
+0x170b: in    $1
+0x170c: imm   $3 22920019
+0x170d: in    $3
 0x170e: 
-0x170f: CMOVE $3 $3 $6
+0x170f: cmove $3 $3 $6
 0x1710: 
-0x1711: JUMP  $6 $4
-0x1712: JUMP  $5 $0
-0x1713: JUMP  $3 $4
-0x1714: JUMP  $5 $5
-0x1715: ALLOC $7 $1
-0x1716: JUMP  $0 $0
-0x1717: CMOVE $0 $2 $4
-0x1718: IN    $2
-0x1719: CMOVE $1 $2 $3
-0x171a: CMOVE $1 $0 $4
-0x171b: OUT   $4
-0x171c: JUMP  $0 $3
-0x171d: CMOVE $0 $6 $0
-0x171e: CMOVE $2 $1 $6
-0x171f: RMEM  $3 $0 $2
-0x1720: IN    $2
-0x1721: IN    $6
-0x1722: IN    $7
-0x1723: IN    $6
-0x1724: IN    $5
-0x1725: JUMP  $7 $0
-0x1726: IN    $2
-0x1727: RMEM  $0 $6 $4
+0x1711: jump  $6 $4
+0x1712: jump  $5 $0
+0x1713: jump  $3 $4
+0x1714: jump  $5 $5
+0x1715: alloc $7 $1
+0x1716: jump  $0 $0
+0x1717: cmove $0 $2 $4
+0x1718: in    $2
+0x1719: cmove $1 $2 $3
+0x171a: cmove $1 $0 $4
+0x171b: out   $4
+0x171c: jump  $0 $3
+0x171d: cmove $0 $6 $0
+0x171e: cmove $2 $1 $6
+0x171f: rmem  $3 $0 $2
+0x1720: in    $2
+0x1721: in    $6
+0x1722: in    $7
+0x1723: in    $6
+0x1724: in    $5
+0x1725: jump  $7 $0
+0x1726: in    $2
+0x1727: rmem  $0 $6 $4
 0x1728: 
-0x1729: WMEM  $3 $3 $6
-0x172a: FREE  $0
-0x172b: CMOVE $4 $0 $4
-0x172c: ADD   $1 $6 $2
-0x172d: OUT   $4
-0x172e: IN    $0
-0x172f: WMEM  $5 $4 $6
-0x1730: IN    $4
-0x1731: OUT   $0
-0x1732: IN    $5
-0x1733: IMM   $3 26789454
-0x1734: IN    $7
+0x1729: wmem  $3 $3 $6
+0x172a: free  $0
+0x172b: cmove $4 $0 $4
+0x172c: add   $1 $6 $2
+0x172d: out   $4
+0x172e: in    $0
+0x172f: wmem  $5 $4 $6
+0x1730: in    $4
+0x1731: out   $0
+0x1732: in    $5
+0x1733: imm   $3 26789454
+0x1734: in    $7
 0x1735: 
-0x1736: JUMP  $1 $5
+0x1736: jump  $1 $5
 0x1737: 
-0x1738: RMEM  $2 $7 $3
-0x1739: IN    $2
-0x173a: JUMP  $2 $5
-0x173b: OUT   $7
-0x173c: IN    $7
-0x173d: WMEM  $3 $0 $1
-0x173e: IN    $3
-0x173f: IN    $2
-0x1740: IMM   $4 10404133
-0x1741: JUMP  $0 $4
-0x1742: WMEM  $3 $2 $2
-0x1743: JUMP  $0 $4
+0x1738: rmem  $2 $7 $3
+0x1739: in    $2
+0x173a: jump  $2 $5
+0x173b: out   $7
+0x173c: in    $7
+0x173d: wmem  $3 $0 $1
+0x173e: in    $3
+0x173f: in    $2
+0x1740: imm   $4 10404133
+0x1741: jump  $0 $4
+0x1742: wmem  $3 $2 $2
+0x1743: jump  $0 $4
 0x1744: 
-0x1745: JUMP  $7 $1
-0x1746: JUMP  $2 $0
-0x1747: IMM   $0 1818674
-0x1748: JUMP  $0 $2
-0x1749: IMM   $3 3862469
-0x174a: ALLOC $0 $4
-0x174b: JUMP  $2 $5
-0x174c: WMEM  $0 $4 $4
-0x174d: JUMP  $2 $5
-0x174e: NAND  $0 $5 $7
-0x174f: IMM   $1 31637539
-0x1750: JUMP  $4 $3
-0x1751: IMM   $4 20623375
-0x1752: JUMP  $2 $4
-0x1753: RMEM  $1 $1 $0
-0x1754: RMEM  $7 $1 $5
-0x1755: IN    $6
-0x1756: IN    $5
-0x1757: IN    $1
-0x1758: CMOVE $7 $2 $4
-0x1759: RMEM  $0 $6 $3
-0x175a: JUMP  $3 $5
-0x175b: IMM   $2 6375719
+0x1745: jump  $7 $1
+0x1746: jump  $2 $0
+0x1747: imm   $0 1818674
+0x1748: jump  $0 $2
+0x1749: imm   $3 3862469
+0x174a: alloc $0 $4
+0x174b: jump  $2 $5
+0x174c: wmem  $0 $4 $4
+0x174d: jump  $2 $5
+0x174e: nand  $0 $5 $7
+0x174f: imm   $1 31637539
+0x1750: jump  $4 $3
+0x1751: imm   $4 20623375
+0x1752: jump  $2 $4
+0x1753: rmem  $1 $1 $0
+0x1754: rmem  $7 $1 $5
+0x1755: in    $6
+0x1756: in    $5
+0x1757: in    $1
+0x1758: cmove $7 $2 $4
+0x1759: rmem  $0 $6 $3
+0x175a: jump  $3 $5
+0x175b: imm   $2 6375719
 0x175c: 
-0x175d: JUMP  $0 $2
-0x175e: DIV   $5 $4 $0
-0x175f: JUMP  $4 $4
-0x1760: CMOVE $1 $3 $2
-0x1761: OUT   $0
-0x1762: OUT   $3
-0x1763: JUMP  $6 $2
-0x1764: JUMP  $7 $3
-0x1765: WMEM  $1 $6 $3
-0x1766: JUMP  $3 $4
-0x1767: CMOVE $1 $4 $7
-0x1768: IMM   $2 6624391
-0x1769: CMOVE $1 $6 $1
-0x176a: CMOVE $6 $6 $0
-0x176b: ALLOC $2 $4
-0x176c: JUMP  $4 $2
-0x176d: IMM   $2 12995215
-0x176e: IMM   $3 17488175
-0x176f: IN    $2
-0x1770: IMM   $3 11235596
-0x1771: IMM   $2 19134371
-0x1772: IMM   $6 11592086
-0x1773: IMM   $2 7521962
-0x1774: CMOVE $5 $6 $6
-0x1775: IMM   $2 23775200
+0x175d: jump  $0 $2
+0x175e: div   $5 $4 $0
+0x175f: jump  $4 $4
+0x1760: cmove $1 $3 $2
+0x1761: out   $0
+0x1762: out   $3
+0x1763: jump  $6 $2
+0x1764: jump  $7 $3
+0x1765: wmem  $1 $6 $3
+0x1766: jump  $3 $4
+0x1767: cmove $1 $4 $7
+0x1768: imm   $2 6624391
+0x1769: cmove $1 $6 $1
+0x176a: cmove $6 $6 $0
+0x176b: alloc $2 $4
+0x176c: jump  $4 $2
+0x176d: imm   $2 12995215
+0x176e: imm   $3 17488175
+0x176f: in    $2
+0x1770: imm   $3 11235596
+0x1771: imm   $2 19134371
+0x1772: imm   $6 11592086
+0x1773: imm   $2 7521962
+0x1774: cmove $5 $6 $6
+0x1775: imm   $2 23775200
 0x1776: 
-0x1777: NAND  $6 $7 $0
+0x1777: nand  $6 $7 $0
 0x1778: 
-0x1779: RMEM  $7 $6 $6
-0x177a: IN    $6
-0x177b: IMM   $0 14555731
-0x177c: IMM   $1 11320671
-0x177d: CMOVE $3 $7 $3
-0x177e: IMM   $0 10535219
-0x177f: JUMP  $4 $6
-0x1780: IN    $4
-0x1781: IN    $7
-0x1782: JUMP  $1 $0
-0x1783: IN    $0
-0x1784: IMM   $0 29362003
+0x1779: rmem  $7 $6 $6
+0x177a: in    $6
+0x177b: imm   $0 14555731
+0x177c: imm   $1 11320671
+0x177d: cmove $3 $7 $3
+0x177e: imm   $0 10535219
+0x177f: jump  $4 $6
+0x1780: in    $4
+0x1781: in    $7
+0x1782: jump  $1 $0
+0x1783: in    $0
+0x1784: imm   $0 29362003
 0x1785: 
-0x1786: IN    $1
-0x1787: JUMP  $1 $7
-0x1788: IMM   $3 20502423
-0x1789: JUMP  $4 $2
-0x178a: DIV   $4 $7 $7
-0x178b: IMM   $3 22717339
-0x178c: OUT   $7
-0x178d: IN    $7
-0x178e: IN    $1
-0x178f: JUMP  $3 $5
+0x1786: in    $1
+0x1787: jump  $1 $7
+0x1788: imm   $3 20502423
+0x1789: jump  $4 $2
+0x178a: div   $4 $7 $7
+0x178b: imm   $3 22717339
+0x178c: out   $7
+0x178d: in    $7
+0x178e: in    $1
+0x178f: jump  $3 $5
 0x1790: 
-0x1791: IMM   $3 18180282
-0x1792: NAND  $7 $7 $0
-0x1793: IMM   $1 832924
-0x1794: JUMP  $4 $5
-0x1795: OUT   $7
-0x1796: JUMP  $5 $4
-0x1797: JUMP  $1 $7
-0x1798: JUMP  $5 $0
-0x1799: RMEM  $3 $6 $2
-0x179a: JUMP  $7 $0
-0x179b: WMEM  $0 $6 $0
-0x179c: CMOVE $4 $0 $0
-0x179d: JUMP  $6 $4
-0x179e: CMOVE $4 $0 $1
-0x179f: FREE  $3
-0x17a0: JUMP  $0 $7
-0x17a1: IMM   $0 5816201
-0x17a2: JUMP  $5 $3
-0x17a3: CMOVE $4 $6 $5
-0x17a4: JUMP  $7 $5
-0x17a5: IMM   $2 7938106
-0x17a6: CMOVE $1 $4 $0
-0x17a7: IMM   $2 8403508
-0x17a8: IN    $1
-0x17a9: JUMP  $2 $7
-0x17aa: CMOVE $3 $4 $2
-0x17ab: IMM   $2 14015341
+0x1791: imm   $3 18180282
+0x1792: nand  $7 $7 $0
+0x1793: imm   $1 832924
+0x1794: jump  $4 $5
+0x1795: out   $7
+0x1796: jump  $5 $4
+0x1797: jump  $1 $7
+0x1798: jump  $5 $0
+0x1799: rmem  $3 $6 $2
+0x179a: jump  $7 $0
+0x179b: wmem  $0 $6 $0
+0x179c: cmove $4 $0 $0
+0x179d: jump  $6 $4
+0x179e: cmove $4 $0 $1
+0x179f: free  $3
+0x17a0: jump  $0 $7
+0x17a1: imm   $0 5816201
+0x17a2: jump  $5 $3
+0x17a3: cmove $4 $6 $5
+0x17a4: jump  $7 $5
+0x17a5: imm   $2 7938106
+0x17a6: cmove $1 $4 $0
+0x17a7: imm   $2 8403508
+0x17a8: in    $1
+0x17a9: jump  $2 $7
+0x17aa: cmove $3 $4 $2
+0x17ab: imm   $2 14015341
 0x17ac: 
-0x17ad: CMOVE $6 $6 $2
-0x17ae: JUMP  $0 $1
-0x17af: IMM   $3 22271416
-0x17b0: CMOVE $1 $1 $0
-0x17b1: CMOVE $5 $6 $0
-0x17b2: JUMP  $2 $2
-0x17b3: IMM   $6 10378022
-0x17b4: IMM   $5 16174252
-0x17b5: RMEM  $3 $3 $1
-0x17b6: IMM   $2 25301044
+0x17ad: cmove $6 $6 $2
+0x17ae: jump  $0 $1
+0x17af: imm   $3 22271416
+0x17b0: cmove $1 $1 $0
+0x17b1: cmove $5 $6 $0
+0x17b2: jump  $2 $2
+0x17b3: imm   $6 10378022
+0x17b4: imm   $5 16174252
+0x17b5: rmem  $3 $3 $1
+0x17b6: imm   $2 25301044
 0x17b7: 
-0x17b8: IMM   $5 271182
+0x17b8: imm   $5 271182
 0x17b9: 
-0x17ba: IN    $6
-0x17bb: IMM   $5 17749867
-0x17bc: IMM   $5 22230721
-0x17bd: JUMP  $4 $0
-0x17be: IMM   $4 29285
-0x17bf: JUMP  $4 $6
-0x17c0: IMM   $6 4614962
-0x17c1: IMM   $2 24566478
-0x17c2: IMM   $5 24162035
-0x17c3: IMM   $3 14982025
+0x17ba: in    $6
+0x17bb: imm   $5 17749867
+0x17bc: imm   $5 22230721
+0x17bd: jump  $4 $0
+0x17be: imm   $4 29285
+0x17bf: jump  $4 $6
+0x17c0: imm   $6 4614962
+0x17c1: imm   $2 24566478
+0x17c2: imm   $5 24162035
+0x17c3: imm   $3 14982025
 0x17c4: 
-0x17c5: JUMP  $3 $0
+0x17c5: jump  $3 $0
 0x17c6: 
-0x17c7: IMM   $4 6240450
-0x17c8: IMM   $4 4087234
-0x17c9: IN    $7
-0x17ca: JUMP  $7 $1
-0x17cb: IN    $3
-0x17cc: IMM   $4 5871894
-0x17cd: CMOVE $1 $3 $5
-0x17ce: JUMP  $6 $5
-0x17cf: IN    $6
-0x17d0: IMM   $3 32229504
+0x17c7: imm   $4 6240450
+0x17c8: imm   $4 4087234
+0x17c9: in    $7
+0x17ca: jump  $7 $1
+0x17cb: in    $3
+0x17cc: imm   $4 5871894
+0x17cd: cmove $1 $3 $5
+0x17ce: jump  $6 $5
+0x17cf: in    $6
+0x17d0: imm   $3 32229504
 0x17d1: 
-0x17d2: JUMP  $2 $6
-0x17d3: IMM   $6 24572008
-0x17d4: IMM   $4 27179436
-0x17d5: IMM   $3 13510109
-0x17d6: ADD   $6 $2 $1
-0x17d7: CMOVE $1 $6 $7
-0x17d8: IMM   $2 30896960
-0x17d9: JUMP  $6 $2
-0x17da: IMM   $1 23648486
-0x17db: ADD   $6 $4 $7
-0x17dc: ADD   $6 $3 $2
-0x17dd: JUMP  $5 $2
+0x17d2: jump  $2 $6
+0x17d3: imm   $6 24572008
+0x17d4: imm   $4 27179436
+0x17d5: imm   $3 13510109
+0x17d6: add   $6 $2 $1
+0x17d7: cmove $1 $6 $7
+0x17d8: imm   $2 30896960
+0x17d9: jump  $6 $2
+0x17da: imm   $1 23648486
+0x17db: add   $6 $4 $7
+0x17dc: add   $6 $3 $2
+0x17dd: jump  $5 $2
 0x17de: 
-0x17df: JUMP  $5 $7
-0x17e0: DIV   $4 $2 $3
-0x17e1: IN    $5
-0x17e2: IN    $0
-0x17e3: IMM   $3 6027016
-0x17e4: ADD   $3 $6 $6
-0x17e5: JUMP  $7 $1
-0x17e6: IMM   $6 14401980
-0x17e7: IMM   $5 3303142
-0x17e8: IMM   $1 24086942
-0x17e9: IMM   $3 22852042
-0x17ea: JUMP  $0 $0
+0x17df: jump  $5 $7
+0x17e0: div   $4 $2 $3
+0x17e1: in    $5
+0x17e2: in    $0
+0x17e3: imm   $3 6027016
+0x17e4: add   $3 $6 $6
+0x17e5: jump  $7 $1
+0x17e6: imm   $6 14401980
+0x17e7: imm   $5 3303142
+0x17e8: imm   $1 24086942
+0x17e9: imm   $3 22852042
+0x17ea: jump  $0 $0
 0x17eb: 
-0x17ec: IN    $4
-0x17ed: IMM   $4 15168826
-0x17ee: JUMP  $1 $0
-0x17ef: WMEM  $5 $1 $4
-0x17f0: JUMP  $6 $0
-0x17f1: IMM   $4 9234563
-0x17f2: IN    $0
-0x17f3: IMM   $6 31053661
-0x17f4: IMM   $6 25779573
-0x17f5: IN    $5
-0x17f6: RMEM  $7 $2 $6
-0x17f7: JUMP  $6 $5
+0x17ec: in    $4
+0x17ed: imm   $4 15168826
+0x17ee: jump  $1 $0
+0x17ef: wmem  $5 $1 $4
+0x17f0: jump  $6 $0
+0x17f1: imm   $4 9234563
+0x17f2: in    $0
+0x17f3: imm   $6 31053661
+0x17f4: imm   $6 25779573
+0x17f5: in    $5
+0x17f6: rmem  $7 $2 $6
+0x17f7: jump  $6 $5
 0x17f8: 
-0x17f9: IMM   $4 29413957
+0x17f9: imm   $4 29413957
 0x17fa: 
-0x17fb: IN    $7
-0x17fc: JUMP  $7 $0
-0x17fd: IN    $1
-0x17fe: CMOVE $2 $0 $5
-0x17ff: CMOVE $1 $4 $3
-0x1800: RMEM  $4 $6 $5
-0x1801: IN    $5
-0x1802: IMM   $1 25927673
-0x1803: IMM   $5 526386
-0x1804: WMEM  $0 $4 $4
+0x17fb: in    $7
+0x17fc: jump  $7 $0
+0x17fd: in    $1
+0x17fe: cmove $2 $0 $5
+0x17ff: cmove $1 $4 $3
+0x1800: rmem  $4 $6 $5
+0x1801: in    $5
+0x1802: imm   $1 25927673
+0x1803: imm   $5 526386
+0x1804: wmem  $0 $4 $4
 0x1805: 
-0x1806: ADD   $5 $1 $0
+0x1806: add   $5 $1 $0
 0x1807: 
 0x1808: 
-0x1809: NAND  $7 $6 $1
-0x180a: IMM   $7 15063602
-0x180b: IN    $4
-0x180c: IMM   $2 32060449
-0x180d: ADD   $7 $5 $4
-0x180e: IN    $6
-0x180f: IN    $0
-0x1810: HALT
-0x1811: CMOVE $1 $4 $3
+0x1809: nand  $7 $6 $1
+0x180a: imm   $7 15063602
+0x180b: in    $4
+0x180c: imm   $2 32060449
+0x180d: add   $7 $5 $4
+0x180e: in    $6
+0x180f: in    $0
+0x1810: halt
+0x1811: cmove $1 $4 $3
 0x1812: 
-0x1813: NAND  $2 $3 $0
-0x1814: FREE  $3
-0x1815: OUT   $5
-0x1816: IN    $2
-0x1817: JUMP  $5 $6
-0x1818: JUMP  $0 $6
-0x1819: IMM   $3 16075368
-0x181a: IMM   $0 28769077
-0x181b: CMOVE $3 $6 $3
-0x181c: IN    $1
-0x181d: IN    $7
-0x181e: IMM   $0 32483138
-0x181f: JUMP  $3 $7
-0x1820: IN    $0
-0x1821: NAND  $5 $7 $7
-0x1822: IMM   $1 26129778
-0x1823: IMM   $1 6383370
-0x1824: WMEM  $4 $5 $2
-0x1825: IMM   $1 9314418
+0x1813: nand  $2 $3 $0
+0x1814: free  $3
+0x1815: out   $5
+0x1816: in    $2
+0x1817: jump  $5 $6
+0x1818: jump  $0 $6
+0x1819: imm   $3 16075368
+0x181a: imm   $0 28769077
+0x181b: cmove $3 $6 $3
+0x181c: in    $1
+0x181d: in    $7
+0x181e: imm   $0 32483138
+0x181f: jump  $3 $7
+0x1820: in    $0
+0x1821: nand  $5 $7 $7
+0x1822: imm   $1 26129778
+0x1823: imm   $1 6383370
+0x1824: wmem  $4 $5 $2
+0x1825: imm   $1 9314418
 0x1826: 
-0x1827: RMEM  $1 $0 $5
-0x1828: JUMP  $7 $1
-0x1829: IMM   $4 7342088
+0x1827: rmem  $1 $0 $5
+0x1828: jump  $7 $1
+0x1829: imm   $4 7342088
 0x182a: 
 0x182b: 
-0x182c: ADD   $1 $1 $1
-0x182d: IN    $4
-0x182e: NAND  $6 $4 $5
-0x182f: IN    $5
-0x1830: JUMP  $1 $3
-0x1831: JUMP  $3 $7
-0x1832: IMM   $5 2859824
+0x182c: add   $1 $1 $1
+0x182d: in    $4
+0x182e: nand  $6 $4 $5
+0x182f: in    $5
+0x1830: jump  $1 $3
+0x1831: jump  $3 $7
+0x1832: imm   $5 2859824
 0x1833: 
-0x1834: RMEM  $0 $7 $1
-0x1835: CMOVE $0 $5 $1
-0x1836: OUT   $5
-0x1837: CMOVE $0 $1 $4
-0x1838: CMOVE $0 $2 $5
-0x1839: CMOVE $0 $0 $5
-0x183a: IMM   $6 19325000
-0x183b: FREE  $7
-0x183c: OUT   $7
-0x183d: MUL   $4 $6 $6
-0x183e: WMEM  $1 $1 $4
-0x183f: IN    $6
-0x1840: WMEM  $3 $0 $6
-0x1841: IN    $1
-0x1842: IMM   $5 2889126
-0x1843: RMEM  $4 $3 $3
-0x1844: ADD   $4 $3 $5
-0x1845: IMM   $1 14629578
+0x1834: rmem  $0 $7 $1
+0x1835: cmove $0 $5 $1
+0x1836: out   $5
+0x1837: cmove $0 $1 $4
+0x1838: cmove $0 $2 $5
+0x1839: cmove $0 $0 $5
+0x183a: imm   $6 19325000
+0x183b: free  $7
+0x183c: out   $7
+0x183d: mul   $4 $6 $6
+0x183e: wmem  $1 $1 $4
+0x183f: in    $6
+0x1840: wmem  $3 $0 $6
+0x1841: in    $1
+0x1842: imm   $5 2889126
+0x1843: rmem  $4 $3 $3
+0x1844: add   $4 $3 $5
+0x1845: imm   $1 14629578
 0x1846: 
 0x1847: 
 0x1848: 
 0x1849: 
-0x184a: IN    $5
-0x184b: CMOVE $2 $4 $5
-0x184c: CMOVE $6 $2 $7
+0x184a: in    $5
+0x184b: cmove $2 $4 $5
+0x184c: cmove $6 $2 $7
 0x184d: 
-0x184e: RMEM  $6 $5 $2
-0x184f: JUMP  $6 $2
-0x1850: CMOVE $4 $1 $0
-0x1851: IMM   $5 33101811
-0x1852: IMM   $1 24346407
+0x184e: rmem  $6 $5 $2
+0x184f: jump  $6 $2
+0x1850: cmove $4 $1 $0
+0x1851: imm   $5 33101811
+0x1852: imm   $1 24346407
 0x1853: 
-0x1854: IMM   $7 28357202
-0x1855: RMEM  $1 $7 $6
+0x1854: imm   $7 28357202
+0x1855: rmem  $1 $7 $6
 0x1856: 
 0x1857: 
 0x1858: 
-0x1859: IN    $2
+0x1859: in    $2
 0x185a: 
-0x185b: IN    $6
-0x185c: JUMP  $4 $5
-0x185d: IMM   $1 7355941
-0x185e: IMM   $6 8894767
-0x185f: JUMP  $3 $6
+0x185b: in    $6
+0x185c: jump  $4 $5
+0x185d: imm   $1 7355941
+0x185e: imm   $6 8894767
+0x185f: jump  $3 $6
 0x1860: 
-0x1861: IMM   $3 31640765
-0x1862: DIV   $2 $3 $6
+0x1861: imm   $3 31640765
+0x1862: div   $2 $3 $6
 0x1863: 
-0x1864: WMEM  $2 $3 $7
-0x1865: IN    $1
-0x1866: RMEM  $7 $2 $0
+0x1864: wmem  $2 $3 $7
+0x1865: in    $1
+0x1866: rmem  $7 $2 $0
 0x1867: 
-0x1868: FREE  $3
+0x1868: free  $3
 0x1869: 
-0x186a: OUT   $4
-0x186b: IN    $5
-0x186c: IN    $4
-0x186d: ADD   $5 $5 $7
-0x186e: CMOVE $1 $5 $6
+0x186a: out   $4
+0x186b: in    $5
+0x186c: in    $4
+0x186d: add   $5 $5 $7
+0x186e: cmove $1 $5 $6
 0x186f: 
-0x1870: OUT   $7
+0x1870: out   $7
 0x1871: 
-0x1872: IN    $2
-0x1873: JUMP  $7 $0
-0x1874: IMM   $3 3209800
-0x1875: JUMP  $1 $5
-0x1876: CMOVE $6 $4 $1
-0x1877: JUMP  $6 $5
-0x1878: IN    $0
-0x1879: JUMP  $5 $3
+0x1872: in    $2
+0x1873: jump  $7 $0
+0x1874: imm   $3 3209800
+0x1875: jump  $1 $5
+0x1876: cmove $6 $4 $1
+0x1877: jump  $6 $5
+0x1878: in    $0
+0x1879: jump  $5 $3
 0x187a: 
-0x187b: CMOVE $0 $7 $7
+0x187b: cmove $0 $7 $7
 0x187c: 
-0x187d: CMOVE $1 $7 $4
+0x187d: cmove $1 $7 $4
 0x187e: 
-0x187f: IN    $6
+0x187f: in    $6
 0x1880: 
-0x1881: WMEM  $7 $5 $4
+0x1881: wmem  $7 $5 $4
 0x1882: 
-0x1883: MUL   $5 $2 $3
-0x1884: IN    $7
-0x1885: IMM   $5 21217565
-0x1886: IN    $2
-0x1887: CMOVE $2 $5 $4
-0x1888: CMOVE $2 $0 $2
-0x1889: RMEM  $7 $0 $6
-0x188a: IMM   $4 30348746
-0x188b: JUMP  $5 $5
-0x188c: IN    $4
-0x188d: RMEM  $5 $3 $2
-0x188e: OUT   $2
-0x188f: IMM   $6 6126278
+0x1883: mul   $5 $2 $3
+0x1884: in    $7
+0x1885: imm   $5 21217565
+0x1886: in    $2
+0x1887: cmove $2 $5 $4
+0x1888: cmove $2 $0 $2
+0x1889: rmem  $7 $0 $6
+0x188a: imm   $4 30348746
+0x188b: jump  $5 $5
+0x188c: in    $4
+0x188d: rmem  $5 $3 $2
+0x188e: out   $2
+0x188f: imm   $6 6126278
 0x1890: 
-0x1891: IMM   $6 20504447
-0x1892: IN    $4
+0x1891: imm   $6 20504447
+0x1892: in    $4
 0x1893: 
-0x1894: JUMP  $2 $1
-0x1895: FREE  $2
+0x1894: jump  $2 $1
+0x1895: free  $2
 0x1896: 
 0x1897: 
-0x1898: CMOVE $1 $3 $5
+0x1898: cmove $1 $3 $5
 0x1899: 
-0x189a: IMM   $1 4082712
+0x189a: imm   $1 4082712
 0x189b: 
-0x189c: JUMP  $1 $7
-0x189d: IMM   $4 33352942
-0x189e: WMEM  $4 $7 $5
+0x189c: jump  $1 $7
+0x189d: imm   $4 33352942
+0x189e: wmem  $4 $7 $5
 0x189f: 
-0x18a0: JUMP  $1 $2
+0x18a0: jump  $1 $2
 0x18a1: 
-0x18a2: IN    $0
+0x18a2: in    $0
 0x18a3: 
-0x18a4: IMM   $7 30723277
-0x18a5: CMOVE $3 $2 $6
+0x18a4: imm   $7 30723277
+0x18a5: cmove $3 $2 $6
 0x18a6: 
-0x18a7: IMM   $3 25034243
-0x18a8: IN    $5
+0x18a7: imm   $3 25034243
+0x18a8: in    $5
 0x18a9: 
-0x18aa: RMEM  $2 $0 $1
+0x18aa: rmem  $2 $0 $1
 0x18ab: 
 0x18ac: 
-0x18ad: JUMP  $1 $4
+0x18ad: jump  $1 $4
 0x18ae: 
-0x18af: IMM   $2 15029480
+0x18af: imm   $2 15029480
 0x18b0: 
-0x18b1: CMOVE $2 $5 $4
-0x18b2: CMOVE $5 $6 $1
-0x18b3: JUMP  $1 $4
-0x18b4: OUT   $4
+0x18b1: cmove $2 $5 $4
+0x18b2: cmove $5 $6 $1
+0x18b3: jump  $1 $4
+0x18b4: out   $4
 0x18b5: 
-0x18b6: IMM   $5 12621281
-0x18b7: IMM   $5 24405159
-0x18b8: JUMP  $0 $4
-0x18b9: IMM   $4 6083810
+0x18b6: imm   $5 12621281
+0x18b7: imm   $5 24405159
+0x18b8: jump  $0 $4
+0x18b9: imm   $4 6083810
 0x18ba: 
-0x18bb: CMOVE $6 $1 $0
-0x18bc: IMM   $2 31152294
+0x18bb: cmove $6 $1 $0
+0x18bc: imm   $2 31152294
 0x18bd: 
 0x18be: 
-0x18bf: IN    $1
-0x18c0: WMEM  $0 $6 $7
-0x18c1: JUMP  $7 $7
-0x18c2: CMOVE $3 $6 $1
-0x18c3: CMOVE $7 $6 $5
-0x18c4: IMM   $6 10972662
-0x18c5: IMM   $3 3317910
-0x18c6: IMM   $3 15583898
-0x18c7: ALLOC $2 $7
+0x18bf: in    $1
+0x18c0: wmem  $0 $6 $7
+0x18c1: jump  $7 $7
+0x18c2: cmove $3 $6 $1
+0x18c3: cmove $7 $6 $5
+0x18c4: imm   $6 10972662
+0x18c5: imm   $3 3317910
+0x18c6: imm   $3 15583898
+0x18c7: alloc $2 $7
 0x18c8: 
 0x18c9: 
 0x18ca: 
 0x18cb: 
-0x18cc: FREE  $0
+0x18cc: free  $0
 0x18cd: 
-0x18ce: IN    $3
+0x18ce: in    $3
 0x18cf: 
-0x18d0: JUMP  $2 $0
-0x18d1: IMM   $7 8185624
+0x18d0: jump  $2 $0
+0x18d1: imm   $7 8185624
 0x18d2: 
 0x18d3: 
 0x18d4: 
 0x18d5: 
 0x18d6: 
-0x18d7: ALLOC $1 $2
-0x18d8: CMOVE $0 $0 $0
+0x18d7: alloc $1 $2
+0x18d8: cmove $0 $0 $0
 0x18d9: 
 0x18da: 
-0x18db: JUMP  $2 $7
+0x18db: jump  $2 $7
 0x18dc: 
 0x18dd: 
 0x18de: 
-0x18df: IMM   $3 19839675
-0x18e0: IN    $3
-0x18e1: IMM   $7 31915542
+0x18df: imm   $3 19839675
+0x18e0: in    $3
+0x18e1: imm   $7 31915542
 0x18e2: 
 0x18e3: 
 0x18e4: 
-0x18e5: JUMP  $3 $5
+0x18e5: jump  $3 $5
 0x18e6: 
-0x18e7: JUMP  $3 $1
-0x18e8: CMOVE $1 $2 $5
+0x18e7: jump  $3 $1
+0x18e8: cmove $1 $2 $5
 0x18e9: 
 0x18ea: 
 0x18eb: 
 0x18ec: 
 0x18ed: 
-0x18ee: IN    $1
+0x18ee: in    $1
 0x18ef: 
-0x18f0: OUT   $2
-0x18f1: MUL   $7 $0 $5
+0x18f0: out   $2
+0x18f1: mul   $7 $0 $5
 0x18f2: 
-0x18f3: RMEM  $1 $6 $7
-0x18f4: ADD   $0 $7 $5
+0x18f3: rmem  $1 $6 $7
+0x18f4: add   $0 $7 $5
 0x18f5: 
-0x18f6: OUT   $2
-0x18f7: MUL   $4 $0 $4
-0x18f8: OUT   $7
+0x18f6: out   $2
+0x18f7: mul   $4 $0 $4
+0x18f8: out   $7
 0x18f9: 
 0x18fa: 
-0x18fb: DIV   $1 $3 $1
-0x18fc: IN    $4
+0x18fb: div   $1 $3 $1
+0x18fc: in    $4
 0x18fd: 
 0x18fe: 
-0x18ff: RMEM  $7 $7 $1
-0x1900: CMOVE $0 $7 $0
-0x1901: IMM   $3 21749340
-0x1902: WMEM  $7 $6 $7
-0x1903: IMM   $7 16921722
-0x1904: CMOVE $3 $4 $2
+0x18ff: rmem  $7 $7 $1
+0x1900: cmove $0 $7 $0
+0x1901: imm   $3 21749340
+0x1902: wmem  $7 $6 $7
+0x1903: imm   $7 16921722
+0x1904: cmove $3 $4 $2
 0x1905: 
-0x1906: WMEM  $1 $5 $5
+0x1906: wmem  $1 $5 $5
 0x1907: 
-0x1908: OUT   $2
-0x1909: IN    $4
-0x190a: WMEM  $7 $6 $2
+0x1908: out   $2
+0x1909: in    $4
+0x190a: wmem  $7 $6 $2
 0x190b: 
-0x190c: RMEM  $6 $6 $6
+0x190c: rmem  $6 $6 $6
 0x190d: 
 0x190e: 
-0x190f: DIV   $1 $4 $7
+0x190f: div   $1 $4 $7
 0x1910: 
 0x1911: 
-0x1912: IMM   $5 30828268
+0x1912: imm   $5 30828268
 0x1913: 
 0x1914: 
 0x1915: 
 0x1916: 
-0x1917: IN    $6
+0x1917: in    $6
 0x1918: 
-0x1919: IN    $5
+0x1919: in    $5
 0x191a: 
-0x191b: HALT
+0x191b: halt
 0x191c: 
 0x191d: 
 0x191e: 
 0x191f: 
 0x1920: 
-0x1921: ADD   $1 $0 $0
-0x1922: IMM   $1 24183034
+0x1921: add   $1 $0 $0
+0x1922: imm   $1 24183034
 0x1923: 
 0x1924: 
-0x1925: FREE  $0
-0x1926: IMM   $1 6408823
+0x1925: free  $0
+0x1926: imm   $1 6408823
 0x1927: 
-0x1928: JUMP  $7 $5
+0x1928: jump  $7 $5
 0x1929: 
-0x192a: CMOVE $5 $4 $0
-0x192b: CMOVE $4 $0 $1
-0x192c: JUMP  $7 $1
+0x192a: cmove $5 $4 $0
+0x192b: cmove $4 $0 $1
+0x192c: jump  $7 $1
 0x192d: 
 0x192e: 
-0x192f: MUL   $2 $1 $0
-0x1930: JUMP  $0 $2
-0x1931: CMOVE $3 $6 $0
-0x1932: ALLOC $6 $5
-0x1933: CMOVE $6 $2 $6
-0x1934: RMEM  $7 $5 $3
+0x192f: mul   $2 $1 $0
+0x1930: jump  $0 $2
+0x1931: cmove $3 $6 $0
+0x1932: alloc $6 $5
+0x1933: cmove $6 $2 $6
+0x1934: rmem  $7 $5 $3
 0x1935: 
-0x1936: IN    $6
-0x1937: NAND  $6 $4 $0
-0x1938: JUMP  $4 $0
+0x1936: in    $6
+0x1937: nand  $6 $4 $0
+0x1938: jump  $4 $0
 0x1939: 
 0x193a: 
-0x193b: IMM   $7 6156713
-0x193c: CMOVE $4 $2 $1
-0x193d: ADD   $5 $0 $5
-0x193e: OUT   $6
-0x193f: HALT
-0x1940: CMOVE $1 $2 $6
-0x1941: RMEM  $3 $7 $6
-0x1942: NAND  $5 $0 $2
-0x1943: RMEM  $0 $7 $7
-0x1944: RMEM  $1 $5 $5
-0x1945: JUMP  $7 $6
+0x193b: imm   $7 6156713
+0x193c: cmove $4 $2 $1
+0x193d: add   $5 $0 $5
+0x193e: out   $6
+0x193f: halt
+0x1940: cmove $1 $2 $6
+0x1941: rmem  $3 $7 $6
+0x1942: nand  $5 $0 $2
+0x1943: rmem  $0 $7 $7
+0x1944: rmem  $1 $5 $5
+0x1945: jump  $7 $6
 0x1946: 
-0x1947: RMEM  $4 $1 $5
-0x1948: CMOVE $1 $6 $1
-0x1949: CMOVE $1 $6 $2
-0x194a: CMOVE $4 $2 $4
-0x194b: CMOVE $3 $6 $4
-0x194c: CMOVE $4 $2 $2
+0x1947: rmem  $4 $1 $5
+0x1948: cmove $1 $6 $1
+0x1949: cmove $1 $6 $2
+0x194a: cmove $4 $2 $4
+0x194b: cmove $3 $6 $4
+0x194c: cmove $4 $2 $2
 0x194d: 
 0x194e: 
-0x194f: CMOVE $2 $6 $7
-0x1950: JUMP  $6 $6
-0x1951: RMEM  $1 $5 $6
-0x1952: RMEM  $1 $7 $3
-0x1953: OUT   $1
-0x1954: FREE  $5
-0x1955: CMOVE $5 $4 $0
+0x194f: cmove $2 $6 $7
+0x1950: jump  $6 $6
+0x1951: rmem  $1 $5 $6
+0x1952: rmem  $1 $7 $3
+0x1953: out   $1
+0x1954: free  $5
+0x1955: cmove $5 $4 $0
 0x1956: 
-0x1957: JUMP  $2 $4
-0x1958: IN    $3
-0x1959: HALT
-0x195a: OUT   $1
+0x1957: jump  $2 $4
+0x1958: in    $3
+0x1959: halt
+0x195a: out   $1
 0x195b: 
-0x195c: IMM   $5 28295305
-0x195d: CMOVE $2 $1 $0
-0x195e: FREE  $0
+0x195c: imm   $5 28295305
+0x195d: cmove $2 $1 $0
+0x195e: free  $0
 0x195f: 
-0x1960: DIV   $4 $7 $4
-0x1961: OUT   $1
-0x1962: IN    $3
-0x1963: OUT   $3
-0x1964: ADD   $7 $3 $6
-0x1965: WMEM  $7 $3 $0
+0x1960: div   $4 $7 $4
+0x1961: out   $1
+0x1962: in    $3
+0x1963: out   $3
+0x1964: add   $7 $3 $6
+0x1965: wmem  $7 $3 $0
 0x1966: 
-0x1967: IMM   $6 33065508
+0x1967: imm   $6 33065508
 0x1968: 
-0x1969: JUMP  $5 $0
-0x196a: IMM   $3 19833904
-0x196b: IMM   $3 8613460
+0x1969: jump  $5 $0
+0x196a: imm   $3 19833904
+0x196b: imm   $3 8613460
 0x196c: 
 0x196d: 
 0x196e: 
 0x196f: 
-0x1970: IMM   $4 14215387
-0x1971: IMM   $0 32768941
+0x1970: imm   $4 14215387
+0x1971: imm   $0 32768941
 0x1972: 
 0x1973: 
 0x1974: 
 0x1975: 
-0x1976: IN    $7
-0x1977: JUMP  $7 $3
+0x1976: in    $7
+0x1977: jump  $7 $3
 0x1978: 
-0x1979: WMEM  $7 $1 $0
-0x197a: MUL   $7 $2 $6
-0x197b: IN    $7
-0x197c: FREE  $5
+0x1979: wmem  $7 $1 $0
+0x197a: mul   $7 $2 $6
+0x197b: in    $7
+0x197c: free  $5
 0x197d: 
 0x197e: 
 0x197f: 
 0x1980: 
 0x1981: 
-0x1982: CMOVE $0 $4 $4
-0x1983: NAND  $6 $3 $7
+0x1982: cmove $0 $4 $4
+0x1983: nand  $6 $3 $7
 0x1984: 
 0x1985: 
-0x1986: RMEM  $6 $1 $5
-0x1987: WMEM  $0 $7 $0
-0x1988: RMEM  $7 $3 $6
+0x1986: rmem  $6 $1 $5
+0x1987: wmem  $0 $7 $0
+0x1988: rmem  $7 $3 $6
 0x1989: 
-0x198a: OUT   $3
+0x198a: out   $3
 0x198b: 
-0x198c: CMOVE $6 $3 $0
-0x198d: OUT   $2
-0x198e: IMM   $3 30514424
-0x198f: CMOVE $1 $3 $1
-0x1990: NAND  $1 $6 $6
-0x1991: HALT
-0x1992: NAND  $1 $4 $4
-0x1993: RMEM  $0 $0 $0
-0x1994: HALT
-0x1995: NAND  $5 $2 $0
-0x1996: HALT
-0x1997: DIV   $7 $1 $6
-0x1998: CMOVE $0 $7 $5
-0x1999: HALT
-0x199a: DIV   $7 $0 $1
-0x199b: HALT
-0x199c: HALT
-0x199d: ADD   $5 $3 $4
-0x199e: HALT
-0x199f: HALT
-0x19a0: HALT
-0x19a1: FREE  $6
-0x19a2: HALT
-0x19a3: ALLOC $0 $0
-0x19a4: DIV   $7 $4 $2
-0x19a5: HALT
-0x19a6: HALT
-0x19a7: HALT
-0x19a8: DIV   $2 $0 $0
-0x19a9: HALT
-0x19aa: RMEM  $3 $6 $4
-0x19ab: NAND  $7 $5 $6
-0x19ac: HALT
-0x19ad: CMOVE $7 $7 $1
-0x19ae: WMEM  $1 $7 $3
-0x19af: DIV   $2 $6 $4
-0x19b0: HALT
-0x19b1: NAND  $3 $1 $4
-0x19b2: HALT
-0x19b3: NAND  $6 $5 $0
-0x19b4: HALT
-0x19b5: HALT
-0x19b6: DIV   $0 $5 $2
-0x19b7: HALT
-0x19b8: HALT
-0x19b9: HALT
-0x19ba: HALT
-0x19bb: ALLOC $4 $2
-0x19bc: CMOVE $2 $2 $3
-0x19bd: DIV   $6 $4 $7
-0x19be: HALT
-0x19bf: HALT
-0x19c0: HALT
-0x19c1: HALT
-0x19c2: ALLOC $2 $5
-0x19c3: HALT
-0x19c4: FREE  $1
-0x19c5: HALT
-0x19c6: ALLOC $7 $2
-0x19c7: WMEM  $0 $7 $2
-0x19c8: NAND  $0 $6 $2
-0x19c9: DIV   $0 $5 $0
-0x19ca: HALT
-0x19cb: FREE  $7
-0x19cc: RMEM  $1 $0 $0
-0x19cd: NAND  $6 $5 $5
-0x19ce: HALT
-0x19cf: HALT
-0x19d0: DIV   $7 $5 $2
-0x19d1: DIV   $5 $3 $6
-0x19d2: DIV   $1 $1 $1
-0x19d3: ALLOC $6 $7
-0x19d4: CMOVE $5 $7 $7
-0x19d5: RMEM  $4 $3 $3
-0x19d6: ALLOC $7 $6
-0x19d7: MUL   $2 $0 $4
-0x19d8: RMEM  $3 $4 $5
-0x19d9: MUL   $3 $4 $4
-0x19da: ALLOC $2 $6
-0x19db: CMOVE $0 $1 $0
-0x19dc: CMOVE $5 $5 $0
-0x19dd: HALT
-0x19de: NAND  $2 $4 $6
-0x19df: CMOVE $5 $6 $2
-0x19e0: NAND  $5 $5 $7
-0x19e1: HALT
-0x19e2: ALLOC $7 $6
-0x19e3: ADD   $3 $7 $6
-0x19e4: HALT
-0x19e5: ALLOC $5 $6
-0x19e6: ALLOC $7 $7
-0x19e7: NAND  $2 $5 $0
-0x19e8: CMOVE $0 $4 $3
-0x19e9: DIV   $0 $2 $4
-0x19ea: HALT
-0x19eb: CMOVE $4 $3 $2
-0x19ec: HALT
-0x19ed: CMOVE $6 $7 $4
-0x19ee: CMOVE $3 $6 $0
-0x19ef: CMOVE $2 $7 $3
-0x19f0: ADD   $0 $3 $5
-0x19f1: ALLOC $3 $7
-0x19f2: DIV   $7 $5 $7
-0x19f3: DIV   $0 $6 $3
-0x19f4: WMEM  $5 $5 $1
-0x19f5: FREE  $1
-0x19f6: HALT
-0x19f7: ALLOC $4 $6
-0x19f8: HALT
-0x19f9: ALLOC $0 $6
-0x19fa: RMEM  $2 $1 $0
-0x19fb: ALLOC $3 $6
-0x19fc: CMOVE $5 $1 $6
-0x19fd: RMEM  $0 $7 $4
-0x19fe: ALLOC $3 $7
-0x19ff: ALLOC $4 $3
-0x1a00: ALLOC $6 $6
-0x1a01: ALLOC $1 $7
-0x1a02: ALLOC $1 $5
-0x1a03: NAND  $4 $6 $4
-0x1a04: NAND  $0 $7 $7
-0x1a05: HALT
-0x1a06: HALT
-0x1a07: ADD   $6 $6 $2
-0x1a08: HALT
-0x1a09: HALT
-0x1a0a: CMOVE $0 $0 $4
-0x1a0b: CMOVE $0 $1 $1
-0x1a0c: RMEM  $5 $6 $5
-0x1a0d: ADD   $1 $0 $0
-0x1a0e: HALT
-0x1a0f: HALT
-0x1a10: HALT
-0x1a11: MUL   $1 $4 $6
-0x1a12: HALT
-0x1a13: HALT
-0x1a14: HALT
-0x1a15: HALT
-0x1a16: DIV   $5 $4 $0
-0x1a17: NAND  $5 $4 $0
-0x1a18: MUL   $7 $7 $1
-0x1a19: HALT
-0x1a1a: MUL   $1 $5 $3
-0x1a1b: HALT
-0x1a1c: ALLOC $1 $0
-0x1a1d: HALT
-0x1a1e: CMOVE $1 $6 $7
-0x1a1f: NAND  $2 $1 $0
-0x1a20: ALLOC $5 $0
-0x1a21: HALT
-0x1a22: HALT
-0x1a23: HALT
-0x1a24: HALT
-0x1a25: HALT
-0x1a26: RMEM  $2 $3 $6
-0x1a27: WMEM  $0 $6 $7
-0x1a28: ADD   $6 $7 $6
-0x1a29: ADD   $1 $3 $3
-0x1a2a: WMEM  $5 $3 $6
-0x1a2b: CMOVE $5 $4 $0
-0x1a2c: NAND  $0 $7 $7
-0x1a2d: CMOVE $1 $2 $0
-0x1a2e: NAND  $3 $5 $7
-0x1a2f: CMOVE $1 $7 $1
-0x1a30: CMOVE $2 $6 $4
-0x1a31: HALT
-0x1a32: ALLOC $2 $3
-0x1a33: CMOVE $0 $6 $1
-0x1a34: CMOVE $1 $1 $0
-0x1a35: CMOVE $6 $3 $1
-0x1a36: ADD   $7 $7 $6
-0x1a37: ALLOC $2 $6
-0x1a38: CMOVE $0 $0 $2
-0x1a39: CMOVE $3 $6 $1
-0x1a3a: DIV   $1 $6 $1
-0x1a3b: DIV   $2 $4 $3
-0x1a3c: DIV   $3 $3 $7
-0x1a3d: CMOVE $5 $4 $1
-0x1a3e: CMOVE $4 $5 $6
-0x1a3f: CMOVE $0 $7 $5
-0x1a40: HALT
-0x1a41: HALT
-0x1a42: MUL   $3 $4 $3
-0x1a43: CMOVE $7 $7 $7
-0x1a44: ALLOC $6 $0
-0x1a45: ALLOC $4 $4
-0x1a46: CMOVE $6 $1 $7
-0x1a47: CMOVE $2 $4 $2
-0x1a48: CMOVE $5 $7 $5
-0x1a49: MUL   $5 $5 $2
-0x1a4a: CMOVE $5 $5 $2
-0x1a4b: MUL   $2 $4 $4
-0x1a4c: DIV   $7 $1 $6
-0x1a4d: CMOVE $0 $4 $4
-0x1a4e: NAND  $3 $5 $2
-0x1a4f: ALLOC $6 $4
-0x1a50: WMEM  $3 $6 $1
-0x1a51: CMOVE $0 $0 $1
-0x1a52: ALLOC $7 $3
-0x1a53: CMOVE $6 $6 $5
-0x1a54: CMOVE $6 $3 $0
-0x1a55: NAND  $0 $4 $0
-0x1a56: CMOVE $2 $2 $3
-0x1a57: FREE  $7
-0x1a58: ALLOC $3 $1
-0x1a59: CMOVE $6 $4 $3
-0x1a5a: ALLOC $7 $3
-0x1a5b: MUL   $6 $5 $3
-0x1a5c: RMEM  $5 $3 $7
-0x1a5d: RMEM  $5 $5 $3
-0x1a5e: CMOVE $3 $1 $3
-0x1a5f: DIV   $0 $1 $1
-0x1a60: ALLOC $7 $7
-0x1a61: HALT
-0x1a62: HALT
-0x1a63: NAND  $4 $6 $0
-0x1a64: HALT
-0x1a65: WMEM  $1 $1 $6
-0x1a66: CMOVE $4 $3 $5
-0x1a67: ADD   $7 $1 $0
-0x1a68: DIV   $1 $7 $1
-0x1a69: DIV   $4 $3 $5
-0x1a6a: DIV   $3 $1 $0
-0x1a6b: ALLOC $5 $2
-0x1a6c: CMOVE $2 $1 $2
-0x1a6d: NAND  $4 $1 $3
-0x1a6e: RMEM  $5 $4 $6
-0x1a6f: ALLOC $3 $0
-0x1a70: HALT
-0x1a71: ALLOC $0 $4
-0x1a72: ALLOC $0 $4
-0x1a73: DIV   $7 $1 $3
-0x1a74: HALT
-0x1a75: ALLOC $6 $6
-0x1a76: ADD   $5 $0 $3
-0x1a77: HALT
-0x1a78: ALLOC $3 $4
-0x1a79: ALLOC $4 $1
-0x1a7a: RMEM  $6 $3 $0
-0x1a7b: ALLOC $7 $5
-0x1a7c: DIV   $1 $1 $2
-0x1a7d: HALT
-0x1a7e: ALLOC $5 $7
-0x1a7f: HALT
-0x1a80: ALLOC $1 $5
-0x1a81: DIV   $7 $0 $5
-0x1a82: HALT
-0x1a83: DIV   $1 $1 $7
-0x1a84: HALT
-0x1a85: ALLOC $7 $5
-0x1a86: ALLOC $2 $5
-0x1a87: ALLOC $1 $2
-0x1a88: RMEM  $0 $4 $5
-0x1a89: ALLOC $7 $5
-0x1a8a: ALLOC $3 $5
-0x1a8b: ALLOC $2 $0
-0x1a8c: ALLOC $2 $6
-0x1a8d: HALT
-0x1a8e: HALT
-0x1a8f: DIV   $5 $1 $7
-0x1a90: ALLOC $4 $5
-0x1a91: ALLOC $3 $2
-0x1a92: NAND  $0 $4 $3
-0x1a93: HALT
-0x1a94: NAND  $6 $6 $0
-0x1a95: RMEM  $6 $7 $7
-0x1a96: DIV   $6 $5 $1
-0x1a97: HALT
-0x1a98: DIV   $5 $6 $2
-0x1a99: ALLOC $6 $2
-0x1a9a: ALLOC $4 $7
-0x1a9b: ALLOC $5 $1
-0x1a9c: ALLOC $3 $0
-0x1a9d: DIV   $7 $2 $0
-0x1a9e: ALLOC $4 $3
-0x1a9f: ALLOC $1 $2
-0x1aa0: HALT
-0x1aa1: ALLOC $2 $2
-0x1aa2: NAND  $7 $4 $6
-0x1aa3: CMOVE $1 $7 $3
-0x1aa4: NAND  $4 $3 $6
-0x1aa5: HALT
-0x1aa6: RMEM  $7 $6 $5
-0x1aa7: ALLOC $4 $2
-0x1aa8: ALLOC $5 $7
-0x1aa9: RMEM  $5 $2 $6
-0x1aaa: NAND  $2 $3 $6
-0x1aab: CMOVE $5 $5 $0
-0x1aac: CMOVE $2 $7 $0
-0x1aad: CMOVE $4 $4 $0
-0x1aae: DIV   $4 $0 $2
-0x1aaf: CMOVE $6 $0 $5
-0x1ab0: HALT
-0x1ab1: HALT
-0x1ab2: DIV   $7 $5 $3
-0x1ab3: DIV   $5 $7 $6
-0x1ab4: CMOVE $0 $7 $2
-0x1ab5: CMOVE $0 $2 $2
-0x1ab6: DIV   $2 $1 $2
-0x1ab7: ALLOC $0 $7
-0x1ab8: CMOVE $7 $4 $3
-0x1ab9: DIV   $1 $2 $7
-0x1aba: DIV   $6 $1 $6
-0x1abb: ALLOC $6 $3
-0x1abc: ALLOC $5 $4
-0x1abd: HALT
-0x1abe: CMOVE $1 $5 $7
-0x1abf: ALLOC $6 $6
-0x1ac0: DIV   $7 $6 $5
-0x1ac1: NAND  $5 $1 $1
-0x1ac2: CMOVE $7 $3 $2
-0x1ac3: MUL   $7 $4 $6
-0x1ac4: CMOVE $2 $4 $1
-0x1ac5: DIV   $1 $6 $2
-0x1ac6: HALT
-0x1ac7: WMEM  $7 $5 $7
-0x1ac8: NAND  $4 $0 $6
-0x1ac9: ALLOC $0 $7
-0x1aca: HALT
-0x1acb: ALLOC $7 $0
-0x1acc: ALLOC $1 $4
-0x1acd: DIV   $0 $2 $0
-0x1ace: OUT   $1
-0x1acf: ALLOC $1 $0
-0x1ad0: HALT
-0x1ad1: ALLOC $1 $7
-0x1ad2: CMOVE $4 $0 $4
-0x1ad3: ALLOC $3 $0
-0x1ad4: ALLOC $4 $0
-0x1ad5: OUT   $2
-0x1ad6: ALLOC $0 $3
-0x1ad7: ALLOC $7 $0
-0x1ad8: DIV   $2 $7 $2
-0x1ad9: ALLOC $3 $6
-0x1ada: HALT
-0x1adb: ALLOC $1 $7
-0x1adc: OUT   $0
-0x1add: NAND  $0 $4 $3
-0x1ade: DIV   $2 $4 $2
-0x1adf: ALLOC $2 $3
-0x1ae0: NAND  $5 $0 $6
-0x1ae1: HALT
-0x1ae2: NAND  $7 $5 $6
-0x1ae3: CMOVE $6 $1 $4
-0x1ae4: HALT
-0x1ae5: CMOVE $6 $5 $7
-0x1ae6: CMOVE $3 $5 $5
-0x1ae7: HALT
-0x1ae8: ALLOC $3 $3
-0x1ae9: HALT
-0x1aea: DIV   $4 $3 $4
-0x1aeb: HALT
-0x1aec: HALT
-0x1aed: HALT
-0x1aee: RMEM  $7 $6 $6
-0x1aef: DIV   $5 $4 $4
-0x1af0: CMOVE $5 $3 $6
-0x1af1: RMEM  $3 $2 $5
-0x1af2: DIV   $5 $4 $4
-0x1af3: CMOVE $4 $3 $6
-0x1af4: ALLOC $2 $5
-0x1af5: DIV   $4 $4 $0
-0x1af6: ALLOC $3 $6
-0x1af7: CMOVE $1 $6 $1
-0x1af8: MUL   $1 $7 $3
-0x1af9: ALLOC $6 $3
-0x1afa: ALLOC $4 $4
-0x1afb: NAND  $3 $2 $6
-0x1afc: ALLOC $5 $0
-0x1afd: NAND  $1 $2 $0
-0x1afe: HALT
-0x1aff: FREE  $7
-0x1b00: ALLOC $5 $0
-0x1b01: HALT
-0x1b02: HALT
-0x1b03: HALT
-0x1b04: CMOVE $4 $6 $5
-0x1b05: HALT
-0x1b06: FREE  $0
-0x1b07: ALLOC $3 $0
-0x1b08: ALLOC $7 $5
-0x1b09: ALLOC $0 $1
-0x1b0a: ALLOC $2 $6
-0x1b0b: ALLOC $2 $5
-0x1b0c: DIV   $4 $4 $1
-0x1b0d: NAND  $0 $6 $5
-0x1b0e: ALLOC $4 $1
-0x1b0f: HALT
-0x1b10: ALLOC $4 $0
-0x1b11: ALLOC $1 $4
-0x1b12: DIV   $5 $5 $5
-0x1b13: ALLOC $4 $5
-0x1b14: FREE  $2
-0x1b15: MUL   $2 $4 $2
-0x1b16: ALLOC $5 $0
-0x1b17: DIV   $4 $1 $5
-0x1b18: ALLOC $7 $5
-0x1b19: ALLOC $1 $3
-0x1b1a: DIV   $4 $7 $7
-0x1b1b: DIV   $4 $2 $1
-0x1b1c: WMEM  $7 $2 $3
-0x1b1d: ALLOC $6 $0
-0x1b1e: CMOVE $1 $1 $2
-0x1b1f: ALLOC $6 $4
-0x1b20: NAND  $6 $2 $1
-0x1b21: HALT
-0x1b22: DIV   $4 $5 $3
-0x1b23: HALT
-0x1b24: ALLOC $7 $0
-0x1b25: ALLOC $4 $2
-0x1b26: ALLOC $3 $6
-0x1b27: RMEM  $4 $3 $3
-0x1b28: RMEM  $4 $7 $0
-0x1b29: RMEM  $1 $7 $2
-0x1b2a: DIV   $0 $1 $7
-0x1b2b: HALT
-0x1b2c: HALT
-0x1b2d: NAND  $2 $2 $4
-0x1b2e: DIV   $3 $3 $4
-0x1b2f: ALLOC $4 $5
-0x1b30: OUT   $6
-0x1b31: HALT
-0x1b32: RMEM  $4 $4 $0
-0x1b33: RMEM  $2 $7 $5
-0x1b34: ALLOC $3 $6
-0x1b35: ALLOC $5 $7
-0x1b36: ALLOC $0 $1
-0x1b37: MUL   $2 $0 $7
-0x1b38: NAND  $1 $0 $5
-0x1b39: ALLOC $5 $3
-0x1b3a: CMOVE $3 $5 $1
-0x1b3b: NAND  $5 $6 $0
-0x1b3c: ALLOC $3 $4
-0x1b3d: ALLOC $6 $2
-0x1b3e: ALLOC $6 $6
-0x1b3f: HALT
-0x1b40: ALLOC $4 $6
-0x1b41: NAND  $0 $1 $6
-0x1b42: CMOVE $0 $7 $6
-0x1b43: HALT
-0x1b44: NAND  $1 $3 $7
-0x1b45: RMEM  $1 $0 $7
-0x1b46: ALLOC $0 $0
-0x1b47: ALLOC $7 $2
-0x1b48: DIV   $0 $1 $5
-0x1b49: ALLOC $2 $0
-0x1b4a: HALT
-0x1b4b: ALLOC $5 $6
-0x1b4c: OUT   $0
-0x1b4d: HALT
-0x1b4e: ALLOC $5 $7
-0x1b4f: HALT
-0x1b50: ADD   $0 $6 $0
-0x1b51: ALLOC $4 $4
-0x1b52: ALLOC $6 $2
-0x1b53: WMEM  $2 $5 $0
-0x1b54: FREE  $5
-0x1b55: MUL   $4 $0 $0
-0x1b56: FREE  $0
-0x1b57: HALT
-0x1b58: HALT
-0x1b59: CMOVE $0 $3 $7
-0x1b5a: NAND  $3 $5 $5
-0x1b5b: ALLOC $5 $7
-0x1b5c: ALLOC $0 $1
-0x1b5d: ALLOC $1 $0
-0x1b5e: ALLOC $6 $4
-0x1b5f: ALLOC $1 $0
-0x1b60: WMEM  $4 $1 $7
-0x1b61: WMEM  $0 $7 $1
-0x1b62: RMEM  $1 $5 $6
-0x1b63: NAND  $1 $3 $7
-0x1b64: ALLOC $0 $4
-0x1b65: ALLOC $4 $7
-0x1b66: ALLOC $3 $4
-0x1b67: HALT
-0x1b68: NAND  $4 $2 $0
-0x1b69: DIV   $1 $5 $5
-0x1b6a: HALT
-0x1b6b: DIV   $2 $0 $1
-0x1b6c: NAND  $6 $5 $3
-0x1b6d: DIV   $0 $5 $0
-0x1b6e: ALLOC $5 $6
-0x1b6f: NAND  $3 $4 $3
-0x1b70: ALLOC $7 $1
-0x1b71: HALT
-0x1b72: ALLOC $0 $2
-0x1b73: ALLOC $5 $3
-0x1b74: ALLOC $7 $3
-0x1b75: ALLOC $7 $5
-0x1b76: ALLOC $1 $3
-0x1b77: ALLOC $6 $0
-0x1b78: ALLOC $0 $6
-0x1b79: ALLOC $1 $0
-0x1b7a: FREE  $6
-0x1b7b: CMOVE $0 $5 $2
-0x1b7c: ALLOC $2 $6
-0x1b7d: OUT   $0
-0x1b7e: ALLOC $6 $4
-0x1b7f: RMEM  $7 $3 $2
-0x1b80: ALLOC $2 $0
-0x1b81: ALLOC $0 $1
-0x1b82: ALLOC $4 $4
-0x1b83: ALLOC $5 $0
-0x1b84: ALLOC $0 $6
-0x1b85: ALLOC $5 $5
-0x1b86: ALLOC $3 $2
-0x1b87: HALT
-0x1b88: HALT
-0x1b89: ALLOC $0 $2
-0x1b8a: HALT
-0x1b8b: NAND  $7 $2 $4
-0x1b8c: ALLOC $3 $7
-0x1b8d: FREE  $1
-0x1b8e: ALLOC $0 $2
-0x1b8f: ALLOC $5 $2
-0x1b90: WMEM  $2 $7 $3
-0x1b91: NAND  $2 $6 $7
-0x1b92: MUL   $0 $5 $1
-0x1b93: HALT
-0x1b94: HALT
-0x1b95: FREE  $0
-0x1b96: ALLOC $0 $0
-0x1b97: FREE  $6
-0x1b98: FREE  $4
-0x1b99: OUT   $6
-0x1b9a: FREE  $0
-0x1b9b: FREE  $4
-0x1b9c: CMOVE $0 $2 $6
-0x1b9d: WMEM  $0 $5 $1
-0x1b9e: RMEM  $1 $4 $5
-0x1b9f: FREE  $4
-0x1ba0: ALLOC $2 $5
-0x1ba1: FREE  $0
-0x1ba2: FREE  $2
-0x1ba3: ALLOC $6 $4
-0x1ba4: HALT
-0x1ba5: HALT
-0x1ba6: DIV   $5 $0 $0
-0x1ba7: FREE  $3
-0x1ba8: ALLOC $0 $2
-0x1ba9: FREE  $6
-0x1baa: FREE  $5
-0x1bab: ALLOC $2 $5
-0x1bac: HALT
-0x1bad: ALLOC $2 $0
-0x1bae: OUT   $2
-0x1baf: RMEM  $4 $4 $4
-0x1bb0: DIV   $1 $4 $4
-0x1bb1: DIV   $6 $0 $3
-0x1bb2: ALLOC $0 $3
-0x1bb3: FREE  $5
-0x1bb4: HALT
-0x1bb5: ALLOC $5 $4
-0x1bb6: RMEM  $1 $4 $3
-0x1bb7: CMOVE $1 $3 $1
-0x1bb8: HALT
-0x1bb9: ALLOC $1 $4
-0x1bba: HALT
-0x1bbb: HALT
-0x1bbc: OUT   $7
-0x1bbd: NAND  $7 $4 $1
-0x1bbe: ALLOC $0 $7
-0x1bbf: CMOVE $0 $2 $4
-0x1bc0: ALLOC $4 $1
-0x1bc1: ALLOC $1 $4
-0x1bc2: FREE  $7
-0x1bc3: FREE  $4
-0x1bc4: ALLOC $2 $5
-0x1bc5: ALLOC $4 $4
-0x1bc6: HALT
-0x1bc7: RMEM  $2 $1 $4
-0x1bc8: FREE  $7
-0x1bc9: HALT
-0x1bca: FREE  $4
-0x1bcb: FREE  $7
-0x1bcc: CMOVE $4 $1 $0
-0x1bcd: WMEM  $7 $0 $5
-0x1bce: FREE  $6
-0x1bcf: HALT
-0x1bd0: RMEM  $3 $6 $2
-0x1bd1: OUT   $1
-0x1bd2: HALT
-0x1bd3: FREE  $1
-0x1bd4: FREE  $6
-0x1bd5: WMEM  $7 $4 $0
-0x1bd6: FREE  $0
-0x1bd7: CMOVE $6 $6 $1
-0x1bd8: OUT   $4
-0x1bd9: HALT
-0x1bda: FREE  $5
-0x1bdb: HALT
-0x1bdc: FREE  $5
-0x1bdd: DIV   $0 $7 $5
-0x1bde: CMOVE $1 $4 $5
-0x1bdf: OUT   $5
-0x1be0: FREE  $5
-0x1be1: FREE  $7
-0x1be2: HALT
-0x1be3: HALT
-0x1be4: ALLOC $5 $7
-0x1be5: ALLOC $4 $6
-0x1be6: FREE  $6
-0x1be7: HALT
-0x1be8: RMEM  $0 $4 $0
-0x1be9: RMEM  $0 $5 $5
-0x1bea: RMEM  $3 $4 $4
-0x1beb: DIV   $7 $4 $2
-0x1bec: ALLOC $4 $5
-0x1bed: MUL   $6 $5 $1
-0x1bee: FREE  $0
-0x1bef: ALLOC $5 $0
-0x1bf0: ALLOC $6 $0
-0x1bf1: FREE  $5
-0x1bf2: ALLOC $5 $2
-0x1bf3: ALLOC $1 $0
-0x1bf4: NAND  $7 $1 $6
-0x1bf5: ALLOC $5 $6
-0x1bf6: CMOVE $3 $5 $1
-0x1bf7: ALLOC $2 $3
-0x1bf8: ALLOC $2 $7
-0x1bf9: HALT
-0x1bfa: NAND  $0 $5 $1
-0x1bfb: FREE  $4
-0x1bfc: ALLOC $2 $6
-0x1bfd: CMOVE $0 $1 $6
-0x1bfe: FREE  $5
-0x1bff: ALLOC $7 $0
-0x1c00: ALLOC $1 $1
-0x1c01: FREE  $5
-0x1c02: FREE  $6
-0x1c03: FREE  $7
-0x1c04: HALT
-0x1c05: HALT
-0x1c06: CMOVE $0 $4 $4
-0x1c07: NAND  $4 $0 $6
-0x1c08: WMEM  $2 $5 $3
-0x1c09: RMEM  $1 $7 $3
-0x1c0a: RMEM  $3 $4 $0
-0x1c0b: NAND  $1 $7 $6
-0x1c0c: HALT
-0x1c0d: RMEM  $4 $4 $5
-0x1c0e: FREE  $2
-0x1c0f: FREE  $6
-0x1c10: DIV   $7 $6 $7
-0x1c11: FREE  $1
-0x1c12: DIV   $2 $1 $6
-0x1c13: HALT
-0x1c14: CMOVE $0 $4 $6
-0x1c15: CMOVE $0 $2 $2
-0x1c16: MUL   $5 $0 $6
-0x1c17: FREE  $2
-0x1c18: ALLOC $3 $0
-0x1c19: HALT
-0x1c1a: ALLOC $3 $7
-0x1c1b: ALLOC $7 $6
-0x1c1c: FREE  $4
-0x1c1d: FREE  $1
-0x1c1e: ALLOC $2 $7
-0x1c1f: FREE  $7
-0x1c20: DIV   $7 $1 $1
-0x1c21: ALLOC $7 $7
-0x1c22: RMEM  $6 $0 $4
-0x1c23: CMOVE $4 $3 $7
-0x1c24: ALLOC $0 $1
-0x1c25: OUT   $7
-0x1c26: FREE  $2
-0x1c27: RMEM  $7 $4 $1
-0x1c28: CMOVE $1 $2 $1
-0x1c29: FREE  $3
-0x1c2a: ALLOC $5 $2
-0x1c2b: ALLOC $0 $3
-0x1c2c: FREE  $1
-0x1c2d: FREE  $3
-0x1c2e: RMEM  $7 $4 $2
-0x1c2f: CMOVE $1 $3 $1
-0x1c30: CMOVE $7 $2 $6
-0x1c31: WMEM  $2 $5 $3
-0x1c32: FREE  $3
-0x1c33: CMOVE $6 $3 $3
-0x1c34: FREE  $2
-0x1c35: ALLOC $1 $6
-0x1c36: CMOVE $2 $7 $1
-0x1c37: CMOVE $5 $2 $5
-0x1c38: FREE  $4
-0x1c39: FREE  $4
-0x1c3a: FREE  $2
-0x1c3b: ALLOC $5 $4
-0x1c3c: HALT
-0x1c3d: FREE  $7
-0x1c3e: FREE  $3
-0x1c3f: FREE  $6
-0x1c40: ALLOC $7 $1
-0x1c41: OUT   $3
-0x1c42: CMOVE $7 $2 $0
-0x1c43: FREE  $6
-0x1c44: FREE  $5
-0x1c45: ALLOC $6 $2
-0x1c46: DIV   $3 $2 $4
-0x1c47: DIV   $1 $3 $5
-0x1c48: OUT   $4
-0x1c49: WMEM  $0 $2 $0
-0x1c4a: WMEM  $4 $4 $0
-0x1c4b: CMOVE $4 $2 $1
-0x1c4c: ALLOC $6 $3
-0x1c4d: ALLOC $2 $5
-0x1c4e: FREE  $7
-0x1c4f: OUT   $0
-0x1c50: WMEM  $3 $3 $6
-0x1c51: CMOVE $4 $6 $3
-0x1c52: CMOVE $4 $7 $7
-0x1c53: FREE  $4
-0x1c54: CMOVE $0 $7 $2
-0x1c55: DIV   $2 $0 $6
-0x1c56: OUT   $7
-0x1c57: ALLOC $3 $2
-0x1c58: HALT
-0x1c59: HALT
-0x1c5a: DIV   $4 $7 $1
-0x1c5b: ALLOC $3 $6
-0x1c5c: CMOVE $3 $3 $7
-0x1c5d: CMOVE $2 $3 $3
-0x1c5e: ALLOC $3 $6
-0x1c5f: WMEM  $7 $2 $6
-0x1c60: WMEM  $0 $6 $3
-0x1c61: HALT
-0x1c62: FREE  $6
-0x1c63: HALT
-0x1c64: OUT   $2
-0x1c65: CMOVE $1 $3 $3
-0x1c66: WMEM  $5 $1 $7
-0x1c67: WMEM  $5 $3 $6
-0x1c68: ALLOC $0 $7
-0x1c69: HALT
-0x1c6a: DIV   $1 $4 $5
-0x1c6b: DIV   $3 $1 $5
-0x1c6c: NAND  $6 $7 $0
-0x1c6d: DIV   $6 $4 $7
-0x1c6e: ALLOC $5 $0
-0x1c6f: HALT
-0x1c70: ALLOC $2 $1
-0x1c71: DIV   $0 $4 $5
-0x1c72: DIV   $5 $7 $1
-0x1c73: HALT
-0x1c74: CMOVE $7 $4 $3
-0x1c75: CMOVE $0 $7 $1
-0x1c76: FREE  $7
-0x1c77: FREE  $1
-0x1c78: FREE  $0
-0x1c79: OUT   $1
-0x1c7a: FREE  $2
-0x1c7b: FREE  $2
-0x1c7c: FREE  $1
-0x1c7d: FREE  $5
-0x1c7e: ALLOC $2 $7
-0x1c7f: ALLOC $0 $4
-0x1c80: OUT   $2
-0x1c81: HALT
-0x1c82: FREE  $0
-0x1c83: FREE  $7
-0x1c84: ALLOC $4 $5
-0x1c85: RMEM  $2 $5 $5
-0x1c86: ALLOC $0 $5
-0x1c87: OUT   $4
-0x1c88: RMEM  $1 $5 $5
-0x1c89: HALT
-0x1c8a: FREE  $5
-0x1c8b: DIV   $5 $0 $5
-0x1c8c: HALT
-0x1c8d: ALLOC $2 $3
-0x1c8e: FREE  $6
-0x1c8f: ALLOC $3 $3
-0x1c90: FREE  $4
-0x1c91: ALLOC $0 $0
-0x1c92: ALLOC $7 $5
-0x1c93: HALT
-0x1c94: ALLOC $5 $3
-0x1c95: NAND  $5 $6 $2
-0x1c96: ALLOC $3 $5
-0x1c97: FREE  $5
-0x1c98: FREE  $7
-0x1c99: ALLOC $7 $5
-0x1c9a: ALLOC $5 $5
-0x1c9b: FREE  $1
-0x1c9c: OUT   $5
-0x1c9d: FREE  $7
-0x1c9e: HALT
-0x1c9f: FREE  $6
-0x1ca0: FREE  $7
-0x1ca1: FREE  $1
-0x1ca2: FREE  $1
-0x1ca3: OUT   $6
-0x1ca4: ALLOC $6 $2
-0x1ca5: FREE  $2
-0x1ca6: ALLOC $5 $5
-0x1ca7: FREE  $5
-0x1ca8: ALLOC $6 $2
-0x1ca9: WMEM  $7 $1 $3
-0x1caa: NAND  $2 $7 $0
-0x1cab: RMEM  $2 $2 $6
-0x1cac: HALT
-0x1cad: HALT
-0x1cae: CMOVE $5 $2 $2
-0x1caf: CMOVE $0 $0 $1
-0x1cb0: CMOVE $6 $7 $5
-0x1cb1: FREE  $2
-0x1cb2: FREE  $0
-0x1cb3: FREE  $4
-0x1cb4: FREE  $2
-0x1cb5: FREE  $6
-0x1cb6: RMEM  $4 $5 $3
-0x1cb7: CMOVE $0 $4 $0
-0x1cb8: OUT   $2
-0x1cb9: RMEM  $4 $1 $1
-0x1cba: RMEM  $7 $3 $3
-0x1cbb: FREE  $6
-0x1cbc: FREE  $1
-0x1cbd: HALT
-0x1cbe: HALT
-0x1cbf: NAND  $5 $2 $0
-0x1cc0: DIV   $7 $0 $7
-0x1cc1: HALT
-0x1cc2: DIV   $6 $4 $0
-0x1cc3: ALLOC $6 $4
-0x1cc4: FREE  $1
-0x1cc5: FREE  $5
-0x1cc6: OUT   $3
-0x1cc7: FREE  $2
-0x1cc8: FREE  $4
-0x1cc9: DIV   $0 $5 $6
-0x1cca: FREE  $1
-0x1ccb: FREE  $2
-0x1ccc: FREE  $6
-0x1ccd: WMEM  $5 $7 $0
-0x1cce: FREE  $1
-0x1ccf: DIV   $3 $0 $2
-0x1cd0: FREE  $5
-0x1cd1: NAND  $1 $2 $1
-0x1cd2: DIV   $6 $6 $3
-0x1cd3: NAND  $6 $2 $5
-0x1cd4: WMEM  $2 $3 $3
-0x1cd5: HALT
-0x1cd6: NAND  $2 $7 $0
-0x1cd7: FREE  $6
-0x1cd8: NAND  $5 $6 $1
-0x1cd9: RMEM  $7 $4 $1
-0x1cda: FREE  $5
-0x1cdb: FREE  $3
-0x1cdc: FREE  $4
-0x1cdd: CMOVE $6 $5 $6
-0x1cde: FREE  $5
-0x1cdf: FREE  $4
-0x1ce0: FREE  $4
-0x1ce1: HALT
-0x1ce2: ALLOC $3 $4
-0x1ce3: ALLOC $4 $5
-0x1ce4: FREE  $2
-0x1ce5: HALT
-0x1ce6: ALLOC $0 $2
-0x1ce7: ALLOC $4 $2
-0x1ce8: ALLOC $1 $0
-0x1ce9: OUT   $3
-0x1cea: ALLOC $5 $3
-0x1ceb: FREE  $6
-0x1cec: WMEM  $4 $1 $3
-0x1ced: FREE  $5
-0x1cee: FREE  $3
-0x1cef: ALLOC $0 $4
-0x1cf0: OUT   $2
-0x1cf1: FREE  $1
-0x1cf2: ALLOC $1 $6
-0x1cf3: FREE  $2
-0x1cf4: MUL   $1 $7 $2
-0x1cf5: FREE  $2
-0x1cf6: MUL   $2 $3 $0
-0x1cf7: OUT   $7
-0x1cf8: MUL   $3 $7 $7
-0x1cf9: FREE  $2
-0x1cfa: CMOVE $7 $4 $1
-0x1cfb: HALT
-0x1cfc: ALLOC $0 $4
-0x1cfd: FREE  $7
-0x1cfe: WMEM  $1 $4 $6
-0x1cff: FREE  $0
-0x1d00: FREE  $2
-0x1d01: CMOVE $1 $2 $6
-0x1d02: FREE  $1
-0x1d03: WMEM  $0 $1 $2
-0x1d04: ALLOC $4 $6
-0x1d05: OUT   $6
-0x1d06: FREE  $6
-0x1d07: FREE  $3
-0x1d08: FREE  $0
-0x1d09: CMOVE $4 $3 $1
-0x1d0a: FREE  $1
-0x1d0b: FREE  $6
-0x1d0c: NAND  $1 $7 $3
-0x1d0d: FREE  $5
-0x1d0e: FREE  $2
-0x1d0f: ALLOC $2 $3
-0x1d10: ALLOC $3 $7
-0x1d11: HALT
-0x1d12: FREE  $5
-0x1d13: OUT   $0
-0x1d14: CMOVE $5 $0 $4
-0x1d15: FREE  $4
-0x1d16: DIV   $0 $7 $6
-0x1d17: RMEM  $5 $5 $1
-0x1d18: FREE  $5
-0x1d19: FREE  $3
-0x1d1a: FREE  $6
-0x1d1b: RMEM  $5 $6 $2
-0x1d1c: FREE  $5
-0x1d1d: MUL   $1 $0 $2
-0x1d1e: FREE  $5
-0x1d1f: CMOVE $1 $6 $6
-0x1d20: FREE  $0
-0x1d21: OUT   $6
-0x1d22: ALLOC $4 $6
-0x1d23: FREE  $3
-0x1d24: HALT
-0x1d25: CMOVE $6 $1 $0
-0x1d26: RMEM  $0 $6 $0
-0x1d27: ALLOC $5 $1
-0x1d28: RMEM  $4 $4 $4
-0x1d29: FREE  $0
-0x1d2a: FREE  $0
-0x1d2b: FREE  $6
-0x1d2c: FREE  $2
-0x1d2d: FREE  $1
-0x1d2e: FREE  $5
-0x1d2f: OUT   $2
-0x1d30: FREE  $5
-0x1d31: FREE  $5
-0x1d32: HALT
-0x1d33: FREE  $6
-0x1d34: ALLOC $0 $1
-0x1d35: FREE  $2
-0x1d36: OUT   $5
-0x1d37: CMOVE $6 $7 $3
-0x1d38: ALLOC $0 $6
-0x1d39: CMOVE $0 $1 $5
-0x1d3a: FREE  $7
-0x1d3b: ALLOC $0 $4
-0x1d3c: RMEM  $0 $5 $5
-0x1d3d: WMEM  $6 $6 $5
-0x1d3e: HALT
-0x1d3f: MUL   $5 $2 $6
-0x1d40: FREE  $0
-0x1d41: FREE  $6
-0x1d42: ALLOC $2 $2
-0x1d43: ALLOC $5 $1
-0x1d44: OUT   $5
-0x1d45: FREE  $1
-0x1d46: DIV   $0 $3 $6
-0x1d47: FREE  $3
-0x1d48: CMOVE $3 $4 $2
-0x1d49: FREE  $1
-0x1d4a: DIV   $4 $3 $2
-0x1d4b: OUT   $7
-0x1d4c: FREE  $4
-0x1d4d: FREE  $4
-0x1d4e: FREE  $5
-0x1d4f: OUT   $4
-0x1d50: FREE  $2
-0x1d51: FREE  $5
-0x1d52: OUT   $3
-0x1d53: FREE  $7
-0x1d54: OUT   $7
-0x1d55: FREE  $0
-0x1d56: FREE  $6
-0x1d57: FREE  $2
-0x1d58: FREE  $0
-0x1d59: OUT   $6
-0x1d5a: HALT
-0x1d5b: ALLOC $6 $3
-0x1d5c: ALLOC $1 $1
-0x1d5d: FREE  $4
-0x1d5e: FREE  $3
-0x1d5f: OUT   $3
-0x1d60: NAND  $6 $2 $2
-0x1d61: FREE  $6
-0x1d62: OUT   $1
-0x1d63: RMEM  $3 $0 $5
-0x1d64: ALLOC $7 $6
-0x1d65: OUT   $0
-0x1d66: FREE  $3
-0x1d67: ALLOC $6 $3
-0x1d68: RMEM  $7 $6 $1
-0x1d69: FREE  $6
-0x1d6a: CMOVE $3 $5 $2
-0x1d6b: OUT   $1
-0x1d6c: FREE  $1
-0x1d6d: ALLOC $3 $3
-0x1d6e: NAND  $4 $4 $7
-0x1d6f: FREE  $7
-0x1d70: FREE  $3
-0x1d71: OUT   $0
-0x1d72: FREE  $5
-0x1d73: ALLOC $3 $7
-0x1d74: OUT   $0
-0x1d75: ALLOC $1 $1
-0x1d76: ALLOC $3 $4
-0x1d77: OUT   $5
-0x1d78: FREE  $6
-0x1d79: ALLOC $4 $0
-0x1d7a: ALLOC $0 $3
-0x1d7b: FREE  $7
-0x1d7c: OUT   $5
-0x1d7d: OUT   $4
-0x1d7e: WMEM  $1 $1 $7
-0x1d7f: FREE  $3
-0x1d80: FREE  $1
-0x1d81: OUT   $0
-0x1d82: OUT   $6
-0x1d83: NAND  $0 $5 $4
-0x1d84: WMEM  $1 $0 $0
-0x1d85: FREE  $7
-0x1d86: OUT   $0
-0x1d87: OUT   $1
-0x1d88: OUT   $7
-0x1d89: RMEM  $2 $1 $0
-0x1d8a: WMEM  $6 $6 $5
-0x1d8b: RMEM  $1 $6 $5
-0x1d8c: FREE  $2
-0x1d8d: ALLOC $2 $4
-0x1d8e: FREE  $7
-0x1d8f: FREE  $1
-0x1d90: FREE  $3
-0x1d91: ALLOC $2 $4
-0x1d92: FREE  $7
-0x1d93: OUT   $1
-0x1d94: ALLOC $6 $5
-0x1d95: FREE  $5
-0x1d96: FREE  $7
-0x1d97: FREE  $1
-0x1d98: DIV   $4 $4 $2
-0x1d99: HALT
-0x1d9a: WMEM  $7 $2 $0
-0x1d9b: FREE  $6
-0x1d9c: FREE  $0
-0x1d9d: OUT   $3
-0x1d9e: FREE  $7
-0x1d9f: OUT   $3
-0x1da0: DIV   $3 $2 $2
-0x1da1: OUT   $0
-0x1da2: RMEM  $5 $5 $2
-0x1da3: OUT   $6
-0x1da4: OUT   $0
-0x1da5: ALLOC $5 $2
-0x1da6: OUT   $0
-0x1da7: FREE  $2
-0x1da8: FREE  $2
-0x1da9: DIV   $2 $0 $3
-0x1daa: OUT   $2
-0x1dab: OUT   $7
-0x1dac: OUT   $1
-0x1dad: FREE  $2
-0x1dae: HALT
-0x1daf: OUT   $0
-0x1db0: OUT   $1
-0x1db1: RMEM  $4 $4 $0
-0x1db2: OUT   $5
-0x1db3: OUT   $1
-0x1db4: CMOVE $5 $7 $6
-0x1db5: WMEM  $1 $1 $2
-0x1db6: FREE  $5
-0x1db7: ALLOC $4 $0
-0x1db8: FREE  $6
-0x1db9: HALT
-0x1dba: OUT   $7
-0x1dbb: WMEM  $4 $3 $0
-0x1dbc: OUT   $2
-0x1dbd: HALT
-0x1dbe: HALT
-0x1dbf: ALLOC $1 $2
-0x1dc0: ALLOC $7 $4
-0x1dc1: HALT
-0x1dc2: FREE  $6
-0x1dc3: OUT   $5
-0x1dc4: OUT   $6
-0x1dc5: OUT   $0
-0x1dc6: FREE  $0
-0x1dc7: OUT   $2
-0x1dc8: OUT   $6
-0x1dc9: OUT   $2
-0x1dca: FREE  $6
-0x1dcb: DIV   $2 $4 $2
-0x1dcc: WMEM  $3 $1 $1
-0x1dcd: OUT   $6
-0x1dce: OUT   $6
-0x1dcf: OUT   $3
-0x1dd0: NAND  $1 $6 $5
-0x1dd1: ALLOC $0 $0
-0x1dd2: RMEM  $5 $7 $0
-0x1dd3: HALT
-0x1dd4: OUT   $4
-0x1dd5: FREE  $6
-0x1dd6: FREE  $5
-0x1dd7: OUT   $5
-0x1dd8: FREE  $4
-0x1dd9: RMEM  $2 $5 $2
-0x1dda: CMOVE $4 $2 $6
-0x1ddb: CMOVE $4 $5 $7
-0x1ddc: CMOVE $0 $4 $5
-0x1ddd: OUT   $0
-0x1dde: OUT   $0
-0x1ddf: OUT   $1
-0x1de0: CMOVE $2 $2 $0
-0x1de1: OUT   $6
-0x1de2: OUT   $5
-0x1de3: ALLOC $4 $7
-0x1de4: OUT   $1
-0x1de5: OUT   $4
-0x1de6: OUT   $6
-0x1de7: OUT   $1
-0x1de8: FREE  $7
-0x1de9: FREE  $1
-0x1dea: HALT
-0x1deb: FREE  $3
-0x1dec: OUT   $4
-0x1ded: ALLOC $5 $5
-0x1dee: OUT   $1
-0x1def: FREE  $5
-0x1df0: OUT   $4
-0x1df1: OUT   $1
-0x1df2: OUT   $4
-0x1df3: OUT   $7
-0x1df4: OUT   $6
-0x1df5: OUT   $2
-0x1df6: OUT   $2
-0x1df7: CMOVE $5 $6 $6
-0x1df8: WMEM  $1 $1 $4
-0x1df9: FREE  $1
-0x1dfa: NAND  $2 $2 $1
-0x1dfb: FREE  $6
-0x1dfc: ALLOC $1 $0
-0x1dfd: OUT   $1
-0x1dfe: FREE  $5
-0x1dff: OUT   $3
-0x1e00: DIV   $5 $7 $0
-0x1e01: OUT   $1
-0x1e02: OUT   $4
-0x1e03: FREE  $6
-0x1e04: NAND  $7 $7 $7
-0x1e05: FREE  $2
-0x1e06: FREE  $4
-0x1e07: FREE  $2
-0x1e08: OUT   $2
-0x1e09: OUT   $4
-0x1e0a: OUT   $5
-0x1e0b: OUT   $7
-0x1e0c: OUT   $0
-0x1e0d: OUT   $6
-0x1e0e: OUT   $6
-0x1e0f: OUT   $2
-0x1e10: ALLOC $6 $4
-0x1e11: FREE  $2
-0x1e12: OUT   $6
-0x1e13: HALT
-0x1e14: OUT   $0
-0x1e15: DIV   $2 $5 $4
-0x1e16: OUT   $5
-0x1e17: FREE  $2
-0x1e18: OUT   $5
-0x1e19: FREE  $2
-0x1e1a: FREE  $2
-0x1e1b: OUT   $4
-0x1e1c: CMOVE $6 $6 $2
-0x1e1d: OUT   $4
-0x1e1e: OUT   $7
-0x1e1f: CMOVE $5 $6 $2
-0x1e20: FREE  $5
-0x1e21: OUT   $0
-0x1e22: OUT   $2
-0x1e23: OUT   $3
-0x1e24: WMEM  $7 $3 $7
-0x1e25: CMOVE $2 $4 $3
-0x1e26: CMOVE $2 $7 $3
-0x1e27: FREE  $6
-0x1e28: HALT
-0x1e29: FREE  $2
-0x1e2a: FREE  $5
-0x1e2b: OUT   $7
-0x1e2c: ALLOC $3 $1
-0x1e2d: HALT
-0x1e2e: HALT
-0x1e2f: FREE  $0
-0x1e30: FREE  $2
-0x1e31: OUT   $5
-0x1e32: OUT   $3
-0x1e33: OUT   $3
-0x1e34: OUT   $5
-0x1e35: FREE  $5
-0x1e36: RMEM  $0 $0 $6
-0x1e37: CMOVE $5 $4 $4
-0x1e38: OUT   $4
-0x1e39: ALLOC $5 $3
-0x1e3a: CMOVE $5 $1 $2
-0x1e3b: HALT
-0x1e3c: CMOVE $3 $2 $3
-0x1e3d: OUT   $3
-0x1e3e: HALT
-0x1e3f: FREE  $5
-0x1e40: WMEM  $3 $3 $0
-0x1e41: HALT
-0x1e42: NAND  $7 $5 $7
-0x1e43: ADD   $1 $1 $0
-0x1e44: ALLOC $5 $1
-0x1e45: NAND  $4 $0 $3
-0x1e46: DIV   $3 $2 $3
-0x1e47: OUT   $4
-0x1e48: DIV   $1 $2 $2
-0x1e49: NAND  $4 $4 $2
-0x1e4a: OUT   $5
-0x1e4b: OUT   $6
-0x1e4c: RMEM  $0 $7 $7
-0x1e4d: ALLOC $6 $3
-0x1e4e: OUT   $6
-0x1e4f: NAND  $0 $6 $3
-0x1e50: ALLOC $5 $0
-0x1e51: OUT   $4
-0x1e52: OUT   $5
-0x1e53: FREE  $0
-0x1e54: OUT   $4
-0x1e55: OUT   $1
-0x1e56: OUT   $3
-0x1e57: OUT   $0
-0x1e58: ALLOC $7 $3
-0x1e59: DIV   $1 $1 $6
-0x1e5a: ALLOC $1 $1
-0x1e5b: OUT   $2
-0x1e5c: NAND  $4 $7 $5
-0x1e5d: FREE  $6
-0x1e5e: OUT   $6
-0x1e5f: FREE  $2
-0x1e60: OUT   $6
-0x1e61: FREE  $6
-0x1e62: OUT   $7
-0x1e63: CMOVE $4 $2 $5
-0x1e64: ALLOC $6 $5
-0x1e65: OUT   $6
-0x1e66: OUT   $7
-0x1e67: ALLOC $4 $6
-0x1e68: FREE  $5
-0x1e69: RMEM  $0 $5 $2
-0x1e6a: FREE  $7
-0x1e6b: NAND  $2 $1 $2
-0x1e6c: OUT   $0
-0x1e6d: OUT   $7
-0x1e6e: OUT   $4
-0x1e6f: FREE  $2
-0x1e70: OUT   $3
-0x1e71: OUT   $1
-0x1e72: ALLOC $7 $7
-0x1e73: OUT   $4
-0x1e74: OUT   $4
-0x1e75: ALLOC $4 $5
-0x1e76: FREE  $4
-0x1e77: OUT   $1
-0x1e78: OUT   $5
-0x1e79: OUT   $3
-0x1e7a: OUT   $1
-0x1e7b: OUT   $0
-0x1e7c: ALLOC $7 $3
-0x1e7d: FREE  $4
-0x1e7e: OUT   $7
-0x1e7f: FREE  $0
-0x1e80: OUT   $6
-0x1e81: OUT   $1
-0x1e82: OUT   $1
-0x1e83: FREE  $1
-0x1e84: OUT   $4
-0x1e85: DIV   $7 $4 $7
-0x1e86: OUT   $2
-0x1e87: OUT   $0
-0x1e88: OUT   $2
-0x1e89: HALT
-0x1e8a: OUT   $2
-0x1e8b: OUT   $0
-0x1e8c: OUT   $3
-0x1e8d: OUT   $2
-0x1e8e: FREE  $4
-0x1e8f: OUT   $0
-0x1e90: OUT   $4
-0x1e91: OUT   $2
-0x1e92: OUT   $3
-0x1e93: OUT   $2
-0x1e94: OUT   $7
-0x1e95: OUT   $7
-0x1e96: OUT   $1
-0x1e97: OUT   $3
-0x1e98: CMOVE $6 $6 $7
-0x1e99: OUT   $6
-0x1e9a: OUT   $2
-0x1e9b: OUT   $4
-0x1e9c: OUT   $1
-0x1e9d: OUT   $5
-0x1e9e: CMOVE $7 $4 $7
-0x1e9f: OUT   $0
-0x1ea0: FREE  $4
-0x1ea1: OUT   $3
-0x1ea2: OUT   $4
-0x1ea3: OUT   $5
-0x1ea4: OUT   $4
-0x1ea5: OUT   $4
-0x1ea6: FREE  $1
-0x1ea7: WMEM  $0 $1 $3
-0x1ea8: OUT   $3
-0x1ea9: NAND  $1 $1 $2
-0x1eaa: HALT
-0x1eab: HALT
-0x1eac: OUT   $7
-0x1ead: OUT   $3
-0x1eae: OUT   $6
-0x1eaf: OUT   $0
-0x1eb0: OUT   $7
-0x1eb1: OUT   $2
-0x1eb2: OUT   $5
-0x1eb3: OUT   $2
-0x1eb4: OUT   $2
-0x1eb5: HALT
-0x1eb6: OUT   $6
-0x1eb7: OUT   $5
-0x1eb8: OUT   $4
-0x1eb9: ALLOC $7 $2
-0x1eba: RMEM  $1 $4 $4
-0x1ebb: OUT   $7
-0x1ebc: CMOVE $7 $5 $5
-0x1ebd: CMOVE $7 $0 $1
-0x1ebe: OUT   $6
-0x1ebf: ALLOC $0 $7
-0x1ec0: OUT   $3
-0x1ec1: OUT   $6
-0x1ec2: OUT   $3
-0x1ec3: ALLOC $1 $0
-0x1ec4: NAND  $1 $1 $7
-0x1ec5: ALLOC $2 $3
-0x1ec6: HALT
-0x1ec7: CMOVE $7 $4 $3
-0x1ec8: OUT   $0
-0x1ec9: OUT   $0
-0x1eca: OUT   $1
-0x1ecb: OUT   $5
-0x1ecc: OUT   $2
-0x1ecd: OUT   $0
-0x1ece: OUT   $1
-0x1ecf: OUT   $3
-0x1ed0: OUT   $1
-0x1ed1: OUT   $3
-0x1ed2: OUT   $5
-0x1ed3: OUT   $4
-0x1ed4: OUT   $6
-0x1ed5: OUT   $0
-0x1ed6: OUT   $6
-0x1ed7: FREE  $2
-0x1ed8: OUT   $7
-0x1ed9: OUT   $6
-0x1eda: OUT   $1
-0x1edb: OUT   $4
-0x1edc: HALT
-0x1edd: RMEM  $4 $1 $7
-0x1ede: OUT   $5
-0x1edf: OUT   $5
-0x1ee0: FREE  $3
-0x1ee1: OUT   $1
-0x1ee2: RMEM  $7 $5 $1
-0x1ee3: OUT   $7
-0x1ee4: OUT   $5
-0x1ee5: OUT   $3
-0x1ee6: FREE  $5
-0x1ee7: HALT
-0x1ee8: OUT   $4
-0x1ee9: ALLOC $1 $0
-0x1eea: RMEM  $0 $3 $1
-0x1eeb: WMEM  $5 $1 $2
-0x1eec: OUT   $4
-0x1eed: OUT   $4
-0x1eee: OUT   $7
-0x1eef: OUT   $4
-0x1ef0: OUT   $4
-0x1ef1: OUT   $6
-0x1ef2: FREE  $0
-0x1ef3: FREE  $0
-0x1ef4: OUT   $4
-0x1ef5: RMEM  $2 $0 $6
-0x1ef6: NAND  $2 $1 $1
-0x1ef7: FREE  $0
-0x1ef8: OUT   $3
-0x1ef9: OUT   $1
-0x1efa: FREE  $4
-0x1efb: HALT
-0x1efc: ADD   $1 $0 $4
-0x1efd: OUT   $1
-0x1efe: IN    $6
-0x1eff: OUT   $0
-0x1f00: OUT   $7
-0x1f01: OUT   $2
-0x1f02: OUT   $1
-0x1f03: NAND  $0 $5 $0
-0x1f04: DIV   $6 $5 $5
-0x1f05: MUL   $0 $7 $5
-0x1f06: FREE  $0
-0x1f07: OUT   $7
-0x1f08: OUT   $4
-0x1f09: OUT   $2
-0x1f0a: OUT   $4
-0x1f0b: OUT   $2
-0x1f0c: OUT   $3
-0x1f0d: OUT   $0
-0x1f0e: IN    $7
-0x1f0f: OUT   $1
-0x1f10: OUT   $3
-0x1f11: FREE  $5
-0x1f12: OUT   $5
-0x1f13: DIV   $5 $1 $1
-0x1f14: FREE  $1
-0x1f15: OUT   $3
-0x1f16: DIV   $6 $7 $3
-0x1f17: IN    $1
-0x1f18: OUT   $5
-0x1f19: OUT   $0
-0x1f1a: FREE  $2
-0x1f1b: OUT   $1
-0x1f1c: OUT   $7
-0x1f1d: OUT   $4
-0x1f1e: OUT   $1
-0x1f1f: OUT   $5
-0x1f20: OUT   $7
-0x1f21: OUT   $1
-0x1f22: CMOVE $5 $7 $6
-0x1f23: OUT   $2
-0x1f24: OUT   $6
-0x1f25: IN    $0
-0x1f26: FREE  $5
-0x1f27: OUT   $4
-0x1f28: IN    $3
-0x1f29: IN    $4
-0x1f2a: IN    $6
-0x1f2b: FREE  $5
-0x1f2c: HALT
-0x1f2d: OUT   $6
-0x1f2e: OUT   $1
-0x1f2f: OUT   $4
-0x1f30: IN    $7
-0x1f31: OUT   $0
-0x1f32: OUT   $7
-0x1f33: OUT   $7
-0x1f34: OUT   $7
-0x1f35: OUT   $1
-0x1f36: OUT   $4
-0x1f37: OUT   $6
-0x1f38: MUL   $3 $6 $3
-0x1f39: OUT   $2
-0x1f3a: ALLOC $3 $1
-0x1f3b: OUT   $3
-0x1f3c: FREE  $1
-0x1f3d: IN    $1
-0x1f3e: ALLOC $6 $3
-0x1f3f: NAND  $5 $3 $6
-0x1f40: OUT   $1
-0x1f41: HALT
-0x1f42: CMOVE $2 $4 $0
-0x1f43: NAND  $7 $0 $0
-0x1f44: FREE  $4
-0x1f45: NAND  $6 $1 $1
-0x1f46: OUT   $6
-0x1f47: ALLOC $2 $0
-0x1f48: FREE  $2
-0x1f49: FREE  $4
-0x1f4a: OUT   $0
-0x1f4b: FREE  $4
-0x1f4c: FREE  $0
-0x1f4d: IN    $1
-0x1f4e: FREE  $7
-0x1f4f: FREE  $5
-0x1f50: IN    $2
-0x1f51: FREE  $1
-0x1f52: FREE  $0
-0x1f53: OUT   $3
-0x1f54: OUT   $6
-0x1f55: IN    $0
-0x1f56: OUT   $5
-0x1f57: IN    $0
-0x1f58: FREE  $4
-0x1f59: FREE  $5
-0x1f5a: OUT   $7
-0x1f5b: OUT   $0
-0x1f5c: IN    $6
-0x1f5d: OUT   $4
-0x1f5e: IN    $2
-0x1f5f: NAND  $0 $0 $6
-0x1f60: OUT   $5
-0x1f61: HALT
-0x1f62: OUT   $5
-0x1f63: RMEM  $2 $6 $7
-0x1f64: CMOVE $6 $4 $0
-0x1f65: OUT   $6
-0x1f66: CMOVE $5 $1 $6
-0x1f67: FREE  $5
-0x1f68: OUT   $2
-0x1f69: NAND  $0 $3 $2
-0x1f6a: RMEM  $6 $4 $4
-0x1f6b: FREE  $4
-0x1f6c: ALLOC $4 $0
-0x1f6d: CMOVE $7 $6 $2
-0x1f6e: RMEM  $5 $4 $0
-0x1f6f: HALT
-0x1f70: OUT   $2
-0x1f71: FREE  $6
-0x1f72: DIV   $2 $1 $3
-0x1f73: NAND  $6 $1 $0
-0x1f74: NAND  $2 $5 $6
-0x1f75: HALT
-0x1f76: NAND  $6 $2 $0
-0x1f77: NAND  $6 $0 $1
-0x1f78: NAND  $3 $1 $1
-0x1f79: ALLOC $4 $3
-0x1f7a: CMOVE $3 $6 $6
-0x1f7b: OUT   $7
-0x1f7c: OUT   $1
-0x1f7d: OUT   $3
-0x1f7e: IN    $3
-0x1f7f: ALLOC $7 $0
-0x1f80: DIV   $7 $2 $7
-0x1f81: OUT   $6
-0x1f82: NAND  $1 $0 $3
-0x1f83: HALT
-0x1f84: NAND  $2 $2 $3
-0x1f85: OUT   $3
-0x1f86: FREE  $3
-0x1f87: HALT
-0x1f88: HALT
-0x1f89: NAND  $1 $0 $2
-0x1f8a: CMOVE $3 $4 $3
-0x1f8b: FREE  $0
-0x1f8c: OUT   $5
-0x1f8d: FREE  $6
-0x1f8e: OUT   $1
-0x1f8f: IN    $7
-0x1f90: OUT   $7
-0x1f91: OUT   $6
-0x1f92: ALLOC $2 $7
-0x1f93: NAND  $6 $0 $6
-0x1f94: IN    $5
-0x1f95: FREE  $4
-0x1f96: ADD   $4 $2 $4
-0x1f97: CMOVE $5 $2 $3
-0x1f98: OUT   $0
-0x1f99: FREE  $4
-0x1f9a: HALT
-0x1f9b: IN    $1
-0x1f9c: FREE  $4
-0x1f9d: ALLOC $3 $0
-0x1f9e: FREE  $1
-0x1f9f: IN    $6
-0x1fa0: OUT   $7
-0x1fa1: IN    $5
-0x1fa2: WMEM  $4 $4 $2
-0x1fa3: ALLOC $7 $1
-0x1fa4: IN    $3
-0x1fa5: OUT   $6
-0x1fa6: FREE  $4
-0x1fa7: ALLOC $7 $0
-0x1fa8: HALT
-0x1fa9: FREE  $4
-0x1faa: OUT   $0
-0x1fab: OUT   $1
-0x1fac: OUT   $7
-0x1fad: HALT
-0x1fae: ALLOC $7 $3
-0x1faf: CMOVE $6 $7 $3
-0x1fb0: ALLOC $6 $5
-0x1fb1: IN    $2
-0x1fb2: ALLOC $7 $3
-0x1fb3: FREE  $7
-0x1fb4: OUT   $6
-0x1fb5: NAND  $1 $7 $4
-0x1fb6: OUT   $3
-0x1fb7: OUT   $3
-0x1fb8: OUT   $7
-0x1fb9: OUT   $1
-0x1fba: NAND  $7 $6 $5
-0x1fbb: FREE  $1
-0x1fbc: CMOVE $0 $0 $4
-0x1fbd: NAND  $2 $0 $7
-0x1fbe: WMEM  $2 $2 $2
-0x1fbf: FREE  $4
-0x1fc0: DIV   $0 $7 $3
-0x1fc1: OUT   $3
-0x1fc2: IN    $2
-0x1fc3: ALLOC $5 $7
-0x1fc4: HALT
-0x1fc5: IN    $3
-0x1fc6: FREE  $1
-0x1fc7: IN    $5
-0x1fc8: NAND  $6 $5 $1
-0x1fc9: IN    $6
-0x1fca: OUT   $4
-0x1fcb: FREE  $0
-0x1fcc: IN    $5
-0x1fcd: NAND  $0 $5 $2
-0x1fce: OUT   $2
-0x1fcf: OUT   $2
-0x1fd0: IN    $4
-0x1fd1: NAND  $4 $7 $1
-0x1fd2: ALLOC $2 $1
-0x1fd3: IN    $4
-0x1fd4: HALT
-0x1fd5: FREE  $4
-0x1fd6: ALLOC $1 $7
-0x1fd7: FREE  $5
-0x1fd8: OUT   $0
-0x1fd9: OUT   $4
-0x1fda: HALT
-0x1fdb: FREE  $7
-0x1fdc: FREE  $2
-0x1fdd: OUT   $4
-0x1fde: IN    $3
-0x1fdf: NAND  $1 $4 $1
-0x1fe0: FREE  $6
-0x1fe1: CMOVE $3 $6 $0
-0x1fe2: FREE  $5
-0x1fe3: OUT   $0
-0x1fe4: FREE  $6
-0x1fe5: OUT   $3
-0x1fe6: FREE  $0
-0x1fe7: FREE  $3
-0x1fe8: DIV   $0 $0 $1
-0x1fe9: FREE  $7
-0x1fea: CMOVE $5 $7 $7
-0x1feb: OUT   $0
-0x1fec: NAND  $1 $0 $0
-0x1fed: HALT
-0x1fee: HALT
-0x1fef: IN    $6
-0x1ff0: FREE  $0
-0x1ff1: WMEM  $1 $7 $2
-0x1ff2: FREE  $5
-0x1ff3: FREE  $5
-0x1ff4: IN    $0
-0x1ff5: IN    $5
-0x1ff6: FREE  $7
-0x1ff7: IN    $1
-0x1ff8: FREE  $6
-0x1ff9: OUT   $7
-0x1ffa: IN    $6
-0x1ffb: IN    $0
-0x1ffc: IN    $7
-0x1ffd: ALLOC $3 $7
-0x1ffe: ALLOC $7 $1
-0x1fff: OUT   $7
-0x2000: OUT   $1
-0x2001: OUT   $0
-0x2002: IN    $3
-0x2003: IN    $1
-0x2004: HALT
-0x2005: CMOVE $1 $4 $3
-0x2006: IN    $6
-0x2007: OUT   $1
-0x2008: HALT
-0x2009: ALLOC $0 $2
-0x200a: FREE  $7
-0x200b: CMOVE $2 $1 $0
-0x200c: IN    $2
-0x200d: FREE  $1
-0x200e: OUT   $4
-0x200f: OUT   $5
-0x2010: HALT
-0x2011: IN    $6
-0x2012: ALLOC $6 $7
-0x2013: IN    $2
-0x2014: ALLOC $4 $1
-0x2015: FREE  $2
-0x2016: CMOVE $2 $6 $1
-0x2017: IN    $6
-0x2018: ALLOC $2 $5
-0x2019: ALLOC $6 $7
-0x201a: OUT   $6
-0x201b: FREE  $7
-0x201c: OUT   $2
-0x201d: FREE  $4
-0x201e: FREE  $7
-0x201f: CMOVE $7 $2 $7
-0x2020: IN    $3
-0x2021: IN    $7
-0x2022: OUT   $7
-0x2023: OUT   $4
-0x2024: OUT   $6
-0x2025: ALLOC $7 $6
-0x2026: IN    $6
-0x2027: ALLOC $1 $7
-0x2028: IN    $4
-0x2029: ALLOC $2 $6
-0x202a: OUT   $5
-0x202b: IN    $6
-0x202c: IN    $0
-0x202d: IN    $6
-0x202e: OUT   $1
-0x202f: FREE  $7
-0x2030: ALLOC $7 $0
-0x2031: NAND  $3 $6 $6
-0x2032: IN    $7
-0x2033: IN    $1
-0x2034: CMOVE $4 $7 $3
-0x2035: IN    $5
-0x2036: IN    $0
-0x2037: IN    $7
-0x2038: OUT   $1
-0x2039: ALLOC $4 $5
-0x203a: IN    $7
-0x203b: HALT
-0x203c: CMOVE $5 $2 $5
-0x203d: IN    $7
-0x203e: IN    $0
-0x203f: OUT   $3
-0x2040: IN    $5
-0x2041: HALT
-0x2042: IN    $3
-0x2043: OUT   $0
-0x2044: IN    $1
-0x2045: HALT
-0x2046: OUT   $1
-0x2047: ALLOC $4 $0
-0x2048: ALLOC $4 $2
-0x2049: NAND  $1 $1 $5
-0x204a: NAND  $3 $3 $7
-0x204b: CMOVE $4 $3 $5
-0x204c: ALLOC $3 $1
-0x204d: MUL   $1 $5 $3
-0x204e: FREE  $6
-0x204f: IN    $0
-0x2050: MUL   $5 $6 $1
-0x2051: ALLOC $7 $7
-0x2052: MUL   $5 $3 $5
-0x2053: ALLOC $5 $0
-0x2054: MUL   $2 $7 $1
-0x2055: CMOVE $4 $6 $0
-0x2056: HALT
-0x2057: IN    $6
-0x2058: IN    $0
-0x2059: IN    $2
-0x205a: FREE  $2
-0x205b: NAND  $1 $7 $4
-0x205c: ALLOC $5 $3
-0x205d: ADD   $2 $2 $3
-0x205e: IN    $3
-0x205f: MUL   $3 $6 $1
-0x2060: IN    $3
-0x2061: IN    $1
-0x2062: OUT   $2
-0x2063: ALLOC $3 $3
-0x2064: NAND  $0 $5 $0
-0x2065: HALT
-0x2066: FREE  $7
-0x2067: HALT
-0x2068: IN    $2
-0x2069: OUT   $7
-0x206a: IN    $6
-0x206b: CMOVE $0 $5 $7
-0x206c: WMEM  $0 $5 $0
-0x206d: IN    $0
-0x206e: OUT   $7
-0x206f: HALT
-0x2070: OUT   $3
-0x2071: FREE  $1
-0x2072: HALT
-0x2073: RMEM  $7 $7 $6
-0x2074: CMOVE $1 $2 $7
-0x2075: CMOVE $5 $5 $5
-0x2076: DIV   $1 $3 $0
-0x2077: DIV   $0 $1 $6
-0x2078: IN    $1
-0x2079: CMOVE $5 $7 $5
-0x207a: IN    $0
-0x207b: IN    $4
-0x207c: IN    $4
-0x207d: IN    $6
-0x207e: OUT   $4
-0x207f: FREE  $6
-0x2080: IN    $0
-0x2081: IN    $4
-0x2082: NAND  $7 $5 $3
-0x2083: FREE  $0
-0x2084: IN    $5
-0x2085: OUT   $1
-0x2086: FREE  $6
-0x2087: WMEM  $1 $4 $4
-0x2088: HALT
-0x2089: ADD   $5 $2 $5
-0x208a: FREE  $0
-0x208b: IN    $3
-0x208c: OUT   $1
-0x208d: IN    $4
-0x208e: IN    $2
-0x208f: OUT   $5
-0x2090: CMOVE $5 $0 $6
-0x2091: MUL   $0 $1 $2
-0x2092: IN    $3
-0x2093: OUT   $2
-0x2094: IN    $3
-0x2095: OUT   $7
-0x2096: OUT   $6
-0x2097: CMOVE $6 $5 $5
-0x2098: WMEM  $1 $3 $1
-0x2099: IN    $1
-0x209a: NAND  $3 $5 $3
-0x209b: IN    $7
-0x209c: NAND  $1 $4 $6
-0x209d: FREE  $1
-0x209e: FREE  $0
-0x209f: OUT   $7
-0x20a0: IN    $7
-0x20a1: OUT   $0
-0x20a2: FREE  $1
-0x20a3: HALT
-0x20a4: ALLOC $2 $2
-0x20a5: HALT
-0x20a6: ALLOC $3 $0
-0x20a7: JUMP  $7 $6
+0x198c: cmove $6 $3 $0
+0x198d: out   $2
+0x198e: imm   $3 30514424
+0x198f: cmove $1 $3 $1
+0x1990: nand  $1 $6 $6
+0x1991: halt
+0x1992: nand  $1 $4 $4
+0x1993: rmem  $0 $0 $0
+0x1994: halt
+0x1995: nand  $5 $2 $0
+0x1996: halt
+0x1997: div   $7 $1 $6
+0x1998: cmove $0 $7 $5
+0x1999: halt
+0x199a: div   $7 $0 $1
+0x199b: halt
+0x199c: halt
+0x199d: add   $5 $3 $4
+0x199e: halt
+0x199f: halt
+0x19a0: halt
+0x19a1: free  $6
+0x19a2: halt
+0x19a3: alloc $0 $0
+0x19a4: div   $7 $4 $2
+0x19a5: halt
+0x19a6: halt
+0x19a7: halt
+0x19a8: div   $2 $0 $0
+0x19a9: halt
+0x19aa: rmem  $3 $6 $4
+0x19ab: nand  $7 $5 $6
+0x19ac: halt
+0x19ad: cmove $7 $7 $1
+0x19ae: wmem  $1 $7 $3
+0x19af: div   $2 $6 $4
+0x19b0: halt
+0x19b1: nand  $3 $1 $4
+0x19b2: halt
+0x19b3: nand  $6 $5 $0
+0x19b4: halt
+0x19b5: halt
+0x19b6: div   $0 $5 $2
+0x19b7: halt
+0x19b8: halt
+0x19b9: halt
+0x19ba: halt
+0x19bb: alloc $4 $2
+0x19bc: cmove $2 $2 $3
+0x19bd: div   $6 $4 $7
+0x19be: halt
+0x19bf: halt
+0x19c0: halt
+0x19c1: halt
+0x19c2: alloc $2 $5
+0x19c3: halt
+0x19c4: free  $1
+0x19c5: halt
+0x19c6: alloc $7 $2
+0x19c7: wmem  $0 $7 $2
+0x19c8: nand  $0 $6 $2
+0x19c9: div   $0 $5 $0
+0x19ca: halt
+0x19cb: free  $7
+0x19cc: rmem  $1 $0 $0
+0x19cd: nand  $6 $5 $5
+0x19ce: halt
+0x19cf: halt
+0x19d0: div   $7 $5 $2
+0x19d1: div   $5 $3 $6
+0x19d2: div   $1 $1 $1
+0x19d3: alloc $6 $7
+0x19d4: cmove $5 $7 $7
+0x19d5: rmem  $4 $3 $3
+0x19d6: alloc $7 $6
+0x19d7: mul   $2 $0 $4
+0x19d8: rmem  $3 $4 $5
+0x19d9: mul   $3 $4 $4
+0x19da: alloc $2 $6
+0x19db: cmove $0 $1 $0
+0x19dc: cmove $5 $5 $0
+0x19dd: halt
+0x19de: nand  $2 $4 $6
+0x19df: cmove $5 $6 $2
+0x19e0: nand  $5 $5 $7
+0x19e1: halt
+0x19e2: alloc $7 $6
+0x19e3: add   $3 $7 $6
+0x19e4: halt
+0x19e5: alloc $5 $6
+0x19e6: alloc $7 $7
+0x19e7: nand  $2 $5 $0
+0x19e8: cmove $0 $4 $3
+0x19e9: div   $0 $2 $4
+0x19ea: halt
+0x19eb: cmove $4 $3 $2
+0x19ec: halt
+0x19ed: cmove $6 $7 $4
+0x19ee: cmove $3 $6 $0
+0x19ef: cmove $2 $7 $3
+0x19f0: add   $0 $3 $5
+0x19f1: alloc $3 $7
+0x19f2: div   $7 $5 $7
+0x19f3: div   $0 $6 $3
+0x19f4: wmem  $5 $5 $1
+0x19f5: free  $1
+0x19f6: halt
+0x19f7: alloc $4 $6
+0x19f8: halt
+0x19f9: alloc $0 $6
+0x19fa: rmem  $2 $1 $0
+0x19fb: alloc $3 $6
+0x19fc: cmove $5 $1 $6
+0x19fd: rmem  $0 $7 $4
+0x19fe: alloc $3 $7
+0x19ff: alloc $4 $3
+0x1a00: alloc $6 $6
+0x1a01: alloc $1 $7
+0x1a02: alloc $1 $5
+0x1a03: nand  $4 $6 $4
+0x1a04: nand  $0 $7 $7
+0x1a05: halt
+0x1a06: halt
+0x1a07: add   $6 $6 $2
+0x1a08: halt
+0x1a09: halt
+0x1a0a: cmove $0 $0 $4
+0x1a0b: cmove $0 $1 $1
+0x1a0c: rmem  $5 $6 $5
+0x1a0d: add   $1 $0 $0
+0x1a0e: halt
+0x1a0f: halt
+0x1a10: halt
+0x1a11: mul   $1 $4 $6
+0x1a12: halt
+0x1a13: halt
+0x1a14: halt
+0x1a15: halt
+0x1a16: div   $5 $4 $0
+0x1a17: nand  $5 $4 $0
+0x1a18: mul   $7 $7 $1
+0x1a19: halt
+0x1a1a: mul   $1 $5 $3
+0x1a1b: halt
+0x1a1c: alloc $1 $0
+0x1a1d: halt
+0x1a1e: cmove $1 $6 $7
+0x1a1f: nand  $2 $1 $0
+0x1a20: alloc $5 $0
+0x1a21: halt
+0x1a22: halt
+0x1a23: halt
+0x1a24: halt
+0x1a25: halt
+0x1a26: rmem  $2 $3 $6
+0x1a27: wmem  $0 $6 $7
+0x1a28: add   $6 $7 $6
+0x1a29: add   $1 $3 $3
+0x1a2a: wmem  $5 $3 $6
+0x1a2b: cmove $5 $4 $0
+0x1a2c: nand  $0 $7 $7
+0x1a2d: cmove $1 $2 $0
+0x1a2e: nand  $3 $5 $7
+0x1a2f: cmove $1 $7 $1
+0x1a30: cmove $2 $6 $4
+0x1a31: halt
+0x1a32: alloc $2 $3
+0x1a33: cmove $0 $6 $1
+0x1a34: cmove $1 $1 $0
+0x1a35: cmove $6 $3 $1
+0x1a36: add   $7 $7 $6
+0x1a37: alloc $2 $6
+0x1a38: cmove $0 $0 $2
+0x1a39: cmove $3 $6 $1
+0x1a3a: div   $1 $6 $1
+0x1a3b: div   $2 $4 $3
+0x1a3c: div   $3 $3 $7
+0x1a3d: cmove $5 $4 $1
+0x1a3e: cmove $4 $5 $6
+0x1a3f: cmove $0 $7 $5
+0x1a40: halt
+0x1a41: halt
+0x1a42: mul   $3 $4 $3
+0x1a43: cmove $7 $7 $7
+0x1a44: alloc $6 $0
+0x1a45: alloc $4 $4
+0x1a46: cmove $6 $1 $7
+0x1a47: cmove $2 $4 $2
+0x1a48: cmove $5 $7 $5
+0x1a49: mul   $5 $5 $2
+0x1a4a: cmove $5 $5 $2
+0x1a4b: mul   $2 $4 $4
+0x1a4c: div   $7 $1 $6
+0x1a4d: cmove $0 $4 $4
+0x1a4e: nand  $3 $5 $2
+0x1a4f: alloc $6 $4
+0x1a50: wmem  $3 $6 $1
+0x1a51: cmove $0 $0 $1
+0x1a52: alloc $7 $3
+0x1a53: cmove $6 $6 $5
+0x1a54: cmove $6 $3 $0
+0x1a55: nand  $0 $4 $0
+0x1a56: cmove $2 $2 $3
+0x1a57: free  $7
+0x1a58: alloc $3 $1
+0x1a59: cmove $6 $4 $3
+0x1a5a: alloc $7 $3
+0x1a5b: mul   $6 $5 $3
+0x1a5c: rmem  $5 $3 $7
+0x1a5d: rmem  $5 $5 $3
+0x1a5e: cmove $3 $1 $3
+0x1a5f: div   $0 $1 $1
+0x1a60: alloc $7 $7
+0x1a61: halt
+0x1a62: halt
+0x1a63: nand  $4 $6 $0
+0x1a64: halt
+0x1a65: wmem  $1 $1 $6
+0x1a66: cmove $4 $3 $5
+0x1a67: add   $7 $1 $0
+0x1a68: div   $1 $7 $1
+0x1a69: div   $4 $3 $5
+0x1a6a: div   $3 $1 $0
+0x1a6b: alloc $5 $2
+0x1a6c: cmove $2 $1 $2
+0x1a6d: nand  $4 $1 $3
+0x1a6e: rmem  $5 $4 $6
+0x1a6f: alloc $3 $0
+0x1a70: halt
+0x1a71: alloc $0 $4
+0x1a72: alloc $0 $4
+0x1a73: div   $7 $1 $3
+0x1a74: halt
+0x1a75: alloc $6 $6
+0x1a76: add   $5 $0 $3
+0x1a77: halt
+0x1a78: alloc $3 $4
+0x1a79: alloc $4 $1
+0x1a7a: rmem  $6 $3 $0
+0x1a7b: alloc $7 $5
+0x1a7c: div   $1 $1 $2
+0x1a7d: halt
+0x1a7e: alloc $5 $7
+0x1a7f: halt
+0x1a80: alloc $1 $5
+0x1a81: div   $7 $0 $5
+0x1a82: halt
+0x1a83: div   $1 $1 $7
+0x1a84: halt
+0x1a85: alloc $7 $5
+0x1a86: alloc $2 $5
+0x1a87: alloc $1 $2
+0x1a88: rmem  $0 $4 $5
+0x1a89: alloc $7 $5
+0x1a8a: alloc $3 $5
+0x1a8b: alloc $2 $0
+0x1a8c: alloc $2 $6
+0x1a8d: halt
+0x1a8e: halt
+0x1a8f: div   $5 $1 $7
+0x1a90: alloc $4 $5
+0x1a91: alloc $3 $2
+0x1a92: nand  $0 $4 $3
+0x1a93: halt
+0x1a94: nand  $6 $6 $0
+0x1a95: rmem  $6 $7 $7
+0x1a96: div   $6 $5 $1
+0x1a97: halt
+0x1a98: div   $5 $6 $2
+0x1a99: alloc $6 $2
+0x1a9a: alloc $4 $7
+0x1a9b: alloc $5 $1
+0x1a9c: alloc $3 $0
+0x1a9d: div   $7 $2 $0
+0x1a9e: alloc $4 $3
+0x1a9f: alloc $1 $2
+0x1aa0: halt
+0x1aa1: alloc $2 $2
+0x1aa2: nand  $7 $4 $6
+0x1aa3: cmove $1 $7 $3
+0x1aa4: nand  $4 $3 $6
+0x1aa5: halt
+0x1aa6: rmem  $7 $6 $5
+0x1aa7: alloc $4 $2
+0x1aa8: alloc $5 $7
+0x1aa9: rmem  $5 $2 $6
+0x1aaa: nand  $2 $3 $6
+0x1aab: cmove $5 $5 $0
+0x1aac: cmove $2 $7 $0
+0x1aad: cmove $4 $4 $0
+0x1aae: div   $4 $0 $2
+0x1aaf: cmove $6 $0 $5
+0x1ab0: halt
+0x1ab1: halt
+0x1ab2: div   $7 $5 $3
+0x1ab3: div   $5 $7 $6
+0x1ab4: cmove $0 $7 $2
+0x1ab5: cmove $0 $2 $2
+0x1ab6: div   $2 $1 $2
+0x1ab7: alloc $0 $7
+0x1ab8: cmove $7 $4 $3
+0x1ab9: div   $1 $2 $7
+0x1aba: div   $6 $1 $6
+0x1abb: alloc $6 $3
+0x1abc: alloc $5 $4
+0x1abd: halt
+0x1abe: cmove $1 $5 $7
+0x1abf: alloc $6 $6
+0x1ac0: div   $7 $6 $5
+0x1ac1: nand  $5 $1 $1
+0x1ac2: cmove $7 $3 $2
+0x1ac3: mul   $7 $4 $6
+0x1ac4: cmove $2 $4 $1
+0x1ac5: div   $1 $6 $2
+0x1ac6: halt
+0x1ac7: wmem  $7 $5 $7
+0x1ac8: nand  $4 $0 $6
+0x1ac9: alloc $0 $7
+0x1aca: halt
+0x1acb: alloc $7 $0
+0x1acc: alloc $1 $4
+0x1acd: div   $0 $2 $0
+0x1ace: out   $1
+0x1acf: alloc $1 $0
+0x1ad0: halt
+0x1ad1: alloc $1 $7
+0x1ad2: cmove $4 $0 $4
+0x1ad3: alloc $3 $0
+0x1ad4: alloc $4 $0
+0x1ad5: out   $2
+0x1ad6: alloc $0 $3
+0x1ad7: alloc $7 $0
+0x1ad8: div   $2 $7 $2
+0x1ad9: alloc $3 $6
+0x1ada: halt
+0x1adb: alloc $1 $7
+0x1adc: out   $0
+0x1add: nand  $0 $4 $3
+0x1ade: div   $2 $4 $2
+0x1adf: alloc $2 $3
+0x1ae0: nand  $5 $0 $6
+0x1ae1: halt
+0x1ae2: nand  $7 $5 $6
+0x1ae3: cmove $6 $1 $4
+0x1ae4: halt
+0x1ae5: cmove $6 $5 $7
+0x1ae6: cmove $3 $5 $5
+0x1ae7: halt
+0x1ae8: alloc $3 $3
+0x1ae9: halt
+0x1aea: div   $4 $3 $4
+0x1aeb: halt
+0x1aec: halt
+0x1aed: halt
+0x1aee: rmem  $7 $6 $6
+0x1aef: div   $5 $4 $4
+0x1af0: cmove $5 $3 $6
+0x1af1: rmem  $3 $2 $5
+0x1af2: div   $5 $4 $4
+0x1af3: cmove $4 $3 $6
+0x1af4: alloc $2 $5
+0x1af5: div   $4 $4 $0
+0x1af6: alloc $3 $6
+0x1af7: cmove $1 $6 $1
+0x1af8: mul   $1 $7 $3
+0x1af9: alloc $6 $3
+0x1afa: alloc $4 $4
+0x1afb: nand  $3 $2 $6
+0x1afc: alloc $5 $0
+0x1afd: nand  $1 $2 $0
+0x1afe: halt
+0x1aff: free  $7
+0x1b00: alloc $5 $0
+0x1b01: halt
+0x1b02: halt
+0x1b03: halt
+0x1b04: cmove $4 $6 $5
+0x1b05: halt
+0x1b06: free  $0
+0x1b07: alloc $3 $0
+0x1b08: alloc $7 $5
+0x1b09: alloc $0 $1
+0x1b0a: alloc $2 $6
+0x1b0b: alloc $2 $5
+0x1b0c: div   $4 $4 $1
+0x1b0d: nand  $0 $6 $5
+0x1b0e: alloc $4 $1
+0x1b0f: halt
+0x1b10: alloc $4 $0
+0x1b11: alloc $1 $4
+0x1b12: div   $5 $5 $5
+0x1b13: alloc $4 $5
+0x1b14: free  $2
+0x1b15: mul   $2 $4 $2
+0x1b16: alloc $5 $0
+0x1b17: div   $4 $1 $5
+0x1b18: alloc $7 $5
+0x1b19: alloc $1 $3
+0x1b1a: div   $4 $7 $7
+0x1b1b: div   $4 $2 $1
+0x1b1c: wmem  $7 $2 $3
+0x1b1d: alloc $6 $0
+0x1b1e: cmove $1 $1 $2
+0x1b1f: alloc $6 $4
+0x1b20: nand  $6 $2 $1
+0x1b21: halt
+0x1b22: div   $4 $5 $3
+0x1b23: halt
+0x1b24: alloc $7 $0
+0x1b25: alloc $4 $2
+0x1b26: alloc $3 $6
+0x1b27: rmem  $4 $3 $3
+0x1b28: rmem  $4 $7 $0
+0x1b29: rmem  $1 $7 $2
+0x1b2a: div   $0 $1 $7
+0x1b2b: halt
+0x1b2c: halt
+0x1b2d: nand  $2 $2 $4
+0x1b2e: div   $3 $3 $4
+0x1b2f: alloc $4 $5
+0x1b30: out   $6
+0x1b31: halt
+0x1b32: rmem  $4 $4 $0
+0x1b33: rmem  $2 $7 $5
+0x1b34: alloc $3 $6
+0x1b35: alloc $5 $7
+0x1b36: alloc $0 $1
+0x1b37: mul   $2 $0 $7
+0x1b38: nand  $1 $0 $5
+0x1b39: alloc $5 $3
+0x1b3a: cmove $3 $5 $1
+0x1b3b: nand  $5 $6 $0
+0x1b3c: alloc $3 $4
+0x1b3d: alloc $6 $2
+0x1b3e: alloc $6 $6
+0x1b3f: halt
+0x1b40: alloc $4 $6
+0x1b41: nand  $0 $1 $6
+0x1b42: cmove $0 $7 $6
+0x1b43: halt
+0x1b44: nand  $1 $3 $7
+0x1b45: rmem  $1 $0 $7
+0x1b46: alloc $0 $0
+0x1b47: alloc $7 $2
+0x1b48: div   $0 $1 $5
+0x1b49: alloc $2 $0
+0x1b4a: halt
+0x1b4b: alloc $5 $6
+0x1b4c: out   $0
+0x1b4d: halt
+0x1b4e: alloc $5 $7
+0x1b4f: halt
+0x1b50: add   $0 $6 $0
+0x1b51: alloc $4 $4
+0x1b52: alloc $6 $2
+0x1b53: wmem  $2 $5 $0
+0x1b54: free  $5
+0x1b55: mul   $4 $0 $0
+0x1b56: free  $0
+0x1b57: halt
+0x1b58: halt
+0x1b59: cmove $0 $3 $7
+0x1b5a: nand  $3 $5 $5
+0x1b5b: alloc $5 $7
+0x1b5c: alloc $0 $1
+0x1b5d: alloc $1 $0
+0x1b5e: alloc $6 $4
+0x1b5f: alloc $1 $0
+0x1b60: wmem  $4 $1 $7
+0x1b61: wmem  $0 $7 $1
+0x1b62: rmem  $1 $5 $6
+0x1b63: nand  $1 $3 $7
+0x1b64: alloc $0 $4
+0x1b65: alloc $4 $7
+0x1b66: alloc $3 $4
+0x1b67: halt
+0x1b68: nand  $4 $2 $0
+0x1b69: div   $1 $5 $5
+0x1b6a: halt
+0x1b6b: div   $2 $0 $1
+0x1b6c: nand  $6 $5 $3
+0x1b6d: div   $0 $5 $0
+0x1b6e: alloc $5 $6
+0x1b6f: nand  $3 $4 $3
+0x1b70: alloc $7 $1
+0x1b71: halt
+0x1b72: alloc $0 $2
+0x1b73: alloc $5 $3
+0x1b74: alloc $7 $3
+0x1b75: alloc $7 $5
+0x1b76: alloc $1 $3
+0x1b77: alloc $6 $0
+0x1b78: alloc $0 $6
+0x1b79: alloc $1 $0
+0x1b7a: free  $6
+0x1b7b: cmove $0 $5 $2
+0x1b7c: alloc $2 $6
+0x1b7d: out   $0
+0x1b7e: alloc $6 $4
+0x1b7f: rmem  $7 $3 $2
+0x1b80: alloc $2 $0
+0x1b81: alloc $0 $1
+0x1b82: alloc $4 $4
+0x1b83: alloc $5 $0
+0x1b84: alloc $0 $6
+0x1b85: alloc $5 $5
+0x1b86: alloc $3 $2
+0x1b87: halt
+0x1b88: halt
+0x1b89: alloc $0 $2
+0x1b8a: halt
+0x1b8b: nand  $7 $2 $4
+0x1b8c: alloc $3 $7
+0x1b8d: free  $1
+0x1b8e: alloc $0 $2
+0x1b8f: alloc $5 $2
+0x1b90: wmem  $2 $7 $3
+0x1b91: nand  $2 $6 $7
+0x1b92: mul   $0 $5 $1
+0x1b93: halt
+0x1b94: halt
+0x1b95: free  $0
+0x1b96: alloc $0 $0
+0x1b97: free  $6
+0x1b98: free  $4
+0x1b99: out   $6
+0x1b9a: free  $0
+0x1b9b: free  $4
+0x1b9c: cmove $0 $2 $6
+0x1b9d: wmem  $0 $5 $1
+0x1b9e: rmem  $1 $4 $5
+0x1b9f: free  $4
+0x1ba0: alloc $2 $5
+0x1ba1: free  $0
+0x1ba2: free  $2
+0x1ba3: alloc $6 $4
+0x1ba4: halt
+0x1ba5: halt
+0x1ba6: div   $5 $0 $0
+0x1ba7: free  $3
+0x1ba8: alloc $0 $2
+0x1ba9: free  $6
+0x1baa: free  $5
+0x1bab: alloc $2 $5
+0x1bac: halt
+0x1bad: alloc $2 $0
+0x1bae: out   $2
+0x1baf: rmem  $4 $4 $4
+0x1bb0: div   $1 $4 $4
+0x1bb1: div   $6 $0 $3
+0x1bb2: alloc $0 $3
+0x1bb3: free  $5
+0x1bb4: halt
+0x1bb5: alloc $5 $4
+0x1bb6: rmem  $1 $4 $3
+0x1bb7: cmove $1 $3 $1
+0x1bb8: halt
+0x1bb9: alloc $1 $4
+0x1bba: halt
+0x1bbb: halt
+0x1bbc: out   $7
+0x1bbd: nand  $7 $4 $1
+0x1bbe: alloc $0 $7
+0x1bbf: cmove $0 $2 $4
+0x1bc0: alloc $4 $1
+0x1bc1: alloc $1 $4
+0x1bc2: free  $7
+0x1bc3: free  $4
+0x1bc4: alloc $2 $5
+0x1bc5: alloc $4 $4
+0x1bc6: halt
+0x1bc7: rmem  $2 $1 $4
+0x1bc8: free  $7
+0x1bc9: halt
+0x1bca: free  $4
+0x1bcb: free  $7
+0x1bcc: cmove $4 $1 $0
+0x1bcd: wmem  $7 $0 $5
+0x1bce: free  $6
+0x1bcf: halt
+0x1bd0: rmem  $3 $6 $2
+0x1bd1: out   $1
+0x1bd2: halt
+0x1bd3: free  $1
+0x1bd4: free  $6
+0x1bd5: wmem  $7 $4 $0
+0x1bd6: free  $0
+0x1bd7: cmove $6 $6 $1
+0x1bd8: out   $4
+0x1bd9: halt
+0x1bda: free  $5
+0x1bdb: halt
+0x1bdc: free  $5
+0x1bdd: div   $0 $7 $5
+0x1bde: cmove $1 $4 $5
+0x1bdf: out   $5
+0x1be0: free  $5
+0x1be1: free  $7
+0x1be2: halt
+0x1be3: halt
+0x1be4: alloc $5 $7
+0x1be5: alloc $4 $6
+0x1be6: free  $6
+0x1be7: halt
+0x1be8: rmem  $0 $4 $0
+0x1be9: rmem  $0 $5 $5
+0x1bea: rmem  $3 $4 $4
+0x1beb: div   $7 $4 $2
+0x1bec: alloc $4 $5
+0x1bed: mul   $6 $5 $1
+0x1bee: free  $0
+0x1bef: alloc $5 $0
+0x1bf0: alloc $6 $0
+0x1bf1: free  $5
+0x1bf2: alloc $5 $2
+0x1bf3: alloc $1 $0
+0x1bf4: nand  $7 $1 $6
+0x1bf5: alloc $5 $6
+0x1bf6: cmove $3 $5 $1
+0x1bf7: alloc $2 $3
+0x1bf8: alloc $2 $7
+0x1bf9: halt
+0x1bfa: nand  $0 $5 $1
+0x1bfb: free  $4
+0x1bfc: alloc $2 $6
+0x1bfd: cmove $0 $1 $6
+0x1bfe: free  $5
+0x1bff: alloc $7 $0
+0x1c00: alloc $1 $1
+0x1c01: free  $5
+0x1c02: free  $6
+0x1c03: free  $7
+0x1c04: halt
+0x1c05: halt
+0x1c06: cmove $0 $4 $4
+0x1c07: nand  $4 $0 $6
+0x1c08: wmem  $2 $5 $3
+0x1c09: rmem  $1 $7 $3
+0x1c0a: rmem  $3 $4 $0
+0x1c0b: nand  $1 $7 $6
+0x1c0c: halt
+0x1c0d: rmem  $4 $4 $5
+0x1c0e: free  $2
+0x1c0f: free  $6
+0x1c10: div   $7 $6 $7
+0x1c11: free  $1
+0x1c12: div   $2 $1 $6
+0x1c13: halt
+0x1c14: cmove $0 $4 $6
+0x1c15: cmove $0 $2 $2
+0x1c16: mul   $5 $0 $6
+0x1c17: free  $2
+0x1c18: alloc $3 $0
+0x1c19: halt
+0x1c1a: alloc $3 $7
+0x1c1b: alloc $7 $6
+0x1c1c: free  $4
+0x1c1d: free  $1
+0x1c1e: alloc $2 $7
+0x1c1f: free  $7
+0x1c20: div   $7 $1 $1
+0x1c21: alloc $7 $7
+0x1c22: rmem  $6 $0 $4
+0x1c23: cmove $4 $3 $7
+0x1c24: alloc $0 $1
+0x1c25: out   $7
+0x1c26: free  $2
+0x1c27: rmem  $7 $4 $1
+0x1c28: cmove $1 $2 $1
+0x1c29: free  $3
+0x1c2a: alloc $5 $2
+0x1c2b: alloc $0 $3
+0x1c2c: free  $1
+0x1c2d: free  $3
+0x1c2e: rmem  $7 $4 $2
+0x1c2f: cmove $1 $3 $1
+0x1c30: cmove $7 $2 $6
+0x1c31: wmem  $2 $5 $3
+0x1c32: free  $3
+0x1c33: cmove $6 $3 $3
+0x1c34: free  $2
+0x1c35: alloc $1 $6
+0x1c36: cmove $2 $7 $1
+0x1c37: cmove $5 $2 $5
+0x1c38: free  $4
+0x1c39: free  $4
+0x1c3a: free  $2
+0x1c3b: alloc $5 $4
+0x1c3c: halt
+0x1c3d: free  $7
+0x1c3e: free  $3
+0x1c3f: free  $6
+0x1c40: alloc $7 $1
+0x1c41: out   $3
+0x1c42: cmove $7 $2 $0
+0x1c43: free  $6
+0x1c44: free  $5
+0x1c45: alloc $6 $2
+0x1c46: div   $3 $2 $4
+0x1c47: div   $1 $3 $5
+0x1c48: out   $4
+0x1c49: wmem  $0 $2 $0
+0x1c4a: wmem  $4 $4 $0
+0x1c4b: cmove $4 $2 $1
+0x1c4c: alloc $6 $3
+0x1c4d: alloc $2 $5
+0x1c4e: free  $7
+0x1c4f: out   $0
+0x1c50: wmem  $3 $3 $6
+0x1c51: cmove $4 $6 $3
+0x1c52: cmove $4 $7 $7
+0x1c53: free  $4
+0x1c54: cmove $0 $7 $2
+0x1c55: div   $2 $0 $6
+0x1c56: out   $7
+0x1c57: alloc $3 $2
+0x1c58: halt
+0x1c59: halt
+0x1c5a: div   $4 $7 $1
+0x1c5b: alloc $3 $6
+0x1c5c: cmove $3 $3 $7
+0x1c5d: cmove $2 $3 $3
+0x1c5e: alloc $3 $6
+0x1c5f: wmem  $7 $2 $6
+0x1c60: wmem  $0 $6 $3
+0x1c61: halt
+0x1c62: free  $6
+0x1c63: halt
+0x1c64: out   $2
+0x1c65: cmove $1 $3 $3
+0x1c66: wmem  $5 $1 $7
+0x1c67: wmem  $5 $3 $6
+0x1c68: alloc $0 $7
+0x1c69: halt
+0x1c6a: div   $1 $4 $5
+0x1c6b: div   $3 $1 $5
+0x1c6c: nand  $6 $7 $0
+0x1c6d: div   $6 $4 $7
+0x1c6e: alloc $5 $0
+0x1c6f: halt
+0x1c70: alloc $2 $1
+0x1c71: div   $0 $4 $5
+0x1c72: div   $5 $7 $1
+0x1c73: halt
+0x1c74: cmove $7 $4 $3
+0x1c75: cmove $0 $7 $1
+0x1c76: free  $7
+0x1c77: free  $1
+0x1c78: free  $0
+0x1c79: out   $1
+0x1c7a: free  $2
+0x1c7b: free  $2
+0x1c7c: free  $1
+0x1c7d: free  $5
+0x1c7e: alloc $2 $7
+0x1c7f: alloc $0 $4
+0x1c80: out   $2
+0x1c81: halt
+0x1c82: free  $0
+0x1c83: free  $7
+0x1c84: alloc $4 $5
+0x1c85: rmem  $2 $5 $5
+0x1c86: alloc $0 $5
+0x1c87: out   $4
+0x1c88: rmem  $1 $5 $5
+0x1c89: halt
+0x1c8a: free  $5
+0x1c8b: div   $5 $0 $5
+0x1c8c: halt
+0x1c8d: alloc $2 $3
+0x1c8e: free  $6
+0x1c8f: alloc $3 $3
+0x1c90: free  $4
+0x1c91: alloc $0 $0
+0x1c92: alloc $7 $5
+0x1c93: halt
+0x1c94: alloc $5 $3
+0x1c95: nand  $5 $6 $2
+0x1c96: alloc $3 $5
+0x1c97: free  $5
+0x1c98: free  $7
+0x1c99: alloc $7 $5
+0x1c9a: alloc $5 $5
+0x1c9b: free  $1
+0x1c9c: out   $5
+0x1c9d: free  $7
+0x1c9e: halt
+0x1c9f: free  $6
+0x1ca0: free  $7
+0x1ca1: free  $1
+0x1ca2: free  $1
+0x1ca3: out   $6
+0x1ca4: alloc $6 $2
+0x1ca5: free  $2
+0x1ca6: alloc $5 $5
+0x1ca7: free  $5
+0x1ca8: alloc $6 $2
+0x1ca9: wmem  $7 $1 $3
+0x1caa: nand  $2 $7 $0
+0x1cab: rmem  $2 $2 $6
+0x1cac: halt
+0x1cad: halt
+0x1cae: cmove $5 $2 $2
+0x1caf: cmove $0 $0 $1
+0x1cb0: cmove $6 $7 $5
+0x1cb1: free  $2
+0x1cb2: free  $0
+0x1cb3: free  $4
+0x1cb4: free  $2
+0x1cb5: free  $6
+0x1cb6: rmem  $4 $5 $3
+0x1cb7: cmove $0 $4 $0
+0x1cb8: out   $2
+0x1cb9: rmem  $4 $1 $1
+0x1cba: rmem  $7 $3 $3
+0x1cbb: free  $6
+0x1cbc: free  $1
+0x1cbd: halt
+0x1cbe: halt
+0x1cbf: nand  $5 $2 $0
+0x1cc0: div   $7 $0 $7
+0x1cc1: halt
+0x1cc2: div   $6 $4 $0
+0x1cc3: alloc $6 $4
+0x1cc4: free  $1
+0x1cc5: free  $5
+0x1cc6: out   $3
+0x1cc7: free  $2
+0x1cc8: free  $4
+0x1cc9: div   $0 $5 $6
+0x1cca: free  $1
+0x1ccb: free  $2
+0x1ccc: free  $6
+0x1ccd: wmem  $5 $7 $0
+0x1cce: free  $1
+0x1ccf: div   $3 $0 $2
+0x1cd0: free  $5
+0x1cd1: nand  $1 $2 $1
+0x1cd2: div   $6 $6 $3
+0x1cd3: nand  $6 $2 $5
+0x1cd4: wmem  $2 $3 $3
+0x1cd5: halt
+0x1cd6: nand  $2 $7 $0
+0x1cd7: free  $6
+0x1cd8: nand  $5 $6 $1
+0x1cd9: rmem  $7 $4 $1
+0x1cda: free  $5
+0x1cdb: free  $3
+0x1cdc: free  $4
+0x1cdd: cmove $6 $5 $6
+0x1cde: free  $5
+0x1cdf: free  $4
+0x1ce0: free  $4
+0x1ce1: halt
+0x1ce2: alloc $3 $4
+0x1ce3: alloc $4 $5
+0x1ce4: free  $2
+0x1ce5: halt
+0x1ce6: alloc $0 $2
+0x1ce7: alloc $4 $2
+0x1ce8: alloc $1 $0
+0x1ce9: out   $3
+0x1cea: alloc $5 $3
+0x1ceb: free  $6
+0x1cec: wmem  $4 $1 $3
+0x1ced: free  $5
+0x1cee: free  $3
+0x1cef: alloc $0 $4
+0x1cf0: out   $2
+0x1cf1: free  $1
+0x1cf2: alloc $1 $6
+0x1cf3: free  $2
+0x1cf4: mul   $1 $7 $2
+0x1cf5: free  $2
+0x1cf6: mul   $2 $3 $0
+0x1cf7: out   $7
+0x1cf8: mul   $3 $7 $7
+0x1cf9: free  $2
+0x1cfa: cmove $7 $4 $1
+0x1cfb: halt
+0x1cfc: alloc $0 $4
+0x1cfd: free  $7
+0x1cfe: wmem  $1 $4 $6
+0x1cff: free  $0
+0x1d00: free  $2
+0x1d01: cmove $1 $2 $6
+0x1d02: free  $1
+0x1d03: wmem  $0 $1 $2
+0x1d04: alloc $4 $6
+0x1d05: out   $6
+0x1d06: free  $6
+0x1d07: free  $3
+0x1d08: free  $0
+0x1d09: cmove $4 $3 $1
+0x1d0a: free  $1
+0x1d0b: free  $6
+0x1d0c: nand  $1 $7 $3
+0x1d0d: free  $5
+0x1d0e: free  $2
+0x1d0f: alloc $2 $3
+0x1d10: alloc $3 $7
+0x1d11: halt
+0x1d12: free  $5
+0x1d13: out   $0
+0x1d14: cmove $5 $0 $4
+0x1d15: free  $4
+0x1d16: div   $0 $7 $6
+0x1d17: rmem  $5 $5 $1
+0x1d18: free  $5
+0x1d19: free  $3
+0x1d1a: free  $6
+0x1d1b: rmem  $5 $6 $2
+0x1d1c: free  $5
+0x1d1d: mul   $1 $0 $2
+0x1d1e: free  $5
+0x1d1f: cmove $1 $6 $6
+0x1d20: free  $0
+0x1d21: out   $6
+0x1d22: alloc $4 $6
+0x1d23: free  $3
+0x1d24: halt
+0x1d25: cmove $6 $1 $0
+0x1d26: rmem  $0 $6 $0
+0x1d27: alloc $5 $1
+0x1d28: rmem  $4 $4 $4
+0x1d29: free  $0
+0x1d2a: free  $0
+0x1d2b: free  $6
+0x1d2c: free  $2
+0x1d2d: free  $1
+0x1d2e: free  $5
+0x1d2f: out   $2
+0x1d30: free  $5
+0x1d31: free  $5
+0x1d32: halt
+0x1d33: free  $6
+0x1d34: alloc $0 $1
+0x1d35: free  $2
+0x1d36: out   $5
+0x1d37: cmove $6 $7 $3
+0x1d38: alloc $0 $6
+0x1d39: cmove $0 $1 $5
+0x1d3a: free  $7
+0x1d3b: alloc $0 $4
+0x1d3c: rmem  $0 $5 $5
+0x1d3d: wmem  $6 $6 $5
+0x1d3e: halt
+0x1d3f: mul   $5 $2 $6
+0x1d40: free  $0
+0x1d41: free  $6
+0x1d42: alloc $2 $2
+0x1d43: alloc $5 $1
+0x1d44: out   $5
+0x1d45: free  $1
+0x1d46: div   $0 $3 $6
+0x1d47: free  $3
+0x1d48: cmove $3 $4 $2
+0x1d49: free  $1
+0x1d4a: div   $4 $3 $2
+0x1d4b: out   $7
+0x1d4c: free  $4
+0x1d4d: free  $4
+0x1d4e: free  $5
+0x1d4f: out   $4
+0x1d50: free  $2
+0x1d51: free  $5
+0x1d52: out   $3
+0x1d53: free  $7
+0x1d54: out   $7
+0x1d55: free  $0
+0x1d56: free  $6
+0x1d57: free  $2
+0x1d58: free  $0
+0x1d59: out   $6
+0x1d5a: halt
+0x1d5b: alloc $6 $3
+0x1d5c: alloc $1 $1
+0x1d5d: free  $4
+0x1d5e: free  $3
+0x1d5f: out   $3
+0x1d60: nand  $6 $2 $2
+0x1d61: free  $6
+0x1d62: out   $1
+0x1d63: rmem  $3 $0 $5
+0x1d64: alloc $7 $6
+0x1d65: out   $0
+0x1d66: free  $3
+0x1d67: alloc $6 $3
+0x1d68: rmem  $7 $6 $1
+0x1d69: free  $6
+0x1d6a: cmove $3 $5 $2
+0x1d6b: out   $1
+0x1d6c: free  $1
+0x1d6d: alloc $3 $3
+0x1d6e: nand  $4 $4 $7
+0x1d6f: free  $7
+0x1d70: free  $3
+0x1d71: out   $0
+0x1d72: free  $5
+0x1d73: alloc $3 $7
+0x1d74: out   $0
+0x1d75: alloc $1 $1
+0x1d76: alloc $3 $4
+0x1d77: out   $5
+0x1d78: free  $6
+0x1d79: alloc $4 $0
+0x1d7a: alloc $0 $3
+0x1d7b: free  $7
+0x1d7c: out   $5
+0x1d7d: out   $4
+0x1d7e: wmem  $1 $1 $7
+0x1d7f: free  $3
+0x1d80: free  $1
+0x1d81: out   $0
+0x1d82: out   $6
+0x1d83: nand  $0 $5 $4
+0x1d84: wmem  $1 $0 $0
+0x1d85: free  $7
+0x1d86: out   $0
+0x1d87: out   $1
+0x1d88: out   $7
+0x1d89: rmem  $2 $1 $0
+0x1d8a: wmem  $6 $6 $5
+0x1d8b: rmem  $1 $6 $5
+0x1d8c: free  $2
+0x1d8d: alloc $2 $4
+0x1d8e: free  $7
+0x1d8f: free  $1
+0x1d90: free  $3
+0x1d91: alloc $2 $4
+0x1d92: free  $7
+0x1d93: out   $1
+0x1d94: alloc $6 $5
+0x1d95: free  $5
+0x1d96: free  $7
+0x1d97: free  $1
+0x1d98: div   $4 $4 $2
+0x1d99: halt
+0x1d9a: wmem  $7 $2 $0
+0x1d9b: free  $6
+0x1d9c: free  $0
+0x1d9d: out   $3
+0x1d9e: free  $7
+0x1d9f: out   $3
+0x1da0: div   $3 $2 $2
+0x1da1: out   $0
+0x1da2: rmem  $5 $5 $2
+0x1da3: out   $6
+0x1da4: out   $0
+0x1da5: alloc $5 $2
+0x1da6: out   $0
+0x1da7: free  $2
+0x1da8: free  $2
+0x1da9: div   $2 $0 $3
+0x1daa: out   $2
+0x1dab: out   $7
+0x1dac: out   $1
+0x1dad: free  $2
+0x1dae: halt
+0x1daf: out   $0
+0x1db0: out   $1
+0x1db1: rmem  $4 $4 $0
+0x1db2: out   $5
+0x1db3: out   $1
+0x1db4: cmove $5 $7 $6
+0x1db5: wmem  $1 $1 $2
+0x1db6: free  $5
+0x1db7: alloc $4 $0
+0x1db8: free  $6
+0x1db9: halt
+0x1dba: out   $7
+0x1dbb: wmem  $4 $3 $0
+0x1dbc: out   $2
+0x1dbd: halt
+0x1dbe: halt
+0x1dbf: alloc $1 $2
+0x1dc0: alloc $7 $4
+0x1dc1: halt
+0x1dc2: free  $6
+0x1dc3: out   $5
+0x1dc4: out   $6
+0x1dc5: out   $0
+0x1dc6: free  $0
+0x1dc7: out   $2
+0x1dc8: out   $6
+0x1dc9: out   $2
+0x1dca: free  $6
+0x1dcb: div   $2 $4 $2
+0x1dcc: wmem  $3 $1 $1
+0x1dcd: out   $6
+0x1dce: out   $6
+0x1dcf: out   $3
+0x1dd0: nand  $1 $6 $5
+0x1dd1: alloc $0 $0
+0x1dd2: rmem  $5 $7 $0
+0x1dd3: halt
+0x1dd4: out   $4
+0x1dd5: free  $6
+0x1dd6: free  $5
+0x1dd7: out   $5
+0x1dd8: free  $4
+0x1dd9: rmem  $2 $5 $2
+0x1dda: cmove $4 $2 $6
+0x1ddb: cmove $4 $5 $7
+0x1ddc: cmove $0 $4 $5
+0x1ddd: out   $0
+0x1dde: out   $0
+0x1ddf: out   $1
+0x1de0: cmove $2 $2 $0
+0x1de1: out   $6
+0x1de2: out   $5
+0x1de3: alloc $4 $7
+0x1de4: out   $1
+0x1de5: out   $4
+0x1de6: out   $6
+0x1de7: out   $1
+0x1de8: free  $7
+0x1de9: free  $1
+0x1dea: halt
+0x1deb: free  $3
+0x1dec: out   $4
+0x1ded: alloc $5 $5
+0x1dee: out   $1
+0x1def: free  $5
+0x1df0: out   $4
+0x1df1: out   $1
+0x1df2: out   $4
+0x1df3: out   $7
+0x1df4: out   $6
+0x1df5: out   $2
+0x1df6: out   $2
+0x1df7: cmove $5 $6 $6
+0x1df8: wmem  $1 $1 $4
+0x1df9: free  $1
+0x1dfa: nand  $2 $2 $1
+0x1dfb: free  $6
+0x1dfc: alloc $1 $0
+0x1dfd: out   $1
+0x1dfe: free  $5
+0x1dff: out   $3
+0x1e00: div   $5 $7 $0
+0x1e01: out   $1
+0x1e02: out   $4
+0x1e03: free  $6
+0x1e04: nand  $7 $7 $7
+0x1e05: free  $2
+0x1e06: free  $4
+0x1e07: free  $2
+0x1e08: out   $2
+0x1e09: out   $4
+0x1e0a: out   $5
+0x1e0b: out   $7
+0x1e0c: out   $0
+0x1e0d: out   $6
+0x1e0e: out   $6
+0x1e0f: out   $2
+0x1e10: alloc $6 $4
+0x1e11: free  $2
+0x1e12: out   $6
+0x1e13: halt
+0x1e14: out   $0
+0x1e15: div   $2 $5 $4
+0x1e16: out   $5
+0x1e17: free  $2
+0x1e18: out   $5
+0x1e19: free  $2
+0x1e1a: free  $2
+0x1e1b: out   $4
+0x1e1c: cmove $6 $6 $2
+0x1e1d: out   $4
+0x1e1e: out   $7
+0x1e1f: cmove $5 $6 $2
+0x1e20: free  $5
+0x1e21: out   $0
+0x1e22: out   $2
+0x1e23: out   $3
+0x1e24: wmem  $7 $3 $7
+0x1e25: cmove $2 $4 $3
+0x1e26: cmove $2 $7 $3
+0x1e27: free  $6
+0x1e28: halt
+0x1e29: free  $2
+0x1e2a: free  $5
+0x1e2b: out   $7
+0x1e2c: alloc $3 $1
+0x1e2d: halt
+0x1e2e: halt
+0x1e2f: free  $0
+0x1e30: free  $2
+0x1e31: out   $5
+0x1e32: out   $3
+0x1e33: out   $3
+0x1e34: out   $5
+0x1e35: free  $5
+0x1e36: rmem  $0 $0 $6
+0x1e37: cmove $5 $4 $4
+0x1e38: out   $4
+0x1e39: alloc $5 $3
+0x1e3a: cmove $5 $1 $2
+0x1e3b: halt
+0x1e3c: cmove $3 $2 $3
+0x1e3d: out   $3
+0x1e3e: halt
+0x1e3f: free  $5
+0x1e40: wmem  $3 $3 $0
+0x1e41: halt
+0x1e42: nand  $7 $5 $7
+0x1e43: add   $1 $1 $0
+0x1e44: alloc $5 $1
+0x1e45: nand  $4 $0 $3
+0x1e46: div   $3 $2 $3
+0x1e47: out   $4
+0x1e48: div   $1 $2 $2
+0x1e49: nand  $4 $4 $2
+0x1e4a: out   $5
+0x1e4b: out   $6
+0x1e4c: rmem  $0 $7 $7
+0x1e4d: alloc $6 $3
+0x1e4e: out   $6
+0x1e4f: nand  $0 $6 $3
+0x1e50: alloc $5 $0
+0x1e51: out   $4
+0x1e52: out   $5
+0x1e53: free  $0
+0x1e54: out   $4
+0x1e55: out   $1
+0x1e56: out   $3
+0x1e57: out   $0
+0x1e58: alloc $7 $3
+0x1e59: div   $1 $1 $6
+0x1e5a: alloc $1 $1
+0x1e5b: out   $2
+0x1e5c: nand  $4 $7 $5
+0x1e5d: free  $6
+0x1e5e: out   $6
+0x1e5f: free  $2
+0x1e60: out   $6
+0x1e61: free  $6
+0x1e62: out   $7
+0x1e63: cmove $4 $2 $5
+0x1e64: alloc $6 $5
+0x1e65: out   $6
+0x1e66: out   $7
+0x1e67: alloc $4 $6
+0x1e68: free  $5
+0x1e69: rmem  $0 $5 $2
+0x1e6a: free  $7
+0x1e6b: nand  $2 $1 $2
+0x1e6c: out   $0
+0x1e6d: out   $7
+0x1e6e: out   $4
+0x1e6f: free  $2
+0x1e70: out   $3
+0x1e71: out   $1
+0x1e72: alloc $7 $7
+0x1e73: out   $4
+0x1e74: out   $4
+0x1e75: alloc $4 $5
+0x1e76: free  $4
+0x1e77: out   $1
+0x1e78: out   $5
+0x1e79: out   $3
+0x1e7a: out   $1
+0x1e7b: out   $0
+0x1e7c: alloc $7 $3
+0x1e7d: free  $4
+0x1e7e: out   $7
+0x1e7f: free  $0
+0x1e80: out   $6
+0x1e81: out   $1
+0x1e82: out   $1
+0x1e83: free  $1
+0x1e84: out   $4
+0x1e85: div   $7 $4 $7
+0x1e86: out   $2
+0x1e87: out   $0
+0x1e88: out   $2
+0x1e89: halt
+0x1e8a: out   $2
+0x1e8b: out   $0
+0x1e8c: out   $3
+0x1e8d: out   $2
+0x1e8e: free  $4
+0x1e8f: out   $0
+0x1e90: out   $4
+0x1e91: out   $2
+0x1e92: out   $3
+0x1e93: out   $2
+0x1e94: out   $7
+0x1e95: out   $7
+0x1e96: out   $1
+0x1e97: out   $3
+0x1e98: cmove $6 $6 $7
+0x1e99: out   $6
+0x1e9a: out   $2
+0x1e9b: out   $4
+0x1e9c: out   $1
+0x1e9d: out   $5
+0x1e9e: cmove $7 $4 $7
+0x1e9f: out   $0
+0x1ea0: free  $4
+0x1ea1: out   $3
+0x1ea2: out   $4
+0x1ea3: out   $5
+0x1ea4: out   $4
+0x1ea5: out   $4
+0x1ea6: free  $1
+0x1ea7: wmem  $0 $1 $3
+0x1ea8: out   $3
+0x1ea9: nand  $1 $1 $2
+0x1eaa: halt
+0x1eab: halt
+0x1eac: out   $7
+0x1ead: out   $3
+0x1eae: out   $6
+0x1eaf: out   $0
+0x1eb0: out   $7
+0x1eb1: out   $2
+0x1eb2: out   $5
+0x1eb3: out   $2
+0x1eb4: out   $2
+0x1eb5: halt
+0x1eb6: out   $6
+0x1eb7: out   $5
+0x1eb8: out   $4
+0x1eb9: alloc $7 $2
+0x1eba: rmem  $1 $4 $4
+0x1ebb: out   $7
+0x1ebc: cmove $7 $5 $5
+0x1ebd: cmove $7 $0 $1
+0x1ebe: out   $6
+0x1ebf: alloc $0 $7
+0x1ec0: out   $3
+0x1ec1: out   $6
+0x1ec2: out   $3
+0x1ec3: alloc $1 $0
+0x1ec4: nand  $1 $1 $7
+0x1ec5: alloc $2 $3
+0x1ec6: halt
+0x1ec7: cmove $7 $4 $3
+0x1ec8: out   $0
+0x1ec9: out   $0
+0x1eca: out   $1
+0x1ecb: out   $5
+0x1ecc: out   $2
+0x1ecd: out   $0
+0x1ece: out   $1
+0x1ecf: out   $3
+0x1ed0: out   $1
+0x1ed1: out   $3
+0x1ed2: out   $5
+0x1ed3: out   $4
+0x1ed4: out   $6
+0x1ed5: out   $0
+0x1ed6: out   $6
+0x1ed7: free  $2
+0x1ed8: out   $7
+0x1ed9: out   $6
+0x1eda: out   $1
+0x1edb: out   $4
+0x1edc: halt
+0x1edd: rmem  $4 $1 $7
+0x1ede: out   $5
+0x1edf: out   $5
+0x1ee0: free  $3
+0x1ee1: out   $1
+0x1ee2: rmem  $7 $5 $1
+0x1ee3: out   $7
+0x1ee4: out   $5
+0x1ee5: out   $3
+0x1ee6: free  $5
+0x1ee7: halt
+0x1ee8: out   $4
+0x1ee9: alloc $1 $0
+0x1eea: rmem  $0 $3 $1
+0x1eeb: wmem  $5 $1 $2
+0x1eec: out   $4
+0x1eed: out   $4
+0x1eee: out   $7
+0x1eef: out   $4
+0x1ef0: out   $4
+0x1ef1: out   $6
+0x1ef2: free  $0
+0x1ef3: free  $0
+0x1ef4: out   $4
+0x1ef5: rmem  $2 $0 $6
+0x1ef6: nand  $2 $1 $1
+0x1ef7: free  $0
+0x1ef8: out   $3
+0x1ef9: out   $1
+0x1efa: free  $4
+0x1efb: halt
+0x1efc: add   $1 $0 $4
+0x1efd: out   $1
+0x1efe: in    $6
+0x1eff: out   $0
+0x1f00: out   $7
+0x1f01: out   $2
+0x1f02: out   $1
+0x1f03: nand  $0 $5 $0
+0x1f04: div   $6 $5 $5
+0x1f05: mul   $0 $7 $5
+0x1f06: free  $0
+0x1f07: out   $7
+0x1f08: out   $4
+0x1f09: out   $2
+0x1f0a: out   $4
+0x1f0b: out   $2
+0x1f0c: out   $3
+0x1f0d: out   $0
+0x1f0e: in    $7
+0x1f0f: out   $1
+0x1f10: out   $3
+0x1f11: free  $5
+0x1f12: out   $5
+0x1f13: div   $5 $1 $1
+0x1f14: free  $1
+0x1f15: out   $3
+0x1f16: div   $6 $7 $3
+0x1f17: in    $1
+0x1f18: out   $5
+0x1f19: out   $0
+0x1f1a: free  $2
+0x1f1b: out   $1
+0x1f1c: out   $7
+0x1f1d: out   $4
+0x1f1e: out   $1
+0x1f1f: out   $5
+0x1f20: out   $7
+0x1f21: out   $1
+0x1f22: cmove $5 $7 $6
+0x1f23: out   $2
+0x1f24: out   $6
+0x1f25: in    $0
+0x1f26: free  $5
+0x1f27: out   $4
+0x1f28: in    $3
+0x1f29: in    $4
+0x1f2a: in    $6
+0x1f2b: free  $5
+0x1f2c: halt
+0x1f2d: out   $6
+0x1f2e: out   $1
+0x1f2f: out   $4
+0x1f30: in    $7
+0x1f31: out   $0
+0x1f32: out   $7
+0x1f33: out   $7
+0x1f34: out   $7
+0x1f35: out   $1
+0x1f36: out   $4
+0x1f37: out   $6
+0x1f38: mul   $3 $6 $3
+0x1f39: out   $2
+0x1f3a: alloc $3 $1
+0x1f3b: out   $3
+0x1f3c: free  $1
+0x1f3d: in    $1
+0x1f3e: alloc $6 $3
+0x1f3f: nand  $5 $3 $6
+0x1f40: out   $1
+0x1f41: halt
+0x1f42: cmove $2 $4 $0
+0x1f43: nand  $7 $0 $0
+0x1f44: free  $4
+0x1f45: nand  $6 $1 $1
+0x1f46: out   $6
+0x1f47: alloc $2 $0
+0x1f48: free  $2
+0x1f49: free  $4
+0x1f4a: out   $0
+0x1f4b: free  $4
+0x1f4c: free  $0
+0x1f4d: in    $1
+0x1f4e: free  $7
+0x1f4f: free  $5
+0x1f50: in    $2
+0x1f51: free  $1
+0x1f52: free  $0
+0x1f53: out   $3
+0x1f54: out   $6
+0x1f55: in    $0
+0x1f56: out   $5
+0x1f57: in    $0
+0x1f58: free  $4
+0x1f59: free  $5
+0x1f5a: out   $7
+0x1f5b: out   $0
+0x1f5c: in    $6
+0x1f5d: out   $4
+0x1f5e: in    $2
+0x1f5f: nand  $0 $0 $6
+0x1f60: out   $5
+0x1f61: halt
+0x1f62: out   $5
+0x1f63: rmem  $2 $6 $7
+0x1f64: cmove $6 $4 $0
+0x1f65: out   $6
+0x1f66: cmove $5 $1 $6
+0x1f67: free  $5
+0x1f68: out   $2
+0x1f69: nand  $0 $3 $2
+0x1f6a: rmem  $6 $4 $4
+0x1f6b: free  $4
+0x1f6c: alloc $4 $0
+0x1f6d: cmove $7 $6 $2
+0x1f6e: rmem  $5 $4 $0
+0x1f6f: halt
+0x1f70: out   $2
+0x1f71: free  $6
+0x1f72: div   $2 $1 $3
+0x1f73: nand  $6 $1 $0
+0x1f74: nand  $2 $5 $6
+0x1f75: halt
+0x1f76: nand  $6 $2 $0
+0x1f77: nand  $6 $0 $1
+0x1f78: nand  $3 $1 $1
+0x1f79: alloc $4 $3
+0x1f7a: cmove $3 $6 $6
+0x1f7b: out   $7
+0x1f7c: out   $1
+0x1f7d: out   $3
+0x1f7e: in    $3
+0x1f7f: alloc $7 $0
+0x1f80: div   $7 $2 $7
+0x1f81: out   $6
+0x1f82: nand  $1 $0 $3
+0x1f83: halt
+0x1f84: nand  $2 $2 $3
+0x1f85: out   $3
+0x1f86: free  $3
+0x1f87: halt
+0x1f88: halt
+0x1f89: nand  $1 $0 $2
+0x1f8a: cmove $3 $4 $3
+0x1f8b: free  $0
+0x1f8c: out   $5
+0x1f8d: free  $6
+0x1f8e: out   $1
+0x1f8f: in    $7
+0x1f90: out   $7
+0x1f91: out   $6
+0x1f92: alloc $2 $7
+0x1f93: nand  $6 $0 $6
+0x1f94: in    $5
+0x1f95: free  $4
+0x1f96: add   $4 $2 $4
+0x1f97: cmove $5 $2 $3
+0x1f98: out   $0
+0x1f99: free  $4
+0x1f9a: halt
+0x1f9b: in    $1
+0x1f9c: free  $4
+0x1f9d: alloc $3 $0
+0x1f9e: free  $1
+0x1f9f: in    $6
+0x1fa0: out   $7
+0x1fa1: in    $5
+0x1fa2: wmem  $4 $4 $2
+0x1fa3: alloc $7 $1
+0x1fa4: in    $3
+0x1fa5: out   $6
+0x1fa6: free  $4
+0x1fa7: alloc $7 $0
+0x1fa8: halt
+0x1fa9: free  $4
+0x1faa: out   $0
+0x1fab: out   $1
+0x1fac: out   $7
+0x1fad: halt
+0x1fae: alloc $7 $3
+0x1faf: cmove $6 $7 $3
+0x1fb0: alloc $6 $5
+0x1fb1: in    $2
+0x1fb2: alloc $7 $3
+0x1fb3: free  $7
+0x1fb4: out   $6
+0x1fb5: nand  $1 $7 $4
+0x1fb6: out   $3
+0x1fb7: out   $3
+0x1fb8: out   $7
+0x1fb9: out   $1
+0x1fba: nand  $7 $6 $5
+0x1fbb: free  $1
+0x1fbc: cmove $0 $0 $4
+0x1fbd: nand  $2 $0 $7
+0x1fbe: wmem  $2 $2 $2
+0x1fbf: free  $4
+0x1fc0: div   $0 $7 $3
+0x1fc1: out   $3
+0x1fc2: in    $2
+0x1fc3: alloc $5 $7
+0x1fc4: halt
+0x1fc5: in    $3
+0x1fc6: free  $1
+0x1fc7: in    $5
+0x1fc8: nand  $6 $5 $1
+0x1fc9: in    $6
+0x1fca: out   $4
+0x1fcb: free  $0
+0x1fcc: in    $5
+0x1fcd: nand  $0 $5 $2
+0x1fce: out   $2
+0x1fcf: out   $2
+0x1fd0: in    $4
+0x1fd1: nand  $4 $7 $1
+0x1fd2: alloc $2 $1
+0x1fd3: in    $4
+0x1fd4: halt
+0x1fd5: free  $4
+0x1fd6: alloc $1 $7
+0x1fd7: free  $5
+0x1fd8: out   $0
+0x1fd9: out   $4
+0x1fda: halt
+0x1fdb: free  $7
+0x1fdc: free  $2
+0x1fdd: out   $4
+0x1fde: in    $3
+0x1fdf: nand  $1 $4 $1
+0x1fe0: free  $6
+0x1fe1: cmove $3 $6 $0
+0x1fe2: free  $5
+0x1fe3: out   $0
+0x1fe4: free  $6
+0x1fe5: out   $3
+0x1fe6: free  $0
+0x1fe7: free  $3
+0x1fe8: div   $0 $0 $1
+0x1fe9: free  $7
+0x1fea: cmove $5 $7 $7
+0x1feb: out   $0
+0x1fec: nand  $1 $0 $0
+0x1fed: halt
+0x1fee: halt
+0x1fef: in    $6
+0x1ff0: free  $0
+0x1ff1: wmem  $1 $7 $2
+0x1ff2: free  $5
+0x1ff3: free  $5
+0x1ff4: in    $0
+0x1ff5: in    $5
+0x1ff6: free  $7
+0x1ff7: in    $1
+0x1ff8: free  $6
+0x1ff9: out   $7
+0x1ffa: in    $6
+0x1ffb: in    $0
+0x1ffc: in    $7
+0x1ffd: alloc $3 $7
+0x1ffe: alloc $7 $1
+0x1fff: out   $7
+0x2000: out   $1
+0x2001: out   $0
+0x2002: in    $3
+0x2003: in    $1
+0x2004: halt
+0x2005: cmove $1 $4 $3
+0x2006: in    $6
+0x2007: out   $1
+0x2008: halt
+0x2009: alloc $0 $2
+0x200a: free  $7
+0x200b: cmove $2 $1 $0
+0x200c: in    $2
+0x200d: free  $1
+0x200e: out   $4
+0x200f: out   $5
+0x2010: halt
+0x2011: in    $6
+0x2012: alloc $6 $7
+0x2013: in    $2
+0x2014: alloc $4 $1
+0x2015: free  $2
+0x2016: cmove $2 $6 $1
+0x2017: in    $6
+0x2018: alloc $2 $5
+0x2019: alloc $6 $7
+0x201a: out   $6
+0x201b: free  $7
+0x201c: out   $2
+0x201d: free  $4
+0x201e: free  $7
+0x201f: cmove $7 $2 $7
+0x2020: in    $3
+0x2021: in    $7
+0x2022: out   $7
+0x2023: out   $4
+0x2024: out   $6
+0x2025: alloc $7 $6
+0x2026: in    $6
+0x2027: alloc $1 $7
+0x2028: in    $4
+0x2029: alloc $2 $6
+0x202a: out   $5
+0x202b: in    $6
+0x202c: in    $0
+0x202d: in    $6
+0x202e: out   $1
+0x202f: free  $7
+0x2030: alloc $7 $0
+0x2031: nand  $3 $6 $6
+0x2032: in    $7
+0x2033: in    $1
+0x2034: cmove $4 $7 $3
+0x2035: in    $5
+0x2036: in    $0
+0x2037: in    $7
+0x2038: out   $1
+0x2039: alloc $4 $5
+0x203a: in    $7
+0x203b: halt
+0x203c: cmove $5 $2 $5
+0x203d: in    $7
+0x203e: in    $0
+0x203f: out   $3
+0x2040: in    $5
+0x2041: halt
+0x2042: in    $3
+0x2043: out   $0
+0x2044: in    $1
+0x2045: halt
+0x2046: out   $1
+0x2047: alloc $4 $0
+0x2048: alloc $4 $2
+0x2049: nand  $1 $1 $5
+0x204a: nand  $3 $3 $7
+0x204b: cmove $4 $3 $5
+0x204c: alloc $3 $1
+0x204d: mul   $1 $5 $3
+0x204e: free  $6
+0x204f: in    $0
+0x2050: mul   $5 $6 $1
+0x2051: alloc $7 $7
+0x2052: mul   $5 $3 $5
+0x2053: alloc $5 $0
+0x2054: mul   $2 $7 $1
+0x2055: cmove $4 $6 $0
+0x2056: halt
+0x2057: in    $6
+0x2058: in    $0
+0x2059: in    $2
+0x205a: free  $2
+0x205b: nand  $1 $7 $4
+0x205c: alloc $5 $3
+0x205d: add   $2 $2 $3
+0x205e: in    $3
+0x205f: mul   $3 $6 $1
+0x2060: in    $3
+0x2061: in    $1
+0x2062: out   $2
+0x2063: alloc $3 $3
+0x2064: nand  $0 $5 $0
+0x2065: halt
+0x2066: free  $7
+0x2067: halt
+0x2068: in    $2
+0x2069: out   $7
+0x206a: in    $6
+0x206b: cmove $0 $5 $7
+0x206c: wmem  $0 $5 $0
+0x206d: in    $0
+0x206e: out   $7
+0x206f: halt
+0x2070: out   $3
+0x2071: free  $1
+0x2072: halt
+0x2073: rmem  $7 $7 $6
+0x2074: cmove $1 $2 $7
+0x2075: cmove $5 $5 $5
+0x2076: div   $1 $3 $0
+0x2077: div   $0 $1 $6
+0x2078: in    $1
+0x2079: cmove $5 $7 $5
+0x207a: in    $0
+0x207b: in    $4
+0x207c: in    $4
+0x207d: in    $6
+0x207e: out   $4
+0x207f: free  $6
+0x2080: in    $0
+0x2081: in    $4
+0x2082: nand  $7 $5 $3
+0x2083: free  $0
+0x2084: in    $5
+0x2085: out   $1
+0x2086: free  $6
+0x2087: wmem  $1 $4 $4
+0x2088: halt
+0x2089: add   $5 $2 $5
+0x208a: free  $0
+0x208b: in    $3
+0x208c: out   $1
+0x208d: in    $4
+0x208e: in    $2
+0x208f: out   $5
+0x2090: cmove $5 $0 $6
+0x2091: mul   $0 $1 $2
+0x2092: in    $3
+0x2093: out   $2
+0x2094: in    $3
+0x2095: out   $7
+0x2096: out   $6
+0x2097: cmove $6 $5 $5
+0x2098: wmem  $1 $3 $1
+0x2099: in    $1
+0x209a: nand  $3 $5 $3
+0x209b: in    $7
+0x209c: nand  $1 $4 $6
+0x209d: free  $1
+0x209e: free  $0
+0x209f: out   $7
+0x20a0: in    $7
+0x20a1: out   $0
+0x20a2: free  $1
+0x20a3: halt
+0x20a4: alloc $2 $2
+0x20a5: halt
+0x20a6: alloc $3 $0
+0x20a7: jump  $7 $6
 0x20a8: 
-0x20a9: ALLOC $5 $5
-0x20aa: DIV   $5 $6 $7
-0x20ab: IN    $1
-0x20ac: IN    $1
-0x20ad: CMOVE $0 $7 $4
-0x20ae: IN    $1
-0x20af: OUT   $7
-0x20b0: IN    $3
-0x20b1: CMOVE $4 $1 $7
-0x20b2: DIV   $4 $3 $3
-0x20b3: IN    $7
-0x20b4: ALLOC $0 $3
-0x20b5: RMEM  $0 $5 $7
-0x20b6: NAND  $0 $2 $5
-0x20b7: OUT   $6
-0x20b8: IN    $5
-0x20b9: FREE  $1
-0x20ba: OUT   $2
-0x20bb: OUT   $2
-0x20bc: FREE  $7
-0x20bd: OUT   $4
-0x20be: WMEM  $0 $2 $4
-0x20bf: MUL   $1 $4 $5
-0x20c0: IN    $6
-0x20c1: DIV   $5 $3 $7
-0x20c2: OUT   $6
-0x20c3: FREE  $7
-0x20c4: OUT   $2
-0x20c5: NAND  $5 $1 $6
-0x20c6: IN    $4
-0x20c7: OUT   $6
-0x20c8: OUT   $4
-0x20c9: DIV   $5 $2 $6
-0x20ca: CMOVE $2 $7 $5
-0x20cb: OUT   $0
-0x20cc: IN    $2
-0x20cd: FREE  $7
-0x20ce: ALLOC $2 $2
-0x20cf: JUMP  $2 $1
-0x20d0: OUT   $5
-0x20d1: IN    $5
-0x20d2: OUT   $0
-0x20d3: FREE  $4
-0x20d4: FREE  $4
-0x20d5: JUMP  $4 $6
-0x20d6: FREE  $2
-0x20d7: JUMP  $6 $1
-0x20d8: IN    $7
-0x20d9: OUT   $2
-0x20da: FREE  $5
-0x20db: RMEM  $3 $3 $6
-0x20dc: JUMP  $7 $7
-0x20dd: JUMP  $7 $1
-0x20de: FREE  $4
-0x20df: RMEM  $7 $7 $3
+0x20a9: alloc $5 $5
+0x20aa: div   $5 $6 $7
+0x20ab: in    $1
+0x20ac: in    $1
+0x20ad: cmove $0 $7 $4
+0x20ae: in    $1
+0x20af: out   $7
+0x20b0: in    $3
+0x20b1: cmove $4 $1 $7
+0x20b2: div   $4 $3 $3
+0x20b3: in    $7
+0x20b4: alloc $0 $3
+0x20b5: rmem  $0 $5 $7
+0x20b6: nand  $0 $2 $5
+0x20b7: out   $6
+0x20b8: in    $5
+0x20b9: free  $1
+0x20ba: out   $2
+0x20bb: out   $2
+0x20bc: free  $7
+0x20bd: out   $4
+0x20be: wmem  $0 $2 $4
+0x20bf: mul   $1 $4 $5
+0x20c0: in    $6
+0x20c1: div   $5 $3 $7
+0x20c2: out   $6
+0x20c3: free  $7
+0x20c4: out   $2
+0x20c5: nand  $5 $1 $6
+0x20c6: in    $4
+0x20c7: out   $6
+0x20c8: out   $4
+0x20c9: div   $5 $2 $6
+0x20ca: cmove $2 $7 $5
+0x20cb: out   $0
+0x20cc: in    $2
+0x20cd: free  $7
+0x20ce: alloc $2 $2
+0x20cf: jump  $2 $1
+0x20d0: out   $5
+0x20d1: in    $5
+0x20d2: out   $0
+0x20d3: free  $4
+0x20d4: free  $4
+0x20d5: jump  $4 $6
+0x20d6: free  $2
+0x20d7: jump  $6 $1
+0x20d8: in    $7
+0x20d9: out   $2
+0x20da: free  $5
+0x20db: rmem  $3 $3 $6
+0x20dc: jump  $7 $7
+0x20dd: jump  $7 $1
+0x20de: free  $4
+0x20df: rmem  $7 $7 $3
 0x20e0: 
-0x20e1: IN    $3
-0x20e2: IN    $4
-0x20e3: CMOVE $3 $2 $6
-0x20e4: IN    $5
-0x20e5: IN    $6
-0x20e6: IN    $1
-0x20e7: OUT   $1
-0x20e8: FREE  $3
-0x20e9: FREE  $7
-0x20ea: IN    $7
-0x20eb: IN    $6
-0x20ec: JUMP  $4 $3
-0x20ed: CMOVE $1 $5 $4
-0x20ee: OUT   $3
-0x20ef: JUMP  $6 $4
-0x20f0: OUT   $1
-0x20f1: FREE  $5
-0x20f2: HALT
-0x20f3: CMOVE $6 $5 $1
-0x20f4: IN    $5
-0x20f5: OUT   $6
-0x20f6: IN    $0
-0x20f7: DIV   $0 $0 $4
-0x20f8: MUL   $6 $6 $2
-0x20f9: IN    $1
-0x20fa: IN    $2
-0x20fb: JUMP  $1 $7
+0x20e1: in    $3
+0x20e2: in    $4
+0x20e3: cmove $3 $2 $6
+0x20e4: in    $5
+0x20e5: in    $6
+0x20e6: in    $1
+0x20e7: out   $1
+0x20e8: free  $3
+0x20e9: free  $7
+0x20ea: in    $7
+0x20eb: in    $6
+0x20ec: jump  $4 $3
+0x20ed: cmove $1 $5 $4
+0x20ee: out   $3
+0x20ef: jump  $6 $4
+0x20f0: out   $1
+0x20f1: free  $5
+0x20f2: halt
+0x20f3: cmove $6 $5 $1
+0x20f4: in    $5
+0x20f5: out   $6
+0x20f6: in    $0
+0x20f7: div   $0 $0 $4
+0x20f8: mul   $6 $6 $2
+0x20f9: in    $1
+0x20fa: in    $2
+0x20fb: jump  $1 $7
 0x20fc: 
-0x20fd: IN    $1
-0x20fe: FREE  $4
-0x20ff: JUMP  $3 $3
-0x2100: ADD   $7 $4 $3
-0x2101: JUMP  $4 $0
-0x2102: ALLOC $3 $3
-0x2103: IN    $0
-0x2104: JUMP  $0 $4
-0x2105: ALLOC $5 $5
-0x2106: FREE  $5
-0x2107: OUT   $3
-0x2108: JUMP  $2 $6
-0x2109: JUMP  $4 $7
+0x20fd: in    $1
+0x20fe: free  $4
+0x20ff: jump  $3 $3
+0x2100: add   $7 $4 $3
+0x2101: jump  $4 $0
+0x2102: alloc $3 $3
+0x2103: in    $0
+0x2104: jump  $0 $4
+0x2105: alloc $5 $5
+0x2106: free  $5
+0x2107: out   $3
+0x2108: jump  $2 $6
+0x2109: jump  $4 $7
 0x210a: 
-0x210b: JUMP  $6 $6
-0x210c: IN    $7
-0x210d: IN    $2
-0x210e: JUMP  $1 $0
-0x210f: ADD   $1 $0 $4
-0x2110: OUT   $1
-0x2111: IN    $1
-0x2112: OUT   $7
-0x2113: OUT   $7
-0x2114: IN    $1
-0x2115: JUMP  $7 $3
-0x2116: ALLOC $6 $5
-0x2117: JUMP  $2 $6
+0x210b: jump  $6 $6
+0x210c: in    $7
+0x210d: in    $2
+0x210e: jump  $1 $0
+0x210f: add   $1 $0 $4
+0x2110: out   $1
+0x2111: in    $1
+0x2112: out   $7
+0x2113: out   $7
+0x2114: in    $1
+0x2115: jump  $7 $3
+0x2116: alloc $6 $5
+0x2117: jump  $2 $6
 0x2118: 
-0x2119: JUMP  $0 $3
-0x211a: IN    $5
-0x211b: OUT   $7
-0x211c: IN    $4
-0x211d: IN    $2
-0x211e: OUT   $2
-0x211f: OUT   $0
-0x2120: JUMP  $0 $5
-0x2121: CMOVE $3 $2 $6
-0x2122: WMEM  $5 $3 $4
-0x2123: FREE  $6
-0x2124: ALLOC $5 $6
-0x2125: OUT   $3
-0x2126: FREE  $7
-0x2127: HALT
-0x2128: RMEM  $7 $3 $2
-0x2129: IN    $7
-0x212a: IN    $3
-0x212b: HALT
-0x212c: CMOVE $6 $1 $4
-0x212d: IN    $0
-0x212e: IN    $5
-0x212f: JUMP  $6 $4
-0x2130: JUMP  $1 $1
-0x2131: ALLOC $1 $0
-0x2132: JUMP  $1 $1
-0x2133: JUMP  $3 $4
+0x2119: jump  $0 $3
+0x211a: in    $5
+0x211b: out   $7
+0x211c: in    $4
+0x211d: in    $2
+0x211e: out   $2
+0x211f: out   $0
+0x2120: jump  $0 $5
+0x2121: cmove $3 $2 $6
+0x2122: wmem  $5 $3 $4
+0x2123: free  $6
+0x2124: alloc $5 $6
+0x2125: out   $3
+0x2126: free  $7
+0x2127: halt
+0x2128: rmem  $7 $3 $2
+0x2129: in    $7
+0x212a: in    $3
+0x212b: halt
+0x212c: cmove $6 $1 $4
+0x212d: in    $0
+0x212e: in    $5
+0x212f: jump  $6 $4
+0x2130: jump  $1 $1
+0x2131: alloc $1 $0
+0x2132: jump  $1 $1
+0x2133: jump  $3 $4
 0x2134: 
-0x2135: JUMP  $6 $6
-0x2136: JUMP  $7 $6
-0x2137: JUMP  $1 $1
-0x2138: IN    $4
-0x2139: OUT   $0
-0x213a: JUMP  $4 $1
-0x213b: OUT   $3
-0x213c: NAND  $0 $0 $6
-0x213d: IN    $0
-0x213e: IN    $1
-0x213f: IN    $5
-0x2140: JUMP  $0 $7
-0x2141: JUMP  $1 $0
-0x2142: IN    $5
-0x2143: JUMP  $7 $1
-0x2144: DIV   $4 $5 $6
-0x2145: IN    $1
-0x2146: JUMP  $6 $6
-0x2147: JUMP  $0 $2
-0x2148: OUT   $4
+0x2135: jump  $6 $6
+0x2136: jump  $7 $6
+0x2137: jump  $1 $1
+0x2138: in    $4
+0x2139: out   $0
+0x213a: jump  $4 $1
+0x213b: out   $3
+0x213c: nand  $0 $0 $6
+0x213d: in    $0
+0x213e: in    $1
+0x213f: in    $5
+0x2140: jump  $0 $7
+0x2141: jump  $1 $0
+0x2142: in    $5
+0x2143: jump  $7 $1
+0x2144: div   $4 $5 $6
+0x2145: in    $1
+0x2146: jump  $6 $6
+0x2147: jump  $0 $2
+0x2148: out   $4
 0x2149: 
-0x214a: RMEM  $5 $0 $0
-0x214b: RMEM  $6 $2 $7
-0x214c: JUMP  $1 $4
-0x214d: OUT   $0
-0x214e: CMOVE $7 $1 $2
-0x214f: HALT
-0x2150: JUMP  $6 $4
-0x2151: IN    $1
-0x2152: DIV   $2 $7 $1
-0x2153: OUT   $6
-0x2154: ALLOC $4 $6
-0x2155: OUT   $1
-0x2156: JUMP  $3 $0
-0x2157: DIV   $1 $3 $5
-0x2158: HALT
-0x2159: NAND  $6 $4 $0
-0x215a: IN    $4
-0x215b: JUMP  $3 $6
-0x215c: JUMP  $1 $3
-0x215d: JUMP  $6 $0
+0x214a: rmem  $5 $0 $0
+0x214b: rmem  $6 $2 $7
+0x214c: jump  $1 $4
+0x214d: out   $0
+0x214e: cmove $7 $1 $2
+0x214f: halt
+0x2150: jump  $6 $4
+0x2151: in    $1
+0x2152: div   $2 $7 $1
+0x2153: out   $6
+0x2154: alloc $4 $6
+0x2155: out   $1
+0x2156: jump  $3 $0
+0x2157: div   $1 $3 $5
+0x2158: halt
+0x2159: nand  $6 $4 $0
+0x215a: in    $4
+0x215b: jump  $3 $6
+0x215c: jump  $1 $3
+0x215d: jump  $6 $0
 0x215e: 
-0x215f: JUMP  $6 $3
-0x2160: JUMP  $6 $6
-0x2161: JUMP  $7 $1
-0x2162: JUMP  $0 $2
-0x2163: JUMP  $7 $7
-0x2164: JUMP  $1 $3
-0x2165: IN    $2
-0x2166: IN    $7
-0x2167: IN    $0
-0x2168: IN    $3
-0x2169: JUMP  $2 $7
-0x216a: CMOVE $2 $5 $7
-0x216b: JUMP  $0 $6
-0x216c: WMEM  $2 $1 $1
-0x216d: OUT   $5
-0x216e: JUMP  $4 $1
-0x216f: OUT   $3
-0x2170: JUMP  $7 $3
-0x2171: JUMP  $4 $4
-0x2172: OUT   $6
-0x2173: IN    $7
-0x2174: HALT
-0x2175: WMEM  $3 $6 $5
-0x2176: FREE  $3
-0x2177: FREE  $2
-0x2178: FREE  $0
-0x2179: RMEM  $5 $7 $5
-0x217a: CMOVE $5 $7 $1
-0x217b: IN    $5
-0x217c: JUMP  $7 $0
-0x217d: JUMP  $5 $5
-0x217e: FREE  $0
-0x217f: JUMP  $7 $2
-0x2180: FREE  $4
-0x2181: NAND  $2 $1 $0
-0x2182: JUMP  $4 $6
-0x2183: HALT
-0x2184: CMOVE $0 $7 $2
-0x2185: IN    $7
-0x2186: JUMP  $0 $0
-0x2187: IN    $6
-0x2188: IN    $4
-0x2189: JUMP  $2 $0
-0x218a: JUMP  $3 $2
-0x218b: JUMP  $2 $7
-0x218c: JUMP  $2 $7
-0x218d: JUMP  $4 $0
-0x218e: ALLOC $5 $5
-0x218f: NAND  $0 $5 $3
-0x2190: IN    $4
-0x2191: CMOVE $6 $3 $1
-0x2192: CMOVE $4 $3 $6
-0x2193: JUMP  $2 $3
-0x2194: JUMP  $2 $5
-0x2195: JUMP  $1 $2
+0x215f: jump  $6 $3
+0x2160: jump  $6 $6
+0x2161: jump  $7 $1
+0x2162: jump  $0 $2
+0x2163: jump  $7 $7
+0x2164: jump  $1 $3
+0x2165: in    $2
+0x2166: in    $7
+0x2167: in    $0
+0x2168: in    $3
+0x2169: jump  $2 $7
+0x216a: cmove $2 $5 $7
+0x216b: jump  $0 $6
+0x216c: wmem  $2 $1 $1
+0x216d: out   $5
+0x216e: jump  $4 $1
+0x216f: out   $3
+0x2170: jump  $7 $3
+0x2171: jump  $4 $4
+0x2172: out   $6
+0x2173: in    $7
+0x2174: halt
+0x2175: wmem  $3 $6 $5
+0x2176: free  $3
+0x2177: free  $2
+0x2178: free  $0
+0x2179: rmem  $5 $7 $5
+0x217a: cmove $5 $7 $1
+0x217b: in    $5
+0x217c: jump  $7 $0
+0x217d: jump  $5 $5
+0x217e: free  $0
+0x217f: jump  $7 $2
+0x2180: free  $4
+0x2181: nand  $2 $1 $0
+0x2182: jump  $4 $6
+0x2183: halt
+0x2184: cmove $0 $7 $2
+0x2185: in    $7
+0x2186: jump  $0 $0
+0x2187: in    $6
+0x2188: in    $4
+0x2189: jump  $2 $0
+0x218a: jump  $3 $2
+0x218b: jump  $2 $7
+0x218c: jump  $2 $7
+0x218d: jump  $4 $0
+0x218e: alloc $5 $5
+0x218f: nand  $0 $5 $3
+0x2190: in    $4
+0x2191: cmove $6 $3 $1
+0x2192: cmove $4 $3 $6
+0x2193: jump  $2 $3
+0x2194: jump  $2 $5
+0x2195: jump  $1 $2
 0x2196: 
-0x2197: FREE  $2
-0x2198: JUMP  $3 $4
-0x2199: IN    $0
-0x219a: CMOVE $6 $4 $1
-0x219b: CMOVE $2 $3 $2
-0x219c: OUT   $6
-0x219d: IN    $0
-0x219e: OUT   $7
-0x219f: JUMP  $5 $5
-0x21a0: OUT   $0
-0x21a1: JUMP  $4 $2
-0x21a2: JUMP  $0 $4
-0x21a3: HALT
+0x2197: free  $2
+0x2198: jump  $3 $4
+0x2199: in    $0
+0x219a: cmove $6 $4 $1
+0x219b: cmove $2 $3 $2
+0x219c: out   $6
+0x219d: in    $0
+0x219e: out   $7
+0x219f: jump  $5 $5
+0x21a0: out   $0
+0x21a1: jump  $4 $2
+0x21a2: jump  $0 $4
+0x21a3: halt
 0x21a4: 
-0x21a5: IN    $2
-0x21a6: JUMP  $3 $3
-0x21a7: JUMP  $7 $7
-0x21a8: OUT   $2
-0x21a9: FREE  $6
-0x21aa: CMOVE $7 $0 $6
-0x21ab: IMM   $0 9109886
-0x21ac: IN    $3
-0x21ad: HALT
-0x21ae: FREE  $6
-0x21af: IN    $1
-0x21b0: NAND  $3 $7 $6
-0x21b1: IN    $4
-0x21b2: IMM   $3 3393314
-0x21b3: NAND  $0 $5 $4
-0x21b4: CMOVE $3 $6 $3
-0x21b5: JUMP  $1 $7
-0x21b6: OUT   $5
-0x21b7: OUT   $1
-0x21b8: JUMP  $0 $4
-0x21b9: IN    $3
-0x21ba: JUMP  $4 $7
-0x21bb: OUT   $2
-0x21bc: JUMP  $5 $4
-0x21bd: ADD   $4 $0 $7
-0x21be: JUMP  $4 $4
-0x21bf: JUMP  $7 $7
+0x21a5: in    $2
+0x21a6: jump  $3 $3
+0x21a7: jump  $7 $7
+0x21a8: out   $2
+0x21a9: free  $6
+0x21aa: cmove $7 $0 $6
+0x21ab: imm   $0 9109886
+0x21ac: in    $3
+0x21ad: halt
+0x21ae: free  $6
+0x21af: in    $1
+0x21b0: nand  $3 $7 $6
+0x21b1: in    $4
+0x21b2: imm   $3 3393314
+0x21b3: nand  $0 $5 $4
+0x21b4: cmove $3 $6 $3
+0x21b5: jump  $1 $7
+0x21b6: out   $5
+0x21b7: out   $1
+0x21b8: jump  $0 $4
+0x21b9: in    $3
+0x21ba: jump  $4 $7
+0x21bb: out   $2
+0x21bc: jump  $5 $4
+0x21bd: add   $4 $0 $7
+0x21be: jump  $4 $4
+0x21bf: jump  $7 $7
 0x21c0: 
-0x21c1: CMOVE $1 $1 $6
-0x21c2: DIV   $4 $0 $7
-0x21c3: JUMP  $5 $7
-0x21c4: OUT   $3
-0x21c5: FREE  $7
-0x21c6: NAND  $7 $3 $3
+0x21c1: cmove $1 $1 $6
+0x21c2: div   $4 $0 $7
+0x21c3: jump  $5 $7
+0x21c4: out   $3
+0x21c5: free  $7
+0x21c6: nand  $7 $3 $3
 0x21c7: 
-0x21c8: JUMP  $4 $1
-0x21c9: CMOVE $5 $4 $3
-0x21ca: OUT   $6
-0x21cb: FREE  $1
-0x21cc: MUL   $7 $7 $5
-0x21cd: JUMP  $5 $7
-0x21ce: IMM   $3 17352326
-0x21cf: MUL   $4 $7 $0
-0x21d0: ALLOC $7 $2
-0x21d1: JUMP  $2 $3
-0x21d2: JUMP  $7 $7
-0x21d3: JUMP  $0 $2
-0x21d4: IN    $5
+0x21c8: jump  $4 $1
+0x21c9: cmove $5 $4 $3
+0x21ca: out   $6
+0x21cb: free  $1
+0x21cc: mul   $7 $7 $5
+0x21cd: jump  $5 $7
+0x21ce: imm   $3 17352326
+0x21cf: mul   $4 $7 $0
+0x21d0: alloc $7 $2
+0x21d1: jump  $2 $3
+0x21d2: jump  $7 $7
+0x21d3: jump  $0 $2
+0x21d4: in    $5
 0x21d5: 
-0x21d6: JUMP  $0 $4
-0x21d7: FREE  $6
-0x21d8: OUT   $6
-0x21d9: JUMP  $1 $3
-0x21da: NAND  $2 $1 $5
-0x21db: DIV   $0 $5 $6
+0x21d6: jump  $0 $4
+0x21d7: free  $6
+0x21d8: out   $6
+0x21d9: jump  $1 $3
+0x21da: nand  $2 $1 $5
+0x21db: div   $0 $5 $6
 0x21dc: 
-0x21dd: NAND  $2 $2 $3
-0x21de: JUMP  $1 $5
-0x21df: JUMP  $6 $7
-0x21e0: NAND  $2 $5 $0
-0x21e1: ADD   $4 $3 $5
-0x21e2: JUMP  $2 $5
-0x21e3: IN    $6
-0x21e4: JUMP  $3 $3
-0x21e5: JUMP  $7 $0
-0x21e6: JUMP  $3 $2
-0x21e7: JUMP  $3 $4
-0x21e8: JUMP  $5 $5
-0x21e9: JUMP  $6 $4
+0x21dd: nand  $2 $2 $3
+0x21de: jump  $1 $5
+0x21df: jump  $6 $7
+0x21e0: nand  $2 $5 $0
+0x21e1: add   $4 $3 $5
+0x21e2: jump  $2 $5
+0x21e3: in    $6
+0x21e4: jump  $3 $3
+0x21e5: jump  $7 $0
+0x21e6: jump  $3 $2
+0x21e7: jump  $3 $4
+0x21e8: jump  $5 $5
+0x21e9: jump  $6 $4
 0x21ea: 
-0x21eb: JUMP  $2 $7
-0x21ec: JUMP  $4 $5
-0x21ed: ALLOC $4 $1
-0x21ee: JUMP  $4 $3
-0x21ef: JUMP  $2 $0
-0x21f0: OUT   $4
-0x21f1: HALT
-0x21f2: JUMP  $6 $4
-0x21f3: IN    $7
-0x21f4: JUMP  $5 $2
-0x21f5: OUT   $5
-0x21f6: JUMP  $4 $1
-0x21f7: JUMP  $2 $0
-0x21f8: IN    $2
-0x21f9: JUMP  $4 $0
-0x21fa: MUL   $3 $7 $5
-0x21fb: FREE  $7
-0x21fc: JUMP  $6 $2
-0x21fd: JUMP  $0 $5
-0x21fe: JUMP  $0 $4
-0x21ff: IN    $2
-0x2200: IN    $4
-0x2201: FREE  $2
-0x2202: OUT   $0
-0x2203: ALLOC $2 $1
-0x2204: MUL   $2 $3 $5
-0x2205: OUT   $2
+0x21eb: jump  $2 $7
+0x21ec: jump  $4 $5
+0x21ed: alloc $4 $1
+0x21ee: jump  $4 $3
+0x21ef: jump  $2 $0
+0x21f0: out   $4
+0x21f1: halt
+0x21f2: jump  $6 $4
+0x21f3: in    $7
+0x21f4: jump  $5 $2
+0x21f5: out   $5
+0x21f6: jump  $4 $1
+0x21f7: jump  $2 $0
+0x21f8: in    $2
+0x21f9: jump  $4 $0
+0x21fa: mul   $3 $7 $5
+0x21fb: free  $7
+0x21fc: jump  $6 $2
+0x21fd: jump  $0 $5
+0x21fe: jump  $0 $4
+0x21ff: in    $2
+0x2200: in    $4
+0x2201: free  $2
+0x2202: out   $0
+0x2203: alloc $2 $1
+0x2204: mul   $2 $3 $5
+0x2205: out   $2
 0x2206: 
-0x2207: JUMP  $7 $7
-0x2208: JUMP  $7 $1
-0x2209: NAND  $1 $5 $3
-0x220a: JUMP  $0 $7
-0x220b: HALT
-0x220c: MUL   $1 $4 $0
+0x2207: jump  $7 $7
+0x2208: jump  $7 $1
+0x2209: nand  $1 $5 $3
+0x220a: jump  $0 $7
+0x220b: halt
+0x220c: mul   $1 $4 $0
 0x220d: 
-0x220e: JUMP  $6 $5
-0x220f: JUMP  $1 $4
-0x2210: JUMP  $5 $1
-0x2211: JUMP  $6 $0
-0x2212: JUMP  $2 $3
-0x2213: JUMP  $7 $7
+0x220e: jump  $6 $5
+0x220f: jump  $1 $4
+0x2210: jump  $5 $1
+0x2211: jump  $6 $0
+0x2212: jump  $2 $3
+0x2213: jump  $7 $7
 0x2214: 
-0x2215: JUMP  $6 $3
-0x2216: JUMP  $7 $6
-0x2217: OUT   $3
-0x2218: JUMP  $7 $6
-0x2219: JUMP  $2 $5
-0x221a: IN    $7
-0x221b: WMEM  $3 $2 $3
-0x221c: JUMP  $3 $2
-0x221d: CMOVE $3 $0 $1
-0x221e: OUT   $7
-0x221f: RMEM  $3 $2 $2
-0x2220: NAND  $7 $6 $3
-0x2221: JUMP  $5 $2
-0x2222: ADD   $4 $4 $1
-0x2223: JUMP  $3 $0
-0x2224: JUMP  $0 $2
-0x2225: JUMP  $3 $0
-0x2226: JUMP  $3 $2
-0x2227: JUMP  $7 $2
-0x2228: JUMP  $6 $1
-0x2229: JUMP  $6 $6
-0x222a: JUMP  $0 $4
-0x222b: FREE  $0
-0x222c: JUMP  $5 $0
-0x222d: IN    $0
-0x222e: JUMP  $3 $5
-0x222f: JUMP  $2 $0
-0x2230: ALLOC $7 $3
-0x2231: JUMP  $7 $5
-0x2232: JUMP  $3 $4
-0x2233: JUMP  $3 $4
-0x2234: IN    $7
-0x2235: FREE  $1
-0x2236: CMOVE $3 $1 $6
-0x2237: IMM   $6 7255525
-0x2238: JUMP  $4 $1
-0x2239: JUMP  $0 $2
-0x223a: CMOVE $0 $4 $5
-0x223b: JUMP  $4 $6
-0x223c: IN    $1
-0x223d: JUMP  $1 $0
+0x2215: jump  $6 $3
+0x2216: jump  $7 $6
+0x2217: out   $3
+0x2218: jump  $7 $6
+0x2219: jump  $2 $5
+0x221a: in    $7
+0x221b: wmem  $3 $2 $3
+0x221c: jump  $3 $2
+0x221d: cmove $3 $0 $1
+0x221e: out   $7
+0x221f: rmem  $3 $2 $2
+0x2220: nand  $7 $6 $3
+0x2221: jump  $5 $2
+0x2222: add   $4 $4 $1
+0x2223: jump  $3 $0
+0x2224: jump  $0 $2
+0x2225: jump  $3 $0
+0x2226: jump  $3 $2
+0x2227: jump  $7 $2
+0x2228: jump  $6 $1
+0x2229: jump  $6 $6
+0x222a: jump  $0 $4
+0x222b: free  $0
+0x222c: jump  $5 $0
+0x222d: in    $0
+0x222e: jump  $3 $5
+0x222f: jump  $2 $0
+0x2230: alloc $7 $3
+0x2231: jump  $7 $5
+0x2232: jump  $3 $4
+0x2233: jump  $3 $4
+0x2234: in    $7
+0x2235: free  $1
+0x2236: cmove $3 $1 $6
+0x2237: imm   $6 7255525
+0x2238: jump  $4 $1
+0x2239: jump  $0 $2
+0x223a: cmove $0 $4 $5
+0x223b: jump  $4 $6
+0x223c: in    $1
+0x223d: jump  $1 $0
 0x223e: 
-0x223f: FREE  $3
-0x2240: FREE  $3
-0x2241: JUMP  $1 $3
-0x2242: JUMP  $2 $7
-0x2243: FREE  $2
-0x2244: JUMP  $2 $6
-0x2245: JUMP  $7 $1
-0x2246: RMEM  $4 $4 $4
-0x2247: OUT   $2
-0x2248: RMEM  $2 $1 $1
-0x2249: JUMP  $6 $1
-0x224a: RMEM  $4 $6 $6
-0x224b: JUMP  $1 $2
+0x223f: free  $3
+0x2240: free  $3
+0x2241: jump  $1 $3
+0x2242: jump  $2 $7
+0x2243: free  $2
+0x2244: jump  $2 $6
+0x2245: jump  $7 $1
+0x2246: rmem  $4 $4 $4
+0x2247: out   $2
+0x2248: rmem  $2 $1 $1
+0x2249: jump  $6 $1
+0x224a: rmem  $4 $6 $6
+0x224b: jump  $1 $2
 0x224c: 
-0x224d: JUMP  $6 $0
-0x224e: JUMP  $7 $0
-0x224f: JUMP  $4 $7
-0x2250: JUMP  $5 $4
-0x2251: ALLOC $7 $6
-0x2252: JUMP  $5 $2
-0x2253: HALT
-0x2254: IN    $3
-0x2255: ALLOC $4 $5
-0x2256: WMEM  $7 $1 $4
-0x2257: IN    $2
-0x2258: JUMP  $3 $2
-0x2259: HALT
-0x225a: NAND  $7 $2 $6
-0x225b: JUMP  $2 $1
-0x225c: OUT   $4
-0x225d: FREE  $4
-0x225e: HALT
-0x225f: HALT
-0x2260: HALT
-0x2261: OUT   $5
-0x2262: IN    $6
-0x2263: HALT
-0x2264: IN    $3
-0x2265: JUMP  $3 $3
-0x2266: IN    $4
-0x2267: IMM   $0 14474720
+0x224d: jump  $6 $0
+0x224e: jump  $7 $0
+0x224f: jump  $4 $7
+0x2250: jump  $5 $4
+0x2251: alloc $7 $6
+0x2252: jump  $5 $2
+0x2253: halt
+0x2254: in    $3
+0x2255: alloc $4 $5
+0x2256: wmem  $7 $1 $4
+0x2257: in    $2
+0x2258: jump  $3 $2
+0x2259: halt
+0x225a: nand  $7 $2 $6
+0x225b: jump  $2 $1
+0x225c: out   $4
+0x225d: free  $4
+0x225e: halt
+0x225f: halt
+0x2260: halt
+0x2261: out   $5
+0x2262: in    $6
+0x2263: halt
+0x2264: in    $3
+0x2265: jump  $3 $3
+0x2266: in    $4
+0x2267: imm   $0 14474720
 0x2268: 
-0x2269: JUMP  $0 $4
-0x226a: JUMP  $5 $5
-0x226b: JUMP  $1 $5
-0x226c: JUMP  $1 $7
-0x226d: IN    $2
-0x226e: IN    $7
-0x226f: IN    $1
-0x2270: JUMP  $7 $5
-0x2271: CMOVE $4 $6 $3
-0x2272: JUMP  $1 $7
-0x2273: FREE  $6
-0x2274: JUMP  $6 $1
-0x2275: JUMP  $6 $4
-0x2276: OUT   $5
-0x2277: JUMP  $3 $7
-0x2278: JUMP  $7 $4
-0x2279: JUMP  $6 $0
-0x227a: HALT
-0x227b: JUMP  $2 $5
-0x227c: JUMP  $3 $7
+0x2269: jump  $0 $4
+0x226a: jump  $5 $5
+0x226b: jump  $1 $5
+0x226c: jump  $1 $7
+0x226d: in    $2
+0x226e: in    $7
+0x226f: in    $1
+0x2270: jump  $7 $5
+0x2271: cmove $4 $6 $3
+0x2272: jump  $1 $7
+0x2273: free  $6
+0x2274: jump  $6 $1
+0x2275: jump  $6 $4
+0x2276: out   $5
+0x2277: jump  $3 $7
+0x2278: jump  $7 $4
+0x2279: jump  $6 $0
+0x227a: halt
+0x227b: jump  $2 $5
+0x227c: jump  $3 $7
 0x227d: 
-0x227e: JUMP  $0 $1
-0x227f: JUMP  $1 $5
-0x2280: OUT   $4
-0x2281: OUT   $3
-0x2282: CMOVE $3 $0 $1
-0x2283: CMOVE $3 $0 $1
+0x227e: jump  $0 $1
+0x227f: jump  $1 $5
+0x2280: out   $4
+0x2281: out   $3
+0x2282: cmove $3 $0 $1
+0x2283: cmove $3 $0 $1
 0x2284: 
-0x2285: ALLOC $3 $0
-0x2286: OUT   $7
-0x2287: FREE  $7
-0x2288: IMM   $4 6713991
-0x2289: JUMP  $3 $6
-0x228a: IN    $2
-0x228b: HALT
-0x228c: CMOVE $0 $7 $5
-0x228d: IN    $7
-0x228e: IMM   $0 12262728
-0x228f: JUMP  $2 $2
-0x2290: IN    $2
-0x2291: JUMP  $3 $3
+0x2285: alloc $3 $0
+0x2286: out   $7
+0x2287: free  $7
+0x2288: imm   $4 6713991
+0x2289: jump  $3 $6
+0x228a: in    $2
+0x228b: halt
+0x228c: cmove $0 $7 $5
+0x228d: in    $7
+0x228e: imm   $0 12262728
+0x228f: jump  $2 $2
+0x2290: in    $2
+0x2291: jump  $3 $3
 0x2292: 
-0x2293: OUT   $3
-0x2294: IMM   $1 7617791
-0x2295: IMM   $1 7554028
-0x2296: IMM   $3 20509760
-0x2297: JUMP  $0 $2
-0x2298: JUMP  $0 $7
+0x2293: out   $3
+0x2294: imm   $1 7617791
+0x2295: imm   $1 7554028
+0x2296: imm   $3 20509760
+0x2297: jump  $0 $2
+0x2298: jump  $0 $7
 0x2299: 
-0x229a: JUMP  $3 $1
-0x229b: ALLOC $7 $0
-0x229c: JUMP  $6 $3
-0x229d: JUMP  $7 $6
-0x229e: FREE  $2
-0x229f: OUT   $5
+0x229a: jump  $3 $1
+0x229b: alloc $7 $0
+0x229c: jump  $6 $3
+0x229d: jump  $7 $6
+0x229e: free  $2
+0x229f: out   $5
 0x22a0: 
-0x22a1: JUMP  $1 $2
-0x22a2: IMM   $0 24355986
-0x22a3: IMM   $0 25115245
-0x22a4: CMOVE $1 $6 $2
-0x22a5: JUMP  $1 $4
-0x22a6: HALT
+0x22a1: jump  $1 $2
+0x22a2: imm   $0 24355986
+0x22a3: imm   $0 25115245
+0x22a4: cmove $1 $6 $2
+0x22a5: jump  $1 $4
+0x22a6: halt
 0x22a7: 
-0x22a8: IN    $3
-0x22a9: IMM   $0 3171753
-0x22aa: OUT   $2
-0x22ab: IMM   $6 3454066
-0x22ac: DIV   $1 $6 $4
-0x22ad: CMOVE $4 $6 $3
-0x22ae: IN    $6
-0x22af: NAND  $6 $2 $4
-0x22b0: IN    $6
-0x22b1: JUMP  $5 $7
-0x22b2: IMM   $0 1008098
-0x22b3: IN    $4
-0x22b4: JUMP  $4 $6
-0x22b5: IMM   $7 28627489
-0x22b6: CMOVE $3 $5 $6
-0x22b7: IMM   $1 63588
-0x22b8: IMM   $1 4378814
-0x22b9: JUMP  $3 $4
-0x22ba: JUMP  $3 $1
-0x22bb: JUMP  $6 $2
+0x22a8: in    $3
+0x22a9: imm   $0 3171753
+0x22aa: out   $2
+0x22ab: imm   $6 3454066
+0x22ac: div   $1 $6 $4
+0x22ad: cmove $4 $6 $3
+0x22ae: in    $6
+0x22af: nand  $6 $2 $4
+0x22b0: in    $6
+0x22b1: jump  $5 $7
+0x22b2: imm   $0 1008098
+0x22b3: in    $4
+0x22b4: jump  $4 $6
+0x22b5: imm   $7 28627489
+0x22b6: cmove $3 $5 $6
+0x22b7: imm   $1 63588
+0x22b8: imm   $1 4378814
+0x22b9: jump  $3 $4
+0x22ba: jump  $3 $1
+0x22bb: jump  $6 $2
 0x22bc: 
-0x22bd: JUMP  $7 $1
-0x22be: IMM   $1 11735419
-0x22bf: IMM   $1 9128304
-0x22c0: JUMP  $4 $4
-0x22c1: IMM   $2 13087431
-0x22c2: IN    $3
+0x22bd: jump  $7 $1
+0x22be: imm   $1 11735419
+0x22bf: imm   $1 9128304
+0x22c0: jump  $4 $4
+0x22c1: imm   $2 13087431
+0x22c2: in    $3
 0x22c3: 
-0x22c4: IMM   $1 10281037
-0x22c5: JUMP  $6 $7
-0x22c6: IMM   $0 18556193
-0x22c7: IMM   $6 10104904
-0x22c8: IMM   $0 30491835
-0x22c9: IN    $1
+0x22c4: imm   $1 10281037
+0x22c5: jump  $6 $7
+0x22c6: imm   $0 18556193
+0x22c7: imm   $6 10104904
+0x22c8: imm   $0 30491835
+0x22c9: in    $1
 0x22ca: 
-0x22cb: HALT
-0x22cc: IMM   $0 28360591
-0x22cd: HALT
-0x22ce: JUMP  $4 $5
-0x22cf: JUMP  $6 $6
-0x22d0: JUMP  $5 $6
+0x22cb: halt
+0x22cc: imm   $0 28360591
+0x22cd: halt
+0x22ce: jump  $4 $5
+0x22cf: jump  $6 $6
+0x22d0: jump  $5 $6
 0x22d1: 
-0x22d2: JUMP  $5 $5
-0x22d3: IMM   $0 32558864
-0x22d4: IMM   $1 21904529
-0x22d5: CMOVE $2 $4 $6
-0x22d6: JUMP  $4 $5
-0x22d7: IN    $2
+0x22d2: jump  $5 $5
+0x22d3: imm   $0 32558864
+0x22d4: imm   $1 21904529
+0x22d5: cmove $2 $4 $6
+0x22d6: jump  $4 $5
+0x22d7: in    $2
 0x22d8: 
-0x22d9: FREE  $7
-0x22da: JUMP  $6 $2
-0x22db: ALLOC $4 $7
-0x22dc: IN    $5
-0x22dd: NAND  $7 $3 $6
-0x22de: OUT   $4
+0x22d9: free  $7
+0x22da: jump  $6 $2
+0x22db: alloc $4 $7
+0x22dc: in    $5
+0x22dd: nand  $7 $3 $6
+0x22de: out   $4
 0x22df: 
-0x22e0: JUMP  $6 $0
-0x22e1: JUMP  $2 $7
-0x22e2: JUMP  $1 $5
-0x22e3: JUMP  $3 $3
-0x22e4: NAND  $5 $7 $0
-0x22e5: FREE  $0
-0x22e6: HALT
-0x22e7: JUMP  $5 $0
-0x22e8: JUMP  $0 $0
-0x22e9: IMM   $2 1002050
-0x22ea: JUMP  $1 $2
-0x22eb: IMM   $2 13721579
-0x22ec: IN    $5
-0x22ed: HALT
-0x22ee: IMM   $3 21302081
-0x22ef: IMM   $0 24222235
-0x22f0: CMOVE $0 $2 $3
-0x22f1: OUT   $2
-0x22f2: JUMP  $1 $6
-0x22f3: IMM   $1 14457850
+0x22e0: jump  $6 $0
+0x22e1: jump  $2 $7
+0x22e2: jump  $1 $5
+0x22e3: jump  $3 $3
+0x22e4: nand  $5 $7 $0
+0x22e5: free  $0
+0x22e6: halt
+0x22e7: jump  $5 $0
+0x22e8: jump  $0 $0
+0x22e9: imm   $2 1002050
+0x22ea: jump  $1 $2
+0x22eb: imm   $2 13721579
+0x22ec: in    $5
+0x22ed: halt
+0x22ee: imm   $3 21302081
+0x22ef: imm   $0 24222235
+0x22f0: cmove $0 $2 $3
+0x22f1: out   $2
+0x22f2: jump  $1 $6
+0x22f3: imm   $1 14457850
 0x22f4: 
-0x22f5: RMEM  $0 $0 $0
-0x22f6: HALT
-0x22f7: JUMP  $7 $4
-0x22f8: JUMP  $4 $2
-0x22f9: IMM   $2 10322866
-0x22fa: OUT   $5
-0x22fb: HALT
-0x22fc: OUT   $6
-0x22fd: HALT
-0x22fe: IMM   $0 32015131
-0x22ff: IMM   $4 4255749
-0x2300: OUT   $6
-0x2301: IN    $5
+0x22f5: rmem  $0 $0 $0
+0x22f6: halt
+0x22f7: jump  $7 $4
+0x22f8: jump  $4 $2
+0x22f9: imm   $2 10322866
+0x22fa: out   $5
+0x22fb: halt
+0x22fc: out   $6
+0x22fd: halt
+0x22fe: imm   $0 32015131
+0x22ff: imm   $4 4255749
+0x2300: out   $6
+0x2301: in    $5
 0x2302: 
-0x2303: IN    $0
-0x2304: HALT
-0x2305: JUMP  $6 $2
-0x2306: HALT
-0x2307: FREE  $3
-0x2308: IMM   $0 11328157
+0x2303: in    $0
+0x2304: halt
+0x2305: jump  $6 $2
+0x2306: halt
+0x2307: free  $3
+0x2308: imm   $0 11328157
 0x2309: 
-0x230a: IN    $6
-0x230b: JUMP  $3 $2
-0x230c: IMM   $1 7558438
-0x230d: JUMP  $2 $5
-0x230e: IMM   $1 13984536
-0x230f: IMM   $1 33367518
-0x2310: HALT
-0x2311: IMM   $3 19645996
-0x2312: IMM   $2 28644452
-0x2313: IMM   $0 20130861
-0x2314: JUMP  $5 $7
-0x2315: IN    $6
-0x2316: IMM   $2 26035052
-0x2317: JUMP  $2 $5
-0x2318: IMM   $1 22062450
-0x2319: JUMP  $3 $2
-0x231a: IMM   $3 18043301
-0x231b: IMM   $6 22983566
-0x231c: WMEM  $3 $0 $4
-0x231d: IN    $3
-0x231e: IN    $5
-0x231f: IN    $2
-0x2320: IMM   $2 10764107
-0x2321: JUMP  $1 $2
-0x2322: FREE  $0
-0x2323: OUT   $2
-0x2324: ADD   $5 $2 $2
-0x2325: JUMP  $3 $7
-0x2326: JUMP  $3 $1
-0x2327: HALT
-0x2328: IMM   $3 3103048
-0x2329: FREE  $1
-0x232a: OUT   $3
-0x232b: IMM   $2 17637777
-0x232c: HALT
-0x232d: CMOVE $4 $3 $5
-0x232e: JUMP  $1 $5
-0x232f: JUMP  $0 $5
-0x2330: IMM   $6 19346766
-0x2331: IMM   $3 13791568
-0x2332: IMM   $3 13444592
+0x230a: in    $6
+0x230b: jump  $3 $2
+0x230c: imm   $1 7558438
+0x230d: jump  $2 $5
+0x230e: imm   $1 13984536
+0x230f: imm   $1 33367518
+0x2310: halt
+0x2311: imm   $3 19645996
+0x2312: imm   $2 28644452
+0x2313: imm   $0 20130861
+0x2314: jump  $5 $7
+0x2315: in    $6
+0x2316: imm   $2 26035052
+0x2317: jump  $2 $5
+0x2318: imm   $1 22062450
+0x2319: jump  $3 $2
+0x231a: imm   $3 18043301
+0x231b: imm   $6 22983566
+0x231c: wmem  $3 $0 $4
+0x231d: in    $3
+0x231e: in    $5
+0x231f: in    $2
+0x2320: imm   $2 10764107
+0x2321: jump  $1 $2
+0x2322: free  $0
+0x2323: out   $2
+0x2324: add   $5 $2 $2
+0x2325: jump  $3 $7
+0x2326: jump  $3 $1
+0x2327: halt
+0x2328: imm   $3 3103048
+0x2329: free  $1
+0x232a: out   $3
+0x232b: imm   $2 17637777
+0x232c: halt
+0x232d: cmove $4 $3 $5
+0x232e: jump  $1 $5
+0x232f: jump  $0 $5
+0x2330: imm   $6 19346766
+0x2331: imm   $3 13791568
+0x2332: imm   $3 13444592
 0x2333: 
-0x2334: JUMP  $2 $7
-0x2335: JUMP  $6 $6
-0x2336: JUMP  $4 $6
-0x2337: IMM   $6 8238057
-0x2338: JUMP  $4 $7
-0x2339: IMM   $2 26833622
+0x2334: jump  $2 $7
+0x2335: jump  $6 $6
+0x2336: jump  $4 $6
+0x2337: imm   $6 8238057
+0x2338: jump  $4 $7
+0x2339: imm   $2 26833622
 0x233a: 
-0x233b: IMM   $1 12084673
-0x233c: IMM   $2 3354288
-0x233d: IMM   $3 20078280
-0x233e: OUT   $7
-0x233f: JUMP  $4 $2
-0x2340: IMM   $4 7137219
+0x233b: imm   $1 12084673
+0x233c: imm   $2 3354288
+0x233d: imm   $3 20078280
+0x233e: out   $7
+0x233f: jump  $4 $2
+0x2340: imm   $4 7137219
 0x2341: 
-0x2342: IMM   $2 7274899
-0x2343: IMM   $4 7054799
-0x2344: IMM   $2 32195993
-0x2345: HALT
-0x2346: JUMP  $7 $5
-0x2347: IMM   $2 10295804
+0x2342: imm   $2 7274899
+0x2343: imm   $4 7054799
+0x2344: imm   $2 32195993
+0x2345: halt
+0x2346: jump  $7 $5
+0x2347: imm   $2 10295804
 0x2348: 
-0x2349: OUT   $3
-0x234a: JUMP  $5 $0
-0x234b: JUMP  $0 $5
-0x234c: IN    $5
-0x234d: IMM   $1 30818952
-0x234e: IN    $2
-0x234f: IN    $7
-0x2350: IMM   $3 22636911
-0x2351: IMM   $3 32872766
-0x2352: IMM   $1 27220406
-0x2353: JUMP  $3 $2
-0x2354: CMOVE $2 $3 $5
-0x2355: IMM   $3 32518056
+0x2349: out   $3
+0x234a: jump  $5 $0
+0x234b: jump  $0 $5
+0x234c: in    $5
+0x234d: imm   $1 30818952
+0x234e: in    $2
+0x234f: in    $7
+0x2350: imm   $3 22636911
+0x2351: imm   $3 32872766
+0x2352: imm   $1 27220406
+0x2353: jump  $3 $2
+0x2354: cmove $2 $3 $5
+0x2355: imm   $3 32518056
 0x2356: 
-0x2357: ALLOC $4 $7
-0x2358: ALLOC $2 $6
-0x2359: IN    $6
-0x235a: JUMP  $4 $4
-0x235b: ADD   $4 $2 $2
-0x235c: ALLOC $4 $0
-0x235d: IN    $2
-0x235e: IMM   $5 3634587
-0x235f: HALT
-0x2360: IMM   $3 19086984
-0x2361: IN    $5
-0x2362: CMOVE $5 $1 $0
-0x2363: IMM   $3 17621657
-0x2364: IN    $7
-0x2365: JUMP  $2 $7
-0x2366: IMM   $2 26868522
-0x2367: IN    $2
-0x2368: IMM   $6 15063376
-0x2369: FREE  $6
-0x236a: IN    $6
-0x236b: FREE  $3
-0x236c: JUMP  $4 $1
-0x236d: IN    $4
-0x236e: IMM   $0 28226360
-0x236f: CMOVE $0 $1 $7
-0x2370: JUMP  $7 $2
-0x2371: IMM   $2 15514864
-0x2372: IMM   $7 7918064
-0x2373: IMM   $3 18129945
-0x2374: IN    $6
-0x2375: IN    $4
-0x2376: IMM   $0 1732412
-0x2377: IN    $4
-0x2378: ALLOC $0 $5
-0x2379: NAND  $0 $4 $1
-0x237a: NAND  $6 $1 $3
-0x237b: CMOVE $2 $1 $6
-0x237c: JUMP  $1 $1
-0x237d: NAND  $6 $4 $6
-0x237e: IMM   $5 12200418
-0x237f: DIV   $5 $1 $0
-0x2380: OUT   $4
-0x2381: HALT
-0x2382: ALLOC $6 $0
-0x2383: FREE  $5
-0x2384: CMOVE $0 $2 $0
-0x2385: IN    $1
-0x2386: FREE  $5
-0x2387: IMM   $4 24034252
-0x2388: ALLOC $1 $4
-0x2389: JUMP  $7 $4
-0x238a: ALLOC $4 $6
-0x238b: DIV   $6 $4 $0
-0x238c: ALLOC $1 $7
-0x238d: IN    $7
-0x238e: NAND  $2 $4 $6
-0x238f: CMOVE $0 $7 $7
-0x2390: HALT
-0x2391: FREE  $2
-0x2392: IMM   $6 6140270
-0x2393: IMM   $4 13786626
-0x2394: IMM   $4 1910212
+0x2357: alloc $4 $7
+0x2358: alloc $2 $6
+0x2359: in    $6
+0x235a: jump  $4 $4
+0x235b: add   $4 $2 $2
+0x235c: alloc $4 $0
+0x235d: in    $2
+0x235e: imm   $5 3634587
+0x235f: halt
+0x2360: imm   $3 19086984
+0x2361: in    $5
+0x2362: cmove $5 $1 $0
+0x2363: imm   $3 17621657
+0x2364: in    $7
+0x2365: jump  $2 $7
+0x2366: imm   $2 26868522
+0x2367: in    $2
+0x2368: imm   $6 15063376
+0x2369: free  $6
+0x236a: in    $6
+0x236b: free  $3
+0x236c: jump  $4 $1
+0x236d: in    $4
+0x236e: imm   $0 28226360
+0x236f: cmove $0 $1 $7
+0x2370: jump  $7 $2
+0x2371: imm   $2 15514864
+0x2372: imm   $7 7918064
+0x2373: imm   $3 18129945
+0x2374: in    $6
+0x2375: in    $4
+0x2376: imm   $0 1732412
+0x2377: in    $4
+0x2378: alloc $0 $5
+0x2379: nand  $0 $4 $1
+0x237a: nand  $6 $1 $3
+0x237b: cmove $2 $1 $6
+0x237c: jump  $1 $1
+0x237d: nand  $6 $4 $6
+0x237e: imm   $5 12200418
+0x237f: div   $5 $1 $0
+0x2380: out   $4
+0x2381: halt
+0x2382: alloc $6 $0
+0x2383: free  $5
+0x2384: cmove $0 $2 $0
+0x2385: in    $1
+0x2386: free  $5
+0x2387: imm   $4 24034252
+0x2388: alloc $1 $4
+0x2389: jump  $7 $4
+0x238a: alloc $4 $6
+0x238b: div   $6 $4 $0
+0x238c: alloc $1 $7
+0x238d: in    $7
+0x238e: nand  $2 $4 $6
+0x238f: cmove $0 $7 $7
+0x2390: halt
+0x2391: free  $2
+0x2392: imm   $6 6140270
+0x2393: imm   $4 13786626
+0x2394: imm   $4 1910212
 0x2395: 
-0x2396: OUT   $1
-0x2397: ALLOC $2 $2
-0x2398: ALLOC $4 $7
-0x2399: IMM   $4 30486690
-0x239a: FREE  $2
-0x239b: FREE  $6
-0x239c: CMOVE $0 $0 $6
-0x239d: ALLOC $5 $6
-0x239e: HALT
-0x239f: NAND  $2 $4 $1
-0x23a0: NAND  $0 $5 $0
-0x23a1: NAND  $0 $5 $0
-0x23a2: OUT   $3
-0x23a3: OUT   $6
-0x23a4: FREE  $7
-0x23a5: IMM   $4 15942655
-0x23a6: JUMP  $6 $3
-0x23a7: OUT   $6
-0x23a8: JUMP  $2 $7
-0x23a9: OUT   $5
+0x2396: out   $1
+0x2397: alloc $2 $2
+0x2398: alloc $4 $7
+0x2399: imm   $4 30486690
+0x239a: free  $2
+0x239b: free  $6
+0x239c: cmove $0 $0 $6
+0x239d: alloc $5 $6
+0x239e: halt
+0x239f: nand  $2 $4 $1
+0x23a0: nand  $0 $5 $0
+0x23a1: nand  $0 $5 $0
+0x23a2: out   $3
+0x23a3: out   $6
+0x23a4: free  $7
+0x23a5: imm   $4 15942655
+0x23a6: jump  $6 $3
+0x23a7: out   $6
+0x23a8: jump  $2 $7
+0x23a9: out   $5
 0x23aa: 
-0x23ab: IN    $7
-0x23ac: IN    $2
-0x23ad: CMOVE $1 $1 $1
-0x23ae: IMM   $6 17105093
-0x23af: JUMP  $5 $4
-0x23b0: HALT
+0x23ab: in    $7
+0x23ac: in    $2
+0x23ad: cmove $1 $1 $1
+0x23ae: imm   $6 17105093
+0x23af: jump  $5 $4
+0x23b0: halt
 0x23b1: 
-0x23b2: DIV   $4 $7 $6
-0x23b3: NAND  $1 $1 $5
-0x23b4: IMM   $1 27387390
-0x23b5: IMM   $6 23605379
-0x23b6: CMOVE $5 $0 $5
-0x23b7: IMM   $3 9998122
+0x23b2: div   $4 $7 $6
+0x23b3: nand  $1 $1 $5
+0x23b4: imm   $1 27387390
+0x23b5: imm   $6 23605379
+0x23b6: cmove $5 $0 $5
+0x23b7: imm   $3 9998122
 0x23b8: 
-0x23b9: IMM   $1 22331530
-0x23ba: IMM   $5 28302993
-0x23bb: JUMP  $2 $5
-0x23bc: IMM   $6 28996573
-0x23bd: IMM   $3 10565972
-0x23be: IMM   $3 14343092
-0x23bf: IN    $2
-0x23c0: FREE  $0
-0x23c1: IMM   $3 20345812
-0x23c2: IMM   $2 8245180
-0x23c3: IMM   $3 10334964
-0x23c4: IMM   $6 9028055
-0x23c5: IMM   $3 902547
+0x23b9: imm   $1 22331530
+0x23ba: imm   $5 28302993
+0x23bb: jump  $2 $5
+0x23bc: imm   $6 28996573
+0x23bd: imm   $3 10565972
+0x23be: imm   $3 14343092
+0x23bf: in    $2
+0x23c0: free  $0
+0x23c1: imm   $3 20345812
+0x23c2: imm   $2 8245180
+0x23c3: imm   $3 10334964
+0x23c4: imm   $6 9028055
+0x23c5: imm   $3 902547
 0x23c6: 
-0x23c7: IMM   $1 17610206
-0x23c8: IMM   $3 3388365
-0x23c9: JUMP  $0 $6
-0x23ca: IMM   $6 8712834
-0x23cb: WMEM  $4 $1 $3
-0x23cc: CMOVE $3 $4 $5
+0x23c7: imm   $1 17610206
+0x23c8: imm   $3 3388365
+0x23c9: jump  $0 $6
+0x23ca: imm   $6 8712834
+0x23cb: wmem  $4 $1 $3
+0x23cc: cmove $3 $4 $5
 0x23cd: 
-0x23ce: HALT
-0x23cf: IMM   $6 6214052
-0x23d0: IMM   $6 11741519
-0x23d1: ALLOC $7 $5
-0x23d2: IMM   $5 12715572
-0x23d3: IMM   $6 14405736
-0x23d4: ALLOC $0 $4
-0x23d5: IN    $2
-0x23d6: IMM   $6 15462886
-0x23d7: IMM   $3 11223755
-0x23d8: IMM   $6 23797846
-0x23d9: JUMP  $3 $2
-0x23da: JUMP  $0 $7
+0x23ce: halt
+0x23cf: imm   $6 6214052
+0x23d0: imm   $6 11741519
+0x23d1: alloc $7 $5
+0x23d2: imm   $5 12715572
+0x23d3: imm   $6 14405736
+0x23d4: alloc $0 $4
+0x23d5: in    $2
+0x23d6: imm   $6 15462886
+0x23d7: imm   $3 11223755
+0x23d8: imm   $6 23797846
+0x23d9: jump  $3 $2
+0x23da: jump  $0 $7
 0x23db: 
-0x23dc: IMM   $5 19994122
-0x23dd: IMM   $4 3213068
-0x23de: IMM   $1 9113726
-0x23df: OUT   $5
-0x23e0: CMOVE $6 $0 $7
-0x23e1: HALT
+0x23dc: imm   $5 19994122
+0x23dd: imm   $4 3213068
+0x23de: imm   $1 9113726
+0x23df: out   $5
+0x23e0: cmove $6 $0 $7
+0x23e1: halt
 0x23e2: 
-0x23e3: NAND  $7 $0 $7
-0x23e4: IMM   $2 3546386
-0x23e5: IMM   $5 1531062
-0x23e6: JUMP  $6 $2
-0x23e7: JUMP  $1 $7
-0x23e8: IMM   $0 23944431
+0x23e3: nand  $7 $0 $7
+0x23e4: imm   $2 3546386
+0x23e5: imm   $5 1531062
+0x23e6: jump  $6 $2
+0x23e7: jump  $1 $7
+0x23e8: imm   $0 23944431
 0x23e9: 
-0x23ea: JUMP  $2 $4
-0x23eb: IMM   $5 2610582
-0x23ec: JUMP  $6 $4
-0x23ed: IMM   $6 15374088
-0x23ee: IMM   $0 8378127
-0x23ef: JUMP  $0 $2
+0x23ea: jump  $2 $4
+0x23eb: imm   $5 2610582
+0x23ec: jump  $6 $4
+0x23ed: imm   $6 15374088
+0x23ee: imm   $0 8378127
+0x23ef: jump  $0 $2
 0x23f0: 
-0x23f1: JUMP  $5 $2
-0x23f2: OUT   $4
-0x23f3: FREE  $5
-0x23f4: IN    $4
-0x23f5: CMOVE $5 $4 $7
-0x23f6: IMM   $5 8396332
+0x23f1: jump  $5 $2
+0x23f2: out   $4
+0x23f3: free  $5
+0x23f4: in    $4
+0x23f5: cmove $5 $4 $7
+0x23f6: imm   $5 8396332
 0x23f7: 
-0x23f8: IMM   $4 9336302
-0x23f9: IMM   $3 32115786
-0x23fa: IMM   $6 12022450
-0x23fb: IN    $5
-0x23fc: JUMP  $5 $6
-0x23fd: NAND  $2 $5 $5
-0x23fe: IMM   $3 24183217
-0x23ff: IMM   $1 16941520
-0x2400: IMM   $1 32678698
-0x2401: IMM   $5 26429809
-0x2402: JUMP  $2 $1
-0x2403: JUMP  $2 $1
-0x2404: FREE  $7
+0x23f8: imm   $4 9336302
+0x23f9: imm   $3 32115786
+0x23fa: imm   $6 12022450
+0x23fb: in    $5
+0x23fc: jump  $5 $6
+0x23fd: nand  $2 $5 $5
+0x23fe: imm   $3 24183217
+0x23ff: imm   $1 16941520
+0x2400: imm   $1 32678698
+0x2401: imm   $5 26429809
+0x2402: jump  $2 $1
+0x2403: jump  $2 $1
+0x2404: free  $7
 0x2405: 
-0x2406: IMM   $7 5350745
-0x2407: IMM   $6 20181322
-0x2408: IMM   $6 20618332
-0x2409: IMM   $5 12679073
-0x240a: IMM   $2 14020432
-0x240b: IMM   $6 22284640
+0x2406: imm   $7 5350745
+0x2407: imm   $6 20181322
+0x2408: imm   $6 20618332
+0x2409: imm   $5 12679073
+0x240a: imm   $2 14020432
+0x240b: imm   $6 22284640
 0x240c: 
-0x240d: IMM   $7 9798660
-0x240e: IMM   $3 3227929
-0x240f: IMM   $6 25038916
-0x2410: IMM   $6 7106886
-0x2411: RMEM  $5 $4 $2
-0x2412: CMOVE $5 $4 $2
-0x2413: JUMP  $5 $1
-0x2414: DIV   $5 $5 $2
-0x2415: IN    $4
-0x2416: OUT   $6
-0x2417: FREE  $7
-0x2418: JUMP  $7 $0
-0x2419: IMM   $6 13330857
+0x240d: imm   $7 9798660
+0x240e: imm   $3 3227929
+0x240f: imm   $6 25038916
+0x2410: imm   $6 7106886
+0x2411: rmem  $5 $4 $2
+0x2412: cmove $5 $4 $2
+0x2413: jump  $5 $1
+0x2414: div   $5 $5 $2
+0x2415: in    $4
+0x2416: out   $6
+0x2417: free  $7
+0x2418: jump  $7 $0
+0x2419: imm   $6 13330857
 0x241a: 
-0x241b: CMOVE $7 $2 $7
-0x241c: IMM   $7 23979117
-0x241d: IMM   $7 24603435
-0x241e: OUT   $5
-0x241f: OUT   $4
-0x2420: OUT   $5
-0x2421: IN    $7
-0x2422: OUT   $0
-0x2423: OUT   $6
-0x2424: OUT   $6
-0x2425: IN    $2
-0x2426: IMM   $7 6328324
-0x2427: IMM   $2 1770963
-0x2428: DIV   $7 $6 $6
-0x2429: IN    $6
-0x242a: OUT   $4
-0x242b: IMM   $6 20396214
-0x242c: IN    $4
-0x242d: JUMP  $4 $7
-0x242e: IMM   $4 8232366
+0x241b: cmove $7 $2 $7
+0x241c: imm   $7 23979117
+0x241d: imm   $7 24603435
+0x241e: out   $5
+0x241f: out   $4
+0x2420: out   $5
+0x2421: in    $7
+0x2422: out   $0
+0x2423: out   $6
+0x2424: out   $6
+0x2425: in    $2
+0x2426: imm   $7 6328324
+0x2427: imm   $2 1770963
+0x2428: div   $7 $6 $6
+0x2429: in    $6
+0x242a: out   $4
+0x242b: imm   $6 20396214
+0x242c: in    $4
+0x242d: jump  $4 $7
+0x242e: imm   $4 8232366
 0x242f: 
-0x2430: FREE  $0
-0x2431: JUMP  $4 $5
-0x2432: WMEM  $2 $5 $6
-0x2433: IMM   $0 17937301
-0x2434: IMM   $7 30605955
-0x2435: DIV   $5 $6 $2
+0x2430: free  $0
+0x2431: jump  $4 $5
+0x2432: wmem  $2 $5 $6
+0x2433: imm   $0 17937301
+0x2434: imm   $7 30605955
+0x2435: div   $5 $6 $2
 0x2436: 
-0x2437: IMM   $3 7636230
-0x2438: IMM   $7 7551692
-0x2439: FREE  $3
-0x243a: IMM   $7 1095282
-0x243b: JUMP  $0 $7
-0x243c: IMM   $4 31546805
-0x243d: OUT   $6
-0x243e: JUMP  $2 $6
-0x243f: IMM   $2 31852102
-0x2440: FREE  $7
+0x2437: imm   $3 7636230
+0x2438: imm   $7 7551692
+0x2439: free  $3
+0x243a: imm   $7 1095282
+0x243b: jump  $0 $7
+0x243c: imm   $4 31546805
+0x243d: out   $6
+0x243e: jump  $2 $6
+0x243f: imm   $2 31852102
+0x2440: free  $7
 0x2441: 
-0x2442: CMOVE $1 $3 $7
-0x2443: OUT   $5
+0x2442: cmove $1 $3 $7
+0x2443: out   $5
 0x2444: 
-0x2445: IMM   $3 23565864
-0x2446: IN    $4
-0x2447: IMM   $4 29798540
+0x2445: imm   $3 23565864
+0x2446: in    $4
+0x2447: imm   $4 29798540
 0x2448: 
-0x2449: IMM   $0 31571025
-0x244a: FREE  $2
-0x244b: ADD   $2 $3 $1
-0x244c: JUMP  $5 $7
-0x244d: IN    $6
-0x244e: FREE  $4
+0x2449: imm   $0 31571025
+0x244a: free  $2
+0x244b: add   $2 $3 $1
+0x244c: jump  $5 $7
+0x244d: in    $6
+0x244e: free  $4
 0x244f: 
-0x2450: OUT   $0
-0x2451: FREE  $0
-0x2452: ADD   $2 $2 $2
+0x2450: out   $0
+0x2451: free  $0
+0x2452: add   $2 $2 $2
 0x2453: 
-0x2454: FREE  $5
-0x2455: OUT   $6
+0x2454: free  $5
+0x2455: out   $6
 0x2456: 
 0x2457: 
 0x2458: 
-0x2459: JUMP  $0 $4
-0x245a: FREE  $3
-0x245b: OUT   $3
-0x245c: OUT   $7
-0x245d: IN    $1
-0x245e: IMM   $3 30302753
-0x245f: OUT   $4
-0x2460: WMEM  $2 $3 $3
-0x2461: NAND  $2 $5 $0
-0x2462: FREE  $5
+0x2459: jump  $0 $4
+0x245a: free  $3
+0x245b: out   $3
+0x245c: out   $7
+0x245d: in    $1
+0x245e: imm   $3 30302753
+0x245f: out   $4
+0x2460: wmem  $2 $3 $3
+0x2461: nand  $2 $5 $0
+0x2462: free  $5
 0x2463: 
-0x2464: IMM   $7 1635772
+0x2464: imm   $7 1635772
 0x2465: 
 0x2466: 
-0x2467: OUT   $6
-0x2468: HALT
-0x2469: HALT
+0x2467: out   $6
+0x2468: halt
+0x2469: halt
 0x246a: 
-0x246b: OUT   $1
-0x246c: ALLOC $3 $7
+0x246b: out   $1
+0x246c: alloc $3 $7
 0x246d: 
-0x246e: HALT
+0x246e: halt
 0x246f: 
-0x2470: JUMP  $0 $1
-0x2471: IMM   $4 5999667
-0x2472: IMM   $6 24097864
-0x2473: IN    $1
-0x2474: CMOVE $7 $4 $6
-0x2475: JUMP  $0 $5
-0x2476: ALLOC $0 $5
-0x2477: OUT   $7
-0x2478: OUT   $6
-0x2479: JUMP  $5 $6
-0x247a: FREE  $7
-0x247b: IMM   $1 10368893
-0x247c: IN    $1
-0x247d: OUT   $7
-0x247e: FREE  $6
+0x2470: jump  $0 $1
+0x2471: imm   $4 5999667
+0x2472: imm   $6 24097864
+0x2473: in    $1
+0x2474: cmove $7 $4 $6
+0x2475: jump  $0 $5
+0x2476: alloc $0 $5
+0x2477: out   $7
+0x2478: out   $6
+0x2479: jump  $5 $6
+0x247a: free  $7
+0x247b: imm   $1 10368893
+0x247c: in    $1
+0x247d: out   $7
+0x247e: free  $6
 0x247f: 
-0x2480: FREE  $6
-0x2481: FREE  $7
-0x2482: CMOVE $6 $1 $7
-0x2483: ADD   $7 $1 $5
+0x2480: free  $6
+0x2481: free  $7
+0x2482: cmove $6 $1 $7
+0x2483: add   $7 $1 $5
 0x2484: 
-0x2485: RMEM  $7 $6 $7
+0x2485: rmem  $7 $6 $7
 0x2486: 
-0x2487: OUT   $3
-0x2488: FREE  $6
+0x2487: out   $3
+0x2488: free  $6
 0x2489: 
-0x248a: WMEM  $2 $7 $5
-0x248b: CMOVE $6 $7 $2
-0x248c: CMOVE $6 $6 $2
+0x248a: wmem  $2 $7 $5
+0x248b: cmove $6 $7 $2
+0x248c: cmove $6 $6 $2
 0x248d: 
-0x248e: IMM   $1 2091781
+0x248e: imm   $1 2091781
 0x248f: 
-0x2490: FREE  $0
-0x2491: WMEM  $1 $0 $3
-0x2492: RMEM  $2 $6 $6
+0x2490: free  $0
+0x2491: wmem  $1 $0 $3
+0x2492: rmem  $2 $6 $6
 0x2493: 
-0x2494: WMEM  $3 $6 $4
+0x2494: wmem  $3 $6 $4
 0x2495: 
 0x2496: 
-0x2497: HALT
-0x2498: IN    $7
+0x2497: halt
+0x2498: in    $7
 0x2499: 
-0x249a: FREE  $1
-0x249b: FREE  $6
-0x249c: CMOVE $1 $3 $1
+0x249a: free  $1
+0x249b: free  $6
+0x249c: cmove $1 $3 $1
 0x249d: 
-0x249e: WMEM  $2 $7 $4
-0x249f: ALLOC $2 $7
+0x249e: wmem  $2 $7 $4
+0x249f: alloc $2 $7
 0x24a0: 
-0x24a1: WMEM  $0 $6 $6
-0x24a2: JUMP  $5 $7
-0x24a3: JUMP  $4 $6
+0x24a1: wmem  $0 $6 $6
+0x24a2: jump  $5 $7
+0x24a3: jump  $4 $6
 0x24a4: 
-0x24a5: HALT
-0x24a6: OUT   $3
-0x24a7: CMOVE $7 $3 $6
+0x24a5: halt
+0x24a6: out   $3
+0x24a7: cmove $7 $3 $6
 0x24a8: 
-0x24a9: CMOVE $5 $6 $7
-0x24aa: IMM   $4 24725940
-0x24ab: CMOVE $2 $6 $3
-0x24ac: JUMP  $7 $5
+0x24a9: cmove $5 $6 $7
+0x24aa: imm   $4 24725940
+0x24ab: cmove $2 $6 $3
+0x24ac: jump  $7 $5
 0x24ad: 
-0x24ae: IMM   $3 26273141
-0x24af: JUMP  $1 $7
-0x24b0: JUMP  $1 $6
-0x24b1: WMEM  $4 $3 $1
-0x24b2: HALT
+0x24ae: imm   $3 26273141
+0x24af: jump  $1 $7
+0x24b0: jump  $1 $6
+0x24b1: wmem  $4 $3 $1
+0x24b2: halt
 0x24b3: 
 0x24b4: 
-0x24b5: FREE  $2
-0x24b6: ALLOC $4 $5
+0x24b5: free  $2
+0x24b6: alloc $4 $5
 0x24b7: 
 0x24b8: 
-0x24b9: IMM   $2 14879082
-0x24ba: JUMP  $2 $0
+0x24b9: imm   $2 14879082
+0x24ba: jump  $2 $0
 0x24bb: 
-0x24bc: WMEM  $5 $4 $0
-0x24bd: CMOVE $4 $1 $7
+0x24bc: wmem  $5 $4 $0
+0x24bd: cmove $4 $1 $7
 0x24be: 
-0x24bf: FREE  $6
-0x24c0: FREE  $3
-0x24c1: IMM   $0 20366117
+0x24bf: free  $6
+0x24c0: free  $3
+0x24c1: imm   $0 20366117
 0x24c2: 
 0x24c3: 
 0x24c4: 
-0x24c5: OUT   $5
-0x24c6: IMM   $4 24726083
-0x24c7: RMEM  $2 $0 $4
+0x24c5: out   $5
+0x24c6: imm   $4 24726083
+0x24c7: rmem  $2 $0 $4
 0x24c8: 
-0x24c9: ALLOC $5 $6
-0x24ca: ALLOC $5 $4
+0x24c9: alloc $5 $6
+0x24ca: alloc $5 $4
 0x24cb: 
-0x24cc: WMEM  $6 $3 $2
+0x24cc: wmem  $6 $3 $2
 0x24cd: 
-0x24ce: IMM   $4 15027346
+0x24ce: imm   $4 15027346
 0x24cf: 
-0x24d0: ALLOC $7 $2
-0x24d1: FREE  $5
+0x24d0: alloc $7 $2
+0x24d1: free  $5
 0x24d2: 
-0x24d3: JUMP  $2 $7
-0x24d4: CMOVE $1 $6 $6
-0x24d5: CMOVE $3 $0 $7
-0x24d6: FREE  $1
+0x24d3: jump  $2 $7
+0x24d4: cmove $1 $6 $6
+0x24d5: cmove $3 $0 $7
+0x24d6: free  $1
 0x24d7: 
 0x24d8: 
 0x24d9: 
-0x24da: FREE  $6
-0x24db: CMOVE $3 $1 $2
-0x24dc: ALLOC $1 $3
+0x24da: free  $6
+0x24db: cmove $3 $1 $2
+0x24dc: alloc $1 $3
 0x24dd: 
-0x24de: IMM   $7 12639858
-0x24df: OUT   $7
-0x24e0: FREE  $1
-0x24e1: FREE  $5
+0x24de: imm   $7 12639858
+0x24df: out   $7
+0x24e0: free  $1
+0x24e1: free  $5
 0x24e2: 
-0x24e3: CMOVE $3 $3 $1
-0x24e4: FREE  $6
-0x24e5: WMEM  $4 $6 $1
-0x24e6: FREE  $6
+0x24e3: cmove $3 $3 $1
+0x24e4: free  $6
+0x24e5: wmem  $4 $6 $1
+0x24e6: free  $6
 0x24e7: 
-0x24e8: IMM   $2 25921032
+0x24e8: imm   $2 25921032
 0x24e9: 
 0x24ea: 
-0x24eb: WMEM  $1 $4 $4
-0x24ec: ALLOC $2 $6
+0x24eb: wmem  $1 $4 $4
+0x24ec: alloc $2 $6
 0x24ed: 
-0x24ee: OUT   $3
-0x24ef: FREE  $5
-0x24f0: CMOVE $3 $1 $7
-0x24f1: OUT   $1
+0x24ee: out   $3
+0x24ef: free  $5
+0x24f0: cmove $3 $1 $7
+0x24f1: out   $1
 0x24f2: 
-0x24f3: JUMP  $2 $7
-0x24f4: FREE  $3
-0x24f5: FREE  $3
-0x24f6: OUT   $5
-0x24f7: CMOVE $7 $7 $5
-0x24f8: OUT   $6
-0x24f9: ALLOC $1 $6
-0x24fa: IN    $3
+0x24f3: jump  $2 $7
+0x24f4: free  $3
+0x24f5: free  $3
+0x24f6: out   $5
+0x24f7: cmove $7 $7 $5
+0x24f8: out   $6
+0x24f9: alloc $1 $6
+0x24fa: in    $3
 0x24fb: 
-0x24fc: OUT   $0
+0x24fc: out   $0
 0x24fd: 
-0x24fe: FREE  $1
-0x24ff: OUT   $5
+0x24fe: free  $1
+0x24ff: out   $5
 0x2500: 
-0x2501: ALLOC $3 $1
-0x2502: ALLOC $4 $5
+0x2501: alloc $3 $1
+0x2502: alloc $4 $5
 0x2503: 
-0x2504: WMEM  $5 $7 $2
-0x2505: OUT   $5
+0x2504: wmem  $5 $7 $2
+0x2505: out   $5
 0x2506: 
 0x2507: 
-0x2508: RMEM  $7 $7 $1
-0x2509: CMOVE $3 $3 $1
+0x2508: rmem  $7 $7 $1
+0x2509: cmove $3 $3 $1
 0x250a: 
-0x250b: DIV   $2 $2 $7
-0x250c: ALLOC $3 $7
+0x250b: div   $2 $2 $7
+0x250c: alloc $3 $7
 0x250d: 
-0x250e: ADD   $5 $5 $7
-0x250f: RMEM  $3 $1 $0
+0x250e: add   $5 $5 $7
+0x250f: rmem  $3 $1 $0
 0x2510: 
-0x2511: ADD   $6 $7 $0
-0x2512: DIV   $1 $3 $6
+0x2511: add   $6 $7 $0
+0x2512: div   $1 $3 $6
 0x2513: 
-0x2514: FREE  $6
-0x2515: ALLOC $4 $5
-0x2516: HALT
-0x2517: FREE  $7
-0x2518: FREE  $0
-0x2519: IN    $5
-0x251a: DIV   $4 $7 $4
-0x251b: RMEM  $0 $6 $7
-0x251c: DIV   $3 $5 $5
-0x251d: IN    $6
-0x251e: IN    $0
-0x251f: OUT   $5
-0x2520: IN    $1
-0x2521: ALLOC $4 $4
-0x2522: OUT   $3
-0x2523: IMM   $3 2911530
-0x2524: JUMP  $6 $4
-0x2525: CMOVE $7 $0 $4
-0x2526: WMEM  $5 $6 $3
-0x2527: IMM   $6 9490176
-0x2528: CMOVE $7 $7 $0
-0x2529: ALLOC $4 $4
-0x252a: HALT
-0x252b: IN    $2
-0x252c: CMOVE $1 $1 $6
-0x252d: ADD   $7 $2 $4
-0x252e: ADD   $7 $7 $4
-0x252f: OUT   $4
-0x2530: CMOVE $6 $2 $0
-0x2531: IMM   $4 23074867
+0x2514: free  $6
+0x2515: alloc $4 $5
+0x2516: halt
+0x2517: free  $7
+0x2518: free  $0
+0x2519: in    $5
+0x251a: div   $4 $7 $4
+0x251b: rmem  $0 $6 $7
+0x251c: div   $3 $5 $5
+0x251d: in    $6
+0x251e: in    $0
+0x251f: out   $5
+0x2520: in    $1
+0x2521: alloc $4 $4
+0x2522: out   $3
+0x2523: imm   $3 2911530
+0x2524: jump  $6 $4
+0x2525: cmove $7 $0 $4
+0x2526: wmem  $5 $6 $3
+0x2527: imm   $6 9490176
+0x2528: cmove $7 $7 $0
+0x2529: alloc $4 $4
+0x252a: halt
+0x252b: in    $2
+0x252c: cmove $1 $1 $6
+0x252d: add   $7 $2 $4
+0x252e: add   $7 $7 $4
+0x252f: out   $4
+0x2530: cmove $6 $2 $0
+0x2531: imm   $4 23074867
 0x2532: 
 0x2533: 
 0x2534: 
-0x2535: OUT   $0
-0x2536: ALLOC $7 $3
-0x2537: ALLOC $5 $7
-0x2538: ALLOC $6 $1
-0x2539: MUL   $3 $1 $2
+0x2535: out   $0
+0x2536: alloc $7 $3
+0x2537: alloc $5 $7
+0x2538: alloc $6 $1
+0x2539: mul   $3 $1 $2
 0x253a: 
-0x253b: NAND  $1 $3 $4
+0x253b: nand  $1 $3 $4
 0x253c: 
-0x253d: IMM   $5 22148261
-0x253e: JUMP  $1 $7
+0x253d: imm   $5 22148261
+0x253e: jump  $1 $7
 0x253f: 
 0x2540: 
-0x2541: JUMP  $3 $4
-0x2542: IMM   $2 28988308
-0x2543: OUT   $6
-0x2544: JUMP  $2 $5
+0x2541: jump  $3 $4
+0x2542: imm   $2 28988308
+0x2543: out   $6
+0x2544: jump  $2 $5
 0x2545: 
-0x2546: IMM   $4 11317376
-0x2547: ADD   $6 $5 $7
+0x2546: imm   $4 11317376
+0x2547: add   $6 $5 $7
 0x2548: 
 0x2549: 
-0x254a: JUMP  $5 $7
-0x254b: CMOVE $1 $1 $6
-0x254c: FREE  $6
-0x254d: JUMP  $2 $0
+0x254a: jump  $5 $7
+0x254b: cmove $1 $1 $6
+0x254c: free  $6
+0x254d: jump  $2 $0
 0x254e: 
 0x254f: 
 0x2550: 
 0x2551: 
 0x2552: 
 0x2553: 
-0x2554: FREE  $6
-0x2555: IMM   $7 17599180
-0x2556: IMM   $3 20121509
-0x2557: HALT
-0x2558: CMOVE $4 $2 $4
-0x2559: OUT   $7
-0x255a: OUT   $0
-0x255b: RMEM  $6 $3 $5
+0x2554: free  $6
+0x2555: imm   $7 17599180
+0x2556: imm   $3 20121509
+0x2557: halt
+0x2558: cmove $4 $2 $4
+0x2559: out   $7
+0x255a: out   $0
+0x255b: rmem  $6 $3 $5
 0x255c: 
-0x255d: IN    $2
-0x255e: CMOVE $0 $5 $5
-0x255f: IN    $4
-0x2560: JUMP  $1 $6
+0x255d: in    $2
+0x255e: cmove $0 $5 $5
+0x255f: in    $4
+0x2560: jump  $1 $6
 0x2561: 
-0x2562: JUMP  $7 $0
+0x2562: jump  $7 $0
 0x2563: 
 0x2564: 
 0x2565: 
 0x2566: 
-0x2567: OUT   $6
-0x2568: IMM   $0 25079246
+0x2567: out   $6
+0x2568: imm   $0 25079246
 0x2569: 
-0x256a: IN    $7
+0x256a: in    $7
 0x256b: 
 0x256c: 
 0x256d: 
-0x256e: JUMP  $0 $5
-0x256f: CMOVE $6 $3 $2
-0x2570: ALLOC $7 $6
+0x256e: jump  $0 $5
+0x256f: cmove $6 $3 $2
+0x2570: alloc $7 $6
 0x2571: 
-0x2572: FREE  $6
+0x2572: free  $6
 0x2573: 
 0x2574: 
 0x2575: 
-0x2576: OUT   $3
+0x2576: out   $3
 0x2577: 
-0x2578: ADD   $4 $4 $2
-0x2579: JUMP  $7 $6
+0x2578: add   $4 $4 $2
+0x2579: jump  $7 $6
 0x257a: 
-0x257b: OUT   $1
-0x257c: FREE  $6
-0x257d: CMOVE $0 $0 $1
-0x257e: WMEM  $0 $5 $5
-0x257f: ADD   $1 $6 $2
+0x257b: out   $1
+0x257c: free  $6
+0x257d: cmove $0 $0 $1
+0x257e: wmem  $0 $5 $5
+0x257f: add   $1 $6 $2
 0x2580: 
 0x2581: 
 0x2582: 
 0x2583: 
 0x2584: 
-0x2585: FREE  $3
+0x2585: free  $3
 0x2586: 
-0x2587: IN    $7
-0x2588: OUT   $0
+0x2587: in    $7
+0x2588: out   $0
 0x2589: 
 0x258a: 
 0x258b: 
 0x258c: 
-0x258d: WMEM  $0 $5 $4
-0x258e: IMM   $1 28484752
-0x258f: OUT   $1
-0x2590: OUT   $7
-0x2591: JUMP  $5 $3
+0x258d: wmem  $0 $5 $4
+0x258e: imm   $1 28484752
+0x258f: out   $1
+0x2590: out   $7
+0x2591: jump  $5 $3
 0x2592: 
 0x2593: 
 0x2594: 
 0x2595: 
 0x2596: 
-0x2597: OUT   $6
+0x2597: out   $6
 0x2598: 
 0x2599: 
 0x259a: 
-0x259b: ALLOC $7 $1
+0x259b: alloc $7 $1
 0x259c: 
 0x259d: 
 0x259e: 
@@ -9634,4458 +9634,4458 @@
 0x25a1: 
 0x25a2: 
 0x25a3: 
-0x25a4: CMOVE $0 $7 $7
-0x25a5: CMOVE $4 $6 $7
+0x25a4: cmove $0 $7 $7
+0x25a5: cmove $4 $6 $7
 0x25a6: 
 0x25a7: 
-0x25a8: JUMP  $1 $4
-0x25a9: IN    $2
+0x25a8: jump  $1 $4
+0x25a9: in    $2
 0x25aa: 
-0x25ab: FREE  $3
-0x25ac: OUT   $6
-0x25ad: CMOVE $0 $0 $3
+0x25ab: free  $3
+0x25ac: out   $6
+0x25ad: cmove $0 $0 $3
 0x25ae: 
 0x25af: 
 0x25b0: 
 0x25b1: 
 0x25b2: 
 0x25b3: 
-0x25b4: OUT   $5
-0x25b5: OUT   $5
-0x25b6: ALLOC $1 $6
+0x25b4: out   $5
+0x25b5: out   $5
+0x25b6: alloc $1 $6
 0x25b7: 
-0x25b8: OUT   $4
+0x25b8: out   $4
 0x25b9: 
-0x25ba: IMM   $1 10979231
-0x25bb: CMOVE $0 $7 $0
+0x25ba: imm   $1 10979231
+0x25bb: cmove $0 $7 $0
 0x25bc: 
 0x25bd: 
-0x25be: IN    $4
-0x25bf: ALLOC $1 $6
+0x25be: in    $4
+0x25bf: alloc $1 $6
 0x25c0: 
 0x25c1: 
 0x25c2: 
 0x25c3: 
 0x25c4: 
-0x25c5: CMOVE $5 $7 $0
-0x25c6: ALLOC $1 $1
-0x25c7: OUT   $7
-0x25c8: OUT   $6
-0x25c9: WMEM  $3 $0 $5
-0x25ca: JUMP  $2 $0
+0x25c5: cmove $5 $7 $0
+0x25c6: alloc $1 $1
+0x25c7: out   $7
+0x25c8: out   $6
+0x25c9: wmem  $3 $0 $5
+0x25ca: jump  $2 $0
 0x25cb: 
 0x25cc: 
 0x25cd: 
 0x25ce: 
 0x25cf: 
-0x25d0: FREE  $2
-0x25d1: OUT   $3
-0x25d2: ALLOC $1 $6
+0x25d0: free  $2
+0x25d1: out   $3
+0x25d2: alloc $1 $6
 0x25d3: 
-0x25d4: IMM   $5 29235650
+0x25d4: imm   $5 29235650
 0x25d5: 
-0x25d6: JUMP  $6 $2
-0x25d7: CMOVE $7 $1 $1
-0x25d8: CMOVE $3 $1 $1
+0x25d6: jump  $6 $2
+0x25d7: cmove $7 $1 $1
+0x25d8: cmove $3 $1 $1
 0x25d9: 
 0x25da: 
 0x25db: 
 0x25dc: 
-0x25dd: JUMP  $6 $5
+0x25dd: jump  $6 $5
 0x25de: 
 0x25df: 
 0x25e0: 
-0x25e1: IN    $0
-0x25e2: ALLOC $1 $6
+0x25e1: in    $0
+0x25e2: alloc $1 $6
 0x25e3: 
 0x25e4: 
 0x25e5: 
-0x25e6: IMM   $0 32349155
-0x25e7: OUT   $1
+0x25e6: imm   $0 32349155
+0x25e7: out   $1
 0x25e8: 
 0x25e9: 
 0x25ea: 
-0x25eb: CMOVE $3 $5 $0
+0x25eb: cmove $3 $5 $0
 0x25ec: 
 0x25ed: 
-0x25ee: JUMP  $6 $1
+0x25ee: jump  $6 $1
 0x25ef: 
-0x25f0: IN    $0
+0x25f0: in    $0
 0x25f1: 
 0x25f2: 
-0x25f3: ALLOC $5 $4
+0x25f3: alloc $5 $4
 0x25f4: 
 0x25f5: 
 0x25f6: 
 0x25f7: 
 0x25f8: 
 0x25f9: 
-0x25fa: JUMP  $1 $6
+0x25fa: jump  $1 $6
 0x25fb: 
 0x25fc: 
-0x25fd: JUMP  $3 $1
+0x25fd: jump  $3 $1
 0x25fe: 
-0x25ff: CMOVE $1 $0 $6
+0x25ff: cmove $1 $0 $6
 0x2600: 
 0x2601: 
 0x2602: 
 0x2603: 
-0x2604: IN    $1
-0x2605: ALLOC $4 $5
+0x2604: in    $1
+0x2605: alloc $4 $5
 0x2606: 
-0x2607: HALT
+0x2607: halt
 0x2608: 
-0x2609: ALLOC $4 $1
-0x260a: JUMP  $3 $1
+0x2609: alloc $4 $1
+0x260a: jump  $3 $1
 0x260b: 
-0x260c: HALT
-0x260d: OUT   $1
-0x260e: IN    $5
-0x260f: IMM   $6 21624665
-0x2610: IMM   $2 14120892
-0x2611: IMM   $0 29218603
-0x2612: ADD   $0 $2 $7
+0x260c: halt
+0x260d: out   $1
+0x260e: in    $5
+0x260f: imm   $6 21624665
+0x2610: imm   $2 14120892
+0x2611: imm   $0 29218603
+0x2612: add   $0 $2 $7
 0x2613: 
-0x2614: CMOVE $1 $7 $3
-0x2615: MUL   $6 $2 $1
-0x2616: IMM   $7 9783856
-0x2617: IN    $7
-0x2618: ADD   $6 $6 $4
-0x2619: MUL   $1 $7 $6
+0x2614: cmove $1 $7 $3
+0x2615: mul   $6 $2 $1
+0x2616: imm   $7 9783856
+0x2617: in    $7
+0x2618: add   $6 $6 $4
+0x2619: mul   $1 $7 $6
 0x261a: 
 0x261b: 
-0x261c: ADD   $3 $3 $4
+0x261c: add   $3 $3 $4
 0x261d: 
-0x261e: ALLOC $2 $2
-0x261f: WMEM  $1 $6 $6
+0x261e: alloc $2 $2
+0x261f: wmem  $1 $6 $6
 0x2620: 
-0x2621: RMEM  $2 $1 $7
-0x2622: HALT
-0x2623: OUT   $3
-0x2624: ALLOC $3 $0
-0x2625: IMM   $4 25217226
-0x2626: IMM   $4 28093543
+0x2621: rmem  $2 $1 $7
+0x2622: halt
+0x2623: out   $3
+0x2624: alloc $3 $0
+0x2625: imm   $4 25217226
+0x2626: imm   $4 28093543
 0x2627: 
-0x2628: FREE  $6
-0x2629: ALLOC $3 $3
+0x2628: free  $6
+0x2629: alloc $3 $3
 0x262a: 
 0x262b: 
-0x262c: RMEM  $2 $0 $1
-0x262d: ALLOC $6 $2
+0x262c: rmem  $2 $0 $1
+0x262d: alloc $6 $2
 0x262e: 
-0x262f: JUMP  $5 $1
-0x2630: RMEM  $5 $3 $1
-0x2631: IMM   $2 13895577
-0x2632: IMM   $6 379377
-0x2633: IN    $3
-0x2634: FREE  $0
-0x2635: ADD   $3 $7 $1
-0x2636: IN    $5
-0x2637: IMM   $3 6316966
-0x2638: JUMP  $5 $5
-0x2639: IN    $1
-0x263a: HALT
+0x262f: jump  $5 $1
+0x2630: rmem  $5 $3 $1
+0x2631: imm   $2 13895577
+0x2632: imm   $6 379377
+0x2633: in    $3
+0x2634: free  $0
+0x2635: add   $3 $7 $1
+0x2636: in    $5
+0x2637: imm   $3 6316966
+0x2638: jump  $5 $5
+0x2639: in    $1
+0x263a: halt
 0x263b: 
 0x263c: 
-0x263d: IN    $6
+0x263d: in    $6
 0x263e: 
 0x263f: 
 0x2640: 
-0x2641: ALLOC $5 $6
-0x2642: HALT
-0x2643: NAND  $3 $4 $1
-0x2644: ALLOC $1 $3
-0x2645: IMM   $5 23962418
-0x2646: NAND  $7 $0 $5
-0x2647: IN    $4
-0x2648: NAND  $6 $5 $1
-0x2649: WMEM  $2 $7 $4
+0x2641: alloc $5 $6
+0x2642: halt
+0x2643: nand  $3 $4 $1
+0x2644: alloc $1 $3
+0x2645: imm   $5 23962418
+0x2646: nand  $7 $0 $5
+0x2647: in    $4
+0x2648: nand  $6 $5 $1
+0x2649: wmem  $2 $7 $4
 0x264a: 
 0x264b: 
-0x264c: IN    $2
-0x264d: ALLOC $5 $7
-0x264e: IN    $2
-0x264f: IMM   $5 15990924
-0x2650: ALLOC $1 $1
-0x2651: IN    $7
-0x2652: JUMP  $1 $3
-0x2653: IMM   $1 24939710
+0x264c: in    $2
+0x264d: alloc $5 $7
+0x264e: in    $2
+0x264f: imm   $5 15990924
+0x2650: alloc $1 $1
+0x2651: in    $7
+0x2652: jump  $1 $3
+0x2653: imm   $1 24939710
 0x2654: 
-0x2655: ALLOC $3 $0
-0x2656: CMOVE $3 $7 $0
-0x2657: IN    $2
+0x2655: alloc $3 $0
+0x2656: cmove $3 $7 $0
+0x2657: in    $2
 0x2658: 
-0x2659: IN    $5
-0x265a: IN    $5
-0x265b: JUMP  $5 $0
+0x2659: in    $5
+0x265a: in    $5
+0x265b: jump  $5 $0
 0x265c: 
-0x265d: FREE  $3
-0x265e: IN    $5
-0x265f: OUT   $3
-0x2660: JUMP  $6 $3
-0x2661: CMOVE $5 $4 $4
-0x2662: IMM   $5 13064442
-0x2663: IMM   $6 23721785
-0x2664: IN    $6
-0x2665: FREE  $6
-0x2666: OUT   $0
-0x2667: IN    $1
-0x2668: HALT
-0x2669: CMOVE $7 $7 $5
-0x266a: ALLOC $1 $5
-0x266b: ALLOC $7 $3
+0x265d: free  $3
+0x265e: in    $5
+0x265f: out   $3
+0x2660: jump  $6 $3
+0x2661: cmove $5 $4 $4
+0x2662: imm   $5 13064442
+0x2663: imm   $6 23721785
+0x2664: in    $6
+0x2665: free  $6
+0x2666: out   $0
+0x2667: in    $1
+0x2668: halt
+0x2669: cmove $7 $7 $5
+0x266a: alloc $1 $5
+0x266b: alloc $7 $3
 0x266c: 
-0x266d: IN    $3
+0x266d: in    $3
 0x266e: 
-0x266f: CMOVE $6 $5 $5
-0x2670: ALLOC $5 $3
-0x2671: JUMP  $0 $7
-0x2672: IN    $5
-0x2673: IN    $6
-0x2674: FREE  $0
-0x2675: DIV   $1 $1 $3
-0x2676: IMM   $2 31301209
-0x2677: JUMP  $5 $2
-0x2678: ALLOC $2 $3
-0x2679: IMM   $6 11106872
-0x267a: HALT
+0x266f: cmove $6 $5 $5
+0x2670: alloc $5 $3
+0x2671: jump  $0 $7
+0x2672: in    $5
+0x2673: in    $6
+0x2674: free  $0
+0x2675: div   $1 $1 $3
+0x2676: imm   $2 31301209
+0x2677: jump  $5 $2
+0x2678: alloc $2 $3
+0x2679: imm   $6 11106872
+0x267a: halt
 0x267b: 
-0x267c: OUT   $3
-0x267d: NAND  $1 $0 $2
-0x267e: HALT
-0x267f: NAND  $0 $7 $7
+0x267c: out   $3
+0x267d: nand  $1 $0 $2
+0x267e: halt
+0x267f: nand  $0 $7 $7
 0x2680: 
-0x2681: JUMP  $1 $4
-0x2682: HALT
-0x2683: NAND  $6 $1 $3
-0x2684: HALT
-0x2685: IN    $1
-0x2686: HALT
-0x2687: DIV   $1 $2 $5
-0x2688: OUT   $3
-0x2689: FREE  $6
-0x268a: HALT
-0x268b: CMOVE $7 $4 $3
-0x268c: HALT
-0x268d: IN    $1
-0x268e: IN    $5
-0x268f: JUMP  $6 $3
-0x2690: OUT   $5
-0x2691: OUT   $3
-0x2692: DIV   $2 $1 $7
+0x2681: jump  $1 $4
+0x2682: halt
+0x2683: nand  $6 $1 $3
+0x2684: halt
+0x2685: in    $1
+0x2686: halt
+0x2687: div   $1 $2 $5
+0x2688: out   $3
+0x2689: free  $6
+0x268a: halt
+0x268b: cmove $7 $4 $3
+0x268c: halt
+0x268d: in    $1
+0x268e: in    $5
+0x268f: jump  $6 $3
+0x2690: out   $5
+0x2691: out   $3
+0x2692: div   $2 $1 $7
 0x2693: 
-0x2694: IN    $7
-0x2695: ALLOC $4 $6
+0x2694: in    $7
+0x2695: alloc $4 $6
 0x2696: 
-0x2697: CMOVE $3 $7 $5
-0x2698: IN    $6
+0x2697: cmove $3 $7 $5
+0x2698: in    $6
 0x2699: 
-0x269a: DIV   $2 $5 $1
-0x269b: ALLOC $5 $5
+0x269a: div   $2 $5 $1
+0x269b: alloc $5 $5
 0x269c: 
-0x269d: OUT   $2
-0x269e: ALLOC $7 $6
-0x269f: FREE  $1
-0x26a0: HALT
-0x26a1: CMOVE $0 $2 $6
-0x26a2: HALT
-0x26a3: IN    $1
-0x26a4: NAND  $5 $6 $1
-0x26a5: HALT
-0x26a6: OUT   $3
-0x26a7: FREE  $2
-0x26a8: IN    $6
-0x26a9: HALT
-0x26aa: CMOVE $2 $4 $6
-0x26ab: HALT
+0x269d: out   $2
+0x269e: alloc $7 $6
+0x269f: free  $1
+0x26a0: halt
+0x26a1: cmove $0 $2 $6
+0x26a2: halt
+0x26a3: in    $1
+0x26a4: nand  $5 $6 $1
+0x26a5: halt
+0x26a6: out   $3
+0x26a7: free  $2
+0x26a8: in    $6
+0x26a9: halt
+0x26aa: cmove $2 $4 $6
+0x26ab: halt
 0x26ac: 
 0x26ad: 
-0x26ae: FREE  $3
-0x26af: ALLOC $7 $2
+0x26ae: free  $3
+0x26af: alloc $7 $2
 0x26b0: 
-0x26b1: ALLOC $7 $4
-0x26b2: RMEM  $1 $6 $7
+0x26b1: alloc $7 $4
+0x26b2: rmem  $1 $6 $7
 0x26b3: 
-0x26b4: CMOVE $2 $1 $2
-0x26b5: IMM   $5 29402492
-0x26b6: IMM   $5 14668689
-0x26b7: FREE  $5
-0x26b8: ALLOC $4 $0
-0x26b9: DIV   $6 $0 $7
-0x26ba: HALT
-0x26bb: DIV   $4 $6 $2
-0x26bc: HALT
-0x26bd: JUMP  $7 $5
-0x26be: IN    $3
-0x26bf: FREE  $3
-0x26c0: JUMP  $3 $2
+0x26b4: cmove $2 $1 $2
+0x26b5: imm   $5 29402492
+0x26b6: imm   $5 14668689
+0x26b7: free  $5
+0x26b8: alloc $4 $0
+0x26b9: div   $6 $0 $7
+0x26ba: halt
+0x26bb: div   $4 $6 $2
+0x26bc: halt
+0x26bd: jump  $7 $5
+0x26be: in    $3
+0x26bf: free  $3
+0x26c0: jump  $3 $2
 0x26c1: 
-0x26c2: IN    $3
-0x26c3: IN    $0
+0x26c2: in    $3
+0x26c3: in    $0
 0x26c4: 
-0x26c5: FREE  $7
-0x26c6: IN    $6
-0x26c7: HALT
-0x26c8: JUMP  $6 $0
-0x26c9: OUT   $4
-0x26ca: OUT   $6
-0x26cb: ALLOC $6 $6
+0x26c5: free  $7
+0x26c6: in    $6
+0x26c7: halt
+0x26c8: jump  $6 $0
+0x26c9: out   $4
+0x26ca: out   $6
+0x26cb: alloc $6 $6
 0x26cc: 
 0x26cd: 
-0x26ce: IMM   $2 22900069
-0x26cf: FREE  $6
-0x26d0: IN    $5
-0x26d1: IN    $5
-0x26d2: OUT   $7
-0x26d3: OUT   $3
-0x26d4: DIV   $5 $7 $4
-0x26d5: HALT
-0x26d6: NAND  $1 $0 $2
-0x26d7: JUMP  $5 $0
+0x26ce: imm   $2 22900069
+0x26cf: free  $6
+0x26d0: in    $5
+0x26d1: in    $5
+0x26d2: out   $7
+0x26d3: out   $3
+0x26d4: div   $5 $7 $4
+0x26d5: halt
+0x26d6: nand  $1 $0 $2
+0x26d7: jump  $5 $0
 0x26d8: 
 0x26d9: 
 0x26da: 
 0x26db: 
-0x26dc: DIV   $5 $5 $4
+0x26dc: div   $5 $5 $4
 0x26dd: 
 0x26de: 
 0x26df: 
-0x26e0: IMM   $2 25321055
+0x26e0: imm   $2 25321055
 0x26e1: 
-0x26e2: IMM   $3 25035360
-0x26e3: CMOVE $4 $1 $4
-0x26e4: ALLOC $4 $0
-0x26e5: IN    $0
-0x26e6: RMEM  $7 $5 $5
+0x26e2: imm   $3 25035360
+0x26e3: cmove $4 $1 $4
+0x26e4: alloc $4 $0
+0x26e5: in    $0
+0x26e6: rmem  $7 $5 $5
 0x26e7: 
 0x26e8: 
 0x26e9: 
-0x26ea: IN    $5
-0x26eb: FREE  $3
-0x26ec: CMOVE $2 $7 $4
-0x26ed: ADD   $4 $2 $6
+0x26ea: in    $5
+0x26eb: free  $3
+0x26ec: cmove $2 $7 $4
+0x26ed: add   $4 $2 $6
 0x26ee: 
-0x26ef: FREE  $5
-0x26f0: IMM   $7 14676819
-0x26f1: JUMP  $7 $0
-0x26f2: IN    $6
-0x26f3: IN    $4
-0x26f4: FREE  $2
-0x26f5: FREE  $0
-0x26f6: OUT   $6
-0x26f7: OUT   $5
-0x26f8: DIV   $4 $1 $3
-0x26f9: JUMP  $1 $0
-0x26fa: JUMP  $3 $7
-0x26fb: OUT   $1
-0x26fc: MUL   $1 $1 $2
-0x26fd: MUL   $0 $4 $5
-0x26fe: OUT   $3
-0x26ff: RMEM  $6 $0 $0
-0x2700: CMOVE $7 $7 $0
+0x26ef: free  $5
+0x26f0: imm   $7 14676819
+0x26f1: jump  $7 $0
+0x26f2: in    $6
+0x26f3: in    $4
+0x26f4: free  $2
+0x26f5: free  $0
+0x26f6: out   $6
+0x26f7: out   $5
+0x26f8: div   $4 $1 $3
+0x26f9: jump  $1 $0
+0x26fa: jump  $3 $7
+0x26fb: out   $1
+0x26fc: mul   $1 $1 $2
+0x26fd: mul   $0 $4 $5
+0x26fe: out   $3
+0x26ff: rmem  $6 $0 $0
+0x2700: cmove $7 $7 $0
 0x2701: 
 0x2702: 
-0x2703: RMEM  $6 $0 $5
-0x2704: HALT
+0x2703: rmem  $6 $0 $5
+0x2704: halt
 0x2705: 
-0x2706: ALLOC $6 $7
-0x2707: OUT   $1
-0x2708: IN    $7
-0x2709: NAND  $5 $4 $1
-0x270a: JUMP  $5 $4
+0x2706: alloc $6 $7
+0x2707: out   $1
+0x2708: in    $7
+0x2709: nand  $5 $4 $1
+0x270a: jump  $5 $4
 0x270b: 
-0x270c: ALLOC $3 $2
-0x270d: JUMP  $3 $7
-0x270e: IN    $0
-0x270f: IMM   $5 23482329
-0x2710: IMM   $0 16655963
-0x2711: FREE  $6
+0x270c: alloc $3 $2
+0x270d: jump  $3 $7
+0x270e: in    $0
+0x270f: imm   $5 23482329
+0x2710: imm   $0 16655963
+0x2711: free  $6
 0x2712: 
-0x2713: FREE  $7
-0x2714: OUT   $7
-0x2715: OUT   $2
-0x2716: FREE  $0
-0x2717: HALT
-0x2718: FREE  $4
-0x2719: FREE  $4
-0x271a: OUT   $4
-0x271b: HALT
-0x271c: NAND  $3 $4 $0
-0x271d: FREE  $4
-0x271e: OUT   $0
-0x271f: HALT
-0x2720: FREE  $2
-0x2721: OUT   $0
-0x2722: MUL   $7 $6 $0
+0x2713: free  $7
+0x2714: out   $7
+0x2715: out   $2
+0x2716: free  $0
+0x2717: halt
+0x2718: free  $4
+0x2719: free  $4
+0x271a: out   $4
+0x271b: halt
+0x271c: nand  $3 $4 $0
+0x271d: free  $4
+0x271e: out   $0
+0x271f: halt
+0x2720: free  $2
+0x2721: out   $0
+0x2722: mul   $7 $6 $0
 0x2723: 
-0x2724: WMEM  $2 $0 $1
-0x2725: JUMP  $5 $5
+0x2724: wmem  $2 $0 $1
+0x2725: jump  $5 $5
 0x2726: 
-0x2727: IMM   $5 20144206
-0x2728: IN    $4
-0x2729: JUMP  $1 $7
-0x272a: OUT   $1
-0x272b: ALLOC $6 $0
-0x272c: ALLOC $1 $0
-0x272d: OUT   $4
-0x272e: JUMP  $5 $0
-0x272f: IN    $5
-0x2730: IMM   $3 26980113
-0x2731: OUT   $1
-0x2732: FREE  $0
-0x2733: OUT   $1
-0x2734: FREE  $7
-0x2735: IN    $3
-0x2736: OUT   $0
-0x2737: ALLOC $2 $2
+0x2727: imm   $5 20144206
+0x2728: in    $4
+0x2729: jump  $1 $7
+0x272a: out   $1
+0x272b: alloc $6 $0
+0x272c: alloc $1 $0
+0x272d: out   $4
+0x272e: jump  $5 $0
+0x272f: in    $5
+0x2730: imm   $3 26980113
+0x2731: out   $1
+0x2732: free  $0
+0x2733: out   $1
+0x2734: free  $7
+0x2735: in    $3
+0x2736: out   $0
+0x2737: alloc $2 $2
 0x2738: 
-0x2739: DIV   $2 $6 $0
-0x273a: DIV   $0 $5 $3
-0x273b: MUL   $2 $7 $6
-0x273c: CMOVE $2 $6 $2
-0x273d: IN    $7
-0x273e: IMM   $0 6259764
-0x273f: JUMP  $4 $2
-0x2740: HALT
+0x2739: div   $2 $6 $0
+0x273a: div   $0 $5 $3
+0x273b: mul   $2 $7 $6
+0x273c: cmove $2 $6 $2
+0x273d: in    $7
+0x273e: imm   $0 6259764
+0x273f: jump  $4 $2
+0x2740: halt
 0x2741: 
 0x2742: 
-0x2743: FREE  $2
-0x2744: IMM   $5 130303
+0x2743: free  $2
+0x2744: imm   $5 130303
 0x2745: 
-0x2746: MUL   $6 $0 $2
-0x2747: RMEM  $3 $6 $5
-0x2748: IMM   $4 29318130
+0x2746: mul   $6 $0 $2
+0x2747: rmem  $3 $6 $5
+0x2748: imm   $4 29318130
 0x2749: 
-0x274a: ADD   $3 $3 $4
-0x274b: ALLOC $4 $4
+0x274a: add   $3 $3 $4
+0x274b: alloc $4 $4
 0x274c: 
 0x274d: 
-0x274e: FREE  $1
-0x274f: FREE  $3
+0x274e: free  $1
+0x274f: free  $3
 0x2750: 
 0x2751: 
-0x2752: OUT   $1
-0x2753: FREE  $2
-0x2754: IN    $2
+0x2752: out   $1
+0x2753: free  $2
+0x2754: in    $2
 0x2755: 
-0x2756: JUMP  $4 $1
-0x2757: OUT   $5
-0x2758: IN    $2
+0x2756: jump  $4 $1
+0x2757: out   $5
+0x2758: in    $2
 0x2759: 
-0x275a: OUT   $2
-0x275b: ADD   $0 $7 $2
+0x275a: out   $2
+0x275b: add   $0 $7 $2
 0x275c: 
 0x275d: 
-0x275e: IN    $5
-0x275f: CMOVE $6 $1 $2
+0x275e: in    $5
+0x275f: cmove $6 $1 $2
 0x2760: 
-0x2761: DIV   $3 $4 $1
+0x2761: div   $3 $4 $1
 0x2762: 
 0x2763: 
-0x2764: IN    $3
-0x2765: OUT   $4
+0x2764: in    $3
+0x2765: out   $4
 0x2766: 
-0x2767: IN    $5
+0x2767: in    $5
 0x2768: 
-0x2769: IN    $0
-0x276a: CMOVE $5 $1 $0
-0x276b: ALLOC $0 $6
+0x2769: in    $0
+0x276a: cmove $5 $1 $0
+0x276b: alloc $0 $6
 0x276c: 
-0x276d: IN    $4
+0x276d: in    $4
 0x276e: 
-0x276f: ALLOC $6 $1
-0x2770: IN    $5
-0x2771: OUT   $3
-0x2772: FREE  $7
-0x2773: IMM   $0 30372330
+0x276f: alloc $6 $1
+0x2770: in    $5
+0x2771: out   $3
+0x2772: free  $7
+0x2773: imm   $0 30372330
 0x2774: 
-0x2775: JUMP  $6 $7
-0x2776: IMM   $4 20640376
-0x2777: OUT   $3
-0x2778: IN    $5
+0x2775: jump  $6 $7
+0x2776: imm   $4 20640376
+0x2777: out   $3
+0x2778: in    $5
 0x2779: 
-0x277a: RMEM  $0 $5 $0
-0x277b: CMOVE $5 $3 $5
-0x277c: CMOVE $5 $2 $2
+0x277a: rmem  $0 $5 $0
+0x277b: cmove $5 $3 $5
+0x277c: cmove $5 $2 $2
 0x277d: 
-0x277e: OUT   $0
-0x277f: IN    $0
+0x277e: out   $0
+0x277f: in    $0
 0x2780: 
-0x2781: CMOVE $4 $7 $6
-0x2782: JUMP  $5 $2
-0x2783: WMEM  $6 $2 $6
-0x2784: IN    $5
-0x2785: CMOVE $4 $3 $2
-0x2786: FREE  $4
+0x2781: cmove $4 $7 $6
+0x2782: jump  $5 $2
+0x2783: wmem  $6 $2 $6
+0x2784: in    $5
+0x2785: cmove $4 $3 $2
+0x2786: free  $4
 0x2787: 
-0x2788: DIV   $5 $4 $2
-0x2789: DIV   $6 $5 $3
-0x278a: FREE  $1
-0x278b: DIV   $0 $1 $1
-0x278c: RMEM  $1 $1 $1
+0x2788: div   $5 $4 $2
+0x2789: div   $6 $5 $3
+0x278a: free  $1
+0x278b: div   $0 $1 $1
+0x278c: rmem  $1 $1 $1
 0x278d: 
-0x278e: IN    $0
-0x278f: IMM   $5 8271322
-0x2790: WMEM  $0 $0 $0
-0x2791: NAND  $1 $5 $6
-0x2792: NAND  $1 $1 $6
-0x2793: HALT
-0x2794: MUL   $2 $3 $3
-0x2795: CMOVE $0 $2 $3
-0x2796: CMOVE $7 $0 $2
-0x2797: MUL   $4 $5 $2
-0x2798: HALT
-0x2799: ADD   $0 $0 $4
-0x279a: DIV   $4 $3 $6
-0x279b: HALT
-0x279c: DIV   $3 $3 $6
-0x279d: HALT
-0x279e: ADD   $7 $1 $2
-0x279f: MUL   $4 $7 $6
-0x27a0: NAND  $6 $4 $6
-0x27a1: HALT
-0x27a2: NAND  $2 $1 $2
-0x27a3: ADD   $6 $3 $7
-0x27a4: ADD   $7 $2 $7
-0x27a5: ADD   $0 $0 $4
-0x27a6: CMOVE $2 $7 $6
-0x27a7: WMEM  $7 $4 $4
-0x27a8: CMOVE $7 $1 $5
-0x27a9: CMOVE $2 $5 $1
-0x27aa: ADD   $0 $0 $1
-0x27ab: ADD   $0 $1 $4
-0x27ac: ADD   $5 $4 $6
-0x27ad: RMEM  $7 $4 $2
-0x27ae: WMEM  $2 $3 $5
-0x27af: ALLOC $3 $7
-0x27b0: WMEM  $0 $6 $7
-0x27b1: ADD   $7 $0 $6
-0x27b2: ADD   $7 $3 $3
-0x27b3: WMEM  $2 $4 $2
-0x27b4: ALLOC $2 $6
-0x27b5: CMOVE $2 $0 $2
-0x27b6: ADD   $2 $0 $2
-0x27b7: ADD   $5 $6 $6
-0x27b8: ALLOC $2 $6
-0x27b9: CMOVE $7 $2 $2
-0x27ba: ADD   $6 $5 $5
-0x27bb: ADD   $3 $4 $1
-0x27bc: RMEM  $7 $2 $2
-0x27bd: WMEM  $2 $0 $3
-0x27be: WMEM  $3 $1 $0
-0x27bf: ALLOC $0 $6
-0x27c0: CMOVE $5 $1 $1
-0x27c1: ALLOC $6 $2
-0x27c2: CMOVE $5 $4 $4
-0x27c3: ALLOC $3 $6
-0x27c4: CMOVE $1 $2 $3
-0x27c5: CMOVE $5 $7 $4
-0x27c6: ADD   $2 $3 $3
-0x27c7: ADD   $5 $1 $3
-0x27c8: CMOVE $4 $0 $2
-0x27c9: ALLOC $4 $1
-0x27ca: ADD   $1 $4 $7
-0x27cb: RMEM  $0 $1 $4
-0x27cc: CMOVE $0 $1 $0
-0x27cd: ALLOC $0 $2
-0x27ce: ALLOC $6 $7
-0x27cf: ADD   $4 $7 $2
-0x27d0: WMEM  $6 $0 $1
-0x27d1: ADD   $7 $6 $0
-0x27d2: ADD   $7 $2 $0
-0x27d3: CMOVE $1 $6 $6
-0x27d4: ADD   $2 $0 $1
-0x27d5: ALLOC $4 $7
-0x27d6: ALLOC $1 $2
-0x27d7: ALLOC $1 $4
-0x27d8: CMOVE $3 $4 $3
-0x27d9: ADD   $1 $0 $6
-0x27da: ALLOC $0 $5
-0x27db: WMEM  $1 $2 $4
-0x27dc: ALLOC $6 $7
-0x27dd: ALLOC $6 $7
-0x27de: ALLOC $3 $3
-0x27df: ALLOC $1 $0
-0x27e0: ADD   $3 $7 $4
-0x27e1: ALLOC $3 $6
-0x27e2: CMOVE $2 $0 $3
-0x27e3: ADD   $2 $3 $5
-0x27e4: ALLOC $5 $0
-0x27e5: ALLOC $5 $1
-0x27e6: CMOVE $0 $3 $1
-0x27e7: ADD   $3 $2 $6
-0x27e8: ALLOC $0 $3
-0x27e9: MUL   $6 $4 $1
-0x27ea: NAND  $1 $1 $6
-0x27eb: HALT
-0x27ec: DIV   $6 $2 $2
-0x27ed: ALLOC $5 $1
-0x27ee: DIV   $2 $0 $0
-0x27ef: NAND  $3 $2 $3
-0x27f0: DIV   $6 $7 $3
-0x27f1: DIV   $0 $5 $4
-0x27f2: HALT
-0x27f3: HALT
-0x27f4: WMEM  $6 $2 $4
-0x27f5: HALT
-0x27f6: HALT
-0x27f7: HALT
-0x27f8: CMOVE $3 $5 $3
-0x27f9: NAND  $2 $1 $7
-0x27fa: DIV   $5 $0 $7
-0x27fb: DIV   $5 $0 $6
-0x27fc: DIV   $7 $4 $1
-0x27fd: DIV   $2 $1 $2
-0x27fe: HALT
-0x27ff: MUL   $5 $3 $2
-0x2800: MUL   $7 $0 $4
-0x2801: HALT
-0x2802: HALT
-0x2803: CMOVE $0 $6 $2
-0x2804: NAND  $2 $5 $5
-0x2805: HALT
-0x2806: NAND  $6 $6 $2
-0x2807: ADD   $7 $0 $4
-0x2808: WMEM  $1 $3 $1
-0x2809: DIV   $0 $1 $7
-0x280a: RMEM  $5 $5 $5
-0x280b: ALLOC $2 $0
-0x280c: ADD   $4 $2 $3
-0x280d: NAND  $2 $5 $6
-0x280e: ADD   $4 $6 $6
-0x280f: DIV   $1 $1 $1
-0x2810: HALT
-0x2811: CMOVE $6 $0 $3
-0x2812: HALT
-0x2813: DIV   $5 $5 $4
-0x2814: WMEM  $5 $4 $2
-0x2815: HALT
-0x2816: WMEM  $3 $0 $3
-0x2817: CMOVE $0 $2 $6
-0x2818: ADD   $4 $0 $6
-0x2819: DIV   $1 $1 $3
-0x281a: MUL   $1 $5 $7
-0x281b: CMOVE $2 $2 $0
-0x281c: ADD   $2 $5 $3
-0x281d: ADD   $1 $3 $2
-0x281e: MUL   $2 $0 $3
-0x281f: NAND  $3 $2 $2
-0x2820: HALT
-0x2821: HALT
-0x2822: HALT
-0x2823: HALT
-0x2824: HALT
-0x2825: WMEM  $0 $2 $0
-0x2826: NAND  $1 $3 $0
-0x2827: NAND  $5 $3 $1
-0x2828: HALT
-0x2829: ADD   $4 $6 $4
-0x282a: CMOVE $5 $2 $0
-0x282b: HALT
-0x282c: CMOVE $3 $2 $0
-0x282d: CMOVE $5 $2 $4
-0x282e: CMOVE $4 $5 $0
-0x282f: MUL   $1 $2 $1
-0x2830: DIV   $1 $2 $6
-0x2831: DIV   $4 $0 $1
-0x2832: HALT
-0x2833: DIV   $3 $2 $6
-0x2834: IN    $5
-0x2835: HALT
-0x2836: CMOVE $3 $6 $7
-0x2837: CMOVE $4 $0 $1
-0x2838: CMOVE $3 $4 $5
-0x2839: ALLOC $0 $3
-0x283a: DIV   $7 $0 $0
-0x283b: ADD   $1 $4 $1
-0x283c: DIV   $6 $4 $0
-0x283d: ALLOC $6 $5
-0x283e: MUL   $5 $1 $4
-0x283f: HALT
-0x2840: MUL   $4 $7 $2
-0x2841: ADD   $4 $6 $1
-0x2842: HALT
-0x2843: WMEM  $4 $3 $2
-0x2844: CMOVE $1 $1 $6
-0x2845: DIV   $1 $3 $6
-0x2846: WMEM  $7 $5 $1
-0x2847: HALT
-0x2848: CMOVE $0 $2 $4
-0x2849: ADD   $1 $2 $6
-0x284a: NAND  $4 $6 $0
-0x284b: NAND  $4 $5 $5
-0x284c: HALT
-0x284d: NAND  $3 $4 $6
-0x284e: NAND  $0 $3 $5
-0x284f: ADD   $5 $1 $7
-0x2850: ADD   $0 $1 $0
-0x2851: DIV   $5 $6 $6
-0x2852: ADD   $6 $1 $3
-0x2853: ADD   $3 $7 $6
-0x2854: ADD   $6 $5 $3
-0x2855: HALT
-0x2856: ALLOC $5 $1
-0x2857: MUL   $5 $6 $7
-0x2858: MUL   $7 $5 $7
-0x2859: ALLOC $5 $1
-0x285a: DIV   $4 $5 $4
-0x285b: DIV   $7 $5 $3
-0x285c: HALT
-0x285d: ALLOC $1 $7
-0x285e: NAND  $1 $7 $2
-0x285f: CMOVE $0 $7 $2
-0x2860: HALT
-0x2861: ADD   $2 $5 $3
-0x2862: NAND  $0 $6 $2
-0x2863: HALT
-0x2864: MUL   $2 $0 $3
-0x2865: MUL   $5 $1 $0
-0x2866: DIV   $1 $7 $3
-0x2867: ALLOC $4 $7
-0x2868: ALLOC $1 $5
-0x2869: DIV   $5 $2 $5
-0x286a: CMOVE $3 $7 $7
-0x286b: HALT
-0x286c: NAND  $0 $4 $3
-0x286d: HALT
-0x286e: DIV   $0 $4 $0
-0x286f: HALT
-0x2870: ADD   $5 $4 $6
-0x2871: MUL   $6 $6 $3
-0x2872: MUL   $6 $6 $3
-0x2873: DIV   $5 $7 $0
-0x2874: DIV   $2 $2 $5
-0x2875: DIV   $4 $6 $3
-0x2876: HALT
-0x2877: DIV   $1 $6 $7
-0x2878: DIV   $1 $2 $6
-0x2879: MUL   $7 $1 $1
-0x287a: CMOVE $7 $1 $6
-0x287b: DIV   $0 $2 $2
-0x287c: NAND  $5 $2 $3
-0x287d: HALT
-0x287e: NAND  $1 $2 $5
-0x287f: ADD   $0 $2 $1
-0x2880: NAND  $0 $1 $7
-0x2881: DIV   $3 $5 $0
-0x2882: DIV   $0 $2 $0
-0x2883: DIV   $3 $4 $7
-0x2884: HALT
-0x2885: NAND  $5 $5 $1
-0x2886: NAND  $4 $6 $5
-0x2887: DIV   $3 $5 $6
-0x2888: DIV   $1 $6 $5
-0x2889: HALT
-0x288a: DIV   $4 $1 $2
-0x288b: DIV   $5 $7 $0
-0x288c: MUL   $6 $3 $3
-0x288d: DIV   $7 $6 $0
-0x288e: OUT   $7
-0x288f: DIV   $6 $0 $2
-0x2890: HALT
-0x2891: HALT
-0x2892: CMOVE $7 $1 $6
-0x2893: HALT
-0x2894: NAND  $4 $5 $7
-0x2895: ALLOC $2 $4
-0x2896: DIV   $7 $0 $0
-0x2897: MUL   $5 $1 $2
-0x2898: MUL   $4 $4 $7
-0x2899: MUL   $4 $4 $7
-0x289a: MUL   $4 $1 $0
-0x289b: MUL   $3 $4 $7
-0x289c: HALT
-0x289d: ADD   $1 $1 $7
-0x289e: MUL   $4 $4 $7
-0x289f: MUL   $4 $4 $7
-0x28a0: MUL   $4 $4 $7
-0x28a1: MUL   $0 $4 $7
-0x28a2: MUL   $1 $4 $7
-0x28a3: HALT
-0x28a4: DIV   $7 $5 $1
-0x28a5: DIV   $4 $3 $1
-0x28a6: CMOVE $7 $2 $4
-0x28a7: WMEM  $3 $3 $4
-0x28a8: HALT
-0x28a9: DIV   $0 $3 $2
-0x28aa: ALLOC $6 $0
-0x28ab: ADD   $1 $6 $0
-0x28ac: ADD   $4 $4 $7
-0x28ad: MUL   $2 $2 $2
-0x28ae: ALLOC $3 $3
-0x28af: NAND  $7 $7 $5
-0x28b0: NAND  $7 $0 $2
-0x28b1: DIV   $0 $2 $0
-0x28b2: ALLOC $6 $7
-0x28b3: HALT
-0x28b4: DIV   $2 $4 $7
-0x28b5: DIV   $4 $6 $5
-0x28b6: CMOVE $3 $0 $7
-0x28b7: DIV   $2 $0 $7
-0x28b8: HALT
-0x28b9: ADD   $4 $4 $1
-0x28ba: DIV   $3 $2 $0
-0x28bb: WMEM  $1 $1 $5
-0x28bc: NAND  $7 $4 $2
-0x28bd: DIV   $4 $1 $5
-0x28be: ADD   $6 $4 $6
-0x28bf: DIV   $0 $3 $5
-0x28c0: HALT
-0x28c1: ALLOC $0 $1
-0x28c2: DIV   $4 $5 $2
-0x28c3: DIV   $6 $5 $0
-0x28c4: ADD   $6 $5 $2
-0x28c5: NAND  $2 $6 $2
-0x28c6: HALT
-0x28c7: NAND  $0 $7 $4
-0x28c8: ALLOC $5 $6
-0x28c9: CMOVE $6 $2 $5
-0x28ca: MUL   $1 $5 $1
-0x28cb: MUL   $1 $3 $1
-0x28cc: ALLOC $7 $6
-0x28cd: HALT
-0x28ce: MUL   $6 $0 $6
-0x28cf: HALT
-0x28d0: HALT
-0x28d1: DIV   $4 $1 $3
-0x28d2: NAND  $3 $1 $7
-0x28d3: ADD   $1 $7 $0
-0x28d4: HALT
-0x28d5: HALT
-0x28d6: DIV   $7 $2 $0
-0x28d7: NAND  $3 $4 $5
-0x28d8: MUL   $1 $0 $6
-0x28d9: WMEM  $7 $2 $0
-0x28da: HALT
-0x28db: DIV   $6 $7 $3
-0x28dc: NAND  $4 $5 $6
-0x28dd: DIV   $4 $7 $0
-0x28de: WMEM  $4 $0 $5
-0x28df: DIV   $7 $4 $7
-0x28e0: DIV   $2 $3 $1
-0x28e1: CMOVE $6 $7 $2
-0x28e2: ALLOC $0 $7
-0x28e3: ALLOC $2 $5
-0x28e4: MUL   $4 $6 $6
-0x28e5: DIV   $4 $1 $0
-0x28e6: HALT
-0x28e7: NAND  $3 $2 $6
-0x28e8: JUMP  $2 $4
-0x28e9: NAND  $0 $7 $1
-0x28ea: NAND  $4 $0 $0
-0x28eb: NAND  $2 $6 $1
-0x28ec: NAND  $4 $0 $6
-0x28ed: ALLOC $3 $6
-0x28ee: MUL   $0 $5 $0
-0x28ef: ALLOC $0 $0
-0x28f0: NAND  $4 $0 $6
-0x28f1: MUL   $4 $1 $0
-0x28f2: DIV   $4 $1 $0
-0x28f3: ALLOC $1 $4
-0x28f4: DIV   $1 $2 $0
-0x28f5: HALT
-0x28f6: DIV   $6 $5 $4
-0x28f7: WMEM  $6 $7 $6
-0x28f8: NAND  $7 $5 $1
-0x28f9: HALT
-0x28fa: MUL   $1 $7 $6
-0x28fb: ALLOC $6 $1
-0x28fc: DIV   $4 $3 $4
-0x28fd: ALLOC $7 $5
-0x28fe: ALLOC $0 $5
-0x28ff: RMEM  $3 $1 $6
-0x2900: DIV   $4 $4 $6
-0x2901: MUL   $4 $5 $3
-0x2902: HALT
-0x2903: HALT
-0x2904: HALT
-0x2905: ALLOC $0 $0
-0x2906: MUL   $0 $3 $7
-0x2907: CMOVE $6 $1 $7
-0x2908: DIV   $3 $7 $6
-0x2909: ALLOC $4 $1
-0x290a: HALT
-0x290b: DIV   $1 $5 $6
-0x290c: DIV   $5 $6 $6
-0x290d: ALLOC $0 $5
-0x290e: MUL   $4 $3 $3
-0x290f: MUL   $5 $0 $1
-0x2910: NAND  $6 $7 $7
-0x2911: CMOVE $7 $5 $1
-0x2912: HALT
-0x2913: NAND  $6 $7 $2
-0x2914: DIV   $5 $4 $4
-0x2915: JUMP  $7 $5
-0x2916: NAND  $4 $2 $0
-0x2917: ADD   $6 $3 $7
-0x2918: ALLOC $5 $2
-0x2919: ALLOC $0 $1
-0x291a: MUL   $2 $2 $2
-0x291b: ADD   $1 $5 $6
-0x291c: ALLOC $4 $3
-0x291d: MUL   $3 $7 $4
-0x291e: HALT
-0x291f: HALT
-0x2920: HALT
-0x2921: ALLOC $6 $2
-0x2922: HALT
-0x2923: DIV   $3 $7 $0
-0x2924: ADD   $2 $7 $6
-0x2925: MUL   $3 $4 $3
-0x2926: ALLOC $0 $5
-0x2927: ALLOC $2 $5
-0x2928: HALT
-0x2929: ALLOC $3 $6
-0x292a: NAND  $6 $6 $6
-0x292b: ALLOC $7 $3
-0x292c: FREE  $7
-0x292d: NAND  $1 $4 $2
-0x292e: ALLOC $7 $6
-0x292f: NAND  $0 $0 $1
-0x2930: NAND  $5 $4 $1
-0x2931: HALT
-0x2932: DIV   $4 $0 $3
-0x2933: IN    $3
-0x2934: FREE  $0
-0x2935: ALLOC $1 $6
-0x2936: HALT
-0x2937: CMOVE $1 $5 $5
-0x2938: RMEM  $0 $1 $1
-0x2939: ALLOC $1 $5
-0x293a: MUL   $6 $3 $4
-0x293b: RMEM  $1 $5 $6
-0x293c: MUL   $7 $3 $7
-0x293d: MUL   $4 $0 $1
-0x293e: RMEM  $1 $7 $6
-0x293f: WMEM  $4 $7 $1
-0x2940: CMOVE $4 $7 $5
-0x2941: ALLOC $4 $1
-0x2942: WMEM  $0 $2 $1
-0x2943: FREE  $7
-0x2944: MUL   $3 $5 $7
-0x2945: ALLOC $2 $0
-0x2946: ALLOC $0 $3
-0x2947: ALLOC $4 $1
-0x2948: ALLOC $5 $3
-0x2949: MUL   $5 $6 $5
-0x294a: NAND  $4 $1 $0
-0x294b: HALT
-0x294c: HALT
-0x294d: ALLOC $3 $3
-0x294e: ALLOC $3 $5
-0x294f: ALLOC $7 $5
-0x2950: MUL   $3 $6 $4
-0x2951: RMEM  $0 $5 $2
-0x2952: ALLOC $3 $7
-0x2953: ALLOC $4 $4
-0x2954: HALT
-0x2955: HALT
-0x2956: MUL   $4 $6 $4
-0x2957: DIV   $3 $3 $6
-0x2958: HALT
-0x2959: FREE  $7
-0x295a: NAND  $0 $3 $0
-0x295b: NAND  $3 $1 $1
-0x295c: NAND  $6 $7 $5
-0x295d: NAND  $2 $5 $4
-0x295e: NAND  $4 $3 $7
-0x295f: ALLOC $4 $1
-0x2960: ADD   $0 $3 $0
-0x2961: HALT
-0x2962: HALT
-0x2963: HALT
-0x2964: CMOVE $0 $1 $3
-0x2965: CMOVE $5 $1 $2
-0x2966: ALLOC $5 $0
-0x2967: MUL   $7 $5 $2
-0x2968: WMEM  $4 $3 $1
-0x2969: HALT
-0x296a: ALLOC $4 $5
-0x296b: CMOVE $2 $0 $6
-0x296c: ALLOC $1 $2
-0x296d: ALLOC $3 $5
-0x296e: HALT
-0x296f: MUL   $1 $0 $1
-0x2970: HALT
-0x2971: ALLOC $6 $4
-0x2972: ALLOC $4 $0
-0x2973: NAND  $7 $4 $2
-0x2974: NAND  $3 $0 $6
-0x2975: ALLOC $1 $6
-0x2976: ALLOC $5 $3
-0x2977: DIV   $6 $6 $3
-0x2978: DIV   $6 $6 $3
-0x2979: DIV   $1 $1 $0
-0x297a: DIV   $0 $1 $7
-0x297b: NAND  $7 $7 $6
-0x297c: RMEM  $0 $2 $2
-0x297d: ALLOC $6 $0
-0x297e: WMEM  $3 $5 $5
-0x297f: NAND  $1 $0 $3
-0x2980: NAND  $4 $4 $6
-0x2981: NAND  $0 $0 $7
-0x2982: NAND  $3 $7 $7
-0x2983: ALLOC $1 $5
-0x2984: NAND  $0 $4 $4
-0x2985: ALLOC $2 $0
-0x2986: OUT   $0
-0x2987: ALLOC $5 $6
-0x2988: ALLOC $0 $2
-0x2989: NAND  $6 $0 $4
-0x298a: HALT
-0x298b: DIV   $5 $1 $5
-0x298c: CMOVE $6 $5 $2
-0x298d: ALLOC $1 $3
-0x298e: RMEM  $6 $1 $4
-0x298f: HALT
-0x2990: DIV   $7 $1 $2
-0x2991: CMOVE $7 $1 $7
-0x2992: ALLOC $5 $5
-0x2993: NAND  $1 $4 $4
-0x2994: MUL   $4 $3 $0
-0x2995: CMOVE $4 $0 $1
-0x2996: HALT
-0x2997: DIV   $4 $3 $4
-0x2998: NAND  $5 $1 $7
-0x2999: HALT
-0x299a: HALT
-0x299b: HALT
-0x299c: ADD   $5 $1 $5
-0x299d: MUL   $7 $4 $6
-0x299e: DIV   $6 $6 $3
-0x299f: MUL   $6 $6 $3
-0x29a0: DIV   $1 $7 $0
-0x29a1: MUL   $1 $6 $6
-0x29a2: DIV   $4 $7 $0
-0x29a3: DIV   $1 $2 $7
-0x29a4: NAND  $3 $6 $4
-0x29a5: WMEM  $1 $5 $3
-0x29a6: HALT
-0x29a7: WMEM  $4 $1 $0
-0x29a8: WMEM  $1 $7 $6
-0x29a9: WMEM  $2 $0 $0
-0x29aa: MUL   $6 $6 $2
-0x29ab: WMEM  $5 $6 $0
-0x29ac: CMOVE $6 $7 $2
-0x29ad: RMEM  $2 $1 $4
-0x29ae: MUL   $7 $2 $0
-0x29af: MUL   $7 $3 $6
-0x29b0: CMOVE $1 $3 $7
-0x29b1: NAND  $5 $2 $1
-0x29b2: HALT
-0x29b3: DIV   $6 $3 $7
-0x29b4: DIV   $4 $4 $5
-0x29b5: NAND  $6 $4 $7
-0x29b6: NAND  $2 $1 $5
-0x29b7: NAND  $1 $0 $2
-0x29b8: ALLOC $0 $5
-0x29b9: NAND  $0 $5 $0
-0x29ba: WMEM  $7 $2 $1
-0x29bb: FREE  $6
-0x29bc: RMEM  $0 $6 $5
-0x29bd: CMOVE $1 $7 $1
-0x29be: ALLOC $0 $6
-0x29bf: DIV   $5 $7 $3
-0x29c0: MUL   $4 $3 $3
-0x29c1: CMOVE $7 $2 $7
-0x29c2: MUL   $1 $4 $5
-0x29c3: HALT
-0x29c4: CMOVE $2 $4 $5
-0x29c5: HALT
-0x29c6: DIV   $2 $5 $7
-0x29c7: ALLOC $1 $6
-0x29c8: DIV   $7 $0 $1
-0x29c9: WMEM  $7 $6 $1
-0x29ca: CMOVE $3 $5 $5
-0x29cb: CMOVE $3 $1 $1
-0x29cc: DIV   $2 $1 $4
-0x29cd: WMEM  $7 $0 $7
-0x29ce: CMOVE $5 $5 $0
-0x29cf: WMEM  $1 $0 $4
-0x29d0: CMOVE $0 $6 $2
-0x29d1: DIV   $1 $2 $3
-0x29d2: HALT
-0x29d3: NAND  $6 $6 $6
-0x29d4: HALT
-0x29d5: NAND  $1 $0 $3
-0x29d6: HALT
-0x29d7: NAND  $4 $0 $7
-0x29d8: WMEM  $5 $3 $6
-0x29d9: ALLOC $1 $4
-0x29da: ALLOC $1 $5
-0x29db: ALLOC $5 $0
-0x29dc: HALT
-0x29dd: DIV   $4 $2 $4
-0x29de: HALT
-0x29df: DIV   $1 $4 $1
-0x29e0: ALLOC $6 $3
-0x29e1: HALT
-0x29e2: NAND  $6 $1 $7
-0x29e3: WMEM  $2 $2 $6
-0x29e4: CMOVE $5 $7 $0
-0x29e5: WMEM  $3 $1 $7
-0x29e6: ALLOC $2 $1
-0x29e7: MUL   $6 $5 $2
-0x29e8: MUL   $7 $6 $2
-0x29e9: NAND  $3 $4 $0
-0x29ea: ALLOC $3 $0
-0x29eb: ALLOC $2 $1
-0x29ec: NAND  $5 $2 $3
-0x29ed: HALT
-0x29ee: DIV   $6 $0 $3
-0x29ef: OUT   $4
-0x29f0: ALLOC $1 $1
-0x29f1: NAND  $7 $4 $4
-0x29f2: MUL   $7 $1 $6
-0x29f3: ALLOC $7 $7
-0x29f4: HALT
-0x29f5: ALLOC $4 $1
-0x29f6: ADD   $5 $2 $5
-0x29f7: ALLOC $1 $5
-0x29f8: HALT
-0x29f9: RMEM  $4 $7 $2
-0x29fa: DIV   $7 $4 $7
-0x29fb: ALLOC $4 $2
-0x29fc: ALLOC $1 $2
-0x29fd: ALLOC $0 $0
-0x29fe: FREE  $7
-0x29ff: CMOVE $6 $1 $1
-0x2a00: HALT
-0x2a01: ALLOC $2 $7
-0x2a02: HALT
-0x2a03: ALLOC $6 $5
-0x2a04: NAND  $3 $4 $5
-0x2a05: IN    $0
-0x2a06: NAND  $7 $3 $7
-0x2a07: DIV   $5 $0 $7
-0x2a08: ALLOC $4 $5
-0x2a09: NAND  $7 $4 $5
-0x2a0a: DIV   $6 $1 $4
-0x2a0b: MUL   $3 $6 $6
-0x2a0c: MUL   $6 $5 $0
-0x2a0d: OUT   $1
-0x2a0e: ALLOC $5 $3
-0x2a0f: ALLOC $5 $5
-0x2a10: HALT
-0x2a11: DIV   $4 $0 $2
-0x2a12: DIV   $2 $3 $3
-0x2a13: ADD   $4 $0 $2
-0x2a14: MUL   $2 $2 $2
-0x2a15: NAND  $2 $0 $2
-0x2a16: ALLOC $7 $0
-0x2a17: ALLOC $1 $2
-0x2a18: ALLOC $6 $4
-0x2a19: MUL   $2 $4 $0
-0x2a1a: ALLOC $5 $0
-0x2a1b: HALT
-0x2a1c: DIV   $7 $7 $3
-0x2a1d: NAND  $1 $6 $5
-0x2a1e: DIV   $4 $5 $6
-0x2a1f: DIV   $0 $1 $5
-0x2a20: MUL   $0 $3 $7
-0x2a21: DIV   $3 $1 $2
-0x2a22: MUL   $4 $4 $5
-0x2a23: WMEM  $2 $7 $1
-0x2a24: NAND  $4 $6 $2
-0x2a25: DIV   $7 $1 $6
-0x2a26: HALT
-0x2a27: ALLOC $7 $0
-0x2a28: CMOVE $7 $4 $7
-0x2a29: DIV   $3 $5 $6
-0x2a2a: NAND  $4 $0 $5
-0x2a2b: ALLOC $4 $7
-0x2a2c: ALLOC $5 $1
-0x2a2d: ALLOC $1 $1
-0x2a2e: MUL   $4 $5 $5
-0x2a2f: NAND  $7 $3 $7
-0x2a30: ADD   $0 $1 $4
-0x2a31: WMEM  $1 $6 $7
-0x2a32: ADD   $1 $2 $7
-0x2a33: ALLOC $3 $0
-0x2a34: ALLOC $7 $1
-0x2a35: DIV   $4 $7 $3
-0x2a36: ALLOC $6 $3
-0x2a37: NAND  $1 $7 $7
-0x2a38: ALLOC $3 $0
-0x2a39: HALT
-0x2a3a: NAND  $0 $1 $1
-0x2a3b: HALT
-0x2a3c: ALLOC $1 $6
-0x2a3d: ALLOC $1 $4
-0x2a3e: ALLOC $4 $7
-0x2a3f: ALLOC $2 $0
-0x2a40: ALLOC $4 $6
-0x2a41: OUT   $3
-0x2a42: CMOVE $3 $6 $0
-0x2a43: ALLOC $4 $0
-0x2a44: WMEM  $5 $3 $7
-0x2a45: ADD   $7 $2 $1
-0x2a46: ALLOC $2 $3
-0x2a47: MUL   $6 $6 $6
-0x2a48: ALLOC $6 $7
-0x2a49: DIV   $2 $2 $1
-0x2a4a: ALLOC $3 $4
-0x2a4b: DIV   $3 $0 $4
-0x2a4c: ALLOC $5 $0
-0x2a4d: NAND  $6 $2 $7
-0x2a4e: ALLOC $0 $7
-0x2a4f: MUL   $5 $4 $3
-0x2a50: ALLOC $0 $1
-0x2a51: FREE  $4
-0x2a52: ALLOC $4 $2
-0x2a53: HALT
-0x2a54: ALLOC $7 $2
-0x2a55: ALLOC $3 $5
-0x2a56: HALT
-0x2a57: NAND  $2 $5 $4
-0x2a58: DIV   $0 $6 $1
-0x2a59: NAND  $4 $1 $7
-0x2a5a: DIV   $1 $1 $0
-0x2a5b: DIV   $5 $1 $2
-0x2a5c: ALLOC $5 $4
-0x2a5d: DIV   $1 $2 $6
-0x2a5e: ALLOC $4 $6
-0x2a5f: CMOVE $4 $6 $6
-0x2a60: MUL   $2 $1 $7
-0x2a61: HALT
-0x2a62: DIV   $5 $2 $3
-0x2a63: DIV   $6 $1 $3
-0x2a64: HALT
-0x2a65: ALLOC $7 $3
-0x2a66: NAND  $2 $3 $0
-0x2a67: WMEM  $0 $0 $4
-0x2a68: HALT
-0x2a69: NAND  $2 $5 $0
-0x2a6a: HALT
-0x2a6b: MUL   $7 $5 $4
-0x2a6c: DIV   $3 $2 $1
-0x2a6d: DIV   $7 $0 $1
-0x2a6e: OUT   $5
-0x2a6f: FREE  $4
-0x2a70: ALLOC $7 $6
-0x2a71: ALLOC $3 $1
-0x2a72: ALLOC $3 $0
-0x2a73: WMEM  $7 $0 $4
-0x2a74: DIV   $6 $5 $1
-0x2a75: NAND  $4 $5 $1
-0x2a76: NAND  $5 $5 $1
-0x2a77: MUL   $2 $7 $0
-0x2a78: NAND  $1 $6 $4
-0x2a79: NAND  $1 $4 $2
-0x2a7a: DIV   $4 $3 $3
-0x2a7b: ALLOC $6 $1
-0x2a7c: DIV   $4 $4 $4
-0x2a7d: ADD   $5 $0 $3
-0x2a7e: FREE  $3
-0x2a7f: ALLOC $4 $3
-0x2a80: ALLOC $1 $5
-0x2a81: DIV   $6 $4 $6
-0x2a82: DIV   $3 $7 $5
-0x2a83: CMOVE $5 $2 $2
-0x2a84: ALLOC $4 $4
-0x2a85: DIV   $6 $1 $6
-0x2a86: ALLOC $1 $1
-0x2a87: MUL   $7 $7 $0
-0x2a88: MUL   $5 $1 $6
-0x2a89: HALT
-0x2a8a: CMOVE $6 $4 $7
-0x2a8b: ALLOC $3 $0
-0x2a8c: IN    $2
-0x2a8d: ALLOC $7 $2
-0x2a8e: NAND  $4 $7 $4
-0x2a8f: ALLOC $3 $1
-0x2a90: ALLOC $0 $3
-0x2a91: ALLOC $3 $3
-0x2a92: ALLOC $1 $5
-0x2a93: ALLOC $5 $2
-0x2a94: NAND  $7 $4 $7
-0x2a95: ALLOC $6 $6
-0x2a96: ALLOC $1 $5
-0x2a97: DIV   $0 $2 $2
-0x2a98: DIV   $5 $4 $3
-0x2a99: ALLOC $2 $3
-0x2a9a: DIV   $2 $6 $4
-0x2a9b: ALLOC $1 $6
-0x2a9c: CMOVE $0 $5 $1
-0x2a9d: ALLOC $2 $5
-0x2a9e: ALLOC $4 $2
-0x2a9f: ALLOC $5 $6
-0x2aa0: MUL   $2 $6 $0
-0x2aa1: HALT
-0x2aa2: DIV   $2 $5 $1
-0x2aa3: OUT   $7
-0x2aa4: ALLOC $7 $1
-0x2aa5: ALLOC $7 $4
-0x2aa6: HALT
-0x2aa7: CMOVE $5 $6 $7
-0x2aa8: ALLOC $1 $5
-0x2aa9: ALLOC $6 $5
-0x2aaa: JUMP  $1 $3
-0x2aab: ALLOC $0 $7
-0x2aac: CMOVE $2 $0 $0
-0x2aad: RMEM  $2 $2 $1
-0x2aae: HALT
-0x2aaf: HALT
-0x2ab0: ALLOC $4 $2
-0x2ab1: ALLOC $6 $2
-0x2ab2: FREE  $1
-0x2ab3: ALLOC $2 $7
-0x2ab4: ALLOC $7 $5
-0x2ab5: CMOVE $0 $4 $7
-0x2ab6: ALLOC $2 $1
-0x2ab7: DIV   $0 $7 $6
-0x2ab8: DIV   $4 $1 $5
-0x2ab9: JUMP  $7 $7
-0x2aba: ALLOC $4 $5
-0x2abb: ALLOC $3 $6
-0x2abc: ALLOC $0 $5
-0x2abd: ALLOC $5 $6
-0x2abe: ALLOC $2 $5
-0x2abf: ALLOC $4 $7
-0x2ac0: ALLOC $4 $5
-0x2ac1: NAND  $0 $5 $2
-0x2ac2: DIV   $4 $1 $5
-0x2ac3: MUL   $1 $1 $5
-0x2ac4: DIV   $5 $7 $0
-0x2ac5: DIV   $3 $6 $6
-0x2ac6: ALLOC $6 $6
-0x2ac7: WMEM  $6 $7 $3
-0x2ac8: MUL   $4 $6 $4
-0x2ac9: MUL   $4 $1 $1
-0x2aca: ADD   $4 $3 $3
-0x2acb: NAND  $6 $4 $1
-0x2acc: ALLOC $7 $1
-0x2acd: NAND  $5 $5 $4
-0x2ace: NAND  $4 $3 $0
-0x2acf: ALLOC $4 $4
-0x2ad0: OUT   $4
-0x2ad1: ALLOC $6 $6
-0x2ad2: ALLOC $0 $5
-0x2ad3: ALLOC $3 $6
-0x2ad4: ALLOC $3 $0
-0x2ad5: ALLOC $7 $5
-0x2ad6: HALT
-0x2ad7: MUL   $0 $5 $6
-0x2ad8: CMOVE $7 $1 $4
-0x2ad9: RMEM  $2 $2 $2
-0x2ada: ALLOC $4 $5
-0x2adb: ALLOC $6 $3
-0x2adc: DIV   $2 $1 $7
-0x2add: MUL   $3 $3 $6
-0x2ade: HALT
-0x2adf: FREE  $2
-0x2ae0: ALLOC $6 $4
-0x2ae1: ALLOC $1 $7
-0x2ae2: NAND  $6 $3 $6
-0x2ae3: NAND  $5 $3 $4
-0x2ae4: NAND  $3 $7 $7
-0x2ae5: HALT
-0x2ae6: IN    $2
-0x2ae7: NAND  $0 $0 $0
-0x2ae8: HALT
-0x2ae9: HALT
-0x2aea: HALT
-0x2aeb: HALT
-0x2aec: ALLOC $2 $1
-0x2aed: ALLOC $2 $4
-0x2aee: NAND  $5 $6 $7
-0x2aef: MUL   $5 $7 $2
-0x2af0: ALLOC $2 $5
-0x2af1: HALT
-0x2af2: HALT
-0x2af3: ADD   $0 $0 $4
-0x2af4: DIV   $0 $6 $0
-0x2af5: CMOVE $1 $1 $6
-0x2af6: ADD   $7 $3 $3
-0x2af7: WMEM  $5 $6 $2
-0x2af8: CMOVE $0 $3 $0
-0x2af9: CMOVE $5 $5 $1
-0x2afa: RMEM  $7 $5 $7
-0x2afb: ADD   $1 $4 $3
-0x2afc: WMEM  $2 $7 $3
-0x2afd: CMOVE $2 $4 $0
-0x2afe: ALLOC $2 $4
-0x2aff: NAND  $2 $6 $2
-0x2b00: DIV   $3 $1 $1
-0x2b01: WMEM  $5 $7 $2
-0x2b02: HALT
-0x2b03: ALLOC $5 $2
-0x2b04: ADD   $3 $6 $0
-0x2b05: MUL   $4 $3 $1
-0x2b06: DIV   $7 $7 $7
-0x2b07: DIV   $5 $3 $3
-0x2b08: NAND  $4 $5 $0
-0x2b09: NAND  $7 $0 $5
-0x2b0a: DIV   $2 $6 $3
-0x2b0b: MUL   $6 $2 $1
-0x2b0c: DIV   $5 $4 $6
-0x2b0d: DIV   $2 $4 $4
-0x2b0e: HALT
-0x2b0f: HALT
-0x2b10: ADD   $5 $1 $6
-0x2b11: DIV   $1 $6 $3
-0x2b12: DIV   $5 $5 $1
-0x2b13: ADD   $7 $4 $5
-0x2b14: WMEM  $3 $5 $1
-0x2b15: CMOVE $3 $1 $7
-0x2b16: MUL   $7 $3 $6
-0x2b17: HALT
-0x2b18: ADD   $3 $0 $1
-0x2b19: MUL   $6 $3 $6
-0x2b1a: ALLOC $0 $3
-0x2b1b: FREE  $2
-0x2b1c: HALT
-0x2b1d: CMOVE $7 $7 $0
-0x2b1e: ALLOC $2 $3
-0x2b1f: ALLOC $7 $2
-0x2b20: ADD   $3 $6 $7
-0x2b21: MUL   $4 $1 $0
-0x2b22: JUMP  $0 $1
-0x2b23: FREE  $4
-0x2b24: ALLOC $1 $2
-0x2b25: ALLOC $3 $5
-0x2b26: ALLOC $4 $2
-0x2b27: NAND  $1 $5 $0
-0x2b28: ALLOC $2 $4
-0x2b29: ALLOC $1 $2
-0x2b2a: OUT   $7
-0x2b2b: ALLOC $4 $4
-0x2b2c: ALLOC $3 $4
-0x2b2d: HALT
-0x2b2e: ADD   $1 $7 $6
-0x2b2f: ALLOC $5 $7
-0x2b30: DIV   $3 $7 $1
-0x2b31: RMEM  $0 $2 $5
-0x2b32: CMOVE $3 $5 $6
-0x2b33: CMOVE $2 $4 $0
-0x2b34: ALLOC $7 $6
-0x2b35: CMOVE $6 $1 $2
-0x2b36: RMEM  $5 $3 $0
-0x2b37: CMOVE $7 $4 $0
-0x2b38: ALLOC $5 $6
-0x2b39: OUT   $2
-0x2b3a: WMEM  $6 $2 $1
-0x2b3b: HALT
-0x2b3c: ALLOC $5 $6
-0x2b3d: ALLOC $3 $6
-0x2b3e: DIV   $3 $0 $0
-0x2b3f: MUL   $7 $4 $3
-0x2b40: IN    $0
-0x2b41: HALT
-0x2b42: ALLOC $0 $2
-0x2b43: HALT
-0x2b44: NAND  $7 $0 $2
-0x2b45: ALLOC $3 $7
-0x2b46: ALLOC $4 $7
-0x2b47: ALLOC $0 $4
-0x2b48: ALLOC $6 $0
-0x2b49: CMOVE $4 $5 $3
-0x2b4a: RMEM  $2 $2 $4
-0x2b4b: ALLOC $6 $1
-0x2b4c: ALLOC $5 $1
-0x2b4d: DIV   $7 $2 $4
-0x2b4e: DIV   $2 $7 $7
-0x2b4f: ADD   $1 $6 $5
-0x2b50: FREE  $1
-0x2b51: HALT
-0x2b52: NAND  $7 $6 $2
-0x2b53: ADD   $3 $1 $5
-0x2b54: HALT
-0x2b55: ADD   $1 $5 $5
-0x2b56: CMOVE $6 $1 $4
-0x2b57: DIV   $7 $7 $5
-0x2b58: NAND  $0 $6 $4
-0x2b59: ADD   $7 $4 $3
-0x2b5a: DIV   $3 $2 $5
-0x2b5b: ALLOC $1 $3
-0x2b5c: ALLOC $7 $5
-0x2b5d: ALLOC $3 $2
-0x2b5e: MUL   $1 $1 $2
-0x2b5f: ALLOC $1 $2
-0x2b60: ALLOC $2 $7
-0x2b61: MUL   $3 $5 $6
-0x2b62: FREE  $1
-0x2b63: ADD   $4 $3 $4
-0x2b64: ALLOC $5 $0
-0x2b65: ALLOC $0 $2
-0x2b66: OUT   $5
-0x2b67: ALLOC $5 $7
-0x2b68: DIV   $7 $0 $0
-0x2b69: FREE  $5
-0x2b6a: ALLOC $5 $1
-0x2b6b: RMEM  $6 $7 $4
-0x2b6c: CMOVE $0 $7 $3
-0x2b6d: CMOVE $5 $0 $1
-0x2b6e: FREE  $5
-0x2b6f: CMOVE $0 $7 $3
-0x2b70: RMEM  $3 $2 $3
-0x2b71: MUL   $6 $4 $0
-0x2b72: ALLOC $5 $2
-0x2b73: HALT
-0x2b74: ALLOC $7 $1
-0x2b75: FREE  $1
-0x2b76: ALLOC $1 $6
-0x2b77: ALLOC $4 $4
-0x2b78: MUL   $7 $3 $0
-0x2b79: NAND  $3 $5 $6
-0x2b7a: DIV   $7 $1 $5
-0x2b7b: ALLOC $6 $7
-0x2b7c: JUMP  $7 $5
-0x2b7d: FREE  $3
-0x2b7e: ALLOC $0 $6
-0x2b7f: ALLOC $5 $7
-0x2b80: ALLOC $7 $1
-0x2b81: ALLOC $6 $4
-0x2b82: DIV   $4 $1 $2
-0x2b83: CMOVE $7 $2 $7
-0x2b84: FREE  $2
-0x2b85: ALLOC $4 $4
-0x2b86: ALLOC $2 $5
-0x2b87: HALT
-0x2b88: FREE  $2
-0x2b89: FREE  $2
-0x2b8a: ALLOC $6 $4
-0x2b8b: MUL   $5 $6 $4
-0x2b8c: FREE  $2
-0x2b8d: WMEM  $0 $1 $4
-0x2b8e: CMOVE $4 $4 $2
-0x2b8f: ALLOC $5 $4
-0x2b90: ALLOC $0 $1
-0x2b91: HALT
-0x2b92: HALT
-0x2b93: NAND  $4 $4 $2
-0x2b94: NAND  $6 $1 $1
-0x2b95: FREE  $2
-0x2b96: FREE  $6
-0x2b97: ALLOC $2 $3
-0x2b98: FREE  $3
-0x2b99: FREE  $7
-0x2b9a: MUL   $3 $5 $3
-0x2b9b: HALT
-0x2b9c: ALLOC $7 $3
-0x2b9d: ALLOC $7 $0
-0x2b9e: ALLOC $7 $3
-0x2b9f: RMEM  $3 $7 $6
-0x2ba0: CMOVE $4 $7 $1
-0x2ba1: CMOVE $2 $0 $3
-0x2ba2: OUT   $2
-0x2ba3: ADD   $5 $0 $0
-0x2ba4: CMOVE $6 $6 $7
-0x2ba5: HALT
-0x2ba6: WMEM  $7 $0 $0
-0x2ba7: ADD   $4 $6 $1
-0x2ba8: MUL   $7 $5 $5
-0x2ba9: RMEM  $7 $2 $4
-0x2baa: CMOVE $2 $4 $1
-0x2bab: CMOVE $2 $4 $0
-0x2bac: FREE  $3
-0x2bad: CMOVE $6 $5 $2
-0x2bae: RMEM  $2 $2 $2
-0x2baf: CMOVE $4 $0 $0
-0x2bb0: HALT
-0x2bb1: WMEM  $1 $1 $4
-0x2bb2: DIV   $7 $5 $6
-0x2bb3: ALLOC $6 $7
-0x2bb4: HALT
-0x2bb5: DIV   $3 $2 $7
-0x2bb6: NAND  $6 $5 $5
-0x2bb7: NAND  $4 $5 $6
-0x2bb8: JUMP  $2 $1
-0x2bb9: ALLOC $3 $7
-0x2bba: ALLOC $5 $5
-0x2bbb: ALLOC $6 $0
-0x2bbc: ALLOC $6 $3
-0x2bbd: FREE  $7
-0x2bbe: CMOVE $1 $0 $0
-0x2bbf: RMEM  $7 $0 $7
-0x2bc0: FREE  $0
-0x2bc1: CMOVE $2 $7 $5
-0x2bc2: MUL   $3 $4 $4
-0x2bc3: ADD   $1 $1 $0
-0x2bc4: HALT
-0x2bc5: FREE  $3
-0x2bc6: ADD   $1 $1 $2
-0x2bc7: MUL   $7 $7 $2
-0x2bc8: HALT
-0x2bc9: ADD   $6 $4 $1
-0x2bca: HALT
-0x2bcb: CMOVE $2 $3 $7
-0x2bcc: ALLOC $2 $7
-0x2bcd: HALT
-0x2bce: MUL   $2 $6 $0
-0x2bcf: OUT   $1
-0x2bd0: FREE  $3
-0x2bd1: FREE  $6
-0x2bd2: HALT
-0x2bd3: HALT
-0x2bd4: ALLOC $1 $1
-0x2bd5: MUL   $3 $6 $1
-0x2bd6: IN    $7
-0x2bd7: FREE  $6
-0x2bd8: FREE  $3
-0x2bd9: FREE  $3
-0x2bda: FREE  $3
-0x2bdb: FREE  $4
-0x2bdc: FREE  $7
-0x2bdd: CMOVE $7 $3 $1
-0x2bde: ALLOC $7 $0
-0x2bdf: RMEM  $1 $7 $2
-0x2be0: ALLOC $7 $5
-0x2be1: MUL   $1 $7 $7
-0x2be2: CMOVE $5 $4 $3
-0x2be3: ADD   $6 $3 $0
-0x2be4: MUL   $2 $7 $5
-0x2be5: CMOVE $6 $4 $6
-0x2be6: CMOVE $4 $1 $1
-0x2be7: HALT
-0x2be8: CMOVE $7 $4 $7
-0x2be9: RMEM  $0 $2 $7
-0x2bea: CMOVE $0 $4 $0
-0x2beb: ALLOC $5 $7
-0x2bec: HALT
-0x2bed: NAND  $3 $4 $7
-0x2bee: WMEM  $5 $1 $4
-0x2bef: ALLOC $3 $0
-0x2bf0: ALLOC $4 $7
-0x2bf1: ALLOC $4 $6
-0x2bf2: FREE  $5
-0x2bf3: ALLOC $0 $3
-0x2bf4: MUL   $4 $0 $0
-0x2bf5: HALT
-0x2bf6: NAND  $2 $0 $1
-0x2bf7: ALLOC $1 $6
-0x2bf8: ALLOC $2 $4
-0x2bf9: ALLOC $0 $5
-0x2bfa: DIV   $6 $3 $6
-0x2bfb: HALT
-0x2bfc: MUL   $1 $5 $4
-0x2bfd: ALLOC $1 $5
-0x2bfe: CMOVE $5 $7 $1
-0x2bff: RMEM  $2 $3 $0
-0x2c00: ALLOC $6 $1
-0x2c01: ALLOC $7 $0
-0x2c02: FREE  $3
-0x2c03: MUL   $3 $3 $5
-0x2c04: FREE  $5
-0x2c05: ADD   $6 $1 $1
-0x2c06: NAND  $1 $5 $6
-0x2c07: FREE  $1
-0x2c08: FREE  $0
-0x2c09: MUL   $0 $2 $5
-0x2c0a: CMOVE $7 $2 $6
-0x2c0b: CMOVE $2 $2 $7
-0x2c0c: ALLOC $5 $5
-0x2c0d: WMEM  $3 $0 $6
-0x2c0e: WMEM  $3 $2 $5
-0x2c0f: WMEM  $2 $2 $0
-0x2c10: CMOVE $5 $6 $2
-0x2c11: ADD   $7 $3 $6
-0x2c12: JUMP  $6 $1
-0x2c13: ALLOC $2 $1
-0x2c14: FREE  $6
-0x2c15: FREE  $7
-0x2c16: FREE  $6
-0x2c17: FREE  $3
-0x2c18: FREE  $6
-0x2c19: FREE  $2
-0x2c1a: NAND  $2 $2 $7
-0x2c1b: FREE  $7
-0x2c1c: ALLOC $4 $0
-0x2c1d: FREE  $1
-0x2c1e: FREE  $6
-0x2c1f: FREE  $6
-0x2c20: WMEM  $1 $2 $0
-0x2c21: IN    $7
-0x2c22: HALT
-0x2c23: ALLOC $1 $0
-0x2c24: DIV   $5 $0 $1
-0x2c25: CMOVE $3 $4 $7
-0x2c26: FREE  $2
-0x2c27: CMOVE $7 $1 $0
-0x2c28: FREE  $7
-0x2c29: CMOVE $6 $7 $4
-0x2c2a: RMEM  $1 $0 $6
-0x2c2b: CMOVE $2 $4 $0
-0x2c2c: FREE  $2
-0x2c2d: FREE  $2
-0x2c2e: FREE  $4
-0x2c2f: ALLOC $3 $1
-0x2c30: IN    $5
-0x2c31: ALLOC $3 $0
-0x2c32: FREE  $1
-0x2c33: FREE  $3
-0x2c34: ALLOC $3 $5
-0x2c35: ALLOC $5 $7
-0x2c36: FREE  $5
-0x2c37: DIV   $0 $6 $5
-0x2c38: OUT   $5
-0x2c39: ALLOC $6 $1
-0x2c3a: ALLOC $5 $4
-0x2c3b: FREE  $4
-0x2c3c: FREE  $0
-0x2c3d: NAND  $6 $2 $2
-0x2c3e: MUL   $3 $1 $5
-0x2c3f: JUMP  $6 $0
-0x2c40: FREE  $3
-0x2c41: WMEM  $4 $7 $6
-0x2c42: NAND  $0 $3 $6
-0x2c43: ALLOC $2 $4
-0x2c44: FREE  $2
-0x2c45: NAND  $5 $6 $6
-0x2c46: NAND  $1 $7 $3
-0x2c47: WMEM  $1 $3 $1
-0x2c48: HALT
-0x2c49: CMOVE $7 $7 $1
-0x2c4a: FREE  $1
-0x2c4b: HALT
-0x2c4c: FREE  $3
-0x2c4d: FREE  $6
-0x2c4e: JUMP  $2 $1
-0x2c4f: FREE  $2
-0x2c50: ALLOC $5 $4
-0x2c51: MUL   $4 $4 $6
-0x2c52: FREE  $0
-0x2c53: ALLOC $6 $2
-0x2c54: FREE  $4
-0x2c55: FREE  $6
-0x2c56: NAND  $6 $7 $1
-0x2c57: FREE  $2
-0x2c58: FREE  $6
-0x2c59: FREE  $1
-0x2c5a: ALLOC $7 $5
-0x2c5b: FREE  $7
-0x2c5c: ALLOC $2 $5
-0x2c5d: CMOVE $7 $3 $1
-0x2c5e: CMOVE $2 $1 $2
-0x2c5f: CMOVE $2 $4 $0
-0x2c60: HALT
-0x2c61: CMOVE $7 $5 $0
-0x2c62: RMEM  $0 $3 $2
-0x2c63: CMOVE $5 $7 $1
-0x2c64: FREE  $5
-0x2c65: OUT   $4
-0x2c66: DIV   $5 $2 $7
-0x2c67: FREE  $3
-0x2c68: MUL   $5 $2 $4
-0x2c69: ALLOC $1 $6
-0x2c6a: HALT
-0x2c6b: FREE  $2
-0x2c6c: JUMP  $7 $5
-0x2c6d: HALT
-0x2c6e: ALLOC $4 $3
-0x2c6f: FREE  $6
-0x2c70: ALLOC $5 $0
-0x2c71: ALLOC $7 $7
-0x2c72: HALT
-0x2c73: ALLOC $5 $7
-0x2c74: ALLOC $7 $2
-0x2c75: CMOVE $5 $6 $4
-0x2c76: CMOVE $2 $3 $2
-0x2c77: ALLOC $3 $7
-0x2c78: ALLOC $0 $7
-0x2c79: MUL   $1 $1 $1
-0x2c7a: CMOVE $0 $4 $7
-0x2c7b: IN    $5
-0x2c7c: FREE  $0
-0x2c7d: FREE  $5
-0x2c7e: HALT
-0x2c7f: FREE  $6
-0x2c80: NAND  $3 $1 $5
-0x2c81: ALLOC $0 $4
-0x2c82: NAND  $1 $0 $2
-0x2c83: DIV   $6 $3 $5
-0x2c84: FREE  $1
-0x2c85: FREE  $1
-0x2c86: FREE  $1
-0x2c87: FREE  $1
-0x2c88: FREE  $0
-0x2c89: FREE  $1
-0x2c8a: JUMP  $0 $5
-0x2c8b: FREE  $7
-0x2c8c: FREE  $2
-0x2c8d: FREE  $3
-0x2c8e: FREE  $5
-0x2c8f: FREE  $7
-0x2c90: CMOVE $4 $4 $3
-0x2c91: CMOVE $6 $0 $0
-0x2c92: MUL   $5 $4 $6
-0x2c93: CMOVE $0 $7 $2
-0x2c94: FREE  $4
-0x2c95: CMOVE $1 $0 $6
-0x2c96: RMEM  $3 $4 $0
-0x2c97: CMOVE $7 $4 $0
-0x2c98: ALLOC $6 $4
-0x2c99: JUMP  $6 $3
-0x2c9a: FREE  $0
-0x2c9b: FREE  $7
-0x2c9c: FREE  $1
-0x2c9d: ALLOC $4 $3
-0x2c9e: ALLOC $2 $2
-0x2c9f: ALLOC $3 $2
-0x2ca0: ALLOC $1 $4
-0x2ca1: OUT   $1
-0x2ca2: ALLOC $5 $5
-0x2ca3: ALLOC $5 $3
-0x2ca4: ALLOC $4 $0
-0x2ca5: ALLOC $0 $1
-0x2ca6: FREE  $5
-0x2ca7: CMOVE $6 $6 $7
-0x2ca8: WMEM  $3 $4 $4
-0x2ca9: ALLOC $3 $3
-0x2caa: ALLOC $7 $7
-0x2cab: MUL   $7 $7 $1
-0x2cac: MUL   $0 $6 $7
-0x2cad: FREE  $0
-0x2cae: CMOVE $0 $4 $4
-0x2caf: HALT
-0x2cb0: FREE  $7
-0x2cb1: FREE  $6
-0x2cb2: FREE  $5
-0x2cb3: MUL   $2 $0 $7
-0x2cb4: CMOVE $4 $1 $4
-0x2cb5: ALLOC $7 $4
-0x2cb6: NAND  $1 $5 $6
-0x2cb7: JUMP  $7 $1
-0x2cb8: HALT
-0x2cb9: FREE  $1
-0x2cba: MUL   $0 $3 $6
-0x2cbb: FREE  $7
-0x2cbc: FREE  $4
-0x2cbd: FREE  $2
-0x2cbe: MUL   $4 $4 $7
-0x2cbf: OUT   $6
-0x2cc0: FREE  $6
-0x2cc1: ALLOC $4 $6
-0x2cc2: ALLOC $5 $5
-0x2cc3: FREE  $4
-0x2cc4: FREE  $1
-0x2cc5: ALLOC $3 $3
-0x2cc6: CMOVE $3 $5 $1
-0x2cc7: CMOVE $1 $2 $3
-0x2cc8: FREE  $1
-0x2cc9: FREE  $5
-0x2cca: CMOVE $7 $0 $7
-0x2ccb: RMEM  $6 $2 $5
-0x2ccc: CMOVE $4 $3 $1
-0x2ccd: FREE  $7
-0x2cce: FREE  $0
-0x2ccf: FREE  $4
-0x2cd0: FREE  $4
-0x2cd1: CMOVE $3 $0 $3
-0x2cd2: FREE  $1
-0x2cd3: FREE  $1
-0x2cd4: FREE  $4
-0x2cd5: ADD   $7 $3 $3
-0x2cd6: FREE  $1
-0x2cd7: ALLOC $6 $2
-0x2cd8: DIV   $4 $2 $2
-0x2cd9: HALT
-0x2cda: FREE  $3
-0x2cdb: HALT
-0x2cdc: ALLOC $3 $0
-0x2cdd: DIV   $7 $7 $0
-0x2cde: NAND  $0 $3 $6
-0x2cdf: NAND  $1 $6 $5
-0x2ce0: FREE  $0
-0x2ce1: FREE  $7
-0x2ce2: FREE  $6
-0x2ce3: FREE  $0
-0x2ce4: MUL   $1 $4 $6
-0x2ce5: FREE  $2
-0x2ce6: FREE  $5
-0x2ce7: HALT
-0x2ce8: FREE  $0
-0x2ce9: ADD   $7 $2 $2
-0x2cea: NAND  $7 $2 $3
-0x2ceb: ALLOC $5 $5
-0x2cec: OUT   $5
-0x2ced: FREE  $7
-0x2cee: FREE  $0
-0x2cef: FREE  $6
-0x2cf0: FREE  $0
-0x2cf1: FREE  $0
-0x2cf2: FREE  $0
-0x2cf3: JUMP  $6 $6
-0x2cf4: FREE  $5
-0x2cf5: FREE  $7
-0x2cf6: FREE  $1
-0x2cf7: ALLOC $2 $3
-0x2cf8: FREE  $6
-0x2cf9: FREE  $7
-0x2cfa: FREE  $2
-0x2cfb: OUT   $4
-0x2cfc: WMEM  $2 $5 $6
-0x2cfd: CMOVE $5 $4 $6
-0x2cfe: CMOVE $1 $4 $7
-0x2cff: DIV   $4 $0 $6
-0x2d00: CMOVE $0 $2 $5
-0x2d01: CMOVE $1 $1 $1
-0x2d02: JUMP  $2 $6
-0x2d03: FREE  $0
-0x2d04: FREE  $2
-0x2d05: DIV   $3 $0 $1
-0x2d06: ALLOC $7 $0
-0x2d07: FREE  $0
-0x2d08: FREE  $5
-0x2d09: DIV   $5 $3 $3
-0x2d0a: OUT   $5
-0x2d0b: ALLOC $5 $0
-0x2d0c: FREE  $1
-0x2d0d: FREE  $3
-0x2d0e: ALLOC $4 $4
-0x2d0f: FREE  $7
-0x2d10: ALLOC $0 $4
-0x2d11: MUL   $4 $2 $1
-0x2d12: HALT
-0x2d13: CMOVE $4 $2 $3
-0x2d14: FREE  $6
-0x2d15: FREE  $6
-0x2d16: ALLOC $4 $3
-0x2d17: FREE  $3
-0x2d18: FREE  $7
-0x2d19: OUT   $6
-0x2d1a: FREE  $0
-0x2d1b: FREE  $4
-0x2d1c: FREE  $5
-0x2d1d: ADD   $0 $0 $6
-0x2d1e: CMOVE $7 $0 $0
-0x2d1f: NAND  $1 $4 $4
-0x2d20: JUMP  $3 $5
-0x2d21: FREE  $1
-0x2d22: HALT
-0x2d23: FREE  $4
-0x2d24: MUL   $4 $4 $5
-0x2d25: FREE  $6
-0x2d26: FREE  $7
-0x2d27: FREE  $1
-0x2d28: OUT   $0
-0x2d29: FREE  $0
-0x2d2a: ALLOC $2 $6
-0x2d2b: FREE  $0
-0x2d2c: FREE  $0
-0x2d2d: ALLOC $7 $3
-0x2d2e: CMOVE $0 $2 $3
-0x2d2f: MUL   $7 $7 $1
-0x2d30: CMOVE $6 $3 $7
-0x2d31: CMOVE $1 $0 $4
-0x2d32: FREE  $2
-0x2d33: CMOVE $6 $3 $1
-0x2d34: RMEM  $6 $4 $0
-0x2d35: CMOVE $6 $6 $1
-0x2d36: FREE  $2
-0x2d37: OUT   $7
-0x2d38: CMOVE $4 $7 $6
-0x2d39: FREE  $5
-0x2d3a: FREE  $7
-0x2d3b: FREE  $1
-0x2d3c: NAND  $1 $3 $3
-0x2d3d: ALLOC $4 $6
-0x2d3e: MUL   $3 $5 $0
-0x2d3f: ALLOC $1 $7
-0x2d40: FREE  $1
-0x2d41: NAND  $5 $0 $4
-0x2d42: FREE  $5
-0x2d43: FREE  $0
-0x2d44: FREE  $2
-0x2d45: ALLOC $2 $4
-0x2d46: OUT   $3
-0x2d47: DIV   $7 $7 $1
-0x2d48: CMOVE $7 $4 $7
-0x2d49: FREE  $7
-0x2d4a: FREE  $7
-0x2d4b: FREE  $3
-0x2d4c: FREE  $3
-0x2d4d: JUMP  $3 $0
-0x2d4e: ALLOC $4 $3
-0x2d4f: FREE  $2
-0x2d50: FREE  $1
-0x2d51: ADD   $6 $0 $2
-0x2d52: CMOVE $7 $3 $5
-0x2d53: FREE  $5
-0x2d54: ALLOC $7 $5
-0x2d55: OUT   $1
-0x2d56: ALLOC $4 $3
-0x2d57: FREE  $7
-0x2d58: FREE  $0
-0x2d59: FREE  $5
-0x2d5a: FREE  $3
-0x2d5b: FREE  $5
-0x2d5c: JUMP  $2 $5
-0x2d5d: FREE  $6
-0x2d5e: FREE  $4
-0x2d5f: HALT
-0x2d60: HALT
-0x2d61: FREE  $7
-0x2d62: CMOVE $7 $4 $0
-0x2d63: FREE  $7
-0x2d64: CMOVE $1 $4 $3
-0x2d65: CMOVE $5 $6 $6
-0x2d66: FREE  $3
-0x2d67: CMOVE $0 $0 $7
-0x2d68: RMEM  $6 $5 $2
-0x2d69: CMOVE $1 $0 $0
-0x2d6a: ALLOC $6 $2
-0x2d6b: JUMP  $7 $5
-0x2d6c: DIV   $2 $6 $6
-0x2d6d: FREE  $6
-0x2d6e: FREE  $1
-0x2d6f: ADD   $1 $3 $0
-0x2d70: ALLOC $4 $6
-0x2d71: NAND  $5 $1 $1
-0x2d72: NAND  $0 $3 $4
-0x2d73: OUT   $1
-0x2d74: FREE  $4
-0x2d75: FREE  $7
-0x2d76: ALLOC $2 $5
-0x2d77: FREE  $3
-0x2d78: FREE  $5
-0x2d79: CMOVE $5 $0 $4
-0x2d7a: ADD   $6 $7 $7
-0x2d7b: ALLOC $4 $0
-0x2d7c: FREE  $0
-0x2d7d: FREE  $0
-0x2d7e: DIV   $5 $7 $5
-0x2d7f: MUL   $5 $1 $5
-0x2d80: NAND  $0 $4 $2
-0x2d81: HALT
-0x2d82: OUT   $5
-0x2d83: FREE  $1
-0x2d84: CMOVE $5 $5 $2
-0x2d85: FREE  $0
-0x2d86: ALLOC $1 $4
-0x2d87: FREE  $7
-0x2d88: FREE  $7
-0x2d89: JUMP  $1 $5
-0x2d8a: FREE  $6
-0x2d8b: FREE  $6
-0x2d8c: FREE  $6
-0x2d8d: FREE  $6
-0x2d8e: FREE  $6
-0x2d8f: ALLOC $0 $6
-0x2d90: FREE  $6
-0x2d91: OUT   $4
-0x2d92: FREE  $7
-0x2d93: FREE  $1
-0x2d94: FREE  $2
-0x2d95: RMEM  $1 $0 $6
-0x2d96: FREE  $0
-0x2d97: CMOVE $4 $0 $5
-0x2d98: MUL   $2 $6 $1
-0x2d99: MUL   $3 $0 $4
-0x2d9a: CMOVE $3 $6 $3
-0x2d9b: WMEM  $0 $7 $2
-0x2d9c: FREE  $6
-0x2d9d: ALLOC $1 $7
-0x2d9e: DIV   $0 $0 $1
-0x2d9f: FREE  $1
-0x2da0: ALLOC $2 $6
-0x2da1: FREE  $0
-0x2da2: FREE  $3
-0x2da3: FREE  $4
-0x2da4: FREE  $1
-0x2da5: CMOVE $2 $0 $1
-0x2da6: ALLOC $1 $4
-0x2da7: JUMP  $5 $0
-0x2da8: ALLOC $5 $2
-0x2da9: FREE  $0
-0x2daa: FREE  $2
-0x2dab: FREE  $4
-0x2dac: CMOVE $5 $3 $6
-0x2dad: FREE  $1
-0x2dae: FREE  $3
-0x2daf: NAND  $4 $0 $3
-0x2db0: ALLOC $2 $1
-0x2db1: FREE  $5
-0x2db2: FREE  $4
-0x2db3: FREE  $6
-0x2db4: FREE  $0
-0x2db5: FREE  $6
-0x2db6: WMEM  $0 $3 $2
-0x2db7: ALLOC $4 $1
-0x2db8: ALLOC $3 $0
-0x2db9: FREE  $6
-0x2dba: FREE  $5
-0x2dbb: FREE  $7
-0x2dbc: DIV   $1 $1 $1
-0x2dbd: ALLOC $7 $5
-0x2dbe: OUT   $2
-0x2dbf: MUL   $6 $5 $7
-0x2dc0: ALLOC $0 $0
-0x2dc1: FREE  $1
-0x2dc2: DIV   $2 $0 $2
-0x2dc3: FREE  $1
-0x2dc4: HALT
-0x2dc5: JUMP  $4 $1
-0x2dc6: FREE  $1
-0x2dc7: FREE  $4
-0x2dc8: FREE  $3
-0x2dc9: ADD   $7 $7 $5
-0x2dca: RMEM  $7 $4 $2
-0x2dcb: MUL   $7 $0 $3
-0x2dcc: CMOVE $2 $0 $1
-0x2dcd: NAND  $3 $5 $2
-0x2dce: ADD   $2 $3 $5
-0x2dcf: CMOVE $1 $0 $1
-0x2dd0: FREE  $1
-0x2dd1: ADD   $5 $7 $5
-0x2dd2: CMOVE $6 $1 $5
-0x2dd3: WMEM  $5 $6 $5
-0x2dd4: MUL   $4 $1 $0
-0x2dd5: FREE  $5
-0x2dd6: FREE  $2
-0x2dd7: FREE  $5
-0x2dd8: FREE  $7
-0x2dd9: HALT
-0x2dda: FREE  $5
-0x2ddb: ALLOC $1 $7
-0x2ddc: OUT   $5
-0x2ddd: FREE  $4
-0x2dde: FREE  $1
-0x2ddf: FREE  $6
-0x2de0: FREE  $1
-0x2de1: RMEM  $2 $2 $3
-0x2de2: NAND  $4 $3 $1
-0x2de3: JUMP  $5 $7
-0x2de4: FREE  $2
-0x2de5: FREE  $0
-0x2de6: FREE  $2
-0x2de7: FREE  $6
-0x2de8: FREE  $4
-0x2de9: FREE  $6
-0x2dea: FREE  $2
-0x2deb: MUL   $0 $7 $5
-0x2dec: NAND  $7 $2 $2
-0x2ded: DIV   $5 $5 $3
-0x2dee: FREE  $1
-0x2def: FREE  $2
-0x2df0: FREE  $4
-0x2df1: FREE  $6
-0x2df2: JUMP  $2 $4
-0x2df3: HALT
-0x2df4: FREE  $5
-0x2df5: ALLOC $0 $0
-0x2df6: FREE  $0
-0x2df7: FREE  $3
-0x2df8: FREE  $0
-0x2df9: DIV   $3 $7 $4
-0x2dfa: OUT   $7
-0x2dfb: FREE  $3
-0x2dfc: FREE  $6
-0x2dfd: FREE  $0
-0x2dfe: CMOVE $5 $1 $2
-0x2dff: RMEM  $0 $5 $3
-0x2e00: CMOVE $4 $7 $0
-0x2e01: WMEM  $2 $4 $3
-0x2e02: CMOVE $3 $3 $7
-0x2e03: CMOVE $2 $4 $0
-0x2e04: FREE  $7
-0x2e05: MUL   $0 $6 $7
-0x2e06: FREE  $7
-0x2e07: FREE  $3
-0x2e08: FREE  $2
-0x2e09: OUT   $3
-0x2e0a: ALLOC $4 $5
-0x2e0b: FREE  $4
-0x2e0c: FREE  $0
-0x2e0d: FREE  $0
-0x2e0e: FREE  $6
-0x2e0f: FREE  $0
-0x2e10: JUMP  $2 $6
-0x2e11: FREE  $4
-0x2e12: FREE  $5
-0x2e13: FREE  $1
-0x2e14: CMOVE $6 $3 $7
-0x2e15: FREE  $4
-0x2e16: FREE  $5
-0x2e17: ALLOC $5 $5
-0x2e18: WMEM  $3 $3 $6
-0x2e19: FREE  $6
-0x2e1a: FREE  $4
-0x2e1b: FREE  $1
-0x2e1c: FREE  $3
-0x2e1d: FREE  $4
-0x2e1e: CMOVE $4 $0 $0
-0x2e1f: JUMP  $7 $6
-0x2e20: ALLOC $5 $5
-0x2e21: FREE  $6
-0x2e22: FREE  $5
-0x2e23: FREE  $2
-0x2e24: FREE  $4
-0x2e25: FREE  $6
-0x2e26: FREE  $4
-0x2e27: FREE  $1
-0x2e28: FREE  $2
-0x2e29: DIV   $7 $5 $6
-0x2e2a: FREE  $2
-0x2e2b: ALLOC $2 $2
-0x2e2c: FREE  $2
-0x2e2d: FREE  $1
-0x2e2e: JUMP  $4 $4
-0x2e2f: ALLOC $6 $4
-0x2e30: MUL   $1 $5 $4
-0x2e31: RMEM  $6 $5 $6
-0x2e32: CMOVE $7 $7 $1
-0x2e33: CMOVE $0 $1 $1
-0x2e34: FREE  $3
-0x2e35: CMOVE $1 $7 $3
-0x2e36: CMOVE $4 $3 $7
-0x2e37: FREE  $7
-0x2e38: ALLOC $0 $6
-0x2e39: FREE  $2
-0x2e3a: FREE  $2
-0x2e3b: ADD   $0 $3 $6
-0x2e3c: ALLOC $2 $6
-0x2e3d: MUL   $1 $4 $6
-0x2e3e: FREE  $1
-0x2e3f: FREE  $6
-0x2e40: FREE  $3
-0x2e41: FREE  $1
-0x2e42: FREE  $6
-0x2e43: DIV   $5 $7 $5
-0x2e44: FREE  $3
-0x2e45: OUT   $5
-0x2e46: CMOVE $7 $4 $6
-0x2e47: FREE  $5
-0x2e48: FREE  $3
-0x2e49: FREE  $2
-0x2e4a: FREE  $1
-0x2e4b: FREE  $1
-0x2e4c: MUL   $5 $1 $4
-0x2e4d: FREE  $2
-0x2e4e: FREE  $1
-0x2e4f: MUL   $7 $3 $0
-0x2e50: ADD   $5 $6 $6
-0x2e51: HALT
-0x2e52: FREE  $1
-0x2e53: FREE  $0
-0x2e54: OUT   $6
-0x2e55: DIV   $5 $6 $6
-0x2e56: FREE  $2
-0x2e57: ALLOC $2 $6
-0x2e58: FREE  $0
-0x2e59: ALLOC $4 $5
-0x2e5a: FREE  $5
-0x2e5b: WMEM  $0 $5 $2
-0x2e5c: ALLOC $5 $0
-0x2e5d: FREE  $4
-0x2e5e: ADD   $4 $4 $7
-0x2e5f: FREE  $2
-0x2e60: FREE  $4
-0x2e61: FREE  $6
-0x2e62: RMEM  $0 $0 $5
-0x2e63: CMOVE $3 $0 $4
-0x2e64: CMOVE $0 $4 $1
-0x2e65: FREE  $0
-0x2e66: CMOVE $0 $5 $5
-0x2e67: RMEM  $7 $4 $4
-0x2e68: ADD   $7 $5 $1
-0x2e69: ALLOC $6 $7
-0x2e6a: JUMP  $7 $4
-0x2e6b: ALLOC $4 $5
-0x2e6c: ADD   $7 $1 $5
-0x2e6d: FREE  $5
-0x2e6e: FREE  $6
-0x2e6f: FREE  $4
-0x2e70: FREE  $7
-0x2e71: FREE  $0
-0x2e72: OUT   $5
-0x2e73: ALLOC $2 $2
-0x2e74: FREE  $7
-0x2e75: FREE  $2
-0x2e76: FREE  $0
-0x2e77: FREE  $6
-0x2e78: FREE  $0
-0x2e79: ADD   $6 $7 $5
-0x2e7a: ALLOC $4 $6
-0x2e7b: ALLOC $2 $6
-0x2e7c: FREE  $5
-0x2e7d: FREE  $3
-0x2e7e: FREE  $0
-0x2e7f: FREE  $7
-0x2e80: FREE  $4
-0x2e81: WMEM  $4 $0 $2
-0x2e82: FREE  $0
-0x2e83: CMOVE $7 $3 $1
-0x2e84: FREE  $6
-0x2e85: FREE  $0
-0x2e86: FREE  $0
-0x2e87: FREE  $2
-0x2e88: MUL   $1 $3 $6
-0x2e89: ALLOC $4 $5
-0x2e8a: FREE  $6
-0x2e8b: ALLOC $5 $2
-0x2e8c: FREE  $2
-0x2e8d: DIV   $7 $3 $5
-0x2e8e: FREE  $7
-0x2e8f: ALLOC $4 $6
-0x2e90: OUT   $6
-0x2e91: HALT
-0x2e92: FREE  $5
-0x2e93: FREE  $5
-0x2e94: WMEM  $4 $5 $5
-0x2e95: CMOVE $7 $2 $7
-0x2e96: RMEM  $5 $4 $3
-0x2e97: FREE  $0
-0x2e98: ADD   $4 $4 $6
-0x2e99: FREE  $6
-0x2e9a: CMOVE $0 $6 $0
-0x2e9b: FREE  $5
-0x2e9c: ALLOC $6 $4
-0x2e9d: MUL   $5 $7 $0
-0x2e9e: HALT
-0x2e9f: OUT   $6
-0x2ea0: FREE  $0
-0x2ea1: FREE  $0
-0x2ea2: FREE  $3
-0x2ea3: FREE  $6
-0x2ea4: ALLOC $5 $7
-0x2ea5: FREE  $5
-0x2ea6: JUMP  $0 $5
-0x2ea7: FREE  $2
-0x2ea8: FREE  $6
-0x2ea9: FREE  $0
-0x2eaa: ALLOC $6 $5
-0x2eab: FREE  $3
-0x2eac: FREE  $0
-0x2ead: CMOVE $0 $4 $7
-0x2eae: OUT   $0
-0x2eaf: FREE  $4
-0x2eb0: FREE  $2
-0x2eb1: CMOVE $3 $1 $0
-0x2eb2: FREE  $1
-0x2eb3: NAND  $6 $6 $1
-0x2eb4: FREE  $1
-0x2eb5: JUMP  $7 $3
-0x2eb6: DIV   $2 $6 $3
-0x2eb7: FREE  $6
-0x2eb8: ALLOC $0 $7
-0x2eb9: FREE  $1
-0x2eba: FREE  $6
-0x2ebb: ALLOC $2 $2
-0x2ebc: FREE  $5
-0x2ebd: OUT   $4
-0x2ebe: ALLOC $4 $7
-0x2ebf: FREE  $1
-0x2ec0: FREE  $3
-0x2ec1: FREE  $2
-0x2ec2: MUL   $5 $3 $7
-0x2ec3: ADD   $5 $6 $5
-0x2ec4: JUMP  $5 $3
-0x2ec5: FREE  $1
-0x2ec6: FREE  $4
-0x2ec7: DIV   $2 $1 $4
-0x2ec8: CMOVE $0 $6 $7
-0x2ec9: RMEM  $4 $0 $3
-0x2eca: HALT
-0x2ecb: CMOVE $6 $5 $3
-0x2ecc: CMOVE $4 $4 $7
-0x2ecd: RMEM  $1 $1 $7
-0x2ece: CMOVE $2 $4 $0
-0x2ecf: FREE  $3
-0x2ed0: FREE  $6
-0x2ed1: FREE  $1
-0x2ed2: FREE  $1
-0x2ed3: JUMP  $7 $6
-0x2ed4: HALT
-0x2ed5: ALLOC $1 $0
-0x2ed6: FREE  $0
-0x2ed7: FREE  $2
-0x2ed8: ALLOC $2 $7
-0x2ed9: FREE  $2
-0x2eda: FREE  $4
-0x2edb: OUT   $6
-0x2edc: FREE  $7
-0x2edd: FREE  $6
-0x2ede: FREE  $4
-0x2edf: MUL   $6 $7 $6
-0x2ee0: ALLOC $4 $4
-0x2ee1: FREE  $1
-0x2ee2: FREE  $1
-0x2ee3: FREE  $2
-0x2ee4: FREE  $6
-0x2ee5: FREE  $7
-0x2ee6: NAND  $1 $0 $2
-0x2ee7: FREE  $6
-0x2ee8: FREE  $7
-0x2ee9: CMOVE $3 $6 $7
-0x2eea: OUT   $1
-0x2eeb: FREE  $3
-0x2eec: FREE  $1
-0x2eed: ALLOC $6 $0
-0x2eee: FREE  $0
-0x2eef: FREE  $4
-0x2ef0: FREE  $4
-0x2ef1: JUMP  $4 $7
-0x2ef2: FREE  $1
-0x2ef3: FREE  $0
-0x2ef4: FREE  $2
-0x2ef5: FREE  $3
-0x2ef6: FREE  $5
-0x2ef7: FREE  $0
-0x2ef8: FREE  $3
-0x2ef9: OUT   $4
-0x2efa: RMEM  $5 $4 $6
-0x2efb: HALT
-0x2efc: CMOVE $2 $7 $2
-0x2efd: FREE  $1
-0x2efe: CMOVE $5 $6 $6
-0x2eff: RMEM  $3 $3 $1
-0x2f00: ALLOC $2 $0
-0x2f01: FREE  $7
-0x2f02: FREE  $1
-0x2f03: FREE  $1
-0x2f04: DIV   $6 $4 $3
-0x2f05: MUL   $3 $0 $1
-0x2f06: ALLOC $3 $0
-0x2f07: FREE  $0
-0x2f08: OUT   $1
-0x2f09: FREE  $0
-0x2f0a: FREE  $4
-0x2f0b: ALLOC $7 $6
-0x2f0c: FREE  $1
-0x2f0d: FREE  $6
-0x2f0e: FREE  $7
-0x2f0f: OUT   $3
-0x2f10: FREE  $0
-0x2f11: RMEM  $4 $5 $7
-0x2f12: WMEM  $3 $4 $7
-0x2f13: FREE  $6
-0x2f14: FREE  $5
-0x2f15: FREE  $1
-0x2f16: FREE  $6
-0x2f17: OUT   $1
-0x2f18: ADD   $0 $1 $3
-0x2f19: DIV   $3 $4 $3
-0x2f1a: HALT
-0x2f1b: FREE  $2
-0x2f1c: FREE  $3
-0x2f1d: FREE  $0
-0x2f1e: JUMP  $7 $2
-0x2f1f: FREE  $5
-0x2f20: FREE  $1
-0x2f21: NAND  $6 $7 $7
-0x2f22: FREE  $3
-0x2f23: FREE  $3
-0x2f24: FREE  $0
-0x2f25: FREE  $7
-0x2f26: OUT   $7
-0x2f27: HALT
-0x2f28: ALLOC $3 $0
-0x2f29: FREE  $6
-0x2f2a: FREE  $4
-0x2f2b: FREE  $2
-0x2f2c: CMOVE $4 $3 $7
-0x2f2d: MUL   $6 $5 $5
-0x2f2e: ADD   $2 $5 $5
-0x2f2f: CMOVE $5 $6 $6
-0x2f30: CMOVE $7 $1 $3
-0x2f31: FREE  $1
-0x2f32: FREE  $7
-0x2f33: FREE  $6
-0x2f34: FREE  $2
-0x2f35: CMOVE $5 $1 $6
-0x2f36: WMEM  $0 $2 $0
-0x2f37: FREE  $7
-0x2f38: FREE  $0
-0x2f39: FREE  $1
-0x2f3a: FREE  $3
-0x2f3b: FREE  $2
-0x2f3c: JUMP  $0 $0
-0x2f3d: FREE  $5
-0x2f3e: FREE  $7
-0x2f3f: RMEM  $4 $1 $1
-0x2f40: ALLOC $4 $5
-0x2f41: OUT   $7
-0x2f42: OUT   $3
-0x2f43: FREE  $2
-0x2f44: OUT   $7
-0x2f45: FREE  $1
-0x2f46: FREE  $4
-0x2f47: FREE  $6
-0x2f48: FREE  $0
-0x2f49: CMOVE $6 $4 $2
-0x2f4a: FREE  $3
-0x2f4b: OUT   $5
-0x2f4c: MUL   $4 $7 $0
-0x2f4d: MUL   $4 $1 $6
-0x2f4e: MUL   $4 $2 $1
-0x2f4f: DIV   $2 $1 $6
-0x2f50: ALLOC $4 $6
-0x2f51: ALLOC $2 $4
-0x2f52: ALLOC $3 $2
-0x2f53: OUT   $6
-0x2f54: FREE  $1
-0x2f55: ALLOC $2 $5
-0x2f56: MUL   $6 $6 $7
-0x2f57: MUL   $6 $0 $7
-0x2f58: CMOVE $7 $5 $4
-0x2f59: CMOVE $4 $1 $6
-0x2f5a: WMEM  $1 $6 $6
-0x2f5b: CMOVE $4 $0 $6
-0x2f5c: CMOVE $5 $3 $4
-0x2f5d: CMOVE $1 $6 $2
-0x2f5e: CMOVE $1 $2 $5
-0x2f5f: CMOVE $3 $3 $3
-0x2f60: CMOVE $7 $5 $0
-0x2f61: CMOVE $7 $3 $5
-0x2f62: CMOVE $3 $5 $7
-0x2f63: CMOVE $3 $7 $2
-0x2f64: CMOVE $3 $6 $5
-0x2f65: CMOVE $3 $7 $1
-0x2f66: CMOVE $4 $2 $2
-0x2f67: CMOVE $5 $4 $3
-0x2f68: CMOVE $0 $0 $7
-0x2f69: CMOVE $0 $3 $0
-0x2f6a: CMOVE $3 $7 $2
-0x2f6b: CMOVE $3 $7 $4
-0x2f6c: CMOVE $3 $7 $7
-0x2f6d: CMOVE $1 $2 $4
-0x2f6e: CMOVE $3 $5 $6
-0x2f6f: CMOVE $6 $2 $4
-0x2f70: CMOVE $5 $2 $6
-0x2f71: CMOVE $3 $6 $2
-0x2f72: CMOVE $2 $5 $5
-0x2f73: OUT   $6
-0x2f74: CMOVE $3 $0 $0
-0x2f75: CMOVE $4 $0 $6
-0x2f76: RMEM  $0 $6 $3
-0x2f77: ALLOC $1 $2
-0x2f78: IN    $5
-0x2f79: NAND  $1 $2 $4
-0x2f7a: ALLOC $1 $0
-0x2f7b: ALLOC $4 $1
-0x2f7c: HALT
-0x2f7d: HALT
-0x2f7e: HALT
-0x2f7f: HALT
-0x2f80: DIV   $5 $5 $2
-0x2f81: DIV   $1 $6 $5
-0x2f82: FREE  $5
-0x2f83: ADD   $6 $0 $0
-0x2f84: FREE  $6
-0x2f85: NAND  $4 $4 $7
-0x2f86: CMOVE $6 $4 $3
-0x2f87: MUL   $6 $2 $1
-0x2f88: NAND  $7 $5 $1
-0x2f89: CMOVE $3 $3 $2
-0x2f8a: ADD   $0 $7 $3
-0x2f8b: CMOVE $0 $7 $3
-0x2f8c: CMOVE $2 $5 $3
-0x2f8d: CMOVE $3 $1 $5
-0x2f8e: CMOVE $1 $7 $0
-0x2f8f: MUL   $4 $4 $0
-0x2f90: MUL   $4 $4 $2
-0x2f91: MUL   $4 $4 $4
-0x2f92: MUL   $4 $4 $6
-0x2f93: CMOVE $6 $5 $0
-0x2f94: CMOVE $5 $7 $3
-0x2f95: CMOVE $2 $4 $6
-0x2f96: CMOVE $1 $3 $5
-0x2f97: CMOVE $5 $3 $2
-0x2f98: CMOVE $3 $4 $1
-0x2f99: OUT   $6
-0x2f9a: MUL   $2 $4 $3
-0x2f9b: MUL   $4 $6 $7
-0x2f9c: CMOVE $6 $7 $1
-0x2f9d: CMOVE $3 $6 $6
-0x2f9e: CMOVE $4 $7 $7
-0x2f9f: ADD   $5 $6 $0
-0x2fa0: MUL   $5 $6 $2
-0x2fa1: OUT   $3
-0x2fa2: CMOVE $4 $5 $1
-0x2fa3: CMOVE $6 $0 $1
-0x2fa4: FREE  $6
-0x2fa5: JUMP  $7 $4
-0x2fa6: ALLOC $2 $1
-0x2fa7: ALLOC $2 $6
-0x2fa8: ALLOC $0 $0
-0x2fa9: ALLOC $5 $4
-0x2faa: FREE  $0
-0x2fab: OUT   $3
-0x2fac: OUT   $0
-0x2fad: ALLOC $6 $6
-0x2fae: ALLOC $4 $3
-0x2faf: MUL   $3 $3 $5
-0x2fb0: MUL   $4 $1 $0
-0x2fb1: ALLOC $1 $0
-0x2fb2: DIV   $7 $4 $2
-0x2fb3: ADD   $7 $7 $2
-0x2fb4: MUL   $4 $2 $1
-0x2fb5: HALT
-0x2fb6: ADD   $6 $5 $0
-0x2fb7: ADD   $1 $4 $0
-0x2fb8: RMEM  $1 $7 $3
-0x2fb9: RMEM  $5 $7 $7
-0x2fba: ALLOC $5 $1
-0x2fbb: FREE  $2
-0x2fbc: OUT   $4
-0x2fbd: FREE  $3
-0x2fbe: HALT
-0x2fbf: ALLOC $1 $3
-0x2fc0: ALLOC $5 $0
-0x2fc1: HALT
-0x2fc2: DIV   $3 $7 $3
-0x2fc3: IN    $5
-0x2fc4: CMOVE $3 $1 $1
-0x2fc5: RMEM  $2 $6 $3
-0x2fc6: FREE  $1
-0x2fc7: NAND  $1 $3 $1
-0x2fc8: DIV   $1 $1 $5
-0x2fc9: NAND  $4 $7 $3
-0x2fca: CMOVE $2 $7 $6
-0x2fcb: DIV   $6 $5 $2
-0x2fcc: CMOVE $3 $7 $7
-0x2fcd: MUL   $1 $6 $6
-0x2fce: ADD   $1 $3 $4
-0x2fcf: CMOVE $6 $1 $2
-0x2fd0: CMOVE $2 $3 $5
-0x2fd1: MUL   $7 $0 $6
-0x2fd2: RMEM  $4 $7 $2
-0x2fd3: DIV   $2 $0 $4
-0x2fd4: ADD   $0 $6 $0
-0x2fd5: FREE  $0
-0x2fd6: CMOVE $2 $7 $3
-0x2fd7: OUT   $2
-0x2fd8: CMOVE $0 $5 $1
-0x2fd9: NAND  $5 $4 $1
-0x2fda: CMOVE $4 $1 $2
-0x2fdb: NAND  $0 $0 $0
-0x2fdc: CMOVE $6 $2 $3
-0x2fdd: NAND  $5 $5 $1
-0x2fde: ALLOC $6 $0
-0x2fdf: WMEM  $6 $2 $7
-0x2fe0: CMOVE $5 $5 $6
-0x2fe1: CMOVE $3 $3 $2
-0x2fe2: IN    $4
-0x2fe3: WMEM  $6 $7 $1
-0x2fe4: OUT   $5
-0x2fe5: ALLOC $7 $7
-0x2fe6: ALLOC $0 $7
-0x2fe7: ADD   $3 $1 $6
-0x2fe8: ADD   $4 $0 $3
-0x2fe9: ALLOC $0 $2
-0x2fea: ALLOC $1 $1
-0x2feb: ALLOC $1 $6
-0x2fec: CMOVE $2 $2 $5
-0x2fed: ADD   $4 $0 $2
-0x2fee: CMOVE $3 $3 $6
-0x2fef: CMOVE $5 $5 $1
-0x2ff0: CMOVE $7 $6 $4
-0x2ff1: FREE  $3
-0x2ff2: OUT   $0
-0x2ff3: CMOVE $7 $4 $0
-0x2ff4: ADD   $7 $4 $5
-0x2ff5: ADD   $0 $7 $7
-0x2ff6: ADD   $3 $2 $1
-0x2ff7: ALLOC $7 $7
-0x2ff8: ALLOC $0 $7
-0x2ff9: CMOVE $7 $2 $2
-0x2ffa: ALLOC $6 $6
-0x2ffb: MUL   $1 $1 $3
-0x2ffc: CMOVE $2 $3 $3
-0x2ffd: OUT   $7
-0x2ffe: ADD   $6 $6 $1
-0x2fff: CMOVE $7 $3 $3
-0x3000: HALT
-0x3001: ALLOC $5 $4
-0x3002: FREE  $1
-0x3003: MUL   $7 $4 $4
-0x3004: DIV   $3 $3 $1
-0x3005: CMOVE $3 $4 $5
-0x3006: MUL   $2 $4 $6
-0x3007: ALLOC $4 $4
-0x3008: ADD   $4 $0 $1
-0x3009: NAND  $6 $1 $3
-0x300a: ALLOC $5 $5
-0x300b: ADD   $3 $5 $5
-0x300c: HALT
-0x300d: ALLOC $3 $5
-0x300e: ADD   $5 $7 $3
-0x300f: NAND  $7 $1 $1
-0x3010: ALLOC $0 $2
-0x3011: OUT   $1
-0x3012: NAND  $0 $1 $4
-0x3013: ADD   $2 $3 $3
-0x3014: DIV   $2 $0 $5
-0x3015: MUL   $0 $5 $4
-0x3016: CMOVE $0 $2 $6
-0x3017: DIV   $2 $5 $6
-0x3018: DIV   $7 $6 $0
-0x3019: ADD   $0 $7 $7
-0x301a: WMEM  $2 $5 $1
-0x301b: NAND  $6 $1 $6
-0x301c: CMOVE $0 $5 $7
-0x301d: RMEM  $4 $2 $0
-0x301e: CMOVE $4 $6 $3
-0x301f: HALT
-0x3020: MUL   $6 $5 $6
-0x3021: ADD   $2 $3 $2
-0x3022: ADD   $7 $5 $4
-0x3023: CMOVE $0 $2 $5
-0x3024: ADD   $5 $3 $6
-0x3025: WMEM  $3 $3 $7
-0x3026: HALT
-0x3027: ALLOC $1 $0
-0x3028: OUT   $2
-0x3029: CMOVE $6 $4 $5
-0x302a: MUL   $4 $4 $6
-0x302b: MUL   $1 $0 $6
-0x302c: DIV   $4 $5 $1
-0x302d: WMEM  $6 $5 $1
-0x302e: HALT
-0x302f: HALT
-0x3030: ALLOC $1 $2
-0x3031: CMOVE $6 $2 $4
-0x3032: DIV   $3 $2 $5
-0x3033: RMEM  $0 $0 $6
-0x3034: OUT   $2
-0x3035: NAND  $6 $0 $1
-0x3036: MUL   $2 $7 $5
-0x3037: HALT
-0x3038: ADD   $4 $5 $6
-0x3039: ADD   $3 $4 $0
-0x303a: HALT
-0x303b: DIV   $7 $4 $1
-0x303c: CMOVE $2 $6 $5
-0x303d: OUT   $7
-0x303e: OUT   $5
-0x303f: ADD   $0 $3 $0
-0x3040: ALLOC $3 $5
-0x3041: NAND  $5 $7 $4
-0x3042: OUT   $5
-0x3043: OUT   $1
-0x3044: DIV   $2 $3 $7
-0x3045: MUL   $4 $5 $5
-0x3046: NAND  $0 $5 $2
-0x3047: OUT   $6
-0x3048: HALT
-0x3049: ALLOC $7 $6
-0x304a: ADD   $7 $3 $6
-0x304b: CMOVE $4 $3 $5
-0x304c: DIV   $2 $0 $6
-0x304d: DIV   $0 $7 $7
-0x304e: ALLOC $3 $0
-0x304f: MUL   $1 $4 $4
-0x3050: ADD   $1 $0 $3
-0x3051: OUT   $0
-0x3052: MUL   $5 $3 $1
-0x3053: OUT   $3
-0x3054: ALLOC $1 $3
-0x3055: NAND  $0 $2 $7
-0x3056: DIV   $6 $1 $0
-0x3057: HALT
-0x3058: MUL   $7 $3 $3
-0x3059: WMEM  $6 $5 $1
-0x305a: OUT   $3
-0x305b: ADD   $1 $5 $0
-0x305c: WMEM  $2 $7 $4
-0x305d: NAND  $7 $3 $3
-0x305e: OUT   $7
-0x305f: MUL   $2 $0 $6
-0x3060: NAND  $7 $6 $1
-0x3061: FREE  $0
-0x3062: HALT
-0x3063: ALLOC $3 $7
-0x3064: NAND  $2 $2 $0
-0x3065: ADD   $0 $7 $2
-0x3066: CMOVE $2 $6 $3
-0x3067: DIV   $0 $6 $0
-0x3068: MUL   $5 $5 $1
-0x3069: WMEM  $2 $7 $0
-0x306a: HALT
-0x306b: DIV   $7 $4 $5
-0x306c: OUT   $4
-0x306d: WMEM  $2 $4 $2
-0x306e: ALLOC $2 $0
-0x306f: MUL   $5 $2 $6
-0x3070: OUT   $0
-0x3071: DIV   $3 $1 $0
-0x3072: HALT
-0x3073: ALLOC $6 $5
-0x3074: DIV   $2 $4 $6
-0x3075: HALT
-0x3076: ALLOC $0 $0
-0x3077: DIV   $2 $5 $1
-0x3078: OUT   $5
-0x3079: ALLOC $1 $5
-0x307a: ALLOC $3 $2
-0x307b: ADD   $1 $6 $6
-0x307c: CMOVE $0 $7 $6
-0x307d: CMOVE $3 $3 $7
-0x307e: OUT   $0
-0x307f: OUT   $2
-0x3080: ADD   $0 $7 $5
-0x3081: WMEM  $3 $0 $3
-0x3082: ADD   $6 $7 $2
-0x3083: ADD   $3 $5 $4
-0x3084: OUT   $1
-0x3085: WMEM  $1 $4 $2
-0x3086: CMOVE $4 $5 $4
-0x3087: OUT   $0
-0x3088: ADD   $7 $4 $2
-0x3089: OUT   $4
-0x308a: CMOVE $4 $1 $4
-0x308b: ADD   $0 $0 $2
-0x308c: OUT   $5
-0x308d: ADD   $0 $4 $6
-0x308e: CMOVE $7 $1 $4
-0x308f: ADD   $5 $3 $0
-0x3090: ADD   $7 $7 $3
-0x3091: OUT   $5
-0x3092: WMEM  $4 $3 $4
-0x3093: ADD   $6 $7 $6
-0x3094: WMEM  $4 $1 $4
-0x3095: WMEM  $7 $1 $3
-0x3096: MUL   $5 $1 $3
-0x3097: HALT
-0x3098: ADD   $7 $5 $7
-0x3099: HALT
-0x309a: DIV   $3 $0 $7
-0x309b: ADD   $0 $1 $0
-0x309c: ADD   $5 $2 $6
-0x309d: FREE  $7
-0x309e: NAND  $4 $0 $3
-0x309f: ADD   $2 $7 $2
-0x30a0: NAND  $7 $5 $5
-0x30a1: FREE  $5
-0x30a2: MUL   $2 $5 $2
-0x30a3: DIV   $5 $2 $3
-0x30a4: WMEM  $1 $7 $5
-0x30a5: OUT   $5
-0x30a6: FREE  $6
-0x30a7: ADD   $7 $2 $1
-0x30a8: FREE  $0
-0x30a9: FREE  $7
-0x30aa: ALLOC $0 $4
-0x30ab: ALLOC $1 $4
-0x30ac: FREE  $6
-0x30ad: ALLOC $4 $7
-0x30ae: FREE  $3
-0x30af: FREE  $5
-0x30b0: ALLOC $4 $5
-0x30b1: NAND  $5 $1 $6
-0x30b2: FREE  $1
-0x30b3: RMEM  $1 $5 $1
-0x30b4: NAND  $2 $6 $1
-0x30b5: OUT   $0
-0x30b6: DIV   $7 $7 $7
-0x30b7: MUL   $7 $3 $6
-0x30b8: ALLOC $0 $2
-0x30b9: ALLOC $7 $3
-0x30ba: ADD   $0 $6 $5
-0x30bb: FREE  $5
-0x30bc: HALT
-0x30bd: CMOVE $5 $1 $4
-0x30be: CMOVE $0 $0 $1
-0x30bf: OUT   $7
-0x30c0: ALLOC $5 $4
-0x30c1: OUT   $5
-0x30c2: JUMP  $6 $7
-0x30c3: IN    $5
-0x30c4: ALLOC $4 $0
-0x30c5: WMEM  $0 $6 $2
-0x30c6: FREE  $0
-0x30c7: OUT   $0
-0x30c8: DIV   $4 $2 $4
-0x30c9: MUL   $2 $3 $4
-0x30ca: DIV   $7 $5 $5
-0x30cb: OUT   $5
-0x30cc: OUT   $5
-0x30cd: ALLOC $3 $7
-0x30ce: HALT
-0x30cf: FREE  $4
-0x30d0: FREE  $7
-0x30d1: IMM   $1 26168758
-0x30d2: WMEM  $3 $0 $0
-0x30d3: NAND  $1 $5 $6
-0x30d4: CMOVE $1 $2 $2
-0x30d5: OUT   $2
-0x30d6: HALT
-0x30d7: MUL   $0 $7 $7
-0x30d8: ALLOC $5 $1
-0x30d9: FREE  $6
-0x30da: ALLOC $3 $5
-0x30db: OUT   $2
-0x30dc: MUL   $6 $6 $2
-0x30dd: FREE  $1
-0x30de: HALT
-0x30df: HALT
-0x30e0: IMM   $1 29108400
-0x30e1: NAND  $2 $2 $2
-0x30e2: ADD   $2 $5 $7
-0x30e3: OUT   $6
-0x30e4: OUT   $5
-0x30e5: ALLOC $2 $1
-0x30e6: FREE  $4
-0x30e7: FREE  $2
-0x30e8: OUT   $4
-0x30e9: ALLOC $1 $4
-0x30ea: OUT   $2
-0x30eb: ADD   $4 $7 $7
-0x30ec: ADD   $3 $2 $4
-0x30ed: OUT   $1
-0x30ee: DIV   $2 $0 $1
-0x30ef: IN    $5
-0x30f0: NAND  $7 $0 $6
-0x30f1: OUT   $0
-0x30f2: OUT   $7
-0x30f3: ALLOC $6 $1
-0x30f4: OUT   $4
-0x30f5: OUT   $5
-0x30f6: NAND  $6 $2 $3
-0x30f7: NAND  $1 $5 $0
-0x30f8: ALLOC $4 $3
-0x30f9: OUT   $4
-0x30fa: FREE  $0
-0x30fb: ALLOC $1 $6
-0x30fc: ALLOC $1 $3
-0x30fd: ALLOC $3 $7
-0x30fe: JUMP  $2 $7
-0x30ff: NAND  $3 $5 $4
-0x3100: ALLOC $0 $5
-0x3101: HALT
-0x3102: ALLOC $2 $1
-0x3103: ALLOC $0 $5
-0x3104: ALLOC $0 $6
-0x3105: ALLOC $0 $2
-0x3106: OUT   $7
-0x3107: OUT   $1
-0x3108: OUT   $2
-0x3109: OUT   $6
-0x310a: CMOVE $2 $0 $0
-0x310b: NAND  $6 $6 $4
-0x310c: FREE  $3
-0x310d: WMEM  $6 $0 $3
-0x310e: OUT   $0
-0x310f: OUT   $2
-0x3110: WMEM  $6 $7 $6
-0x3111: OUT   $7
-0x3112: OUT   $7
-0x3113: CMOVE $0 $5 $1
-0x3114: NAND  $3 $7 $0
-0x3115: FREE  $6
-0x3116: CMOVE $0 $4 $4
-0x3117: OUT   $0
-0x3118: NAND  $3 $6 $5
-0x3119: HALT
-0x311a: FREE  $2
-0x311b: ALLOC $2 $3
-0x311c: JUMP  $5 $3
-0x311d: OUT   $1
-0x311e: FREE  $5
-0x311f: ALLOC $7 $5
-0x3120: FREE  $2
-0x3121: ALLOC $4 $4
-0x3122: FREE  $4
-0x3123: FREE  $7
-0x3124: ALLOC $6 $0
-0x3125: CMOVE $2 $5 $4
-0x3126: MUL   $1 $2 $7
-0x3127: WMEM  $2 $7 $1
-0x3128: CMOVE $5 $5 $3
-0x3129: CMOVE $4 $5 $4
-0x312a: RMEM  $6 $0 $6
-0x312b: JUMP  $1 $5
-0x312c: OUT   $2
-0x312d: OUT   $1
-0x312e: OUT   $3
-0x312f: DIV   $1 $5 $1
-0x3130: OUT   $5
-0x3131: ALLOC $0 $1
-0x3132: ALLOC $2 $0
-0x3133: OUT   $4
-0x3134: NAND  $0 $5 $3
-0x3135: FREE  $0
-0x3136: OUT   $6
-0x3137: ALLOC $6 $5
-0x3138: CMOVE $2 $6 $6
-0x3139: RMEM  $1 $0 $5
-0x313a: IMM   $1 30574868
-0x313b: MUL   $1 $1 $6
-0x313c: DIV   $3 $1 $3
-0x313d: ALLOC $1 $7
-0x313e: HALT
-0x313f: CMOVE $4 $1 $4
-0x3140: ALLOC $5 $6
-0x3141: OUT   $7
-0x3142: WMEM  $3 $7 $1
-0x3143: OUT   $5
-0x3144: ALLOC $0 $5
-0x3145: OUT   $7
-0x3146: DIV   $3 $1 $6
-0x3147: OUT   $1
-0x3148: OUT   $4
-0x3149: OUT   $2
-0x314a: IN    $3
-0x314b: FREE  $1
-0x314c: FREE  $6
-0x314d: OUT   $1
-0x314e: MUL   $7 $3 $3
-0x314f: OUT   $7
-0x3150: OUT   $5
-0x3151: OUT   $0
-0x3152: OUT   $0
-0x3153: OUT   $4
-0x3154: OUT   $6
-0x3155: FREE  $0
-0x3156: FREE  $7
-0x3157: OUT   $5
-0x3158: JUMP  $4 $6
-0x3159: MUL   $7 $3 $7
-0x315a: HALT
-0x315b: ADD   $4 $6 $2
-0x315c: HALT
-0x315d: OUT   $1
-0x315e: FREE  $7
-0x315f: ALLOC $7 $5
-0x3160: WMEM  $1 $0 $1
-0x3161: ALLOC $4 $6
-0x3162: CMOVE $6 $4 $5
-0x3163: OUT   $6
-0x3164: FREE  $6
-0x3165: FREE  $0
-0x3166: ALLOC $3 $7
-0x3167: FREE  $6
-0x3168: OUT   $7
-0x3169: OUT   $1
-0x316a: OUT   $3
-0x316b: ADD   $2 $5 $5
-0x316c: ADD   $0 $4 $6
-0x316d: HALT
-0x316e: HALT
-0x316f: FREE  $3
-0x3170: DIV   $3 $1 $3
-0x3171: ALLOC $6 $7
-0x3172: FREE  $0
-0x3173: ALLOC $6 $4
-0x3174: MUL   $0 $4 $4
-0x3175: FREE  $7
-0x3176: JUMP  $0 $6
-0x3177: IN    $3
-0x3178: OUT   $7
-0x3179: OUT   $1
-0x317a: OUT   $5
-0x317b: OUT   $5
-0x317c: ADD   $7 $2 $1
-0x317d: DIV   $3 $6 $3
-0x317e: FREE  $5
-0x317f: ALLOC $6 $7
-0x3180: NAND  $1 $6 $5
-0x3181: DIV   $3 $3 $6
-0x3182: ALLOC $1 $5
-0x3183: WMEM  $2 $5 $3
-0x3184: ALLOC $1 $2
-0x3185: OUT   $6
-0x3186: ALLOC $4 $4
-0x3187: DIV   $5 $3 $6
-0x3188: NAND  $4 $5 $0
-0x3189: FREE  $7
-0x318a: FREE  $1
-0x318b: ALLOC $5 $0
-0x318c: FREE  $0
-0x318d: FREE  $2
-0x318e: NAND  $7 $3 $5
-0x318f: ALLOC $7 $1
-0x3190: CMOVE $2 $4 $3
-0x3191: ALLOC $6 $7
-0x3192: FREE  $5
-0x3193: MUL   $1 $4 $5
-0x3194: ALLOC $3 $0
-0x3195: MUL   $4 $1 $6
-0x3196: ALLOC $6 $0
-0x3197: OUT   $3
-0x3198: CMOVE $3 $5 $2
-0x3199: FREE  $7
-0x319a: WMEM  $7 $1 $5
-0x319b: NAND  $5 $3 $0
-0x319c: FREE  $5
-0x319d: HALT
-0x319e: OUT   $2
-0x319f: ALLOC $6 $3
-0x31a0: MUL   $6 $1 $2
-0x31a1: OUT   $3
-0x31a2: ALLOC $7 $3
-0x31a3: WMEM  $3 $4 $6
-0x31a4: DIV   $2 $0 $0
-0x31a5: FREE  $4
-0x31a6: WMEM  $5 $6 $0
-0x31a7: OUT   $1
-0x31a8: FREE  $3
-0x31a9: OUT   $0
-0x31aa: RMEM  $7 $2 $2
-0x31ab: DIV   $5 $6 $3
-0x31ac: FREE  $7
-0x31ad: DIV   $5 $4 $0
-0x31ae: OUT   $5
-0x31af: ALLOC $6 $4
-0x31b0: DIV   $6 $1 $4
-0x31b1: HALT
-0x31b2: FREE  $6
-0x31b3: OUT   $0
-0x31b4: ALLOC $2 $5
-0x31b5: OUT   $0
-0x31b6: ALLOC $7 $4
-0x31b7: CMOVE $3 $4 $2
-0x31b8: ADD   $2 $0 $2
-0x31b9: CMOVE $0 $0 $4
-0x31ba: CMOVE $0 $4 $5
-0x31bb: ADD   $2 $6 $7
-0x31bc: OUT   $0
-0x31bd: OUT   $7
-0x31be: MUL   $2 $3 $2
-0x31bf: FREE  $6
-0x31c0: CMOVE $7 $0 $7
-0x31c1: MUL   $5 $3 $2
-0x31c2: FREE  $1
-0x31c3: DIV   $4 $7 $7
-0x31c4: DIV   $5 $7 $4
-0x31c5: ALLOC $0 $3
-0x31c6: HALT
-0x31c7: ALLOC $6 $2
-0x31c8: ALLOC $0 $1
-0x31c9: DIV   $6 $4 $7
-0x31ca: ADD   $6 $4 $0
-0x31cb: ADD   $3 $6 $3
-0x31cc: HALT
-0x31cd: MUL   $7 $1 $1
-0x31ce: WMEM  $4 $6 $1
-0x31cf: ALLOC $3 $5
-0x31d0: CMOVE $2 $7 $3
-0x31d1: NAND  $5 $7 $4
-0x31d2: ADD   $7 $5 $6
-0x31d3: OUT   $0
-0x31d4: CMOVE $4 $3 $1
-0x31d5: MUL   $5 $4 $4
-0x31d6: CMOVE $7 $2 $1
-0x31d7: ALLOC $1 $5
-0x31d8: DIV   $2 $4 $6
-0x31d9: ADD   $0 $5 $5
-0x31da: WMEM  $6 $6 $2
-0x31db: DIV   $1 $3 $1
-0x31dc: WMEM  $0 $0 $2
-0x31dd: WMEM  $6 $6 $3
-0x31de: WMEM  $1 $7 $0
-0x31df: FREE  $2
-0x31e0: ALLOC $2 $3
-0x31e1: WMEM  $4 $0 $5
-0x31e2: OUT   $1
-0x31e3: CMOVE $4 $0 $7
-0x31e4: HALT
-0x31e5: HALT
-0x31e6: OUT   $6
-0x31e7: ALLOC $1 $4
-0x31e8: WMEM  $7 $4 $3
-0x31e9: OUT   $5
-0x31ea: WMEM  $2 $4 $3
-0x31eb: FREE  $1
-0x31ec: ADD   $4 $6 $3
-0x31ed: OUT   $1
-0x31ee: WMEM  $6 $2 $7
-0x31ef: HALT
-0x31f0: OUT   $6
-0x31f1: NAND  $5 $6 $2
-0x31f2: NAND  $7 $0 $2
-0x31f3: OUT   $6
-0x31f4: OUT   $0
-0x31f5: FREE  $4
-0x31f6: OUT   $7
-0x31f7: NAND  $3 $7 $2
-0x31f8: CMOVE $0 $2 $6
-0x31f9: HALT
-0x31fa: OUT   $6
-0x31fb: FREE  $6
-0x31fc: OUT   $2
-0x31fd: MUL   $3 $5 $0
-0x31fe: OUT   $2
-0x31ff: DIV   $0 $7 $1
-0x3200: CMOVE $7 $1 $5
-0x3201: OUT   $0
-0x3202: RMEM  $4 $0 $0
-0x3203: CMOVE $6 $7 $1
-0x3204: HALT
-0x3205: CMOVE $5 $1 $1
-0x3206: OUT   $4
-0x3207: CMOVE $6 $2 $2
-0x3208: OUT   $2
-0x3209: ALLOC $0 $3
-0x320a: WMEM  $6 $5 $5
-0x320b: MUL   $2 $1 $7
-0x320c: IN    $2
-0x320d: IN    $3
-0x320e: OUT   $5
-0x320f: OUT   $2
-0x3210: MUL   $5 $3 $3
-0x3211: CMOVE $4 $6 $7
-0x3212: HALT
-0x3213: OUT   $2
-0x3214: WMEM  $2 $1 $0
-0x3215: MUL   $5 $5 $6
-0x3216: HALT
-0x3217: DIV   $2 $2 $2
-0x3218: DIV   $3 $3 $3
-0x3219: HALT
-0x321a: FREE  $6
-0x321b: IMM   $3 6787053
-0x321c: ADD   $2 $0 $1
-0x321d: CMOVE $3 $1 $7
-0x321e: MUL   $7 $3 $6
-0x321f: NAND  $1 $2 $2
-0x3220: FREE  $4
-0x3221: FREE  $3
-0x3222: ALLOC $0 $1
-0x3223: FREE  $1
-0x3224: OUT   $6
-0x3225: NAND  $4 $7 $6
-0x3226: NAND  $0 $5 $5
-0x3227: ALLOC $6 $6
-0x3228: ALLOC $3 $3
-0x3229: NAND  $4 $5 $0
-0x322a: ADD   $4 $2 $6
-0x322b: IN    $3
-0x322c: ALLOC $4 $1
-0x322d: ALLOC $5 $3
-0x322e: MUL   $5 $1 $4
-0x322f: NAND  $0 $6 $2
-0x3230: DIV   $3 $5 $5
-0x3231: DIV   $2 $6 $6
-0x3232: DIV   $6 $3 $0
-0x3233: NAND  $6 $7 $0
-0x3234: NAND  $0 $5 $5
-0x3235: OUT   $5
-0x3236: NAND  $0 $1 $0
-0x3237: NAND  $5 $6 $6
-0x3238: ALLOC $5 $0
-0x3239: ADD   $7 $7 $6
-0x323a: HALT
-0x323b: ALLOC $4 $5
-0x323c: ALLOC $3 $7
-0x323d: FREE  $0
-0x323e: FREE  $5
-0x323f: ALLOC $4 $0
-0x3240: CMOVE $3 $5 $1
-0x3241: OUT   $0
-0x3242: ALLOC $3 $7
-0x3243: MUL   $4 $7 $6
-0x3244: NAND  $0 $7 $2
-0x3245: ADD   $3 $0 $6
-0x3246: DIV   $2 $2 $6
-0x3247: WMEM  $4 $0 $1
-0x3248: IN    $3
-0x3249: CMOVE $0 $5 $5
-0x324a: OUT   $2
-0x324b: ALLOC $1 $1
-0x324c: NAND  $7 $7 $5
-0x324d: NAND  $0 $2 $2
-0x324e: OUT   $0
-0x324f: FREE  $1
-0x3250: NAND  $5 $7 $1
-0x3251: NAND  $4 $3 $1
-0x3252: NAND  $5 $1 $1
-0x3253: OUT   $1
-0x3254: OUT   $6
-0x3255: OUT   $0
-0x3256: OUT   $3
-0x3257: IMM   $3 11636138
-0x3258: FREE  $3
-0x3259: FREE  $0
-0x325a: OUT   $3
-0x325b: ALLOC $7 $2
-0x325c: DIV   $7 $1 $0
-0x325d: OUT   $0
-0x325e: HALT
-0x325f: OUT   $5
-0x3260: OUT   $7
-0x3261: FREE  $4
-0x3262: FREE  $3
-0x3263: OUT   $3
-0x3264: NAND  $5 $4 $5
-0x3265: NAND  $1 $0 $1
-0x3266: JUMP  $6 $7
-0x3267: FREE  $5
-0x3268: FREE  $6
-0x3269: NAND  $2 $7 $1
-0x326a: ALLOC $7 $6
-0x326b: ADD   $7 $4 $2
-0x326c: NAND  $7 $6 $6
-0x326d: WMEM  $0 $7 $4
-0x326e: OUT   $3
-0x326f: OUT   $2
-0x3270: NAND  $0 $3 $1
-0x3271: OUT   $5
-0x3272: OUT   $2
-0x3273: OUT   $2
-0x3274: NAND  $2 $4 $4
-0x3275: DIV   $7 $4 $3
-0x3276: OUT   $7
-0x3277: NAND  $3 $6 $5
-0x3278: OUT   $4
-0x3279: OUT   $7
-0x327a: OUT   $1
-0x327b: OUT   $4
-0x327c: OUT   $7
-0x327d: NAND  $7 $2 $7
-0x327e: ALLOC $2 $7
-0x327f: OUT   $5
-0x3280: OUT   $3
-0x3281: ALLOC $3 $5
-0x3282: OUT   $3
-0x3283: FREE  $0
-0x3284: IMM   $0 24353255
-0x3285: FREE  $6
-0x3286: FREE  $5
-0x3287: OUT   $0
-0x3288: FREE  $3
-0x3289: ALLOC $3 $2
-0x328a: FREE  $3
-0x328b: NAND  $7 $2 $0
-0x328c: RMEM  $2 $7 $4
-0x328d: OUT   $1
-0x328e: DIV   $2 $2 $2
-0x328f: ALLOC $3 $6
-0x3290: ADD   $2 $1 $0
-0x3291: FREE  $2
-0x3292: ADD   $3 $2 $4
-0x3293: IN    $0
-0x3294: CMOVE $1 $6 $6
-0x3295: FREE  $4
-0x3296: ADD   $7 $3 $5
-0x3297: MUL   $0 $1 $6
-0x3298: NAND  $7 $4 $3
-0x3299: OUT   $0
-0x329a: MUL   $6 $1 $2
-0x329b: DIV   $6 $1 $5
-0x329c: MUL   $1 $4 $2
-0x329d: OUT   $3
-0x329e: DIV   $6 $1 $5
-0x329f: MUL   $2 $7 $4
-0x32a0: OUT   $3
-0x32a1: ALLOC $4 $5
-0x32a2: WMEM  $4 $3 $3
-0x32a3: DIV   $4 $1 $2
-0x32a4: OUT   $2
-0x32a5: ALLOC $1 $5
-0x32a6: DIV   $4 $0 $6
-0x32a7: OUT   $4
-0x32a8: HALT
-0x32a9: DIV   $0 $6 $4
-0x32aa: OUT   $4
-0x32ab: HALT
-0x32ac: NAND  $5 $6 $5
-0x32ad: OUT   $4
-0x32ae: DIV   $7 $3 $4
-0x32af: DIV   $7 $7 $3
-0x32b0: NAND  $1 $5 $0
-0x32b1: WMEM  $7 $6 $3
-0x32b2: MUL   $1 $7 $5
-0x32b3: DIV   $3 $1 $3
-0x32b4: DIV   $3 $1 $5
-0x32b5: DIV   $1 $1 $2
-0x32b6: DIV   $4 $4 $1
-0x32b7: DIV   $4 $5 $7
-0x32b8: FREE  $3
-0x32b9: ALLOC $3 $5
-0x32ba: OUT   $2
-0x32bb: OUT   $3
-0x32bc: MUL   $6 $6 $7
-0x32bd: MUL   $0 $3 $7
-0x32be: MUL   $4 $7 $2
-0x32bf: CMOVE $7 $2 $1
-0x32c0: MUL   $0 $1 $1
-0x32c1: OUT   $6
-0x32c2: OUT   $5
-0x32c3: NAND  $0 $1 $7
-0x32c4: DIV   $0 $5 $0
-0x32c5: DIV   $3 $7 $4
-0x32c6: ALLOC $0 $3
-0x32c7: HALT
-0x32c8: WMEM  $6 $4 $0
-0x32c9: CMOVE $4 $0 $4
-0x32ca: OUT   $5
-0x32cb: ALLOC $4 $5
-0x32cc: OUT   $7
-0x32cd: OUT   $7
-0x32ce: OUT   $2
-0x32cf: IMM   $2 12494878
-0x32d0: IN    $6
-0x32d1: OUT   $1
-0x32d2: ALLOC $3 $7
-0x32d3: OUT   $3
-0x32d4: OUT   $7
-0x32d5: OUT   $1
-0x32d6: OUT   $7
-0x32d7: NAND  $6 $7 $3
-0x32d8: OUT   $7
-0x32d9: CMOVE $3 $2 $1
-0x32da: ALLOC $3 $1
-0x32db: OUT   $5
-0x32dc: OUT   $4
-0x32dd: ALLOC $5 $1
-0x32de: IMM   $2 3050788
-0x32df: FREE  $4
-0x32e0: FREE  $6
-0x32e1: FREE  $1
-0x32e2: OUT   $7
-0x32e3: CMOVE $5 $6 $5
-0x32e4: OUT   $6
-0x32e5: ALLOC $1 $3
-0x32e6: NAND  $3 $6 $7
-0x32e7: WMEM  $5 $3 $6
-0x32e8: ADD   $4 $4 $5
-0x32e9: HALT
-0x32ea: MUL   $5 $0 $5
-0x32eb: ADD   $7 $7 $6
-0x32ec: OUT   $7
-0x32ed: CMOVE $0 $7 $2
-0x32ee: RMEM  $1 $1 $1
-0x32ef: ADD   $7 $6 $2
-0x32f0: DIV   $6 $2 $3
-0x32f1: ALLOC $6 $1
-0x32f2: OUT   $0
-0x32f3: FREE  $6
-0x32f4: ADD   $2 $0 $2
-0x32f5: OUT   $6
-0x32f6: OUT   $1
-0x32f7: OUT   $4
-0x32f8: OUT   $7
-0x32f9: OUT   $2
-0x32fa: RMEM  $6 $0 $5
-0x32fb: DIV   $5 $0 $0
-0x32fc: DIV   $2 $0 $6
-0x32fd: OUT   $4
-0x32fe: OUT   $7
-0x32ff: ADD   $3 $4 $1
-0x3300: MUL   $7 $1 $7
-0x3301: MUL   $2 $7 $2
-0x3302: DIV   $5 $2 $0
-0x3303: DIV   $0 $6 $7
-0x3304: DIV   $3 $7 $1
-0x3305: DIV   $1 $7 $5
-0x3306: DIV   $3 $1 $3
-0x3307: DIV   $3 $1 $5
-0x3308: DIV   $5 $1 $2
-0x3309: DIV   $2 $0 $1
-0x330a: FREE  $7
-0x330b: CMOVE $1 $6 $7
-0x330c: FREE  $3
-0x330d: OUT   $1
-0x330e: FREE  $7
-0x330f: WMEM  $0 $6 $5
-0x3310: OUT   $2
-0x3311: OUT   $0
-0x3312: NAND  $2 $7 $3
-0x3313: RMEM  $3 $2 $1
-0x3314: DIV   $7 $3 $6
-0x3315: CMOVE $7 $2 $5
-0x3316: OUT   $7
-0x3317: OUT   $4
-0x3318: MUL   $2 $3 $3
-0x3319: ADD   $0 $1 $6
-0x331a: WMEM  $6 $4 $5
-0x331b: ADD   $6 $2 $2
-0x331c: NAND  $4 $1 $6
-0x331d: IN    $1
-0x331e: OUT   $4
-0x331f: FREE  $7
-0x3320: MUL   $3 $1 $7
-0x3321: OUT   $4
-0x3322: OUT   $0
-0x3323: DIV   $7 $7 $0
-0x3324: OUT   $4
-0x3325: CMOVE $7 $6 $2
-0x3326: OUT   $7
-0x3327: ALLOC $2 $6
-0x3328: OUT   $1
-0x3329: IMM   $1 24219005
-0x332a: FREE  $1
-0x332b: OUT   $0
-0x332c: OUT   $7
-0x332d: OUT   $1
-0x332e: IN    $1
-0x332f: ALLOC $6 $7
-0x3330: ALLOC $7 $1
-0x3331: MUL   $6 $5 $3
-0x3332: OUT   $4
-0x3333: MUL   $4 $5 $1
-0x3334: MUL   $2 $4 $4
-0x3335: OUT   $7
-0x3336: ALLOC $7 $2
-0x3337: FREE  $3
-0x3338: JUMP  $0 $1
-0x3339: FREE  $2
-0x333a: ALLOC $7 $1
-0x333b: IN    $4
-0x333c: CMOVE $0 $5 $1
-0x333d: NAND  $4 $0 $0
-0x333e: FREE  $6
-0x333f: OUT   $4
-0x3340: DIV   $5 $5 $6
-0x3341: ALLOC $5 $3
-0x3342: MUL   $1 $6 $5
-0x3343: MUL   $7 $5 $2
-0x3344: NAND  $2 $7 $5
-0x3345: HALT
-0x3346: OUT   $2
-0x3347: IMM   $4 4260225
-0x3348: HALT
-0x3349: ALLOC $3 $6
-0x334a: MUL   $3 $5 $3
-0x334b: OUT   $7
-0x334c: OUT   $4
-0x334d: DIV   $6 $0 $2
-0x334e: FREE  $5
-0x334f: OUT   $5
-0x3350: RMEM  $1 $7 $0
-0x3351: FREE  $4
-0x3352: IN    $2
-0x3353: IN    $6
-0x3354: ALLOC $1 $7
-0x3355: OUT   $4
-0x3356: IMM   $4 17936488
-0x3357: ALLOC $3 $4
-0x3358: ADD   $1 $1 $3
-0x3359: ALLOC $5 $4
-0x335a: CMOVE $3 $2 $3
-0x335b: RMEM  $3 $0 $0
-0x335c: IN    $1
-0x335d: FREE  $0
-0x335e: WMEM  $3 $2 $5
-0x335f: HALT
-0x3360: ALLOC $6 $7
-0x3361: ALLOC $5 $6
-0x3362: MUL   $4 $1 $0
-0x3363: NAND  $4 $7 $0
-0x3364: DIV   $1 $3 $1
-0x3365: OUT   $0
-0x3366: NAND  $6 $4 $3
-0x3367: HALT
-0x3368: DIV   $6 $4 $7
-0x3369: IN    $0
-0x336a: CMOVE $4 $6 $6
-0x336b: OUT   $1
-0x336c: FREE  $4
-0x336d: OUT   $0
-0x336e: CMOVE $7 $7 $2
-0x336f: OUT   $2
-0x3370: ADD   $6 $6 $2
-0x3371: ADD   $0 $3 $6
-0x3372: CMOVE $6 $4 $0
-0x3373: ADD   $5 $4 $1
-0x3374: OUT   $4
-0x3375: DIV   $0 $7 $5
-0x3376: FREE  $3
-0x3377: OUT   $5
-0x3378: OUT   $4
-0x3379: OUT   $3
-0x337a: OUT   $4
-0x337b: ALLOC $3 $3
-0x337c: OUT   $1
-0x337d: DIV   $4 $0 $1
-0x337e: ALLOC $1 $5
-0x337f: OUT   $2
-0x3380: NAND  $3 $1 $5
-0x3381: ALLOC $5 $7
-0x3382: OUT   $4
-0x3383: FREE  $5
-0x3384: ADD   $4 $3 $2
-0x3385: MUL   $0 $4 $1
-0x3386: OUT   $5
-0x3387: OUT   $2
-0x3388: ALLOC $3 $4
-0x3389: DIV   $4 $5 $1
-0x338a: OUT   $7
-0x338b: FREE  $5
-0x338c: MUL   $4 $7 $6
-0x338d: OUT   $7
-0x338e: NAND  $5 $6 $7
-0x338f: ADD   $4 $7 $1
-0x3390: HALT
-0x3391: NAND  $7 $6 $4
-0x3392: RMEM  $6 $0 $5
-0x3393: ADD   $1 $1 $0
-0x3394: ALLOC $1 $5
-0x3395: IN    $5
-0x3396: MUL   $4 $6 $1
-0x3397: DIV   $3 $6 $1
-0x3398: NAND  $1 $7 $5
-0x3399: CMOVE $3 $6 $7
-0x339a: OUT   $4
-0x339b: HALT
-0x339c: IN    $5
-0x339d: HALT
-0x339e: HALT
-0x339f: DIV   $7 $0 $5
-0x33a0: IN    $2
-0x33a1: ADD   $3 $7 $7
-0x33a2: OUT   $4
-0x33a3: CMOVE $6 $5 $4
-0x33a4: CMOVE $0 $0 $1
-0x33a5: CMOVE $2 $4 $2
-0x33a6: OUT   $2
-0x33a7: OUT   $4
-0x33a8: ADD   $5 $4 $2
-0x33a9: RMEM  $3 $7 $1
-0x33aa: IN    $2
-0x33ab: DIV   $6 $5 $2
-0x33ac: FREE  $1
-0x33ad: NAND  $7 $4 $1
-0x33ae: IN    $4
-0x33af: OUT   $5
-0x33b0: JUMP  $5 $7
-0x33b1: HALT
-0x33b2: IN    $4
-0x33b3: HALT
-0x33b4: FREE  $3
-0x33b5: CMOVE $6 $0 $5
-0x33b6: ADD   $5 $0 $3
-0x33b7: ADD   $3 $3 $6
-0x33b8: CMOVE $1 $0 $3
-0x33b9: CMOVE $1 $1 $7
-0x33ba: OUT   $2
-0x33bb: HALT
-0x33bc: CMOVE $2 $1 $4
-0x33bd: CMOVE $1 $4 $6
-0x33be: CMOVE $5 $5 $0
-0x33bf: IMM   $3 6171383
-0x33c0: ALLOC $3 $1
-0x33c1: OUT   $5
-0x33c2: OUT   $4
-0x33c3: NAND  $0 $0 $7
-0x33c4: DIV   $3 $1 $3
-0x33c5: MUL   $0 $6 $5
-0x33c6: DIV   $4 $7 $5
-0x33c7: ALLOC $2 $1
-0x33c8: NAND  $4 $0 $1
-0x33c9: CMOVE $3 $5 $3
-0x33ca: IN    $1
-0x33cb: NAND  $7 $7 $7
-0x33cc: OUT   $7
-0x33cd: DIV   $0 $4 $2
-0x33ce: WMEM  $3 $7 $3
-0x33cf: NAND  $5 $3 $5
-0x33d0: IN    $2
-0x33d1: HALT
-0x33d2: IN    $1
-0x33d3: MUL   $3 $2 $7
-0x33d4: CMOVE $5 $5 $2
-0x33d5: HALT
-0x33d6: ALLOC $2 $6
-0x33d7: OUT   $0
-0x33d8: OUT   $3
-0x33d9: FREE  $6
-0x33da: MUL   $5 $0 $2
-0x33db: OUT   $3
-0x33dc: IN    $5
-0x33dd: CMOVE $5 $5 $4
-0x33de: IN    $3
-0x33df: NAND  $5 $6 $2
-0x33e0: NAND  $6 $0 $4
-0x33e1: OUT   $6
-0x33e2: NAND  $2 $5 $3
-0x33e3: NAND  $3 $4 $4
-0x33e4: OUT   $5
-0x33e5: DIV   $2 $4 $0
-0x33e6: IN    $3
-0x33e7: NAND  $6 $2 $3
-0x33e8: DIV   $0 $7 $2
-0x33e9: CMOVE $7 $2 $3
-0x33ea: OUT   $4
-0x33eb: MUL   $4 $2 $3
-0x33ec: ADD   $0 $5 $0
-0x33ed: OUT   $2
-0x33ee: NAND  $6 $7 $5
-0x33ef: HALT
-0x33f0: ADD   $1 $1 $0
-0x33f1: ADD   $5 $4 $5
-0x33f2: CMOVE $1 $1 $4
-0x33f3: CMOVE $6 $6 $5
-0x33f4: WMEM  $0 $2 $4
-0x33f5: CMOVE $2 $6 $6
-0x33f6: RMEM  $3 $0 $4
-0x33f7: OUT   $1
-0x33f8: OUT   $2
-0x33f9: OUT   $5
-0x33fa: ADD   $5 $4 $6
-0x33fb: FREE  $1
-0x33fc: CMOVE $1 $6 $4
-0x33fd: OUT   $4
-0x33fe: IN    $5
-0x33ff: CMOVE $5 $6 $3
-0x3400: OUT   $4
-0x3401: CMOVE $2 $1 $3
-0x3402: OUT   $0
-0x3403: ALLOC $4 $6
-0x3404: CMOVE $2 $1 $5
-0x3405: ALLOC $0 $2
-0x3406: IN    $5
-0x3407: OUT   $5
-0x3408: IN    $7
-0x3409: IN    $0
-0x340a: DIV   $2 $4 $6
-0x340b: RMEM  $7 $7 $4
-0x340c: FREE  $1
-0x340d: WMEM  $6 $2 $4
-0x340e: OUT   $2
-0x340f: OUT   $6
-0x3410: CMOVE $3 $2 $4
-0x3411: MUL   $4 $2 $2
-0x3412: NAND  $7 $0 $1
-0x3413: ADD   $1 $2 $3
-0x3414: HALT
-0x3415: ALLOC $6 $7
-0x3416: IN    $0
-0x3417: NAND  $7 $4 $2
-0x3418: FREE  $7
-0x3419: FREE  $3
-0x341a: NAND  $5 $7 $2
-0x341b: NAND  $1 $6 $5
-0x341c: MUL   $4 $4 $2
-0x341d: NAND  $2 $3 $0
-0x341e: NAND  $0 $3 $2
-0x341f: IN    $3
-0x3420: NAND  $1 $5 $5
-0x3421: NAND  $4 $7 $0
-0x3422: WMEM  $3 $5 $1
-0x3423: FREE  $5
-0x3424: FREE  $0
-0x3425: HALT
-0x3426: DIV   $7 $0 $0
-0x3427: MUL   $4 $3 $1
-0x3428: IMM   $4 17412977
-0x3429: NAND  $5 $1 $4
-0x342a: DIV   $5 $6 $6
-0x342b: CMOVE $4 $5 $1
-0x342c: OUT   $1
-0x342d: CMOVE $3 $4 $0
-0x342e: MUL   $1 $5 $5
-0x342f: ADD   $1 $7 $4
-0x3430: CMOVE $1 $2 $2
-0x3431: MUL   $2 $7 $3
-0x3432: RMEM  $3 $3 $7
-0x3433: WMEM  $5 $1 $3
-0x3434: CMOVE $5 $7 $0
-0x3435: CMOVE $0 $2 $2
-0x3436: MUL   $3 $7 $5
-0x3437: WMEM  $7 $6 $4
-0x3438: WMEM  $5 $7 $7
-0x3439: RMEM  $6 $0 $1
-0x343a: RMEM  $5 $3 $1
-0x343b: FREE  $4
-0x343c: CMOVE $3 $6 $6
-0x343d: ADD   $1 $2 $2
-0x343e: CMOVE $0 $4 $1
-0x343f: CMOVE $7 $5 $0
-0x3440: HALT
-0x3441: IN    $2
-0x3442: MUL   $3 $5 $3
-0x3443: MUL   $6 $7 $7
-0x3444: OUT   $2
-0x3445: CMOVE $0 $5 $6
-0x3446: DIV   $4 $7 $5
-0x3447: NAND  $6 $4 $0
-0x3448: RMEM  $0 $2 $2
-0x3449: MUL   $1 $2 $2
-0x344a: MUL   $6 $5 $0
-0x344b: MUL   $4 $5 $2
-0x344c: MUL   $1 $5 $4
-0x344d: MUL   $2 $4 $1
-0x344e: CMOVE $2 $7 $0
-0x344f: ADD   $0 $6 $5
-0x3450: CMOVE $7 $2 $7
-0x3451: HALT
-0x3452: RMEM  $2 $0 $5
-0x3453: IN    $2
-0x3454: CMOVE $1 $6 $0
-0x3455: CMOVE $1 $4 $0
-0x3456: WMEM  $5 $5 $5
-0x3457: CMOVE $5 $0 $1
-0x3458: ADD   $0 $6 $5
-0x3459: IN    $4
-0x345a: IN    $7
-0x345b: IN    $3
-0x345c: IN    $3
-0x345d: NAND  $4 $5 $5
-0x345e: MUL   $7 $2 $4
-0x345f: RMEM  $7 $2 $6
-0x3460: RMEM  $2 $5 $6
-0x3461: MUL   $7 $2 $0
-0x3462: OUT   $6
-0x3463: NAND  $5 $5 $1
-0x3464: ADD   $4 $4 $6
-0x3465: OUT   $3
-0x3466: NAND  $0 $4 $7
-0x3467: IN    $4
-0x3468: OUT   $0
-0x3469: CMOVE $7 $7 $3
-0x346a: IN    $5
-0x346b: IN    $5
-0x346c: CMOVE $5 $6 $7
-0x346d: IN    $5
-0x346e: OUT   $1
-0x346f: IN    $7
-0x3470: OUT   $7
-0x3471: ALLOC $5 $7
-0x3472: WMEM  $4 $4 $3
-0x3473: DIV   $3 $4 $5
-0x3474: IN    $0
-0x3475: OUT   $0
-0x3476: IN    $2
-0x3477: ALLOC $6 $3
-0x3478: IN    $5
-0x3479: IN    $0
-0x347a: WMEM  $5 $3 $3
-0x347b: ALLOC $0 $5
-0x347c: IN    $1
-0x347d: ADD   $2 $2 $5
-0x347e: IN    $7
-0x347f: OUT   $1
-0x3480: IN    $0
-0x3481: CMOVE $5 $6 $7
-0x3482: IMM   $1 20297024
-0x3483: IN    $2
-0x3484: ALLOC $0 $1
-0x3485: IN    $4
-0x3486: ADD   $2 $1 $4
-0x3487: CMOVE $6 $5 $1
-0x3488: IN    $7
-0x3489: NAND  $2 $3 $5
-0x348a: ALLOC $3 $3
-0x348b: IN    $5
-0x348c: OUT   $3
-0x348d: WMEM  $6 $6 $3
-0x348e: NAND  $3 $3 $1
-0x348f: HALT
-0x3490: ALLOC $3 $0
-0x3491: WMEM  $4 $3 $7
-0x3492: WMEM  $3 $4 $1
-0x3493: CMOVE $0 $4 $4
-0x3494: DIV   $2 $3 $5
-0x3495: DIV   $5 $6 $1
-0x3496: WMEM  $3 $6 $3
-0x3497: WMEM  $7 $4 $4
-0x3498: IN    $5
-0x3499: MUL   $2 $7 $2
-0x349a: IN    $6
-0x349b: IN    $6
-0x349c: MUL   $3 $7 $1
-0x349d: IN    $1
-0x349e: CMOVE $3 $7 $6
-0x349f: MUL   $6 $7 $5
-0x34a0: ALLOC $6 $7
-0x34a1: OUT   $6
-0x34a2: IN    $0
-0x34a3: IN    $2
-0x34a4: IN    $4
-0x34a5: IN    $6
-0x34a6: RMEM  $5 $2 $7
-0x34a7: CMOVE $4 $0 $2
-0x34a8: MUL   $4 $7 $1
-0x34a9: RMEM  $6 $2 $6
-0x34aa: RMEM  $6 $2 $0
-0x34ab: RMEM  $1 $2 $2
-0x34ac: IN    $2
-0x34ad: MUL   $3 $0 $4
-0x34ae: IN    $0
-0x34af: DIV   $1 $1 $0
-0x34b0: DIV   $7 $2 $0
-0x34b1: IN    $2
-0x34b2: CMOVE $5 $2 $2
-0x34b3: CMOVE $4 $3 $5
-0x34b4: WMEM  $2 $0 $6
-0x34b5: MUL   $4 $7 $5
-0x34b6: HALT
-0x34b7: FREE  $0
-0x34b8: IN    $0
-0x34b9: CMOVE $7 $6 $5
-0x34ba: WMEM  $2 $3 $0
-0x34bb: IN    $2
-0x34bc: RMEM  $5 $0 $0
-0x34bd: IN    $2
-0x34be: DIV   $3 $7 $7
-0x34bf: RMEM  $5 $6 $6
-0x34c0: IN    $4
-0x34c1: IN    $4
-0x34c2: RMEM  $5 $1 $0
-0x34c3: FREE  $0
-0x34c4: IN    $6
-0x34c5: ADD   $4 $0 $2
-0x34c6: FREE  $5
-0x34c7: WMEM  $0 $1 $6
-0x34c8: ADD   $1 $3 $1
-0x34c9: IN    $5
-0x34ca: IN    $0
-0x34cb: ALLOC $1 $3
-0x34cc: MUL   $3 $0 $7
-0x34cd: RMEM  $6 $2 $4
-0x34ce: DIV   $1 $2 $2
-0x34cf: ADD   $7 $5 $2
-0x34d0: DIV   $5 $7 $4
-0x34d1: RMEM  $5 $7 $4
-0x34d2: IN    $6
-0x34d3: WMEM  $1 $1 $3
-0x34d4: OUT   $7
-0x34d5: RMEM  $3 $7 $6
-0x34d6: CMOVE $5 $0 $7
-0x34d7: CMOVE $2 $1 $5
-0x34d8: CMOVE $1 $5 $6
-0x34d9: CMOVE $6 $2 $2
-0x34da: CMOVE $6 $4 $1
-0x34db: CMOVE $3 $7 $2
-0x34dc: DIV   $3 $3 $4
-0x34dd: RMEM  $5 $3 $5
-0x34de: IN    $1
-0x34df: ADD   $3 $5 $4
-0x34e0: OUT   $6
-0x34e1: ADD   $2 $5 $4
-0x34e2: ADD   $6 $7 $4
-0x34e3: MUL   $3 $0 $6
-0x34e4: OUT   $3
-0x34e5: CMOVE $3 $6 $1
-0x34e6: RMEM  $0 $0 $1
-0x34e7: OUT   $1
-0x34e8: OUT   $5
-0x34e9: IN    $5
-0x34ea: CMOVE $4 $2 $1
-0x34eb: DIV   $7 $3 $5
-0x34ec: CMOVE $2 $7 $0
-0x34ed: MUL   $2 $0 $3
-0x34ee: ALLOC $3 $6
-0x34ef: NAND  $6 $7 $4
-0x34f0: HALT
-0x34f1: OUT   $6
-0x34f2: ADD   $2 $6 $2
-0x34f3: DIV   $2 $5 $2
-0x34f4: MUL   $3 $2 $1
-0x34f5: MUL   $2 $1 $0
-0x34f6: HALT
-0x34f7: CMOVE $6 $0 $7
-0x34f8: RMEM  $0 $4 $7
-0x34f9: IN    $0
-0x34fa: OUT   $5
-0x34fb: DIV   $1 $2 $4
-0x34fc: OUT   $6
-0x34fd: OUT   $4
-0x34fe: CMOVE $5 $1 $1
-0x34ff: IN    $0
-0x3500: MUL   $2 $5 $0
-0x3501: NAND  $7 $2 $1
-0x3502: OUT   $7
-0x3503: CMOVE $1 $0 $5
-0x3504: WMEM  $2 $6 $1
-0x3505: CMOVE $7 $3 $2
-0x3506: IN    $7
-0x3507: IN    $4
-0x3508: CMOVE $0 $2 $4
-0x3509: IMM   $0 17938592
-0x350a: OUT   $2
-0x350b: CMOVE $1 $2 $4
-0x350c: FREE  $6
-0x350d: ADD   $1 $6 $6
-0x350e: MUL   $4 $2 $2
-0x350f: MUL   $5 $7 $5
-0x3510: IN    $7
-0x3511: FREE  $5
-0x3512: ADD   $1 $6 $4
-0x3513: CMOVE $5 $4 $4
-0x3514: ADD   $4 $0 $6
-0x3515: MUL   $4 $5 $7
-0x3516: WMEM  $6 $7 $6
-0x3517: ALLOC $2 $2
-0x3518: OUT   $1
-0x3519: ADD   $2 $0 $2
-0x351a: CMOVE $5 $1 $1
-0x351b: IN    $1
-0x351c: IN    $6
-0x351d: ALLOC $1 $0
-0x351e: OUT   $0
-0x351f: FREE  $6
-0x3520: FREE  $7
-0x3521: OUT   $6
-0x3522: CMOVE $5 $7 $0
-0x3523: CMOVE $1 $6 $2
-0x3524: CMOVE $1 $5 $5
-0x3525: IN    $3
-0x3526: CMOVE $1 $0 $7
-0x3527: FREE  $5
-0x3528: MUL   $2 $4 $7
-0x3529: OUT   $3
-0x352a: ADD   $1 $5 $7
-0x352b: DIV   $7 $0 $0
-0x352c: FREE  $0
-0x352d: FREE  $6
-0x352e: WMEM  $4 $1 $3
-0x352f: CMOVE $1 $6 $5
-0x3530: IN    $5
-0x3531: NAND  $1 $3 $5
-0x3532: NAND  $5 $5 $5
-0x3533: NAND  $2 $7 $6
-0x3534: DIV   $0 $6 $2
-0x3535: IN    $7
-0x3536: ALLOC $4 $6
-0x3537: OUT   $2
-0x3538: IN    $5
-0x3539: IN    $7
-0x353a: IN    $0
-0x353b: IN    $4
-0x353c: OUT   $7
-0x353d: CMOVE $1 $2 $2
-0x353e: ALLOC $2 $6
-0x353f: IN    $5
-0x3540: ADD   $1 $3 $1
-0x3541: OUT   $6
-0x3542: IN    $0
-0x3543: IN    $7
-0x3544: IN    $1
-0x3545: FREE  $4
-0x3546: OUT   $1
-0x3547: MUL   $1 $5 $3
-0x3548: MUL   $5 $0 $0
-0x3549: IN    $2
-0x354a: WMEM  $2 $7 $5
-0x354b: CMOVE $2 $1 $5
-0x354c: IN    $3
-0x354d: FREE  $3
-0x354e: ALLOC $4 $2
-0x354f: OUT   $5
-0x3550: NAND  $5 $1 $0
-0x3551: OUT   $6
-0x3552: ADD   $5 $5 $0
-0x3553: CMOVE $4 $1 $1
-0x3554: ALLOC $2 $3
-0x3555: CMOVE $3 $7 $3
-0x3556: CMOVE $2 $7 $0
-0x3557: CMOVE $3 $1 $0
-0x3558: WMEM  $7 $6 $7
-0x3559: ADD   $4 $3 $1
-0x355a: IN    $3
-0x355b: MUL   $6 $2 $7
-0x355c: NAND  $7 $3 $2
-0x355d: IN    $2
-0x355e: WMEM  $5 $5 $4
-0x355f: IN    $6
-0x3560: IN    $4
-0x3561: DIV   $7 $2 $7
-0x3562: CMOVE $7 $2 $3
-0x3563: IMM   $5 17020859
-0x3564: OUT   $7
-0x3565: WMEM  $7 $4 $1
-0x3566: IN    $3
-0x3567: WMEM  $7 $4 $7
-0x3568: DIV   $1 $4 $0
-0x3569: CMOVE $3 $2 $3
-0x356a: HALT
-0x356b: MUL   $4 $7 $1
-0x356c: CMOVE $7 $6 $4
-0x356d: MUL   $1 $5 $6
-0x356e: CMOVE $7 $0 $2
-0x356f: CMOVE $0 $1 $7
-0x3570: IN    $6
-0x3571: IN    $6
-0x3572: DIV   $2 $2 $4
-0x3573: RMEM  $3 $6 $4
-0x3574: MUL   $2 $0 $5
-0x3575: MUL   $6 $5 $5
-0x3576: RMEM  $2 $6 $0
-0x3577: WMEM  $0 $0 $2
-0x3578: IN    $5
-0x3579: HALT
-0x357a: DIV   $6 $2 $0
-0x357b: IN    $7
-0x357c: IN    $6
-0x357d: WMEM  $5 $3 $6
-0x357e: IN    $3
-0x357f: HALT
-0x3580: CMOVE $4 $4 $6
-0x3581: DIV   $7 $6 $5
-0x3582: IN    $6
-0x3583: IN    $4
-0x3584: CMOVE $4 $5 $6
-0x3585: ADD   $7 $1 $1
-0x3586: IN    $6
-0x3587: IN    $5
-0x3588: IN    $0
-0x3589: WMEM  $3 $2 $1
-0x358a: IN    $1
-0x358b: IN    $6
-0x358c: MUL   $6 $3 $3
-0x358d: HALT
-0x358e: RMEM  $6 $4 $0
-0x358f: WMEM  $0 $0 $4
-0x3590: IMM   $6 2407300
-0x3591: MUL   $7 $0 $5
-0x3592: WMEM  $6 $6 $2
-0x3593: ADD   $3 $7 $2
-0x3594: WMEM  $3 $1 $7
-0x3595: HALT
-0x3596: IN    $3
-0x3597: IN    $6
-0x3598: WMEM  $3 $4 $2
-0x3599: CMOVE $1 $5 $4
-0x359a: IN    $3
-0x359b: IN    $5
-0x359c: IN    $5
-0x359d: CMOVE $7 $7 $5
-0x359e: MUL   $2 $1 $2
-0x359f: IMM   $6 31635530
-0x35a0: OUT   $3
-0x35a1: IN    $1
-0x35a2: IN    $5
-0x35a3: IN    $0
-0x35a4: IN    $2
-0x35a5: IN    $1
-0x35a6: IN    $2
-0x35a7: MUL   $0 $3 $3
-0x35a8: RMEM  $7 $0 $5
-0x35a9: IN    $5
-0x35aa: IN    $7
-0x35ab: IN    $1
-0x35ac: WMEM  $2 $0 $3
-0x35ad: IN    $5
-0x35ae: IN    $0
-0x35af: OUT   $0
-0x35b0: IN    $2
-0x35b1: CMOVE $7 $2 $1
-0x35b2: IN    $1
-0x35b3: IN    $7
-0x35b4: IN    $5
-0x35b5: IN    $1
-0x35b6: FREE  $2
-0x35b7: IN    $7
-0x35b8: CMOVE $0 $0 $0
-0x35b9: CMOVE $2 $2 $3
-0x35ba: DIV   $7 $6 $2
-0x35bb: ALLOC $3 $4
-0x35bc: ADD   $3 $0 $7
-0x35bd: ALLOC $4 $7
-0x35be: IN    $1
-0x35bf: WMEM  $1 $1 $0
-0x35c0: IN    $1
-0x35c1: RMEM  $4 $5 $1
-0x35c2: IN    $4
-0x35c3: IN    $3
-0x35c4: CMOVE $4 $1 $1
-0x35c5: WMEM  $4 $6 $4
-0x35c6: OUT   $5
-0x35c7: IN    $2
-0x35c8: IN    $1
-0x35c9: IN    $6
-0x35ca: OUT   $6
-0x35cb: IN    $6
-0x35cc: IMM   $6 21477821
-0x35cd: IN    $5
-0x35ce: HALT
-0x35cf: ADD   $7 $7 $4
-0x35d0: ADD   $5 $5 $0
-0x35d1: ALLOC $5 $1
-0x35d2: IN    $0
-0x35d3: IN    $7
-0x35d4: ALLOC $5 $0
-0x35d5: DIV   $2 $1 $5
-0x35d6: OUT   $5
-0x35d7: IN    $1
-0x35d8: ALLOC $2 $4
-0x35d9: ADD   $6 $5 $6
-0x35da: OUT   $3
-0x35db: MUL   $1 $4 $4
-0x35dc: NAND  $7 $6 $0
-0x35dd: CMOVE $5 $6 $5
-0x35de: IN    $2
-0x35df: ALLOC $0 $3
-0x35e0: ALLOC $3 $6
-0x35e1: OUT   $0
-0x35e2: FREE  $4
-0x35e3: RMEM  $7 $1 $1
-0x35e4: WMEM  $4 $5 $2
-0x35e5: WMEM  $4 $5 $4
-0x35e6: CMOVE $2 $3 $0
-0x35e7: ADD   $1 $1 $2
-0x35e8: MUL   $6 $3 $1
-0x35e9: OUT   $6
-0x35ea: JUMP  $1 $3
-0x35eb: DIV   $2 $3 $4
-0x35ec: MUL   $6 $4 $5
-0x35ed: CMOVE $5 $0 $2
-0x35ee: CMOVE $7 $1 $2
-0x35ef: CMOVE $2 $5 $5
-0x35f0: WMEM  $1 $0 $4
-0x35f1: WMEM  $5 $0 $4
-0x35f2: WMEM  $6 $3 $3
-0x35f3: MUL   $0 $7 $5
-0x35f4: IN    $6
-0x35f5: MUL   $0 $6 $0
-0x35f6: HALT
-0x35f7: ALLOC $2 $3
-0x35f8: OUT   $1
-0x35f9: DIV   $4 $0 $1
-0x35fa: OUT   $1
-0x35fb: CMOVE $4 $4 $6
-0x35fc: ALLOC $5 $5
-0x35fd: WMEM  $1 $7 $7
-0x35fe: CMOVE $3 $3 $6
-0x35ff: OUT   $3
-0x3600: OUT   $2
-0x3601: OUT   $7
-0x3602: OUT   $3
-0x3603: ADD   $7 $1 $7
-0x3604: CMOVE $6 $1 $0
-0x3605: CMOVE $4 $7 $0
-0x3606: IN    $3
-0x3607: CMOVE $6 $6 $4
-0x3608: DIV   $6 $2 $5
-0x3609: CMOVE $3 $6 $4
-0x360a: IN    $3
-0x360b: IN    $5
-0x360c: IN    $6
-0x360d: WMEM  $2 $5 $1
-0x360e: ALLOC $7 $7
-0x360f: ADD   $1 $2 $4
-0x3610: OUT   $4
-0x3611: ALLOC $3 $1
-0x3612: CMOVE $2 $1 $7
-0x3613: CMOVE $0 $0 $1
-0x3614: OUT   $0
-0x3615: IN    $0
-0x3616: IN    $6
-0x3617: IMM   $1 18841630
-0x3618: ADD   $3 $6 $6
-0x3619: RMEM  $2 $2 $6
-0x361a: ADD   $3 $4 $7
-0x361b: WMEM  $2 $1 $7
-0x361c: OUT   $2
-0x361d: DIV   $6 $1 $7
-0x361e: CMOVE $0 $5 $2
-0x361f: NAND  $7 $7 $7
-0x3620: CMOVE $1 $0 $2
-0x3621: RMEM  $3 $1 $3
-0x3622: IN    $5
-0x3623: FREE  $6
-0x3624: ALLOC $5 $0
-0x3625: OUT   $2
-0x3626: IMM   $3 9056263
-0x3627: ADD   $7 $2 $4
-0x3628: ADD   $2 $4 $6
-0x3629: OUT   $0
-0x362a: OUT   $0
-0x362b: HALT
-0x362c: CMOVE $0 $5 $4
-0x362d: IN    $5
-0x362e: NAND  $7 $2 $1
-0x362f: ADD   $5 $4 $5
-0x3630: CMOVE $2 $7 $4
-0x3631: NAND  $2 $6 $2
-0x3632: NAND  $3 $1 $5
-0x3633: OUT   $0
-0x3634: DIV   $1 $4 $3
-0x3635: OUT   $0
-0x3636: HALT
-0x3637: OUT   $6
-0x3638: MUL   $5 $6 $1
-0x3639: WMEM  $2 $3 $5
-0x363a: IN    $7
-0x363b: DIV   $4 $5 $4
-0x363c: NAND  $1 $3 $1
-0x363d: ALLOC $7 $6
-0x363e: IN    $0
-0x363f: IN    $5
-0x3640: NAND  $4 $3 $3
-0x3641: WMEM  $7 $2 $6
-0x3642: WMEM  $6 $0 $2
-0x3643: ALLOC $1 $5
-0x3644: IMM   $1 11046262
-0x3645: OUT   $0
-0x3646: IN    $0
-0x3647: ALLOC $1 $4
-0x3648: IN    $3
-0x3649: IN    $0
-0x364a: ALLOC $7 $5
-0x364b: FREE  $7
-0x364c: DIV   $6 $4 $7
-0x364d: OUT   $6
-0x364e: NAND  $0 $4 $7
-0x364f: ALLOC $6 $5
-0x3650: OUT   $5
-0x3651: FREE  $2
-0x3652: OUT   $5
-0x3653: IN    $6
-0x3654: ALLOC $4 $3
-0x3655: ADD   $6 $0 $5
-0x3656: FREE  $5
-0x3657: FREE  $0
-0x3658: IN    $3
-0x3659: OUT   $4
-0x365a: OUT   $3
-0x365b: OUT   $0
-0x365c: IN    $1
-0x365d: IN    $3
-0x365e: MUL   $2 $3 $4
-0x365f: ALLOC $6 $7
-0x3660: OUT   $5
-0x3661: IN    $2
-0x3662: IMM   $7 19758180
-0x3663: IN    $3
-0x3664: DIV   $0 $2 $0
-0x3665: CMOVE $5 $2 $7
-0x3666: IN    $5
-0x3667: HALT
-0x3668: OUT   $3
-0x3669: MUL   $2 $3 $0
-0x366a: DIV   $5 $5 $2
-0x366b: HALT
-0x366c: IN    $0
-0x366d: IN    $7
-0x366e: IN    $4
-0x366f: IN    $3
-0x3670: IN    $5
-0x3671: DIV   $0 $3 $4
-0x3672: RMEM  $4 $0 $7
-0x3673: IN    $5
-0x3674: HALT
-0x3675: IN    $0
-0x3676: CMOVE $2 $0 $3
-0x3677: CMOVE $6 $3 $5
-0x3678: IN    $1
-0x3679: OUT   $4
-0x367a: IN    $3
-0x367b: IN    $6
-0x367c: IN    $6
-0x367d: IN    $6
-0x367e: CMOVE $6 $5 $0
-0x367f: ADD   $0 $3 $0
-0x3680: IN    $5
-0x3681: IN    $5
-0x3682: IN    $0
-0x3683: CMOVE $7 $6 $5
-0x3684: CMOVE $6 $4 $6
-0x3685: IN    $5
-0x3686: CMOVE $5 $7 $7
-0x3687: HALT
-0x3688: CMOVE $4 $4 $4
-0x3689: IN    $2
-0x368a: IN    $0
-0x368b: IN    $0
-0x368c: CMOVE $2 $6 $4
-0x368d: RMEM  $3 $5 $7
-0x368e: ALLOC $5 $5
-0x368f: JUMP  $0 $4
-0x3690: IN    $2
-0x3691: CMOVE $1 $4 $0
-0x3692: CMOVE $0 $6 $5
-0x3693: NAND  $4 $0 $1
-0x3694: FREE  $7
-0x3695: OUT   $7
-0x3696: ALLOC $5 $3
-0x3697: OUT   $1
-0x3698: IN    $0
-0x3699: WMEM  $3 $5 $2
-0x369a: RMEM  $1 $4 $0
-0x369b: IN    $5
-0x369c: FREE  $2
-0x369d: CMOVE $1 $5 $5
-0x369e: IMM   $6 24134360
-0x369f: IN    $5
-0x36a0: IN    $2
-0x36a1: IN    $6
-0x36a2: MUL   $2 $0 $1
-0x36a3: MUL   $3 $7 $6
-0x36a4: MUL   $1 $4 $1
-0x36a5: CMOVE $6 $4 $6
-0x36a6: WMEM  $4 $2 $1
-0x36a7: MUL   $3 $1 $6
-0x36a8: CMOVE $6 $7 $2
-0x36a9: CMOVE $1 $4 $3
-0x36aa: MUL   $5 $5 $6
-0x36ab: CMOVE $7 $0 $2
-0x36ac: CMOVE $5 $5 $7
-0x36ad: DIV   $0 $5 $4
-0x36ae: IN    $0
-0x36af: IN    $7
-0x36b0: IN    $5
-0x36b1: IN    $0
-0x36b2: IN    $2
-0x36b3: CMOVE $3 $4 $4
-0x36b4: MUL   $5 $6 $4
-0x36b5: CMOVE $3 $0 $4
-0x36b6: JUMP  $1 $6
-0x36b7: JUMP  $6 $4
-0x36b8: CMOVE $0 $6 $7
-0x36b9: CMOVE $5 $4 $2
-0x36ba: JUMP  $4 $6
-0x36bb: IN    $5
-0x36bc: NAND  $2 $4 $5
-0x36bd: IN    $1
-0x36be: IN    $3
-0x36bf: IN    $3
-0x36c0: CMOVE $7 $6 $7
-0x36c1: CMOVE $6 $7 $0
-0x36c2: IN    $7
-0x36c3: IN    $4
-0x36c4: RMEM  $7 $7 $7
-0x36c5: DIV   $4 $6 $1
-0x36c6: ADD   $7 $5 $1
-0x36c7: IN    $0
-0x36c8: IN    $1
-0x36c9: CMOVE $6 $5 $0
-0x36ca: ALLOC $5 $6
-0x36cb: DIV   $5 $6 $0
-0x36cc: RMEM  $5 $0 $3
-0x36cd: IN    $2
-0x36ce: IN    $2
-0x36cf: CMOVE $7 $0 $4
-0x36d0: IN    $5
-0x36d1: IN    $0
-0x36d2: IN    $3
-0x36d3: OUT   $2
-0x36d4: WMEM  $4 $4 $5
-0x36d5: IN    $0
-0x36d6: CMOVE $4 $7 $7
-0x36d7: OUT   $7
-0x36d8: CMOVE $5 $5 $7
-0x36d9: FREE  $7
+0x278e: in    $0
+0x278f: imm   $5 8271322
+0x2790: wmem  $0 $0 $0
+0x2791: nand  $1 $5 $6
+0x2792: nand  $1 $1 $6
+0x2793: halt
+0x2794: mul   $2 $3 $3
+0x2795: cmove $0 $2 $3
+0x2796: cmove $7 $0 $2
+0x2797: mul   $4 $5 $2
+0x2798: halt
+0x2799: add   $0 $0 $4
+0x279a: div   $4 $3 $6
+0x279b: halt
+0x279c: div   $3 $3 $6
+0x279d: halt
+0x279e: add   $7 $1 $2
+0x279f: mul   $4 $7 $6
+0x27a0: nand  $6 $4 $6
+0x27a1: halt
+0x27a2: nand  $2 $1 $2
+0x27a3: add   $6 $3 $7
+0x27a4: add   $7 $2 $7
+0x27a5: add   $0 $0 $4
+0x27a6: cmove $2 $7 $6
+0x27a7: wmem  $7 $4 $4
+0x27a8: cmove $7 $1 $5
+0x27a9: cmove $2 $5 $1
+0x27aa: add   $0 $0 $1
+0x27ab: add   $0 $1 $4
+0x27ac: add   $5 $4 $6
+0x27ad: rmem  $7 $4 $2
+0x27ae: wmem  $2 $3 $5
+0x27af: alloc $3 $7
+0x27b0: wmem  $0 $6 $7
+0x27b1: add   $7 $0 $6
+0x27b2: add   $7 $3 $3
+0x27b3: wmem  $2 $4 $2
+0x27b4: alloc $2 $6
+0x27b5: cmove $2 $0 $2
+0x27b6: add   $2 $0 $2
+0x27b7: add   $5 $6 $6
+0x27b8: alloc $2 $6
+0x27b9: cmove $7 $2 $2
+0x27ba: add   $6 $5 $5
+0x27bb: add   $3 $4 $1
+0x27bc: rmem  $7 $2 $2
+0x27bd: wmem  $2 $0 $3
+0x27be: wmem  $3 $1 $0
+0x27bf: alloc $0 $6
+0x27c0: cmove $5 $1 $1
+0x27c1: alloc $6 $2
+0x27c2: cmove $5 $4 $4
+0x27c3: alloc $3 $6
+0x27c4: cmove $1 $2 $3
+0x27c5: cmove $5 $7 $4
+0x27c6: add   $2 $3 $3
+0x27c7: add   $5 $1 $3
+0x27c8: cmove $4 $0 $2
+0x27c9: alloc $4 $1
+0x27ca: add   $1 $4 $7
+0x27cb: rmem  $0 $1 $4
+0x27cc: cmove $0 $1 $0
+0x27cd: alloc $0 $2
+0x27ce: alloc $6 $7
+0x27cf: add   $4 $7 $2
+0x27d0: wmem  $6 $0 $1
+0x27d1: add   $7 $6 $0
+0x27d2: add   $7 $2 $0
+0x27d3: cmove $1 $6 $6
+0x27d4: add   $2 $0 $1
+0x27d5: alloc $4 $7
+0x27d6: alloc $1 $2
+0x27d7: alloc $1 $4
+0x27d8: cmove $3 $4 $3
+0x27d9: add   $1 $0 $6
+0x27da: alloc $0 $5
+0x27db: wmem  $1 $2 $4
+0x27dc: alloc $6 $7
+0x27dd: alloc $6 $7
+0x27de: alloc $3 $3
+0x27df: alloc $1 $0
+0x27e0: add   $3 $7 $4
+0x27e1: alloc $3 $6
+0x27e2: cmove $2 $0 $3
+0x27e3: add   $2 $3 $5
+0x27e4: alloc $5 $0
+0x27e5: alloc $5 $1
+0x27e6: cmove $0 $3 $1
+0x27e7: add   $3 $2 $6
+0x27e8: alloc $0 $3
+0x27e9: mul   $6 $4 $1
+0x27ea: nand  $1 $1 $6
+0x27eb: halt
+0x27ec: div   $6 $2 $2
+0x27ed: alloc $5 $1
+0x27ee: div   $2 $0 $0
+0x27ef: nand  $3 $2 $3
+0x27f0: div   $6 $7 $3
+0x27f1: div   $0 $5 $4
+0x27f2: halt
+0x27f3: halt
+0x27f4: wmem  $6 $2 $4
+0x27f5: halt
+0x27f6: halt
+0x27f7: halt
+0x27f8: cmove $3 $5 $3
+0x27f9: nand  $2 $1 $7
+0x27fa: div   $5 $0 $7
+0x27fb: div   $5 $0 $6
+0x27fc: div   $7 $4 $1
+0x27fd: div   $2 $1 $2
+0x27fe: halt
+0x27ff: mul   $5 $3 $2
+0x2800: mul   $7 $0 $4
+0x2801: halt
+0x2802: halt
+0x2803: cmove $0 $6 $2
+0x2804: nand  $2 $5 $5
+0x2805: halt
+0x2806: nand  $6 $6 $2
+0x2807: add   $7 $0 $4
+0x2808: wmem  $1 $3 $1
+0x2809: div   $0 $1 $7
+0x280a: rmem  $5 $5 $5
+0x280b: alloc $2 $0
+0x280c: add   $4 $2 $3
+0x280d: nand  $2 $5 $6
+0x280e: add   $4 $6 $6
+0x280f: div   $1 $1 $1
+0x2810: halt
+0x2811: cmove $6 $0 $3
+0x2812: halt
+0x2813: div   $5 $5 $4
+0x2814: wmem  $5 $4 $2
+0x2815: halt
+0x2816: wmem  $3 $0 $3
+0x2817: cmove $0 $2 $6
+0x2818: add   $4 $0 $6
+0x2819: div   $1 $1 $3
+0x281a: mul   $1 $5 $7
+0x281b: cmove $2 $2 $0
+0x281c: add   $2 $5 $3
+0x281d: add   $1 $3 $2
+0x281e: mul   $2 $0 $3
+0x281f: nand  $3 $2 $2
+0x2820: halt
+0x2821: halt
+0x2822: halt
+0x2823: halt
+0x2824: halt
+0x2825: wmem  $0 $2 $0
+0x2826: nand  $1 $3 $0
+0x2827: nand  $5 $3 $1
+0x2828: halt
+0x2829: add   $4 $6 $4
+0x282a: cmove $5 $2 $0
+0x282b: halt
+0x282c: cmove $3 $2 $0
+0x282d: cmove $5 $2 $4
+0x282e: cmove $4 $5 $0
+0x282f: mul   $1 $2 $1
+0x2830: div   $1 $2 $6
+0x2831: div   $4 $0 $1
+0x2832: halt
+0x2833: div   $3 $2 $6
+0x2834: in    $5
+0x2835: halt
+0x2836: cmove $3 $6 $7
+0x2837: cmove $4 $0 $1
+0x2838: cmove $3 $4 $5
+0x2839: alloc $0 $3
+0x283a: div   $7 $0 $0
+0x283b: add   $1 $4 $1
+0x283c: div   $6 $4 $0
+0x283d: alloc $6 $5
+0x283e: mul   $5 $1 $4
+0x283f: halt
+0x2840: mul   $4 $7 $2
+0x2841: add   $4 $6 $1
+0x2842: halt
+0x2843: wmem  $4 $3 $2
+0x2844: cmove $1 $1 $6
+0x2845: div   $1 $3 $6
+0x2846: wmem  $7 $5 $1
+0x2847: halt
+0x2848: cmove $0 $2 $4
+0x2849: add   $1 $2 $6
+0x284a: nand  $4 $6 $0
+0x284b: nand  $4 $5 $5
+0x284c: halt
+0x284d: nand  $3 $4 $6
+0x284e: nand  $0 $3 $5
+0x284f: add   $5 $1 $7
+0x2850: add   $0 $1 $0
+0x2851: div   $5 $6 $6
+0x2852: add   $6 $1 $3
+0x2853: add   $3 $7 $6
+0x2854: add   $6 $5 $3
+0x2855: halt
+0x2856: alloc $5 $1
+0x2857: mul   $5 $6 $7
+0x2858: mul   $7 $5 $7
+0x2859: alloc $5 $1
+0x285a: div   $4 $5 $4
+0x285b: div   $7 $5 $3
+0x285c: halt
+0x285d: alloc $1 $7
+0x285e: nand  $1 $7 $2
+0x285f: cmove $0 $7 $2
+0x2860: halt
+0x2861: add   $2 $5 $3
+0x2862: nand  $0 $6 $2
+0x2863: halt
+0x2864: mul   $2 $0 $3
+0x2865: mul   $5 $1 $0
+0x2866: div   $1 $7 $3
+0x2867: alloc $4 $7
+0x2868: alloc $1 $5
+0x2869: div   $5 $2 $5
+0x286a: cmove $3 $7 $7
+0x286b: halt
+0x286c: nand  $0 $4 $3
+0x286d: halt
+0x286e: div   $0 $4 $0
+0x286f: halt
+0x2870: add   $5 $4 $6
+0x2871: mul   $6 $6 $3
+0x2872: mul   $6 $6 $3
+0x2873: div   $5 $7 $0
+0x2874: div   $2 $2 $5
+0x2875: div   $4 $6 $3
+0x2876: halt
+0x2877: div   $1 $6 $7
+0x2878: div   $1 $2 $6
+0x2879: mul   $7 $1 $1
+0x287a: cmove $7 $1 $6
+0x287b: div   $0 $2 $2
+0x287c: nand  $5 $2 $3
+0x287d: halt
+0x287e: nand  $1 $2 $5
+0x287f: add   $0 $2 $1
+0x2880: nand  $0 $1 $7
+0x2881: div   $3 $5 $0
+0x2882: div   $0 $2 $0
+0x2883: div   $3 $4 $7
+0x2884: halt
+0x2885: nand  $5 $5 $1
+0x2886: nand  $4 $6 $5
+0x2887: div   $3 $5 $6
+0x2888: div   $1 $6 $5
+0x2889: halt
+0x288a: div   $4 $1 $2
+0x288b: div   $5 $7 $0
+0x288c: mul   $6 $3 $3
+0x288d: div   $7 $6 $0
+0x288e: out   $7
+0x288f: div   $6 $0 $2
+0x2890: halt
+0x2891: halt
+0x2892: cmove $7 $1 $6
+0x2893: halt
+0x2894: nand  $4 $5 $7
+0x2895: alloc $2 $4
+0x2896: div   $7 $0 $0
+0x2897: mul   $5 $1 $2
+0x2898: mul   $4 $4 $7
+0x2899: mul   $4 $4 $7
+0x289a: mul   $4 $1 $0
+0x289b: mul   $3 $4 $7
+0x289c: halt
+0x289d: add   $1 $1 $7
+0x289e: mul   $4 $4 $7
+0x289f: mul   $4 $4 $7
+0x28a0: mul   $4 $4 $7
+0x28a1: mul   $0 $4 $7
+0x28a2: mul   $1 $4 $7
+0x28a3: halt
+0x28a4: div   $7 $5 $1
+0x28a5: div   $4 $3 $1
+0x28a6: cmove $7 $2 $4
+0x28a7: wmem  $3 $3 $4
+0x28a8: halt
+0x28a9: div   $0 $3 $2
+0x28aa: alloc $6 $0
+0x28ab: add   $1 $6 $0
+0x28ac: add   $4 $4 $7
+0x28ad: mul   $2 $2 $2
+0x28ae: alloc $3 $3
+0x28af: nand  $7 $7 $5
+0x28b0: nand  $7 $0 $2
+0x28b1: div   $0 $2 $0
+0x28b2: alloc $6 $7
+0x28b3: halt
+0x28b4: div   $2 $4 $7
+0x28b5: div   $4 $6 $5
+0x28b6: cmove $3 $0 $7
+0x28b7: div   $2 $0 $7
+0x28b8: halt
+0x28b9: add   $4 $4 $1
+0x28ba: div   $3 $2 $0
+0x28bb: wmem  $1 $1 $5
+0x28bc: nand  $7 $4 $2
+0x28bd: div   $4 $1 $5
+0x28be: add   $6 $4 $6
+0x28bf: div   $0 $3 $5
+0x28c0: halt
+0x28c1: alloc $0 $1
+0x28c2: div   $4 $5 $2
+0x28c3: div   $6 $5 $0
+0x28c4: add   $6 $5 $2
+0x28c5: nand  $2 $6 $2
+0x28c6: halt
+0x28c7: nand  $0 $7 $4
+0x28c8: alloc $5 $6
+0x28c9: cmove $6 $2 $5
+0x28ca: mul   $1 $5 $1
+0x28cb: mul   $1 $3 $1
+0x28cc: alloc $7 $6
+0x28cd: halt
+0x28ce: mul   $6 $0 $6
+0x28cf: halt
+0x28d0: halt
+0x28d1: div   $4 $1 $3
+0x28d2: nand  $3 $1 $7
+0x28d3: add   $1 $7 $0
+0x28d4: halt
+0x28d5: halt
+0x28d6: div   $7 $2 $0
+0x28d7: nand  $3 $4 $5
+0x28d8: mul   $1 $0 $6
+0x28d9: wmem  $7 $2 $0
+0x28da: halt
+0x28db: div   $6 $7 $3
+0x28dc: nand  $4 $5 $6
+0x28dd: div   $4 $7 $0
+0x28de: wmem  $4 $0 $5
+0x28df: div   $7 $4 $7
+0x28e0: div   $2 $3 $1
+0x28e1: cmove $6 $7 $2
+0x28e2: alloc $0 $7
+0x28e3: alloc $2 $5
+0x28e4: mul   $4 $6 $6
+0x28e5: div   $4 $1 $0
+0x28e6: halt
+0x28e7: nand  $3 $2 $6
+0x28e8: jump  $2 $4
+0x28e9: nand  $0 $7 $1
+0x28ea: nand  $4 $0 $0
+0x28eb: nand  $2 $6 $1
+0x28ec: nand  $4 $0 $6
+0x28ed: alloc $3 $6
+0x28ee: mul   $0 $5 $0
+0x28ef: alloc $0 $0
+0x28f0: nand  $4 $0 $6
+0x28f1: mul   $4 $1 $0
+0x28f2: div   $4 $1 $0
+0x28f3: alloc $1 $4
+0x28f4: div   $1 $2 $0
+0x28f5: halt
+0x28f6: div   $6 $5 $4
+0x28f7: wmem  $6 $7 $6
+0x28f8: nand  $7 $5 $1
+0x28f9: halt
+0x28fa: mul   $1 $7 $6
+0x28fb: alloc $6 $1
+0x28fc: div   $4 $3 $4
+0x28fd: alloc $7 $5
+0x28fe: alloc $0 $5
+0x28ff: rmem  $3 $1 $6
+0x2900: div   $4 $4 $6
+0x2901: mul   $4 $5 $3
+0x2902: halt
+0x2903: halt
+0x2904: halt
+0x2905: alloc $0 $0
+0x2906: mul   $0 $3 $7
+0x2907: cmove $6 $1 $7
+0x2908: div   $3 $7 $6
+0x2909: alloc $4 $1
+0x290a: halt
+0x290b: div   $1 $5 $6
+0x290c: div   $5 $6 $6
+0x290d: alloc $0 $5
+0x290e: mul   $4 $3 $3
+0x290f: mul   $5 $0 $1
+0x2910: nand  $6 $7 $7
+0x2911: cmove $7 $5 $1
+0x2912: halt
+0x2913: nand  $6 $7 $2
+0x2914: div   $5 $4 $4
+0x2915: jump  $7 $5
+0x2916: nand  $4 $2 $0
+0x2917: add   $6 $3 $7
+0x2918: alloc $5 $2
+0x2919: alloc $0 $1
+0x291a: mul   $2 $2 $2
+0x291b: add   $1 $5 $6
+0x291c: alloc $4 $3
+0x291d: mul   $3 $7 $4
+0x291e: halt
+0x291f: halt
+0x2920: halt
+0x2921: alloc $6 $2
+0x2922: halt
+0x2923: div   $3 $7 $0
+0x2924: add   $2 $7 $6
+0x2925: mul   $3 $4 $3
+0x2926: alloc $0 $5
+0x2927: alloc $2 $5
+0x2928: halt
+0x2929: alloc $3 $6
+0x292a: nand  $6 $6 $6
+0x292b: alloc $7 $3
+0x292c: free  $7
+0x292d: nand  $1 $4 $2
+0x292e: alloc $7 $6
+0x292f: nand  $0 $0 $1
+0x2930: nand  $5 $4 $1
+0x2931: halt
+0x2932: div   $4 $0 $3
+0x2933: in    $3
+0x2934: free  $0
+0x2935: alloc $1 $6
+0x2936: halt
+0x2937: cmove $1 $5 $5
+0x2938: rmem  $0 $1 $1
+0x2939: alloc $1 $5
+0x293a: mul   $6 $3 $4
+0x293b: rmem  $1 $5 $6
+0x293c: mul   $7 $3 $7
+0x293d: mul   $4 $0 $1
+0x293e: rmem  $1 $7 $6
+0x293f: wmem  $4 $7 $1
+0x2940: cmove $4 $7 $5
+0x2941: alloc $4 $1
+0x2942: wmem  $0 $2 $1
+0x2943: free  $7
+0x2944: mul   $3 $5 $7
+0x2945: alloc $2 $0
+0x2946: alloc $0 $3
+0x2947: alloc $4 $1
+0x2948: alloc $5 $3
+0x2949: mul   $5 $6 $5
+0x294a: nand  $4 $1 $0
+0x294b: halt
+0x294c: halt
+0x294d: alloc $3 $3
+0x294e: alloc $3 $5
+0x294f: alloc $7 $5
+0x2950: mul   $3 $6 $4
+0x2951: rmem  $0 $5 $2
+0x2952: alloc $3 $7
+0x2953: alloc $4 $4
+0x2954: halt
+0x2955: halt
+0x2956: mul   $4 $6 $4
+0x2957: div   $3 $3 $6
+0x2958: halt
+0x2959: free  $7
+0x295a: nand  $0 $3 $0
+0x295b: nand  $3 $1 $1
+0x295c: nand  $6 $7 $5
+0x295d: nand  $2 $5 $4
+0x295e: nand  $4 $3 $7
+0x295f: alloc $4 $1
+0x2960: add   $0 $3 $0
+0x2961: halt
+0x2962: halt
+0x2963: halt
+0x2964: cmove $0 $1 $3
+0x2965: cmove $5 $1 $2
+0x2966: alloc $5 $0
+0x2967: mul   $7 $5 $2
+0x2968: wmem  $4 $3 $1
+0x2969: halt
+0x296a: alloc $4 $5
+0x296b: cmove $2 $0 $6
+0x296c: alloc $1 $2
+0x296d: alloc $3 $5
+0x296e: halt
+0x296f: mul   $1 $0 $1
+0x2970: halt
+0x2971: alloc $6 $4
+0x2972: alloc $4 $0
+0x2973: nand  $7 $4 $2
+0x2974: nand  $3 $0 $6
+0x2975: alloc $1 $6
+0x2976: alloc $5 $3
+0x2977: div   $6 $6 $3
+0x2978: div   $6 $6 $3
+0x2979: div   $1 $1 $0
+0x297a: div   $0 $1 $7
+0x297b: nand  $7 $7 $6
+0x297c: rmem  $0 $2 $2
+0x297d: alloc $6 $0
+0x297e: wmem  $3 $5 $5
+0x297f: nand  $1 $0 $3
+0x2980: nand  $4 $4 $6
+0x2981: nand  $0 $0 $7
+0x2982: nand  $3 $7 $7
+0x2983: alloc $1 $5
+0x2984: nand  $0 $4 $4
+0x2985: alloc $2 $0
+0x2986: out   $0
+0x2987: alloc $5 $6
+0x2988: alloc $0 $2
+0x2989: nand  $6 $0 $4
+0x298a: halt
+0x298b: div   $5 $1 $5
+0x298c: cmove $6 $5 $2
+0x298d: alloc $1 $3
+0x298e: rmem  $6 $1 $4
+0x298f: halt
+0x2990: div   $7 $1 $2
+0x2991: cmove $7 $1 $7
+0x2992: alloc $5 $5
+0x2993: nand  $1 $4 $4
+0x2994: mul   $4 $3 $0
+0x2995: cmove $4 $0 $1
+0x2996: halt
+0x2997: div   $4 $3 $4
+0x2998: nand  $5 $1 $7
+0x2999: halt
+0x299a: halt
+0x299b: halt
+0x299c: add   $5 $1 $5
+0x299d: mul   $7 $4 $6
+0x299e: div   $6 $6 $3
+0x299f: mul   $6 $6 $3
+0x29a0: div   $1 $7 $0
+0x29a1: mul   $1 $6 $6
+0x29a2: div   $4 $7 $0
+0x29a3: div   $1 $2 $7
+0x29a4: nand  $3 $6 $4
+0x29a5: wmem  $1 $5 $3
+0x29a6: halt
+0x29a7: wmem  $4 $1 $0
+0x29a8: wmem  $1 $7 $6
+0x29a9: wmem  $2 $0 $0
+0x29aa: mul   $6 $6 $2
+0x29ab: wmem  $5 $6 $0
+0x29ac: cmove $6 $7 $2
+0x29ad: rmem  $2 $1 $4
+0x29ae: mul   $7 $2 $0
+0x29af: mul   $7 $3 $6
+0x29b0: cmove $1 $3 $7
+0x29b1: nand  $5 $2 $1
+0x29b2: halt
+0x29b3: div   $6 $3 $7
+0x29b4: div   $4 $4 $5
+0x29b5: nand  $6 $4 $7
+0x29b6: nand  $2 $1 $5
+0x29b7: nand  $1 $0 $2
+0x29b8: alloc $0 $5
+0x29b9: nand  $0 $5 $0
+0x29ba: wmem  $7 $2 $1
+0x29bb: free  $6
+0x29bc: rmem  $0 $6 $5
+0x29bd: cmove $1 $7 $1
+0x29be: alloc $0 $6
+0x29bf: div   $5 $7 $3
+0x29c0: mul   $4 $3 $3
+0x29c1: cmove $7 $2 $7
+0x29c2: mul   $1 $4 $5
+0x29c3: halt
+0x29c4: cmove $2 $4 $5
+0x29c5: halt
+0x29c6: div   $2 $5 $7
+0x29c7: alloc $1 $6
+0x29c8: div   $7 $0 $1
+0x29c9: wmem  $7 $6 $1
+0x29ca: cmove $3 $5 $5
+0x29cb: cmove $3 $1 $1
+0x29cc: div   $2 $1 $4
+0x29cd: wmem  $7 $0 $7
+0x29ce: cmove $5 $5 $0
+0x29cf: wmem  $1 $0 $4
+0x29d0: cmove $0 $6 $2
+0x29d1: div   $1 $2 $3
+0x29d2: halt
+0x29d3: nand  $6 $6 $6
+0x29d4: halt
+0x29d5: nand  $1 $0 $3
+0x29d6: halt
+0x29d7: nand  $4 $0 $7
+0x29d8: wmem  $5 $3 $6
+0x29d9: alloc $1 $4
+0x29da: alloc $1 $5
+0x29db: alloc $5 $0
+0x29dc: halt
+0x29dd: div   $4 $2 $4
+0x29de: halt
+0x29df: div   $1 $4 $1
+0x29e0: alloc $6 $3
+0x29e1: halt
+0x29e2: nand  $6 $1 $7
+0x29e3: wmem  $2 $2 $6
+0x29e4: cmove $5 $7 $0
+0x29e5: wmem  $3 $1 $7
+0x29e6: alloc $2 $1
+0x29e7: mul   $6 $5 $2
+0x29e8: mul   $7 $6 $2
+0x29e9: nand  $3 $4 $0
+0x29ea: alloc $3 $0
+0x29eb: alloc $2 $1
+0x29ec: nand  $5 $2 $3
+0x29ed: halt
+0x29ee: div   $6 $0 $3
+0x29ef: out   $4
+0x29f0: alloc $1 $1
+0x29f1: nand  $7 $4 $4
+0x29f2: mul   $7 $1 $6
+0x29f3: alloc $7 $7
+0x29f4: halt
+0x29f5: alloc $4 $1
+0x29f6: add   $5 $2 $5
+0x29f7: alloc $1 $5
+0x29f8: halt
+0x29f9: rmem  $4 $7 $2
+0x29fa: div   $7 $4 $7
+0x29fb: alloc $4 $2
+0x29fc: alloc $1 $2
+0x29fd: alloc $0 $0
+0x29fe: free  $7
+0x29ff: cmove $6 $1 $1
+0x2a00: halt
+0x2a01: alloc $2 $7
+0x2a02: halt
+0x2a03: alloc $6 $5
+0x2a04: nand  $3 $4 $5
+0x2a05: in    $0
+0x2a06: nand  $7 $3 $7
+0x2a07: div   $5 $0 $7
+0x2a08: alloc $4 $5
+0x2a09: nand  $7 $4 $5
+0x2a0a: div   $6 $1 $4
+0x2a0b: mul   $3 $6 $6
+0x2a0c: mul   $6 $5 $0
+0x2a0d: out   $1
+0x2a0e: alloc $5 $3
+0x2a0f: alloc $5 $5
+0x2a10: halt
+0x2a11: div   $4 $0 $2
+0x2a12: div   $2 $3 $3
+0x2a13: add   $4 $0 $2
+0x2a14: mul   $2 $2 $2
+0x2a15: nand  $2 $0 $2
+0x2a16: alloc $7 $0
+0x2a17: alloc $1 $2
+0x2a18: alloc $6 $4
+0x2a19: mul   $2 $4 $0
+0x2a1a: alloc $5 $0
+0x2a1b: halt
+0x2a1c: div   $7 $7 $3
+0x2a1d: nand  $1 $6 $5
+0x2a1e: div   $4 $5 $6
+0x2a1f: div   $0 $1 $5
+0x2a20: mul   $0 $3 $7
+0x2a21: div   $3 $1 $2
+0x2a22: mul   $4 $4 $5
+0x2a23: wmem  $2 $7 $1
+0x2a24: nand  $4 $6 $2
+0x2a25: div   $7 $1 $6
+0x2a26: halt
+0x2a27: alloc $7 $0
+0x2a28: cmove $7 $4 $7
+0x2a29: div   $3 $5 $6
+0x2a2a: nand  $4 $0 $5
+0x2a2b: alloc $4 $7
+0x2a2c: alloc $5 $1
+0x2a2d: alloc $1 $1
+0x2a2e: mul   $4 $5 $5
+0x2a2f: nand  $7 $3 $7
+0x2a30: add   $0 $1 $4
+0x2a31: wmem  $1 $6 $7
+0x2a32: add   $1 $2 $7
+0x2a33: alloc $3 $0
+0x2a34: alloc $7 $1
+0x2a35: div   $4 $7 $3
+0x2a36: alloc $6 $3
+0x2a37: nand  $1 $7 $7
+0x2a38: alloc $3 $0
+0x2a39: halt
+0x2a3a: nand  $0 $1 $1
+0x2a3b: halt
+0x2a3c: alloc $1 $6
+0x2a3d: alloc $1 $4
+0x2a3e: alloc $4 $7
+0x2a3f: alloc $2 $0
+0x2a40: alloc $4 $6
+0x2a41: out   $3
+0x2a42: cmove $3 $6 $0
+0x2a43: alloc $4 $0
+0x2a44: wmem  $5 $3 $7
+0x2a45: add   $7 $2 $1
+0x2a46: alloc $2 $3
+0x2a47: mul   $6 $6 $6
+0x2a48: alloc $6 $7
+0x2a49: div   $2 $2 $1
+0x2a4a: alloc $3 $4
+0x2a4b: div   $3 $0 $4
+0x2a4c: alloc $5 $0
+0x2a4d: nand  $6 $2 $7
+0x2a4e: alloc $0 $7
+0x2a4f: mul   $5 $4 $3
+0x2a50: alloc $0 $1
+0x2a51: free  $4
+0x2a52: alloc $4 $2
+0x2a53: halt
+0x2a54: alloc $7 $2
+0x2a55: alloc $3 $5
+0x2a56: halt
+0x2a57: nand  $2 $5 $4
+0x2a58: div   $0 $6 $1
+0x2a59: nand  $4 $1 $7
+0x2a5a: div   $1 $1 $0
+0x2a5b: div   $5 $1 $2
+0x2a5c: alloc $5 $4
+0x2a5d: div   $1 $2 $6
+0x2a5e: alloc $4 $6
+0x2a5f: cmove $4 $6 $6
+0x2a60: mul   $2 $1 $7
+0x2a61: halt
+0x2a62: div   $5 $2 $3
+0x2a63: div   $6 $1 $3
+0x2a64: halt
+0x2a65: alloc $7 $3
+0x2a66: nand  $2 $3 $0
+0x2a67: wmem  $0 $0 $4
+0x2a68: halt
+0x2a69: nand  $2 $5 $0
+0x2a6a: halt
+0x2a6b: mul   $7 $5 $4
+0x2a6c: div   $3 $2 $1
+0x2a6d: div   $7 $0 $1
+0x2a6e: out   $5
+0x2a6f: free  $4
+0x2a70: alloc $7 $6
+0x2a71: alloc $3 $1
+0x2a72: alloc $3 $0
+0x2a73: wmem  $7 $0 $4
+0x2a74: div   $6 $5 $1
+0x2a75: nand  $4 $5 $1
+0x2a76: nand  $5 $5 $1
+0x2a77: mul   $2 $7 $0
+0x2a78: nand  $1 $6 $4
+0x2a79: nand  $1 $4 $2
+0x2a7a: div   $4 $3 $3
+0x2a7b: alloc $6 $1
+0x2a7c: div   $4 $4 $4
+0x2a7d: add   $5 $0 $3
+0x2a7e: free  $3
+0x2a7f: alloc $4 $3
+0x2a80: alloc $1 $5
+0x2a81: div   $6 $4 $6
+0x2a82: div   $3 $7 $5
+0x2a83: cmove $5 $2 $2
+0x2a84: alloc $4 $4
+0x2a85: div   $6 $1 $6
+0x2a86: alloc $1 $1
+0x2a87: mul   $7 $7 $0
+0x2a88: mul   $5 $1 $6
+0x2a89: halt
+0x2a8a: cmove $6 $4 $7
+0x2a8b: alloc $3 $0
+0x2a8c: in    $2
+0x2a8d: alloc $7 $2
+0x2a8e: nand  $4 $7 $4
+0x2a8f: alloc $3 $1
+0x2a90: alloc $0 $3
+0x2a91: alloc $3 $3
+0x2a92: alloc $1 $5
+0x2a93: alloc $5 $2
+0x2a94: nand  $7 $4 $7
+0x2a95: alloc $6 $6
+0x2a96: alloc $1 $5
+0x2a97: div   $0 $2 $2
+0x2a98: div   $5 $4 $3
+0x2a99: alloc $2 $3
+0x2a9a: div   $2 $6 $4
+0x2a9b: alloc $1 $6
+0x2a9c: cmove $0 $5 $1
+0x2a9d: alloc $2 $5
+0x2a9e: alloc $4 $2
+0x2a9f: alloc $5 $6
+0x2aa0: mul   $2 $6 $0
+0x2aa1: halt
+0x2aa2: div   $2 $5 $1
+0x2aa3: out   $7
+0x2aa4: alloc $7 $1
+0x2aa5: alloc $7 $4
+0x2aa6: halt
+0x2aa7: cmove $5 $6 $7
+0x2aa8: alloc $1 $5
+0x2aa9: alloc $6 $5
+0x2aaa: jump  $1 $3
+0x2aab: alloc $0 $7
+0x2aac: cmove $2 $0 $0
+0x2aad: rmem  $2 $2 $1
+0x2aae: halt
+0x2aaf: halt
+0x2ab0: alloc $4 $2
+0x2ab1: alloc $6 $2
+0x2ab2: free  $1
+0x2ab3: alloc $2 $7
+0x2ab4: alloc $7 $5
+0x2ab5: cmove $0 $4 $7
+0x2ab6: alloc $2 $1
+0x2ab7: div   $0 $7 $6
+0x2ab8: div   $4 $1 $5
+0x2ab9: jump  $7 $7
+0x2aba: alloc $4 $5
+0x2abb: alloc $3 $6
+0x2abc: alloc $0 $5
+0x2abd: alloc $5 $6
+0x2abe: alloc $2 $5
+0x2abf: alloc $4 $7
+0x2ac0: alloc $4 $5
+0x2ac1: nand  $0 $5 $2
+0x2ac2: div   $4 $1 $5
+0x2ac3: mul   $1 $1 $5
+0x2ac4: div   $5 $7 $0
+0x2ac5: div   $3 $6 $6
+0x2ac6: alloc $6 $6
+0x2ac7: wmem  $6 $7 $3
+0x2ac8: mul   $4 $6 $4
+0x2ac9: mul   $4 $1 $1
+0x2aca: add   $4 $3 $3
+0x2acb: nand  $6 $4 $1
+0x2acc: alloc $7 $1
+0x2acd: nand  $5 $5 $4
+0x2ace: nand  $4 $3 $0
+0x2acf: alloc $4 $4
+0x2ad0: out   $4
+0x2ad1: alloc $6 $6
+0x2ad2: alloc $0 $5
+0x2ad3: alloc $3 $6
+0x2ad4: alloc $3 $0
+0x2ad5: alloc $7 $5
+0x2ad6: halt
+0x2ad7: mul   $0 $5 $6
+0x2ad8: cmove $7 $1 $4
+0x2ad9: rmem  $2 $2 $2
+0x2ada: alloc $4 $5
+0x2adb: alloc $6 $3
+0x2adc: div   $2 $1 $7
+0x2add: mul   $3 $3 $6
+0x2ade: halt
+0x2adf: free  $2
+0x2ae0: alloc $6 $4
+0x2ae1: alloc $1 $7
+0x2ae2: nand  $6 $3 $6
+0x2ae3: nand  $5 $3 $4
+0x2ae4: nand  $3 $7 $7
+0x2ae5: halt
+0x2ae6: in    $2
+0x2ae7: nand  $0 $0 $0
+0x2ae8: halt
+0x2ae9: halt
+0x2aea: halt
+0x2aeb: halt
+0x2aec: alloc $2 $1
+0x2aed: alloc $2 $4
+0x2aee: nand  $5 $6 $7
+0x2aef: mul   $5 $7 $2
+0x2af0: alloc $2 $5
+0x2af1: halt
+0x2af2: halt
+0x2af3: add   $0 $0 $4
+0x2af4: div   $0 $6 $0
+0x2af5: cmove $1 $1 $6
+0x2af6: add   $7 $3 $3
+0x2af7: wmem  $5 $6 $2
+0x2af8: cmove $0 $3 $0
+0x2af9: cmove $5 $5 $1
+0x2afa: rmem  $7 $5 $7
+0x2afb: add   $1 $4 $3
+0x2afc: wmem  $2 $7 $3
+0x2afd: cmove $2 $4 $0
+0x2afe: alloc $2 $4
+0x2aff: nand  $2 $6 $2
+0x2b00: div   $3 $1 $1
+0x2b01: wmem  $5 $7 $2
+0x2b02: halt
+0x2b03: alloc $5 $2
+0x2b04: add   $3 $6 $0
+0x2b05: mul   $4 $3 $1
+0x2b06: div   $7 $7 $7
+0x2b07: div   $5 $3 $3
+0x2b08: nand  $4 $5 $0
+0x2b09: nand  $7 $0 $5
+0x2b0a: div   $2 $6 $3
+0x2b0b: mul   $6 $2 $1
+0x2b0c: div   $5 $4 $6
+0x2b0d: div   $2 $4 $4
+0x2b0e: halt
+0x2b0f: halt
+0x2b10: add   $5 $1 $6
+0x2b11: div   $1 $6 $3
+0x2b12: div   $5 $5 $1
+0x2b13: add   $7 $4 $5
+0x2b14: wmem  $3 $5 $1
+0x2b15: cmove $3 $1 $7
+0x2b16: mul   $7 $3 $6
+0x2b17: halt
+0x2b18: add   $3 $0 $1
+0x2b19: mul   $6 $3 $6
+0x2b1a: alloc $0 $3
+0x2b1b: free  $2
+0x2b1c: halt
+0x2b1d: cmove $7 $7 $0
+0x2b1e: alloc $2 $3
+0x2b1f: alloc $7 $2
+0x2b20: add   $3 $6 $7
+0x2b21: mul   $4 $1 $0
+0x2b22: jump  $0 $1
+0x2b23: free  $4
+0x2b24: alloc $1 $2
+0x2b25: alloc $3 $5
+0x2b26: alloc $4 $2
+0x2b27: nand  $1 $5 $0
+0x2b28: alloc $2 $4
+0x2b29: alloc $1 $2
+0x2b2a: out   $7
+0x2b2b: alloc $4 $4
+0x2b2c: alloc $3 $4
+0x2b2d: halt
+0x2b2e: add   $1 $7 $6
+0x2b2f: alloc $5 $7
+0x2b30: div   $3 $7 $1
+0x2b31: rmem  $0 $2 $5
+0x2b32: cmove $3 $5 $6
+0x2b33: cmove $2 $4 $0
+0x2b34: alloc $7 $6
+0x2b35: cmove $6 $1 $2
+0x2b36: rmem  $5 $3 $0
+0x2b37: cmove $7 $4 $0
+0x2b38: alloc $5 $6
+0x2b39: out   $2
+0x2b3a: wmem  $6 $2 $1
+0x2b3b: halt
+0x2b3c: alloc $5 $6
+0x2b3d: alloc $3 $6
+0x2b3e: div   $3 $0 $0
+0x2b3f: mul   $7 $4 $3
+0x2b40: in    $0
+0x2b41: halt
+0x2b42: alloc $0 $2
+0x2b43: halt
+0x2b44: nand  $7 $0 $2
+0x2b45: alloc $3 $7
+0x2b46: alloc $4 $7
+0x2b47: alloc $0 $4
+0x2b48: alloc $6 $0
+0x2b49: cmove $4 $5 $3
+0x2b4a: rmem  $2 $2 $4
+0x2b4b: alloc $6 $1
+0x2b4c: alloc $5 $1
+0x2b4d: div   $7 $2 $4
+0x2b4e: div   $2 $7 $7
+0x2b4f: add   $1 $6 $5
+0x2b50: free  $1
+0x2b51: halt
+0x2b52: nand  $7 $6 $2
+0x2b53: add   $3 $1 $5
+0x2b54: halt
+0x2b55: add   $1 $5 $5
+0x2b56: cmove $6 $1 $4
+0x2b57: div   $7 $7 $5
+0x2b58: nand  $0 $6 $4
+0x2b59: add   $7 $4 $3
+0x2b5a: div   $3 $2 $5
+0x2b5b: alloc $1 $3
+0x2b5c: alloc $7 $5
+0x2b5d: alloc $3 $2
+0x2b5e: mul   $1 $1 $2
+0x2b5f: alloc $1 $2
+0x2b60: alloc $2 $7
+0x2b61: mul   $3 $5 $6
+0x2b62: free  $1
+0x2b63: add   $4 $3 $4
+0x2b64: alloc $5 $0
+0x2b65: alloc $0 $2
+0x2b66: out   $5
+0x2b67: alloc $5 $7
+0x2b68: div   $7 $0 $0
+0x2b69: free  $5
+0x2b6a: alloc $5 $1
+0x2b6b: rmem  $6 $7 $4
+0x2b6c: cmove $0 $7 $3
+0x2b6d: cmove $5 $0 $1
+0x2b6e: free  $5
+0x2b6f: cmove $0 $7 $3
+0x2b70: rmem  $3 $2 $3
+0x2b71: mul   $6 $4 $0
+0x2b72: alloc $5 $2
+0x2b73: halt
+0x2b74: alloc $7 $1
+0x2b75: free  $1
+0x2b76: alloc $1 $6
+0x2b77: alloc $4 $4
+0x2b78: mul   $7 $3 $0
+0x2b79: nand  $3 $5 $6
+0x2b7a: div   $7 $1 $5
+0x2b7b: alloc $6 $7
+0x2b7c: jump  $7 $5
+0x2b7d: free  $3
+0x2b7e: alloc $0 $6
+0x2b7f: alloc $5 $7
+0x2b80: alloc $7 $1
+0x2b81: alloc $6 $4
+0x2b82: div   $4 $1 $2
+0x2b83: cmove $7 $2 $7
+0x2b84: free  $2
+0x2b85: alloc $4 $4
+0x2b86: alloc $2 $5
+0x2b87: halt
+0x2b88: free  $2
+0x2b89: free  $2
+0x2b8a: alloc $6 $4
+0x2b8b: mul   $5 $6 $4
+0x2b8c: free  $2
+0x2b8d: wmem  $0 $1 $4
+0x2b8e: cmove $4 $4 $2
+0x2b8f: alloc $5 $4
+0x2b90: alloc $0 $1
+0x2b91: halt
+0x2b92: halt
+0x2b93: nand  $4 $4 $2
+0x2b94: nand  $6 $1 $1
+0x2b95: free  $2
+0x2b96: free  $6
+0x2b97: alloc $2 $3
+0x2b98: free  $3
+0x2b99: free  $7
+0x2b9a: mul   $3 $5 $3
+0x2b9b: halt
+0x2b9c: alloc $7 $3
+0x2b9d: alloc $7 $0
+0x2b9e: alloc $7 $3
+0x2b9f: rmem  $3 $7 $6
+0x2ba0: cmove $4 $7 $1
+0x2ba1: cmove $2 $0 $3
+0x2ba2: out   $2
+0x2ba3: add   $5 $0 $0
+0x2ba4: cmove $6 $6 $7
+0x2ba5: halt
+0x2ba6: wmem  $7 $0 $0
+0x2ba7: add   $4 $6 $1
+0x2ba8: mul   $7 $5 $5
+0x2ba9: rmem  $7 $2 $4
+0x2baa: cmove $2 $4 $1
+0x2bab: cmove $2 $4 $0
+0x2bac: free  $3
+0x2bad: cmove $6 $5 $2
+0x2bae: rmem  $2 $2 $2
+0x2baf: cmove $4 $0 $0
+0x2bb0: halt
+0x2bb1: wmem  $1 $1 $4
+0x2bb2: div   $7 $5 $6
+0x2bb3: alloc $6 $7
+0x2bb4: halt
+0x2bb5: div   $3 $2 $7
+0x2bb6: nand  $6 $5 $5
+0x2bb7: nand  $4 $5 $6
+0x2bb8: jump  $2 $1
+0x2bb9: alloc $3 $7
+0x2bba: alloc $5 $5
+0x2bbb: alloc $6 $0
+0x2bbc: alloc $6 $3
+0x2bbd: free  $7
+0x2bbe: cmove $1 $0 $0
+0x2bbf: rmem  $7 $0 $7
+0x2bc0: free  $0
+0x2bc1: cmove $2 $7 $5
+0x2bc2: mul   $3 $4 $4
+0x2bc3: add   $1 $1 $0
+0x2bc4: halt
+0x2bc5: free  $3
+0x2bc6: add   $1 $1 $2
+0x2bc7: mul   $7 $7 $2
+0x2bc8: halt
+0x2bc9: add   $6 $4 $1
+0x2bca: halt
+0x2bcb: cmove $2 $3 $7
+0x2bcc: alloc $2 $7
+0x2bcd: halt
+0x2bce: mul   $2 $6 $0
+0x2bcf: out   $1
+0x2bd0: free  $3
+0x2bd1: free  $6
+0x2bd2: halt
+0x2bd3: halt
+0x2bd4: alloc $1 $1
+0x2bd5: mul   $3 $6 $1
+0x2bd6: in    $7
+0x2bd7: free  $6
+0x2bd8: free  $3
+0x2bd9: free  $3
+0x2bda: free  $3
+0x2bdb: free  $4
+0x2bdc: free  $7
+0x2bdd: cmove $7 $3 $1
+0x2bde: alloc $7 $0
+0x2bdf: rmem  $1 $7 $2
+0x2be0: alloc $7 $5
+0x2be1: mul   $1 $7 $7
+0x2be2: cmove $5 $4 $3
+0x2be3: add   $6 $3 $0
+0x2be4: mul   $2 $7 $5
+0x2be5: cmove $6 $4 $6
+0x2be6: cmove $4 $1 $1
+0x2be7: halt
+0x2be8: cmove $7 $4 $7
+0x2be9: rmem  $0 $2 $7
+0x2bea: cmove $0 $4 $0
+0x2beb: alloc $5 $7
+0x2bec: halt
+0x2bed: nand  $3 $4 $7
+0x2bee: wmem  $5 $1 $4
+0x2bef: alloc $3 $0
+0x2bf0: alloc $4 $7
+0x2bf1: alloc $4 $6
+0x2bf2: free  $5
+0x2bf3: alloc $0 $3
+0x2bf4: mul   $4 $0 $0
+0x2bf5: halt
+0x2bf6: nand  $2 $0 $1
+0x2bf7: alloc $1 $6
+0x2bf8: alloc $2 $4
+0x2bf9: alloc $0 $5
+0x2bfa: div   $6 $3 $6
+0x2bfb: halt
+0x2bfc: mul   $1 $5 $4
+0x2bfd: alloc $1 $5
+0x2bfe: cmove $5 $7 $1
+0x2bff: rmem  $2 $3 $0
+0x2c00: alloc $6 $1
+0x2c01: alloc $7 $0
+0x2c02: free  $3
+0x2c03: mul   $3 $3 $5
+0x2c04: free  $5
+0x2c05: add   $6 $1 $1
+0x2c06: nand  $1 $5 $6
+0x2c07: free  $1
+0x2c08: free  $0
+0x2c09: mul   $0 $2 $5
+0x2c0a: cmove $7 $2 $6
+0x2c0b: cmove $2 $2 $7
+0x2c0c: alloc $5 $5
+0x2c0d: wmem  $3 $0 $6
+0x2c0e: wmem  $3 $2 $5
+0x2c0f: wmem  $2 $2 $0
+0x2c10: cmove $5 $6 $2
+0x2c11: add   $7 $3 $6
+0x2c12: jump  $6 $1
+0x2c13: alloc $2 $1
+0x2c14: free  $6
+0x2c15: free  $7
+0x2c16: free  $6
+0x2c17: free  $3
+0x2c18: free  $6
+0x2c19: free  $2
+0x2c1a: nand  $2 $2 $7
+0x2c1b: free  $7
+0x2c1c: alloc $4 $0
+0x2c1d: free  $1
+0x2c1e: free  $6
+0x2c1f: free  $6
+0x2c20: wmem  $1 $2 $0
+0x2c21: in    $7
+0x2c22: halt
+0x2c23: alloc $1 $0
+0x2c24: div   $5 $0 $1
+0x2c25: cmove $3 $4 $7
+0x2c26: free  $2
+0x2c27: cmove $7 $1 $0
+0x2c28: free  $7
+0x2c29: cmove $6 $7 $4
+0x2c2a: rmem  $1 $0 $6
+0x2c2b: cmove $2 $4 $0
+0x2c2c: free  $2
+0x2c2d: free  $2
+0x2c2e: free  $4
+0x2c2f: alloc $3 $1
+0x2c30: in    $5
+0x2c31: alloc $3 $0
+0x2c32: free  $1
+0x2c33: free  $3
+0x2c34: alloc $3 $5
+0x2c35: alloc $5 $7
+0x2c36: free  $5
+0x2c37: div   $0 $6 $5
+0x2c38: out   $5
+0x2c39: alloc $6 $1
+0x2c3a: alloc $5 $4
+0x2c3b: free  $4
+0x2c3c: free  $0
+0x2c3d: nand  $6 $2 $2
+0x2c3e: mul   $3 $1 $5
+0x2c3f: jump  $6 $0
+0x2c40: free  $3
+0x2c41: wmem  $4 $7 $6
+0x2c42: nand  $0 $3 $6
+0x2c43: alloc $2 $4
+0x2c44: free  $2
+0x2c45: nand  $5 $6 $6
+0x2c46: nand  $1 $7 $3
+0x2c47: wmem  $1 $3 $1
+0x2c48: halt
+0x2c49: cmove $7 $7 $1
+0x2c4a: free  $1
+0x2c4b: halt
+0x2c4c: free  $3
+0x2c4d: free  $6
+0x2c4e: jump  $2 $1
+0x2c4f: free  $2
+0x2c50: alloc $5 $4
+0x2c51: mul   $4 $4 $6
+0x2c52: free  $0
+0x2c53: alloc $6 $2
+0x2c54: free  $4
+0x2c55: free  $6
+0x2c56: nand  $6 $7 $1
+0x2c57: free  $2
+0x2c58: free  $6
+0x2c59: free  $1
+0x2c5a: alloc $7 $5
+0x2c5b: free  $7
+0x2c5c: alloc $2 $5
+0x2c5d: cmove $7 $3 $1
+0x2c5e: cmove $2 $1 $2
+0x2c5f: cmove $2 $4 $0
+0x2c60: halt
+0x2c61: cmove $7 $5 $0
+0x2c62: rmem  $0 $3 $2
+0x2c63: cmove $5 $7 $1
+0x2c64: free  $5
+0x2c65: out   $4
+0x2c66: div   $5 $2 $7
+0x2c67: free  $3
+0x2c68: mul   $5 $2 $4
+0x2c69: alloc $1 $6
+0x2c6a: halt
+0x2c6b: free  $2
+0x2c6c: jump  $7 $5
+0x2c6d: halt
+0x2c6e: alloc $4 $3
+0x2c6f: free  $6
+0x2c70: alloc $5 $0
+0x2c71: alloc $7 $7
+0x2c72: halt
+0x2c73: alloc $5 $7
+0x2c74: alloc $7 $2
+0x2c75: cmove $5 $6 $4
+0x2c76: cmove $2 $3 $2
+0x2c77: alloc $3 $7
+0x2c78: alloc $0 $7
+0x2c79: mul   $1 $1 $1
+0x2c7a: cmove $0 $4 $7
+0x2c7b: in    $5
+0x2c7c: free  $0
+0x2c7d: free  $5
+0x2c7e: halt
+0x2c7f: free  $6
+0x2c80: nand  $3 $1 $5
+0x2c81: alloc $0 $4
+0x2c82: nand  $1 $0 $2
+0x2c83: div   $6 $3 $5
+0x2c84: free  $1
+0x2c85: free  $1
+0x2c86: free  $1
+0x2c87: free  $1
+0x2c88: free  $0
+0x2c89: free  $1
+0x2c8a: jump  $0 $5
+0x2c8b: free  $7
+0x2c8c: free  $2
+0x2c8d: free  $3
+0x2c8e: free  $5
+0x2c8f: free  $7
+0x2c90: cmove $4 $4 $3
+0x2c91: cmove $6 $0 $0
+0x2c92: mul   $5 $4 $6
+0x2c93: cmove $0 $7 $2
+0x2c94: free  $4
+0x2c95: cmove $1 $0 $6
+0x2c96: rmem  $3 $4 $0
+0x2c97: cmove $7 $4 $0
+0x2c98: alloc $6 $4
+0x2c99: jump  $6 $3
+0x2c9a: free  $0
+0x2c9b: free  $7
+0x2c9c: free  $1
+0x2c9d: alloc $4 $3
+0x2c9e: alloc $2 $2
+0x2c9f: alloc $3 $2
+0x2ca0: alloc $1 $4
+0x2ca1: out   $1
+0x2ca2: alloc $5 $5
+0x2ca3: alloc $5 $3
+0x2ca4: alloc $4 $0
+0x2ca5: alloc $0 $1
+0x2ca6: free  $5
+0x2ca7: cmove $6 $6 $7
+0x2ca8: wmem  $3 $4 $4
+0x2ca9: alloc $3 $3
+0x2caa: alloc $7 $7
+0x2cab: mul   $7 $7 $1
+0x2cac: mul   $0 $6 $7
+0x2cad: free  $0
+0x2cae: cmove $0 $4 $4
+0x2caf: halt
+0x2cb0: free  $7
+0x2cb1: free  $6
+0x2cb2: free  $5
+0x2cb3: mul   $2 $0 $7
+0x2cb4: cmove $4 $1 $4
+0x2cb5: alloc $7 $4
+0x2cb6: nand  $1 $5 $6
+0x2cb7: jump  $7 $1
+0x2cb8: halt
+0x2cb9: free  $1
+0x2cba: mul   $0 $3 $6
+0x2cbb: free  $7
+0x2cbc: free  $4
+0x2cbd: free  $2
+0x2cbe: mul   $4 $4 $7
+0x2cbf: out   $6
+0x2cc0: free  $6
+0x2cc1: alloc $4 $6
+0x2cc2: alloc $5 $5
+0x2cc3: free  $4
+0x2cc4: free  $1
+0x2cc5: alloc $3 $3
+0x2cc6: cmove $3 $5 $1
+0x2cc7: cmove $1 $2 $3
+0x2cc8: free  $1
+0x2cc9: free  $5
+0x2cca: cmove $7 $0 $7
+0x2ccb: rmem  $6 $2 $5
+0x2ccc: cmove $4 $3 $1
+0x2ccd: free  $7
+0x2cce: free  $0
+0x2ccf: free  $4
+0x2cd0: free  $4
+0x2cd1: cmove $3 $0 $3
+0x2cd2: free  $1
+0x2cd3: free  $1
+0x2cd4: free  $4
+0x2cd5: add   $7 $3 $3
+0x2cd6: free  $1
+0x2cd7: alloc $6 $2
+0x2cd8: div   $4 $2 $2
+0x2cd9: halt
+0x2cda: free  $3
+0x2cdb: halt
+0x2cdc: alloc $3 $0
+0x2cdd: div   $7 $7 $0
+0x2cde: nand  $0 $3 $6
+0x2cdf: nand  $1 $6 $5
+0x2ce0: free  $0
+0x2ce1: free  $7
+0x2ce2: free  $6
+0x2ce3: free  $0
+0x2ce4: mul   $1 $4 $6
+0x2ce5: free  $2
+0x2ce6: free  $5
+0x2ce7: halt
+0x2ce8: free  $0
+0x2ce9: add   $7 $2 $2
+0x2cea: nand  $7 $2 $3
+0x2ceb: alloc $5 $5
+0x2cec: out   $5
+0x2ced: free  $7
+0x2cee: free  $0
+0x2cef: free  $6
+0x2cf0: free  $0
+0x2cf1: free  $0
+0x2cf2: free  $0
+0x2cf3: jump  $6 $6
+0x2cf4: free  $5
+0x2cf5: free  $7
+0x2cf6: free  $1
+0x2cf7: alloc $2 $3
+0x2cf8: free  $6
+0x2cf9: free  $7
+0x2cfa: free  $2
+0x2cfb: out   $4
+0x2cfc: wmem  $2 $5 $6
+0x2cfd: cmove $5 $4 $6
+0x2cfe: cmove $1 $4 $7
+0x2cff: div   $4 $0 $6
+0x2d00: cmove $0 $2 $5
+0x2d01: cmove $1 $1 $1
+0x2d02: jump  $2 $6
+0x2d03: free  $0
+0x2d04: free  $2
+0x2d05: div   $3 $0 $1
+0x2d06: alloc $7 $0
+0x2d07: free  $0
+0x2d08: free  $5
+0x2d09: div   $5 $3 $3
+0x2d0a: out   $5
+0x2d0b: alloc $5 $0
+0x2d0c: free  $1
+0x2d0d: free  $3
+0x2d0e: alloc $4 $4
+0x2d0f: free  $7
+0x2d10: alloc $0 $4
+0x2d11: mul   $4 $2 $1
+0x2d12: halt
+0x2d13: cmove $4 $2 $3
+0x2d14: free  $6
+0x2d15: free  $6
+0x2d16: alloc $4 $3
+0x2d17: free  $3
+0x2d18: free  $7
+0x2d19: out   $6
+0x2d1a: free  $0
+0x2d1b: free  $4
+0x2d1c: free  $5
+0x2d1d: add   $0 $0 $6
+0x2d1e: cmove $7 $0 $0
+0x2d1f: nand  $1 $4 $4
+0x2d20: jump  $3 $5
+0x2d21: free  $1
+0x2d22: halt
+0x2d23: free  $4
+0x2d24: mul   $4 $4 $5
+0x2d25: free  $6
+0x2d26: free  $7
+0x2d27: free  $1
+0x2d28: out   $0
+0x2d29: free  $0
+0x2d2a: alloc $2 $6
+0x2d2b: free  $0
+0x2d2c: free  $0
+0x2d2d: alloc $7 $3
+0x2d2e: cmove $0 $2 $3
+0x2d2f: mul   $7 $7 $1
+0x2d30: cmove $6 $3 $7
+0x2d31: cmove $1 $0 $4
+0x2d32: free  $2
+0x2d33: cmove $6 $3 $1
+0x2d34: rmem  $6 $4 $0
+0x2d35: cmove $6 $6 $1
+0x2d36: free  $2
+0x2d37: out   $7
+0x2d38: cmove $4 $7 $6
+0x2d39: free  $5
+0x2d3a: free  $7
+0x2d3b: free  $1
+0x2d3c: nand  $1 $3 $3
+0x2d3d: alloc $4 $6
+0x2d3e: mul   $3 $5 $0
+0x2d3f: alloc $1 $7
+0x2d40: free  $1
+0x2d41: nand  $5 $0 $4
+0x2d42: free  $5
+0x2d43: free  $0
+0x2d44: free  $2
+0x2d45: alloc $2 $4
+0x2d46: out   $3
+0x2d47: div   $7 $7 $1
+0x2d48: cmove $7 $4 $7
+0x2d49: free  $7
+0x2d4a: free  $7
+0x2d4b: free  $3
+0x2d4c: free  $3
+0x2d4d: jump  $3 $0
+0x2d4e: alloc $4 $3
+0x2d4f: free  $2
+0x2d50: free  $1
+0x2d51: add   $6 $0 $2
+0x2d52: cmove $7 $3 $5
+0x2d53: free  $5
+0x2d54: alloc $7 $5
+0x2d55: out   $1
+0x2d56: alloc $4 $3
+0x2d57: free  $7
+0x2d58: free  $0
+0x2d59: free  $5
+0x2d5a: free  $3
+0x2d5b: free  $5
+0x2d5c: jump  $2 $5
+0x2d5d: free  $6
+0x2d5e: free  $4
+0x2d5f: halt
+0x2d60: halt
+0x2d61: free  $7
+0x2d62: cmove $7 $4 $0
+0x2d63: free  $7
+0x2d64: cmove $1 $4 $3
+0x2d65: cmove $5 $6 $6
+0x2d66: free  $3
+0x2d67: cmove $0 $0 $7
+0x2d68: rmem  $6 $5 $2
+0x2d69: cmove $1 $0 $0
+0x2d6a: alloc $6 $2
+0x2d6b: jump  $7 $5
+0x2d6c: div   $2 $6 $6
+0x2d6d: free  $6
+0x2d6e: free  $1
+0x2d6f: add   $1 $3 $0
+0x2d70: alloc $4 $6
+0x2d71: nand  $5 $1 $1
+0x2d72: nand  $0 $3 $4
+0x2d73: out   $1
+0x2d74: free  $4
+0x2d75: free  $7
+0x2d76: alloc $2 $5
+0x2d77: free  $3
+0x2d78: free  $5
+0x2d79: cmove $5 $0 $4
+0x2d7a: add   $6 $7 $7
+0x2d7b: alloc $4 $0
+0x2d7c: free  $0
+0x2d7d: free  $0
+0x2d7e: div   $5 $7 $5
+0x2d7f: mul   $5 $1 $5
+0x2d80: nand  $0 $4 $2
+0x2d81: halt
+0x2d82: out   $5
+0x2d83: free  $1
+0x2d84: cmove $5 $5 $2
+0x2d85: free  $0
+0x2d86: alloc $1 $4
+0x2d87: free  $7
+0x2d88: free  $7
+0x2d89: jump  $1 $5
+0x2d8a: free  $6
+0x2d8b: free  $6
+0x2d8c: free  $6
+0x2d8d: free  $6
+0x2d8e: free  $6
+0x2d8f: alloc $0 $6
+0x2d90: free  $6
+0x2d91: out   $4
+0x2d92: free  $7
+0x2d93: free  $1
+0x2d94: free  $2
+0x2d95: rmem  $1 $0 $6
+0x2d96: free  $0
+0x2d97: cmove $4 $0 $5
+0x2d98: mul   $2 $6 $1
+0x2d99: mul   $3 $0 $4
+0x2d9a: cmove $3 $6 $3
+0x2d9b: wmem  $0 $7 $2
+0x2d9c: free  $6
+0x2d9d: alloc $1 $7
+0x2d9e: div   $0 $0 $1
+0x2d9f: free  $1
+0x2da0: alloc $2 $6
+0x2da1: free  $0
+0x2da2: free  $3
+0x2da3: free  $4
+0x2da4: free  $1
+0x2da5: cmove $2 $0 $1
+0x2da6: alloc $1 $4
+0x2da7: jump  $5 $0
+0x2da8: alloc $5 $2
+0x2da9: free  $0
+0x2daa: free  $2
+0x2dab: free  $4
+0x2dac: cmove $5 $3 $6
+0x2dad: free  $1
+0x2dae: free  $3
+0x2daf: nand  $4 $0 $3
+0x2db0: alloc $2 $1
+0x2db1: free  $5
+0x2db2: free  $4
+0x2db3: free  $6
+0x2db4: free  $0
+0x2db5: free  $6
+0x2db6: wmem  $0 $3 $2
+0x2db7: alloc $4 $1
+0x2db8: alloc $3 $0
+0x2db9: free  $6
+0x2dba: free  $5
+0x2dbb: free  $7
+0x2dbc: div   $1 $1 $1
+0x2dbd: alloc $7 $5
+0x2dbe: out   $2
+0x2dbf: mul   $6 $5 $7
+0x2dc0: alloc $0 $0
+0x2dc1: free  $1
+0x2dc2: div   $2 $0 $2
+0x2dc3: free  $1
+0x2dc4: halt
+0x2dc5: jump  $4 $1
+0x2dc6: free  $1
+0x2dc7: free  $4
+0x2dc8: free  $3
+0x2dc9: add   $7 $7 $5
+0x2dca: rmem  $7 $4 $2
+0x2dcb: mul   $7 $0 $3
+0x2dcc: cmove $2 $0 $1
+0x2dcd: nand  $3 $5 $2
+0x2dce: add   $2 $3 $5
+0x2dcf: cmove $1 $0 $1
+0x2dd0: free  $1
+0x2dd1: add   $5 $7 $5
+0x2dd2: cmove $6 $1 $5
+0x2dd3: wmem  $5 $6 $5
+0x2dd4: mul   $4 $1 $0
+0x2dd5: free  $5
+0x2dd6: free  $2
+0x2dd7: free  $5
+0x2dd8: free  $7
+0x2dd9: halt
+0x2dda: free  $5
+0x2ddb: alloc $1 $7
+0x2ddc: out   $5
+0x2ddd: free  $4
+0x2dde: free  $1
+0x2ddf: free  $6
+0x2de0: free  $1
+0x2de1: rmem  $2 $2 $3
+0x2de2: nand  $4 $3 $1
+0x2de3: jump  $5 $7
+0x2de4: free  $2
+0x2de5: free  $0
+0x2de6: free  $2
+0x2de7: free  $6
+0x2de8: free  $4
+0x2de9: free  $6
+0x2dea: free  $2
+0x2deb: mul   $0 $7 $5
+0x2dec: nand  $7 $2 $2
+0x2ded: div   $5 $5 $3
+0x2dee: free  $1
+0x2def: free  $2
+0x2df0: free  $4
+0x2df1: free  $6
+0x2df2: jump  $2 $4
+0x2df3: halt
+0x2df4: free  $5
+0x2df5: alloc $0 $0
+0x2df6: free  $0
+0x2df7: free  $3
+0x2df8: free  $0
+0x2df9: div   $3 $7 $4
+0x2dfa: out   $7
+0x2dfb: free  $3
+0x2dfc: free  $6
+0x2dfd: free  $0
+0x2dfe: cmove $5 $1 $2
+0x2dff: rmem  $0 $5 $3
+0x2e00: cmove $4 $7 $0
+0x2e01: wmem  $2 $4 $3
+0x2e02: cmove $3 $3 $7
+0x2e03: cmove $2 $4 $0
+0x2e04: free  $7
+0x2e05: mul   $0 $6 $7
+0x2e06: free  $7
+0x2e07: free  $3
+0x2e08: free  $2
+0x2e09: out   $3
+0x2e0a: alloc $4 $5
+0x2e0b: free  $4
+0x2e0c: free  $0
+0x2e0d: free  $0
+0x2e0e: free  $6
+0x2e0f: free  $0
+0x2e10: jump  $2 $6
+0x2e11: free  $4
+0x2e12: free  $5
+0x2e13: free  $1
+0x2e14: cmove $6 $3 $7
+0x2e15: free  $4
+0x2e16: free  $5
+0x2e17: alloc $5 $5
+0x2e18: wmem  $3 $3 $6
+0x2e19: free  $6
+0x2e1a: free  $4
+0x2e1b: free  $1
+0x2e1c: free  $3
+0x2e1d: free  $4
+0x2e1e: cmove $4 $0 $0
+0x2e1f: jump  $7 $6
+0x2e20: alloc $5 $5
+0x2e21: free  $6
+0x2e22: free  $5
+0x2e23: free  $2
+0x2e24: free  $4
+0x2e25: free  $6
+0x2e26: free  $4
+0x2e27: free  $1
+0x2e28: free  $2
+0x2e29: div   $7 $5 $6
+0x2e2a: free  $2
+0x2e2b: alloc $2 $2
+0x2e2c: free  $2
+0x2e2d: free  $1
+0x2e2e: jump  $4 $4
+0x2e2f: alloc $6 $4
+0x2e30: mul   $1 $5 $4
+0x2e31: rmem  $6 $5 $6
+0x2e32: cmove $7 $7 $1
+0x2e33: cmove $0 $1 $1
+0x2e34: free  $3
+0x2e35: cmove $1 $7 $3
+0x2e36: cmove $4 $3 $7
+0x2e37: free  $7
+0x2e38: alloc $0 $6
+0x2e39: free  $2
+0x2e3a: free  $2
+0x2e3b: add   $0 $3 $6
+0x2e3c: alloc $2 $6
+0x2e3d: mul   $1 $4 $6
+0x2e3e: free  $1
+0x2e3f: free  $6
+0x2e40: free  $3
+0x2e41: free  $1
+0x2e42: free  $6
+0x2e43: div   $5 $7 $5
+0x2e44: free  $3
+0x2e45: out   $5
+0x2e46: cmove $7 $4 $6
+0x2e47: free  $5
+0x2e48: free  $3
+0x2e49: free  $2
+0x2e4a: free  $1
+0x2e4b: free  $1
+0x2e4c: mul   $5 $1 $4
+0x2e4d: free  $2
+0x2e4e: free  $1
+0x2e4f: mul   $7 $3 $0
+0x2e50: add   $5 $6 $6
+0x2e51: halt
+0x2e52: free  $1
+0x2e53: free  $0
+0x2e54: out   $6
+0x2e55: div   $5 $6 $6
+0x2e56: free  $2
+0x2e57: alloc $2 $6
+0x2e58: free  $0
+0x2e59: alloc $4 $5
+0x2e5a: free  $5
+0x2e5b: wmem  $0 $5 $2
+0x2e5c: alloc $5 $0
+0x2e5d: free  $4
+0x2e5e: add   $4 $4 $7
+0x2e5f: free  $2
+0x2e60: free  $4
+0x2e61: free  $6
+0x2e62: rmem  $0 $0 $5
+0x2e63: cmove $3 $0 $4
+0x2e64: cmove $0 $4 $1
+0x2e65: free  $0
+0x2e66: cmove $0 $5 $5
+0x2e67: rmem  $7 $4 $4
+0x2e68: add   $7 $5 $1
+0x2e69: alloc $6 $7
+0x2e6a: jump  $7 $4
+0x2e6b: alloc $4 $5
+0x2e6c: add   $7 $1 $5
+0x2e6d: free  $5
+0x2e6e: free  $6
+0x2e6f: free  $4
+0x2e70: free  $7
+0x2e71: free  $0
+0x2e72: out   $5
+0x2e73: alloc $2 $2
+0x2e74: free  $7
+0x2e75: free  $2
+0x2e76: free  $0
+0x2e77: free  $6
+0x2e78: free  $0
+0x2e79: add   $6 $7 $5
+0x2e7a: alloc $4 $6
+0x2e7b: alloc $2 $6
+0x2e7c: free  $5
+0x2e7d: free  $3
+0x2e7e: free  $0
+0x2e7f: free  $7
+0x2e80: free  $4
+0x2e81: wmem  $4 $0 $2
+0x2e82: free  $0
+0x2e83: cmove $7 $3 $1
+0x2e84: free  $6
+0x2e85: free  $0
+0x2e86: free  $0
+0x2e87: free  $2
+0x2e88: mul   $1 $3 $6
+0x2e89: alloc $4 $5
+0x2e8a: free  $6
+0x2e8b: alloc $5 $2
+0x2e8c: free  $2
+0x2e8d: div   $7 $3 $5
+0x2e8e: free  $7
+0x2e8f: alloc $4 $6
+0x2e90: out   $6
+0x2e91: halt
+0x2e92: free  $5
+0x2e93: free  $5
+0x2e94: wmem  $4 $5 $5
+0x2e95: cmove $7 $2 $7
+0x2e96: rmem  $5 $4 $3
+0x2e97: free  $0
+0x2e98: add   $4 $4 $6
+0x2e99: free  $6
+0x2e9a: cmove $0 $6 $0
+0x2e9b: free  $5
+0x2e9c: alloc $6 $4
+0x2e9d: mul   $5 $7 $0
+0x2e9e: halt
+0x2e9f: out   $6
+0x2ea0: free  $0
+0x2ea1: free  $0
+0x2ea2: free  $3
+0x2ea3: free  $6
+0x2ea4: alloc $5 $7
+0x2ea5: free  $5
+0x2ea6: jump  $0 $5
+0x2ea7: free  $2
+0x2ea8: free  $6
+0x2ea9: free  $0
+0x2eaa: alloc $6 $5
+0x2eab: free  $3
+0x2eac: free  $0
+0x2ead: cmove $0 $4 $7
+0x2eae: out   $0
+0x2eaf: free  $4
+0x2eb0: free  $2
+0x2eb1: cmove $3 $1 $0
+0x2eb2: free  $1
+0x2eb3: nand  $6 $6 $1
+0x2eb4: free  $1
+0x2eb5: jump  $7 $3
+0x2eb6: div   $2 $6 $3
+0x2eb7: free  $6
+0x2eb8: alloc $0 $7
+0x2eb9: free  $1
+0x2eba: free  $6
+0x2ebb: alloc $2 $2
+0x2ebc: free  $5
+0x2ebd: out   $4
+0x2ebe: alloc $4 $7
+0x2ebf: free  $1
+0x2ec0: free  $3
+0x2ec1: free  $2
+0x2ec2: mul   $5 $3 $7
+0x2ec3: add   $5 $6 $5
+0x2ec4: jump  $5 $3
+0x2ec5: free  $1
+0x2ec6: free  $4
+0x2ec7: div   $2 $1 $4
+0x2ec8: cmove $0 $6 $7
+0x2ec9: rmem  $4 $0 $3
+0x2eca: halt
+0x2ecb: cmove $6 $5 $3
+0x2ecc: cmove $4 $4 $7
+0x2ecd: rmem  $1 $1 $7
+0x2ece: cmove $2 $4 $0
+0x2ecf: free  $3
+0x2ed0: free  $6
+0x2ed1: free  $1
+0x2ed2: free  $1
+0x2ed3: jump  $7 $6
+0x2ed4: halt
+0x2ed5: alloc $1 $0
+0x2ed6: free  $0
+0x2ed7: free  $2
+0x2ed8: alloc $2 $7
+0x2ed9: free  $2
+0x2eda: free  $4
+0x2edb: out   $6
+0x2edc: free  $7
+0x2edd: free  $6
+0x2ede: free  $4
+0x2edf: mul   $6 $7 $6
+0x2ee0: alloc $4 $4
+0x2ee1: free  $1
+0x2ee2: free  $1
+0x2ee3: free  $2
+0x2ee4: free  $6
+0x2ee5: free  $7
+0x2ee6: nand  $1 $0 $2
+0x2ee7: free  $6
+0x2ee8: free  $7
+0x2ee9: cmove $3 $6 $7
+0x2eea: out   $1
+0x2eeb: free  $3
+0x2eec: free  $1
+0x2eed: alloc $6 $0
+0x2eee: free  $0
+0x2eef: free  $4
+0x2ef0: free  $4
+0x2ef1: jump  $4 $7
+0x2ef2: free  $1
+0x2ef3: free  $0
+0x2ef4: free  $2
+0x2ef5: free  $3
+0x2ef6: free  $5
+0x2ef7: free  $0
+0x2ef8: free  $3
+0x2ef9: out   $4
+0x2efa: rmem  $5 $4 $6
+0x2efb: halt
+0x2efc: cmove $2 $7 $2
+0x2efd: free  $1
+0x2efe: cmove $5 $6 $6
+0x2eff: rmem  $3 $3 $1
+0x2f00: alloc $2 $0
+0x2f01: free  $7
+0x2f02: free  $1
+0x2f03: free  $1
+0x2f04: div   $6 $4 $3
+0x2f05: mul   $3 $0 $1
+0x2f06: alloc $3 $0
+0x2f07: free  $0
+0x2f08: out   $1
+0x2f09: free  $0
+0x2f0a: free  $4
+0x2f0b: alloc $7 $6
+0x2f0c: free  $1
+0x2f0d: free  $6
+0x2f0e: free  $7
+0x2f0f: out   $3
+0x2f10: free  $0
+0x2f11: rmem  $4 $5 $7
+0x2f12: wmem  $3 $4 $7
+0x2f13: free  $6
+0x2f14: free  $5
+0x2f15: free  $1
+0x2f16: free  $6
+0x2f17: out   $1
+0x2f18: add   $0 $1 $3
+0x2f19: div   $3 $4 $3
+0x2f1a: halt
+0x2f1b: free  $2
+0x2f1c: free  $3
+0x2f1d: free  $0
+0x2f1e: jump  $7 $2
+0x2f1f: free  $5
+0x2f20: free  $1
+0x2f21: nand  $6 $7 $7
+0x2f22: free  $3
+0x2f23: free  $3
+0x2f24: free  $0
+0x2f25: free  $7
+0x2f26: out   $7
+0x2f27: halt
+0x2f28: alloc $3 $0
+0x2f29: free  $6
+0x2f2a: free  $4
+0x2f2b: free  $2
+0x2f2c: cmove $4 $3 $7
+0x2f2d: mul   $6 $5 $5
+0x2f2e: add   $2 $5 $5
+0x2f2f: cmove $5 $6 $6
+0x2f30: cmove $7 $1 $3
+0x2f31: free  $1
+0x2f32: free  $7
+0x2f33: free  $6
+0x2f34: free  $2
+0x2f35: cmove $5 $1 $6
+0x2f36: wmem  $0 $2 $0
+0x2f37: free  $7
+0x2f38: free  $0
+0x2f39: free  $1
+0x2f3a: free  $3
+0x2f3b: free  $2
+0x2f3c: jump  $0 $0
+0x2f3d: free  $5
+0x2f3e: free  $7
+0x2f3f: rmem  $4 $1 $1
+0x2f40: alloc $4 $5
+0x2f41: out   $7
+0x2f42: out   $3
+0x2f43: free  $2
+0x2f44: out   $7
+0x2f45: free  $1
+0x2f46: free  $4
+0x2f47: free  $6
+0x2f48: free  $0
+0x2f49: cmove $6 $4 $2
+0x2f4a: free  $3
+0x2f4b: out   $5
+0x2f4c: mul   $4 $7 $0
+0x2f4d: mul   $4 $1 $6
+0x2f4e: mul   $4 $2 $1
+0x2f4f: div   $2 $1 $6
+0x2f50: alloc $4 $6
+0x2f51: alloc $2 $4
+0x2f52: alloc $3 $2
+0x2f53: out   $6
+0x2f54: free  $1
+0x2f55: alloc $2 $5
+0x2f56: mul   $6 $6 $7
+0x2f57: mul   $6 $0 $7
+0x2f58: cmove $7 $5 $4
+0x2f59: cmove $4 $1 $6
+0x2f5a: wmem  $1 $6 $6
+0x2f5b: cmove $4 $0 $6
+0x2f5c: cmove $5 $3 $4
+0x2f5d: cmove $1 $6 $2
+0x2f5e: cmove $1 $2 $5
+0x2f5f: cmove $3 $3 $3
+0x2f60: cmove $7 $5 $0
+0x2f61: cmove $7 $3 $5
+0x2f62: cmove $3 $5 $7
+0x2f63: cmove $3 $7 $2
+0x2f64: cmove $3 $6 $5
+0x2f65: cmove $3 $7 $1
+0x2f66: cmove $4 $2 $2
+0x2f67: cmove $5 $4 $3
+0x2f68: cmove $0 $0 $7
+0x2f69: cmove $0 $3 $0
+0x2f6a: cmove $3 $7 $2
+0x2f6b: cmove $3 $7 $4
+0x2f6c: cmove $3 $7 $7
+0x2f6d: cmove $1 $2 $4
+0x2f6e: cmove $3 $5 $6
+0x2f6f: cmove $6 $2 $4
+0x2f70: cmove $5 $2 $6
+0x2f71: cmove $3 $6 $2
+0x2f72: cmove $2 $5 $5
+0x2f73: out   $6
+0x2f74: cmove $3 $0 $0
+0x2f75: cmove $4 $0 $6
+0x2f76: rmem  $0 $6 $3
+0x2f77: alloc $1 $2
+0x2f78: in    $5
+0x2f79: nand  $1 $2 $4
+0x2f7a: alloc $1 $0
+0x2f7b: alloc $4 $1
+0x2f7c: halt
+0x2f7d: halt
+0x2f7e: halt
+0x2f7f: halt
+0x2f80: div   $5 $5 $2
+0x2f81: div   $1 $6 $5
+0x2f82: free  $5
+0x2f83: add   $6 $0 $0
+0x2f84: free  $6
+0x2f85: nand  $4 $4 $7
+0x2f86: cmove $6 $4 $3
+0x2f87: mul   $6 $2 $1
+0x2f88: nand  $7 $5 $1
+0x2f89: cmove $3 $3 $2
+0x2f8a: add   $0 $7 $3
+0x2f8b: cmove $0 $7 $3
+0x2f8c: cmove $2 $5 $3
+0x2f8d: cmove $3 $1 $5
+0x2f8e: cmove $1 $7 $0
+0x2f8f: mul   $4 $4 $0
+0x2f90: mul   $4 $4 $2
+0x2f91: mul   $4 $4 $4
+0x2f92: mul   $4 $4 $6
+0x2f93: cmove $6 $5 $0
+0x2f94: cmove $5 $7 $3
+0x2f95: cmove $2 $4 $6
+0x2f96: cmove $1 $3 $5
+0x2f97: cmove $5 $3 $2
+0x2f98: cmove $3 $4 $1
+0x2f99: out   $6
+0x2f9a: mul   $2 $4 $3
+0x2f9b: mul   $4 $6 $7
+0x2f9c: cmove $6 $7 $1
+0x2f9d: cmove $3 $6 $6
+0x2f9e: cmove $4 $7 $7
+0x2f9f: add   $5 $6 $0
+0x2fa0: mul   $5 $6 $2
+0x2fa1: out   $3
+0x2fa2: cmove $4 $5 $1
+0x2fa3: cmove $6 $0 $1
+0x2fa4: free  $6
+0x2fa5: jump  $7 $4
+0x2fa6: alloc $2 $1
+0x2fa7: alloc $2 $6
+0x2fa8: alloc $0 $0
+0x2fa9: alloc $5 $4
+0x2faa: free  $0
+0x2fab: out   $3
+0x2fac: out   $0
+0x2fad: alloc $6 $6
+0x2fae: alloc $4 $3
+0x2faf: mul   $3 $3 $5
+0x2fb0: mul   $4 $1 $0
+0x2fb1: alloc $1 $0
+0x2fb2: div   $7 $4 $2
+0x2fb3: add   $7 $7 $2
+0x2fb4: mul   $4 $2 $1
+0x2fb5: halt
+0x2fb6: add   $6 $5 $0
+0x2fb7: add   $1 $4 $0
+0x2fb8: rmem  $1 $7 $3
+0x2fb9: rmem  $5 $7 $7
+0x2fba: alloc $5 $1
+0x2fbb: free  $2
+0x2fbc: out   $4
+0x2fbd: free  $3
+0x2fbe: halt
+0x2fbf: alloc $1 $3
+0x2fc0: alloc $5 $0
+0x2fc1: halt
+0x2fc2: div   $3 $7 $3
+0x2fc3: in    $5
+0x2fc4: cmove $3 $1 $1
+0x2fc5: rmem  $2 $6 $3
+0x2fc6: free  $1
+0x2fc7: nand  $1 $3 $1
+0x2fc8: div   $1 $1 $5
+0x2fc9: nand  $4 $7 $3
+0x2fca: cmove $2 $7 $6
+0x2fcb: div   $6 $5 $2
+0x2fcc: cmove $3 $7 $7
+0x2fcd: mul   $1 $6 $6
+0x2fce: add   $1 $3 $4
+0x2fcf: cmove $6 $1 $2
+0x2fd0: cmove $2 $3 $5
+0x2fd1: mul   $7 $0 $6
+0x2fd2: rmem  $4 $7 $2
+0x2fd3: div   $2 $0 $4
+0x2fd4: add   $0 $6 $0
+0x2fd5: free  $0
+0x2fd6: cmove $2 $7 $3
+0x2fd7: out   $2
+0x2fd8: cmove $0 $5 $1
+0x2fd9: nand  $5 $4 $1
+0x2fda: cmove $4 $1 $2
+0x2fdb: nand  $0 $0 $0
+0x2fdc: cmove $6 $2 $3
+0x2fdd: nand  $5 $5 $1
+0x2fde: alloc $6 $0
+0x2fdf: wmem  $6 $2 $7
+0x2fe0: cmove $5 $5 $6
+0x2fe1: cmove $3 $3 $2
+0x2fe2: in    $4
+0x2fe3: wmem  $6 $7 $1
+0x2fe4: out   $5
+0x2fe5: alloc $7 $7
+0x2fe6: alloc $0 $7
+0x2fe7: add   $3 $1 $6
+0x2fe8: add   $4 $0 $3
+0x2fe9: alloc $0 $2
+0x2fea: alloc $1 $1
+0x2feb: alloc $1 $6
+0x2fec: cmove $2 $2 $5
+0x2fed: add   $4 $0 $2
+0x2fee: cmove $3 $3 $6
+0x2fef: cmove $5 $5 $1
+0x2ff0: cmove $7 $6 $4
+0x2ff1: free  $3
+0x2ff2: out   $0
+0x2ff3: cmove $7 $4 $0
+0x2ff4: add   $7 $4 $5
+0x2ff5: add   $0 $7 $7
+0x2ff6: add   $3 $2 $1
+0x2ff7: alloc $7 $7
+0x2ff8: alloc $0 $7
+0x2ff9: cmove $7 $2 $2
+0x2ffa: alloc $6 $6
+0x2ffb: mul   $1 $1 $3
+0x2ffc: cmove $2 $3 $3
+0x2ffd: out   $7
+0x2ffe: add   $6 $6 $1
+0x2fff: cmove $7 $3 $3
+0x3000: halt
+0x3001: alloc $5 $4
+0x3002: free  $1
+0x3003: mul   $7 $4 $4
+0x3004: div   $3 $3 $1
+0x3005: cmove $3 $4 $5
+0x3006: mul   $2 $4 $6
+0x3007: alloc $4 $4
+0x3008: add   $4 $0 $1
+0x3009: nand  $6 $1 $3
+0x300a: alloc $5 $5
+0x300b: add   $3 $5 $5
+0x300c: halt
+0x300d: alloc $3 $5
+0x300e: add   $5 $7 $3
+0x300f: nand  $7 $1 $1
+0x3010: alloc $0 $2
+0x3011: out   $1
+0x3012: nand  $0 $1 $4
+0x3013: add   $2 $3 $3
+0x3014: div   $2 $0 $5
+0x3015: mul   $0 $5 $4
+0x3016: cmove $0 $2 $6
+0x3017: div   $2 $5 $6
+0x3018: div   $7 $6 $0
+0x3019: add   $0 $7 $7
+0x301a: wmem  $2 $5 $1
+0x301b: nand  $6 $1 $6
+0x301c: cmove $0 $5 $7
+0x301d: rmem  $4 $2 $0
+0x301e: cmove $4 $6 $3
+0x301f: halt
+0x3020: mul   $6 $5 $6
+0x3021: add   $2 $3 $2
+0x3022: add   $7 $5 $4
+0x3023: cmove $0 $2 $5
+0x3024: add   $5 $3 $6
+0x3025: wmem  $3 $3 $7
+0x3026: halt
+0x3027: alloc $1 $0
+0x3028: out   $2
+0x3029: cmove $6 $4 $5
+0x302a: mul   $4 $4 $6
+0x302b: mul   $1 $0 $6
+0x302c: div   $4 $5 $1
+0x302d: wmem  $6 $5 $1
+0x302e: halt
+0x302f: halt
+0x3030: alloc $1 $2
+0x3031: cmove $6 $2 $4
+0x3032: div   $3 $2 $5
+0x3033: rmem  $0 $0 $6
+0x3034: out   $2
+0x3035: nand  $6 $0 $1
+0x3036: mul   $2 $7 $5
+0x3037: halt
+0x3038: add   $4 $5 $6
+0x3039: add   $3 $4 $0
+0x303a: halt
+0x303b: div   $7 $4 $1
+0x303c: cmove $2 $6 $5
+0x303d: out   $7
+0x303e: out   $5
+0x303f: add   $0 $3 $0
+0x3040: alloc $3 $5
+0x3041: nand  $5 $7 $4
+0x3042: out   $5
+0x3043: out   $1
+0x3044: div   $2 $3 $7
+0x3045: mul   $4 $5 $5
+0x3046: nand  $0 $5 $2
+0x3047: out   $6
+0x3048: halt
+0x3049: alloc $7 $6
+0x304a: add   $7 $3 $6
+0x304b: cmove $4 $3 $5
+0x304c: div   $2 $0 $6
+0x304d: div   $0 $7 $7
+0x304e: alloc $3 $0
+0x304f: mul   $1 $4 $4
+0x3050: add   $1 $0 $3
+0x3051: out   $0
+0x3052: mul   $5 $3 $1
+0x3053: out   $3
+0x3054: alloc $1 $3
+0x3055: nand  $0 $2 $7
+0x3056: div   $6 $1 $0
+0x3057: halt
+0x3058: mul   $7 $3 $3
+0x3059: wmem  $6 $5 $1
+0x305a: out   $3
+0x305b: add   $1 $5 $0
+0x305c: wmem  $2 $7 $4
+0x305d: nand  $7 $3 $3
+0x305e: out   $7
+0x305f: mul   $2 $0 $6
+0x3060: nand  $7 $6 $1
+0x3061: free  $0
+0x3062: halt
+0x3063: alloc $3 $7
+0x3064: nand  $2 $2 $0
+0x3065: add   $0 $7 $2
+0x3066: cmove $2 $6 $3
+0x3067: div   $0 $6 $0
+0x3068: mul   $5 $5 $1
+0x3069: wmem  $2 $7 $0
+0x306a: halt
+0x306b: div   $7 $4 $5
+0x306c: out   $4
+0x306d: wmem  $2 $4 $2
+0x306e: alloc $2 $0
+0x306f: mul   $5 $2 $6
+0x3070: out   $0
+0x3071: div   $3 $1 $0
+0x3072: halt
+0x3073: alloc $6 $5
+0x3074: div   $2 $4 $6
+0x3075: halt
+0x3076: alloc $0 $0
+0x3077: div   $2 $5 $1
+0x3078: out   $5
+0x3079: alloc $1 $5
+0x307a: alloc $3 $2
+0x307b: add   $1 $6 $6
+0x307c: cmove $0 $7 $6
+0x307d: cmove $3 $3 $7
+0x307e: out   $0
+0x307f: out   $2
+0x3080: add   $0 $7 $5
+0x3081: wmem  $3 $0 $3
+0x3082: add   $6 $7 $2
+0x3083: add   $3 $5 $4
+0x3084: out   $1
+0x3085: wmem  $1 $4 $2
+0x3086: cmove $4 $5 $4
+0x3087: out   $0
+0x3088: add   $7 $4 $2
+0x3089: out   $4
+0x308a: cmove $4 $1 $4
+0x308b: add   $0 $0 $2
+0x308c: out   $5
+0x308d: add   $0 $4 $6
+0x308e: cmove $7 $1 $4
+0x308f: add   $5 $3 $0
+0x3090: add   $7 $7 $3
+0x3091: out   $5
+0x3092: wmem  $4 $3 $4
+0x3093: add   $6 $7 $6
+0x3094: wmem  $4 $1 $4
+0x3095: wmem  $7 $1 $3
+0x3096: mul   $5 $1 $3
+0x3097: halt
+0x3098: add   $7 $5 $7
+0x3099: halt
+0x309a: div   $3 $0 $7
+0x309b: add   $0 $1 $0
+0x309c: add   $5 $2 $6
+0x309d: free  $7
+0x309e: nand  $4 $0 $3
+0x309f: add   $2 $7 $2
+0x30a0: nand  $7 $5 $5
+0x30a1: free  $5
+0x30a2: mul   $2 $5 $2
+0x30a3: div   $5 $2 $3
+0x30a4: wmem  $1 $7 $5
+0x30a5: out   $5
+0x30a6: free  $6
+0x30a7: add   $7 $2 $1
+0x30a8: free  $0
+0x30a9: free  $7
+0x30aa: alloc $0 $4
+0x30ab: alloc $1 $4
+0x30ac: free  $6
+0x30ad: alloc $4 $7
+0x30ae: free  $3
+0x30af: free  $5
+0x30b0: alloc $4 $5
+0x30b1: nand  $5 $1 $6
+0x30b2: free  $1
+0x30b3: rmem  $1 $5 $1
+0x30b4: nand  $2 $6 $1
+0x30b5: out   $0
+0x30b6: div   $7 $7 $7
+0x30b7: mul   $7 $3 $6
+0x30b8: alloc $0 $2
+0x30b9: alloc $7 $3
+0x30ba: add   $0 $6 $5
+0x30bb: free  $5
+0x30bc: halt
+0x30bd: cmove $5 $1 $4
+0x30be: cmove $0 $0 $1
+0x30bf: out   $7
+0x30c0: alloc $5 $4
+0x30c1: out   $5
+0x30c2: jump  $6 $7
+0x30c3: in    $5
+0x30c4: alloc $4 $0
+0x30c5: wmem  $0 $6 $2
+0x30c6: free  $0
+0x30c7: out   $0
+0x30c8: div   $4 $2 $4
+0x30c9: mul   $2 $3 $4
+0x30ca: div   $7 $5 $5
+0x30cb: out   $5
+0x30cc: out   $5
+0x30cd: alloc $3 $7
+0x30ce: halt
+0x30cf: free  $4
+0x30d0: free  $7
+0x30d1: imm   $1 26168758
+0x30d2: wmem  $3 $0 $0
+0x30d3: nand  $1 $5 $6
+0x30d4: cmove $1 $2 $2
+0x30d5: out   $2
+0x30d6: halt
+0x30d7: mul   $0 $7 $7
+0x30d8: alloc $5 $1
+0x30d9: free  $6
+0x30da: alloc $3 $5
+0x30db: out   $2
+0x30dc: mul   $6 $6 $2
+0x30dd: free  $1
+0x30de: halt
+0x30df: halt
+0x30e0: imm   $1 29108400
+0x30e1: nand  $2 $2 $2
+0x30e2: add   $2 $5 $7
+0x30e3: out   $6
+0x30e4: out   $5
+0x30e5: alloc $2 $1
+0x30e6: free  $4
+0x30e7: free  $2
+0x30e8: out   $4
+0x30e9: alloc $1 $4
+0x30ea: out   $2
+0x30eb: add   $4 $7 $7
+0x30ec: add   $3 $2 $4
+0x30ed: out   $1
+0x30ee: div   $2 $0 $1
+0x30ef: in    $5
+0x30f0: nand  $7 $0 $6
+0x30f1: out   $0
+0x30f2: out   $7
+0x30f3: alloc $6 $1
+0x30f4: out   $4
+0x30f5: out   $5
+0x30f6: nand  $6 $2 $3
+0x30f7: nand  $1 $5 $0
+0x30f8: alloc $4 $3
+0x30f9: out   $4
+0x30fa: free  $0
+0x30fb: alloc $1 $6
+0x30fc: alloc $1 $3
+0x30fd: alloc $3 $7
+0x30fe: jump  $2 $7
+0x30ff: nand  $3 $5 $4
+0x3100: alloc $0 $5
+0x3101: halt
+0x3102: alloc $2 $1
+0x3103: alloc $0 $5
+0x3104: alloc $0 $6
+0x3105: alloc $0 $2
+0x3106: out   $7
+0x3107: out   $1
+0x3108: out   $2
+0x3109: out   $6
+0x310a: cmove $2 $0 $0
+0x310b: nand  $6 $6 $4
+0x310c: free  $3
+0x310d: wmem  $6 $0 $3
+0x310e: out   $0
+0x310f: out   $2
+0x3110: wmem  $6 $7 $6
+0x3111: out   $7
+0x3112: out   $7
+0x3113: cmove $0 $5 $1
+0x3114: nand  $3 $7 $0
+0x3115: free  $6
+0x3116: cmove $0 $4 $4
+0x3117: out   $0
+0x3118: nand  $3 $6 $5
+0x3119: halt
+0x311a: free  $2
+0x311b: alloc $2 $3
+0x311c: jump  $5 $3
+0x311d: out   $1
+0x311e: free  $5
+0x311f: alloc $7 $5
+0x3120: free  $2
+0x3121: alloc $4 $4
+0x3122: free  $4
+0x3123: free  $7
+0x3124: alloc $6 $0
+0x3125: cmove $2 $5 $4
+0x3126: mul   $1 $2 $7
+0x3127: wmem  $2 $7 $1
+0x3128: cmove $5 $5 $3
+0x3129: cmove $4 $5 $4
+0x312a: rmem  $6 $0 $6
+0x312b: jump  $1 $5
+0x312c: out   $2
+0x312d: out   $1
+0x312e: out   $3
+0x312f: div   $1 $5 $1
+0x3130: out   $5
+0x3131: alloc $0 $1
+0x3132: alloc $2 $0
+0x3133: out   $4
+0x3134: nand  $0 $5 $3
+0x3135: free  $0
+0x3136: out   $6
+0x3137: alloc $6 $5
+0x3138: cmove $2 $6 $6
+0x3139: rmem  $1 $0 $5
+0x313a: imm   $1 30574868
+0x313b: mul   $1 $1 $6
+0x313c: div   $3 $1 $3
+0x313d: alloc $1 $7
+0x313e: halt
+0x313f: cmove $4 $1 $4
+0x3140: alloc $5 $6
+0x3141: out   $7
+0x3142: wmem  $3 $7 $1
+0x3143: out   $5
+0x3144: alloc $0 $5
+0x3145: out   $7
+0x3146: div   $3 $1 $6
+0x3147: out   $1
+0x3148: out   $4
+0x3149: out   $2
+0x314a: in    $3
+0x314b: free  $1
+0x314c: free  $6
+0x314d: out   $1
+0x314e: mul   $7 $3 $3
+0x314f: out   $7
+0x3150: out   $5
+0x3151: out   $0
+0x3152: out   $0
+0x3153: out   $4
+0x3154: out   $6
+0x3155: free  $0
+0x3156: free  $7
+0x3157: out   $5
+0x3158: jump  $4 $6
+0x3159: mul   $7 $3 $7
+0x315a: halt
+0x315b: add   $4 $6 $2
+0x315c: halt
+0x315d: out   $1
+0x315e: free  $7
+0x315f: alloc $7 $5
+0x3160: wmem  $1 $0 $1
+0x3161: alloc $4 $6
+0x3162: cmove $6 $4 $5
+0x3163: out   $6
+0x3164: free  $6
+0x3165: free  $0
+0x3166: alloc $3 $7
+0x3167: free  $6
+0x3168: out   $7
+0x3169: out   $1
+0x316a: out   $3
+0x316b: add   $2 $5 $5
+0x316c: add   $0 $4 $6
+0x316d: halt
+0x316e: halt
+0x316f: free  $3
+0x3170: div   $3 $1 $3
+0x3171: alloc $6 $7
+0x3172: free  $0
+0x3173: alloc $6 $4
+0x3174: mul   $0 $4 $4
+0x3175: free  $7
+0x3176: jump  $0 $6
+0x3177: in    $3
+0x3178: out   $7
+0x3179: out   $1
+0x317a: out   $5
+0x317b: out   $5
+0x317c: add   $7 $2 $1
+0x317d: div   $3 $6 $3
+0x317e: free  $5
+0x317f: alloc $6 $7
+0x3180: nand  $1 $6 $5
+0x3181: div   $3 $3 $6
+0x3182: alloc $1 $5
+0x3183: wmem  $2 $5 $3
+0x3184: alloc $1 $2
+0x3185: out   $6
+0x3186: alloc $4 $4
+0x3187: div   $5 $3 $6
+0x3188: nand  $4 $5 $0
+0x3189: free  $7
+0x318a: free  $1
+0x318b: alloc $5 $0
+0x318c: free  $0
+0x318d: free  $2
+0x318e: nand  $7 $3 $5
+0x318f: alloc $7 $1
+0x3190: cmove $2 $4 $3
+0x3191: alloc $6 $7
+0x3192: free  $5
+0x3193: mul   $1 $4 $5
+0x3194: alloc $3 $0
+0x3195: mul   $4 $1 $6
+0x3196: alloc $6 $0
+0x3197: out   $3
+0x3198: cmove $3 $5 $2
+0x3199: free  $7
+0x319a: wmem  $7 $1 $5
+0x319b: nand  $5 $3 $0
+0x319c: free  $5
+0x319d: halt
+0x319e: out   $2
+0x319f: alloc $6 $3
+0x31a0: mul   $6 $1 $2
+0x31a1: out   $3
+0x31a2: alloc $7 $3
+0x31a3: wmem  $3 $4 $6
+0x31a4: div   $2 $0 $0
+0x31a5: free  $4
+0x31a6: wmem  $5 $6 $0
+0x31a7: out   $1
+0x31a8: free  $3
+0x31a9: out   $0
+0x31aa: rmem  $7 $2 $2
+0x31ab: div   $5 $6 $3
+0x31ac: free  $7
+0x31ad: div   $5 $4 $0
+0x31ae: out   $5
+0x31af: alloc $6 $4
+0x31b0: div   $6 $1 $4
+0x31b1: halt
+0x31b2: free  $6
+0x31b3: out   $0
+0x31b4: alloc $2 $5
+0x31b5: out   $0
+0x31b6: alloc $7 $4
+0x31b7: cmove $3 $4 $2
+0x31b8: add   $2 $0 $2
+0x31b9: cmove $0 $0 $4
+0x31ba: cmove $0 $4 $5
+0x31bb: add   $2 $6 $7
+0x31bc: out   $0
+0x31bd: out   $7
+0x31be: mul   $2 $3 $2
+0x31bf: free  $6
+0x31c0: cmove $7 $0 $7
+0x31c1: mul   $5 $3 $2
+0x31c2: free  $1
+0x31c3: div   $4 $7 $7
+0x31c4: div   $5 $7 $4
+0x31c5: alloc $0 $3
+0x31c6: halt
+0x31c7: alloc $6 $2
+0x31c8: alloc $0 $1
+0x31c9: div   $6 $4 $7
+0x31ca: add   $6 $4 $0
+0x31cb: add   $3 $6 $3
+0x31cc: halt
+0x31cd: mul   $7 $1 $1
+0x31ce: wmem  $4 $6 $1
+0x31cf: alloc $3 $5
+0x31d0: cmove $2 $7 $3
+0x31d1: nand  $5 $7 $4
+0x31d2: add   $7 $5 $6
+0x31d3: out   $0
+0x31d4: cmove $4 $3 $1
+0x31d5: mul   $5 $4 $4
+0x31d6: cmove $7 $2 $1
+0x31d7: alloc $1 $5
+0x31d8: div   $2 $4 $6
+0x31d9: add   $0 $5 $5
+0x31da: wmem  $6 $6 $2
+0x31db: div   $1 $3 $1
+0x31dc: wmem  $0 $0 $2
+0x31dd: wmem  $6 $6 $3
+0x31de: wmem  $1 $7 $0
+0x31df: free  $2
+0x31e0: alloc $2 $3
+0x31e1: wmem  $4 $0 $5
+0x31e2: out   $1
+0x31e3: cmove $4 $0 $7
+0x31e4: halt
+0x31e5: halt
+0x31e6: out   $6
+0x31e7: alloc $1 $4
+0x31e8: wmem  $7 $4 $3
+0x31e9: out   $5
+0x31ea: wmem  $2 $4 $3
+0x31eb: free  $1
+0x31ec: add   $4 $6 $3
+0x31ed: out   $1
+0x31ee: wmem  $6 $2 $7
+0x31ef: halt
+0x31f0: out   $6
+0x31f1: nand  $5 $6 $2
+0x31f2: nand  $7 $0 $2
+0x31f3: out   $6
+0x31f4: out   $0
+0x31f5: free  $4
+0x31f6: out   $7
+0x31f7: nand  $3 $7 $2
+0x31f8: cmove $0 $2 $6
+0x31f9: halt
+0x31fa: out   $6
+0x31fb: free  $6
+0x31fc: out   $2
+0x31fd: mul   $3 $5 $0
+0x31fe: out   $2
+0x31ff: div   $0 $7 $1
+0x3200: cmove $7 $1 $5
+0x3201: out   $0
+0x3202: rmem  $4 $0 $0
+0x3203: cmove $6 $7 $1
+0x3204: halt
+0x3205: cmove $5 $1 $1
+0x3206: out   $4
+0x3207: cmove $6 $2 $2
+0x3208: out   $2
+0x3209: alloc $0 $3
+0x320a: wmem  $6 $5 $5
+0x320b: mul   $2 $1 $7
+0x320c: in    $2
+0x320d: in    $3
+0x320e: out   $5
+0x320f: out   $2
+0x3210: mul   $5 $3 $3
+0x3211: cmove $4 $6 $7
+0x3212: halt
+0x3213: out   $2
+0x3214: wmem  $2 $1 $0
+0x3215: mul   $5 $5 $6
+0x3216: halt
+0x3217: div   $2 $2 $2
+0x3218: div   $3 $3 $3
+0x3219: halt
+0x321a: free  $6
+0x321b: imm   $3 6787053
+0x321c: add   $2 $0 $1
+0x321d: cmove $3 $1 $7
+0x321e: mul   $7 $3 $6
+0x321f: nand  $1 $2 $2
+0x3220: free  $4
+0x3221: free  $3
+0x3222: alloc $0 $1
+0x3223: free  $1
+0x3224: out   $6
+0x3225: nand  $4 $7 $6
+0x3226: nand  $0 $5 $5
+0x3227: alloc $6 $6
+0x3228: alloc $3 $3
+0x3229: nand  $4 $5 $0
+0x322a: add   $4 $2 $6
+0x322b: in    $3
+0x322c: alloc $4 $1
+0x322d: alloc $5 $3
+0x322e: mul   $5 $1 $4
+0x322f: nand  $0 $6 $2
+0x3230: div   $3 $5 $5
+0x3231: div   $2 $6 $6
+0x3232: div   $6 $3 $0
+0x3233: nand  $6 $7 $0
+0x3234: nand  $0 $5 $5
+0x3235: out   $5
+0x3236: nand  $0 $1 $0
+0x3237: nand  $5 $6 $6
+0x3238: alloc $5 $0
+0x3239: add   $7 $7 $6
+0x323a: halt
+0x323b: alloc $4 $5
+0x323c: alloc $3 $7
+0x323d: free  $0
+0x323e: free  $5
+0x323f: alloc $4 $0
+0x3240: cmove $3 $5 $1
+0x3241: out   $0
+0x3242: alloc $3 $7
+0x3243: mul   $4 $7 $6
+0x3244: nand  $0 $7 $2
+0x3245: add   $3 $0 $6
+0x3246: div   $2 $2 $6
+0x3247: wmem  $4 $0 $1
+0x3248: in    $3
+0x3249: cmove $0 $5 $5
+0x324a: out   $2
+0x324b: alloc $1 $1
+0x324c: nand  $7 $7 $5
+0x324d: nand  $0 $2 $2
+0x324e: out   $0
+0x324f: free  $1
+0x3250: nand  $5 $7 $1
+0x3251: nand  $4 $3 $1
+0x3252: nand  $5 $1 $1
+0x3253: out   $1
+0x3254: out   $6
+0x3255: out   $0
+0x3256: out   $3
+0x3257: imm   $3 11636138
+0x3258: free  $3
+0x3259: free  $0
+0x325a: out   $3
+0x325b: alloc $7 $2
+0x325c: div   $7 $1 $0
+0x325d: out   $0
+0x325e: halt
+0x325f: out   $5
+0x3260: out   $7
+0x3261: free  $4
+0x3262: free  $3
+0x3263: out   $3
+0x3264: nand  $5 $4 $5
+0x3265: nand  $1 $0 $1
+0x3266: jump  $6 $7
+0x3267: free  $5
+0x3268: free  $6
+0x3269: nand  $2 $7 $1
+0x326a: alloc $7 $6
+0x326b: add   $7 $4 $2
+0x326c: nand  $7 $6 $6
+0x326d: wmem  $0 $7 $4
+0x326e: out   $3
+0x326f: out   $2
+0x3270: nand  $0 $3 $1
+0x3271: out   $5
+0x3272: out   $2
+0x3273: out   $2
+0x3274: nand  $2 $4 $4
+0x3275: div   $7 $4 $3
+0x3276: out   $7
+0x3277: nand  $3 $6 $5
+0x3278: out   $4
+0x3279: out   $7
+0x327a: out   $1
+0x327b: out   $4
+0x327c: out   $7
+0x327d: nand  $7 $2 $7
+0x327e: alloc $2 $7
+0x327f: out   $5
+0x3280: out   $3
+0x3281: alloc $3 $5
+0x3282: out   $3
+0x3283: free  $0
+0x3284: imm   $0 24353255
+0x3285: free  $6
+0x3286: free  $5
+0x3287: out   $0
+0x3288: free  $3
+0x3289: alloc $3 $2
+0x328a: free  $3
+0x328b: nand  $7 $2 $0
+0x328c: rmem  $2 $7 $4
+0x328d: out   $1
+0x328e: div   $2 $2 $2
+0x328f: alloc $3 $6
+0x3290: add   $2 $1 $0
+0x3291: free  $2
+0x3292: add   $3 $2 $4
+0x3293: in    $0
+0x3294: cmove $1 $6 $6
+0x3295: free  $4
+0x3296: add   $7 $3 $5
+0x3297: mul   $0 $1 $6
+0x3298: nand  $7 $4 $3
+0x3299: out   $0
+0x329a: mul   $6 $1 $2
+0x329b: div   $6 $1 $5
+0x329c: mul   $1 $4 $2
+0x329d: out   $3
+0x329e: div   $6 $1 $5
+0x329f: mul   $2 $7 $4
+0x32a0: out   $3
+0x32a1: alloc $4 $5
+0x32a2: wmem  $4 $3 $3
+0x32a3: div   $4 $1 $2
+0x32a4: out   $2
+0x32a5: alloc $1 $5
+0x32a6: div   $4 $0 $6
+0x32a7: out   $4
+0x32a8: halt
+0x32a9: div   $0 $6 $4
+0x32aa: out   $4
+0x32ab: halt
+0x32ac: nand  $5 $6 $5
+0x32ad: out   $4
+0x32ae: div   $7 $3 $4
+0x32af: div   $7 $7 $3
+0x32b0: nand  $1 $5 $0
+0x32b1: wmem  $7 $6 $3
+0x32b2: mul   $1 $7 $5
+0x32b3: div   $3 $1 $3
+0x32b4: div   $3 $1 $5
+0x32b5: div   $1 $1 $2
+0x32b6: div   $4 $4 $1
+0x32b7: div   $4 $5 $7
+0x32b8: free  $3
+0x32b9: alloc $3 $5
+0x32ba: out   $2
+0x32bb: out   $3
+0x32bc: mul   $6 $6 $7
+0x32bd: mul   $0 $3 $7
+0x32be: mul   $4 $7 $2
+0x32bf: cmove $7 $2 $1
+0x32c0: mul   $0 $1 $1
+0x32c1: out   $6
+0x32c2: out   $5
+0x32c3: nand  $0 $1 $7
+0x32c4: div   $0 $5 $0
+0x32c5: div   $3 $7 $4
+0x32c6: alloc $0 $3
+0x32c7: halt
+0x32c8: wmem  $6 $4 $0
+0x32c9: cmove $4 $0 $4
+0x32ca: out   $5
+0x32cb: alloc $4 $5
+0x32cc: out   $7
+0x32cd: out   $7
+0x32ce: out   $2
+0x32cf: imm   $2 12494878
+0x32d0: in    $6
+0x32d1: out   $1
+0x32d2: alloc $3 $7
+0x32d3: out   $3
+0x32d4: out   $7
+0x32d5: out   $1
+0x32d6: out   $7
+0x32d7: nand  $6 $7 $3
+0x32d8: out   $7
+0x32d9: cmove $3 $2 $1
+0x32da: alloc $3 $1
+0x32db: out   $5
+0x32dc: out   $4
+0x32dd: alloc $5 $1
+0x32de: imm   $2 3050788
+0x32df: free  $4
+0x32e0: free  $6
+0x32e1: free  $1
+0x32e2: out   $7
+0x32e3: cmove $5 $6 $5
+0x32e4: out   $6
+0x32e5: alloc $1 $3
+0x32e6: nand  $3 $6 $7
+0x32e7: wmem  $5 $3 $6
+0x32e8: add   $4 $4 $5
+0x32e9: halt
+0x32ea: mul   $5 $0 $5
+0x32eb: add   $7 $7 $6
+0x32ec: out   $7
+0x32ed: cmove $0 $7 $2
+0x32ee: rmem  $1 $1 $1
+0x32ef: add   $7 $6 $2
+0x32f0: div   $6 $2 $3
+0x32f1: alloc $6 $1
+0x32f2: out   $0
+0x32f3: free  $6
+0x32f4: add   $2 $0 $2
+0x32f5: out   $6
+0x32f6: out   $1
+0x32f7: out   $4
+0x32f8: out   $7
+0x32f9: out   $2
+0x32fa: rmem  $6 $0 $5
+0x32fb: div   $5 $0 $0
+0x32fc: div   $2 $0 $6
+0x32fd: out   $4
+0x32fe: out   $7
+0x32ff: add   $3 $4 $1
+0x3300: mul   $7 $1 $7
+0x3301: mul   $2 $7 $2
+0x3302: div   $5 $2 $0
+0x3303: div   $0 $6 $7
+0x3304: div   $3 $7 $1
+0x3305: div   $1 $7 $5
+0x3306: div   $3 $1 $3
+0x3307: div   $3 $1 $5
+0x3308: div   $5 $1 $2
+0x3309: div   $2 $0 $1
+0x330a: free  $7
+0x330b: cmove $1 $6 $7
+0x330c: free  $3
+0x330d: out   $1
+0x330e: free  $7
+0x330f: wmem  $0 $6 $5
+0x3310: out   $2
+0x3311: out   $0
+0x3312: nand  $2 $7 $3
+0x3313: rmem  $3 $2 $1
+0x3314: div   $7 $3 $6
+0x3315: cmove $7 $2 $5
+0x3316: out   $7
+0x3317: out   $4
+0x3318: mul   $2 $3 $3
+0x3319: add   $0 $1 $6
+0x331a: wmem  $6 $4 $5
+0x331b: add   $6 $2 $2
+0x331c: nand  $4 $1 $6
+0x331d: in    $1
+0x331e: out   $4
+0x331f: free  $7
+0x3320: mul   $3 $1 $7
+0x3321: out   $4
+0x3322: out   $0
+0x3323: div   $7 $7 $0
+0x3324: out   $4
+0x3325: cmove $7 $6 $2
+0x3326: out   $7
+0x3327: alloc $2 $6
+0x3328: out   $1
+0x3329: imm   $1 24219005
+0x332a: free  $1
+0x332b: out   $0
+0x332c: out   $7
+0x332d: out   $1
+0x332e: in    $1
+0x332f: alloc $6 $7
+0x3330: alloc $7 $1
+0x3331: mul   $6 $5 $3
+0x3332: out   $4
+0x3333: mul   $4 $5 $1
+0x3334: mul   $2 $4 $4
+0x3335: out   $7
+0x3336: alloc $7 $2
+0x3337: free  $3
+0x3338: jump  $0 $1
+0x3339: free  $2
+0x333a: alloc $7 $1
+0x333b: in    $4
+0x333c: cmove $0 $5 $1
+0x333d: nand  $4 $0 $0
+0x333e: free  $6
+0x333f: out   $4
+0x3340: div   $5 $5 $6
+0x3341: alloc $5 $3
+0x3342: mul   $1 $6 $5
+0x3343: mul   $7 $5 $2
+0x3344: nand  $2 $7 $5
+0x3345: halt
+0x3346: out   $2
+0x3347: imm   $4 4260225
+0x3348: halt
+0x3349: alloc $3 $6
+0x334a: mul   $3 $5 $3
+0x334b: out   $7
+0x334c: out   $4
+0x334d: div   $6 $0 $2
+0x334e: free  $5
+0x334f: out   $5
+0x3350: rmem  $1 $7 $0
+0x3351: free  $4
+0x3352: in    $2
+0x3353: in    $6
+0x3354: alloc $1 $7
+0x3355: out   $4
+0x3356: imm   $4 17936488
+0x3357: alloc $3 $4
+0x3358: add   $1 $1 $3
+0x3359: alloc $5 $4
+0x335a: cmove $3 $2 $3
+0x335b: rmem  $3 $0 $0
+0x335c: in    $1
+0x335d: free  $0
+0x335e: wmem  $3 $2 $5
+0x335f: halt
+0x3360: alloc $6 $7
+0x3361: alloc $5 $6
+0x3362: mul   $4 $1 $0
+0x3363: nand  $4 $7 $0
+0x3364: div   $1 $3 $1
+0x3365: out   $0
+0x3366: nand  $6 $4 $3
+0x3367: halt
+0x3368: div   $6 $4 $7
+0x3369: in    $0
+0x336a: cmove $4 $6 $6
+0x336b: out   $1
+0x336c: free  $4
+0x336d: out   $0
+0x336e: cmove $7 $7 $2
+0x336f: out   $2
+0x3370: add   $6 $6 $2
+0x3371: add   $0 $3 $6
+0x3372: cmove $6 $4 $0
+0x3373: add   $5 $4 $1
+0x3374: out   $4
+0x3375: div   $0 $7 $5
+0x3376: free  $3
+0x3377: out   $5
+0x3378: out   $4
+0x3379: out   $3
+0x337a: out   $4
+0x337b: alloc $3 $3
+0x337c: out   $1
+0x337d: div   $4 $0 $1
+0x337e: alloc $1 $5
+0x337f: out   $2
+0x3380: nand  $3 $1 $5
+0x3381: alloc $5 $7
+0x3382: out   $4
+0x3383: free  $5
+0x3384: add   $4 $3 $2
+0x3385: mul   $0 $4 $1
+0x3386: out   $5
+0x3387: out   $2
+0x3388: alloc $3 $4
+0x3389: div   $4 $5 $1
+0x338a: out   $7
+0x338b: free  $5
+0x338c: mul   $4 $7 $6
+0x338d: out   $7
+0x338e: nand  $5 $6 $7
+0x338f: add   $4 $7 $1
+0x3390: halt
+0x3391: nand  $7 $6 $4
+0x3392: rmem  $6 $0 $5
+0x3393: add   $1 $1 $0
+0x3394: alloc $1 $5
+0x3395: in    $5
+0x3396: mul   $4 $6 $1
+0x3397: div   $3 $6 $1
+0x3398: nand  $1 $7 $5
+0x3399: cmove $3 $6 $7
+0x339a: out   $4
+0x339b: halt
+0x339c: in    $5
+0x339d: halt
+0x339e: halt
+0x339f: div   $7 $0 $5
+0x33a0: in    $2
+0x33a1: add   $3 $7 $7
+0x33a2: out   $4
+0x33a3: cmove $6 $5 $4
+0x33a4: cmove $0 $0 $1
+0x33a5: cmove $2 $4 $2
+0x33a6: out   $2
+0x33a7: out   $4
+0x33a8: add   $5 $4 $2
+0x33a9: rmem  $3 $7 $1
+0x33aa: in    $2
+0x33ab: div   $6 $5 $2
+0x33ac: free  $1
+0x33ad: nand  $7 $4 $1
+0x33ae: in    $4
+0x33af: out   $5
+0x33b0: jump  $5 $7
+0x33b1: halt
+0x33b2: in    $4
+0x33b3: halt
+0x33b4: free  $3
+0x33b5: cmove $6 $0 $5
+0x33b6: add   $5 $0 $3
+0x33b7: add   $3 $3 $6
+0x33b8: cmove $1 $0 $3
+0x33b9: cmove $1 $1 $7
+0x33ba: out   $2
+0x33bb: halt
+0x33bc: cmove $2 $1 $4
+0x33bd: cmove $1 $4 $6
+0x33be: cmove $5 $5 $0
+0x33bf: imm   $3 6171383
+0x33c0: alloc $3 $1
+0x33c1: out   $5
+0x33c2: out   $4
+0x33c3: nand  $0 $0 $7
+0x33c4: div   $3 $1 $3
+0x33c5: mul   $0 $6 $5
+0x33c6: div   $4 $7 $5
+0x33c7: alloc $2 $1
+0x33c8: nand  $4 $0 $1
+0x33c9: cmove $3 $5 $3
+0x33ca: in    $1
+0x33cb: nand  $7 $7 $7
+0x33cc: out   $7
+0x33cd: div   $0 $4 $2
+0x33ce: wmem  $3 $7 $3
+0x33cf: nand  $5 $3 $5
+0x33d0: in    $2
+0x33d1: halt
+0x33d2: in    $1
+0x33d3: mul   $3 $2 $7
+0x33d4: cmove $5 $5 $2
+0x33d5: halt
+0x33d6: alloc $2 $6
+0x33d7: out   $0
+0x33d8: out   $3
+0x33d9: free  $6
+0x33da: mul   $5 $0 $2
+0x33db: out   $3
+0x33dc: in    $5
+0x33dd: cmove $5 $5 $4
+0x33de: in    $3
+0x33df: nand  $5 $6 $2
+0x33e0: nand  $6 $0 $4
+0x33e1: out   $6
+0x33e2: nand  $2 $5 $3
+0x33e3: nand  $3 $4 $4
+0x33e4: out   $5
+0x33e5: div   $2 $4 $0
+0x33e6: in    $3
+0x33e7: nand  $6 $2 $3
+0x33e8: div   $0 $7 $2
+0x33e9: cmove $7 $2 $3
+0x33ea: out   $4
+0x33eb: mul   $4 $2 $3
+0x33ec: add   $0 $5 $0
+0x33ed: out   $2
+0x33ee: nand  $6 $7 $5
+0x33ef: halt
+0x33f0: add   $1 $1 $0
+0x33f1: add   $5 $4 $5
+0x33f2: cmove $1 $1 $4
+0x33f3: cmove $6 $6 $5
+0x33f4: wmem  $0 $2 $4
+0x33f5: cmove $2 $6 $6
+0x33f6: rmem  $3 $0 $4
+0x33f7: out   $1
+0x33f8: out   $2
+0x33f9: out   $5
+0x33fa: add   $5 $4 $6
+0x33fb: free  $1
+0x33fc: cmove $1 $6 $4
+0x33fd: out   $4
+0x33fe: in    $5
+0x33ff: cmove $5 $6 $3
+0x3400: out   $4
+0x3401: cmove $2 $1 $3
+0x3402: out   $0
+0x3403: alloc $4 $6
+0x3404: cmove $2 $1 $5
+0x3405: alloc $0 $2
+0x3406: in    $5
+0x3407: out   $5
+0x3408: in    $7
+0x3409: in    $0
+0x340a: div   $2 $4 $6
+0x340b: rmem  $7 $7 $4
+0x340c: free  $1
+0x340d: wmem  $6 $2 $4
+0x340e: out   $2
+0x340f: out   $6
+0x3410: cmove $3 $2 $4
+0x3411: mul   $4 $2 $2
+0x3412: nand  $7 $0 $1
+0x3413: add   $1 $2 $3
+0x3414: halt
+0x3415: alloc $6 $7
+0x3416: in    $0
+0x3417: nand  $7 $4 $2
+0x3418: free  $7
+0x3419: free  $3
+0x341a: nand  $5 $7 $2
+0x341b: nand  $1 $6 $5
+0x341c: mul   $4 $4 $2
+0x341d: nand  $2 $3 $0
+0x341e: nand  $0 $3 $2
+0x341f: in    $3
+0x3420: nand  $1 $5 $5
+0x3421: nand  $4 $7 $0
+0x3422: wmem  $3 $5 $1
+0x3423: free  $5
+0x3424: free  $0
+0x3425: halt
+0x3426: div   $7 $0 $0
+0x3427: mul   $4 $3 $1
+0x3428: imm   $4 17412977
+0x3429: nand  $5 $1 $4
+0x342a: div   $5 $6 $6
+0x342b: cmove $4 $5 $1
+0x342c: out   $1
+0x342d: cmove $3 $4 $0
+0x342e: mul   $1 $5 $5
+0x342f: add   $1 $7 $4
+0x3430: cmove $1 $2 $2
+0x3431: mul   $2 $7 $3
+0x3432: rmem  $3 $3 $7
+0x3433: wmem  $5 $1 $3
+0x3434: cmove $5 $7 $0
+0x3435: cmove $0 $2 $2
+0x3436: mul   $3 $7 $5
+0x3437: wmem  $7 $6 $4
+0x3438: wmem  $5 $7 $7
+0x3439: rmem  $6 $0 $1
+0x343a: rmem  $5 $3 $1
+0x343b: free  $4
+0x343c: cmove $3 $6 $6
+0x343d: add   $1 $2 $2
+0x343e: cmove $0 $4 $1
+0x343f: cmove $7 $5 $0
+0x3440: halt
+0x3441: in    $2
+0x3442: mul   $3 $5 $3
+0x3443: mul   $6 $7 $7
+0x3444: out   $2
+0x3445: cmove $0 $5 $6
+0x3446: div   $4 $7 $5
+0x3447: nand  $6 $4 $0
+0x3448: rmem  $0 $2 $2
+0x3449: mul   $1 $2 $2
+0x344a: mul   $6 $5 $0
+0x344b: mul   $4 $5 $2
+0x344c: mul   $1 $5 $4
+0x344d: mul   $2 $4 $1
+0x344e: cmove $2 $7 $0
+0x344f: add   $0 $6 $5
+0x3450: cmove $7 $2 $7
+0x3451: halt
+0x3452: rmem  $2 $0 $5
+0x3453: in    $2
+0x3454: cmove $1 $6 $0
+0x3455: cmove $1 $4 $0
+0x3456: wmem  $5 $5 $5
+0x3457: cmove $5 $0 $1
+0x3458: add   $0 $6 $5
+0x3459: in    $4
+0x345a: in    $7
+0x345b: in    $3
+0x345c: in    $3
+0x345d: nand  $4 $5 $5
+0x345e: mul   $7 $2 $4
+0x345f: rmem  $7 $2 $6
+0x3460: rmem  $2 $5 $6
+0x3461: mul   $7 $2 $0
+0x3462: out   $6
+0x3463: nand  $5 $5 $1
+0x3464: add   $4 $4 $6
+0x3465: out   $3
+0x3466: nand  $0 $4 $7
+0x3467: in    $4
+0x3468: out   $0
+0x3469: cmove $7 $7 $3
+0x346a: in    $5
+0x346b: in    $5
+0x346c: cmove $5 $6 $7
+0x346d: in    $5
+0x346e: out   $1
+0x346f: in    $7
+0x3470: out   $7
+0x3471: alloc $5 $7
+0x3472: wmem  $4 $4 $3
+0x3473: div   $3 $4 $5
+0x3474: in    $0
+0x3475: out   $0
+0x3476: in    $2
+0x3477: alloc $6 $3
+0x3478: in    $5
+0x3479: in    $0
+0x347a: wmem  $5 $3 $3
+0x347b: alloc $0 $5
+0x347c: in    $1
+0x347d: add   $2 $2 $5
+0x347e: in    $7
+0x347f: out   $1
+0x3480: in    $0
+0x3481: cmove $5 $6 $7
+0x3482: imm   $1 20297024
+0x3483: in    $2
+0x3484: alloc $0 $1
+0x3485: in    $4
+0x3486: add   $2 $1 $4
+0x3487: cmove $6 $5 $1
+0x3488: in    $7
+0x3489: nand  $2 $3 $5
+0x348a: alloc $3 $3
+0x348b: in    $5
+0x348c: out   $3
+0x348d: wmem  $6 $6 $3
+0x348e: nand  $3 $3 $1
+0x348f: halt
+0x3490: alloc $3 $0
+0x3491: wmem  $4 $3 $7
+0x3492: wmem  $3 $4 $1
+0x3493: cmove $0 $4 $4
+0x3494: div   $2 $3 $5
+0x3495: div   $5 $6 $1
+0x3496: wmem  $3 $6 $3
+0x3497: wmem  $7 $4 $4
+0x3498: in    $5
+0x3499: mul   $2 $7 $2
+0x349a: in    $6
+0x349b: in    $6
+0x349c: mul   $3 $7 $1
+0x349d: in    $1
+0x349e: cmove $3 $7 $6
+0x349f: mul   $6 $7 $5
+0x34a0: alloc $6 $7
+0x34a1: out   $6
+0x34a2: in    $0
+0x34a3: in    $2
+0x34a4: in    $4
+0x34a5: in    $6
+0x34a6: rmem  $5 $2 $7
+0x34a7: cmove $4 $0 $2
+0x34a8: mul   $4 $7 $1
+0x34a9: rmem  $6 $2 $6
+0x34aa: rmem  $6 $2 $0
+0x34ab: rmem  $1 $2 $2
+0x34ac: in    $2
+0x34ad: mul   $3 $0 $4
+0x34ae: in    $0
+0x34af: div   $1 $1 $0
+0x34b0: div   $7 $2 $0
+0x34b1: in    $2
+0x34b2: cmove $5 $2 $2
+0x34b3: cmove $4 $3 $5
+0x34b4: wmem  $2 $0 $6
+0x34b5: mul   $4 $7 $5
+0x34b6: halt
+0x34b7: free  $0
+0x34b8: in    $0
+0x34b9: cmove $7 $6 $5
+0x34ba: wmem  $2 $3 $0
+0x34bb: in    $2
+0x34bc: rmem  $5 $0 $0
+0x34bd: in    $2
+0x34be: div   $3 $7 $7
+0x34bf: rmem  $5 $6 $6
+0x34c0: in    $4
+0x34c1: in    $4
+0x34c2: rmem  $5 $1 $0
+0x34c3: free  $0
+0x34c4: in    $6
+0x34c5: add   $4 $0 $2
+0x34c6: free  $5
+0x34c7: wmem  $0 $1 $6
+0x34c8: add   $1 $3 $1
+0x34c9: in    $5
+0x34ca: in    $0
+0x34cb: alloc $1 $3
+0x34cc: mul   $3 $0 $7
+0x34cd: rmem  $6 $2 $4
+0x34ce: div   $1 $2 $2
+0x34cf: add   $7 $5 $2
+0x34d0: div   $5 $7 $4
+0x34d1: rmem  $5 $7 $4
+0x34d2: in    $6
+0x34d3: wmem  $1 $1 $3
+0x34d4: out   $7
+0x34d5: rmem  $3 $7 $6
+0x34d6: cmove $5 $0 $7
+0x34d7: cmove $2 $1 $5
+0x34d8: cmove $1 $5 $6
+0x34d9: cmove $6 $2 $2
+0x34da: cmove $6 $4 $1
+0x34db: cmove $3 $7 $2
+0x34dc: div   $3 $3 $4
+0x34dd: rmem  $5 $3 $5
+0x34de: in    $1
+0x34df: add   $3 $5 $4
+0x34e0: out   $6
+0x34e1: add   $2 $5 $4
+0x34e2: add   $6 $7 $4
+0x34e3: mul   $3 $0 $6
+0x34e4: out   $3
+0x34e5: cmove $3 $6 $1
+0x34e6: rmem  $0 $0 $1
+0x34e7: out   $1
+0x34e8: out   $5
+0x34e9: in    $5
+0x34ea: cmove $4 $2 $1
+0x34eb: div   $7 $3 $5
+0x34ec: cmove $2 $7 $0
+0x34ed: mul   $2 $0 $3
+0x34ee: alloc $3 $6
+0x34ef: nand  $6 $7 $4
+0x34f0: halt
+0x34f1: out   $6
+0x34f2: add   $2 $6 $2
+0x34f3: div   $2 $5 $2
+0x34f4: mul   $3 $2 $1
+0x34f5: mul   $2 $1 $0
+0x34f6: halt
+0x34f7: cmove $6 $0 $7
+0x34f8: rmem  $0 $4 $7
+0x34f9: in    $0
+0x34fa: out   $5
+0x34fb: div   $1 $2 $4
+0x34fc: out   $6
+0x34fd: out   $4
+0x34fe: cmove $5 $1 $1
+0x34ff: in    $0
+0x3500: mul   $2 $5 $0
+0x3501: nand  $7 $2 $1
+0x3502: out   $7
+0x3503: cmove $1 $0 $5
+0x3504: wmem  $2 $6 $1
+0x3505: cmove $7 $3 $2
+0x3506: in    $7
+0x3507: in    $4
+0x3508: cmove $0 $2 $4
+0x3509: imm   $0 17938592
+0x350a: out   $2
+0x350b: cmove $1 $2 $4
+0x350c: free  $6
+0x350d: add   $1 $6 $6
+0x350e: mul   $4 $2 $2
+0x350f: mul   $5 $7 $5
+0x3510: in    $7
+0x3511: free  $5
+0x3512: add   $1 $6 $4
+0x3513: cmove $5 $4 $4
+0x3514: add   $4 $0 $6
+0x3515: mul   $4 $5 $7
+0x3516: wmem  $6 $7 $6
+0x3517: alloc $2 $2
+0x3518: out   $1
+0x3519: add   $2 $0 $2
+0x351a: cmove $5 $1 $1
+0x351b: in    $1
+0x351c: in    $6
+0x351d: alloc $1 $0
+0x351e: out   $0
+0x351f: free  $6
+0x3520: free  $7
+0x3521: out   $6
+0x3522: cmove $5 $7 $0
+0x3523: cmove $1 $6 $2
+0x3524: cmove $1 $5 $5
+0x3525: in    $3
+0x3526: cmove $1 $0 $7
+0x3527: free  $5
+0x3528: mul   $2 $4 $7
+0x3529: out   $3
+0x352a: add   $1 $5 $7
+0x352b: div   $7 $0 $0
+0x352c: free  $0
+0x352d: free  $6
+0x352e: wmem  $4 $1 $3
+0x352f: cmove $1 $6 $5
+0x3530: in    $5
+0x3531: nand  $1 $3 $5
+0x3532: nand  $5 $5 $5
+0x3533: nand  $2 $7 $6
+0x3534: div   $0 $6 $2
+0x3535: in    $7
+0x3536: alloc $4 $6
+0x3537: out   $2
+0x3538: in    $5
+0x3539: in    $7
+0x353a: in    $0
+0x353b: in    $4
+0x353c: out   $7
+0x353d: cmove $1 $2 $2
+0x353e: alloc $2 $6
+0x353f: in    $5
+0x3540: add   $1 $3 $1
+0x3541: out   $6
+0x3542: in    $0
+0x3543: in    $7
+0x3544: in    $1
+0x3545: free  $4
+0x3546: out   $1
+0x3547: mul   $1 $5 $3
+0x3548: mul   $5 $0 $0
+0x3549: in    $2
+0x354a: wmem  $2 $7 $5
+0x354b: cmove $2 $1 $5
+0x354c: in    $3
+0x354d: free  $3
+0x354e: alloc $4 $2
+0x354f: out   $5
+0x3550: nand  $5 $1 $0
+0x3551: out   $6
+0x3552: add   $5 $5 $0
+0x3553: cmove $4 $1 $1
+0x3554: alloc $2 $3
+0x3555: cmove $3 $7 $3
+0x3556: cmove $2 $7 $0
+0x3557: cmove $3 $1 $0
+0x3558: wmem  $7 $6 $7
+0x3559: add   $4 $3 $1
+0x355a: in    $3
+0x355b: mul   $6 $2 $7
+0x355c: nand  $7 $3 $2
+0x355d: in    $2
+0x355e: wmem  $5 $5 $4
+0x355f: in    $6
+0x3560: in    $4
+0x3561: div   $7 $2 $7
+0x3562: cmove $7 $2 $3
+0x3563: imm   $5 17020859
+0x3564: out   $7
+0x3565: wmem  $7 $4 $1
+0x3566: in    $3
+0x3567: wmem  $7 $4 $7
+0x3568: div   $1 $4 $0
+0x3569: cmove $3 $2 $3
+0x356a: halt
+0x356b: mul   $4 $7 $1
+0x356c: cmove $7 $6 $4
+0x356d: mul   $1 $5 $6
+0x356e: cmove $7 $0 $2
+0x356f: cmove $0 $1 $7
+0x3570: in    $6
+0x3571: in    $6
+0x3572: div   $2 $2 $4
+0x3573: rmem  $3 $6 $4
+0x3574: mul   $2 $0 $5
+0x3575: mul   $6 $5 $5
+0x3576: rmem  $2 $6 $0
+0x3577: wmem  $0 $0 $2
+0x3578: in    $5
+0x3579: halt
+0x357a: div   $6 $2 $0
+0x357b: in    $7
+0x357c: in    $6
+0x357d: wmem  $5 $3 $6
+0x357e: in    $3
+0x357f: halt
+0x3580: cmove $4 $4 $6
+0x3581: div   $7 $6 $5
+0x3582: in    $6
+0x3583: in    $4
+0x3584: cmove $4 $5 $6
+0x3585: add   $7 $1 $1
+0x3586: in    $6
+0x3587: in    $5
+0x3588: in    $0
+0x3589: wmem  $3 $2 $1
+0x358a: in    $1
+0x358b: in    $6
+0x358c: mul   $6 $3 $3
+0x358d: halt
+0x358e: rmem  $6 $4 $0
+0x358f: wmem  $0 $0 $4
+0x3590: imm   $6 2407300
+0x3591: mul   $7 $0 $5
+0x3592: wmem  $6 $6 $2
+0x3593: add   $3 $7 $2
+0x3594: wmem  $3 $1 $7
+0x3595: halt
+0x3596: in    $3
+0x3597: in    $6
+0x3598: wmem  $3 $4 $2
+0x3599: cmove $1 $5 $4
+0x359a: in    $3
+0x359b: in    $5
+0x359c: in    $5
+0x359d: cmove $7 $7 $5
+0x359e: mul   $2 $1 $2
+0x359f: imm   $6 31635530
+0x35a0: out   $3
+0x35a1: in    $1
+0x35a2: in    $5
+0x35a3: in    $0
+0x35a4: in    $2
+0x35a5: in    $1
+0x35a6: in    $2
+0x35a7: mul   $0 $3 $3
+0x35a8: rmem  $7 $0 $5
+0x35a9: in    $5
+0x35aa: in    $7
+0x35ab: in    $1
+0x35ac: wmem  $2 $0 $3
+0x35ad: in    $5
+0x35ae: in    $0
+0x35af: out   $0
+0x35b0: in    $2
+0x35b1: cmove $7 $2 $1
+0x35b2: in    $1
+0x35b3: in    $7
+0x35b4: in    $5
+0x35b5: in    $1
+0x35b6: free  $2
+0x35b7: in    $7
+0x35b8: cmove $0 $0 $0
+0x35b9: cmove $2 $2 $3
+0x35ba: div   $7 $6 $2
+0x35bb: alloc $3 $4
+0x35bc: add   $3 $0 $7
+0x35bd: alloc $4 $7
+0x35be: in    $1
+0x35bf: wmem  $1 $1 $0
+0x35c0: in    $1
+0x35c1: rmem  $4 $5 $1
+0x35c2: in    $4
+0x35c3: in    $3
+0x35c4: cmove $4 $1 $1
+0x35c5: wmem  $4 $6 $4
+0x35c6: out   $5
+0x35c7: in    $2
+0x35c8: in    $1
+0x35c9: in    $6
+0x35ca: out   $6
+0x35cb: in    $6
+0x35cc: imm   $6 21477821
+0x35cd: in    $5
+0x35ce: halt
+0x35cf: add   $7 $7 $4
+0x35d0: add   $5 $5 $0
+0x35d1: alloc $5 $1
+0x35d2: in    $0
+0x35d3: in    $7
+0x35d4: alloc $5 $0
+0x35d5: div   $2 $1 $5
+0x35d6: out   $5
+0x35d7: in    $1
+0x35d8: alloc $2 $4
+0x35d9: add   $6 $5 $6
+0x35da: out   $3
+0x35db: mul   $1 $4 $4
+0x35dc: nand  $7 $6 $0
+0x35dd: cmove $5 $6 $5
+0x35de: in    $2
+0x35df: alloc $0 $3
+0x35e0: alloc $3 $6
+0x35e1: out   $0
+0x35e2: free  $4
+0x35e3: rmem  $7 $1 $1
+0x35e4: wmem  $4 $5 $2
+0x35e5: wmem  $4 $5 $4
+0x35e6: cmove $2 $3 $0
+0x35e7: add   $1 $1 $2
+0x35e8: mul   $6 $3 $1
+0x35e9: out   $6
+0x35ea: jump  $1 $3
+0x35eb: div   $2 $3 $4
+0x35ec: mul   $6 $4 $5
+0x35ed: cmove $5 $0 $2
+0x35ee: cmove $7 $1 $2
+0x35ef: cmove $2 $5 $5
+0x35f0: wmem  $1 $0 $4
+0x35f1: wmem  $5 $0 $4
+0x35f2: wmem  $6 $3 $3
+0x35f3: mul   $0 $7 $5
+0x35f4: in    $6
+0x35f5: mul   $0 $6 $0
+0x35f6: halt
+0x35f7: alloc $2 $3
+0x35f8: out   $1
+0x35f9: div   $4 $0 $1
+0x35fa: out   $1
+0x35fb: cmove $4 $4 $6
+0x35fc: alloc $5 $5
+0x35fd: wmem  $1 $7 $7
+0x35fe: cmove $3 $3 $6
+0x35ff: out   $3
+0x3600: out   $2
+0x3601: out   $7
+0x3602: out   $3
+0x3603: add   $7 $1 $7
+0x3604: cmove $6 $1 $0
+0x3605: cmove $4 $7 $0
+0x3606: in    $3
+0x3607: cmove $6 $6 $4
+0x3608: div   $6 $2 $5
+0x3609: cmove $3 $6 $4
+0x360a: in    $3
+0x360b: in    $5
+0x360c: in    $6
+0x360d: wmem  $2 $5 $1
+0x360e: alloc $7 $7
+0x360f: add   $1 $2 $4
+0x3610: out   $4
+0x3611: alloc $3 $1
+0x3612: cmove $2 $1 $7
+0x3613: cmove $0 $0 $1
+0x3614: out   $0
+0x3615: in    $0
+0x3616: in    $6
+0x3617: imm   $1 18841630
+0x3618: add   $3 $6 $6
+0x3619: rmem  $2 $2 $6
+0x361a: add   $3 $4 $7
+0x361b: wmem  $2 $1 $7
+0x361c: out   $2
+0x361d: div   $6 $1 $7
+0x361e: cmove $0 $5 $2
+0x361f: nand  $7 $7 $7
+0x3620: cmove $1 $0 $2
+0x3621: rmem  $3 $1 $3
+0x3622: in    $5
+0x3623: free  $6
+0x3624: alloc $5 $0
+0x3625: out   $2
+0x3626: imm   $3 9056263
+0x3627: add   $7 $2 $4
+0x3628: add   $2 $4 $6
+0x3629: out   $0
+0x362a: out   $0
+0x362b: halt
+0x362c: cmove $0 $5 $4
+0x362d: in    $5
+0x362e: nand  $7 $2 $1
+0x362f: add   $5 $4 $5
+0x3630: cmove $2 $7 $4
+0x3631: nand  $2 $6 $2
+0x3632: nand  $3 $1 $5
+0x3633: out   $0
+0x3634: div   $1 $4 $3
+0x3635: out   $0
+0x3636: halt
+0x3637: out   $6
+0x3638: mul   $5 $6 $1
+0x3639: wmem  $2 $3 $5
+0x363a: in    $7
+0x363b: div   $4 $5 $4
+0x363c: nand  $1 $3 $1
+0x363d: alloc $7 $6
+0x363e: in    $0
+0x363f: in    $5
+0x3640: nand  $4 $3 $3
+0x3641: wmem  $7 $2 $6
+0x3642: wmem  $6 $0 $2
+0x3643: alloc $1 $5
+0x3644: imm   $1 11046262
+0x3645: out   $0
+0x3646: in    $0
+0x3647: alloc $1 $4
+0x3648: in    $3
+0x3649: in    $0
+0x364a: alloc $7 $5
+0x364b: free  $7
+0x364c: div   $6 $4 $7
+0x364d: out   $6
+0x364e: nand  $0 $4 $7
+0x364f: alloc $6 $5
+0x3650: out   $5
+0x3651: free  $2
+0x3652: out   $5
+0x3653: in    $6
+0x3654: alloc $4 $3
+0x3655: add   $6 $0 $5
+0x3656: free  $5
+0x3657: free  $0
+0x3658: in    $3
+0x3659: out   $4
+0x365a: out   $3
+0x365b: out   $0
+0x365c: in    $1
+0x365d: in    $3
+0x365e: mul   $2 $3 $4
+0x365f: alloc $6 $7
+0x3660: out   $5
+0x3661: in    $2
+0x3662: imm   $7 19758180
+0x3663: in    $3
+0x3664: div   $0 $2 $0
+0x3665: cmove $5 $2 $7
+0x3666: in    $5
+0x3667: halt
+0x3668: out   $3
+0x3669: mul   $2 $3 $0
+0x366a: div   $5 $5 $2
+0x366b: halt
+0x366c: in    $0
+0x366d: in    $7
+0x366e: in    $4
+0x366f: in    $3
+0x3670: in    $5
+0x3671: div   $0 $3 $4
+0x3672: rmem  $4 $0 $7
+0x3673: in    $5
+0x3674: halt
+0x3675: in    $0
+0x3676: cmove $2 $0 $3
+0x3677: cmove $6 $3 $5
+0x3678: in    $1
+0x3679: out   $4
+0x367a: in    $3
+0x367b: in    $6
+0x367c: in    $6
+0x367d: in    $6
+0x367e: cmove $6 $5 $0
+0x367f: add   $0 $3 $0
+0x3680: in    $5
+0x3681: in    $5
+0x3682: in    $0
+0x3683: cmove $7 $6 $5
+0x3684: cmove $6 $4 $6
+0x3685: in    $5
+0x3686: cmove $5 $7 $7
+0x3687: halt
+0x3688: cmove $4 $4 $4
+0x3689: in    $2
+0x368a: in    $0
+0x368b: in    $0
+0x368c: cmove $2 $6 $4
+0x368d: rmem  $3 $5 $7
+0x368e: alloc $5 $5
+0x368f: jump  $0 $4
+0x3690: in    $2
+0x3691: cmove $1 $4 $0
+0x3692: cmove $0 $6 $5
+0x3693: nand  $4 $0 $1
+0x3694: free  $7
+0x3695: out   $7
+0x3696: alloc $5 $3
+0x3697: out   $1
+0x3698: in    $0
+0x3699: wmem  $3 $5 $2
+0x369a: rmem  $1 $4 $0
+0x369b: in    $5
+0x369c: free  $2
+0x369d: cmove $1 $5 $5
+0x369e: imm   $6 24134360
+0x369f: in    $5
+0x36a0: in    $2
+0x36a1: in    $6
+0x36a2: mul   $2 $0 $1
+0x36a3: mul   $3 $7 $6
+0x36a4: mul   $1 $4 $1
+0x36a5: cmove $6 $4 $6
+0x36a6: wmem  $4 $2 $1
+0x36a7: mul   $3 $1 $6
+0x36a8: cmove $6 $7 $2
+0x36a9: cmove $1 $4 $3
+0x36aa: mul   $5 $5 $6
+0x36ab: cmove $7 $0 $2
+0x36ac: cmove $5 $5 $7
+0x36ad: div   $0 $5 $4
+0x36ae: in    $0
+0x36af: in    $7
+0x36b0: in    $5
+0x36b1: in    $0
+0x36b2: in    $2
+0x36b3: cmove $3 $4 $4
+0x36b4: mul   $5 $6 $4
+0x36b5: cmove $3 $0 $4
+0x36b6: jump  $1 $6
+0x36b7: jump  $6 $4
+0x36b8: cmove $0 $6 $7
+0x36b9: cmove $5 $4 $2
+0x36ba: jump  $4 $6
+0x36bb: in    $5
+0x36bc: nand  $2 $4 $5
+0x36bd: in    $1
+0x36be: in    $3
+0x36bf: in    $3
+0x36c0: cmove $7 $6 $7
+0x36c1: cmove $6 $7 $0
+0x36c2: in    $7
+0x36c3: in    $4
+0x36c4: rmem  $7 $7 $7
+0x36c5: div   $4 $6 $1
+0x36c6: add   $7 $5 $1
+0x36c7: in    $0
+0x36c8: in    $1
+0x36c9: cmove $6 $5 $0
+0x36ca: alloc $5 $6
+0x36cb: div   $5 $6 $0
+0x36cc: rmem  $5 $0 $3
+0x36cd: in    $2
+0x36ce: in    $2
+0x36cf: cmove $7 $0 $4
+0x36d0: in    $5
+0x36d1: in    $0
+0x36d2: in    $3
+0x36d3: out   $2
+0x36d4: wmem  $4 $4 $5
+0x36d5: in    $0
+0x36d6: cmove $4 $7 $7
+0x36d7: out   $7
+0x36d8: cmove $5 $5 $7
+0x36d9: free  $7
 0x36da: 
-0x36db: RMEM  $0 $3 $1
-0x36dc: IN    $6
-0x36dd: HALT
-0x36de: CMOVE $4 $2 $7
-0x36df: IN    $4
-0x36e0: CMOVE $0 $2 $7
-0x36e1: IN    $7
-0x36e2: CMOVE $5 $4 $2
-0x36e3: OUT   $7
-0x36e4: CMOVE $2 $5 $6
-0x36e5: OUT   $0
-0x36e6: CMOVE $6 $6 $4
-0x36e7: CMOVE $2 $1 $5
-0x36e8: CMOVE $2 $0 $6
-0x36e9: RMEM  $7 $7 $2
-0x36ea: CMOVE $3 $3 $5
-0x36eb: ADD   $3 $6 $2
-0x36ec: MUL   $0 $1 $4
-0x36ed: FREE  $5
-0x36ee: IN    $4
-0x36ef: OUT   $7
-0x36f0: NAND  $4 $0 $3
-0x36f1: NAND  $0 $7 $3
-0x36f2: ADD   $6 $4 $6
-0x36f3: CMOVE $3 $3 $6
-0x36f4: MUL   $0 $2 $4
-0x36f5: CMOVE $2 $2 $7
-0x36f6: MUL   $6 $6 $2
-0x36f7: JUMP  $7 $5
-0x36f8: IMM   $6 12696723
-0x36f9: IN    $5
-0x36fa: OUT   $1
-0x36fb: MUL   $1 $0 $1
-0x36fc: IN    $4
-0x36fd: IN    $2
-0x36fe: IN    $6
-0x36ff: JUMP  $1 $3
-0x3700: IN    $1
-0x3701: ALLOC $3 $1
-0x3702: IN    $4
-0x3703: IN    $5
-0x3704: JUMP  $0 $6
-0x3705: CMOVE $5 $2 $1
-0x3706: FREE  $1
-0x3707: DIV   $2 $3 $2
-0x3708: CMOVE $5 $4 $6
+0x36db: rmem  $0 $3 $1
+0x36dc: in    $6
+0x36dd: halt
+0x36de: cmove $4 $2 $7
+0x36df: in    $4
+0x36e0: cmove $0 $2 $7
+0x36e1: in    $7
+0x36e2: cmove $5 $4 $2
+0x36e3: out   $7
+0x36e4: cmove $2 $5 $6
+0x36e5: out   $0
+0x36e6: cmove $6 $6 $4
+0x36e7: cmove $2 $1 $5
+0x36e8: cmove $2 $0 $6
+0x36e9: rmem  $7 $7 $2
+0x36ea: cmove $3 $3 $5
+0x36eb: add   $3 $6 $2
+0x36ec: mul   $0 $1 $4
+0x36ed: free  $5
+0x36ee: in    $4
+0x36ef: out   $7
+0x36f0: nand  $4 $0 $3
+0x36f1: nand  $0 $7 $3
+0x36f2: add   $6 $4 $6
+0x36f3: cmove $3 $3 $6
+0x36f4: mul   $0 $2 $4
+0x36f5: cmove $2 $2 $7
+0x36f6: mul   $6 $6 $2
+0x36f7: jump  $7 $5
+0x36f8: imm   $6 12696723
+0x36f9: in    $5
+0x36fa: out   $1
+0x36fb: mul   $1 $0 $1
+0x36fc: in    $4
+0x36fd: in    $2
+0x36fe: in    $6
+0x36ff: jump  $1 $3
+0x3700: in    $1
+0x3701: alloc $3 $1
+0x3702: in    $4
+0x3703: in    $5
+0x3704: jump  $0 $6
+0x3705: cmove $5 $2 $1
+0x3706: free  $1
+0x3707: div   $2 $3 $2
+0x3708: cmove $5 $4 $6
 0x3709: 
-0x370a: FREE  $1
+0x370a: free  $1
