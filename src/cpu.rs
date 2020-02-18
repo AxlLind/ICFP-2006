@@ -44,13 +44,13 @@ impl CPU {
         NAND  => self.reg[a] = !(self.reg[b] & self.reg[c]),
         RMEM  => self.reg[a] = self.heap[self.reg[b] as usize][self.reg[c] as usize],
         WMEM  => self.heap[self.reg[a] as usize][self.reg[b] as usize] = self.reg[c],
-        ALLOC => self.reg[b] = self.calloc(self.reg[c] as usize) as u32,
-        FREE  => self.free(self.reg[c] as usize),
+        ALLOC => self.reg[b] = self.alloc(self.reg[c]),
+        FREE  => self.free(self.reg[c]),
         JUMP  => self.jump(self.reg[b], self.reg[c]),
-        IMM   => self.reg[(w >> 25) & 0x7] = (w & 0x1FFFFFF) as u32,
+        IMM   => self.reg[(w >> 25) & 0x7] = w as u32 & 0x1FF_FFFF,
         HALT  => return ExitCode::Halted,
         OUT   => return ExitCode::Output(self.reg[c] as u8 as char),
-        IN => match self.input.pop_front() {
+        IN    => match self.input.pop_front() {
           Some(i) => self.reg[c] = i,
           None    => {
             self.pc -= 1;
@@ -69,20 +69,21 @@ impl CPU {
 
   fn jump(&mut self, i: u32, new_pc: u32) {
     self.pc = new_pc as usize;
-    let i = ;
-    if i > 0 { self.heap[0] = self.heap[i].clone(); }
+    if i > 0 { self.heap[0] = self.heap[i as usize].clone(); }
   }
 
-  fn calloc(&mut self, size: usize) -> usize {
+  fn alloc(&mut self, size: u32) -> u32 {
+    let size = size as usize;
     if let Some(i) = self.free_list.pop() {
       self.heap[i].resize(size, 0);
-      return i;
+      return i as u32;
     }
     self.heap.push(vec![0; size]);
-    self.heap.len() - 1
+    self.heap.len() as u32 - 1
   }
 
-  fn free(&mut self, i: usize) {
+  fn free(&mut self, i: u32) {
+    let i = i as usize;
     self.heap[i].truncate(0);
     self.free_list.push(i);
   }
