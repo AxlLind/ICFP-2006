@@ -14,6 +14,7 @@ pub struct CPU {
   reg: [u32;8],
   heap: Vec<Vec<u32>>,
   input: VecDeque<u32>,
+  free_list: Vec<usize>,
   pc: usize,
 }
 
@@ -23,6 +24,7 @@ impl CPU {
       reg: [0;8],
       heap: vec![program.into()],
       input: VecDeque::new(),
+      free_list: Vec::new(),
       pc: 0,
     }
   }
@@ -35,24 +37,19 @@ impl CPU {
       let c = (w >> 0) & 0x7;
       self.pc += 1;
       match w >> 28 {
+        CMOVE => if self.reg[c] != 0 { self.reg[a] = self.reg[b]; },
         ADD   => self.reg[a] = self.reg[b] + self.reg[c],
         MUL   => self.reg[a] = self.reg[b] * self.reg[c],
         DIV   => self.reg[a] = self.reg[b] / self.reg[c],
         NAND  => self.reg[a] = !(self.reg[b] & self.reg[c]),
         RMEM  => self.reg[a] = self.heap[self.reg[b] as usize][self.reg[c] as usize],
         WMEM  => self.heap[self.reg[a] as usize][self.reg[b] as usize] = self.reg[c],
-        FREE  => self.heap[self.reg[c] as usize].clear(),
-        ALLOC => self.reg[b] = self.calloc(self.reg[c]) as u32,
+        ALLOC => self.reg[b] = self.calloc(self.reg[c] as usize) as u32,
+        FREE  => self.free(self.reg[c] as usize),
+        JUMP  => self.jump(self.reg[b], self.reg[c]),
         IMM   => self.reg[(w >> 25) & 0x7] = (w & 0x1FFFFFF) as u32,
         HALT  => return ExitCode::Halted,
         OUT   => return ExitCode::Output(self.reg[c] as u8 as char),
-        CMOVE => if self.reg[c] != 0 { self.reg[a] = self.reg[b]; },
-        JUMP  => {
-          if self.reg[b] > 0 {
-            self.heap[0] = self.heap[self.reg[b] as usize].clone();
-          }
-          self.pc = self.reg[c] as usize;
-        },
         IN => match self.input.pop_front() {
           Some(i) => self.reg[c] = i,
           None    => {
@@ -60,31 +57,33 @@ impl CPU {
             return ExitCode::NeedInput;
           }
         },
-        _   => unreachable!("invalid op {}", w >> 28),
+        _ => unreachable!("invalid op {}", w >> 28),
       }
     }
   }
 
   pub fn push_str(&mut self, s: &str) {
-    for b in s.bytes() { self.push_input(b); }
-    self.push_input(b'\n');
+    for b in s.bytes() { self.input.push_back(b as u32); }
+    self.input.push_back(b'\n' as u32);
   }
 
-  fn calloc(&mut self, size: u32) -> usize {
-    let size = size as usize;
-    match self.heap.iter().position(|v| v.is_empty()) {
-      Some(i) => {
-        self.heap[i].resize(size,0);
-        i
-      },
-      None => {
-        self.heap.push(vec![0;size]);
-        self.heap.len() - 1
-      }
+  fn jump(&mut self, i: u32, new_pc: u32) {
+    self.pc = new_pc as usize;
+    let i = ;
+    if i > 0 { self.heap[0] = self.heap[i].clone(); }
+  }
+
+  fn calloc(&mut self, size: usize) -> usize {
+    if let Some(i) = self.free_list.pop() {
+      self.heap[i].resize(size, 0);
+      return i;
     }
+    self.heap.push(vec![0; size]);
+    self.heap.len() - 1
   }
 
-  fn push_input<T: Into<u32>>(&mut self, t: T) {
-    self.input.push_back(t.into());
+  fn free(&mut self, i: usize) {
+    self.heap[i].truncate(0);
+    self.free_list.push(i);
   }
 }

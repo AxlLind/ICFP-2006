@@ -1,7 +1,8 @@
+#![allow(dead_code)]
 use std::fs;
-use std::io::Result;
+use std::io::{Result, Write};
 use itertools::Itertools;
-use easy_io::InputReader;
+use easy_io::{InputReader, OutputWriter};
 use cpu::{CPU, ExitCode};
 
 fn read_program(path: &str) -> Result<Vec<u32>> {
@@ -19,39 +20,41 @@ fn read_program(path: &str) -> Result<Vec<u32>> {
   Ok(program)
 }
 
-#[allow(dead_code)]
-fn codex_umz() -> Result<()> {
-  let program = read_program("./codex.umz")?;
-  let mut cpu = CPU::new(&program);
+fn run_cpu(cpu: &mut CPU) -> Result<()> {
+  let mut out = OutputWriter::new();
   let mut input = InputReader::new();
-
-  cpu.push_str("(\\b.bb)(\\v.vv)06FHPVboundvarHRAk\np");
   loop {
     match cpu.execute() {
-      ExitCode::Output(c) => print!("{}", c),
-      ExitCode::NeedInput => cpu.push_str(&input.next_line()),
+      ExitCode::Output(c) => out.print(c),
+      ExitCode::NeedInput => {
+        out.flush()?;
+        cpu.push_str(&input.next_line());
+      },
       ExitCode::Halted    => break,
     }
   }
   Ok(())
+}
+
+fn codex_umz() -> Result<()> {
+  let program = read_program("files/codex.umz")?;
+  let mut cpu = CPU::new(&program);
+  cpu.push_str("(\\b.bb)(\\v.vv)06FHPVboundvarHRAk\np");
+  run_cpu(&mut cpu)
+}
+
+fn sandmark() -> Result<()> {
+  let program = read_program("files/sandmark.umz")?;
+  let mut cpu = CPU::new(&program);
+  run_cpu(&mut cpu)
 }
 
 fn step_2() -> Result<()> {
-  let program = read_program("./step_2.umz")?;
+  let program = read_program("files/step_2.umz")?;
   let mut cpu = CPU::new(&program);
-  let mut input = InputReader::new();
-
-  cpu.push_str("(\\b.bb)(\\v.vv)06FHPVboundvarHRAk");
-  loop {
-    match cpu.execute() {
-      ExitCode::Output(c) => print!("{}", c),
-      ExitCode::NeedInput => cpu.push_str(&input.next_line()),
-      ExitCode::Halted    => break,
-    }
-  }
-  Ok(())
+  run_cpu(&mut cpu)
 }
 
 fn main() -> Result<()> {
-  codex_umz()
+  sandmark()
 }
