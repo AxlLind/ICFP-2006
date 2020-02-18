@@ -1,5 +1,5 @@
 [package]
-name = "ifcp_2006"
+name = "icfp_2006"
 version = "0.1.0"
 authors = ["Axel Lindeberg <axel.ew.lindeberg@gmail.com>"]
 edition = "2018"
