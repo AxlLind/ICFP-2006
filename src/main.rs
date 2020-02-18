@@ -2,8 +2,6 @@ use std::fs;
 use std::io::Result;
 use itertools::Itertools;
 use easy_io::InputReader;
-
-mod cpu;
 use cpu::{CPU, ExitCode};
 
 fn read_program(path: &str) -> Result<Vec<u32>> {
@@ -21,8 +19,25 @@ fn read_program(path: &str) -> Result<Vec<u32>> {
   Ok(program)
 }
 
-fn main() -> Result<()> {
+#[allow(dead_code)]
+fn codex_umz() -> Result<()> {
   let program = read_program("./codex.umz")?;
+  let mut cpu = CPU::new(&program);
+  let mut input = InputReader::new();
+
+  cpu.push_str("(\\b.bb)(\\v.vv)06FHPVboundvarHRAk\np");
+  loop {
+    match cpu.execute() {
+      ExitCode::Output(c) => print!("{}", c),
+      ExitCode::NeedInput => cpu.push_str(&input.next_line()),
+      ExitCode::Halted    => break,
+    }
+  }
+  Ok(())
+}
+
+fn step_2() -> Result<()> {
+  let program = read_program("./step_2.umz")?;
   let mut cpu = CPU::new(&program);
   let mut input = InputReader::new();
 
@@ -35,4 +50,8 @@ fn main() -> Result<()> {
     }
   }
   Ok(())
+}
+
+fn main() -> Result<()> {
+  codex_umz()
 }

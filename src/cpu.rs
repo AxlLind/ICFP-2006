@@ -1,4 +1,5 @@
 use std::collections::VecDeque;
+
 const CMOVE: usize = 0;  const RMEM: usize = 1;
 const WMEM:  usize = 2;  const ADD:  usize = 3;
 const MUL:   usize = 4;  const DIV:  usize = 5;
@@ -42,7 +43,7 @@ impl CPU {
         WMEM  => self.heap[self.reg[a] as usize][self.reg[b] as usize] = self.reg[c],
         FREE  => self.heap[self.reg[c] as usize].clear(),
         ALLOC => self.reg[b] = self.calloc(self.reg[c]) as u32,
-        IMM   => self.reg[((w >> 25) & 0x7)] = (w & 0x1FFFFFF) as u32,
+        IMM   => self.reg[(w >> 25) & 0x7] = (w & 0x1FFFFFF) as u32,
         HALT  => return ExitCode::Halted,
         OUT   => return ExitCode::Output(self.reg[c] as u8 as char),
         CMOVE => if self.reg[c] != 0 { self.reg[a] = self.reg[b]; },
