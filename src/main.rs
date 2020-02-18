@@ -1,6 +1,6 @@
 #![allow(dead_code)]
 use std::fs;
-use std::io::{Result, Write};
+use std::io::{stdout, Result, Write};
 use itertools::Itertools;
 use easy_io::{InputReader, OutputWriter};
 use cpu::{CPU, ExitCode};
@@ -30,7 +30,7 @@ fn run_cpu(cpu: &mut CPU) -> Result<()> {
         out.flush()?;
         cpu.push_str(&input.next_line());
       },
-      ExitCode::Halted    => break,
+      ExitCode::Halted => break,
     }
   }
   Ok(())
@@ -39,8 +39,12 @@ fn run_cpu(cpu: &mut CPU) -> Result<()> {
 fn codex_umz() -> Result<()> {
   let program = read_program("files/codex.umz")?;
   let mut cpu = CPU::new(&program);
+  let mut buf = Vec::new();
   cpu.push_str("(\\b.bb)(\\v.vv)06FHPVboundvarHRAk\np");
-  run_cpu(&mut cpu)
+  while let ExitCode::Output(c) = cpu.execute() {
+    buf.push(c as u8);
+  }
+  stdout().write_all(&buf[195..])
 }
 
 fn sandmark() -> Result<()> {
@@ -49,12 +53,12 @@ fn sandmark() -> Result<()> {
   run_cpu(&mut cpu)
 }
 
-fn step_2() -> Result<()> {
-  let program = read_program("files/step_2.umz")?;
+fn umix() -> Result<()> {
+  let program = read_program("files/umix.umz")?;
   let mut cpu = CPU::new(&program);
   run_cpu(&mut cpu)
 }
 
 fn main() -> Result<()> {
-  sandmark()
+  umix()
 }
