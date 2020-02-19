@@ -1,0 +1,34 @@
+howie
+xyzzy
+./adventure
+go north
+take bolt
+take spring
+incinerate spring
+take button
+take processor
+take pill
+incinerate pill
+take radio
+take cache
+combine cache processor
+take blue transistor
+combine transistor radio
+take antenna
+incinerate antenna
+take screw
+take motherboard
+combine screw motherboard
+take A-1920-IXB
+combine A-1920-IXB radio
+combine A-1920-IXB processor
+combine A-1920-IXB bolt
+take transistor
+combine A-1920-IXB transistor
+take keypad
+combine A-1920-IXB motherboard
+combine keypad motherboard
+combine keypad button
+go south
+use keypad
+look /etc/passwd
