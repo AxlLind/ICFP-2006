@@ -31,4 +31,38 @@ combine keypad motherboard
 combine keypad button
 go south
 use keypad
+incinerate keypad
 look /etc/passwd
+take /etc/passwd
+incinerate /etc/passwd
+look note
+take note
+incinerate note
+go east
+take X-9247-GWE
+take V-0010-XBD
+take F-1403-QDS
+take P-5065-WQO
+take B-4832-LAL
+take L-6458-RNH
+combine V-0010-XBD X-9247-GWE
+incinerate F-1403-QDS
+incinerate P-5065-WQO
+incinerate B-4832-LAL
+incinerate L-6458-RNH
+take T-9887-OFC
+take Z-1623-CEK
+take H-9887-MKY
+take F-6678-DOX
+take R-1403-SXU
+combine T-9887-OFC H-9887-MKY
+combine F-6678-DOX V-0010-XBD
+incinerate R-1403-SXU
+incinerate Z-1623-CEK
+take USB cable
+take N-4832-NUN
+take J-9247-IRG
+combine F-6678-DOX J-9247-IRG
+combine USB cable N-4832-NUN
+combine USB cable F-6678-DOX
+combine USB cable T-9887-OFC
