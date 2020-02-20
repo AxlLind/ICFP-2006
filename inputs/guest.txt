@@ -65,6 +65,8 @@ CDX      IF CHECKPASS(username, words(i)) THEN GOTO CDXXX
 CDXV     i = i + I
 CDXX     IF i > pwdcount THEN GOTO CDXLV
 CDXXV    GOTO CDX
+CDXXX    PRINT CHR(X)
+CDXXXI   PRINT "username: " + username + CHR(X)
 CDXXXV   PRINT "password: " + words(i) + CHR(X)
 CDXL     END
 STOP
