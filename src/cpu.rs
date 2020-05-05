@@ -1,31 +1,31 @@
 use std::collections::VecDeque;
 
-const CMOVE: usize = 0;  const RMEM: usize = 1;
-const WMEM:  usize = 2;  const ADD:  usize = 3;
-const MUL:   usize = 4;  const DIV:  usize = 5;
-const NAND:  usize = 6;  const HALT: usize = 7;
-const ALLOC: usize = 8;  const FREE: usize = 9;
-const OUT:   usize = 10; const IN:   usize = 11;
-const JUMP:  usize = 12; const IMM:  usize = 13;
+const CMOVE: usize = 0x0; const RMEM: usize = 0x1;
+const WMEM:  usize = 0x2; const ADD:  usize = 0x3;
+const MUL:   usize = 0x4; const DIV:  usize = 0x5;
+const NAND:  usize = 0x6; const HALT: usize = 0x7;
+const ALLOC: usize = 0x8; const FREE: usize = 0x9;
+const OUT:   usize = 0xa; const IN:   usize = 0xb;
+const JUMP:  usize = 0xc; const IMM:  usize = 0xd;
 
-pub enum ExitCode { Output(char), NeedInput, Halted }
+pub enum ExitCode { Output(u32), NeedInput, Halted }
 
 pub struct CPU {
   reg: [u32;8],
-  heap: Vec<Vec<u32>>,
-  input: VecDeque<u32>,
-  free_list: Vec<usize>,
   pc: usize,
+  heap: Vec<Vec<u32>>,
+  input: VecDeque<u8>,
+  free_list: VecDeque<u32>,
 }
 
 impl CPU {
   pub fn new(program: &[u32]) -> Self {
     Self {
       reg: [0;8],
+      pc: 0,
       heap: vec![program.into()],
       input: VecDeque::new(),
-      free_list: Vec::new(),
-      pc: 0,
+      free_list: VecDeque::new(),
     }
   }
 
@@ -49,10 +49,10 @@ impl CPU {
         JUMP  => self.jump(self.reg[b], self.reg[c]),
         IMM   => self.reg[(w >> 25) & 0x7] = w as u32 & 0x1FF_FFFF,
         HALT  => return ExitCode::Halted,
-        OUT   => return ExitCode::Output(self.reg[c] as u8 as char),
+        OUT   => return ExitCode::Output(self.reg[c]),
         IN    => match self.input.pop_front() {
-          Some(i) => self.reg[c] = i,
-          None    => {
+          Some(i) => self.reg[c] = i as u32,
+          None => {
             self.pc -= 1;
             return ExitCode::NeedInput;
           }
@@ -63,28 +63,27 @@ impl CPU {
   }
 
   pub fn push_str(&mut self, s: &str) {
-    for b in s.bytes() { self.input.push_back(b as u32); }
-    self.input.push_back(b'\n' as u32);
+    self.input.extend(s.bytes());
+    self.input.push_back(b'\n');
   }
 
-  fn jump(&mut self, i: u32, new_pc: u32) {
-    self.pc = new_pc as usize;
+  fn jump(&mut self, i: u32, pc: u32) {
+    self.pc = pc as usize;
     if i > 0 { self.heap[0] = self.heap[i as usize].clone(); }
   }
 
   fn alloc(&mut self, size: u32) -> u32 {
     let size = size as usize;
-    if let Some(i) = self.free_list.pop() {
-      self.heap[i].resize(size, 0);
-      return i as u32;
+    if let Some(i) = self.free_list.pop_front() {
+      self.heap[i as usize].resize(size, 0);
+      return i;
     }
     self.heap.push(vec![0; size]);
     self.heap.len() as u32 - 1
   }
 
   fn free(&mut self, i: u32) {
-    let i = i as usize;
-    self.heap[i].truncate(0);
-    self.free_list.push(i);
+    self.heap[i as usize].clear();
+    self.free_list.push_back(i);
   }
 }
