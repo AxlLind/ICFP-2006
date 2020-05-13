@@ -1,4 +1,5 @@
 use std::fmt;
+use std::iter;
 use itertools::Itertools;
 
 const SCIENCE: u8 = 0b000; const MATH:  u8 = 0b001;
@@ -36,18 +37,11 @@ impl BalanceVM {
   fn execute(&mut self) {
     loop {
       let w = self.code[self.ip];
-      let dr = (w >> 4) & 1;
       let s1 = (w >> 2) & 3;
       let s2 = (w >> 0) & 3;
       match w >> 5 {
-        MATH => {
-          self.wmem(dr+1, self.rmem(s1+1) - self.rmem(s2+1));
-          self.wmem(dr, self.rmem(s1) + self.rmem(s2));
-        }
-        LOGIC => {
-          self.wmem(dr+1, self.rmem(s1+1) ^ self.rmem(s2+1));
-          self.wmem(dr, self.rmem(s1) & self.rmem(s2));
-        }
+        MATH  => self.wres(w, self.rmem(s1+1) - self.rmem(s2+1), self.rmem(s1) + self.rmem(s2)),
+        LOGIC => self.wres(w, self.rmem(s1+1) ^ self.rmem(s2+1), self.rmem(s1) & self.rmem(s2)),
         SCIENCE => {
           if self.rmem(0) != 0 { self.is = sext5(w); }
           if self.is == 0 { return; }
@@ -55,21 +49,19 @@ impl BalanceVM {
         PHYSICS => {
           let Self { sr, dr, .. } = self;
           let l = [dr[1], dr[0], sr[3], sr[2], sr[1], sr[0] + sext5(w)];
-          let mut cd = (0..6)
+          (0..6).rev()
             .filter(|i| (w >> i) & 1 == 1)
-            .collect::<Vec<_>>();
-          cd.push(cd[0]);
-          for (&i,&j) in cd.iter().tuple_windows() {
-            match j {
-              0 => self.dr[1] = l[i],
-              1 => self.dr[0] = l[i],
-              2 => self.sr[3] = l[i],
-              3 => self.sr[2] = l[i],
-              4 => self.sr[1] = l[i],
-              5 => self.sr[0] = l[i],
+            .chain(iter::once(5))
+            .tuple_windows()
+            .for_each(|(i,j)| match i {
+              0 => self.dr[1] = l[j],
+              1 => self.dr[0] = l[j],
+              2 => self.sr[3] = l[j],
+              3 => self.sr[2] = l[j],
+              4 => self.sr[1] = l[j],
+              5 => self.sr[0] = l[j],
               _ => unreachable!(),
-            }
-          }
+            });
         }
         _ => return,
       }
@@ -78,12 +70,14 @@ impl BalanceVM {
     }
   }
 
-  fn rmem(&self, sr: u8) -> u8 {
-    self.mem[self.sr[sr as usize & 3] as usize]
+  fn wres(&mut self, w: u8, r1: u8, r2: u8) {
+    let dr = (w as usize >> 4) & 1;
+    self.mem[self.dr[(dr+1) & 1] as usize] = r1;
+    self.mem[self.dr[dr] as usize] = r2;
   }
 
-  fn wmem(&mut self, dr: u8, val: u8) {
-    self.mem[self.dr[dr as usize & 1] as usize] = val;
+  fn rmem(&self, sr: u8) -> u8 {
+    self.mem[self.sr[sr as usize & 3] as usize]
   }
 }
 
