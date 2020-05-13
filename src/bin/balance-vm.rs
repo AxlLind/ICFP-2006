@@ -11,9 +11,9 @@ fn sext5(w: u8) -> u8 { ((w & 0x1f) ^ 0x10) - 0x10 }
 struct BalanceVM {
   ip: usize,
   is: u8,
-  sr: [u8; 4],
-  dr: [u8; 2],
-  mem: [u8; 256],
+  dr: [u8;2],
+  sr: [u8;4],
+  mem: [u8;256],
   code: Vec<u8>,
 }
 
@@ -24,7 +24,6 @@ impl fmt::Display for BalanceVM {
     writeln!(f, "is: {}", self.is)?;
     writeln!(f, "dr: {:?}", self.dr)?;
     writeln!(f, "sr: {:?}", self.sr)?;
-    writeln!(f, "mem:")?;
     for i in 0..256 {
       let d = if i % 32 == 31 {'\n'} else {','};
       write!(f, "{}{}", self.mem[i], d)?;
@@ -36,23 +35,26 @@ impl fmt::Display for BalanceVM {
 impl BalanceVM {
   fn execute(&mut self) {
     loop {
-      let (w,imm,d,s1,s2) = self.fetch_inst();
+      let w = self.code[self.ip];
+      let dr = (w >> 4) & 1;
+      let s1 = (w >> 2) & 3;
+      let s2 = (w >> 0) & 3;
       match w >> 5 {
         MATH => {
-          self.wmem(d+1, self.rmem(s1+1) - self.rmem(s2+1));
-          self.wmem(d, self.rmem(s1) + self.rmem(s2));
+          self.wmem(dr+1, self.rmem(s1+1) - self.rmem(s2+1));
+          self.wmem(dr, self.rmem(s1) + self.rmem(s2));
         }
         LOGIC => {
-          self.wmem(d+1, self.rmem(s1+1) ^ self.rmem(s2+1));
-          self.wmem(d, self.rmem(s1) & self.rmem(s2));
+          self.wmem(dr+1, self.rmem(s1+1) ^ self.rmem(s2+1));
+          self.wmem(dr, self.rmem(s1) & self.rmem(s2));
         }
         SCIENCE => {
-          if self.rmem(0) != 0 { self.is = imm; }
+          if self.rmem(0) != 0 { self.is = sext5(w); }
           if self.is == 0 { return; }
         }
         PHYSICS => {
-          let Self { sr, dr, ..} = self;
-          let l = [dr[1], dr[0], sr[3], sr[2], sr[1], sr[0] + imm];
+          let Self { sr, dr, .. } = self;
+          let l = [dr[1], dr[0], sr[3], sr[2], sr[1], sr[0] + sext5(w)];
           let mut cd = (0..6)
             .filter(|i| (w >> i) & 1 == 1)
             .collect::<Vec<_>>();
@@ -76,21 +78,12 @@ impl BalanceVM {
     }
   }
 
-  fn fetch_inst(&self) -> (u8,u8,u8,u8,u8) {
-    let w = self.code[self.ip];
-    let imm = sext5(w);
-    let d = (w >> 4) & 1;
-    let s1 = (w >> 2) & 3;
-    let s2 = w & 3;
-    (w,imm,d,s1,s2)
-  }
-
   fn rmem(&self, sr: u8) -> u8 {
-    self.mem[self.sr[sr as usize % 4] as usize]
+    self.mem[self.sr[sr as usize & 3] as usize]
   }
 
   fn wmem(&mut self, dr: u8, val: u8) {
-    self.mem[self.dr[dr as usize % 2] as usize] = val;
+    self.mem[self.dr[dr as usize & 1] as usize] = val;
   }
 }
 
