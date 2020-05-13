@@ -1,4 +1,5 @@
 guest
+mail
 cd code
 /bin/umodem fixed.bas STOP
 XCV      DIM username AS STRING
