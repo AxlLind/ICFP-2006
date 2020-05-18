@@ -37,11 +37,18 @@ impl BalanceVM {
   fn execute(&mut self) {
     loop {
       let w = self.code[self.ip];
+      let dr = (w >> 4) & 1;
       let s1 = (w >> 2) & 3;
       let s2 = (w >> 0) & 3;
       match w >> 5 {
-        MATH  => self.wres(w, self.rmem(s1+1) - self.rmem(s2+1), self.rmem(s1) + self.rmem(s2)),
-        LOGIC => self.wres(w, self.rmem(s1+1) ^ self.rmem(s2+1), self.rmem(s1) & self.rmem(s2)),
+        MATH => {
+          self.wmem(dr+1, self.rmem(s1+1) - self.rmem(s2+1));
+          self.wmem(dr, self.rmem(s1) + self.rmem(s2));
+        }
+        LOGIC => {
+          self.wmem(dr+1, self.rmem(s1+1) ^ self.rmem(s2+1));
+          self.wmem(dr, self.rmem(s1) & self.rmem(s2));
+        }
         SCIENCE => {
           if self.rmem(0) != 0 { self.is = sext5(w); }
           if self.is == 0 { return; }
@@ -70,14 +77,12 @@ impl BalanceVM {
     }
   }
 
-  fn wres(&mut self, w: u8, r1: u8, r2: u8) {
-    let dr = (w as usize >> 4) & 1;
-    self.mem[self.dr[(dr+1) & 1] as usize] = r1;
-    self.mem[self.dr[dr] as usize] = r2;
-  }
-
   fn rmem(&self, sr: u8) -> u8 {
     self.mem[self.sr[sr as usize & 3] as usize]
+  }
+
+  fn wmem(&mut self, dr: u8, val: u8) {
+    self.mem[self.dr[dr as usize & 1] as usize] = val;
   }
 }
 
