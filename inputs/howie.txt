@@ -32,10 +32,9 @@ combine keypad button
 go south
 use keypad
 incinerate keypad
-look /etc/passwd
 take /etc/passwd
+look /etc/passwd
 incinerate /etc/passwd
-look note
 take note
 incinerate note
 go east
@@ -66,3 +65,66 @@ combine F-6678-DOX J-9247-IRG
 combine USB cable N-4832-NUN
 combine USB cable F-6678-DOX
 combine USB cable T-9887-OFC
+go south
+incinerate USB cable
+take terra-cotta T-9887-OAU
+take carrot L-1623-ETG
+combine T-9887-OAU L-1623-ETG
+take heliotrope B-1403-YDU
+take imported H-9247-MCE
+take pear R-0010-FBF
+incinerate R-0010-FBF
+take pale-turquoise Z-4832-PKJ
+incinerate Z-4832-PKJ
+take sandy-brown T-0010-BLZ
+incinerate T-0010-BLZ
+take miniature R-6678-FET
+incinerate R-6678-FET
+take linen-colored H-9247-MCE
+incinerate H-9247-MCE
+take snow L-4832-RFL
+combine B-1403-YDU L-4832-RFL
+take lilac H-0010-ZQX
+take gray30 X-1623-GOI
+incinerate X-1623-GOI
+take silver L-4832-RFL
+combine B-1403-YDU L-4832-RFL
+take bisque V-1623-KEM
+combine V-1623-KEM H-9247-MCE
+take gray40 N-4013-DJW
+combine N-4013-DJW H-0010-ZQX
+take pale-red-violet T-9247-OWG
+combine T-9247-OWG B-1403-YDU
+take peach F-0010-DGD
+incinerate F-0010-DGD
+take pine-green H-6458-ZNJ
+combine T-9887-OAU H-6458-ZNJ
+take persian-blue X-4832-TAN
+take pink P-4292-JWN
+incinerate P-4292-JWN
+take coral F-0010-DGD
+incinerate F-0010-DGD
+take salmon-colored Z-4292-PHT
+incinerate Z-4292-PHT
+take teal B-1403-YDU
+incinerate B-1403-YDU
+take old-gold J-1623-IJK
+incinerate J-1623-IJK
+take ghost-white X-4832-TAN
+incinerate X-4832-TAN
+take imitation P-6678-JTX
+combine P-6678-JTX X-4832-TAN
+take peach-orange Z-4292-PHT
+combine Z-4292-PHT T-9887-OAU
+combine Z-4292-PHT T-9247-OWG
+combine Z-4292-PHT P-6678-JTX
+take yellow N-4013-DJW
+incinerate N-4013-DJW
+take red-violet Z-4292-PHT
+incinerate Z-4292-PHT
+take purple H-6458-ZNJ
+incinerate H-6458-ZNJ
+take power_cord
+combine power_cord Z-4292-PHT
+combine power_cord N-4013-DJW
+combine power_cord V-1623-KEM
